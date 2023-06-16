@@ -42,7 +42,7 @@ First I'll describe how to run experiments with OpenNMT, which we described in [
 
 ### Parsing raw text
 
-If you only want to do parsing, please download (one of) our [pre-trained models](http://www.http://www.let.rug.nl/rikvannoord/DRS/TACL/models/). If you ran ``setup_opennmt.sh``, the GPU models should already be downloaded. You can choose between our best gold-only models, or our best model in general, that is also trained on the silver data released in PMB 2.1.0.
+If you only want to do parsing, please download (one of) our [pre-trained models](http://www.let.rug.nl/rikvannoord/DRS/TACL/models/). If you ran ``setup_opennmt.sh``, the GPU models should already be downloaded. You can choose between our best gold-only models, or our best model in general, that is also trained on the silver data released in PMB 2.1.0.
 
 When using one of those models, you will have to preprocess the input to the input structure the model expects.
 

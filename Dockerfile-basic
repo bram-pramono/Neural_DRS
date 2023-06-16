@@ -1,4 +1,4 @@
-FROM python:slim-buster
+FROM python:slim-buster AS base-neural-drs
 
 RUN apt-get update \
  && apt-get upgrade -y \
@@ -29,6 +29,8 @@ RUN rm exp_data_3.0.0.zip
 WORKDIR /app
 
 COPY ./src ./src
+COPY ./config ./config
+COPY ./vocabs ./vocabs
 COPY ./output ./output
 
 # Get the DRS parsing repo with the scripts (Counter) and data
@@ -43,3 +45,99 @@ RUN src/setup_training_data.sh
 ENV PYTHONPATH=DRS_parsing/:DRS_parsing/evaluation/:$PYTHONPATH
 
 ENTRYPOINT ["/bin/bash"]
+
+#FROM python:3.6.15-slim-buster AS stage1
+#
+#RUN pip install --upgrade pip
+#
+## Install custom version of AllenNLP
+#RUN git clone https://github.com/RikVN/allennlp
+#RUN git -C allennlp checkout DRS
+#RUN pip install -e ./allennlp
+#
+## Download GLoVe embeddings
+#RUN mkdir -p emb && wget "http://www.let.rug.nl/rikvannoord/embeddings/glove_pmb.zip" && unzip glove_pmb.zip -d emb && rm glove_pmb.zip
+
+FROM base-neural-drs AS marian-build
+
+RUN apt-get update \
+ && apt-get upgrade -y \
+ && apt-get install -y --no-install-recommends git \
+ && apt-get install -y cmake \
+ && apt-get install -y wget \
+ && apt-get install -y unzip \
+ && apt-get install -y openjdk-11-jre-headless \
+ && apt-get install -y ant \
+ && apt-get install -y gcc clang clang-tools build-essential libboost-system-dev libboost-thread-dev libboost-program-options-dev libboost-test-dev libboost-filesystem-dev \
+ && apt-get clean;
+
+# Fix certificate issues
+RUN apt-get update \
+ && apt-get install ca-certificates-java \
+ && apt-get clean \
+ && update-ca-certificates -f;
+
+# Setup JAVA_HOME -- useful for docker commandline
+ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
+RUN export JAVA_HOME
+
+#ENV ANT_VERSION=1.10.8
+#RUN wget http://archive.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz \
+#    && tar xvfvz apache-ant-${ANT_VERSION}-bin.tar.gz -C /opt \
+#    && ln -sfn /opt/apache-ant-${ANT_VERSION} /opt/ant \
+#    && sh -c 'echo ANT_HOME=/opt/ant >> /etc/environment' \
+#    && ln -sfn /opt/ant/bin/ant /usr/bin/ant \
+#    && rm apache-ant-${ANT_VERSION}-bin.tar.gz
+
+#RUN git clone git@github.com:stanfordnlp/CoreNLP.git
+
+# Download easyccg and model (use PMB forked version)
+RUN git clone https://github.com/ParallelMeaningBank/easyccg
+RUN cd easyccg \
+    && ant  \
+    && wget "http://www.let.rug.nl/rikvannoord/easyCCG/model.tar.gz" \
+    && tar xvzf model.tar.gz
+
+# Download and set up stanford CoreNLP
+# Instructions from: https://stanfordnlp.github.io/CoreNLP/download.html
+# Check if you have the correct java version installed
+# java -version should complete successfully with a line like: java version "1.8.0_92".
+RUN wget http://nlp.stanford.edu/software/stanford-corenlp-full-2018-10-05.zip
+RUN unzip stanford-corenlp-full-2018-10-05.zip
+#COPY tmp/stanford-corenlp-full-2018-10-05 stanford-corenlp-full-2018-10-05/
+
+# Install intel repo key for CPU support
+RUN wget https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+RUN apt-key add GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+RUN rm GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+RUN sh -c 'echo deb https://apt.repos.intel.com/mkl all main > /etc/apt/sources.list.d/intel-mkl.list'
+RUN apt-get update && apt-get install -y intel-mkl-64bit-2020.0-088
+
+# Install Marian: https://marian-nmt.github.io/docs/
+RUN git clone https://github.com/marian-nmt/marian
+RUN apt install -y doxygen libgoogle-perftools-dev graphviz
+
+WORKDIR /app/marian/build
+## For GPU based computation
+#RUN cmake .. \
+# For CPU based computation
+RUN cmake .. -DCOMPILE_CUDA=off
+
+# Define how many cores you want to make available by using the option -j#. E.g. -j8 for 8 cores.
+RUN make -j8
+
+RUN apt-get install -y curl
+
+WORKDIR /app/models/marian
+RUN curl -o best_gold_only.npz www.let.rug.nl/rikvannoord/DRS/IWCS/models/best_gold_only/model1.npz
+RUN curl -o best_gold_silver.npz www.let.rug.nl/rikvannoord/DRS/IWCS/models/best_gold_silver/model1.npz
+RUN curl -o baseline_gold_silver.npz www.let.rug.nl/rikvannoord/DRS/IWCS/models/baseline_gold_silver/model1.npz
+
+WORKDIR /app
+
+RUN mkdir -p /app/data/sent
+RUN echo 'alias  ll="ls -la"' >> ~/.bashrc
+
+COPY src/marian_scripts/parse_sent_file.sh .
+
+ENTRYPOINT ["/bin/bash", "parse_sent_file.sh"]
