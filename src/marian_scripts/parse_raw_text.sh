@@ -33,4 +33,4 @@ ${MARIAN_HOME}marian-decoder $VOCAB_FOR_PARSE -w $workspace --log ${output_file}
 # Postprocess the DRS
 output_pp="${output_file}.res"
 log_pp="${output_pp}.log"
-python $POSTPROCESS_PY -i $output_file -o $output_pp -v $var_rewrite -s $sig_file -rcl $remove_clauses -se $sep $fix > $log_pp
+python $POSTPROCESS_PY -n -i $output_file -o $output_pp -v $var_rewrite -s $sig_file -rcl $remove_clauses -se $sep $fix > $log_pp

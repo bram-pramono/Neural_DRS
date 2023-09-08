@@ -37,7 +37,7 @@ COPY ./output ./output
 RUN git clone https://github.com/RikVN/DRS_parsing
 RUN cd DRS_parsing \
  && git checkout v.3.0.0 \
- && pip install 'numpy==1.24.3' 'psutil>=5.6.6' 'PyYAML==5.4' \
+ && pip install 'numpy==1.24.3' 'psutil>=5.6.6' 'PyYAML==6.0.1' \
  && pip install scipy matplotlib
 
 RUN src/setup_training_data.sh
@@ -45,18 +45,6 @@ RUN src/setup_training_data.sh
 ENV PYTHONPATH=DRS_parsing/:DRS_parsing/evaluation/:$PYTHONPATH
 
 ENTRYPOINT ["/bin/bash"]
-
-#FROM python:3.6.15-slim-buster AS stage1
-#
-#RUN pip install --upgrade pip
-#
-## Install custom version of AllenNLP
-#RUN git clone https://github.com/RikVN/allennlp
-#RUN git -C allennlp checkout DRS
-#RUN pip install -e ./allennlp
-#
-## Download GLoVe embeddings
-#RUN mkdir -p emb && wget "http://www.let.rug.nl/rikvannoord/embeddings/glove_pmb.zip" && unzip glove_pmb.zip -d emb && rm glove_pmb.zip
 
 FROM base-neural-drs AS marian-build
 
@@ -139,5 +127,6 @@ RUN mkdir -p /app/data/sent
 RUN echo 'alias  ll="ls -la"' >> ~/.bashrc
 
 COPY src/marian_scripts/parse_sent_file.sh .
+COPY src/marian_scripts/parse_raw_text.sh src/marian_scripts/parse_raw_text.sh
 
 ENTRYPOINT ["/bin/bash", "parse_sent_file.sh"]
