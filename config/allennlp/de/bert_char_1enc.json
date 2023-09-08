@@ -125,7 +125,7 @@
         "num_serialized_models_to_keep": -1,
         "grad_norm": 0.9,
         "val_after_epoch": 10,
-        "cuda_device": 0
+        "cuda_device": -1
     },
     "vocabulary": {
         "min_count": {

@@ -69,16 +69,6 @@ RUN apt-get update \
 ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
 RUN export JAVA_HOME
 
-#ENV ANT_VERSION=1.10.8
-#RUN wget http://archive.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz \
-#    && tar xvfvz apache-ant-${ANT_VERSION}-bin.tar.gz -C /opt \
-#    && ln -sfn /opt/apache-ant-${ANT_VERSION} /opt/ant \
-#    && sh -c 'echo ANT_HOME=/opt/ant >> /etc/environment' \
-#    && ln -sfn /opt/ant/bin/ant /usr/bin/ant \
-#    && rm apache-ant-${ANT_VERSION}-bin.tar.gz
-
-#RUN git clone git@github.com:stanfordnlp/CoreNLP.git
-
 # Download easyccg and model (use PMB forked version)
 RUN git clone https://github.com/ParallelMeaningBank/easyccg
 RUN cd easyccg \
@@ -126,7 +116,6 @@ WORKDIR /app
 RUN mkdir -p /app/data/sent
 RUN echo 'alias  ll="ls -la"' >> ~/.bashrc
 
-COPY src/marian_scripts/parse_sent_file.sh .
-COPY src/marian_scripts/parse_raw_text.sh src/marian_scripts/parse_raw_text.sh
+COPY src/marian_scripts/parse_sent_file.sh ./marian_parse_sent_file.sh
 
-ENTRYPOINT ["/bin/bash", "parse_sent_file.sh"]
+ENTRYPOINT ["/bin/bash", "marian_parse_sent_file.sh"]

@@ -26,10 +26,10 @@ sed -e "s/$/${TAB}Dummy/" -i $alp_file
 
 # Do the predicting
 out_file=${raw_file}.drs
-allennlp predict $cur_model $alp_file --use-dataset-reader --cuda-device 0 --predictor seq2seq --output-file $out_file $SILENT
+allennlp predict $cur_model $alp_file --use-dataset-reader --cuda-device -1 --predictor seq2seq --output-file $out_file $SILENT
 
 # Now do postprocessing, replace ill-formed DRSs by dummies
-python $PP_PY --input_file $out_file --output_file ${out_file}.out --sig_file $SIG_FILE --fix --json --sep $SEP -rcl $REMOVE_CLAUSES -m $MIN_TOKENS -voc $vocab_file $no_sep
+python $PP_PY --no_referee --input_file $out_file --output_file ${out_file}.out --sig_file $SIG_FILE --fix --json --sep $SEP -rcl $REMOVE_CLAUSES -m $MIN_TOKENS -voc $vocab_file $no_sep
 
 # Remove temporary .alp file (clean up)
 rm $alp_file
