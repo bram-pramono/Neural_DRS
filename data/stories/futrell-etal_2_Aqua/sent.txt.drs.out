@@ -1,0 +1,2031 @@
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 clear "a.01" x2
+b1 REF x3
+b1 Attribute x1 x3
+b1 joyful "a.01" x3
+b1 day "n.01" x1
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x4
+b1 REF x5
+b1 REF x6
+b1 Co-Theme x5 x2
+b1 TPR x6 "now"
+b1 Theme x5 x4
+b1 Time x5 x6
+b1 be "v.01" x5
+b1 time "n.08" x6
+b1 Location x5 x7
+b3 REF x7
+b3 REF x8
+b3 Attribute x7 x8
+b3 Value x8 "+"
+b3 wide "a.01" x8
+b3 REF x9
+b3 Attribute x7 x9
+b3 PRESUPPOSITION b1
+b3 open "a.01" x9
+b3 sea "n.01" x7
+b1 REF x10
+b1 REF x11
+b1 LES "2000" x10
+b1 Quantity x11 x11
+b1 quantity "n.01" x10
+b1 quantity "n.01" x11
+b1 REF x12
+b1 REF x13
+b1 LES "2000" x12
+b1 Quantity x13 x13
+b1 quantity "n.01" x12
+b1 quantity "n.01" x13
+b1 REF x14
+b1 REF x15
+b1 LES "2000" x14
+b1 Quantity x15 x15
+b1 REF x16
+b1 REF x17
+b1 REF x18
+b1 REF x19
+b1 Attribute x16 x18
+b1 Attribute x17 x19
+b1 nervous "a.01" x18
+b1 excited "a.01" x19
+b1 REF x20
+b1 REF x21
+b1 REF x22
+b1 REF x23
+b1 Attribute x20 x22
+b1 Attribute x21 x23
+b1 nervous "a.01" x22
+b1 excited "a.01" x23
+b1 REF x24
+b1 REF x25
+b1 REF x26
+b1 REF x27
+b1 Attribute x24 x26
+b1 Attribute x25 x27
+b1 nervous "a.01" x26
+b1 excited "a.01" x27
+b1 REF x28
+b1 REF x29
+b1 REF x30
+b1 REF x31
+b1 Attribute x28 x30
+
+b1 REF x1
+b1 Quantity x1 "1"
+b1 entity "n.01" x1
+b1 SubOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Co-Theme x3 x5
+b1 TPR x4 "now"
+b1 Theme x3 x1
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 Attribute x5 x6
+b1 merry "a.01" x6
+b1 REF x7
+b1 Attribute x5 x7
+b1 little "a.01" x7
+b1 REF x8
+b1 Role x5 x8
+b1 fellow "n.01" x8
+b1 person "n.01" x5
+b1 REF x9
+b1 Result x9 x5
+b1 TPR x10 "now"
+b1 dance "v.01" x9
+b1 REF x10
+b1 Time x9 x10
+b1 time "n.08" x10
+b1 Location x9 x11
+b1 REF x11
+b1 REF x12
+b1 REF x13
+b1 Attribute x11 x12
+b1 Degree x12 x13
+b1 silver "a.01" x12
+b1 most "r.01" x13
+b1 back "r.01" x11
+b1 PartOf x11 x14
+b3 REF x14
+b3 PRESUPPOSITION b1
+b3 golf "n.01" x14
+b4 REF x15
+b4 PRESUPPOSITION b1
+b4 person "n.01" x15
+b1 REF x16
+b1 REF x17
+b1 Agent x16 x15
+b1 TPR x17 "now"
+b1 Time x16 x17
+b1 drift "v.01" x16
+b1 time "n.08" x17
+b1 REF x18
+b1 Manner x16 x18
+b1 down "r.01" x18
+b1 Location x16 x19
+b5 REF x19
+b5 PRESUPPOSITION b1
+b5 wave "n.01" x19
+b1 CONTINUATION b6
+b6 NEGATION b7
+b7 REF x20
+b7 matter "n.01" x20
+b7 REF x21
+b7 Attribute x20 x21
+b7 Value x21 "+"
+b7 high "a.01" x21
+b8 PRESUPPOSITION b9
+b8 REF x22
+b8 male "n.02" x22
+b7 CONDITION b10
+
+b1 REF x1
+b1 Of x3 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 male "n.02" x2
+b1 REF x3
+b1 PRESUPPOSITION b3
+b1 Role x1 x3
+b1 mother "n.01" x3
+b1 person "n.01" x1
+b3 REF x4
+b3 REF x5
+b3 EQU x5 "now"
+b3 Experiencer x4 x1
+b3 Time x4 x5
+b3 know "v.01" x4
+b3 time "n.08" x5
+b3 CONTINUATION b4
+b4 REF x6
+b4 REF x7
+b4 Co-Theme x6 x8
+b4 TPR x7 "now"
+b4 Theme x6 x2
+b4 Time x6 x7
+b4 be "v.01" x6
+b4 time "n.08" x7
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 ocean "n.01" x8
+b4 CONTINUATION b6
+b6 REF x9
+b6 Degree x10 x9
+b6 very "r.01" x9
+b6 REF x10
+b6 Attribute x3 x10
+b6 beautiful "a.01" x10
+b3 PRESUPPOSITION b7
+b7 REF x11
+b7 REF x12
+b7 Agent x11 x5
+b7 TPR x12 "now"
+b7 Theme x11 x13
+b7 Time x11 x12
+b7 look "v.01" x11
+b7 time "n.08" x12
+b8 REF x13
+b8 REF x14
+b8 PRESUPPOSITION b7
+b8 PartOf x13 x14
+b8 summer "n.01" x14
+b8 day "n.01" x13
+b7 Location x11 x15
+b4 REF x15
+b4 User x15 x4
+b4 REF x16
+b4 Attribute x15 x16
+b4 dark "n.01" x16
+b4 dress "n.01" x15
+b4 REF x17
+b4 Sub x17 x15
+b4 Sub x17 x19
+b4 entity "n.01" x17
+b4 REF x18
+b4 REF x19
+b4 Colour x19 x18
+b4 white "a.01" x18
+
+b1 REF x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 REF x5
+b2 REF x6
+b2 REF x7
+b2 REF x8
+b2 REF x9
+b2 REF x10
+b2 REF x11
+b2 REF x12
+b2 REF x13
+b2 REF x14
+b2 REF x15
+b2 REF x16
+b2 REF x17
+b2 REF x18
+b2 REF x19
+b2 REF x20
+b2 REF x21
+b2 REF x22
+b2 REF x23
+b2 REF x24
+b2 REF x25
+b2 REF x26
+b2 REF x27
+b2 REF x28
+b2 REF x29
+b2 REF x30
+b2 REF x31
+b2 REF x32
+b2 REF x33
+b2 REF x34
+b2 REF x35
+b2 REF x36
+b2 REF x37
+b2 REF x38
+b2 REF x39
+b2 REF x40
+b2 REF x41
+b2 REF x42
+b2 REF x43
+b2 REF x44
+b2 REF x45
+b2 REF x46
+b2 REF x47
+b2 REF x48
+b2 REF x49
+b2 REF x50
+b2 REF x51
+b2 REF x52
+b2 REF x53
+b2 REF x54
+b2 REF x55
+b2 REF x56
+b2 REF x57
+b2 REF x58
+b2 REF x59
+b2 REF x60
+b2 REF x61
+b2 REF x62
+b2 REF x63
+b2 REF x64
+b2 REF x65
+b2 REF x66
+b2 REF x67
+b2 REF x68
+b2 REF x69
+b2 REF x70
+b2 REF x71
+b2 REF x72
+b2 REF x73
+b2 REF x74
+b2 REF x75
+
+b1 REF x1
+b1 PartOf x1 x2
+b1 PartOf x1 x3
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 sky "n.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 female "n.02" x3
+b4 REF x4
+b4 CONSEQUENCE b1
+b4 time "n.08" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 Time x6 x5
+b1 time "n.08" x5
+b1 REF x6
+b1 Experiencer x6 x3
+b1 afraid "a.01" x6
+b1 CONTRAST b5
+b6 PRESUPPOSITION b5
+b6 REF x7
+b6 male "n.02" x7
+b5 REF x8
+b5 REF x9
+b5 REF x10
+b5 ATTRIBUTION b7
+b5 Agent x8 x7
+b5 TPR x10 "now"
+b5 Time x8 x10
+b5 Topic x8 x9
+b5 decide "v.01" x8
+b5 proposition "n.01" x9
+b5 time "n.08" x10
+b7 REF x11
+b7 Manner x12 x11
+b7 finally "a.01" x11
+b7 REF x12
+b7 Agent x12 x7
+b7 Theme x12 x13
+b7 face "v.01" x12
+b4 PRESUPPOSITION b8
+b8 REF x13
+b8 Creator x13 x7
+b8 PRESUPPOSITION b7
+b8 demon "n.01" x13
+b7 CONTINUATION b9
+b9 REF x14
+b9 REF x15
+b9 Agent x14 x8
+b9 TPR x15 "now"
+b9 Theme x14 x16
+b9 Time x14 x15
+b9 suggest "v.01" x14
+b9 time "n.08" x15
+b9 REF x16
+b9 solution "n.01" x16
+b9 REF x17
+b9 Agent x17 x16
+b9 Theme x17 x18
+b9 involve "v.01" x17
+b10 REF x18
+b10 PRESUPPOSITION b9
+b10 sun "n.01" x18
+b9 REF x19
+b9 Agent x19 x16
+b9 Theme x19 x15
+b9 carry "v.01" x19
+b9 Destination x19 x20
+b11 REF x20
+b11 PRESUPPOSITION b9
+b11 sky "n.01" x20
+b9 REF x21
+b9 TPR "now" x21
+b9 Time x21 x21
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 sun "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 understand "v.01" x2
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 artifact "n.01" x4
+b2 REF x5
+b2 request "n.01" x5
+b2 REF x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 Theme x6 x5
+b2 Time x6 x7
+b2 come "v.01" x6
+b2 time "n.08" x7
+b2 Source x6 x8
+b4 PRESUPPOSITION b5
+b5 REF x8
+b5 PRESUPPOSITION b2
+b5 PartOf x8 x5
+b5 PRESUPPOSITION "n.02" b5
+b2 CONTINUATION b6
+b3 PRESUPPOSITION b6
+b6 REF x9
+b6 REF x10
+b6 Agent x9 x3
+b6 TPR x10 "now"
+b6 Theme x9 x11
+b6 Time x9 x10
+b6 take "v.01" x9
+b6 time "n.08" x10
+b6 REF x11
+b6 Location x12 x11
+b6 time "n.01" x11
+b6 REF x12
+b6 Quantity x12 "+"
+b6 NEQ x12 x13
+b7 REF x13
+b7 PRESUPPOSITION b6
+b6 drop "n.01" x12
+b7 splash "n.01" x13
+b8 REF x14
+b8 Name x14 "alice"
+b8 PRESUPPOSITION b9
+b8 female "n.02" x14
+b10 POSSIBILITY b9
+b7 NEGATION b10
+b9 REF x15
+b9 Attribute x14 x15
+b9 Location x15 x16
+b11 REF x16
+b11 PRESUPPOSITION b9
+b11 way "n.01" x16
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 sun "n.01" x4
+b2 REF x5
+b2 REF x6
+b2 Experiencer x5 x4
+b2 Stimulus x5 x7
+b2 TPR x6 "now"
+b2 Time x5 x6
+b2 know "v.01" x5
+b2 time "n.08" x6
+b3 REF x7
+b3 PRESUPPOSITION b2
+b3 this "n.01" x7
+b2 CONTINUATION b4
+b5 Duration x11 x8
+b4 CONDITION b6
+b6 REF x8
+b6 CONSEQUENCE b7
+b6 PartOf x8 x9
+b6 entity "n.01" x8
+b8 REF x9
+b8 PRESUPPOSITION b6
+b8 NEQ x9 x10
+b9 REF x10
+b9 PRESUPPOSITION b7
+b8 drop "n.01" x9
+b9 drop "n.01" x10
+b6 REF x11
+b6 TPR x11 "now"
+b6 Time x12 x11
+b6 time "n.08" x11
+b6 REF x12
+b6 Patient x12 x7
+b6 change "v.01" x12
+b6 Causer x12 x14
+b6 REF x13
+b6 REF x14
+b6 Attribute x14 x13
+b6 fine "a.01" x13
+b6 mist "n.01" x14
+b10 ALTERNATION b7
+b10 ALTERNATION b11
+b12 REF x15
+b12 PRESUPPOSITION b11
+b12 female "n.02" x15
+b13 POSSIBILITY b14
+b11 NEGATION b13
+b14 REF x16
+b14 Experiencer x16 x15
+b14 Stimulus x16 x17
+b14 see "v.01" x16
+b15 REF x17
+b15 PRESUPPOSITION b14
+b15 person "n.01" x17
+
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b1 Time x2 x1
+b1 REF x2
+b1 Experiencer x2 "hearer"
+b1 Stimulus x2 x3
+b1 know "v.01" x2
+b1 REF x3
+b1 entity "n.01" x3
+b1 REF x4
+b1 REF x5
+b1 Co-Theme x5 x3
+b1 Theme x5 x4
+b1 be "v.01" x5
+
+b1 PRECONDITION b2
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Theme x1 "hearer"
+b1 Time x1 x2
+b1 breathe "v.01" x1
+b1 time "n.08" x2
+b1 Destination x1 x3
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 air "n.01" x3
+b4 REF x4
+b4 PRESUPPOSITION b2
+b4 entity "n.01" x4
+b2 REF x5
+b2 EQU x5 "now"
+b2 Time x6 x5
+b2 time "n.08" x5
+b2 REF x6
+b2 Attribute x4 x6
+b2 cold "a.01" x6
+b2 REF x7
+b2 TPR "now" x7
+b2 Time x8 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 REF x9
+b2 ATTRIBUTION b5
+b2 Experiencer x8 "hearer"
+b2 Stimulus x8 x9
+b2 proposition "n.01" x9
+b2 see "v.01" x8
+b6 REF x10
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x10
+b5 REF x11
+b5 Theme x11 x10
+b5 come "v.01" x11
+b5 Source x11 x12
+b7 REF x12
+b7 Creator x12 "hearer"
+b7 PRESUPPOSITION b5
+b7 mouth "n.01" x12
+b5 REF x13
+b5 Attribute x11 x13
+b5 Value x13 "+"
+b5 thick "a.01" x13
+b5 REF x14
+b5 Manner x13 x14
+b5 fast "a.01" x14
+b5 Attribute x13 x15
+b5 REF x15
+b5 steam "n.01" x15
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b2 REF x2
+b2 Co-Theme x2 x4
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 APX x4 x5
+b2 Location x2 x4
+b2 location "n.01" x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 earth "n.01" x5
+b2 REF x6
+b2 Agent x6 "speaker"
+b2 Result x6 x8
+b2 Theme x6 x7
+b2 Time x6 x3
+b2 call "v.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b2
+b4 entity "n.01" x7
+b2 's "n.01" x8
+b2 REF x8
+
+b1 REF x1
+b1 Time x5 x2
+b1 REF x2
+b1 REF x3
+b1 Role x2 x3
+b1 person "n.01" x2
+b1 tennis_player "n.01" x3
+b1 REF x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 Theme x4 x2
+b1 Time x4 x5
+b1 dance "v.01" x4
+b1 time "n.08" x5
+b1 Location x4 x6
+b2 REF x6
+b2 PRESUPPOSITION b1
+b2 ocean "n.01" x6
+b1 REF x7
+b1 TPR x7 "now"
+b1 Time x8 x7
+b1 time "n.08" x7
+b1 REF x8
+b1 Patient x8 x6
+b1 change "v.01" x8
+b1 EXPLANATION b3
+b3 Context x12 x10
+b4 REF x9
+b4 PRESUPPOSITION b5
+b4 person "n.01" x9
+b5 REF x10
+b5 Of x10 x9
+b5 PRESUPPOSITION b1
+b5 shape "n.01" x10
+b6 REF x11
+b6 PRESUPPOSITION b3
+b6 person "n.01" x11
+b3 Time x13 x12
+b3 REF x12
+b3 TPR x12 "now"
+b3 time "n.08" x12
+b3 REF x13
+b3 Degree x14 x13
+b3 too "r.01" x13
+b3 REF x14
+b3 Attribute x11 x14
+b3 heavy "a.01" x14
+b3 Beneficiary x14 x15
+b7 REF x15
+b7 PRESUPPOSITION b3
+b3 EXPLANATION b8
+b9 REF x16
+b9 PRESUPPOSITION b8
+b9 sun "n.01" x16
+b8 REF x17
+b8 REF x18
+b8 ATTRIBUTION b10
+b8 Experiencer x17 x16
+b8 Stimulus x17 x18
+b8 Time x17 x12
+b8 let "v.01" x17
+b8 proposition "n.01" x18
+b10 REF x19
+b10 Agent x19 x16
+b10 carry "v.01" x19
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 sail "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 CONTINUATION b3
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x4
+b3 Time x5 x3
+b3 REF x5
+b3 Attribute x4 x5
+b3 crown "a.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b3
+b5 female "n.02" x6
+b3 REF x7
+b3 Sub x7 x6
+b3 Sub x7 x9
+b3 entity "n.01" x7
+b6 REF x8
+b6 PRESUPPOSITION b7
+b6 male "n.02" x8
+b7 REF x9
+b7 Of x10 x8
+b7 REF x10
+b7 PRESUPPOSITION b3
+b7 Role x9 x10
+b7 friend "n.01" x10
+b7 person "n.01" x9
+b3 REF x11
+b3 Theme x11 x8
+b3 Time x11 x12
+b3 be "v.03" x11
+b3 REF x12
+b3 TPR x12 "now"
+b3 time "n.08" x12
+b3 Attribute x11 x13
+b3 REF x13
+b3 fish "n.01" x13
+b3 Source x11 x14
+b3 REF x14
+b3 water "n.01" x14
+b3 CONTINUATION b8
+b9 REF x15
+b9 PRESUPPOSITION b8
+b9 person "n.01" x15
+b8 REF x16
+b8 Agent x16 x15
+b8 Time x16 x12
+b8 Topic x16 x18
+b8 grow "v.01" x16
+b8 REF x17
+b8 Degree x18 x17
+b8 quite "r.01" x17
+b8 REF x18
+b8 Attribute x15 x18
+b8 dizzy "a.01" x18
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 enjoy "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 look "v.01" x5
+b3 Theme x5 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 world "n.01" x6
+b3 REF x7
+b3 Manner x5 x7
+b3 down "r.01" x7
+b5 REF x8
+b5 PRESUPPOSITION b3
+b5 wind "n.01" x8
+b3 REF x9
+b3 REF x10
+b3 Agent x9 x8
+b3 Patient x9 x11
+b3 TPR x10 "now"
+b3 Time x9 x10
+b3 drag~on "v.01" x9
+b3 time "n.08" x10
+b6 REF x11
+b6 PRESUPPOSITION b3
+b6 person "n.01" x11
+b3 Path x9 x12
+b3 REF x12
+b3 Quantity x12 "4"
+b3 REF x13
+b3 Role x12 x13
+b3 corner "n.01" x13
+b3 person "n.01" x12
+b3 PartOf x13 x14
+b7 REF x14
+b7 PRESUPPOSITION b3
+b7 earth "n.01" x14
+b3 CONTRAST b8
+b8 Causer x17 x15
+b8 REF x15
+b8 while "n.01" x15
+b9 REF x16
+b9 PRESUPPOSITION b8
+b9 entity "n.01" x16
+b8 REF x17
+b8 Patient x17 x16
+b8 Result x17 x19
+b8 TPR x18 "now"
+b8 grow "v.01" x17
+b8 REF x18
+b8 Time x17 x18
+b8 time "n.08" x18
+b8 REF x19
+b8 time "n.01" x19
+b8 Beneficiary x17 x21
+b10 REF x20
+b10 PRESUPPOSITION b8
+b10 sun "n.01" x20
+b8 REF x21
+b8 Theme x21 x20
+b8 go "v.01" x21
+b8 Destination x21 x22
+b8 REF x22
+
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x5
+b2 become "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Degree x5 x4
+b2 very "r.01" x4
+b2 REF x5
+b2 Experiencer x5 x1
+b2 red "a.01" x5
+b2 Location x5 x6
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 face "n.01" x6
+b2 CONTINUATION b4
+b4 REF x7
+b4 PartOf x7 x9
+b4 Time x7 x8
+b4 begin "v.01" x7
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b4 REF x9
+b4 Agent x9 x2
+b4 sink "v.01" x9
+b4 REF x10
+b4 Sub x10 x3
+b4 Sub x10 x11
+b4 entity "n.01" x10
+b4 REF x11
+b4 low "n.01" x11
+b2 PRESUPPOSITION b4
+b4 Time x12 x8
+b4 REF x12
+b4 Theme x12 x5
+b4 clear "a.01" x12
+b4 Source x12 x13
+b4 REF x13
+b4 sight "n.01" x13
+
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 little "a.01" x2
+b1 REF x3
+b1 Attribute x1 x3
+b1 little "a.01" x3
+b1 REF x4
+b1 Experiencer x4 x1
+b1 Time x4 x5
+b1 frighten "v.01" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b1 Stimulus x4 x6
+b2 REF x6
+b2 REF x7
+b2 Attribute x6 x7
+b2 PRESUPPOSITION b1
+b2 last "a.01" x7
+b2 cold "n.01" x6
+b1 REF x8
+b1 Sub x8 x6
+b1 Sub x8 x9
+b1 entity "n.01" x8
+b1 REF x9
+b1 darkness "n.01" x9
+b1 POSSIBILITY b3
+b3 REF x10
+b3 Agent x10 x3
+b3 Value x10 x3
+b3 sleep "v.01" x10
+b1 NEGATION b4
+b4 Location x10 x11
+b5 REF x11
+b5 PRESUPPOSITION b4
+b5 sky "n.01" x11
+b4 CONTRAST b6
+b6 REF x12
+b6 Location x13 x12
+b6 location "n.01" x12
+b6 REF x13
+b6 Theme x13 x6
+b6 closer "v.01" x13
+b6 Destination x13 x14
+b6 REF x14
+b6 earth "n.01" x14
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 hear "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 wind "n.01" x4
+b2 CONTINUATION b4
+b4 REF x5
+b4 REF x6
+b4 REF x7
+b4 ATTRIBUTION b5
+b4 Agent x5 x1
+b4 TPR x7 "now"
+b4 Theme x5 x6
+b4 Time x5 x7
+b4 proposition "n.01" x6
+b4 time "n.08" x7
+b6 POSSIBILITY b7
+b8 REF x8
+b8 PRESUPPOSITION b9
+b8 wind "n.01" x8
+b7 POSSIBILITY b9
+b9 REF x9
+b9 Agent x9 x8
+b9 Recipient x9 x2
+b9 Topic x9 x11
+b9 take "v.01" x9
+b10 REF x10
+b10 PRESUPPOSITION b9
+b10 male "n.02" x10
+b9 REF x11
+b9 Experiencer x11 x10
+b9 back "a.01" x11
+b9 Stimulus x11 x12
+b11 REF x12
+b11 PRESUPPOSITION b9
+b11 ocean "n.01" x12
+
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Role x1 x2
+b1 person "n.01" x1
+b1 wind "n.01" x2
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 TPR x4 "now"
+b2 Theme x3 x5
+b2 Time x3 x4
+b2 take "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 pity "n.01" x5
+b2 Destination x3 x6
+b3 PRESUPPOSITION b2
+b3 REF x6
+b3 male "n.02" x6
+b2 CONTINUATION b4
+b4 REF x7
+b4 REF x8
+b4 Agent x7 x6
+b4 Patient x7 x5
+b4 TPR x8 "now"
+b4 Time x7 x8
+b4 "carrie~tomlinson" "v.01" x7
+b4 time "n.08" x8
+b2 PRESUPPOSITION b4
+b4 Instrument x7 x9
+b5 CONDITION b6
+b6 REF x9
+b6 CONSEQUENCE b7
+b6 all "n.01" x9
+b4 CONDITION b8
+b8 CONSEQUENCE b9
+b9 REF x10
+b9 CONSEQUENCE b10
+b9 all "n.01" x10
+b10 PartOf x10 x11
+b7 PRESUPPOSITION b11
+b11 REF x11
+b11 Of x12 x1
+b11 REF x12
+b11 PRESUPPOSITION b10
+b11 Role x11 x12
+b11 brother "n.01" x12
+b11 person "n.01" x11
+b10 REF x13
+b10 Sub x13 x10
+b10 Sub x13 x14
+b10 entity "n.01" x13
+b10 REF x14
+b10 REF x15
+b10 Role x14 x15
+b10 person "n.01" x14
+b10 sister "n.01" x15
+b10 Destination x14 x16
+b10 REF x16
+b10 REF x17
+b10 Attribute x16 x17
+b10 Value x17 "+"
+b10 heavy "a.01" x17
+b10 REF x18
+b10 Attribute x16 x18
+b10 gray "a.01" x18
+b10 REF x19
+b10 Role x16 x19
+b10 person "n.01" x16
+b10 sister "n.01" x19
+b10 Destination x16 x20
+b10 REF x20
+b10 REF x21
+b10 Attribute x20 x21
+
+b1 REF x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 go "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 Agent x5 x1
+b1 roll "v.01" x5
+b1 Theme x5 x6
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 each~other "n.02" x6
+b1 Finish x3 x8
+b1 REF x7
+b1 REF x8
+b1 Sub x8 x7
+b1 Sub x8 x9
+b1 entity "n.01" x8
+b1 REF x9
+b1 REF x10
+b1 Sub x10 x3
+b1 Sub x10 x11
+b1 entity "n.01" x10
+b1 REF x11
+b4 REF x12
+b4 PRESUPPOSITION b1
+b4 person "n.01" x12
+b1 REF x13
+b1 REF x14
+b1 Agent x13 x12
+b1 TPR x14 "now"
+b1 Theme x13 x15
+b1 Time x13 x14
+b1 time "n.08" x14
+b1 touch "v.01" x13
+b5 REF x15
+b5 PRESUPPOSITION b1
+b5 ground "n.01" x15
+b1 CONTINUATION b6
+b6 CONDITION b7
+b7 REF x16
+b7 CONSEQUENCE b8
+b7 PartOf x16 x17
+b7 entity "n.01" x16
+b5 REF x17
+b5 person "n.01" x17
+b5 REF x18
+b5 REF x19
+b5 Agent x18 x17
+b5 TPR x19 "now"
+b5 Time x18 x19
+b5 Topic x18 x20
+b5 fall "v.01" x18
+b5 time "n.08" x19
+b9 REF x20
+b9 PRESUPPOSITION b5
+b9 ground "n.01" x20
+b5 CONTINUATION b10
+b10 CONDITION b11
+b11 REF x21
+b11 CONSEQUENCE b12
+b11 PartOf x21 x22
+b11 entity "n.01" x21
+b13 REF x22
+b13 PRESUPPOSITION b11
+b13 person "n.01" x22
+b12 REF x23
+b12 Theme x23 x22
+b12 Time x23 x23
+
+b1 REF x1
+b1 entity "n.01" x1
+b1 SubOf x1 x2
+b1 REF x2
+b1 drop "n.01" x2
+b1 REF x3
+b1 Co-Theme x3 x5
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b2 REF x5
+b2 REF x6
+b2 REF x7
+b2 Attribute x5 x6
+b2 Degree x6 x7
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x5
+b2 most "a.01" x6
+b2 most "r.01" x7
+b1 Sub x5 x8
+b3 REF x8
+b3 PRESUPPOSITION b1
+b3 artifact "n.01" x8
+b1 REF x9
+b1 Theme x9 x2
+b1 Time x9 x4
+b1 fall "v.01" x9
+b1 Location x9 x10
+b1 REF x10
+b1 mountainside "n.01" x10
+b1 CONTINUATION b4
+b4 Location x14 x11
+b5 REF x11
+b5 REF x12
+b5 Attribute x11 x12
+b5 PRESUPPOSITION b4
+b5 rocky "a.01" x12
+b5 cliff "n.01" x11
+b6 REF x13
+b6 PRESUPPOSITION b4
+b6 person "n.01" x13
+b4 REF x14
+b4 Theme x14 x13
+b4 Time x14 x15
+b4 run "v.01" x14
+b4 REF x15
+b4 TPR x15 "now"
+b4 time "n.08" x15
+
+b1 REF x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 plunge "v.01" x3
+b1 time "n.08" x4
+b1 Destination x3 x5
+b1 REF x5
+b1 REF x6
+b1 Attribute x5 x6
+b1 mountain "n.01" x6
+b1 REF x7
+b1 Role x5 x7
+b1 brook "n.01" x7
+b1 person "n.01" x5
+b1 REF x8
+b1 REF x9
+b1 Agent x8 x5
+b1 TPR x9 "now"
+b1 Time x8 x9
+b1 Topic x8 x8
+b1 shout "v.01" x8
+b1 time "n.08" x9
+b1 REF x10
+b1 Theme x10 x5
+b1 CONTINUATION b3
+b3 REF x11
+b3 Theme x11 x4
+b3 ferry "v.01" x11
+b3 Path x11 x12
+b4 REF x12
+b4 PRESUPPOSITION b3
+b4 hill "n.01" x12
+b1 CONTINUATION b5
+b5 Location x16 x13
+b6 REF x13
+b6 PRESUPPOSITION b5
+b6 valley "n.01" x13
+b7 REF x14
+b7 PRESUPPOSITION b5
+b7 person "n.01" x14
+b3 REF x15
+b3 TPR x15 "now"
+b3 time "n.08" x15
+b5 REF x16
+b5 Experiencer x16 x14
+b5 Stimulus x16 x17
+b5 Time x16 x15
+b5 hear "v.01" x16
+b8 REF x17
+b8 REF x18
+b8 Attribute x17 x18
+b8 PRESUPPOSITION b5
+b8 noise "n.01" x17
+
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 PRESUPPOSITION b2
+b1 little "a.01" x2
+b2 Time x5 x3
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 ATTRIBUTION b3
+b2 Agent x5 x1
+b2 Topic x5 x4
+b2 able "a.01" x5
+b2 proposition "n.01" x4
+b3 REF x6
+b3 Agent x6 x1
+b3 Product x6 x7
+b3 make "v.01" x6
+b3 REF x7
+b3 Time x8 x3
+b3 REF x8
+b3 Theme x8 x7
+b3 stand "v.01" x8
+b3 Location x8 x9
+b4 REF x9
+b4 PRESUPPOSITION b3
+b4 bank "n.02" x9
+
+b1 Location x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 mill "n.01" x1
+b3 REF x2
+b3 PRESUPPOSITION b1
+b1 REF x3
+b1 REF x4
+b1 Experiencer x3 x2
+b1 Stimulus x3 x5
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 see "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 Quantity x5 "2"
+b1 REF x6
+b1 Attribute x5 x6
+b1 great "a.01" x6
+b1 stone "n.01" x5
+b1 REF x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 Value x8 "+"
+b1 big "a.01" x8
+b1 wheel "n.01" x7
+b1 REF x9
+b1 REF x10
+b1 REF x11
+b1 ATTRIBUTION b4
+b1 Agent x9 x7
+b1 TPR x11 "now"
+b1 Theme x9 x10
+b1 Time x9 x11
+b1 keep "v.01" x9
+b1 proposition "n.01" x10
+b1 time "n.08" x11
+b4 REF x12
+b4 Agent x12 x7
+b4 Theme x12 x14
+b4 REF x13
+b4 round "n.01" x13
+b4 REF x14
+b4 Sub x14 x13
+b4 Sub x14 x15
+b4 entity "n.01" x14
+b4 REF x15
+b4 round "n.01" x15
+
+b1 REF x1
+b1 stone "n.01" x1
+b1 REF x2
+b1 Theme x2 x1
+b1 Time x2 x3
+b1 brush "v.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 Path x2 x4
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 spin "v.01" x4
+b1 Time x5 x3
+b1 REF x5
+b1 Attribute x1 x5
+b1 busy "a.01" x5
+b1 REF x6
+b1 Agent x6 x1
+b1 Material x6 x7
+b1 dye "v.01" x6
+b3 REF x7
+b3 PRESUPPOSITION b1
+b3 wheat "n.02" x7
+b1 Product x6 x9
+b1 REF x8
+b1 flour "n.01" x8
+b1 REF x9
+b1 Sub x9 x8
+b1 Sub x9 x10
+b1 entity "n.01" x9
+b4 REF x10
+b4 PRESUPPOSITION b1
+b4 corn "n.01" x10
+b1 Product x5 x12
+b1 REF x11
+b1 REF x12
+b1 Attribute x12 x11
+b1 golden "a.01" x11
+b1 meal "n.01" x12
+
+b1 REF x1
+b1 EQU x1 "?"
+b1 REF x2
+b1 Role x1 x2
+b1 person "n.01" x1
+b2 REF x3
+b2 EQU x3 "now"
+b2 Time x4 x3
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 ATTRIBUTION b3
+b2 Agent x4 "hearer"
+b2 Topic x4 x5
+b2 proposition "n.01" x5
+b2 suppose "v.01" x4
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x6
+b3 REF x7
+b3 Co-Theme x7 x6
+b3 Theme x7 x6
+b3 Time x7 x8
+b3 be "v.01" x7
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b2 CONTINUATION b5
+b5 REF x9
+b5 Agent x9 x2
+b5 Theme x9 x10
+b5 swing "v.01" x9
+b6 REF x10
+b6 PRESUPPOSITION b5
+
+b1 NEGATION b2
+b2 REF x1
+b2 person "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 at~all "a.01" x2
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 Co-Theme x2 x4
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 just "r.01" x4
+b3 REF x5
+b3 Of x5 "speaker"
+b3 REF x6
+b3 Attribute x5 x6
+b3 tiny "a.01" x6
+b3 REF x7
+b3 Attribute x5 x7
+b3 little "a.01" x7
+b3 REF x8
+b3 Attribute x5 x8
+b3 little "a.01" x8
+b3 REF x9
+b3 Attribute x5 x9
+b3 little "a.01" x9
+b3 REF x10
+b3 Attribute x6 x10
+b3 little "a.01" x10
+b3 REF x11
+b3 Attribute x7 x11
+b3 little "a.01" x11
+b3 REF x12
+b3 Attribute x7 x12
+b3 little "a.01" x12
+b3 REF x13
+b3 Attribute x8 x13
+b3 little "a.01" x13
+b3 REF x14
+b3 Attribute x9 x14
+b3 little "a.01" x14
+b3 REF x15
+b3 REF x16
+b3 Attribute x13 x15
+b3 Attribute x14 x16
+b3 little "a.01" x15
+b3 little "a.01" x16
+b3 REF x17
+b3 REF x18
+b3 Attribute x13 x17
+b3 Attribute x14 x18
+b3 little "a.01" x17
+b3 little "a.01" x18
+b3 REF x19
+b3 REF x20
+b3 Attribute x15 x19
+b3 Attribute x16 x20
+b3 little "a.01" x19
+b3 little "a.01" x20
+b3 REF x21
+b3 REF x22
+b3 Attribute x15 x21
+b3 Attribute x20 x22
+b3 little "a.01" x21
+b3 little "a.01" x22
+b3 REF x23
+b3 REF x24
+b3 Attribute x21 x23
+b3 Attribute x22 x24
+b3 little "a.01" x23
+b3 little "a.01" x24
+b3 REF x25
+b3 REF x26
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 lucky "a.01" x3
+b2 Stimulus x3 x4
+b3 REF x4
+b3 PRESUPPOSITION b2
+b4 REF x5
+b4 PRESUPPOSITION b2
+b4 brook "n.01" x5
+b2 Time x6 x3
+b2 REF x6
+b2 Theme x6 x5
+b2 swim "v.01" x6
+b2 Destination x6 x7
+b2 REF x7
+b2 REF x8
+b2 Attribute x7 x8
+b2 beautiful "a.01" x8
+b2 pond "n.01" x7
+b2 Location x12 x7
+b2 REF x9
+b2 duck "n.01" x9
+b2 REF x10
+b2 Sub x10 x9
+b2 Sub x10 x11
+b2 entity "n.01" x10
+b2 REF x11
+b2 roast "n.01" x11
+b2 Time x12 x1
+b2 REF x12
+b2 Theme x12 x10
+b2 live "v.01" x12
+b2 REF x13
+b2 Manner x12 x13
+b2 peacefully "a.01" x13
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 like "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Theme x5 x7
+b3 play "v.01" x5
+b3 REF x6
+b3 hide-and-seek "n.01" x6
+b3 REF x7
+b3 Sub x7 x6
+b3 Sub x7 x8
+b3 entity "n.01" x7
+b3 REF x8
+b3 hide-and-seek "n.01" x8
+b3 Location x5 x9
+b4 REF x9
+b4 PRESUPPOSITION b3
+b4 pond "n.01" x9
+b5 REF x10
+b5 PRESUPPOSITION b3
+b5 entity "n.01" x10
+b3 REF x11
+b3 Co-Theme x11 x13
+b3 Theme x11 x10
+b3 Time x11 x12
+b3 fool "v.01" x11
+b3 REF x12
+b3 TPR x12 "now"
+b3 time "n.08" x12
+b6 REF x13
+b6 PRESUPPOSITION b7
+b6 male "n.02" x13
+b7 REF x14
+b7 Of x15 x13
+b7 REF x15
+b7 PRESUPPOSITION b3
+b7 Role x14 x15
+b7 brother "n.01" x15
+b7 person "n.01" x14
+b3 REF x16
+b3 Agent x16 x9
+b3 Time x16 x12
+b3 fool "v.01" x16
+b3 REF x17
+b3 REF x18
+b3 REF x19
+b3 Agent x17 x8
+b3 Agent x18 x20
+b3 TPR x19 "now"
+b3 Time x17 x19
+b3 Topic x17 x18
+b3 proposition "n.01" x18
+b3 time "n.08" x19
+b3 REF x20
+b3 swim "n.01" x20
+b3 REF x21
+b3 Agent x21 x10
+b3 Theme x21 x22
+b3 hide "v.01" x21
+b3 REF x22
+b3 REF x23
+b3 Attribute x22 x23
+b3 Value x23 "+"
+
+b1 PRESUPPOSITION b2
+b2 REF x1
+b2 Of x3 x2
+b1 REF x2
+b1 male "n.02" x2
+b2 REF x3
+b2 PRESUPPOSITION b3
+b2 Role x1 x3
+b2 brother "n.01" x3
+b2 person "n.01" x1
+b3 REF x4
+b3 Manner x5 x4
+b3 REF x5
+b3 Theme x5 x1
+b3 Time x5 x6
+b3 step "v.01" x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 time "n.08" x6
+b3 CONTINUATION b4
+b4 REF x7
+b4 Manner x8 x7
+b4 even "a.01" x7
+b4 REF x8
+b4 REF x9
+b4 Agent x8 x2
+b4 TPR x9 "now"
+b4 Theme x8 x10
+b4 Time x8 x9
+b4 follow "v.01" x8
+b4 time "n.08" x9
+b5 REF x10
+b5 REF x11
+b5 Attribute x10 x11
+b5 PRESUPPOSITION b4
+b5 Value x11 "+"
+b5 big "a.01" x11
+b5 pool "n.01" x10
+b5 PartOf x10 x12
+b5 REF x12
+b5 water "n.01" x12
+b4 PRESUPPOSITION b6
+b6 REF x13
+b6 REF x14
+b6 Agent x13 x7
+b6 TPR x14 "now"
+b6 Time x13 x14
+b6 search "v.01" x13
+b6 time "n.08" x14
+b7 CONTINUATION b8
+b8 POSSIBILITY b9
+b7 NEGATION b8
+b9 REF x15
+b9 Agent x15 x8
+b9 Theme x15 x4
+b9 find "v.01" x15
+b5 PRESUPPOSITION b9
+b9 Time x17 x16
+b9 REF x16
+b9 TPR x16 "now"
+b9 time "n.08" x16
+b9 REF x17
+b9 Degree x18 x17
+b9 extremely "r.04" x17
+b9 REF x18
+b9 Attribute x7 x18
+b9 surprised "a.01" x18
+b9 CONTINUATION b10
+b10 REF x19
+b10 Agent x19 x12
+b10 Time x19 x17
+b10 give "v.01" x19
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 like "v.01" x2
+b2 time "n.08" x3
+b3 PRESUPPOSITION b2
+b3 REF x4
+b3 pond "n.01" x4
+b4 Location x5 x4
+b5 PRESUPPOSITION b4
+b5 REF x5
+b5 male "n.02" x5
+b4 POSSIBILITY b6
+b6 REF x6
+b6 Agent x6 x5
+b6 Theme x6 x3
+b6 play "v.01" x6
+b4 CONDITION b7
+b7 REF x7
+b7 CONSEQUENCE b6
+b7 Time x6 x7
+b7 day "n.01" x7
+b8 REF x8
+b8 REF x9
+b8 Agent x8 x5
+b8 TPR x9 "now"
+b8 Theme x8 x10
+b8 Time x8 x9
+b8 stay "v.01" x8
+b8 time "n.08" x9
+b8 REF x10
+b8 REF x11
+b8 Attribute x10 x11
+b8 good "a.01" x11
+b8 while "n.01" x10
+b4 REF x12
+b4 PRESUPPOSITION b9
+b6 TPR x12 "now"
+b6 time "n.08" x12
+b9 REF x13
+b9 Agent x13 x6
+b9 Theme x13 x17
+b9 Time x13 x12
+b9 stay "v.01" x13
+b10 REF x14
+b10 PRESUPPOSITION b11
+b10 duck "n.01" x14
+b11 REF x15
+b11 PRESUPPOSITION b9
+b11 User x15 x14
+b11 back "n.01" x15
+b9 Goal x13 x16
+b9 REF x16
+b9 ship "n.01" x16
+b9 CONTRAST b12
+b12 Causer x20 x17
+b12 REF x17
+b12 time "n.01" x17
+b13 REF x18
+b13 PRESUPPOSITION b12
+b13 male "n.02" x18
+b12 REF x19
+b12 REF x20
+b12 Agent x19 x18
+b12 TPR x20 "now"
+b12 Time x19 x20
+b12 drift "v.01" x19
+b12 time "n.08" x20
+b12 Attribute x19 x20
+
+b1 REF x1
+b1 Theme x1 "hearer"
+b1 come "v.01" x1
+b1 CONTINUATION b2
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 Theme x2 x3
+b2 join "v.01" x2
+b2 REF x3
+b2 hand "n.01" x3
+b2 CONTINUATION b3
+b4 REF x4
+b4 REF x5
+b4 Agent x4 "hearer"
+b4 Patient x4 x6
+b4 TPR x5 "now"
+b4 Time x4 x5
+b4 cry "v.01" x4
+b4 time "n.08" x5
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 female "n.02" x6
+b4 CONTINUATION b6
+b6 EXPLANATION b7
+b8 REF x7
+b8 REF x8
+b8 PRESUPPOSITION b7
+b8 Theme x7 x8
+b8 water "n.01" x8
+b8 drop "n.01" x7
+b9 REF x9
+b9 TPR x9 "now"
+b9 time "n.08" x9
+b10 Time x11 x9
+b7 CONDITION b11
+b11 REF x10
+b11 CONSEQUENCE b10
+b11 SubOf x10 "speaker"
+b11 entity "n.01" x10
+b10 REF x11
+b10 Agent x11 x10
+b10 Theme x11 x12
+b10 overcome "v.01" x11
+b12 REF x12
+b12 PRESUPPOSITION b10
+b12 brook "n.01" x12
+b8 REF x13
+b8 REF x14
+b8 Co-Theme x13 x15
+b8 TPR x14 "now"
+b8 Theme x13 x12
+b8 Time x13 x14
+b8 be "v.01" x13
+b8 time "n.08" x14
+b8 REF x15
+b8 child "n.01" x15
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 Agent x2 x4
+b2 REF x4
+b2 help "n.01" x4
+b2 PartOf x4 x6
+b3 REF x5
+b3 Name x5 "earth"
+b3 PRESUPPOSITION b2
+b3 female "n.02" x5
+b2 REF x6
+b2 Sub x6 x5
+b2 Sub x6 x8
+b2 entity "n.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b5
+b4 male "n.02" x7
+b5 REF x8
+b5 Of x9 x7
+b5 REF x9
+b5 PRESUPPOSITION b2
+b5 Role x8 x9
+b5 brother "n.01" x9
+b5 person "n.01" x8
+b6 REF x10
+b6 REF x11
+b6 Attribute x10 x11
+b6 PRESUPPOSITION b2
+b6 river "n.01" x10
+b2 REF x12
+b2 TPR x12 "now"
+b2 Time x14 x12
+b2 time "n.08" x12
+b2 REF x13
+b2 REF x14
+b2 ATTRIBUTION b7
+b4 Agent x14 x10
+b4 Topic x14 x13
+b4 able "a.01" x14
+b4 proposition "n.01" x13
+b7 REF x15
+b7 Agent x15 x10
+b7 Theme x15 x17
+b7 float "v.01" x15
+b7 REF x16
+b7 REF x17
+b7 Attribute x17 x16
+b7 Value x16 "+"
+b7 heavy "a.01" x16
+b7 ship "n.01" x17
+b3 NEGATION b8
+b8 REF x18
+b8 Manner x20 x18
+b8 Value x18 "+"
+b8 long "a.01" x18
+b8 REF x19
+b8 TPR x19 "now"
+b8 time "n.08" x19
+b9 REF x20
+b9 PRESUPPOSITION b8
+b9 entity "n.01" x20
+b8 REF x21
+b8 Co-Theme x21 x22
+b8 Theme x21 x20
+b8 Time x21 x19
+b8 be "v.01" x21
+b8 REF x22
+
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 river "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 grow "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 overpower "v.01" x4
+b2 CONTINUATION b3
+b4 PRESUPPOSITION b3
+b4 REF x5
+b4 male "n.02" x5
+b3 POSSIBILITY b5
+b5 REF x6
+b5 Experiencer x6 x5
+b5 Stimulus x6 x7
+b5 see "v.01" x6
+b6 REF x7
+b6 PRESUPPOSITION b5
+b6 ocean "n.01" x7
+b7 REF x8
+b7 Name x8 "alice"
+b7 PRESUPPOSITION b8
+b7 female "n.02" x8
+b4 REF x9
+b4 PRESUPPOSITION b8
+b4 TPR x9 "now"
+b4 time "n.08" x9
+b8 Time x10 x9
+b8 REF x10
+b8 Attribute x8 x10
+b8 over "a.01" x10
+b8 CONTINUATION b9
+b5 PRESUPPOSITION b9
+b9 REF x11
+b9 Agent x11 x8
+b9 Theme x11 x12
+b9 come "v.01" x11
+b9 REF x12
+
+b1 Location x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 ocean "n.01" x1
+b3 REF x2
+b3 PRESUPPOSITION b1
+b3 male "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 Experiencer x3 x2
+b1 Stimulus x3 x5
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 feel "v.03" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 Attribute x2 x5
+b1 right "a.05" x5
+b1 Location x3 x6
+b1 REF x6
+b1 home "n.01" x6
+
+b1 Co-Agent x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 male "n.02" x1
+b3 REF x2
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Co-Theme x3 x5
+b1 TPR x4 "now"
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 REF x7
+b1 Attribute x5 x6
+b1 Degree x6 x7
+b1 safe "a.01" x6
+b1 most "r.01" x7
+b1 REF x8
+b1 Attribute x5 x8
+b1 sweet "a.01" x8
+b1 place "n.01" x5
+b1 Location x5 x9
+b4 REF x9
+b4 REF x10
+b4 Attribute x9 x10
+b4 whole "a.01" x10
+b4 REF x11
+b4 Attribute x9 x11
+b4 PRESUPPOSITION b1
+b4 Value x11 "+"
+b4 wide "a.01" x11
+b4 world "n.01" x9
+
+b1 Time x4 x1
+b2 REF x1
+b2 REF x2
+b2 Attribute x1 x2
+b2 Value x2 "+"
+b2 warm "a.01" x2
+b2 REF x3
+b2 MadeOf x1 x3
+b2 PRESUPPOSITION b1
+b2 summer "n.01" x3
+b2 evening "n.01" x1
+b1 EXPLANATION b3
+b3 REF x4
+b3 REF x5
+b3 Agent x4 "hearer"
+b3 EQU x5 "now"
+b3 Theme x4 x6
+b3 Time x4 x5
+b3 take "v.01" x4
+b3 time "n.08" x5
+b3 REF x6
+b3 walk "n.01" x6
+b3 Location x4 x7
+b4 REF x7
+b4 REF x8
+b4 PRESUPPOSITION b3
+b4 Theme x7 x8
+b4 sea "n.01" x8
+b4 beach "n.01" x7
+b3 REF x9
+b3 TPR "now" x9
+b3 Time x10 x9
+b3 time "n.08" x9
+b3 REF x10
+b3 Experiencer x10 "hearer"
+b3 Stimulus x10 x11
+b3 hear "v.01" x10
+b1 REF x11
+b1 REF x12
+b1 Attribute x11 x12
+b1 gentle "a.01" x12
+b1 REF x13
+b1 PRESUPPOSITION b3
+b1 Theme x13 x11
+b1 PartOf x11 x14
+b5 REF x14
+b5 PRESUPPOSITION b1
+b5 wave "n.01" x14
+b1 CONTINUATION b6
+b6 REF x15
+b6 some "n.01" x15
+b6 REF x16
+b6 REF x17
+b6 REF x18
+b6 ATTRIBUTION b7
+b6 Agent x16 x15
+b6 EQU x18 "now"
+b6 Time x16 x18
+b6 Topic x16 x17
+b6 proposition "n.01" x17
+b6 say "v.01" x16
+b6 time "n.08" x18
+b8 REF x19
+b8 PRESUPPOSITION b9
+b8 entity "n.01" x19
+b7 NECESSITY b9
+b9 REF x20
+b9 Agent x20 x19
+b9 Theme x20 x21
+b10 REF x21
+b10 PRESUPPOSITION b9
+b10 entity "n.01" x21
+b9 Instrument x20 x22
+b11 REF x22
+b11 Of x22 x22
+

@@ -1,0 +1,21 @@
+Number of fixes per type:
+
+unknown: 0
+remove: 11
+frequency-rolesop: 0
+frequency-name: 0
+double: 1
+frequency-conc: 0
+variables: 5
+wrong arity: 0
+no-sense: 18
+no-ref: 0
+spurious-ref: 4
+sense: 0
+sub loop: 0
+boxes disconnected: 0
+
+Number of dummies per type:
+
+dummies-pp: 0
+dummies-ref: 0
