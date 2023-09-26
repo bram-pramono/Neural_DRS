@@ -57,4 +57,10 @@ ENV PYTHONPATH=DRS_parsing/:DRS_parsing/evaluation/:$PYTHONPATH
 
 COPY src/allennlp_scripts/parse_sent_file.sh ./allennlp_parse_sent_file.sh
 
+RUN chmod +x allennlp_parse_sent_file.sh
+
+COPY data/example-sent.txt /app/data/sent/example-sent.txt
+
+RUN /bin/bash allennlp_parse_sent_file.sh example-sent.txt
+
 ENTRYPOINT ["/bin/bash", "allennlp_parse_sent_file.sh"]
