@@ -1,0 +1,39 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF e1
+b2 REF t2
+b2 Agent e1 x1
+b2 TPR t2 "now"
+b2 Theme e1 e2
+b2 Time e1 t1
+b2 threaten "v.01" e1
+b2 time "n.08" t2
+b3 REF e4
+b3 Agent e4 x1
+b3 Theme e4 e5
+b3 Time e4 t2
+b3 threaten "v.01" e4
+b2 REF t1
+b2 TPR t1 "now"
+b2 time "n.08" t1
+b2 REF e2
+b2 Theme e2 x1
+b2 leave "v.01" e2
+b3 REF e5
+b3 Theme e5 x1
+b3 leave "v.01" e5
+b2 CONTINUATION b3
+b3 Time e4 t1
+b2 time "n.01" t1
+b2 REF s1
+b2 Manner e3 s1
+b2 just "a.01" s1
+b2 REF e3
+b2 Pivot e3 x1
+b2 Theme e3 t1
+b2 Time e3 t1
+b2 have "v.01" e3
+b3 REF s2
+b3 Manner e4 s2
+b3 enough "a.01" s2

@@ -1,0 +1,20 @@
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 Participant e1 x4
+b1 REF x4
+b1 Sub x4 "speaker"
+b1 person "n.01" x4
+b1 REF e1
+b1 Agent e1 x1
+b1 Theme e1 x2
+b1 leave "v.01" e1
+b2 REF x2
+b2 REF s1
+b2 AttributeOf s1 x2
+b2 PRESUPPOSITION b1
+b2 poor "a.01" s1
+b2 person "n.01" x2
+b2 Location x2 x3
+b2 REF x3
+b2 peace "n.01" x3

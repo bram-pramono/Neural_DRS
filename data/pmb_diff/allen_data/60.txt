@@ -1,0 +1,23 @@
+b1 REF x1
+b1 Name x1 "albert"
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 speak "v.02" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 TPR x2 x5
+b3 REF x4
+b3 Name x4 "barbara"
+b3 PRESUPPOSITION b2
+b3 female "n.02" x4
+b2 REF x5
+b2 Experiencer x5 x4
+b2 Stimulus x5 x6
+b2 Time x5 x3
+b2 have "v.01" x5
+b2 REF x6
+b2 chance "n.01" x6

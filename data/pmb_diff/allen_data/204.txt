@@ -1,0 +1,34 @@
+b1 PRECONDITION b2
+b3 REF x1
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 Co-Theme x2 x4
+b1 TPR x3 "now"
+b1 Theme x2 x1
+b1 Time x2 x3
+b1 be "v.01" x2
+b1 time "n.08" x3
+b1 REF x4
+b1 movie "n.01" x4
+b1 NEGATION b4
+b4 Patient x2 x5
+b4 REF x5
+b4 book "n.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x6
+b3 REF x7
+b3 TPR "now" x7
+b3 time "n.08" x7
+b4 Time x8 x7
+b4 REF x8
+b4 Co-Theme x8 x9
+b4 Theme x8 x6
+b4 be "v.01" x8
+b4 REF x9
+b4 REF x10
+b4 Attribute x9 x10
+b4 good "a.01" x10
+b4 bit "n.01" x9

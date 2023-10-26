@@ -1,0 +1,20 @@
+b1 REF x1
+b1 EQU x1 "speaker"
+b1 person "n.01" x1
+b1 REF t2
+b1 EQU t2 "now"
+b1 Time e1 t2
+b1 time "n.08" t2
+b1 REF e1
+b1 REF t1
+b1 TPR t1 "now"
+b1 Theme e1 x1
+b1 Time e1 t1
+b1 time "n.08" t1
+b1 touch "v.01" e1
+b1 REF s1
+b1 Degree e1 s1
+b1 deeply "r.01" s1
+b1 Location e1 x2
+b1 REF x2
+b1 place "n.01" x2

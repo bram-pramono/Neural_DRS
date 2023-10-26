@@ -1,0 +1,21 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 NOT b1 b3
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 hide "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 box "n.01" x4
+b2 REF x5
+b2 Part x5 x4
+b2 Part x5 x6
+b2 group "n.01" x5
+b2 REF x6
+b2 match "n.01" x6
+b2 REF x7
+b2 Manner x2 x7
+b2 well "a.01" x7

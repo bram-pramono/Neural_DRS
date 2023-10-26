@@ -1,0 +1,30 @@
+Burn him now, don't wait for him to escape.
+
+b1 REF e1             %
+b1 Participant e1 x1  %
+b1 event "v.01" e1    %
+                      %
+b1 REF x1             % Burn [0...4]
+b1 Name x1 "burn"     % Burn [0...4]
+b1 person "n.01" x1   % Burn [0...4]
+b2 PRESUPPOSITION b1  % him [5...8]
+b2 REF x2             % him [5...8] him [29...32]
+b2 male "n.02" x2     % him [5...8] him [29...32]
+                      % now [9...12]
+                      % , [12...13]
+b1 REF t1             % do [14...16]
+b1 EQU t1 "now"       % do [14...16]
+b1 time "n.08" t1     % do [14...16]
+b3 Time e2 t1         % do [14...16]
+b1 NEGATION b3        % n't [16...19]
+b3 REF e2             % wait [20...24]
+b3 Theme e2 x2        % wait [20...24]
+b3 wait "v.01" e2     % wait [20...24]
+b3 Participant e2 e3  % for [25...28]
+b2 PRESUPPOSITION b3  % him [29...32]
+                      % to [33...35]
+b3 REF e3             % escape [36...42]
+b3 Source e3 x1       % escape [36...42]
+b3 Theme e3 x2        % escape [36...42]
+b3 escape "v.01" e3   % escape [36...42]
+                      % . [42...43]

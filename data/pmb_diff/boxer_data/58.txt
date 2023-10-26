@@ -1,0 +1,15 @@
+b1 REF x1
+b1 EQU x1 "hearer"
+b1 person "n.01" x1
+b1 EQU t1 "now"
+b1 Time e1 t1
+b1 time "n.08" t1
+b1 REF t1
+b1 REF e1
+b1 Agent e1 x1
+b1 get "v.01" e1
+b1 REF s1
+b1 Theme s1 e1
+b1 early "a.01" s1
+b1 Location s1 t1
+b1 morning "n.01" t1

@@ -1,0 +1,42 @@
+James walked in to wake Samuel at four thirty in the morning.
+
+b1 REF x1              %
+b1 Participant e2 e1   %
+b1 entity "n.01" x1    %
+b3 REF x3              % James [0...5]
+b3 Name x3 "james"     % James [0...5]
+b3 PRESUPPOSITION b1   % James [0...5]
+b3 male "n.02" x3      % James [0...5]
+b1 REF e2              % walked [6...12]
+b1 TPR t1 "now"        % walked [6...12]
+b1 Theme e2 x3         % walked [6...12]
+b1 Time e2 t1          % walked [6...12]
+b1 time "n.08" t1      % walked [6...12]
+b1 walk "v.01" e2      % walked [6...12]
+b1 REF t1              % walked [6...12] the [49...52]
+b1 Location e2 x4      % in [13...15]
+                       % to [16...18]
+b1 REF e1              % wake [19...23]
+b1 Causer e1 x1        % wake [19...23]
+b1 Patient e1 x2       % wake [19...23]
+b1 wake "v.01" e1      % wake [19...23]
+b2 REF x2              %
+b2 PRESUPPOSITION b1   %
+b2 Name x2 "samuel"    % Samuel [24...30]
+b2 male "n.02" x2      % Samuel [24...30]
+b1 Time e2 x6          % at [31...33]
+b1 REF x6              % four [34...38]
+b1 REF x7              % four [34...38]
+b1 EQU x7 "4"          % four [34...38]
+b1 Quantity x6 x7      % four [34...38]
+b1 entity "n.01" x6    % four [34...38]
+b1 quantity "n.01" x7  % four [34...38]
+b1 REF x4              % thirty [39...45]
+b1 REF x5              % thirty [39...45]
+b1 EQU x5 "30"         % thirty [39...45]
+b1 Quantity x4 x5      % thirty [39...45]
+b1 entity "n.01" x4    % thirty [39...45]
+b1 quantity "n.01" x5  % thirty [39...45]
+b1 Location e1 t1      % in [46...48]
+b1 morning "n.01" t1   % morning [53...60]
+                       % . [60...61]

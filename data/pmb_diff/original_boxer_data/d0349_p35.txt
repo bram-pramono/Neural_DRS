@@ -1,0 +1,18 @@
+I cannot tell you more.
+
+b1 REF x1            % I [0...1]
+b1 EQU x1 "speaker"  % I [0...1]
+b1 person "n.01" x1  % I [0...1]
+b2 POSSIBILITY b3    % can [2...5]
+b1 NEGATION b2       % not [5...8]
+b3 REF e1            % tell [9...13]
+b3 Agent e1 x1       % tell [9...13]
+b3 Recipient e1 x3   % tell [9...13]
+b3 Topic e1 x2       % tell [9...13]
+b3 tell "v.01" e1    % tell [9...13]
+b3 REF x3            % you [14...17]
+b3 EQU x3 "hearer"   % you [14...17]
+b3 person "n.01" x3  % you [14...17]
+b3 REF x2            % more [18...22]
+b3 entity "n.01" x2  % more [18...22]
+                     % . [22...23]

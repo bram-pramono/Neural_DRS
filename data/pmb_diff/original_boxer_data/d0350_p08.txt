@@ -1,0 +1,28 @@
+Shut your smart foul mouth and sit down.
+
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 REF e1             % Shut [0...4]
+b1 Agent e1 x1        % Shut [0...4]
+b1 Patient e1 x2      % Shut [0...4]
+b1 shut "v.01" e1     % Shut [0...4]
+b2 REF x2             % your [5...9]
+b2 REF x3             % your [5...9]
+b2 EQU x3 "hearer"    % your [5...9]
+b2 PRESUPPOSITION b1  % your [5...9]
+b2 User x2 x3         % your [5...9]
+b2 person "n.01" x3   % your [5...9]
+b2 REF s1             % smart [10...15]
+b2 AttributeOf s1 x2  % smart [10...15]
+b2 smart "a.01" s1    % smart [10...15]
+b2 REF s2             % foul [16...20]
+b2 AttributeOf s2 x2  % foul [16...20]
+b2 foul "a.01" s2     % foul [16...20]
+b2 mouth "n.01" x2    % mouth [21...26]
+                      % and [27...30]
+b1 REF e2             % sit [31...34]
+b1 Theme e2 x1        % sit [31...34]
+b1 sit "v.01" e2      % sit [31...34]
+                      % down [35...39]
+                      % . [39...40]

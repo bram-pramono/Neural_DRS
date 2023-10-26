@@ -1,0 +1,21 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF t1
+b2 TPR t1 "now"
+b2 time "n.08" t1
+b3 Time e1 t1
+b2 NECESSITY b3
+b3 REF e1
+b3 Agent e1 x1
+b3 Theme e1 x2
+b3 hold "v.01" e1
+b3 REF x2
+b3 hand "n.01" x2
+b3 REF s1
+b3 Location s1 x3
+b3 Theme s1 x2
+b3 underneath "a.01" s1
+b4 REF x3
+b4 PRESUPPOSITION b3
+b4 table "n.01" x3

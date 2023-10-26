@@ -1,0 +1,26 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF t1
+b2 TPR "now" t1
+b2 Time e1 t1
+b2 time "n.08" t1
+b2 REF s1
+b2 Manner e1 s1
+b2 soon "a.01" s1
+b2 REF e1
+b2 Theme e1 x1
+b2 find "v.01" e1
+b2 PRECONDITION b3
+b1 PRESUPPOSITION b3
+b2 REF t2
+b2 TPR t2 "now"
+b2 time "n.08" t2
+b3 REF e2
+b3 Agent e2 x1
+b3 Theme e2 e3
+b3 Time e2 t2
+b3 try "v.01" e2
+b3 REF e3
+b3 Agent e3 x1
+b3 hide "v.01" e3

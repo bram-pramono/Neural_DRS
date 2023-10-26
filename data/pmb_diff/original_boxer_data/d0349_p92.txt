@@ -1,0 +1,24 @@
+Come within the walls to escape the enemy.
+
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 REF e1             % Come [0...4]
+b1 Theme e1 x1        % Come [0...4]
+b1 come "v.01" e1     % Come [0...4]
+b1 Location e1 x2     % within [5...11]
+b2 REF x2             % the [12...15]
+b2 PRESUPPOSITION b1  % the [12...15]
+b2 wall "n.01" x2     % walls [16...21]
+b1 CONTINUATION b4    % to [22...24]
+b4 REF e2             % escape [25...31]
+b4 Agent e2 x1        % escape [25...31]
+b4 Theme e2 x3        % escape [25...31]
+b4 escape "v.01" e2   % escape [25...31]
+b3 REF x3             % the [32...35]
+b3 REF x4             % enemy [36...41]
+b3 PRESUPPOSITION b4  % enemy [36...41]
+b3 Role x3 x4         % enemy [36...41]
+b3 enemy "n.01" x4    % enemy [36...41]
+b3 person "n.01" x3   % enemy [36...41]
+                      % . [41...42]

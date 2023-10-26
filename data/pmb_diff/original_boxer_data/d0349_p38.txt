@@ -1,0 +1,14 @@
+Things were looking up again.
+
+b1 REF x1           % Things [0...6]
+b1 thing "n.01" x1  % Things [0...6]
+b1 REF t1           % were [7...11]
+b1 TPR t1 "now"     % were [7...11]
+b1 Time e1 t1       % were [7...11]
+b1 time "n.08" t1   % were [7...11]
+b1 REF e1           % looking [12...19]
+b1 Theme e1 x1      % looking [12...19]
+b1 look "v.01" e1   % looking [12...19]
+                    % up [20...22]
+                    % again [23...28]
+                    % . [28...29]

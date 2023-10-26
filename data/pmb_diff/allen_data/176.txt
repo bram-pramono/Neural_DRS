@@ -1,0 +1,18 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 talk "v.01" x1
+b2 Theme x1 x2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 thing "n.01" x2
+b1 REF x3
+b1 person "n.01" x3
+b1 REF x4
+b1 Agent x4 x3
+b1 talk "v.01" x4
+b1 Theme x4 x2
+b1 Location x1 x5
+b1 REF x5
+b1 Order x5 "1"
+b1 date "n.01" x5

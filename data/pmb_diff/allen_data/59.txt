@@ -1,0 +1,28 @@
+b1 Time x3 x1
+b1 REF x1
+b1 lunch "n.01" x1
+b2 PRESUPPOSITION b1
+b2 REF x2
+b2 male "n.02" x2
+b1 Time x4 x3
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 REF x5
+b1 ATTRIBUTION b3
+b1 Recipient x4 x5
+b1 Topic x4 x2
+b1 proposition "n.01" x5
+b1 tell "v.01" x4
+b2 PRESUPPOSITION b3
+b3 REF x6
+b3 Experiencer x6 x2
+b3 Stimulus x6 x7
+b3 Time x6 x3
+b3 have "v.01" x6
+b3 REF x7
+b3 REF x8
+b3 Role x7 x8
+b3 person "n.01" x7
+b3 visitor "n.01" x8

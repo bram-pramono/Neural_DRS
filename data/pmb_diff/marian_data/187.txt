@@ -1,0 +1,40 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Manner x3 x2
+b1 just "a.01" x2
+b1 REF x3
+b1 Agent x3 "speaker"
+b1 Theme x3 x4
+b1 pick "v.01" x3
+b1 REF x4
+b1 REF x5
+b1 Theme x4 x5
+b1 dry "n.01" x5
+b1 white "n.01" x4
+b2 DRS x4
+b2 DRS x5
+b1 CONTINUATION b1 b2
+b2 REF x6
+b2 REF x7
+b2 REF x8
+b2 Agent x6 "speaker"
+b2 EQU x8 "now"
+b2 PRP x7 b3
+b2 NOT b1 b4
+b2 Time x6 x8
+b2 drink "v.01" x6
+b2 time "n.08" x8
+b4 REF x9
+b4 entity "n.01" x9
+b3 REF x10
+b3 REF x11
+b3 @-4 "n.01" x9
+b3 PRP x11 b5
+b3 Stimulus x10 x11
+b3 get "v.01" x10
+b5 REF x12
+b5 Theme x12 x9
+b5 drunk "v.01" x12

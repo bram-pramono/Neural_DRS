@@ -1,0 +1,36 @@
+b1 PRESUPPOSITION b3
+b1 REF x1
+b1 male "n.02" x1
+b3 REF e1
+b3 Pivot e1 x1
+b3 Theme e1 x3
+b3 Time e1 t1
+b3 have "v.01" e1
+b3 REF t1
+b3 TPR t1 "now"
+b3 time "n.08" t1
+b2 REF x2
+b2 PRESUPPOSITION b3
+b3 REF x3
+b3 NEQ x3 x2
+b2 shock "n.01" x2
+b3 shock "n.01" x3
+b3 TIN e2 e1
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 person "n.01" x4
+b3 REF e2
+b3 Agent e2 x4
+b3 Proposition e2 b5
+b3 Recipient e2 x1
+b3 Time e2 t1
+b3 tell "v.01" e2
+b1 PRESUPPOSITION b5
+b3 PRESUPPOSITION b5
+b5 Time e3 t1
+b5 REF e3
+b5 Agent e3 x1
+b5 Attribute e3 x5
+b5 move "v.01" e3
+b5 REF x5
+b5 cell "n.01" x5

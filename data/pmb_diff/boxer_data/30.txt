@@ -1,0 +1,14 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 campaign "n.01" x1
+b2 REF t1
+b2 TPR "now" t1
+b2 Time e1 t1
+b2 time "n.08" t1
+b2 REF e1
+b2 Agent e1 x1
+b2 pay "v.01" e1
+b2 Theme e1 x2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x2

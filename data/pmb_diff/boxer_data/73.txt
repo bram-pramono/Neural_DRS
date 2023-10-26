@@ -1,0 +1,24 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 entity "n.01" x2
+b1 NEQ x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b1 REF e1
+b1 REF t1
+b1 Pivot e1 x1
+b1 TPR t1 "now"
+b1 Theme e1 s1
+b1 Time e1 t1
+b1 have "v.01" e1
+b1 time "n.08" t1
+b1 REF s1
+b1 Agent s1 x1
+b1 Patient s1 x3
+b1 dare "a.01" s1
+b1 REF x3
+b1 step "n.01" x3
+b1 Location x3 x4
+b3 REF x4
+b3 PRESUPPOSITION b1
+b3 ring "n.01" x4

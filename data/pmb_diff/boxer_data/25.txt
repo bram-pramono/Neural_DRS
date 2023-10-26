@@ -1,0 +1,19 @@
+b1 REF x1
+b1 EQU x1 "speaker"
+b1 person "n.01" x1
+b1 REF t1
+b1 TPR "now" t1
+b1 time "n.08" t1
+b2 Time e1 t1
+b1 NEGATION b2
+b2 REF e1
+b2 Pivot e1 x1
+b2 Theme e1 e2
+b2 want "v.01" e1
+b2 REF e2
+b2 Agent e2 x1
+b2 Theme e2 x2
+b2 miss "v.01" e2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 this "n.01" x2

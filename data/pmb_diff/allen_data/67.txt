@@ -1,0 +1,15 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Recipient x2 x3
+b2 Theme x2 x4
+b2 save "v.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 bird "n.01" x3
+b2 REF x4
+b2 kill "n.01" x4

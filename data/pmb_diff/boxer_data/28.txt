@@ -1,0 +1,17 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 POSSIBILITY b4
+b2 NEGATION b3
+b4 REF e1
+b4 Agent e1 x1
+b4 Beneficiary e1 e2
+b4 help "v.01" e1
+b4 REF e2
+b4 Agent e2 x1
+b4 feel "v.01" e2
+b4 Theme e2 x2
+b5 REF x2
+b5 Name x2 "alex"
+b5 PRESUPPOSITION b4
+b5 location "n.01" x2

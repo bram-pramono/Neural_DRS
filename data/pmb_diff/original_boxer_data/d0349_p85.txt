@@ -1,0 +1,35 @@
+The bored looking soldier continued looking bored.
+
+b1 REF e2              %
+b1 Participant e2 x1   %
+b1 event "v.01" e2     %
+b1 REF x1              % The [0...3]
+b1 REF s1              % bored [4...9]
+b1 AttributeOf s1 x1   % bored [4...9]
+b1 bored "a.01" s1     % bored [4...9]
+b1 entity "n.01" x1    % bored [4...9]
+b1 REF e1              % looking [10...17]
+b1 Agent e1 x1         % looking [10...17]
+b1 Proposition e1 b2   % looking [10...17]
+b1 looking "v.01" e1   % looking [10...17]
+b2 REF x2              %
+b2 REF x3              % soldier [18...25]
+b2 Role x2 x3          % soldier [18...25]
+b2 person "n.01" x2    % soldier [18...25]
+b2 soldier "n.01" x3   % soldier [18...25]
+b1 REF t1              % continued [26...35]
+b1 PRESUPPOSITION b2   % continued [26...35]
+b1 TPR t1 "now"        % continued [26...35]
+b1 time "n.08" t1      % continued [26...35]
+b2 REF e3              % continued [26...35]
+b2 PartOf e3 e4        % continued [26...35]
+b2 Time e3 t1          % continued [26...35]
+b2 continue "v.01" e3  % continued [26...35]
+b2 REF e4              % looking [36...43]
+b2 Attribute e4 s2     % looking [36...43]
+b2 Theme e4 x2         % looking [36...43]
+b2 look "v.01" e4      % looking [36...43]
+b2 REF s2              % bored [44...49]
+b2 Experiencer s2 x2   % bored [44...49]
+b2 bored "a.01" s2     % bored [44...49]
+                       % . [49...50]

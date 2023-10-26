@@ -1,0 +1,44 @@
+b1 REF e2             %
+b1 Participant e2 x1  %
+b1 event "v.01" e2    %
+b1 REF x1
+b3 EQU x1 e3
+b5 EQU x1 e4
+b1 REF x2
+b1 EQU x2 "speaker"
+b1 person "n.01" x2
+%
+b1 REF e1
+b1 Attribute e1 x1
+b1 through "v.01" e1
+b1 CONTINUATION b4
+b4 REF x5
+b4 EQU x5 "hearer"
+b4 person "n.01" x5
+b1 REF t1
+b1 REF t2
+b1 PRESUPPOSITION b5
+b1 TPR "now" t1
+b1 TPR "now" t2
+b1 time "n.08" t1
+b1 time "n.08" t2
+b3 Time e3 t1
+b5 Time e4 t2
+b3 REF e3
+b3 Experiencer e3 x2
+b3 Stimulus e3 x4
+b3 hear "v.01" e3
+b5 REF e4
+b5 Experiencer e4 x5
+b5 Stimulus e4 x6
+b5 hear "v.01" e4
+b1 NEGATION b3
+b3 REF x4
+b3 entity "n.01" x4
+b4 NEGATION b5
+b5 REF x6
+b5 entity "n.01" x6
+b1 Theme x1 x3
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x3

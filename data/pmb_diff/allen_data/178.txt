@@ -1,0 +1,24 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 REF x2
+b3 REF x3
+b3 Agent x2 x1
+b3 TPR x3 "now"
+b3 Theme x2 x4
+b3 Time x2 x3
+b3 put "v.01" x2
+b3 time "n.08" x3
+b2 REF x4
+b2 PRESUPPOSITION b3
+b2 User x4 x1
+b3 Theme x2 x5
+b3 REF x5
+b3 tea "n.01" x5
+b3 Location x2 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 table "n.02" x6
+b3 Instrument x3 x7
+b3 REF x7
+b3 bang "n.01" x7

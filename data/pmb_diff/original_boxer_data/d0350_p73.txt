@@ -1,0 +1,34 @@
+She wound up talking to Barry about her time in India.
+
+b1 REF x1              %
+b1 Participant e2 e1   %
+b1 entity "n.01" x1    %
+b4 REF x4              % She [0...3] her [36...39]
+b4 PRESUPPOSITION b5   % She [0...3] her [36...39]
+b4 female "n.02" x4    % She [0...3] her [36...39]
+b1 REF e2              % wound [4...9]
+b1 Agent e2 x4         % wound [4...9]
+b1 Theme e2 x5         % wound [4...9]
+b1 wound "v.01" e2     % wound [4...9]
+                       % up [10...12]
+b1 REF e1              % talking [13...20]
+b1 Agent e1 x1         % talking [13...20]
+b1 talk "v.01" e1      % talking [13...20]
+b1 Co-Agent e1 x2      % to [21...23]
+b2 REF x2              %
+b2 PRESUPPOSITION b1   %
+b2 Name x2 "barry"     % Barry [24...29]
+b2 person "n.01" x2    % Barry [24...29]
+b1 REF x6              % about [30...35]
+b1 Theme x5 x6         % about [30...35]
+b1 about "n.01" x6     % about [30...35]
+b5 REF x5              % her [36...39]
+b5 Creator x5 x4       % her [36...39]
+b5 PRESUPPOSITION b1   % her [36...39]
+b5 time "n.01" x5      % time [40...44]
+b1 Location e1 x3      % in [45...47]
+b3 REF x3              % India [48...53]
+b3 Name x3 "india"     % India [48...53]
+b3 PRESUPPOSITION b1   % India [48...53]
+b3 location "n.01" x3  % India [48...53]
+                       % . [53...54]

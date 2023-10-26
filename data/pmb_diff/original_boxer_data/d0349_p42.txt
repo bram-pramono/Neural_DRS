@@ -1,0 +1,12 @@
+A horse has thrown a shoe.
+
+b1 REF x1           % A [0...1]
+b1 horse "n.01" x1  % horse [2...7]
+                    % has [8...11]
+b1 REF e1           % thrown [12...18]
+b1 Agent e1 x1      % thrown [12...18]
+b1 Theme e1 x2      % thrown [12...18]
+b1 throw "v.01" e1  % thrown [12...18]
+b1 REF x2           % a [19...20]
+b1 shoe "n.01" x2   % shoe [21...25]
+                    % . [25...26]

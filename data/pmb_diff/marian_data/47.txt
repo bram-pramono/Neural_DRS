@@ -1,0 +1,24 @@
+b1 REF x1
+b1 Name x1 "thomas"
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 step "v.01" x2
+b2 time "n.08" x3
+b3 DRS x2
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 REF x5
+b3 Agent x4 x5
+b3 NOT b2 b4
+b3 TPR x5 "now"
+b3 Time x4 x5
+b3 shake "v.01" x4
+b3 time "n.08" x5
+b4 REF x6
+b4 PartOf x6 x1
+b4 head "n.01" x6

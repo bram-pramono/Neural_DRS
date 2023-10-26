@@ -1,0 +1,30 @@
+Let's have the gates closed and go home early.
+
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 Participant e1 x3  % Let [0...3]
+b1 REF x3             % 's [3...5]
+b1 EQU x3 "speaker"   % 's [3...5]
+b1 person "n.01" x3   % 's [3...5]
+b1 Beneficiary e1 x1  % have [6...10]
+b2 REF x2             % the [11...14]
+b2 PRESUPPOSITION b1  % the [11...14]
+b2 gate "n.01" x2     % gates [15...20]
+b1 REF e1             % closed [21...27]
+b1 REF t1             % closed [21...27]
+b1 Patient e1 x2      % closed [21...27]
+b1 TPR t1 "now"       % closed [21...27]
+b1 Time e1 t1         % closed [21...27]
+b1 close "v.01" e1    % closed [21...27]
+b1 time "n.08" t1     % closed [21...27]
+b1 CONTINUATION b3    % and [28...31]
+b3 REF e2             % go [32...34]
+b3 Theme e2 x4        % go [32...34]
+b3 go "v.01" e2       % go [32...34]
+b3 REF x4             % home [35...39]
+b3 home "n.01" x4     % home [35...39]
+b3 REF s1             % early [40...45]
+b3 Manner e2 s1       % early [40...45]
+b3 early "a.01" s1    % early [40...45]
+                      % . [45...46]

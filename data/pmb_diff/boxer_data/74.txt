@@ -1,0 +1,17 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 SubOf x1 x2
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 PartOf x2 x3
+b2 city "n.01" x3
+b2 person "n.01" x2
+b1 REF e1
+b1 REF t1
+b1 EQU t1 "now"
+b1 Theme e1 x1
+b1 Time e1 t1
+b1 dress "v.01" e1
+b1 time "n.08" t1
+b1 EQU e1 x1

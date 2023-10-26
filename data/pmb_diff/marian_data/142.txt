@@ -1,0 +1,25 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 wind "v.01" x2
+b2 REF x4
+b2 Agent x4 x1
+b2 talk "v.01" x4
+b2 Co-Agent x4 x5
+b3 REF x5
+b3 Name x5 "barry"
+b3 city "n.01" x5
+b2 Topic x4 x6
+b4 REF x6
+b4 User x6 x1
+b4 time "n.01" x6
+b2 Location x3 x7
+b5 REF x7
+b5 Name x7 "india"
+b5 country "n.02" x7

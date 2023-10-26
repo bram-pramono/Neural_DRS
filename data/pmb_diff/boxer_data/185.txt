@@ -1,0 +1,28 @@
+b1 REF x1
+b1 EQU x1 "speaker"
+b1 person "n.01" x1
+b2 POSSIBILITY b3
+b1 NEGATION b2
+b3 REF e2
+b3 Experiencer e2 x1
+b3 Stimulus e2 x2
+b3 see "v.01" e2
+b3 REF x2
+b3 entity "n.01" x2
+b3 Theme x2 x3
+b3 REF x3
+b3 talk "n.01" x3
+b3 REF e1
+b3 Agent e1 x2
+b3 Theme e1 x4
+b3 get "v.01" e1
+b3 REF x4
+b3 EQU x4 "hearer"
+b3 person "n.01" x4
+b3 REF x5
+b3 Theme e2 x5
+b3 entity "n.01" x5
+b3 Source x5 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 mess "n.01" x6

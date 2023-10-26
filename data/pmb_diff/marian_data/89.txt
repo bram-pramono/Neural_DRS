@@ -1,0 +1,23 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 @-4 "n.01" x1
+b2 PRP x4 b3
+b2 Stimulus x3 x4
+b2 wish "v.01" x3
+b3 POS b4
+b4 REF x5
+b4 Agent x5 x5
+b4 talk "v.01" x5
+b4 Co-Agent x5 x6
+b5 REF x6
+b5 Of x7 x1
+b5 REF x7
+b5 Role x6 x7
+b5 dad "n.01" x7
+b5 person "n.01" x6

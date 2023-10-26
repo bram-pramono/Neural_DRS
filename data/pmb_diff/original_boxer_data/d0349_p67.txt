@@ -1,0 +1,22 @@
+Have a carriage sent for us immediately.
+
+b1 EQU t1 "hearer"        %
+b1 person "n.01" t1       %
+b1 EQU t1 "now"           % Have [0...4]
+b1 REF t1                 % Have [0...4] a [5...6]
+b1 carriage "n.01" t1     % carriage [7...15]
+b1 REF e1                 % sent [16...20]
+b1 REF t2                 % sent [16...20]
+b1 TPR t2 "now"           % sent [16...20]
+b1 Theme e1 t1            % sent [16...20]
+b1 Time e1 t2             % sent [16...20]
+b1 send "v.01" e1         % sent [16...20]
+b1 time "n.08" t2         % sent [16...20]
+b1 Co-Theme e1 x1         % for [21...24]
+b1 REF x1                 % us [25...27]
+b1 Sub x1 "speaker"       % us [25...27]
+b1 person "n.01" x1       % us [25...27]
+b1 REF s1                 % immediately [28...39]
+b1 Manner e1 s1           % immediately [28...39]
+b1 immediately "a.01" s1  % immediately [28...39]
+                          % . [39...40]

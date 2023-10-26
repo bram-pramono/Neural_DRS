@@ -1,0 +1,12 @@
+b1 REF x1
+b1 man "n.01" x1
+b2 REF x2
+b2 PartOf x2 x1
+b2 hair "n.01" x2
+b3 REF x3
+b3 EQU x3 "now"
+b3 Time x4 x3
+b3 time "n.08" x3
+b3 REF x4
+b3 Colour x2 x4
+b3 black "a.01" x4

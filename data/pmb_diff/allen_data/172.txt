@@ -1,0 +1,29 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 Order x1 "1"
+b1 knife "n.02" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 catch "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 Location x2 x4
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 User x4 x5
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 female "n.02" x5
+b3 skirt "n.01" x4
+b2 CONTINUATION b5
+b3 PRESUPPOSITION b5
+b5 REF x6
+b5 Agent x6 x5
+b5 Patient x6 x7
+b5 Time x6 x3
+b5 shake "v.01" x6
+b6 REF x7
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x7

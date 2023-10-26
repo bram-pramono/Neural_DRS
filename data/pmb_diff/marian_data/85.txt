@@ -1,0 +1,17 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 NOT b2 "hearer"
+b2 die "v.01" x2
+b2 Theme x2 x3
+b2 REF x3
+b2 cold "n.01" x3
+b2 TPR x4 x2
+b2 REF x4
+b2 die "v.01" x4
+b2 Causer x4 x5
+b2 REF x5
+b2 battle "n.01" x5

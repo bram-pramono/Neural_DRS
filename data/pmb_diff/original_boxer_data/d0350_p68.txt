@@ -1,0 +1,40 @@
+Lawrence rubbed the back of his neck and hung his head.
+
+b1 REF e3              %
+b1 Participant e3 x1   %
+b1 event "v.01" e3     %
+b1 REF x1              % Lawrence [0...8]
+b1 Name x1 "lawrence"  % Lawrence [0...8]
+b1 person "n.01" x1    % Lawrence [0...8]
+                       %
+b1 REF e1              % rubbed [9...15]
+b1 Agent e1 x2         % rubbed [9...15]
+b1 Theme e1 x1         % rubbed [9...15]
+b1 Time e1 t1          % rubbed [9...15]
+b1 rub "v.01" e1       % rubbed [9...15]
+b1 REF t1              % rubbed [9...15] hung [41...45]
+b1 TPR t1 "now"        % rubbed [9...15] hung [41...45]
+b1 time "n.08" t1      % rubbed [9...15] hung [41...45]
+b2 REF x2              % the [16...19]
+b2 PRESUPPOSITION b1   % the [16...19]
+b2 back "n.01" x2      % back [20...24]
+b1 PartOf e1 x4        % of [25...27]
+b4 REF x4              % his [28...31]
+b4 PRESUPPOSITION b1   % his [28...31]
+b4 User x4 x3          % his [28...31]
+b3 REF x3              % his [28...31] his [46...49]
+b3 PRESUPPOSITION b4   % his [28...31] his [46...49]
+b3 male "n.02" x3      % his [28...31] his [46...49]
+b4 neck "n.01" x4      % neck [32...36]
+                       % and [37...40]
+                       %
+b1 REF e2              % hung [41...45]
+b1 Agent e2 x1         % hung [41...45]
+b1 Theme e2 x5         % hung [41...45]
+b1 Time e2 t1          % hung [41...45]
+b1 hang "v.01" e2      % hung [41...45]
+b5 REF x5              % his [46...49]
+b5 PRESUPPOSITION b1   % his [46...49]
+b5 PartOf x5 x3        % his [46...49]
+b5 head "n.01" x5      % head [50...54]
+                       % . [54...55]

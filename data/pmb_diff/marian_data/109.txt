@@ -1,0 +1,19 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 underneath "v.01" x1
+b2 REF x2
+b2 PartOf x2 x3
+b3 REF x3
+b3 table "n.02" x3
+b2 hand "n.01" x2
+b1 REF x4
+b1 TPR x4 "now"
+b1 Time x5 x4
+b1 time "n.08" x4
+b1 REF x5
+b1 Agent x5 x2
+b1 Theme x5 x6
+b1 grip "v.01" x5
+b4 REF x6
+b4 chair "n.01" x6

@@ -1,0 +1,25 @@
+b1 NEGATION b2
+b2 REF x1
+b2 NEGATION b3
+b2 REF x2
+b2 Role x1 x2
+b2 person "n.01" x1
+b2 villager "n.01" x2
+b1 REF t1
+b1 PRESUPPOSITION b3
+b1 TPR t1 "now"
+b1 time "n.08" t1
+b3 REF e1
+b3 Agent e1 x1
+b3 Theme e1 x3
+b3 Time e1 t1
+b3 take "v.01" e1
+b3 REF x3
+b3 step "n.01" x3
+b3 Attribute e1 x4
+b3 REF x4
+b3 REF x5
+b3 EQU x5 "1"
+b3 Quantity x4 x5
+b3 quantity "n.01" x5
+b3 man "n.01" x4

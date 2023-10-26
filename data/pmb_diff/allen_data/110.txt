@@ -1,0 +1,23 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 Name x1 "peter"
+b1 male "n.02" x1
+b3 REF x2
+b3 Experiencer x2 x1
+b3 Stimulus x2 x4
+b3 Time x2 x3
+b3 hear "v.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b2 PRESUPPOSITION b1
+b3 ALTERNATION b4
+b5 REF x4
+b5 Name x4 "bible"
+b5 PRESUPPOSITION b4
+b5 person "n.01" x4
+b6 Time x5 x2
+b4 NEGATION b6
+b6 REF x5
+b6 Agent x5 x4
+b6 care "v.01" x5

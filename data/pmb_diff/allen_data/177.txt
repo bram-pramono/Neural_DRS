@@ -1,0 +1,30 @@
+b1 REF x1
+b1 Causer x3 x1
+b1 EQU x1 "?"
+b1 reason "n.01" x1
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 REF x2
+b2 REF x3
+b2 time "n.08" x3
+b1 NEGATION b2
+b2 REF x4
+b2 Agent x4 "hearer"
+b2 Recipient x4 "speaker"
+b2 Topic x4 x5
+b2 tell "v.01" x4
+b2 REF x5
+b2 entity "n.01" x5
+b2 REF x6
+b2 TPR x7 "now"
+b2 Theme x6 x5
+b2 happen "v.01" x6
+b2 Time x6 x7
+b2 REF x7
+b2 time "n.08" x7
+b2 DayOfWeek x7 "saturday"
+b2 REF x8
+b2 step "n.01" x8
+b2 Instrument x6 x9
+b2 REF x9
+b2 step "n.01" x9

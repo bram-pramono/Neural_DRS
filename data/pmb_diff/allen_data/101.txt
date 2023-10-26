@@ -1,0 +1,19 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 Name x1 "charles"
+b1 male "n.02" x1
+b3 REF x2
+b3 TPR x2 "now"
+b3 Time x3 x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Experiencer x3 x1
+b3 sick "a.01" x3
+b3 Stimulus x3 x4
+b3 REF x4
+b3 pit "n.01" x4
+b3 PartOf x4 x5
+b2 REF x5
+b2 PRESUPPOSITION b3
+b2 PartOf x5 x1
+b2 stomach "n.01" x5
