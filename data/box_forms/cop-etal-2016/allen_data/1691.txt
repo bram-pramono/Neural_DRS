@@ -1,0 +1,58 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 Beneficiary x2 "speaker"
+b2 Product x2 x3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 make "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 Theme x5 "speaker"
+b3 come "v.01" x5
+b1 REF x6
+b1 Manner x2 x6
+b1 right "a.01" x6
+b1 CONTINUATION b4
+b4 REF x7
+b4 Agent x7 x2
+b4 Theme x7 x8
+b4 sign "v.01" x7
+b5 REF x8
+b5 Bearer x8 "speaker"
+b5 PRESUPPOSITION b4
+b5 name "n.01" x8
+b4 Location x7 x9
+b6 REF x9
+b6 bottom "n.01" x9
+b6 PartOf x9 x10
+b6 REF x10
+b6 REF x11
+b6 Attribute x10 x11
+b6 PRESUPPOSITION b4
+b6 Value x11 "+"
+b6 long "a.01" x11
+b6 paper "n.01" x10
+b4 REF x12
+b4 Location x13 x12
+b4 SZP x13 x12
+b4 location "n.01" x12
+b4 REF x13
+b4 paper "n.01" x13
+b4 REF x14
+b4 Location x15 x14
+b4 Name x14 "?"
+b4 location "n.01" x14
+b4 REF x15
+b4 Causer x16 x15
+b4 EQU x15 "?"
+b4 reason "n.01" x15
+b4 REF x16
+b4 Agent x16 x7
+b4 sign "v.01" x16

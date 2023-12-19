@@ -1,0 +1,34 @@
+b1 REF x1
+b1 Destination x1 x3
+b1 Theme x1 "speaker"
+b1 Time x1 x2
+b1 reach "v.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 house "n.01" x3
+b3 REF x4
+b3 Of x5 "speaker"
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 Role x4 x5
+b3 friend "n.01" x5
+b3 person "n.01" x4
+b1 REF x6
+b1 Agent x6 x4
+b1 Theme x6 x8
+b1 Time x6 x2
+b1 wave "v.02" x6
+b4 REF x7
+b4 Name x7 "mary"
+b4 PRESUPPOSITION b5
+b4 female "n.02" x7
+b5 REF x8
+b5 PRESUPPOSITION b1
+b5 User x8 x7
+b5 offer "n.01" x8
+b5 Theme x8 x9
+b5 REF x9
+b5 tea "n.01" x9

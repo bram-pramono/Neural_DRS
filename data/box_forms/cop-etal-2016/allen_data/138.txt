@@ -1,0 +1,30 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Title x1 x2
+b1 miss "n.03" x2
+b1 female "n.02" x1
+b2 Context x4 x3
+b2 REF x3
+b2 Theme x3 x1
+b2 particular "v.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Theme x5 x6
+b3 Time x5 x4
+b3 take "v.01" x5
+b2 NEGATION b3
+b3 REF x6
+b3 pain "n.01" x6
+b3 REF x7
+b3 Agent x7 x6
+b3 Patient x7 x8
+b3 conceal "v.01" x7
+b1 PRESUPPOSITION b4
+b4 REF x8
+b4 Creator x8 x2
+b4 PRESUPPOSITION b3
+b4 feeling "n.01" x8

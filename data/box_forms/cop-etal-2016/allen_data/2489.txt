@@ -1,0 +1,22 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Theme x2 x3
+b2 Time x2 x1
+b2 have_on "v.01" x2
+b1 NEGATION b2
+b2 REF x3
+b2 quarrel "n.01" x3
+b2 Co-Agent x3 x4
+b3 REF x4
+b3 Of x6 "speaker"
+b3 REF x5
+b3 Attribute x4 x5
+b3 PRESUPPOSITION b2
+b3 dear "a.01" x5
+b3 REF x6
+b3 Role x4 x6
+b3 person "n.01" x4
+b3 wife "n.01" x6

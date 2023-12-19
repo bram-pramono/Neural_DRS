@@ -1,0 +1,39 @@
+b1 REF x1
+b2 REF x2
+b2 Of x3 "speaker"
+b2 REF x3
+b2 PRESUPPOSITION b3
+b2 Role x2 x3
+b2 dear "n.01" x3
+b2 person "n.01" x2
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 ATTRIBUTION b4
+b3 Agent x4 x2
+b3 TPR x6 "now"
+b3 Time x4 x6
+b3 Topic x4 x5
+b3 proposition "n.01" x5
+b3 say "v.01" x4
+b3 time "n.08" x6
+b3 REF x7
+b3 Manner x4 x7
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x8
+b6 REF x9
+b6 REF x10
+b6 REF x11
+b6 ATTRIBUTION b7
+b6 Agent x9 x8
+b6 EQU x11 "now"
+b6 Time x9 x11
+b6 Topic x9 x10
+b6 be "v.01" x9
+b6 proposition "n.01" x10
+b6 time "n.08" x11
+b5 NEGATION b6
+b7 REF x12
+b7 Experiencer x12 "speaker"
+b7 Stimulus x12 "hearer"

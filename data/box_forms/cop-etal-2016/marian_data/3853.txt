@@ -1,0 +1,17 @@
+b1 TPR x1 "now"
+b1 Time x2 x1
+b1 REF x1
+b1 time "n.08" x1
+b2 Experiencer x1
+b1 REF x2
+b1 REF x3
+b1 Agent x3 "speaker"
+b1 PRP x2 b3
+b1 Topic x3 x2
+b1 glad "a.01" x3
+b3 REF x4
+b3 @-4 "n.01" "speaker"
+b3 Stimulus x4 x5
+b3 see "v.01" x4
+b3 REF x5
+b3 person "n.01" x5

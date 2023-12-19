@@ -1,0 +1,17 @@
+b1 Experiencer x1
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 indeed "v.01" x1
+b2 DRS x1
+b1 CONTINUATION b1 b2
+b2 REF x2
+b2 REF x3
+b2 Agent x2 "hearer"
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 say "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 Name x4 "cynthia"
+b3 country "n.02" x4

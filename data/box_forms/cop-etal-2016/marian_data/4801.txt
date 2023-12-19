@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 be "v.03" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 REF x4
+b1 REF x5
+b1 LES x4 x5
+b1 Quantity x3 x4
+b1 quantity "n.01" x4
+b1 quantity "n.01" x5
+b1 EQU x5 "1"
+b1 Unit x3 "person"
+b1 measure "n.02" x3
+b1 POS b2
+b2 POS b3
+b3 POS b4
+b4 POS b5
+b5 POS b6
+b6 POS b7
+b7 POS b8
+b8 POS b9
+b9 POS b10
+b10 POS b11
+b11 POS b12
+b12 POS b13
+b13 POS b14
+b14 POS b15
+b15 POS b16
+b16 POS b17
+b17 POS b18
+b18 POS b19
+b19 POS b20
+b20 POS b21
+b21 POS b22
+b22 POS b23
+b23 POS b24
+b24 POS b25
+b25 POS b26
+b26 POS b27
+b27 POS b28
+b28 POS b29
+b29 POS b30
+b30 POS b31
+b31 POS b32
+b32 POS b33
+b33 POS b34
+b34 POS b35
+b35 POS b36
+b36 POS b37
+b37 POS b38
+b38 POS b39
+b39 POS b40
+b40 POS b41
+b41 POS b42
+b42 POS b43
+b43 POS b44
+b44 POS b45
+b45 POS b46
+b46 POS b47
+b47 POS b48
+b48 POS b49
+b49 POS b50
+b50 POS b51
+b51 POS b52
+b52 POS b53
+b53 POS b54
+b54 POS b55
+b55 POS b56
+b56 POS b57
+b57 POS b58
+b58 POS b59

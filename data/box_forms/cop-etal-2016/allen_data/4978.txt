@@ -1,0 +1,11 @@
+b1 REF x1
+b1 Creator x1 "hearer"
+b1 PRESUPPOSITION b2
+b1 help "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 be "a.01" x2
+b2 Theme x2 x3
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 Quantity x3 "+"

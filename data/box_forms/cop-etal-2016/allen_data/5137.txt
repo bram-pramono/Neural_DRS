@@ -1,0 +1,46 @@
+b1 REF x1
+b1 REF x2
+b1 Experiencer x1 "speaker"
+b1 Stimulus x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 have "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 watch "n.01" x3
+b1 REF x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 Theme x4 x3
+b1 Time x4 x5
+b1 keep "v.01" x4
+b1 time "n.08" x5
+b1 Location x4 x6
+b2 REF x6
+b2 REF x7
+b2 PRESUPPOSITION b1
+b2 Title x6 x7
+b2 mr "n.01" x7
+b2 male "n.02" x6
+b1 REF x8
+b1 REF x9
+b1 ATTRIBUTION b3
+b1 Agent x8 x2
+b1 Topic x8 x9
+b1 hope "v.01" x8
+b1 proposition "n.01" x9
+b4 REF x10
+b4 PRESUPPOSITION b5
+b4 male "n.02" x10
+b3 REF x11
+b3 PRESUPPOSITION b5
+b3 TPR "now" x11
+b3 time "n.08" x11
+b5 Time x12 x11
+b5 REF x12
+b5 Agent x12 x10
+b5 Theme x12 "speaker"
+b5 lead "v.01" x12
+b5 Destination x12 x13
+b6 REF x13
+b6 PRESUPPOSITION b5

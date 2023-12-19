@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Theme x1 "hearer"
+b1 come "v.01" x1
+b1 CONTINUATION b2
+b2 REF x2
+b2 Patient x2 "speaker"
+b2 spring "v.01" x2

@@ -1,0 +1,10 @@
+b1 REF x1
+b1 must "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b2 Experiencer x2
+b3 REF x3
+b3 Agent x3 x1
+b3 hush_up "v.01" x3

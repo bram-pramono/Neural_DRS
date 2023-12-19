@@ -1,0 +1,3 @@
+b1 REF x1
+b1 NOT b1 "hearer"
+b1 burnt "v.01" x1

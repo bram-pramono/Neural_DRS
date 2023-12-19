@@ -1,0 +1,21 @@
+b1 REF x1
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 Asset x2 x4
+b2 EQU x3 "now"
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 use "v.01" x2
+b3 REF x4
+b3 pure_hydro@-8chloride "n.01" x4
+b3 Theme x4 x5
+b3 REF x5
+b3 strychnine "n.01" x5
+b2 REF x6
+b2 Manner x3 x6
+b2 occasionally "r.01" x6
+b2 Goal x4 x7
+b2 REF x7
+b2 pill "n.01" x7

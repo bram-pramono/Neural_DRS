@@ -1,0 +1,23 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 proposition "n.01" x3
+b2 say "v.01" x2
+b2 time "n.08" x4
+b1 PRESUPPOSITION b3
+b4 TPR x5 "now"
+b4 Time x6 x5
+b4 REF x5
+b4 time "n.08" x5
+b3 NEGATION b4
+b4 REF x6
+b4 Experiencer x6 x1
+b4 mind "v.01" x6

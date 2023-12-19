@@ -1,0 +1,26 @@
+b1 REF x1
+b1 suggestive "n.01" x1
+b1 DIS b2 b3
+b4 REF x2
+b4 Name x2 "john"
+b4 male "n.02" x2
+b1 REF x3
+b1 EQU x3 "now"
+b1 time "n.08" x3
+b2 Time x4 x3
+b2 REF x4
+b2 Theme x4 x2
+b2 grateful "a.01" x4
+b2 Destination x4 x5
+b5 REF x5
+b5 Name x5 "monsieur~poirot"
+b5 male "n.02" x5
+b2 REF x6
+b2 Theme x4 x7
+b2 entity "n.01" x6
+b2 REF x7
+b2 Agent x7 x6
+b2 NOT b5 b6
+b2 elucidate "v.01" x7
+b6 REF x8
+b6 matter "n.01" x8

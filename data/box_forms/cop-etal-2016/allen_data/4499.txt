@@ -1,0 +1,41 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 place "v.01" x2
+b2 time "n.08" x3
+b2 Theme x2 x4
+b2 REF x4
+b2 story "n.01" x4
+b3 REF x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 Patient x6 x5
+b3 destroy "v.01" x6
+b3 sail "n.01" x5
+b2 REF x7
+b2 Theme x7 x5
+b2 be "a.01" x7
+b2 Location x7 x8
+b2 REF x8
+b2 favour "n.01" x8
+b2 PartOf x8 x11
+b4 REF x9
+b4 PRESUPPOSITION b5
+b4 REF x10
+b4 PRESUPPOSITION b2
+b4 Role x9 x10
+b4 deceased "n.01" x10
+b4 lady "n.01" x9
+b5 REF x11
+b5 Of x12 x9
+b5 REF x12
+b5 PRESUPPOSITION b2
+b5 Role x11 x12
+b5 husband "n.01" x12
+b5 person "n.01" x11

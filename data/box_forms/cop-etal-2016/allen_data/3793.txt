@@ -1,0 +1,47 @@
+b1 CONDITION b2
+b3 Location x4 x1
+b4 REF x1
+b4 REF x2
+b4 Attribute x1 x2
+b4 PRESUPPOSITION b3
+b4 same "a.01" x2
+b4 time "n.01" x1
+b5 REF x3
+b5 PRESUPPOSITION b3
+b5 entity "n.01" x3
+b3 REF x4
+b3 TPR "now" x4
+b3 Time x5 x4
+b3 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x3
+b3 Topic x5 x7
+b3 be "v.01" x5
+b3 REF x6
+b3 REF x7
+b3 ATTRIBUTION b6
+b3 Agent x7 x3
+b3 Topic x7 x6
+b3 proposition "n.01" x6
+b3 wise "a.01" x7
+b6 REF x8
+b6 Agent x8 x3
+b6 Theme x8 x9
+b6 REF x9
+b6 suspicion "n.01" x9
+b7 REF x10
+b7 PRESUPPOSITION b8
+b7 male "n.02" x10
+b6 POSSIBILITY b9
+b9 REF x11
+b9 Pivot x11 x4
+b9 Theme x11 x10
+b9 have "v.01" x11
+b7 REF x12
+b7 Experiencer x12 x5
+b7 Stimulus x12 x9
+b7 REF x13
+b7 Experiencer x13 x10
+b7 PRESUPPOSITION b9
+b7 Stimulus x13 x9
+b7 suspect "v.01" x13

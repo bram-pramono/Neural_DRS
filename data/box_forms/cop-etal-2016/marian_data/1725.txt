@@ -1,0 +1,13 @@
+b1 Time x2 x1
+b2 REF x1
+b2 male "n.02" x1
+b1 NEC b3
+b3 Experiencer x1
+b3 REF x2
+b3 time "n.08" x2
+b3 REF x3
+b3 @-4 "n.01" "speaker"
+b3 know "v.01" x3
+b3 Stimulus x3 x4
+b4 REF x4
+b4 will "n.01" x4

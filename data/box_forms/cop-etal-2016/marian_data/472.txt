@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 catch "v.01" x2
+b1 sight "n.01" x1
+b1 PartOf x1 x3
+b2 REF x3
+b2 Name x3 "dorcas"
+b2 island "n.01" x3
+b1 EQU x1 x4
+b3 REF x4
+b3 parlourmaid "n.01" x4
+b1 REF x5
+b1 Theme x5 x3
+b1 go "v.01" x5
+b1 Destination x5 x6
+b4 REF x6
+b4 ding@-8room "n.01" x6
+b5 REF x7
+b5 female "n.02" x7
+b2 REF x8
+b2 REF x9
+b2 TPR x9 "now"
+b2 Theme x8 x7
+b2 Time x8 x9
+b2 call "v.01" x8
+b2 time "n.08" x9
+b2 Destination x8 x10
+b6 REF x10
+b6 ding@-8room "n.01" x10
+b7 DRS x7
+b7 DRS x10
+b6 CONTINUATION b3 b7
+b7 REF x11
+b7 REF x12
+b7 Agent x11 x6
+b7 TPR x12 "now"
+b7 Time x11 x12
+b7 call "v.01" x11
+b7 time "n.08" x12
+b7 Co-Agent x11 x13
+b8 REF x13
+b8 ding@-8room "n.01" x13
+b9 DRS x10
+b9 DRS x13
+b8 CONTINUATION b5 b9
+b9 REF x14
+b9 REF x15
+b9 Agent x14 x9
+b9 TPR x15 "now"
+b9 Time x14 x15
+b9 call "v.01" x14
+b9 time "n.08" x15
+b9 Co-Agent x14 x16
+b10 REF x16
+b10 ding@-8room "n.01" x16
+b11 DRS x13
+b11 DRS x16
+b10 CONTINUATION b7 b11
+b11 REF x17
+b11 REF x18
+b11 Agent x17 x12
+b11 TPR x18 "now"
+b11 Time x17 x18
+b11 call "v.01" x17
+b11 time "n.08" x18
+b11 Co-Agent x17 x19
+b12 REF x19
+b12 ding@-8room "n.01" x19
+b13 DRS x16
+b13 DRS x19
+b12 CONTINUATION b9 b13
+b13 REF x20
+b13 REF x21
+b13 Agent x20 x15

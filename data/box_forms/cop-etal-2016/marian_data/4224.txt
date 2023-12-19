@@ -1,0 +1,25 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 be "v.01" x2
+b2 REF x4
+b2 EQU x4 "now"
+b2 time "n.08" x4
+b4 REF x5
+b4 finger@-8mark "n.01" x5
+b3 REF x6
+b3 REF x7
+b3 Agent x6 x5
+b3 PRP x7 b5
+b3 Time x6 x4
+b3 Topic x6 x7
+b3 remain "v.01" x6
+b5 REF x8
+b5 @-4 "n.01" x5
+b5 undisturbed "a.01" x8
+b5 Stimulus x8 x2

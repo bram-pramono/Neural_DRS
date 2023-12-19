@@ -1,0 +1,37 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 REF x2
+b2 Agent x1 "speaker"
+b2 PRP x2 b4
+b2 Topic x1 x2
+b2 help "v.01" x1
+b4 REF x3
+b4 Agent x3 "speaker"
+b4 NOT b4 b5
+b4 rejoice "v.02" x3
+b5 REF x4
+b5 thing "n.01" x4
+b6 DRS x1
+b6 DRS x4
+b5 CONTINUATION b2 b6
+b6 REF x5
+b6 Quantity x5 "1"
+b6 entity "n.01" x5
+b6 PartOf x5 x6
+b7 REF x6
+b7 User x6 x4
+b7 REF x7
+b7 Theme x7 x6
+b7 little "a.01" x7
+b7 idea "n.01" x6
+b6 REF x8
+b6 REF x9
+b6 TPR x9 "now"
+b6 Theme x8 x6
+b6 Time x8 x9
+b6 come "v.01" x8
+b6 time "n.08" x9
+b6 Destination x8 x10
+b6 REF x10
+b6 naught "n.01" x10

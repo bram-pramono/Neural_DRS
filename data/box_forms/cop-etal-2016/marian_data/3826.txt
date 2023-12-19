@@ -1,0 +1,19 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 POS b3
+b4 Experiencer x1
+b3 REF x2
+b3 Theme x2 x1
+b3 implicated "a.01" x2
+b3 NEC b5
+b3 REF x3
+b3 TPR x3 "now"
+b3 time "n.08" x3
+b5 REF x4
+b5 @-4 "n.01" "speaker"
+b5 Stimulus x4 x5
+b5 Time x4 x3
+b5 hear "v.01" x4
+b5 REF x5
+b5 hint "n.01" x5
+b5 Theme x5 x2

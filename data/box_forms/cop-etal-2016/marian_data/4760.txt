@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 NEC b3
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b3 REF x3
+b3 Theme x3 x1
+b3 mr "v.01" x3
+b4 DRS x1
+b4 DRS x3
+b3 CONTINUATION b1 b4
+b4 REF x4
+b4 REF x5
+b4 Destination x4 x6
+b4 TPR x5 "now"
+b4 Theme x4 x5
+b4 Time x4 x5
+b4 enter "v.01" x4
+b4 time "n.08" x5
+b5 REF x6
+b5 REF x7
+b5 Role x6 x7
+b5 decease "n.01" x7
+b5 person "n.01" x6
+b3 REF x8
+b3 REF x9
+b3 Destination x8 x10
+b3 TPR x9 "now"
+b3 Theme x8 x6
+b3 Time x8 x9
+b3 enter "v.01" x8
+b3 time "n.08" x9
+b6 REF x10
+b6 REF x11
+b6 Role x10 x11
+b6 decease "n.01" x11
+b6 person "n.01" x10
+b3 REF x12
+b3 REF x13
+b3 Destination x12 x14
+b3 TPR x13 "now"
+b3 Theme x12 x10
+b3 Time x12 x13
+b3 enter "v.01" x12
+b3 time "n.08" x13
+b7 REF x14
+b7 REF x15
+b7 Role x14 x15
+b7 decease "n.01" x15
+b7 person "n.01" x14
+b5 REF x16
+b5 REF x17
+b5 Destination x16 x18
+b5 TPR x17 "now"
+b5 Theme x16 x14
+b5 Time x16 x17
+b5 enter "v.01" x16
+b5 time "n.08" x17
+b8 REF x18
+b8 REF x19
+b8 Role x18 x19
+b8 decease "n.01" x19
+b8 person "n.01" x18
+b5 REF x20
+b5 REF x21
+b5 Destination x20 x22
+b5 TPR x21 "now"
+b5 Theme x20 x18
+b5 Time x20 x21
+b5 enter "v.01" x20
+b5 time "n.08" x21
+b9 REF x22
+b9 REF x23

@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 foregone "a.01" x5
+b2 REF x6
+b2 PRP x6 b3
+b2 Topic x4 x6
+b2 conclusion "n.01" x4
+b4 REF x7
+b4 male "n.02" x7
+b2 REF x8
+b2 TPR "now" x8
+b2 time "n.08" x8
+b3 Time x9 x8
+b3 REF x9
+b3 Theme x9 x7
+b3 suspect "v.01" x9
+b3 Attribute x9 x10
+b3 REF x10
+b3 man "n.01" x10
+b3 PartOf x10 x11
+b5 REF x11
+b5 REF x12
+b5 Theme x12 x11
+b5 peculiar "a.01" x12
+b5 appearance "n.01" x11
+b5 PartOf x11 x13
+b5 REF x13
+b5 man "n.01" x13
+b5 PartOf x13 x14
+b5 REF x14
+b5 man "n.01" x14
+b5 PartOf x14 x15
+b5 REF x15
+b5 man "n.01" x15
+b5 PartOf x15 x16
+b6 REF x16
+b6 REF x17
+b6 Theme x17 x16
+b6 peculiar "a.01" x17
+b6 appearance "n.01" x16
+b6 PartOf x16 x18
+b6 REF x18
+b6 man "n.01" x18
+b6 PartOf x18 x19
+b6 REF x19
+b6 man "n.01" x19
+b6 PartOf x19 x20
+b6 REF x20
+b6 man "n.01" x20
+b6 PartOf x20 x21
+b6 REF x21
+b6 man "n.01" x21
+b6 PartOf x21 x22
+b6 REF x22
+b6 man "n.01" x22
+b6 PartOf x22 x23
+b6 REF x23
+b6 man "n.01" x23
+b6 PartOf x23 x24
+b6 REF x24
+b6 man "n.01" x24
+b6 PartOf x24 x25
+b6 REF x25
+b6 man "n.01" x25

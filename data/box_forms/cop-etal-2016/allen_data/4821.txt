@@ -1,0 +1,74 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x5 x1
+b2 Time x5 x2
+b2 REF x2
+b2 ClockTime x2 "16:00"
+b2 time "n.08" x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x3
+b2 REF x4
+b2 REF x5
+b2 Agent x4 x3
+b2 Patient x4 x6
+b2 TPR x5 "now"
+b2 Time x4 x5
+b2 frighten "v.01" x4
+b2 time "n.08" x5
+b4 REF x6
+b4 PRESUPPOSITION b5
+b4 female "n.02" x6
+b5 REF x7
+b5 Of x8 x6
+b5 REF x8
+b5 PRESUPPOSITION b2
+b5 Role x7 x8
+b5 daughter "n.01" x8
+b5 person "n.01" x7
+b2 REF x9
+b2 Agent x9 x2
+b2 Topic x9 x10
+b2 say "v.01" x9
+b2 REF x10
+b2 Manner x9 x10
+b2 angrily "r.01" x10
+b6 REF x11
+b6 REF x12
+b6 REF x13
+b6 ATTRIBUTION b7
+b6 EQU x13 "now"
+b6 Pivot x11 "hearer"
+b6 Theme x11 x12
+b6 Time x11 x13
+b6 need "v.01" x11
+b6 proposition "n.01" x12
+b6 time "n.08" x13
+b7 REF x14
+b7 fear "n.01" x14
+b7 Content x14 x15
+b7 REF x15
+b7 publicity "n.01" x15
+b8 REF x16
+b8 scandal "n.01" x16
+b8 Theme x16 x17
+b8 REF x17
+b8 REF x18
+b8 Role x17 x18
+b8 husband "n.01" x18
+b8 person "n.01" x17
+b8 REF x19
+b8 Sub x19 x17
+b8 Sub x19 x20
+b8 entity "n.01" x19
+b8 REF x20
+b8 REF x21
+b8 Role x20 x21
+b8 person "n.01" x20
+b8 wife "n.01" x21
+b7 REF x22
+b7 TPR "now" x22
+b7 time "n.08" x22
+b8 Time x23 x22
+b8 REF x23

@@ -1,0 +1,34 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 further "n.01" x2
+b1 person "n.01" x1
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x1
+b1 TPR x4 "now"
+b1 Theme x3 x5
+b1 Time x3 x4
+b1 describe "v.01" x3
+b1 time "n.08" x4
+b2 REF x5
+b2 User x5 x5
+b2 awakening "n.01" x5
+b1 Location x3 x6
+b3 REF x6
+b3 morning "n.01" x6
+b4 DRS x3
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 circumstance "n.01" x7
+b4 PartOf x7 x8
+b5 REF x8
+b5 Of x9 x6
+b5 REF x9
+b5 Role x8 x9
+b5 mother "n.01" x9
+b5 person "n.01" x8
+b4 REF x10
+b4 Of x10 x8
+b4 death "n.01" x10

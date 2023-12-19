@@ -1,0 +1,51 @@
+b1 REF x1
+b1 REF x2
+b1 Pivot x1 "speaker"
+b1 TPR x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 have "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 REF x4
+b1 Attribute x3 x4
+b1 Value x4 "+"
+b1 warm "a.01" x4
+b1 moment "n.01" x3
+b1 Location x1 x5
+b2 REF x5
+b2 PRESUPPOSITION b1
+b2 court "n.01" x5
+b1 CONTRAST b3
+b4 REF x6
+b4 TPR x6 "now"
+b4 Time x7 x6
+b4 time "n.08" x6
+b3 NEGATION b4
+b4 REF x7
+b4 Agent x7 "speaker"
+b4 figure "v.01" x7
+b4 Recipient x7 "speaker"
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 man "n.01" x8
+b4 REF x9
+b4 TPR "now" x9
+b4 Time x10 x9
+b4 time "n.08" x9
+b4 REF x10
+b4 Agent x10 x8
+b4 Topic x10 x12
+b4 be "v.01" x10
+b4 REF x11
+b4 Degree x12 x11
+b4 so "r.01" x11
+b4 REF x12
+b4 Attribute x8 x12
+b4 CONTINUATION b6
+b6 REF x13
+b6 Agent x13 x8
+b6 Topic x13 x14
+b6 say "v.01" x13
+b6 REF x14
+b6 entity "n.01" x14

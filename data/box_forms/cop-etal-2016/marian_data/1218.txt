@@ -1,0 +1,75 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Theme x2 x3
+b2 old "a.01" x2
+b2 REF x3
+b2 REF x4
+b2 Theme x4 x3
+b2 old "a.01" x4
+b2 Name x3 "manning"
+b2 female "n.02" x3
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 Part x5 x3
+b3 Part x5 x6
+b3 group "n.01" x5
+b3 REF x6
+b3 REF x7
+b3 Theme x7 x6
+b3 new@-8fashioned "a.01" x7
+b3 Name x6 "manning"
+b3 female "n.02" x6
+b3 REF x8
+b3 Part x8 x6
+b3 Part x8 x9
+b3 group "n.01" x8
+b3 REF x9
+b3 REF x10
+b3 Theme x10 x9
+b3 new@-8fashioned "a.01" x10
+b3 Name x9 "manning"
+b3 female "n.02" x9
+b3 REF x11
+b3 Part x11 x9
+b3 Part x11 x12
+b3 group "n.01" x11
+b3 REF x12
+b3 REF x13
+b3 Theme x13 x12
+b3 new@-8fashioned "a.01" x13
+b3 Name x12 "manning"
+b3 female "n.02" x12
+b3 REF x14
+b3 Part x14 x12
+b3 Part x14 x15
+b3 group "n.01" x14
+b3 REF x15
+b3 REF x16
+b3 Theme x16 x15
+b3 new@-8fashioned "a.01" x16
+b3 Name x15 "manning"
+b3 female "n.02" x15
+b3 REF x17
+b3 Part x17 x15
+b3 Part x17 x18
+b3 group "n.01" x17
+b3 REF x18
+b3 REF x19
+b3 Theme x19 x18
+b3 new@-8fashioned "a.01" x19
+b3 Name x18 "manning"
+b3 female "n.02" x18
+b3 REF x20
+b3 Part x20 x18
+b3 Part x20 x21
+b3 group "n.01" x20
+b3 REF x21
+b3 REF x22
+b3 Theme x22 x21
+b3 new@-8fashioned "a.01" x22

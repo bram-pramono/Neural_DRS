@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 Location x4 x1
+b4 REF x1
+b4 PRESUPPOSITION b3
+b4 day "n.01" x1
+b5 REF x2
+b5 REF x3
+b5 PRESUPPOSITION b6
+b5 Title x2 x3
+b5 mr "n.01" x3
+b5 male "n.02" x2
+b6 REF x4
+b6 Creator x4 x2
+b6 REF x5
+b6 Attribute x4 x5
+b6 PRESUPPOSITION b3
+b6 bell "a.01" x5
+b6 net "n.01" x4
+b3 REF x6
+b3 TPR x6 "now"
+b3 Time x8 x6
+b3 time "n.08" x6
+b3 REF x7
+b3 Manner x8 x7
+b3 REF x8
+b3 Patient x8 x4
+b3 cut "v.01" x8
+b3 CONTINUATION b7
+b8 Time x12 x9
+b8 REF x9
+b8 DayOfWeek x9 "monday"
+b8 time "n.08" x9
+b9 REF x10
+b9 REF x11
+b9 PRESUPPOSITION b8
+b9 Title x10 x11
+b9 mr "n.01" x11
+b9 female "n.02" x10
+b8 REF x12
+b8 TPR "now" x12
+b8 Time x13 x12
+b8 time "n.08" x12
+b8 REF x13
+b8 Agent x13 x10
+b8 Duration x13 x14
+b8 spend "v.01" x13
+b10 REF x14
+b10 PRESUPPOSITION b8
+b10 night "n.01" x14
+b8 Co-Theme x13 x15
+b8 REF x15
+b8 REF x16
+b8 Role x15 x16
+b8 friend "n.01" x16
+b8 person "n.01" x15
+b11 REF x17
+b11 REF x18
+b11 PRESUPPOSITION b8
+b11 Title x17 x18
+b11 mr "n.01" x18
+b11 female "n.02" x17
+b8 Time x20 x19
+b8 REF x19
+b8 TPR x19 "now"
+b8 time "n.08" x19
+b8 REF x20
+b8 Degree x21 x20
+b8 quite "r.01" x20
+b8 REF x21
+b8 Attribute x17 x21
+b8 alone "a.01" x21
+b8 Location x21 x22
+b12 REF x22
+b12 PRESUPPOSITION b8
+b12 REF x23

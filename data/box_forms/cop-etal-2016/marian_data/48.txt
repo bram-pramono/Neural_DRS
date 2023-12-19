@@ -1,0 +1,22 @@
+b1 REF x1
+b1 fellow "n.01" x1
+b2 NEC b3
+b3 REF x2
+b3 REF x3
+b3 REF x4
+b3 LES x3 x4
+b3 Quantity x2 x3
+b3 quantity "n.01" x3
+b3 quantity "n.01" x4
+b3 EQU x4 "20"
+b3 Unit x2 "year"
+b3 measure "n.02" x2
+b3 REF x5
+b3 Theme x5 x5
+b3 Value x5 x2
+b3 younger "v.01" x5
+b4 REF x6
+b4 female "n.02" x6
+b2 REF x7
+b2 Theme x7 x6
+b2 be "v.01" x7

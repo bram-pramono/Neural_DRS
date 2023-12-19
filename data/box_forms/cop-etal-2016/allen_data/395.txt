@@ -1,0 +1,14 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 Topic x1 x3
+b1 plead "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 Experiencer x3 "speaker"
+b1 guilty "v.01" x3
+b1 Stimulus x3 x4
+b1 REF x4
+b1 laugh "n.01" x4

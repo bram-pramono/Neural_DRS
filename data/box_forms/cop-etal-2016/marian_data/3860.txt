@@ -1,0 +1,6 @@
+b1 Experiencer x1
+b1 REF x1
+b1 least "n.01" x1
+b1 Location x1 x2
+b2 REF x2
+b2 world "n.01" x2

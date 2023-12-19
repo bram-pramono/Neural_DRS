@@ -1,0 +1,22 @@
+b1 EQU "hearer" "now"
+b1 EQU "speaker" x1
+b2 NEGATION b1
+b1 REF x1
+b1 right "n.01" x1
+b3 REF x2
+b3 Name x2 "mary"
+b3 PRESUPPOSITION b1
+b3 female "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 REF x5
+b1 ATTRIBUTION b1
+b1 Agent x3 x2
+b1 TPR x5 "now"
+b1 Time x3 x5
+b1 Topic x3 x4
+b1 proposition "n.01" x4
+b1 say "v.02" x3
+b1 time "n.08" x5
+b1 REF x6
+b1 Manner x3 x6

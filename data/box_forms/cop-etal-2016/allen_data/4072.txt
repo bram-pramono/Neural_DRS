@@ -1,0 +1,25 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 PRESUPPOSITION b3
+b2 PartOf x2 x1
+b2 face "n.01" x2
+b3 REF x3
+b3 Sub x3 x2
+b3 Sub x3 x4
+b3 entity "n.01" x3
+b3 REF x4
+b3 voice "n.01" x4
+b3 REF x5
+b3 TPR x5 "now"
+b3 Time x7 x5
+b3 time "n.08" x5
+b3 REF x6
+b3 Degree x7 x6
+b3 absolutely "r.04" x6
+b3 REF x7
+b3 Attribute x3 x7
+b3 cold "a.01" x7
+b3 REF x8
+b3 Attribute x3 x8

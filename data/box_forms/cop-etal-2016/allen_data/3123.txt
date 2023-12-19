@@ -1,0 +1,32 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Agent x2 "hearer"
+b1 Topic x2 x4
+b1 be "v.01" x2
+b1 REF x3
+b1 REF x4
+b1 ATTRIBUTION b2
+b1 Agent x4 "hearer"
+b1 Topic x4 x3
+b1 able "a.01" x4
+b1 proposition "n.01" x3
+b2 REF x5
+b2 Agent x5 "hearer"
+b2 Theme x5 x6
+b2 keep "v.01" x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 place "n.01" x6
+b4 REF x7
+b4 all_right "a.01" x7
+b4 CONTINUATION b5
+b4 REF x8
+b4 TPR x8 "now"
+b4 time "n.08" x8
+b5 REF x9
+b5 Agent x9 "speaker"
+b5 Time x9 x8
+b5 ask "v.01" x9

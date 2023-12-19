@@ -1,0 +1,13 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 then "r.01" x1
+b2 REF x2
+b2 Name x2 "home~office"
+b2 location "n.01" x2
+b1 POS b3
+b3 REF x3
+b3 Agent x3 x2
+b3 Theme x3 x4
+b3 order "v.02" x3
+b3 REF x4
+b3 exhumation "n.01" x4

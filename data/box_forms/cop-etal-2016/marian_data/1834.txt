@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Name x1 "hope"
+b1 male "n.02" x1
+b2 Experiencer x1
+b2 REF x2
+b2 Theme x2 x1
+b2 anyway "v.01" x2

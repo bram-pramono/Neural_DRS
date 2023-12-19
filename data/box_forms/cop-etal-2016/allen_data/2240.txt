@@ -1,0 +1,73 @@
+b1 CONDITION b2
+b1 REF x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 be "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 REF x4
+b1 Attribute x3 x4
+b1 breathless "a.01" x4
+b1 hush "n.01" x3
+b1 CONTINUATION b3
+b3 REF x5
+b3 CONSEQUENCE b4
+b3 eye "n.01" x5
+b3 Time x7 x6
+b4 REF x6
+b4 TPR x6 "now"
+b4 time "n.08" x6
+b4 REF x7
+b4 Patient x7 x5
+b4 fix "v.01" x7
+b4 Location x7 x8
+b5 REF x8
+b5 REF x9
+b5 Attribute x8 x9
+b5 PRESUPPOSITION b4
+b5 famous "a.01" x9
+b5 Source x8 x10
+b6 REF x10
+b6 Name x10 "london"
+b6 PRESUPPOSITION b5
+b6 city "n.01" x10
+b5 specialist "n.01" x8
+b4 Time x11 x6
+b4 REF x11
+b4 REF x12
+b4 ATTRIBUTION b7
+b4 Experiencer x11 x8
+b4 Stimulus x11 x12
+b4 know "v.01" x11
+b4 proposition "n.01" x12
+b7 REF x13
+b7 Co-Theme x13 x14
+b7 Theme x13 x8
+b7 be "v.01" x13
+b7 REF x14
+b7 person "n.01" x14
+b7 SubOf x14 x15
+b3 REF x15
+b3 REF x16
+b3 REF x17
+b3 Attribute x15 x16
+b3 Degree x16 x17
+b3 PRESUPPOSITION b7
+b3 great "a.01" x16
+b3 most "r.01" x17
+b3 REF x18
+b3 Role x15 x18
+b3 authority "n.01" x18
+b3 person "n.01" x15
+b3 Of x18 x19
+b8 REF x19
+b8 PRESUPPOSITION b3
+b8 day "n.01" x19
+b7 Location x16 x20
+b9 REF x20
+b9 PRESUPPOSITION b7
+b9 subject "n.01" x20
+b9 Theme x20 x21
+b9 REF x21

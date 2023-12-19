@@ -1,0 +1,23 @@
+b1 EQU "speaker" x1
+b2 REF x1
+b2 Name x1 "hercule~poirot"
+b2 male "n.02" x1
+b3 DRS x1
+b2 CONTRAST b1 b3
+b3 REF x2
+b3 REF x3
+b3 EQU x3 "now"
+b3 @-4 "n.01" "speaker"
+b3 Stimulus x2 x4
+b3 Time x2 x3
+b3 lack "v.01" x2
+b3 time "n.08" x3
+b3 REF x4
+b3 REF x5
+b3 Theme x5 x4
+b3 last "a.01" x5
+b3 link "n.01" x4
+b3 Location x2 x6
+b4 REF x6
+b4 User x6 "speaker"
+b4 chain "n.01" x6

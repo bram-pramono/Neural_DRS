@@ -1,0 +1,8 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Theme x1 x2
+b2 do "v.01" x1
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 person "n.01" x2

@@ -1,0 +1,40 @@
+b1 Recipient x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 female "n.02" x1
+b3 REF x2
+b3 PRESUPPOSITION b1
+b3 female "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x2
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 reply "v.01" x3
+b1 time "n.08" x4
+b1 Instrument x3 x5
+b1 REF x5
+b1 REF x6
+b1 Attribute x6 x5
+b1 rise "v.01" x6
+b1 REF x7
+b1 Role x5 x7
+b1 person "n.01" x5
+b1 POSSIBILITY b4
+b4 REF x8
+b4 REF x9
+b4 ATTRIBUTION b5
+b4 Experiencer x8 "speaker"
+b4 Stimulus x8 x9
+b4 Time x8 x10
+b4 know "v.01" x8
+b4 proposition "n.01" x9
+b4 REF x10
+b4 TPR x10 "now"
+b4 time "n.08" x10
+b5 Time x11 x10
+b5 REF x11
+b5 Agent x11 "speaker"
+b5 Patient x11 x5
+b5 escort "v.01" x11
+b2 PRESUPPOSITION b5

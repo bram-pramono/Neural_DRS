@@ -1,0 +1,19 @@
+b1 Location x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 contrary "n.01" x1
+b3 REF x2
+b3 Name x2 "john"
+b3 PRESUPPOSITION b1
+b3 male "n.02" x2
+b1 REF x3
+b1 EQU x3 "now"
+b1 Time x5 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Degree x5 x4
+b1 very "r.01" x4
+b1 REF x5
+b1 Experiencer x5 x2
+b1 fond "a.03" x5
+b1 Stimulus x5 "hearer"

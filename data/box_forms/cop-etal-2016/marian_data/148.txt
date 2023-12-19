@@ -1,0 +1,8 @@
+b1 DIS b2 b3
+b4 REF x1
+b4 entity "n.01" x1
+b3 REF x2
+b3 REF x3
+b3 Theme x3 x2
+b3 fresh "a.01" x3
+b3 start "n.01" x2

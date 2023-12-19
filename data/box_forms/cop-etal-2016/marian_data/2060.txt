@@ -1,0 +1,74 @@
+b1 DRS x1
+b1 EXPLANATION b1 b1
+b2 REF x1
+b2 REF x2
+b2 Theme x1 x2
+b2 mr "n.01" x2
+b2 Name x1 "inglethorp"
+b2 male "n.02" x1
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 REF x5
+b1 @-4 "n.01" x5
+b1 PRP x5 b3
+b1 Stimulus x4 x5
+b1 Time x4 x3
+b1 know "v.01" x4
+b4 REF x6
+b4 Of x7 x1
+b4 REF x7
+b4 Role x6 x7
+b4 person "n.01" x6
+b4 wife "n.01" x7
+b1 REF x8
+b1 TPR "now" x8
+b1 time "n.08" x8
+b3 Time x9 x8
+b3 REF x9
+b3 NOT b4 b1
+b3 poison "v.01" x9
+b5 REF x10
+b5 Of x11 x4
+b5 REF x11
+b5 Role x10 x11
+b5 person "n.01" x10
+b5 wife "n.01" x11
+b1 REF x12
+b1 TPR "now" x12
+b1 time "n.08" x12
+b3 Time x13 x12
+b3 REF x13
+b3 NOT b5 b2
+b3 poison "v.01" x13
+b6 REF x14
+b6 Of x15 x8
+b6 REF x15
+b6 Role x14 x15
+b6 person "n.01" x14
+b6 wife "n.01" x15
+b2 REF x16
+b2 TPR "now" x16
+b2 time "n.08" x16
+b4 Time x17 x16
+b4 REF x17
+b4 NOT b6 b3
+b4 poison "v.01" x17
+b7 REF x18
+b7 Of x19 x12
+b7 REF x19
+b7 Role x18 x19
+b7 person "n.01" x18
+b7 wife "n.01" x19
+b3 REF x20
+b3 TPR "now" x20
+b3 time "n.08" x20
+b5 Time x21 x20
+b5 REF x21
+b5 Theme x21 x18
+b5 poison "v.01" x21
+b8 REF x22
+b8 Of x23 x16
+b8 REF x23
+b8 Role x22 x23

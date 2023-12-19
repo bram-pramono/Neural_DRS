@@ -1,0 +1,31 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Role x1 x2
+b1 person "n.01" x1
+b2 REF x3
+b2 Agent x3 x1
+b2 Destination x3 x5
+b2 Theme x3 x5
+b2 Time x3 x4
+b2 hand "v.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 PRESUPPOSITION b2
+b3 REF x5
+b3 male "n.02" x5
+b2 REF x6
+b2 Location x7 x6
+b2 REF x7
+b4 REF x8
+b4 PRESUPPOSITION b5
+b4 male "n.02" x8
+b5 REF x9
+b5 PRESUPPOSITION b2
+b5 User x9 x8
+b5 signature "n.01" x9
+b2 Time x10 x5
+b2 REF x10
+b2 Theme x10 x9
+b2 crown "v.01" x10

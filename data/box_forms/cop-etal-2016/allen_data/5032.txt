@@ -1,0 +1,75 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 Attribute x2 x4
+b2 REF x4
+b2 REF x5
+b2 Attribute x4 x5
+b2 good "a.01" x5
+b2 height "n.01" x4
+b2 CONTINUATION b3
+b1 PRESUPPOSITION b4
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 PartOf x6 x1
+b4 voice "n.02" x6
+b3 REF x7
+b3 REF x8
+b3 EQU x7 "now"
+b3 EQU x8 "now"
+b3 Time x9 x7
+b3 Time x10 x8
+b3 time "n.08" x7
+b3 time "n.08" x8
+b3 REF x9
+b3 Attribute x6 x9
+b3 Value x9 "+"
+b3 deep "a.01" x9
+b3 REF x10
+b3 Sub x10 x5
+b3 Sub x10 x11
+b3 entity "n.01" x10
+b5 REF x11
+b5 PRESUPPOSITION b3
+b5 female "n.02" x11
+b3 REF x12
+b3 Co-Theme x12 x14
+b3 Theme x12 x10
+b3 Time x12 x13
+b3 be "v.01" x12
+b3 REF x13
+b3 EQU x13 "now"
+b3 time "n.08" x13
+b3 REF x14
+b3 cousin "n.01" x14
+b3 CONTINUATION b6
+b6 REF x15
+b6 Theme x15 x16
+b6 Time x15 x13
+b6 be "v.01" x15
+b6 REF x16
+b6 REF x17
+b6 Attribute x16 x17
+b6 distinct "a.01" x17
+b6 REF x18
+b6 Location x16 x18
+b6 SY2 x18 x19
+b6 location "n.01" x18
+b7 REF x19
+b7 PRESUPPOSITION b6
+b7 person "n.01" x19
+b6 especially "r.01" x16
+b6 Context x16 x21
+b8 REF x20
+b8 PRESUPPOSITION b9
+b8 person "n.01" x20
+b9 REF x21
+b9 PRESUPPOSITION b6
+b9 PartOf x21 x20

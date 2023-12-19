@@ -1,0 +1,9 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 @-4 "n.01" "speaker"
+b2 Stimulus x1 x2
+b2 disguise "v.01" x1
+b4 REF x2
+b4 User x2 "speaker"
+b4 pleasure "n.01" x2

@@ -1,0 +1,24 @@
+b1 REF x1
+b1 Causer x3 x1
+b1 EQU x1 "?"
+b1 reason "n.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Time x3 x2
+b1 time "n.08" x2
+b1 REF x3
+b1 Theme x3 "speaker"
+b1 stand "v.01" x3
+b1 Location x3 x4
+b2 REF x4
+b2 REF x5
+b2 Attribute x4 x5
+b2 PRESUPPOSITION b1
+b2 particular "n.01" x5
+b2 step "n.01" x4
+b1 Location x3 x6
+b1 REF x6
+b1 REF x7
+b1 Role x6 x7
+b1 guard "n.01" x7
+b1 person "n.01" x6

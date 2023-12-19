@@ -1,0 +1,22 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 REF x2
+b1 Agent x2 x1
+b1 TPR x3 "now"
+b1 Time x2 x3
+b1 Topic "v.01" x2
+b2 REF x3
+b2 time "n.08" x3
+b1 NEGATION b2
+b2 REF x4
+b2 Agent x4 x1
+b2 think "v.01" x4
+b2 Theme x4 x5
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 fire "n.01" x5
+b2 REF x6
+b2 Attribute x4 x7
+b2 entity "n.01" x6
+b2 REF x7
+b2 Attribute x5 x7

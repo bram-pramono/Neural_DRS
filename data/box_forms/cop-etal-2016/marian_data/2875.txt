@@ -1,0 +1,40 @@
+b1 Time x3 x1
+b2 REF x1
+b2 User x1 "speaker"
+b2 REF x2
+b2 Theme x2 x1
+b2 poor "a.01" x2
+b2 Name x1 "emily"
+b2 female "n.02" x1
+b1 REF x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Theme x3 "speaker"
+b1 Time x3 x4
+b1 bury "v.01" x3
+b1 time "n.08" x4
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 POS b4
+b4 REF x5
+b4 REF x6
+b4 @-4 "n.01" "speaker"
+b4 PRP x6 b5
+b4 Stimulus x5 x6
+b4 wonder "v.01" x5
+b4 POS b6
+b4 REF x7
+b4 TPR x7 "now"
+b4 time "n.08" x7
+b6 Time x9 x7
+b6 REF x8
+b6 REF x9
+b6 @-4 "n.01" "speaker"
+b6 PRP x8 b7
+b6 Stimulus x9 x8
+b6 anxious "a.01" x9
+b7 NEC b8
+b8 REF x10
+b8 Theme x10 "speaker"
+b8 start "v.01" x10

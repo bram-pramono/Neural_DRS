@@ -1,0 +1,58 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Degree x3 x2
+b1 perfectly "r.01" x2
+b1 REF x3
+b1 Experiencer x3 "hearer"
+b1 correct "a.01" x3
+b1 Stimulus x3 x4
+b2 REF x4
+b2 Creator x4 "hearer"
+b2 PRESUPPOSITION b1
+b2 assumption "n.01" x4
+b3 REF x5
+b3 PRESUPPOSITION b4
+b3 female "n.02" x5
+b4 REF x6
+b4 Of x7 x5
+b4 REF x7
+b4 PRESUPPOSITION b1
+b4 Role x6 x7
+b4 person "n.01" x6
+b1 REF x8
+b1 EQU x8 "now"
+b1 Time x9 x8
+b1 time "n.08" x8
+b1 RESULT b5
+b5 NEGATION b6
+b6 POSSIBILITY b7
+b3 REF x9
+b3 Attribute x6 x9
+b3 violent "a.01" x9
+b7 REF x10
+b7 EQU x10 "now"
+b7 PRESUPPOSITION b8
+b7 time "n.08" x10
+b8 Time x12 x10
+b8 REF x11
+b8 Degree x12 x11
+b8 quite "r.04" x11
+b8 REF x12
+b8 Experiencer x12 "hearer"
+b8 wrong "a.01" x12
+b8 Stimulus x12 x13
+b7 REF x13
+b7 REF x14
+b7 REF x15
+b7 Agent x14 "hearer"
+b7 EQU x15 "now"
+b7 Time x14 x15
+b7 draw "v.01" x14
+b7 time "n.08" x15
+b7 Source x14 x12
+b9 REF x16
+b9 PRESUPPOSITION b7
+b9 entity "n.01" x16

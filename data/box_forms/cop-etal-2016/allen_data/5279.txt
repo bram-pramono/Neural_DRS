@@ -1,0 +1,29 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 Instrument x2 x4
+b2 REF x4
+b2 REF x5
+b2 Attribute x4 x5
+b2 little "a.01" x5
+b2 gear "n.01" x4
+b2 Duration x2 x6
+b2 REF x6
+b2 moment "n.01" x6
+b2 REF x7
+b2 Manner x8 x7
+b2 suddenly "r.01" x7
+b2 REF x8
+b2 Agent x8 x1
+b2 Time x8 x3
+b2 EQU "hearer" x9
+b2 REF x9
+b2 REF x10
+b2 Role x9 x10
+b2 person "n.01" x9

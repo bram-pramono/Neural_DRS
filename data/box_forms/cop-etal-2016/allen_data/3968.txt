@@ -1,0 +1,21 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 man "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 come "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 CONTINUATION b3
+b3 REF x4
+b3 Agent x4 x1
+b3 Theme x4 x5
+b3 Time x4 x3
+b3 put "v.01" x4
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x5
+b3 right "r.01" x4
+b3 morning "n.01" x4

@@ -1,0 +1,29 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 Source x2 x4
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 leave "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 room "n.01" x4
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b2
+b4 PRESUPPOSITION b5
+b4 Title x5 x6
+b4 miss "n.03" x6
+b4 female "n.02" x5
+b5 REF x7
+b5 PRESUPPOSITION b2
+b5 PartOf x7 x5
+b5 face "n.01" x7
+b2 REF x8
+b2 Patient x8 x7
+b2 Time x8 x3
+b2 change "v.02" x8

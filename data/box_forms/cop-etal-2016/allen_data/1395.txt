@@ -1,0 +1,10 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 Of x3 "speaker"
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 dear "n.01" x3
+b2 person "n.01" x2

@@ -1,0 +1,55 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 Beneficiary x2 "speaker"
+b2 Product x2 x3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 make "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Theme x5 x6
+b3 take "v.01" x5
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 broccoli "n.02" x6
+b3 Source x5 x7
+b5 REF x7
+b5 PRESUPPOSITION b3
+b5 User x7 "speaker"
+b5 tie "n.01" x7
+b3 REF x8
+b3 Sub x8 x7
+b3 Sub x8 x9
+b3 entity "n.01" x8
+b3 REF x9
+b3 entity "n.01" x9
+b3 REF x10
+b3 REF x11
+b3 REF x12
+b3 ATTRIBUTION b6
+b3 Agent x10 x9
+b3 TPR x12 "now"
+b3 Time x10 x12
+b3 Topic x10 x11
+b3 proposition "n.01" x11
+b3 say "v.01" x10
+b3 time "n.08" x12
+b7 REF x13
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x13
+b6 REF x14
+b6 TPR x14 "now"
+b6 time "n.08" x14
+b8 Time x15 x14
+b6 NEGATION b8
+b8 REF x15
+b8 Attribute x13 x15
+b8 straight "a.01" x15

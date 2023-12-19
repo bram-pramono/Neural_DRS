@@ -1,0 +1,25 @@
+b1 REF x1
+b1 Agent x1 "speaker"
+b1 Co-Agent x1 x2
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 person "n.01" x2
+b2 volunteer "n.01" x3
+b1 Frequency x1 x4
+b1 Quantity x4 "2"
+b1 REF x4
+b1 Unit x4 "week"
+b1 measure "n.02" x4
+b1 CONTINUATION b3
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Theme x5 x6
+b3 lend "v.01" x5
+b3 REF x6
+b3 hand "n.01" x6
+b3 Location x5 x7
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 farm "n.01" x7

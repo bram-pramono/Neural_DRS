@@ -1,0 +1,22 @@
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 funny "a.01" x2
+b1 place "n.01" x1
+b1 Asset x1 x3
+b1 REF x3
+b1 piece "n.01" x3
+b1 Part x3 x5
+b1 REF x4
+b1 REF x5
+b1 Colour x5 x4
+b1 brown "a.01" x4
+b1 paper "n.01" x5
+b1 REF x6
+b1 REF x7
+b1 Agent x6 "speaker"
+b1 TPR x7 "now"
+b1 Time x6 x7
+b1 Topic x6 x6
+b1 prey "v.02" x6
+b1 time "n.08" x7

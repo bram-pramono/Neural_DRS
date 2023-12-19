@@ -1,0 +1,58 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Title x1 x2
+b1 doctor "n.04" x2
+b1 person "n.01" x1
+b2 TPR x3 "now"
+b2 Time x4 x3
+b2 REF x3
+b2 time "n.08" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 Topic "v.01" x4
+b2 REF x5
+b2 REF x6
+b2 TAB x6 x5
+b2 TIN "now" x5
+b2 TIN x3 x6
+b2 day "n.03" x5
+b2 day "n.03" x6
+b2 REF x7
+b2 Theme x7 x2
+b2 owe "v.01" x7
+b2 Destination x7 x8
+b2 REF x8
+b2 REF x9
+b2 Attribute x8 x9
+b2 PRESUPPOSITION b1
+b2 general "a.01" x9
+b2 ignorance "n.01" x8
+b1 PartOf x8 x10
+b3 REF x10
+b3 REF x11
+b3 REF x12
+b3 LES x12 x11
+b3 PRESUPPOSITION b1
+b3 Quantity x10 x11
+b3 quantity "n.01" x11
+b3 quantity "n.01" x12
+b3 REF x13
+b3 Attribute x12 x13
+b3 famous "a.01" x13
+b3 passion "n.01" x10
+b1 REF x14
+b1 TPR x14 "now"
+b1 POSSIBILITY b4
+b4 REF x15
+b4 Attribute x14 x15
+b4 countless "a.01" x15
+b4 case "n.01" x14
+b4 Theme x14 x16
+b4 REF x16
+b4 PRESUPPOSITION "v.01" b4
+b4 REF x17
+b4 Degree x18 x17
+b4 quite "r.01" x17
+b4 REF x18
+b4 Attribute x15 x18

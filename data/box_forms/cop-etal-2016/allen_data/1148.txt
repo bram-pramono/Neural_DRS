@@ -1,0 +1,34 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b3 REF x2
+b3 REF x3
+b3 Pivot x2 x1
+b3 TPR x3 "now"
+b3 Theme x2 x4
+b3 Time x2 x3
+b3 have "v.01" x2
+b3 time "n.08" x3
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 letter "n.01" x4
+b2 ALTERNATION b3
+b2 ALTERNATION b5
+b5 REF x5
+b5 entity "n.01" x5
+b6 REF x6
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x6
+b5 REF x7
+b5 REF x8
+b5 Co-Theme x7 x5
+b5 TPR x8 "now"
+b5 Theme x7 x6
+b5 Time x7 x8
+b5 be "v.01" x7
+b5 time "n.08" x8
+b3 Location x3 x9
+b7 REF x9
+b7 PRESUPPOSITION b5
+b7 PartOf x9 x4
+b7 hand "n.01" x9

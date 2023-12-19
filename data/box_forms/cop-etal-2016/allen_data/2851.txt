@@ -1,0 +1,75 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Theme x1 x2
+b2 produce "v.01" x1
+b3 NEGATION b2
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 LES x3 x4
+b2 Quantity x2 x3
+b2 quantity "n.01" x3
+b2 quantity "n.01" x4
+b2 EQU x4 "5"
+b2 REF x5
+b2 Role x2 x5
+b2 person "n.01" x2
+b2 witness "n.01" x5
+b2 REF x6
+b2 Theme x6 x1
+b2 growl "v.01" x6
+b2 REF x7
+b2 Recipient x6 x8
+b2 entity "n.01" x7
+b2 REF x8
+b2 Experiencer x8 x7
+b2 Stimulus x8 x10
+b2 Time x8 x9
+b2 see "v.01" x8
+b2 REF x9
+b2 TPR x9 "now"
+b2 time "n.08" x9
+b4 REF x10
+b4 PRESUPPOSITION b2
+b4 person "n.01" x10
+b2 REF x11
+b2 Theme x11 x10
+b2 together "a.01" x11
+b2 CONTINUATION b5
+b6 REF x12
+b6 Manner x13 x12
+b6 just "r.01" x12
+b6 REF x13
+b6 Experiencer x13 "hearer"
+b6 Stimulus x13 x14
+b6 know "v.01" x13
+b7 REF x14
+b7 PRESUPPOSITION b6
+b7 artifact "n.01" x14
+b8 REF x15
+b8 REF x16
+b8 PRESUPPOSITION b9
+b8 PRESUPPOSITION b10
+b8 Title x15 x16
+b8 mr "n.01" x16
+b8 person "n.01" x15
+b10 REF x17
+b10 PRESUPPOSITION b11
+b10 User x17 x15
+b10 home "n.01" x17
+b8 PRESUPPOSITION b11
+b11 REF x18
+b11 Co-Theme x18 x21
+b11 Theme x18 x17
+b11 Time x18 x19
+b11 be "v.01" x18
+b11 REF x19
+b11 EQU x19 "now"
+b11 time "n.08" x19
+b11 REF x20
+b11 REF x21
+b11 REF x22
+b11 LEQ x21 x20
+b11 Quantity x22 x20
+b11 quantity "n.01" x20

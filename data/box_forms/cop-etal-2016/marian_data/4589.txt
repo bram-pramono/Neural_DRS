@@ -1,0 +1,24 @@
+b1 REF x1
+b1 bit "n.01" x1
+b1 PartOf x1 x2
+b1 REF x2
+b1 REF x3
+b1 Theme x2 x3
+b1 cross@-8examination "n.01" x3
+b1 cross@-8examination "n.01" x2
+b2 REF x4
+b2 REF x5
+b2 Agent x4 x5
+b2 TPR x5 "now"
+b2 Theme x4 x7
+b2 Time x4 x5
+b2 cause "v.01" x4
+b2 time "n.08" x5
+b2 REF x6
+b2 REF x7
+b2 Theme x6 x7
+b2 great "a.01" x6
+b2 excitement "n.01" x7
+b2 Theme x7 x8
+b2 REF x8
+b2 court "n.01" x8

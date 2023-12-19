@@ -1,0 +1,14 @@
+b1 REF x1
+b1 Name x1 "dorcas"
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 NOT b1 b3
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 shake "v.09" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 PartOf x4 x1
+b3 head "n.01" x4

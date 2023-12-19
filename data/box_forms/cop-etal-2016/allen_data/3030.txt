@@ -1,0 +1,14 @@
+b1 NEGATION b2
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Theme x2 "hearer"
+b2 Time x2 x1
+b2 be "v.01" x2
+b2 Location x2 x3
+b2 REF x3
+b2 REF x4
+b2 Attribute x3 x4
+b2 wrong "a.01" x4
+b2 belt "n.02" x3

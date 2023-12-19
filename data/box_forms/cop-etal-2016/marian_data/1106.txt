@@ -1,0 +1,32 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 name "v.01" x1
+b2 Experiencer x1
+b1 REF x2
+b1 name "n.01" x2
+b3 DRS x1
+b3 DRS x2
+b2 CONTINUATION b1 b3
+b3 REF x3
+b3 REF x4
+b3 EQU x4 "now"
+b3 Theme x3 x5
+b3 Time x3 x4
+b3 be "v.03" x3
+b3 time "n.08" x4
+b3 REF x5
+b3 person "n.01" x5
+b3 Location x3 x6
+b4 REF x6
+b4 house "n.01" x6
+b5 REF x7
+b5 none "n.01" x7
+b5 PartOf x7 "speaker"
+b3 POS b6
+b6 REF x8
+b6 Location x9 x8
+b6 time "n.01" x8
+b6 REF x9
+b6 Theme x9 x7
+b6 abide "a.01" x9

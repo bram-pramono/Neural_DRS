@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 NOT b1 b2
+b1 arrest "v.01" x1
+b2 REF x2
+b2 Name x2 "lawrence"
+b2 lawrence "n.01" x2

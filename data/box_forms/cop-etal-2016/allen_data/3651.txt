@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Quantity x1 "1"
+b1 entity "n.01" x1
+b1 PartOf x1 x3
+b2 REF x2
+b2 PRESUPPOSITION b3
+b2 world "n.04" x2
+b3 REF x3
+b3 Location x3 x2
+b3 REF x4
+b3 REF x5
+b3 Attribute x3 x4
+b3 Degree x4 x5
+b3 PRESUPPOSITION b1
+b3 great "a.01" x4
+b3 most "r.01" x5
+b3 entity "n.01" x3

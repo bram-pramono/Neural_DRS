@@ -1,0 +1,73 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 REF x4
+b1 ATTRIBUTION b2
+b1 EQU x4 "now"
+b1 Pivot x2 "speaker"
+b1 Theme x2 x3
+b1 Time x2 x4
+b1 proposition "n.01" x3
+b1 time "n.08" x4
+b1 want "v.01" x2
+b2 REF x5
+b2 Agent x5 x1
+b2 Theme x5 x1
+b2 ask "v.01" x5
+b3 REF x6
+b3 REF x7
+b3 Co-Theme x6 x8
+b3 EQU x7 "now"
+b3 Theme x6 x8
+b3 Time x6 x7
+b3 be "v.01" x6
+b3 time "n.08" x7
+b4 REF x8
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x8
+b1 REF x9
+b1 door "n.01" x9
+b1 REF x10
+b1 Theme x10 x9
+b1 leading "a.01" x10
+b1 Destination x10 x13
+b5 REF x11
+b5 REF x12
+b5 PRESUPPOSITION b6
+b5 PRESUPPOSITION b2
+b5 Title x11 x12
+b5 mr "n.01" x12
+b5 person "n.01" x11
+b2 REF x13
+b2 User x13 x11
+b2 room "n.01" x13
+b2 Source x13 x14
+b2 REF x14
+b2 CONSEQUENCE b6
+b2 entity "n.01" x14
+b2 SubOf x14 x15
+b7 REF x15
+b7 PRESUPPOSITION b2
+b7 female "n.02" x15
+b8 REF x16
+b8 PRESUPPOSITION b6
+b8 entity "n.01" x16
+b6 REF x17
+b6 TPR x17 "now"
+b6 Time x18 x17
+b6 time "n.08" x17
+b6 REF x18
+b6 Patient x18 x16
+b6 "charlie~chaplin" "v.01" x18
+b6 REF x19
+b6 REF x20
+b6 REF x21
+b6 ATTRIBUTION b7
+b6 Agent x19 "hearer"
+b6 EQU x21 "now"
+b6 Time x19 x21
+b6 Topic x19 x20
+b6 proposition "n.01" x20
+b6 say "v.01" x19
+b6 time "n.08" x21

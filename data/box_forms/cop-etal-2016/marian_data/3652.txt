@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Topic x1 x2
+b1 say "v.01" x1
+b2 REF x2
+b2 entity "n.01" x2

@@ -1,0 +1,44 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b3 REF x2
+b3 TPR x2 "now"
+b3 Time x3 x2
+b3 time "n.08" x2
+b2 NEGATION b3
+b3 REF x3
+b3 REF x4
+b3 ATTRIBUTION b4
+b3 Pivot x3 x1
+b3 Theme x3 x4
+b3 proposition "n.01" x4
+b3 want "v.01" x3
+b4 REF x5
+b4 Theme x5 x1
+b4 come "v.01" x5
+b4 CONTINUATION b5
+b6 REF x6
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x6
+b5 REF x7
+b5 Theme x7 x6
+b5 Time x7 x8
+b5 be "v.01" x7
+b5 REF x8
+b5 TPR x8 "now"
+b5 time "n.08" x8
+b5 just "r.01" x7
+b5 Stimulus x7 x9
+b5 REF x9
+b5 dinner "n.01" x9
+b5 CONTRAST b7
+b8 REF x10
+b8 REF x11
+b8 PRESUPPOSITION b7
+b8 Title x10 x11
+b8 mr "n.01" x11
+b8 person "n.01" x10
+b7 REF x12
+b7 Agent x12 x10
+b7 Time x12 x7
+b7 insist "v.02" x12

@@ -1,0 +1,45 @@
+b1 Recipient x4 x1
+b1 REF x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Title x2 x3
+b2 mr "n.01" x3
+b2 female "n.02" x2
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x2
+b1 TPR x5 "now"
+b1 Time x4 x5
+b1 reply "v.01" x4
+b1 time "n.08" x5
+b1 Instrument x4 x6
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 User x6 "speaker"
+b3 dear "n.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b1
+b4 entity "n.01" x7
+b5 REF x8
+b5 REF x9
+b5 REF x10
+b5 ATTRIBUTION b6
+b5 Agent x8 x7
+b5 EQU x10 "now"
+b5 Recipient x8 x11
+b5 Time x8 x10
+b5 Topic x8 x9
+b5 have "v.01" x8
+b5 proposition "n.01" x9
+b5 time "n.08" x10
+b2 NEGATION b5
+b5 REF x11
+b5 entity "n.01" x11
+b6 REF x12
+b6 Agent x12 x11
+b6 do "v.01" x12
+b6 Co-Agent x12 x13
+b7 REF x13
+b7 PRESUPPOSITION b6
+b7 matter "n.01" x13

@@ -1,0 +1,11 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Attribute "hearer" x2
+b2 serious "a.02" x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 male "n.02" x3

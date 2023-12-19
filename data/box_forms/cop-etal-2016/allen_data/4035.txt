@@ -1,0 +1,44 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Theme x1 x2
+b2 imagine "v.01" x1
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x2
+b4 Source x6 x5
+b5 REF x3
+b5 Of x4 "speaker"
+b5 PRESUPPOSITION b6
+b5 REF x4
+b5 PRESUPPOSITION b4
+b5 Role x3 x4
+b5 aunt "n.01" x4
+b5 person "n.01" x3
+b6 REF x5
+b6 PRESUPPOSITION b4
+b6 User x5 x3
+b6 point "n.01" x5
+b6 Theme x5 x6
+b6 REF x6
+b6 view "n.01" x6
+b7 REF x7
+b7 PRESUPPOSITION b5
+b7 entity "n.01" x7
+b3 REF x8
+b3 REF x9
+b3 Co-Theme x8 x10
+b3 TPR x9 "now"
+b3 Theme x8 x7
+b3 Time x8 x9
+b3 be "v.01" x8
+b3 time "n.08" x9
+b3 REF x10
+b3 REF x11
+b3 Degree x12 x11
+b3 very "r.01" x11
+b3 REF x12
+b3 Attribute x10 x12
+b3 good "a.01" x12
+b3 match "n.01" x10
+b3 Beneficiary x10 "speaker"

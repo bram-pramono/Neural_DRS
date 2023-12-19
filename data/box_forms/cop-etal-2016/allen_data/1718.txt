@@ -1,0 +1,14 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x2
+b3 TPR "now" x3
+b3 Time x4 x3
+b3 REF x3
+b3 time "n.08" x3
+b1 NEGATION b3
+b3 REF x4
+b3 Experiencer x4 "speaker"
+b3 know "v.01" x4

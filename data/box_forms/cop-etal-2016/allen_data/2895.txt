@@ -1,0 +1,29 @@
+b1 CONDITION b2
+b3 Theme x4 x1
+b1 REF x1
+b1 CONSEQUENCE b3
+b1 exception "n.01" x1
+b1 PartOf x1 x2
+b4 REF x2
+b4 PRESUPPOSITION b1
+b4 female "n.02" x2
+b1 REF x3
+b1 CONSEQUENCE b5
+b2 person "n.01" x3
+b2 REF x4
+b2 User x4 x3
+b2 room "n.01" x4
+b2 REF x5
+b2 TPR x5 "now"
+b2 time "n.08" x5
+b5 REF x6
+b5 Theme x6 x4
+b5 Time x6 x5
+b5 be "v.03" x6
+b5 Location x6 x7
+b6 REF x7
+b6 REF x8
+b6 Attribute x7 x8
+b6 PRESUPPOSITION b5
+b6 left "a.01" x8
+b6 wing "n.01" x7

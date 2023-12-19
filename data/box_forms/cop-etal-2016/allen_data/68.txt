@@ -1,0 +1,28 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 EQU x2 "now"
+b3 Time x3 x2
+b3 REF x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Attribute x1 x3
+b3 ClockTime x3 "05:00"
+b3 time "n.08" x3
+b3 Finish x3 x4
+b3 REF x4
+b3 milk "n.01" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Theme x5 x6
+b3 Time x5 x2
+b3 keep "v.01" x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x6
+b2 REF x7
+b2 Manner x5 x7
+b2 steadily "a.01" x7
+b2 Finish x5 x8
+b2 REF x8
+b2 time "n.08" x8

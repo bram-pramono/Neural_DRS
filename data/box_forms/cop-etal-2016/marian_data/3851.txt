@@ -1,0 +1,75 @@
+b1 Time x2 x1
+b1 REF x1
+b1 breakfast "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 REF x4
+b1 Agent x2 "speaker"
+b1 PRP x3 b2
+b1 TPR x4 "now"
+b1 Time x2 x4
+b1 Topic x2 x3
+b1 decide "v.01" x2
+b1 time "n.08" x4
+b2 REF x5
+b2 Theme x5 "speaker"
+b2 go_down "v.03" x5
+b2 Destination x5 x6
+b3 REF x6
+b3 village "n.02" x6
+b4 DRS x3
+b4 DRS x6
+b3 CONTRAST b1 b4
+b4 REF x7
+b4 REF x8
+b4 REF x9
+b4 Agent x7 "speaker"
+b4 PRP x8 b5
+b4 TPR x9 "now"
+b4 Time x7 x9
+b4 Topic x7 x8
+b4 see "v.01" x7
+b4 time "n.08" x9
+b5 REF x10
+b5 Theme x10 "speaker"
+b5 down "v.01" x10
+b5 Destination x10 x11
+b6 REF x11
+b6 village "n.02" x11
+b7 DRS x8
+b7 DRS x11
+b6 CONTRAST b3 b7
+b7 REF x12
+b7 REF x13
+b7 REF x14
+b7 Agent x12 "speaker"
+b7 PRP x13 b8
+b7 TPR x14 "now"
+b7 Time x12 x14
+b7 Topic x12 x13
+b7 see "v.01" x12
+b7 time "n.08" x14
+b8 REF x15
+b8 Theme x15 "speaker"
+b8 down "v.01" x15
+b8 Destination x15 x16
+b9 REF x16
+b9 village "n.02" x16
+b10 DRS x13
+b10 DRS x16
+b9 CONTRAST b6 b10
+b10 REF x17
+b10 REF x18
+b10 REF x19
+b10 Agent x17 "speaker"
+b10 PRP x18 b11
+b10 TPR x19 "now"
+b10 Time x17 x19
+b10 Topic x17 x18
+b10 see "v.01" x17
+b10 time "n.08" x19
+b11 REF x20
+b11 Theme x20 "speaker"
+b11 down "v.01" x20
+b11 Destination x20 x21
+b12 REF x21

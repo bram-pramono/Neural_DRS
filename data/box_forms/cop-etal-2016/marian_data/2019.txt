@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "hearer"
+b1 EQU x2 "now"
+b1 NOT b1 b2
+b1 Time x1 x2
+b1 have "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 not "n.01" x3
+b1 Location x1 x4
+b1 REF x4
+b1 case "n.01" x4
+b1 REF x5
+b1 Agent x5 "hearer"
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 try "v.01" x5
+b1 REF x6
+b1 TPR x6 "now"
+b1 time "n.08" x6
+b1 REF x7
+b1 word "n.01" x7
+b1 PartOf x7 x8
+b1 REF x8
+b1 edge "n.01" x8
+b1 PartOf x8 x9
+b1 REF x9
+b1 edge "n.01" x9
+b1 PartOf x9 x10
+b1 REF x10
+b1 edge "n.01" x10
+b1 PartOf x10 x11
+b1 REF x11
+b1 paper "n.01" x11
+b1 DIS b2 b3
+b3 REF x12
+b3 spare_scrap "n.01" x12
+b3 PartOf x12 x13
+b3 REF x13
+b3 edge "n.01" x13
+b3 PartOf x13 x14
+b3 REF x14
+b3 edge "n.01" x14
+b3 PartOf x14 x15
+b3 REF x15
+b3 paper "n.01" x15
+b3 REF x16
+b3 Agent x16 x14
+b3 see "v.01" x16
+b3 Theme x16 x17
+b3 REF x17
+b3 edge "n.01" x17
+b3 PartOf x17 x18
+b3 REF x18
+b3 paper "n.01" x18
+b3 DIS b4 b5
+b5 REF x19
+b5 spare_scrap "n.01" x19
+b5 PartOf x19 x20
+b5 REF x20
+b5 edge "n.01" x20
+b5 PartOf x20 x21
+b5 REF x21
+b5 paper "n.01" x21
+b5 REF x22
+b5 Agent x22 x20
+b5 see "v.01" x22
+b5 Theme x22 x23
+b5 REF x23
+b5 edge "n.01" x23
+b5 PartOf x23 x24
+b5 REF x24
+b5 paper "n.01" x24
+b5 DIS b6 b7

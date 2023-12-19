@@ -1,0 +1,22 @@
+b1 NEGATION b2
+b2 REF x1
+b2 REF x2
+b2 Agent x1 "speaker"
+b2 TPR x2 "now"
+b2 Time x1 x2
+b2 cry "v.01" x1
+b2 time "n.08" x2
+b2 REF x3
+b2 Manner x1 x3
+b2 eagerly "r.01" x3
+b3 NECESSITY b2
+b4 REF x4
+b4 Pivot x4 "hearer"
+b4 Theme x4 x5
+b4 have "v.01" x4
+b2 NEGATION b4
+b4 REF x5
+b4 Of x5 x6
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x6

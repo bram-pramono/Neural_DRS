@@ -1,0 +1,26 @@
+b1 Time x3 x1
+b1 REF x1
+b1 accordance "n.01" x1
+b1 Co-Agent x1 x3
+b2 REF x2
+b2 person "n.01" x2
+b3 REF x3
+b3 Of x4 x2
+b3 REF x4
+b3 Role x3 x4
+b3 person "n.01" x3
+b3 prearranged_plan "n.01" x4
+b4 REF x5
+b4 female "n.02" x5
+b1 Experiencer x5
+b4 REF x6
+b4 time "n.08" x6
+b4 REF x7
+b4 Agent x7 x5
+b4 TPR x6 "now"
+b4 Time x7 x6
+b4 speak "v.02" x7
+b4 Co-Agent x7 x8
+b5 REF x8
+b5 Name x8 "alfred~inglethorp"
+b5 inglethorp "n.01" x8

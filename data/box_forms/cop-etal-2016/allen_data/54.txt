@@ -1,0 +1,45 @@
+b1 REF x1
+b1 Name x1 "mary"
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 EQU x1 x2
+b2 REF x2
+b2 REF x3
+b2 Attribute x2 x3
+b2 absurd "a.01" x3
+b2 REF x4
+b2 Attribute x2 x4
+b2 little "a.01" x4
+b2 station "n.01" x2
+b2 Co-Agent x2 x5
+b3 NEGATION b2
+b2 REF x5
+b2 REF x6
+b2 Attribute x5 x6
+b2 apparent "a.01" x6
+b2 reason "n.01" x5
+b2 Goal x5 x7
+b2 REF x7
+b2 existence "n.01" x7
+b2 REF x8
+b2 Theme x8 x4
+b2 perch "v.01" x8
+b2 Location x8 x9
+b4 REF x9
+b4 midst "n.01" x9
+b4 Part x9 x11
+b4 REF x10
+b4 REF x11
+b4 Colour x11 x10
+b4 PRESUPPOSITION b2
+b4 green "a.01" x10
+b4 field "n.01" x11
+b2 REF x12
+b2 Sub x12 x9
+b2 Sub x12 x13
+b2 entity "n.01" x12
+b2 REF x13
+b2 REF x14
+b2 MadeOf x13 x14
+b2 country "n.02" x14
+b2 lane "n.01" x13

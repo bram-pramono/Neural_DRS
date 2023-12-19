@@ -1,0 +1,75 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 person "n.01" x1
+b2 PartOf x1 x2
+b4 REF x2
+b4 powder "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b3 REF x4
+b3 NOT b4 b1
+b3 Time x4 x3
+b3 introduce "v.02" x4
+b3 Destination x4 x5
+b5 REF x5
+b5 REF x6
+b5 Theme x6 x5
+b5 full "a.01" x6
+b5 bottle "n.01" x5
+b5 Theme x5 x7
+b6 REF x7
+b6 REF x8
+b6 Theme x8 x7
+b6 full "a.01" x8
+b6 bottle "n.01" x7
+b6 Theme x7 x9
+b7 REF x9
+b7 REF x10
+b7 Theme x10 x9
+b7 full "a.01" x10
+b7 bottle "n.01" x9
+b7 Theme x9 x11
+b8 REF x11
+b8 REF x12
+b8 Theme x12 x11
+b8 full "a.01" x12
+b8 bottle "n.01" x11
+b8 Theme x11 x13
+b9 REF x13
+b9 REF x14
+b9 Theme x14 x13
+b9 full "a.01" x14
+b9 bottle "n.01" x13
+b9 Theme x13 x15
+b10 REF x15
+b10 REF x16
+b10 Theme x16 x15
+b10 full "a.01" x16
+b10 bottle "n.01" x15
+b10 Theme x15 x17
+b11 REF x17
+b11 REF x18
+b11 Theme x18 x17
+b11 full "a.01" x18
+b11 bottle "n.01" x17
+b11 Theme x17 x19
+b12 REF x19
+b12 REF x20
+b12 Theme x20 x19
+b12 full "a.01" x20
+b12 bottle "n.01" x19
+b12 Theme x19 x21
+b13 REF x21
+b13 REF x22
+b13 Theme x22 x21
+b13 full "a.01" x22
+b13 bottle "n.01" x21
+b13 Theme x21 x23
+b14 REF x23
+b14 REF x24
+b14 Theme x24 x23
+b14 full "a.01" x24
+b14 bottle "n.01" x23
+b14 Theme x23 x25
+b15 REF x25

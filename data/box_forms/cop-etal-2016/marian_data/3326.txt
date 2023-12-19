@@ -1,0 +1,22 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 NOT b2 "hearer"
+b2 Result x2 x3
+b2 Time x2 x1
+b2 ask "v.02" x2
+b1 Experiencer x2
+b2 REF x3
+b2 entity "n.01" x3
+b1 REF x4
+b1 TPR "now" x1
+b2 Time x5 x1
+b2 REF x5
+b2 Co-Theme x5 x6
+b2 Theme x5 "hearer"
+b2 be "v.08" x5
+b3 REF x6
+b3 PartOf x6 "speaker"
+b3 ally "n.01" x6

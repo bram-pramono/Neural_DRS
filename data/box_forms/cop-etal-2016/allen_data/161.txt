@@ -1,0 +1,8 @@
+b1 CONDITION b2
+b3 REF x1
+b3 PRESUPPOSITION b1
+b3 male "n.02" x1
+b4 Agent x1 x2
+b2 REF x2
+b2 CONSEQUENCE b4
+b2 means "n.01" x2

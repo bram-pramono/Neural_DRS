@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 NEGATION b1
+b1 REF x2
+b1 good "n.01" x2

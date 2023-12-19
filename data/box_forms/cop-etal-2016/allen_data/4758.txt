@@ -1,0 +1,6 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Quantity x1 "-"
+b1 Theme x1 x2
+b1 REF x2
+b1 excitement "n.01" x2

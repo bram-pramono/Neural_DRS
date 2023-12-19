@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Of x3 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 PRESUPPOSITION b3
+b1 Role x1 x3
+b1 person "n.01" x1
+b4 CONDITION b5
+b5 CONSEQUENCE b6
+b5 REF x4
+b5 time "n.08" x4
+b5 TPR x4 "now"
+b6 Time x6 x4
+b6 REF x5
+b6 Degree x6 x5
+b6 quite "r.01" x5
+b6 REF x6
+b6 Experiencer x6 x1
+b6 generous "a.01" x6
+b6 Stimulus x6 x7
+b7 REF x7
+b7 PRESUPPOSITION b6
+b7 person "n.01" x7
+b8 REF x8
+b8 PRESUPPOSITION b9
+b8 person "n.01" x8
+b6 Time x11 x9
+b6 REF x9
+b6 TPR x9 "now"
+b6 time "n.08" x9
+b9 RESULT b10
+b10 REF x10
+b10 Degree x11 x10
+b10 so "r.01" x10
+b10 REF x11
+b10 Attribute x8 x11
+b10 young "a.01" x11
+b10 Location x11 x9
+b6 REF x12
+b6 PRESUPPOSITION b10
+b6 time "n.01" x12
+b6 PartOf x12 x15
+b11 REF x13
+b11 PRESUPPOSITION b12
+b11 person "n.01" x13
+b12 REF x14
+b12 Of x15 x13
+b12 PRESUPPOSITION b13
+b12 REF x15
+b12 PRESUPPOSITION b9
+b12 Role x14 x15
+b12 father "n.01" x15
+b12 person "n.01" x14
+b13 REF x16
+b13 PRESUPPOSITION b9
+b13 User x16 x14
+b14 REF x17
+b14 PRESUPPOSITION b15
+b14 person "n.01" x17
+b12 CONDITION b16
+b16 CONSEQUENCE b15
+b16 REF x18
+b16 time "n.08" x18
+b16 REF x19
+b16 Agent x19 x17
+b16 Time x19 x18
+b16 think "v.01" x19
+b16 Theme x19 x20
+b12 PRESUPPOSITION b16
+b16 REF x20
+b16 female "n.02" x20
+b16 Attribute x19 x21
+b17 REF x21

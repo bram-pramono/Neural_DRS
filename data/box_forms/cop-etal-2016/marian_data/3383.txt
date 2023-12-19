@@ -1,0 +1,11 @@
+b1 REF x1
+b1 Name x1 "otherwise"
+b1 poirot "n.01" x1
+b1 POS b2
+b2 REF x2
+b2 @-4 "n.01" x1
+b2 Stimulus x2 "speaker"
+b2 relieve "v.01" x2
+b2 Stimulus x2 x3
+b3 REF x3
+b3 entity "n.01" x3

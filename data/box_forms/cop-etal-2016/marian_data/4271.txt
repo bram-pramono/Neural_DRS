@@ -1,0 +1,17 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 REF x3
+b2 @-4 "n.01" "speaker"
+b2 PRP x3 b3
+b2 Stimulus x2 x3
+b2 know "v.01" x2
+b3 REF x4
+b3 manner "n.02" x4
+b3 REF x5
+b3 Agent x5 x4
+b3 Recipient x5 "hearer"
+b3 tell "v.01" x5

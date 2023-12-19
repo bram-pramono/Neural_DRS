@@ -1,0 +1,26 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 POSSIBILITY b2
+b3 REF x2
+b3 EQU x2 "now"
+b3 time "n.08" x2
+b2 Time x3 x2
+b2 REF x3
+b2 Attribute x1 x3
+b2 difficult "a.01" x3
+b2 REF x4
+b2 Experiencer x4 x5
+b2 Stimulus x4 x1
+b2 convince "v.01" x4
+b4 REF x5
+b4 PRESUPPOSITION b2
+b4 male "n.02" x5
+b2 Theme x4 x6
+b2 REF x6
+b2 PRESUPPOSITION "n.01" b4
+b2 PartOf x6 x7
+b5 REF x7
+b5 PRESUPPOSITION b2
+b5 User x7 "speaker"
+b5 plan "n.01" x7

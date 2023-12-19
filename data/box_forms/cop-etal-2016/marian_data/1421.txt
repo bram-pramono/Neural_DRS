@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 then "r.01" x1
+b2 IMP b3 b1
+b3 REF x2
+b3 all "n.01" x2
+b1 Time x3 x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 Time x4 x3
+b2 account "v.02" x4
+b2 Co-Theme x4 x5
+b4 REF x5
+b4 female "n.02" x5

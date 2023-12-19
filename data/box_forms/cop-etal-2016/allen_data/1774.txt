@@ -1,0 +1,8 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b3 NECESSITY b4
+b2 NEGATION b3
+b4 Finish x1 x2
+b4 REF x2
+b4 DayOfWeek x2 "friday"
+b4 time "n.08" x2

@@ -1,0 +1,75 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 Pivot x2 "speaker"
+b1 Theme x2 x3
+b1 proposition "n.01" x3
+b1 preferred "v.01" x2
+b2 REF x4
+b2 REF x5
+b2 REF x6
+b2 ATTRIBUTION b3
+b2 Experiencer x4 "speaker"
+b2 Stimulus x4 x5
+b2 TPR x6 "now"
+b2 Time x4 x6
+b2 prefer "v.01" x4
+b2 proposition "n.01" x5
+b2 time "n.08" x6
+b3 REF x7
+b3 Agent x7 "speaker"
+b3 work "v.01" x7
+b3 Location x7 x8
+b4 REF x8
+b4 PRESUPPOSITION b3
+b4 dark "n.01" x8
+b3 just "r.01" x7
+b3 Goal x7 x9
+b5 REF x9
+b5 PRESUPPOSITION b3
+b5 present "n.01" x9
+b2 CONTRAST b6
+b6 REF x10
+b6 entity "n.01" x10
+b6 REF x11
+b6 Agent x11 x10
+b6 Time x11 x12
+b6 Topic x11 x9
+b6 say "v.01" x11
+b6 REF x12
+b6 EQU x12 "now"
+b6 time "n.08" x12
+b6 Time x14 x12
+b6 REF x13
+b6 Degree x14 x13
+b6 very "r.01" x13
+b6 REF x14
+b6 Attribute x10 x14
+b6 just "r.01" x14
+b6 REF x15
+b6 Attribute x16 x15
+b6 just "r.01" x15
+b7 REF x16
+b7 PRESUPPOSITION b6
+b7 word "n.01" x16
+b7 PartOf x16 x17
+b7 REF x17
+b7 Source x17 x18
+b8 REF x18
+b8 Name x18 "belgium"
+b8 PRESUPPOSITION b7
+b8 country "n.02" x18
+b7 REF x19
+b7 PRESUPPOSITION b5
+b7 Role x17 x19
+b7 person "n.01" x17
+b7 policeman "n.01" x19
+b5 REF x20
+b5 Co-Theme x20 x20
+b5 Theme x20 x16
+b5 Time x20 x20
+b5 be "v.01" x20

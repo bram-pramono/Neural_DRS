@@ -1,0 +1,33 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Manner x4 x3
+b2 only "r.01" x3
+b2 REF x4
+b2 REF x5
+b2 @-4 "n.01" x5
+b2 PRP x5 b3
+b2 Stimulus x4 x5
+b2 endeavour "v.01" x4
+b3 REF x6
+b3 @-4 "n.01" "speaker"
+b3 endeavour "a.01" x6
+b3 Stimulus x6 x7
+b3 REF x7
+b3 endeavour "n.01" x7
+b3 REF x8
+b3 @-4 "n.01" x7
+b3 endeavour "a.01" x8
+b3 Stimulus x8 x9
+b3 REF x9
+b3 custom "n.01" x9
+b3 REF x10
+b3 Theme x10 x9
+b3 transfer "v.01" x10
+b3 Source x10 x11
+b4 REF x11
+b4 local_establishment "n.01" x11

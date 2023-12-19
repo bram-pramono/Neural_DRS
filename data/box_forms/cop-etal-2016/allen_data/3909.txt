@@ -1,0 +1,28 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 POSSIBILITY b4
+b2 NEGATION b3
+b4 REF x2
+b4 Agent x2 x1
+b4 Topic "v.01" x2
+b4 CONTRAST b5
+b4 REF x3
+b4 TPR "now" x3
+b4 time "n.08" x3
+b5 Time x4 x3
+b5 REF x4
+b5 Agent x4 "speaker"
+b5 Recipient x4 "hearer"
+b5 Topic x4 x5
+b5 tell "v.01" x4
+b6 REF x5
+b6 User x5 "speaker"
+b6 REF x6
+b6 Attribute x5 x6
+b6 PRESUPPOSITION b5
+b6 private "a.01" x6
+b6 opinion "n.01" x5
+b7 REF x7
+b7 PRESUPPOSITION b8
+b7 male "n.02" x7

@@ -1,0 +1,4 @@
+b1 NEC b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 act "v.01" x1

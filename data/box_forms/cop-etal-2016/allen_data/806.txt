@@ -1,0 +1,61 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 "speaker"
+b2 Time x2 x3
+b2 instal "v.01" x2
+b2 time "n.08" x3
+b2 Attribute x2 x4
+b2 REF x4
+b2 chair "n.01" x4
+b2 CONTINUATION b3
+b3 REF x5
+b3 REF x6
+b3 Agent x5 "speaker"
+b3 TPR x6 "now"
+b3 Theme x5 x7
+b3 Time x5 x6
+b3 concentrate "v.01" x5
+b3 time "n.08" x6
+b4 REF x7
+b4 REF x8
+b4 Attribute x7 x8
+b4 PRESUPPOSITION b3
+b4 whole "a.01" x8
+b4 story "n.01" x7
+b3 REF x9
+b3 Agent x9 x7
+b3 Theme x9 x10
+b3 keep "v.01" x9
+b3 NEGATION b5
+b5 REF x10
+b5 entity "n.01" x10
+b3 CONTINUATION b6
+b6 REF x11
+b6 Agent x11 x7
+b6 Theme x11 x12
+b6 delete "v.01" x11
+b5 NEGATION b6
+b6 REF x12
+b6 circumstance "n.01" x12
+b3 REF x13
+b3 Attribute x12 x13
+b3 REF x14
+b3 REF x15
+b3 Agent x14 x8
+b3 TPR x15 "now"
+b3 Theme x14 x16
+b3 Time x14 x15
+b3 make "v.01" x14
+b3 time "n.08" x15
+b3 REF x16
+b3 REF x17
+b3 Attribute x16 x17
+b3 careful "a.01" x17
+b3 REF x18
+b3 Attribute x16 x18
+b3 toilet "n.02" x16

@@ -1,0 +1,35 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 REF x2
+b3 REF x3
+b3 Agent x2 x1
+b3 EQU x3 "now"
+b3 Theme x2 x4
+b3 Time x2 x3
+b3 time "n.08" x3
+b2 REF x4
+b2 PRESUPPOSITION b3
+b2 PartOf x4 x1
+b2 arm "n.01" x4
+b3 CONTINUATION b4
+b4 REF x5
+b4 Agent x5 x1
+b4 Theme x5 x6
+b5 REF x6
+b5 REF x7
+b5 PRESUPPOSITION b4
+b5 PartOf x6 x7
+b5 bed "n.01" x7
+b5 table "n.02" x6
+b4 CONTINUATION b6
+b6 REF x8
+b6 Theme x8 x1
+b6 pull "v.01" x8
+b6 REF x9
+b6 Manner x8 x9
+b6 desperately "r.01" x9
+b6 Location x8 x10
+b7 REF x10
+b7 PRESUPPOSITION b6
+b7 bell "n.01" x10

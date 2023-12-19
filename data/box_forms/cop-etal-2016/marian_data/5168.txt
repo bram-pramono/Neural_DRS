@@ -1,0 +1,75 @@
+b1 IMP b2 b3
+b2 IMP b4 b5
+b4 REF x1
+b4 all "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b3 REF x3
+b3 Theme x3 x1
+b3 Time x3 x2
+b3 go "v.01" x3
+b6 REF x4
+b6 person "n.01" x4
+b2 REF x5
+b2 TPR x5 "now"
+b2 time "n.08" x5
+b4 REF x6
+b4 NOT b6 b4
+b4 Time x6 x5
+b4 plan "v.01" x6
+b7 REF x7
+b7 person "n.01" x7
+b4 REF x8
+b4 TPR "now" x8
+b4 time "n.08" x8
+b8 Time x9 x8
+b5 POS b8
+b8 REF x9
+b8 NOT b8 b6
+b8 Result x9 x10
+b8 leave "v.01" x9
+b9 REF x10
+b9 Name x10 "england"
+b9 country "n.02" x10
+b10 DRS x6
+b10 DRS x10
+b9 CONTINUATION b6 b10
+b10 REF x11
+b10 REF x12
+b10 TPR x12 "now"
+b10 Theme x11 x6
+b10 Time x11 x12
+b10 leave "v.01" x11
+b10 time "n.08" x12
+b11 REF x13
+b11 Name x13 "england"
+b11 country "n.02" x13
+b12 DRS x10
+b12 DRS x13
+b11 CONTINUATION b8 b12
+b12 REF x14
+b12 REF x15
+b12 TPR x15 "now"
+b12 Theme x14 x13
+b12 Time x14 x15
+b12 leave "v.01" x14
+b12 time "n.08" x15
+b13 REF x16
+b13 Name x16 "england"
+b13 country "n.02" x16
+b14 DRS x14
+b14 DRS x16
+b13 CONTINUATION b11 b14
+b14 REF x17
+b14 REF x18
+b14 TPR x18 "now"
+b14 Theme x17 x16
+b14 Time x17 x18
+b14 leave "v.01" x17
+b14 time "n.08" x18
+b15 REF x19
+b15 Name x19 "england"
+b15 country "n.02" x19
+b16 DRS x17
+b16 DRS x19

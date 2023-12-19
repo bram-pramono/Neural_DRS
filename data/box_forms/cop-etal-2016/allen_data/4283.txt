@@ -1,0 +1,36 @@
+b1 Time x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b1 REF x2
+b1 TPR "now" x2
+b1 Time x3 x2
+b1 time "n.08" x2
+b1 REF x3
+b1 Agent x3 "speaker"
+b1 Topic x3 x4
+b1 say "v.01" x3
+b1 REF x4
+b1 Quantity x4 "-"
+b1 measure "n.02" x4
+b1 CONTRAST b3
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 User x5 "speaker"
+b4 admiration "n.01" x5
+b3 REF x6
+b3 Sub x6 x5
+b3 Sub x6 x7
+b3 entity "n.01" x6
+b3 REF x7
+b3 sympathy "n.01" x7
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b3 REF x9
+b3 Theme x9 x6
+b3 Time x9 x8
+b3 go_out "v.04" x9
+b3 Recipient x9 x10
+b5 REF x10
+b5 PRESUPPOSITION b3
+b5 female "n.02" x10

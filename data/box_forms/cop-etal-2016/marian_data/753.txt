@@ -1,0 +1,29 @@
+b1 Time x3 x1
+b2 REF x1
+b2 User x1 "speaker"
+b2 opinion "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 Theme x3 x2
+b1 whole "a.01" x3
+b1 entity "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 Co-Theme x4 x7
+b1 EQU x5 "now"
+b1 Theme x4 x2
+b1 Time x4 x5
+b1 be "v.01" x4
+b1 time "n.08" x5
+b1 REF x6
+b1 REF x7
+b1 Role x6 x7
+b1 mare "n.01" x7
+b1 person "n.01" x6
+b3 REF x8
+b3 Of x8 x6
+b3 nest "n.01" x8
+b3 Of x8 x9
+b4 REF x9
+b4 Name x9 "bauerstein~s"
+b4 geographical_area "n.01" x9

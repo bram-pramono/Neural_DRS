@@ -1,0 +1,4 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 person "n.01" x1
+b2 PartOf x1 "speaker"

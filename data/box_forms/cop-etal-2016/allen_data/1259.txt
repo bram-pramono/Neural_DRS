@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 think "v.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 male "n.02" x2

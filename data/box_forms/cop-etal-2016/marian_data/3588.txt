@@ -1,0 +1,9 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 pretty "a.01" x2
+b1 thick "n.01" x1
+b2 EQU x1 x3
+b1 Experiencer x2
+b3 REF x3
+b3 entity "n.01" x3

@@ -1,0 +1,33 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 @-4 "n.01" x1
+b2 sorry "a.01" x3
+b2 Stimulus x3 x4
+b3 REF x4
+b3 User x4 "speaker"
+b3 disappointment "n.01" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 Agent x5 "speaker"
+b4 Recipient x5 "speaker"
+b4 TPR x6 "now"
+b4 Theme x5 x7
+b4 Time x5 x6
+b4 show "v.04" x5
+b4 time "n.08" x6
+b4 REF x7
+b4 entity "n.01" x7
+b4 Location x5 x8
+b5 REF x8
+b5 REF x9
+b5 Theme x8 x9
+b5 kindest "n.01" x9
+b5 way "n.01" x8

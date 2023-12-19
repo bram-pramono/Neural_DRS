@@ -1,0 +1,8 @@
+b1 CONTRAST b2 b3
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b3 REF x2
+b3 NOT b3 "speaker"
+b3 Time x2 x1
+b3 remember "v.01" x2

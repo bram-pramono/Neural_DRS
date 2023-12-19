@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Location x4 x1
+b1 Name x1 "?"
+b1 reason "n.01" x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Time x4 x2
+b1 time "n.08" x2
+b2 REF x3
+b2 Name x3 "miss~howard"
+b2 male "n.02" x3
+b1 REF x4
+b1 Agent x4 x3
+b1 NOT b2 b3
+b1 suppress "v.02" x4
+b3 REF x5
+b3 letter "n.01" x5
+b3 REF x6
+b3 Agent x6 x5
+b3 Result x6 x7
+b3 suppress "v.02" x6
+b4 REF x7
+b4 letter "n.01" x7
+b4 REF x8
+b4 Agent x8 x7
+b4 Result x8 x9
+b4 suppress "v.01" x8
+b5 REF x9
+b5 letter "n.01" x9
+b5 REF x10
+b5 Agent x10 x9
+b5 Result x10 x11
+b5 suppress "v.01" x10
+b6 REF x11
+b6 letter "n.01" x11
+b6 REF x12
+b6 Agent x12 x11
+b6 Result x12 x13
+b6 suppress "v.01" x12
+b7 REF x13
+b7 letter "n.01" x13
+b7 REF x14
+b7 Agent x14 x13
+b7 Result x14 x15
+b7 suppress "v.01" x14
+b8 REF x15
+b8 letter "n.01" x15
+b4 REF x16
+b4 Agent x16 x10
+b4 Result x16 x17
+b4 suppress "v.02" x16
+b9 REF x17
+b9 letter "n.01" x17
+b9 REF x18
+b9 Agent x18 x17
+b9 Result x18 x19
+b9 suppress "v.01" x18
+b10 REF x19
+b10 letter "n.01" x19
+b10 REF x20
+b10 Agent x20 x19
+b10 Result x20 x21
+b10 suppress "v.01" x20
+b11 REF x21
+b11 letter "n.01" x21
+b11 REF x22
+b11 Agent x22 x21
+b11 Result x22 x23
+b11 suppress "v.01" x22
+b12 REF x23
+b12 letter "n.01" x23
+b12 REF x24
+b12 Agent x24 x23
+b12 Result x24 x24
+b12 suppress "v.01" x24

@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Name x1 "miss~howard"
+b1 male "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b2 Experiencer x2
+b3 REF x3
+b3 @-4 "n.01" x1
+b3 know "v.04" x3
+b3 Stimulus x3 x5
+b4 REF x4
+b4 paper "n.01" x4
+b5 REF x5
+b5 User x5 x4
+b5 existence "n.01" x5

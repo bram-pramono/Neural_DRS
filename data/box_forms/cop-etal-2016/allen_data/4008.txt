@@ -1,0 +1,31 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Attribute "speaker" x2
+b1 kind "a.01" x2
+b1 CONTINUATION b2
+b2 REF x3
+b2 REF x4
+b2 Agent x3 "speaker"
+b2 EQU x4 "now"
+b2 Time x3 x4
+b2 think "v.01" x3
+b2 time "n.08" x4
+b2 CONTINUATION b3
+b3 Time x6 x5
+b3 REF x5
+b3 EQU x5 "now"
+b3 time "n.08" x5
+b3 REF x6
+b3 REF x7
+b3 ATTRIBUTION b4
+b3 Experiencer x7 "speaker"
+b3 Stimulus x7 x6
+b3 proposition "n.01" x6
+b3 sure "a.01" x7
+b4 Time x8 x5
+b4 REF x8
+b4 Attribute "speaker" x8
+b4 kind "a.01" x8

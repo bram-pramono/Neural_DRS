@@ -1,0 +1,27 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 time "n.08" x2
+b3 REF x3
+b3 Co-Theme x3 x4
+b3 Theme x3 x1
+b3 Time x3 x2
+b3 cover "v.01" x3
+b2 IMP b4 b3
+b4 REF x4
+b4 entity "n.01" x4
+b5 DRS x1
+b5 DRS x4
+b4 CONTINUATION b1 b5
+b5 REF x5
+b5 EQU x5 "now"
+b5 time "n.08" x5
+b6 REF x6
+b6 Agent x6 x1
+b6 Time x6 x5
+b6 Topic x6 x7
+b6 explain "v.01" x6
+b5 Experiencer x6
+b6 REF x7
+b6 entity "n.01" x7

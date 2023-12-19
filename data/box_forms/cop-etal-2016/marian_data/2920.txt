@@ -1,0 +1,11 @@
+b1 REF x1
+b1 User x1 "hearer"
+b1 triumph_downstairs "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 @-4 "n.01" "hearer"
+b2 Stimulus x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 excite "v.01" x2
+b2 time "n.08" x3

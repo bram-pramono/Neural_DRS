@@ -1,0 +1,44 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 TPR x2 "now"
+b1 Theme x1 x4
+b1 Time x1 x2
+b1 accept "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 PRESUPPOSITION b3
+b2 male "n.02" x3
+b3 REF x4
+b3 Creator x4 x3
+b3 PRESUPPOSITION b1
+b3 assurance "n.01" x4
+b1 EXPLANATION b4
+b5 REF x5
+b5 TPR x5 "now"
+b5 Time x6 x5
+b5 time "n.08" x5
+b4 NEGATION b5
+b5 REF x6
+b5 REF x7
+b5 ATTRIBUTION b6
+b5 Co-Theme x6 x7
+b5 Theme x6 "speaker"
+b5 question "n.01" x7
+b5 see "v.01" x6
+b7 REF x8
+b7 Causer x10 x8
+b7 EQU x8 "?"
+b7 reason "n.01" x8
+b6 PRESUPPOSITION b7
+b5 POSSIBILITY b7
+b7 REF x9
+b7 Degree x10 x9
+b7 so "r.01" x9
+b7 REF x10
+b7 Experiencer x10 x3
+b7 positive "a.01" x10
+b7 Stimulus x10 x11
+b8 REF x11
+b8 PRESUPPOSITION b7
+b8 matter "n.01" x11

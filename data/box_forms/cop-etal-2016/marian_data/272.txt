@@ -1,0 +1,25 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Agent x2 "hearer"
+b1 Recipient x2 x3
+b1 ask "v.04" x2
+b2 REF x3
+b2 Of x3 "hearer"
+b2 Name x3 "alfred"
+b2 male "n.02" x3
+b1 REF x4
+b1 Quantity x4 "?"
+b1 time "n.01" x4
+b3 REF x5
+b3 male "n.02" x5
+b1 REF x6
+b1 REF x7
+b1 Agent x6 x5
+b1 Asset x6 x4
+b1 EQU x7 "now"
+b1 Time x6 x7
+b1 spend "v.01" x6
+b1 time "n.08" x7

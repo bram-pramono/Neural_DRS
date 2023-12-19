@@ -1,0 +1,24 @@
+b1 IMP b2 b3
+b4 REF x1
+b4 case "n.01" x1
+b4 Beneficiary x1 x2
+b5 REF x2
+b5 case "n.01" x2
+b5 PartOf x2 x3
+b6 REF x3
+b6 male "n.02" x3
+b3 REF x4
+b3 EQU x4 "now"
+b3 time "n.08" x4
+b4 Time x5 x4
+b4 REF x5
+b4 Theme x5 x2
+b4 true "a.01" x5
+b4 POS b7
+b7 REF x6
+b7 Agent x6 x6
+b7 Beneficiary x6 x3
+b7 defend "v.01" x6
+b7 NOT b7 b7
+b7 REF x7
+b7 silence "n.01" x7

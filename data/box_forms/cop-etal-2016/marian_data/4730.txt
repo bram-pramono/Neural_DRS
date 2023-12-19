@@ -1,0 +1,29 @@
+b1 REF x1
+b1 Name x1 "madame"
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 "speaker"
+b2 EQU x4 "now"
+b2 PRP x3 b3
+b2 Recipient x2 x5
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 have "v.01" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 User x5 "hearer"
+b4 permission "n.01" x5
+b3 REF x6
+b3 Agent x6 x5
+b3 Theme x6 x7
+b3 hold "v.02" x6
+b3 REF x7
+b3 REF x8
+b3 Theme x8 x7
+b3 little "a.01" x8
+b3 reunion "n.01" x7
+b3 Location x7 x9
+b5 REF x9
+b5 salon "n.01" x9

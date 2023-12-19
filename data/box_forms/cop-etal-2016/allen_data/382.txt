@@ -1,0 +1,28 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 artifact "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 Co-Theme x2 x4
+b3 REF x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 Role x4 x5
+b3 person "n.01" x4
+b2 REF x6
+b2 person "n.01" x6
+b2 SubOf x6 x7
+b4 REF x7
+b4 Of x7 "speaker"
+b4 REF x8
+b4 REF x9
+b4 Attribute x7 x8
+b4 Degree x8 x9
+b4 PRESUPPOSITION b2
+b4 most "r.01" x9
+b4 old "a.02" x8
+b4 family "n.01" x7

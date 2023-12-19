@@ -1,0 +1,5 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 Theme x1 "hearer"
+b2 serious "a.01" x1

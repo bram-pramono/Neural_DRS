@@ -1,0 +1,21 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 certainly "r.01" x1
+b2 Experiencer x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b1 REF x3
+b1 Causer x3 "hearer"
+b1 Time x3 x2
+b1 Topic x3 x4
+b1 say "v.01" x3
+b3 REF x4
+b3 REF x5
+b3 Theme x4 x5
+b3 mr "n.01" x5
+b3 Name x4 "inglethorp"
+b3 female "n.02" x4
+b1 REF x6
+b1 Manner x3 x6
+b1 sharply "r.01" x6

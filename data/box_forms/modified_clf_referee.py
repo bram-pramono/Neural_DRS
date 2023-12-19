@@ -696,12 +696,12 @@ def convert_clf(src, verbose_value, quiet_value, sig_file_value):
 #################################
 if __name__ == '__main__':
     args = parse_arguments()
+    print('cur',os.listdir('./'))
     text_folder = 'text_data/'
-    base_folder = 'pmb_diff/'
-    story_folder = 'cop-etal-2016/'
-    data_folders = ['boxer_data/', 'allen_data/', 'marian_data/']
+    base_folder = 'cop-etal-2016/'
+    data_folders = ['allen_data/', 'marian_data/']
     for data_folder in data_folders:
-      rel_path = base_folder + story_folder + data_folder
+      rel_path = base_folder + data_folder
       files = sorted(os.listdir(rel_path))
       for f in files:
         # read clausal forms and raw from the file

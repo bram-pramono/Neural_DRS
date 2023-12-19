@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Co-Theme x1 "enough"
+b1 measure "n.02" x1
+b1 Theme x1 x2
+b1 REF x2
+b1 secret "n.01" x2

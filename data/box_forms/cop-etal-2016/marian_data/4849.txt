@@ -1,0 +1,49 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 Result x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 demand "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 entity "n.01" x4
+b2 Source x2 x5
+b4 REF x5
+b4 REF x6
+b4 Theme x5 x6
+b4 mr "n.01" x6
+b4 Name x5 "inglethorp"
+b4 male "n.02" x5
+b5 DRS x3
+b5 DRS x6
+b4 CONTINUATION b1 b5
+b5 REF x7
+b5 Name x7 "inglethorp"
+b5 city "n.01" x7
+b5 REF x8
+b5 REF x9
+b5 Agent x8 x7
+b5 NOT b4 b2
+b5 TPR x9 "now"
+b5 Time x8 x9
+b5 assure "v.01" x8
+b5 time "n.08" x9
+b6 DRS x8
+b6 DRS x9
+b5 CONTINUATION b4 b6
+b6 Experiencer x9
+b6 REF x10
+b6 entity "n.01" x10
+b5 REF x11
+b5 TPR x11 "now"
+b5 time "n.08" x11
+b6 REF x12
+b6 Agent x12 x10
+b6 Time x12 x11
+b6 do "v.02" x12
+b6 Theme x12 x13
+b7 REF x13
+b7 matter "n.01" x13

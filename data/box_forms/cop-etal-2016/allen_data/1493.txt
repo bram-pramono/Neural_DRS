@@ -1,0 +1,50 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b2 PRESUPPOSITION b1
+b2 REF x2
+b2 male "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 EQU x4 "now"
+b1 Experiencer x3 x2
+b1 Stimulus x3 x5
+b1 Time x3 x4
+b1 feel "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 Attribute x5 x6
+b1 secret "a.01" x6
+b1 PartOf x5 x7
+b1 REF x7
+b1 fear "n.01" x7
+b3 PRESUPPOSITION b4
+b4 REF x8
+b4 TPR x8 "now"
+b4 Time x9 x8
+b4 time "n.08" x8
+b1 PRESUPPOSITION b4
+b4 REF x9
+b4 REF x10
+b4 ATTRIBUTION b5
+b4 Experiencer x9 x3
+b4 Stimulus x9 x10
+b4 confident "v.01" x9
+b4 proposition "n.01" x10
+b2 PRESUPPOSITION b6
+b6 REF x11
+b6 Creator x11 x4
+b6 PRESUPPOSITION b5
+b6 crime "n.01" x11
+b4 REF x12
+b4 TPR "now" x12
+b4 time "n.08" x12
+b5 Time x13 x12
+b5 REF x13
+b5 Agent x13 x11
+b5 Topic x13 x14
+b5 go "v.01" x13
+b5 REF x14
+b5 Patient x14 x11

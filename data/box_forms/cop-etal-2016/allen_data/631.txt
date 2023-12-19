@@ -1,0 +1,52 @@
+b1 REF x1
+b1 shadow "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Theme x2 x1
+b1 Time x2 x3
+b1 fall "v.01" x2
+b1 time "n.08" x3
+b1 Location x2 x4
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 bed "n.01" x4
+b1 CONTINUATION b3
+b3 REF x5
+b3 look "v.01" x5
+b1 REF x6
+b1 REF x7
+b1 REF x8
+b1 ATTRIBUTION b4
+b1 Experiencer x6 "speaker"
+b1 Stimulus x6 x7
+b1 TPR x8 "now"
+b1 Time x6 x8
+b1 proposition "n.01" x7
+b1 see "v.01" x6
+b1 time "n.08" x8
+b5 REF x9
+b5 PRESUPPOSITION b4
+b5 female "n.02" x9
+b4 REF x10
+b4 Theme x10 x9
+b4 stand "v.01" x10
+b4 REF x11
+b4 APX x11 x12
+b4 Location x10 x11
+b4 location "n.01" x11
+b6 REF x12
+b6 PRESUPPOSITION b4
+b6 door "n.01" x12
+b4 Instrument x10 x13
+b7 REF x13
+b7 PRESUPPOSITION b4
+b7 PartOf x13 x8
+b7 arm "n.01" x13
+b4 REF x14
+b4 Destination x11 x14
+b4 SXY x14 x15
+b4 location "n.01" x14
+b8 REF x15
+b8 PRESUPPOSITION b4
+b8 female "n.02" x15

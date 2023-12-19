@@ -1,0 +1,63 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Agent x3 x1
+b2 frown "v.01" x3
+b2 REF x4
+b2 Manner x3 x4
+b2 CONTINUATION b3
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Result x5 x7
+b3 Time x5 x6
+b3 draw "v.01" x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 Attribute x7 x8
+b3 Value x8 "+"
+b3 deep "a.01" x8
+b3 breath "n.01" x7
+b3 PartOf x7 x9
+b3 REF x9
+b3 relief "n.01" x9
+b3 Duration x6 x10
+b4 REF x10
+b4 REF x11
+b4 Attribute x10 x11
+b4 PRESUPPOSITION b3
+b4 thought "n.01" x10
+b3 REF x12
+b3 Theme x12 x10
+b3 Time x12 x7
+b3 flash "v.01" x12
+b3 Path x12 x13
+b5 REF x13
+b5 PRESUPPOSITION b3
+b5 User x13 "speaker"
+b5 mind "n.01" x13
+b6 REF x14
+b6 REF x15
+b6 PRESUPPOSITION b7
+b6 PRESUPPOSITION b8
+b6 Title x14 x15
+b6 doctor "n.04" x15
+b6 person "n.01" x14
+b4 REF x16
+b4 PRESUPPOSITION b8
+b4 TPR x16 "now"
+b4 time "n.08" x16
+b8 REF x17
+b8 Pivot x17 x14
+b8 Theme x17 x18
+b8 Time x17 x16
+b8 have "v.01" x17
+b8 REF x18
+b8 accomplice "n.01" x18

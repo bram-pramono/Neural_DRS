@@ -1,0 +1,41 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 TPR x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 suppose "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 Theme x3 x4
+b2 mr "n.01" x4
+b2 Name x3 "lawrence"
+b2 male "n.02" x3
+b1 REF x5
+b1 Agent x5 x3
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 wear "v.02" x5
+b1 REF x6
+b1 TPR x6 "now"
+b1 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 Theme x8 x7
+b3 fine "a.01" x8
+b3 beard "n.01" x7
+b3 PartOf x7 x9
+b4 REF x9
+b4 REF x10
+b4 Theme x9 x10
+b4 chest "n.01" x10
+b4 upstairs "n.01" x9
+b2 REF x11
+b2 Co-Theme x11 x12
+b2 Theme x11 x9
+b2 Time x11 x6
+b2 be "v.03" x11
+b5 REF x12
+b5 Name x12 "shah~of~persia"
+b5 state "n.01" x12

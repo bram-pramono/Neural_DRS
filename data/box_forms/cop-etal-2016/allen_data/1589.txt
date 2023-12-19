@@ -1,0 +1,8 @@
+b1 NEGATION b2
+b2 REF x1
+b2 Theme x1 "hearer"
+b2 at~all "a.01" x1
+b3 REF x2
+b3 Name x2 "john"
+b3 PRESUPPOSITION b2
+b3 male "n.02" x2

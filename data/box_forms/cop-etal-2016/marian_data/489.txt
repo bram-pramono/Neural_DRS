@@ -1,0 +1,20 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Theme x2 "speaker"
+b2 go "v.01" x2
+b3 REF x3
+b3 female "n.02" x3
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x3
+b1 TPR x5 "now"
+b1 Time x4 x5
+b1 reply "v.01" x4
+b1 time "n.08" x5
+b1 REF x6
+b1 Manner x4 x6
+b1 abruptly "r.01" x6

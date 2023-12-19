@@ -1,0 +1,75 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 Recipient x2 "speaker"
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 make "v.06" x2
+b2 time "n.08" x4
+b3 REF x5
+b3 Theme x5 "speaker"
+b3 come "v.01" x5
+b3 REF x6
+b3 Manner x5 x6
+b3 right "r.01" x6
+b3 right "r.01" x5
+b4 DRS x4
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 Agent x7 "speaker"
+b4 Theme x7 x8
+b4 sign "v.01" x7
+b5 REF x8
+b5 User x8 "speaker"
+b5 name "n.01" x8
+b5 Theme x8 x9
+b5 REF x9
+b5 bottom "n.01" x9
+b5 PartOf x9 x10
+b5 REF x10
+b5 REF x11
+b5 Theme x11 x10
+b5 long "a.01" x11
+b5 paper "n.01" x10
+b5 Theme x10 x12
+b5 REF x12
+b5 bottom "n.01" x12
+b5 PartOf x12 x13
+b5 REF x13
+b5 REF x14
+b5 Theme x14 x13
+b5 long "a.01" x14
+b5 paper "n.01" x13
+b5 Theme x13 x15
+b5 REF x15
+b5 bottom "n.01" x15
+b5 PartOf x15 x16
+b5 REF x16
+b5 REF x17
+b5 Theme x17 x16
+b5 long "a.01" x17
+b5 paper "n.01" x16
+b5 Theme x16 x18
+b5 REF x18
+b5 bottom "n.01" x18
+b5 PartOf x18 x19
+b5 REF x19
+b5 REF x20
+b5 Theme x20 x19
+b5 long "a.01" x20
+b5 paper "n.01" x19
+b5 Theme x19 x21
+b5 REF x21
+b5 bottom "n.01" x21
+b5 PartOf x21 x22
+b5 REF x22
+b5 REF x23
+b5 Theme x23 x22
+b5 long "a.01" x23
+b5 paper "n.01" x22

@@ -1,0 +1,6 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Degree x2 x1
+b2 very "r.01" x1
+b2 REF x2
+b2 Attribute "speaker" x2

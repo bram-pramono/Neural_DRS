@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 Name x2 "mary"
+b2 PRESUPPOSITION b1
+b2 female "n.02" x2

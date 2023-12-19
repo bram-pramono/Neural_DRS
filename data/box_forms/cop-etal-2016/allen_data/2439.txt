@@ -1,0 +1,54 @@
+b1 REF x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Co-Theme x3 x6
+b1 TPR x4 "now"
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 Manner x3 x5
+b1 only "a.01" x5
+b1 REF x6
+b1 REF x7
+b1 PartOf x6 x7
+b1 human "n.01" x7
+b1 nature "n.01" x6
+b1 REF x8
+b1 Agent x8 x1
+b1 Theme x8 x9
+b1 please "v.01" x8
+b3 REF x9
+b3 PRESUPPOSITION b1
+b3 artifact "n.01" x9
+b1 REF x10
+b1 Manner x8 x10
+b1 especially "r.01" x10
+b4 REF x11
+b4 PRESUPPOSITION b5
+b4 entity "n.01" x11
+b2 POSSIBILITY b5
+b5 REF x12
+b5 Theme x12 x11
+b5 result "v.01" x12
+b5 Context x12 x13
+b5 REF x13
+b5 custom "n.01" x13
+b5 REF x14
+b5 Theme x14 x13
+b5 Time x14 x15
+b5 access "v.01" x14
+b5 REF x15
+b5 TPR x15 "now"
+b5 time "n.08" x15
+b5 Source x14 x16
+b6 REF x16
+b6 PRESUPPOSITION b5
+b6 male "n.02" x16
+b5 REF x17
+b5 PRESUPPOSITION b4
+b5 User x17 x16

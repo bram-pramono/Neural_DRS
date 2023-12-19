@@ -1,0 +1,71 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 mr "n.01" x2
+b1 Name x1 "wells"
+b1 female "n.02" x1
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 Source x3 x5
+b2 TPR x4 "now"
+b2 Time x3 x4
+b2 clear "v.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 PartOf x5 x5
+b3 throat "n.01" x5
+b4 DRS x3
+b4 DRS x5
+b3 CONTINUATION b1 b4
+b4 REF x6
+b4 REF x7
+b4 REF x8
+b4 Agent x6 "hearer"
+b4 PRP x7 b5
+b4 TPR x8 "now"
+b4 Time x6 x8
+b4 Topic x6 x7
+b4 remark "v.01" x6
+b4 time "n.08" x8
+b6 REF x9
+b6 PartOf x9 "hearer"
+b6 throat "n.01" x9
+b4 REF x10
+b4 TPR x10 "now"
+b4 time "n.08" x10
+b5 Time x11 x10
+b5 REF x11
+b5 Theme x11 x9
+b5 sure "a.01" x11
+b5 REF x12
+b5 Manner x11 x12
+b5 drily "r.01" x12
+b7 DRS x9
+b7 DRS x12
+b6 CONTINUATION b3 b7
+b7 REF x13
+b7 REF x14
+b7 REF x15
+b7 Agent x13 "hearer"
+b7 EQU x15 "now"
+b7 PRP x14 b8
+b7 Time x13 x15
+b7 Topic x13 x14
+b7 be "v.01" x13
+b7 time "n.08" x15
+b8 REF x16
+b8 coincidence "n.01" x16
+b8 REF x17
+b8 REF x18
+b8 Co-Theme x17 x19
+b8 EQU x18 "now"
+b8 Theme x17 x16
+b8 Time x17 x18
+b8 be "v.02" x17
+b8 time "n.08" x18
+b8 REF x19
+b8 coincidence "n.01" x19
+b8 EQU x19 x20
+b8 REF x20
+b8 coincidence "n.01" x20

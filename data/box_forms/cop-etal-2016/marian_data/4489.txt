@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Name x2 "detector~japp"
+b1 Source x1 x2
+b1 country "n.02" x2
+b1 person "n.01" x1
+b1 REF x3
+b1 Co-Theme x3 x5
+b1 Theme x3 x1
+b1 Time x3 x4
+b1 be "v.03" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b1 REF x5
+b1 Order x5 "1"
+b1 REF x6
+b1 Role x5 x6
+b1 person "n.01" x5
+b1 witness "n.01" x6
+b1 REF x7
+b1 Theme x7 x5
+b1 Time x7 x4
+b1 call "v.01" x7
+b2 REF x8
+b2 Order x8 "1"
+b2 REF x9
+b2 Role x8 x9
+b2 person "n.01" x8
+b2 witness "n.01" x9
+b1 REF x10
+b1 Theme x10 x8
+b1 call "v.01" x10
+b3 REF x11
+b3 Order x11 "1"
+b3 REF x12
+b3 Role x11 x12
+b3 person "n.01" x11
+b3 witness "n.01" x12
+b1 REF x13
+b1 Theme x13 x11
+b1 call "v.01" x13
+b4 REF x14
+b4 Order x14 "1"
+b4 REF x15
+b4 Role x14 x15
+b4 person "n.01" x14
+b4 witness "n.01" x15
+b1 REF x16
+b1 TPR x16 "now"
+b1 time "n.08" x16
+b2 Time x17 x16
+b2 REF x17
+b2 NOT b4 b1
+b2 reopen "v.01" x17
+b5 DRS x14
+b5 DRS x17
+b4 CONTINUATION b1 b5
+b5 REF x18
+b5 REF x19
+b5 Agent x18 x13
+b5 TPR x19 "now"
+b5 Theme x18 x20
+b5 Time x18 x19
+b5 give "v.03" x18
+b5 time "n.08" x19
+b6 REF x20
+b6 Order x20 "1"
+b6 REF x21
+b6 Role x20 x21
+b6 person "n.01" x20
+b6 trial "n.01" x21
+b5 REF x22
+b5 TPR x22 "now"
+b5 time "n.08" x22

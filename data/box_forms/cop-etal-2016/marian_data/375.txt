@@ -1,0 +1,35 @@
+b1 REF x1
+b1 entertainment "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 great "a.01" x5
+b2 success "n.01" x4
+b3 DRS x4
+b3 DRS x5
+b2 CONTINUATION b1 b3
+b3 REF x6
+b3 REF x7
+b3 Theme x7 x6
+b3 mr "a.01" x7
+b3 REF x8
+b3 Role x6 x8
+b3 person "n.01" x6
+b3 recitation "n.01" x8
+b3 REF x9
+b3 Agent x9 x6
+b3 Theme x9 x11
+b3 receive "v.01" x9
+b3 REF x10
+b3 REF x11
+b3 Theme x10 x11
+b3 tremendous "a.01" x10
+b3 applause "n.01" x11

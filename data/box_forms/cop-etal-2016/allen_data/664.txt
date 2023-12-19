@@ -1,0 +1,34 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Recipient x1 x2
+b1 Topic "v.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x2
+b1 REF x3
+b1 Manner x1 x3
+b1 easy "a.01" x3
+b1 CONTINUATION b3
+b3 REF x4
+b3 REF x5
+b3 Agent x4 "speaker"
+b3 TPR x5 "now"
+b3 Time x4 x5
+b3 Topic x4 x6
+b3 say "v.01" x4
+b3 time "n.08" x5
+b3 Recipient x4 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 female "n.02" x6
+b3 CONTINUATION b5
+b5 REF x7
+b5 Agent x7 "hearer"
+b5 Theme x7 x8
+b5 take "v.01" x7
+b6 REF x8
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x8
+b5 REF x9
+b5 Attribute x8 x9
+b5 easy "a.01" x9

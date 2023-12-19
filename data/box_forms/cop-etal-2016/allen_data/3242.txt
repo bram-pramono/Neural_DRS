@@ -1,0 +1,31 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 dear "n.01" x2
+b1 REF x3
+b1 PRESUPPOSITION b2
+b1 Role x1 x3
+b1 fellow "n.01" x3
+b1 person "n.01" x1
+b3 Time x5 x4
+b3 REF x4
+b3 EQU x4 "now"
+b3 time "n.08" x4
+b2 NEGATION b3
+b3 REF x5
+b3 Degree x6 x5
+b3 very "r.01" x5
+b3 REF x6
+b3 Attribute x1 x6
+b3 bright "a.01" x6
+b4 REF x7
+b4 REF x8
+b4 ATTRIBUTION b3
+b4 Agent x7 "speaker"
+b4 Time x7 x5
+b4 Topic x7 x8
+b4 proposition "n.01" x8
+b4 say "v.01" x7
+b3 REF x9
+b3 Manner x7 x9
+b3 thoughtfully "r.01" x9

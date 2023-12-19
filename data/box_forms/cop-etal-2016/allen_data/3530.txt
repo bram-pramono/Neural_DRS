@@ -1,0 +1,39 @@
+b1 REF x1
+b1 Manner x2 x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Experiencer x4 x2
+b1 Stimulus x4 x5
+b3 REF x5
+b3 Creator x5 "speaker"
+b3 PRESUPPOSITION b1
+b1 CONTINUATION b4
+b5 Beneficiary x9 "speaker"
+b6 POSSIBILITY b7
+b8 POSSIBILITY b9
+b7 REF x6
+b7 Agent x6 "speaker"
+b7 Theme x6 x7
+b7 speak "v.03" x6
+b7 REF x7
+b7 Agent x7 x2
+b7 Theme x7 x8
+b7 read "v.01" x7
+b7 REF x8
+b7 PRESUPPOSITION b9
+b7 word "n.01" x8
+b7 REF x9
+b7 Agent x9 x8
+b7 Patient x9 "speaker"
+b7 arouse "v.01" x9
+b7 Source x9 x10
+b10 REF x10
+b10 PRESUPPOSITION b7
+b10 User x10 "speaker"
+b10 dream "n.01" x10

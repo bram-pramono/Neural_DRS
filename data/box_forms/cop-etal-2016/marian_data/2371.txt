@@ -1,0 +1,27 @@
+b1 REF x1
+b1 examination "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 over "a.01" x3
+b2 REF x4
+b2 REF x5
+b2 Agent x4 "speaker"
+b2 PRP x5 b3
+b2 Theme x4 x5
+b2 Time x4 x2
+b2 doubt "v.01" x4
+b4 REF x6
+b4 Name x6 "coroner"
+b4 male "n.02" x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 time "n.08" x7
+b3 Time x8 x7
+b3 REF x8
+b3 @-4 "n.01" x6
+b3 satisfiely "a.01" x8
+b3 Stimulus x8 x5

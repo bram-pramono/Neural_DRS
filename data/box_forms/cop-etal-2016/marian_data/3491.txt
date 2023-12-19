@@ -1,0 +1,57 @@
+b1 REF x1
+b1 woman "n.01" x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Time x3 x2
+b1 time "n.08" x2
+b1 REF x3
+b1 Agent x3 x1
+b1 Attribute x3 x5
+b1 do "v.01" x3
+b1 REF x4
+b1 REF x5
+b1 Theme x4 x5
+b1 great "a.01" x4
+b1 work "n.01" x5
+b1 REF x6
+b1 Part x6 x5
+b1 Part x6 x7
+b1 group "n.01" x6
+b2 REF x7
+b2 Name x7 "mademoiselle~cynthia"
+b2 state "n.01" x7
+b1 REF x8
+b1 EQU x8 "now"
+b1 Time x9 x8
+b1 time "n.08" x8
+b1 REF x9
+b1 Theme x9 x6
+b1 clever "a.01" x9
+b3 DRS x7
+b3 DRS x9
+b2 CONTINUATION b1 b3
+b4 REF x10
+b4 female "n.02" x10
+b3 REF x11
+b3 REF x12
+b3 EQU x12 "now"
+b3 Pivot x11 x10
+b3 Theme x11 x13
+b3 Time x11 x12
+b3 be "v.03" x11
+b3 time "n.08" x12
+b3 REF x13
+b3 clever "n.01" x13
+b5 DRS x11
+b5 DRS x13
+b4 CONTINUATION b2 b5
+b6 REF x14
+b6 female "n.02" x14
+b5 REF x15
+b5 REF x16
+b5 EQU x16 "now"
+b5 Pivot x15 x14
+b5 Theme x15 x13
+b5 Time x15 x16
+b5 brain "v.01" x15
+b5 time "n.08" x16

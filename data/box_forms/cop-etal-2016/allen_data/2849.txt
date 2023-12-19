@@ -1,0 +1,3 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 listen "v.01" x1

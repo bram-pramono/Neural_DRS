@@ -1,0 +1,9 @@
+b1 NEGATION b2
+b2 REF x1
+b2 EQU x1 "now"
+b2 time "n.08" x1
+b3 Time x2 x1
+b2 NEGATION b3
+b3 REF x2
+b3 Experiencer x2 "speaker"
+b3 know "v.01" x2

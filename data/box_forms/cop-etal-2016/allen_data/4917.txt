@@ -1,0 +1,52 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Attribute x1 x3
+b2 damp "a.01" x3
+b2 CONTINUATION b3
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x4
+b3 REF x5
+b3 Agent x5 x4
+b3 Theme x5 x7
+b3 Time x5 x6
+b3 breathe "v.01" x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 Attribute x7 x8
+b3 strong "a.01" x8
+b3 Part x7 x9
+b3 REF x9
+b3 coffee "n.01" x9
+b3 REF x10
+b3 Theme x10 x3
+b3 Time x10 x7
+b3 Location x10 x11
+b3 REF x11
+b3 nap "n.01" x11
+b3 PartOf x11 x12
+b5 REF x12
+b5 PRESUPPOSITION b3
+b5 carpet "n.01" x12
+b3 REF x13
+b3 Agent x13 "speaker"
+b3 Theme x13 x14
+b3 Time x13 x8
+b3 find "v.01" x13
+b3 REF x14
+b3 REF x15
+b3 Attribute x14 x15
+b3 little "a.01" x15
+b3 splinter "n.01" x14
+b3 Theme x14 x16
+b3 REF x16
+b3 "china" "n.01" x16

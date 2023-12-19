@@ -1,0 +1,46 @@
+b1 Co-Theme x4 x1
+b1 REF x1
+b1 evidence "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 female "n.02" x2
+b1 Co-Patient x1 x3
+b3 REF x3
+b3 REF x4
+b3 PRESUPPOSITION b1
+b3 Theme x3 x4
+b3 candle "n.01" x4
+b1 Location x1 x5
+b4 REF x5
+b4 PRESUPPOSITION b1
+b4 floor "n.01" x5
+b1 REF x6
+b1 Recipient x1 x7
+b1 entity "n.01" x6
+b1 REF x7
+b1 Experiencer x7 x6
+b1 Stimulus x7 x8
+b1 see "v.01" x7
+b5 REF x8
+b5 PRESUPPOSITION b1
+b5 coffee "n.01" x8
+b1 Destination x7 x9
+b6 REF x9
+b6 PRESUPPOSITION b1
+b7 REF x10
+b7 PRESUPPOSITION b3
+b7 proceedings "n.01" x10
+b3 Time x12 x11
+b3 REF x11
+b3 TPR x11 "now"
+b3 time "n.08" x11
+b3 REF x12
+b3 Theme x12 x10
+b3 adjourn "v.01" x12
+b3 Finish x12 x13
+b3 REF x13
+b3 REF x14
+b3 Attribute x13 x14
+b3 follow "a.01" x14
+b3 day "n.01" x13

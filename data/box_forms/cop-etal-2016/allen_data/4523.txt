@@ -1,0 +1,54 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x5 x1
+b1 time "n.08" x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 person "n.01" x2
+b2 prisoner "n.01" x3
+b1 Location x7 x4
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 Attribute x4 x5
+b3 Degree x5 x6
+b3 PRESUPPOSITION b1
+b3 most "r.01" x6
+b3 short "a.02" x5
+b3 weekend "n.01" x4
+b1 PartOf x4 x7
+b1 REF x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 Value x8 "+"
+b1 hot "a.01" x8
+b1 summer "n.01" x7
+b1 REF x9
+b1 EQU x9 "now"
+b1 Time x11 x9
+b1 time "n.08" x9
+b1 REF x10
+b1 REF x11
+b1 ATTRIBUTION b4
+b1 Experiencer x11 x4
+b1 Stimulus x11 x10
+b1 likely "a.01" x11
+b1 proposition "n.01" x10
+b4 REF x12
+b4 Theme x12 x5
+b4 go "v.01" x12
+b4 Destination x12 x13
+b4 REF x13
+b4 REF x14
+b4 Role x13 x14
+b4 person "n.01" x13
+b4 drawer "n.01" x14
+b4 REF x15
+b4 Agent x15 x13
+b4 Patient x15 x16
+b4 contain "v.01" x15
+b4 REF x16
+b4 winter "n.01" x16
+b4 REF x17

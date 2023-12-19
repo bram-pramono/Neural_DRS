@@ -1,0 +1,17 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Co-Theme x2 x3
+b2 Theme x2 "hearer"
+b2 be "v.01" x2
+b2 REF x3
+b2 REF x4
+b2 Theme x4 x3
+b2 terrible "a.01" x4
+b2 shock "n.01" x3
+b2 Recipient x3 x5
+b3 REF x5
+b3 female "n.02" x5

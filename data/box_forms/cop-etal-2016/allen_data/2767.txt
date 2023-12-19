@@ -1,0 +1,45 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 reply "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 female "n.02" x4
+b1 REF x5
+b1 Manner x2 x5
+b1 REF x6
+b1 REF x7
+b1 REF x8
+b1 ATTRIBUTION b3
+b1 Agent x6 "hearer"
+b1 EQU x8 "now"
+b1 Time x6 x8
+b1 Topic x6 x7
+b1 find "v.01" x6
+b1 proposition "n.01" x7
+b1 time "n.08" x8
+b3 REF x9
+b3 person "n.01" x9
+b3 REF x10
+b3 EQU x10 "now"
+b3 time "n.08" x10
+b4 Time x11 x10
+b3 NEGATION b4
+b4 REF x11
+b4 Agent x11 x9
+b4 Recipient x11 "hearer"
+b4 Topic x11 x12
+b4 tell "v.01" x11
+b5 REF x12
+b5 PRESUPPOSITION b4
+b5 truth "n.01" x12
+b4 REF x13
+b4 Theme x13 "hearer"
+b4 look "v.01" x13

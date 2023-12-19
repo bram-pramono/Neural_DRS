@@ -1,0 +1,31 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 @-4 "n.01" "hearer"
+b2 Stimulus x2 x3
+b2 know "v.01" x2
+b3 REF x3
+b3 Of x4 "speaker"
+b3 REF x4
+b3 Role x3 x4
+b3 friend "n.01" x4
+b3 person "n.01" x3
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b1 Time x6 x5
+b1 REF x6
+b1 Agent x6 "speaker"
+b1 Theme x6 x7
+b1 straighten "v.01" x6
+b1 IMP b4 b2
+b4 REF x7
+b4 PartOf x7 x8
+b4 entity "n.01" x7
+b2 REF x8
+b2 object "n.01" x8
+b2 Location x8 x9
+b5 REF x9
+b5 mantel@-8piece "n.01" x9

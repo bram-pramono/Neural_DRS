@@ -1,0 +1,60 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 PRESUPPOSITION b1
+b2 REF x2
+b2 female "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 Experiencer x3 x2
+b1 Stimulus x3 x1
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 see "v.01" x3
+b1 time "n.08" x4
+b1 Location x3 x5
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 man "n.01" x5
+b4 POSSIBILITY b5
+b1 NEGATION b4
+b5 REF x6
+b5 Agent x6 "speaker"
+b5 Theme x6 x5
+b5 imagine "v.01" x6
+b6 PRESUPPOSITION b7
+b7 TPR x7 "now"
+b8 Time x8 x7
+b7 REF x7
+b7 time "n.08" x7
+b5 CONDITION b7
+b7 CONSEQUENCE b8
+b8 REF x8
+b8 Agent x8 x1
+b8 Recipient x8 x9
+b8 ask "v.01" x8
+b9 PRESUPPOSITION b8
+b9 REF x9
+b9 male "n.02" x9
+b8 Source x8 x10
+b10 REF x10
+b10 PRESUPPOSITION b8
+b10 house "n.01" x10
+b8 REF x11
+b8 Quantity x11 "+"
+b8 Time x12 x11
+b8 time "n.08" x11
+b8 REF x12
+b8 Theme x12 x5
+b8 Time x12 x7
+b8 go "v.01" x12
+b8 Duration x12 x14
+b8 REF x13
+b8 REF x14
+b8 Attribute x14 x13
+b8 Value x13 "+"
+b8 long "a.01" x13
+b8 expedition "n.01" x14
+b8 Co-Theme x12 x15
+b11 REF x15
+b11 PRESUPPOSITION b8
+b11 male "n.02" x15

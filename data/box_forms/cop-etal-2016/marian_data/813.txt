@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 take_time "v.02" x1
+b1 REF x2
+b1 mon_ami "n.01" x2

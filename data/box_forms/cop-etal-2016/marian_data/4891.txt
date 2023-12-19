@@ -1,0 +1,75 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 @-4 "n.01" x1
+b2 PRP x3 b3
+b2 Stimulus x2 x3
+b2 Time x2 x4
+b2 believe "v.01" x2
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b4 REF x5
+b4 sleeping "n.01" x5
+b3 Time x6 x4
+b3 REF x6
+b3 Theme x6 x5
+b3 harmless "a.01" x6
+b5 DRS x3
+b5 DRS x6
+b4 CONTRAST b1 b5
+b5 REF x7
+b5 REF x8
+b5 @-4 "n.01" x5
+b5 PRP x8 b6
+b5 Stimulus x7 x8
+b5 Time x7 x9
+b5 be "v.03" x7
+b5 REF x9
+b5 TPR x9 "now"
+b5 time "n.08" x9
+b6 REF x10
+b6 Theme x10 x4
+b6 doubt "a.01" x10
+b7 REF x11
+b7 REF x12
+b7 Theme x12 x11
+b7 terrible "a.01" x12
+b7 moment "n.01" x11
+b8 DRS x9
+b8 DRS x12
+b7 CONTRAST b4 b8
+b8 REF x13
+b8 REF x14
+b8 @-4 "n.01" x11
+b8 PRP x14 b9
+b8 Stimulus x13 x14
+b8 Time x13 x15
+b8 be "v.03" x13
+b8 REF x15
+b8 TPR x15 "now"
+b8 time "n.08" x15
+b9 REF x16
+b9 Theme x16 x10
+b9 doubt "a.01" x16
+b10 DRS x14
+b10 DRS x16
+b9 CONTRAST b7 b10
+b10 REF x17
+b10 REF x18
+b10 @-4 "n.01" x12
+b10 PRP x18 b11
+b10 Stimulus x17 x18
+b10 Time x17 x19
+b10 be "v.03" x17
+b10 REF x19
+b10 TPR x19 "now"
+b10 time "n.08" x19
+b11 REF x20
+b11 Theme x20 x14
+b11 doubt "a.01" x20
+b12 DRS x18
+b12 DRS x20
+b11 CONTRAST b9 b12
+b12 REF x21

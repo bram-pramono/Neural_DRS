@@ -1,0 +1,8 @@
+b1 Source x2 x1
+b2 REF x1
+b2 Name x1 "britain"
+b2 PRESUPPOSITION b1
+b2 country "n.02" x1
+b1 Goal x1 x2
+b1 REF x2
+b1 instance "n.01" x2

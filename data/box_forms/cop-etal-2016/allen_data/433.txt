@@ -1,0 +1,35 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b3 REF x2
+b3 TPR x2 "now"
+b3 time "n.08" x2
+b4 Time x4 x2
+b2 CONDITION b3
+b2 Quantity x1 "2"
+b3 REF x3
+b3 CONSEQUENCE b4
+b3 Quantity x3 "1"
+b3 SubOf x3 x1
+b3 entity "n.01" x3
+b4 REF x4
+b4 Attribute x3 x4
+b4 gay "a.01" x4
+b4 Time x4 x5
+b5 REF x5
+b5 PRESUPPOSITION b4
+b5 afternoon "n.01" x5
+b4 REF x6
+b4 PRESUPPOSITION b6
+b4 TPR x6 "now"
+b4 time "n.08" x6
+b6 REF x7
+b6 Agent x7 x3
+b6 Time x7 x6
+b6 chat "v.01" x7
+b6 Instrument x7 x8
+b6 REF x8
+b6 couple "n.01" x8
+b6 Creator x8 x9
+b6 REF x9
+b6 child "n.01" x9

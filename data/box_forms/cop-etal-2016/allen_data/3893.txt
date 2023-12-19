@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 REF x1
+b3 PRESUPPOSITION b4
+b3 entity "n.01" x1
+b5 REF x2
+b5 TPR x2 "now"
+b5 Time x3 x2
+b5 time "n.08" x2
+b4 NEGATION b5
+b5 REF x3
+b5 Experiencer x3 "hearer"
+b5 Stimulus x3 "hearer"
+b5 strike "v.01" x3
+b3 REF x4
+b3 Theme x4 x1
+b3 peculiar "v.01" x4
+b3 REF x5
+b3 REF x6
+b3 Attribute x5 x6
+b3 famous "a.01" x6
+b3 Source x5 x7
+b6 REF x7
+b6 Name x7 "london"
+b6 PRESUPPOSITION b3
+b6 city "n.01" x7
+b3 REF x8
+b3 Role x5 x8
+b3 doctor "n.01" x8
+b3 person "n.01" x5
+b3 NECESSITY b7
+b7 REF x9
+b7 Agent x9 x5
+b7 Patient x9 x10
+b7 bury "v.01" x9
+b8 REF x10
+b8 PRESUPPOSITION b7
+b8 male "n.02" x10
+b7 Location x9 x11
+b7 REF x11
+b7 REF x12
+b7 Attribute x11 x12
+b7 little "a.01" x12
+b7 village "n.01" x11
+b7 REF x13
+b7 Location x13 x14
+b7 Theme x13 x11
+b7 like "a.01" x13
+b9 REF x14
+b9 PRESUPPOSITION b7
+b9 entity "n.01" x14
+b7 NECESSITY b10
+b10 REF x15
+b10 Theme x15 x12
+b10 be "v.01" x15
+b10 Location x15 x16
+b11 REF x16
+b11 habit "n.01" x16
+b11 REF x17
+b11 PRESUPPOSITION b10
+b11 entity "n.01" x17
+b12 Theme x16 x20
+b10 REF x18
+b10 Theme x18 x17
+b10 walk "v.01" x18
+b10 REF x19
+b10 CONDITION b13
+b10 Quantity x19 "1"
+b10 Unit x19 "hour"
+b10 measure "n.02" x19
+b10 REF x20
+b10 Degree x21 x20
+b10 fully "r.01" x20
+b10 REF x21
+b10 Experiencer x21 x19
+b10 dress "v.01" x21

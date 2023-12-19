@@ -1,0 +1,75 @@
+b1 REF x1
+b1 prosecution "n.01" x1
+b2 Time x4 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 Agent x4 x1
+b2 PRP x3 b3
+b2 Topic x4 x3
+b2 unable "a.01" x4
+b3 REF x5
+b3 Agent x5 x5
+b3 Theme x5 x6
+b3 produce "v.01" x5
+b3 REF x6
+b3 shred "n.01" x6
+b3 Theme x6 x7
+b3 REF x7
+b3 evidence "n.01" x7
+b3 Theme x7 x8
+b3 REF x8
+b3 support "n.01" x8
+b3 Theme x8 x9
+b3 REF x9
+b3 support "n.01" x9
+b3 Theme x9 x10
+b3 REF x10
+b3 support "n.01" x10
+b3 Theme x10 x11
+b3 REF x11
+b3 support "n.01" x11
+b3 Theme x11 x12
+b3 REF x12
+b3 support "n.01" x12
+b3 Theme x12 x13
+b3 REF x13
+b3 support "n.01" x13
+b3 Theme x13 x14
+b3 REF x14
+b3 support "n.01" x14
+b3 Theme x14 x15
+b3 REF x15
+b3 support "n.01" x15
+b3 Theme x15 x16
+b3 REF x16
+b3 support "n.01" x16
+b3 Theme x16 x17
+b3 REF x17
+b3 support "n.01" x17
+b3 Theme x17 x18
+b3 REF x18
+b3 support "n.01" x18
+b3 Theme x18 x19
+b3 REF x19
+b3 support "n.01" x19
+b3 Theme x19 x20
+b3 REF x20
+b3 support "n.01" x20
+b3 Theme x20 x21
+b3 REF x21
+b3 support "n.01" x21
+b3 Theme x21 x22
+b3 REF x22
+b3 support "n.01" x22
+b3 Theme x22 x23
+b3 REF x23
+b3 support "n.01" x23
+b3 Theme x23 x24
+b3 REF x24
+b3 support "n.01" x24
+b3 Theme x24 x25
+b3 REF x25
+b3 support "n.01" x25

@@ -1,0 +1,32 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 REF x2
+b2 ATTRIBUTION b3
+b2 Experiencer x1 "speaker"
+b2 Stimulus x1 x2
+b2 like "v.01" x1
+b2 proposition "n.01" x2
+b3 REF x3
+b3 Agent x3 "speaker"
+b3 speak "v.01" x3
+b3 Co-Agent x3 "hearer"
+b4 REF x4
+b4 Manner x3 x4
+b4 private "a.01" x4
+b5 REF x5
+b5 REF x6
+b5 REF x7
+b5 ATTRIBUTION b2
+b5 Agent x5 "speaker"
+b5 TPR x7 "now"
+b5 Time x5 x7
+b5 Topic x5 x6
+b5 proposition "n.01" x6
+b5 say "v.01" x5
+b5 time "n.08" x7
+b6 REF x8
+b6 REF x9
+b6 PRESUPPOSITION b4
+b6 Title x8 x9
+b6 doctor "n.04" x9
+b6 person "n.01" x8

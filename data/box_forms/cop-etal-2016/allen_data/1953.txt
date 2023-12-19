@@ -1,0 +1,49 @@
+b1 POSSIBILITY b2
+b3 POSSIBILITY b4
+b2 NEGATION b3
+b4 REF x1
+b4 REF x2
+b4 ATTRIBUTION b5
+b4 Agent x1 "speaker"
+b4 Beneficiary x1 x2
+b4 help "v.01" x1
+b4 proposition "n.01" x2
+b5 REF x3
+b5 REF x4
+b5 ATTRIBUTION b6
+b5 Experiencer x3 "speaker"
+b5 Stimulus x3 x4
+b5 proposition "n.01" x4
+b5 regret "v.01" x3
+b7 REF x5
+b7 Of x6 "speaker"
+b7 REF x6
+b7 PRESUPPOSITION b6
+b7 Role x5 x6
+b7 friend "n.01" x6
+b7 person "n.01" x5
+b5 REF x7
+b5 TPR x7 "now"
+b5 time "n.08" x7
+b6 Time x8 x7
+b6 RESULT b8
+b6 REF x8
+b6 Experiencer x8 x5
+b6 hazardous "a.01" x8
+b8 REF x9
+b8 Agent x9 x5
+b8 Theme x9 x11
+b8 lose "v.01" x9
+b9 REF x10
+b9 PRESUPPOSITION b10
+b9 male "n.02" x10
+b10 REF x11
+b10 PRESUPPOSITION b8
+b10 PartOf x11 x10
+b10 head "n.01" x11
+b8 Context x8 x12
+b8 REF x12
+b8 moment "n.01" x12
+b8 Theme x12 x13
+b8 REF x13
+b8 excitement "n.01" x13

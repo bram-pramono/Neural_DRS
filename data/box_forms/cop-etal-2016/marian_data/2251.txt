@@ -1,0 +1,35 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 motor "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 Co-Theme x3 "speaker"
+b2 TPR x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 meet "v.01" x3
+b2 time "n.08" x4
+b2 Causer x3 x5
+b3 REF x5
+b3 REF x6
+b3 Theme x6 x5
+b3 lodge "a.01" x6
+b3 gate "n.01" x5
+b4 DRS x4
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 REF x8
+b4 TPR x8 "now"
+b4 Theme x7 "speaker"
+b4 Time x7 x8
+b4 hurry "v.01" x7
+b4 time "n.08" x8
+b4 REF x9
+b4 Manner x7 x9
+b4 fast "r.01" x9
+b4 REF x10
+b4 Theme x10 "speaker"
+b4 could "v.01" x10

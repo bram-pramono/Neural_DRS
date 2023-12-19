@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 LES x3 x2
+b1 Quantity x1 x2
+b1 quantity "n.01" x2
+b1 quantity "n.01" x3
+b1 EQU x3 "3"
+b1 Unit x1 "represent"
+b1 measure "n.02" x1
+b1 REF x4
+b1 REF x5
+b1 Theme x5 x4
+b1 magnify "a.01" x5
+b1 surface "n.01" x4
+b1 PartOf x4 x6
+b1 REF x6
+b1 REF x7
+b1 Theme x7 x6
+b1 top "a.01" x7
+b1 bottle "n.01" x6
+b1 PartOf x6 x8
+b1 REF x8
+b1 REF x9
+b1 Theme x9 x8
+b1 top "a.01" x9
+b1 bottle "n.01" x8
+b1 PartOf x8 x10
+b1 REF x10
+b1 REF x11
+b1 Theme x11 x10
+b1 top "a.01" x11
+b1 bottle "n.01" x10
+b1 PartOf x10 x12
+b1 REF x12
+b1 REF x13
+b1 Theme x13 x12
+b1 top "a.01" x13
+b1 bottle "n.01" x12
+b1 PartOf x12 x14
+b1 REF x14
+b1 REF x15
+b1 Theme x15 x14
+b1 top "a.01" x15
+b1 bottle "n.01" x14
+b1 PartOf x14 x16
+b1 REF x16
+b1 REF x17
+b1 Theme x17 x16
+b1 top "a.01" x17
+b1 bottle "n.01" x16
+b1 PartOf x16 x18
+b1 REF x18
+b1 REF x19
+b1 Theme x19 x18
+b1 top "a.01" x19
+b1 bottle "n.01" x18
+b1 PartOf x18 x20
+b1 REF x20
+b1 REF x21
+b1 Theme x21 x20
+b1 top "a.01" x21
+b1 bottle "n.01" x20
+b1 PartOf x20 x22
+b1 REF x22
+b1 REF x23
+b1 Theme x23 x22
+b1 top "a.01" x23
+b1 bottle "n.01" x22
+b1 PartOf x22 x24
+b1 REF x24
+b1 REF x25
+b1 Theme x25 x24
+b1 top "a.01" x25
+b1 bottle "n.01" x24

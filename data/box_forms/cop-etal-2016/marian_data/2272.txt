@@ -1,0 +1,34 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 POS b3
+b3 REF x2
+b3 Theme x2 x1
+b3 detect "v.01" x2
+b3 Location x2 x3
+b3 REF x3
+b3 solution "n.01" x3
+b3 PartOf x3 x4
+b3 REF x4
+b3 Quantity x4 "7000"
+b3 Unit x4 "1000"
+b3 measure "n.02" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 POS b5
+b5 REF x5
+b5 Manner x7 x5
+b5 only "a.01" x5
+b4 REF x6
+b4 TPR x6 "now"
+b4 time "n.08" x6
+b5 Time x7 x6
+b5 REF x7
+b5 @-4 "n.01" x1
+b5 disguise "v.01" x7
+b5 Agent x7 x8
+b5 REF x8
+b5 REF x9
+b5 Theme x9 x8
+b5 flavoured "a.01" x9
+b5 substance "n.01" x8

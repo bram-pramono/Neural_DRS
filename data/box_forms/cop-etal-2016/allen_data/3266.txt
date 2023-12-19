@@ -1,0 +1,7 @@
+b1 REF x1
+b1 EQU x1 "?"
+b1 entity "n.01" x1
+b1 EQU x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x2

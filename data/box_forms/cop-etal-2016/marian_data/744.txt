@@ -1,0 +1,19 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "hearer"
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 remember "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 User x3 "speaker"
+b2 speaking "n.01" x3
+b1 Theme x1 x4
+b3 REF x4
+b3 User x4 "speaker"
+b3 REF x5
+b3 Theme x4 x5
+b3 friend "n.01" x5
+b3 Name x4 "poirot"
+b3 female "n.02" x4

@@ -1,0 +1,36 @@
+b1 Time x2 x1
+b1 REF x1
+b1 ClockTime x1 "17:00"
+b1 time "n.08" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 female "n.02" x2
+b1 REF x3
+b1 EQU x1 "now"
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 REF x4
+b1 time "n.08" x4
+b1 Location x3 x6
+b1 REF x5
+b1 REF x6
+b1 Attribute x6 x5
+b1 violent "a.01" x5
+b1 CONTINUATION b3
+b3 REF x7
+b3 Agent x7 x2
+b3 Time x7 x4
+b3 speak "v.01" x7
+b3 REF x8
+b3 entity "n.01" x8
+b3 REF x9
+b3 Pivot x9 x8
+b3 Theme x9 x10
+b3 Time x9 x4
+b3 have "v.01" x9
+b3 REF x10
+b3 REF x11
+b3 Attribute x10 x11
+b3 great "a.01" x11
+b3 shock "n.01" x10

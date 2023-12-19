@@ -1,0 +1,51 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 stand "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 Co-Agent x2 x4
+b2 REF x4
+b2 Theme x4 x5
+b3 REF x5
+b3 female "n.02" x5
+b2 REF x6
+b2 Theme x6 x4
+b2 honest "a.01" x6
+b2 face "n.01" x4
+b2 REF x7
+b2 Theme x7 x4
+b2 Time x7 x7
+b2 upturn "v.01" x7
+b2 Goal x7 "speaker"
+b2 REF x8
+b2 Theme x8 x5
+b2 REF x9
+b2 Theme x9 x8
+b2 honest "a.01" x9
+b2 face "n.01" x8
+b2 REF x10
+b2 Theme x10 x8
+b2 upturn "v.01" x10
+b2 Goal x10 "speaker"
+b4 REF x11
+b4 REF x12
+b4 Theme x12 x11
+b4 old@-8fashioned "a.01" x12
+b4 REF x13
+b4 Role x11 x13
+b4 person "n.01" x11
+b4 servant "n.01" x13
+b4 REF x14
+b4 EQU x14 "now"
+b4 Time x16 x14
+b4 time "n.08" x14
+b4 REF x15
+b4 Manner x16 x15
+b4 fast "a.01" x15
+b4 REF x16
+b4 NOT b4 b1
+b4 die_out "v.01" x16

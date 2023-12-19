@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Participant x1 x4
+b1 event "v.01" x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 aunt "n.01" x3
+b2 Name x2 "emily"
+b2 female "n.02" x2
+b1 REF x4
+b1 Sub x4 x2
+b1 Sub x4 x5
+b1 entity "n.01" x4
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 male "n.02" x5

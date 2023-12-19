@@ -1,0 +1,57 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 prosecution "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x4 x1
+b2 Topic x4 x3
+b2 proposition "n.01" x3
+b2 unable "a.01" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Theme x5 x6
+b3 produce "v.01" x5
+b3 REF x6
+b3 shroud "n.01" x6
+b3 Content x6 x7
+b3 REF x7
+b3 evidence "n.01" x7
+b3 Context x5 x8
+b3 REF x8
+b3 support "n.01" x8
+b3 PartOf x8 x10
+b4 REF x9
+b4 PRESUPPOSITION b5
+b4 person "n.01" x9
+b5 REF x10
+b5 Of x10 x9
+b5 REF x11
+b5 PRESUPPOSITION b3
+b5 Role x10 x11
+b5 person "n.01" x10
+b6 REF x12
+b6 PRESUPPOSITION b3
+b6 entity "n.01" x12
+b3 REF x13
+b3 Co-Theme x13 x15
+b3 Theme x13 x12
+b3 Time x13 x14
+b3 be "v.02" x13
+b3 REF x14
+b3 TPR x14 "now"
+b3 time "n.08" x14
+b2 REF x15
+b2 REF x16
+b2 Attribute x15 x16
+b2 PRESUPPOSITION b4
+b2 black "a.01" x16
+b2 beard "n.01" x15
+b2 Source x15 x17
+b7 REF x17
+b7 PRESUPPOSITION b2
+b7 male "n.02" x17

@@ -1,0 +1,26 @@
+b1 CONDITION b2
+b3 REF x1
+b3 REF x2
+b3 EQU x2 "now"
+b3 Experiencer x1 "hearer"
+b3 Time x1 x2
+b3 know "v.01" x1
+b3 time "n.08" x2
+b4 REF x3
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 Title x3 x4
+b4 female "n.02" x3
+b3 REF x5
+b3 REF x6
+b3 EQU x6 "now"
+b3 Pivot x5 "hearer"
+b3 Theme x5 x7
+b3 Time x5 x6
+b3 have "v.01" x5
+b3 time "n.08" x6
+b3 REF x7
+b5 Location x5 x8
+b3 REF x8
+b3 CONSEQUENCE b5
+b3 way "n.01" x8

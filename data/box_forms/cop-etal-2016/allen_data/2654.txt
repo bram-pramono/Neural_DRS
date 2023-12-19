@@ -1,0 +1,55 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b3 REF x2
+b3 Theme x2 x1
+b3 Time x2 x3
+b3 go "v.01" x2
+b3 REF x3
+b3 EQU x3 "now"
+b3 time "n.08" x3
+b3 REF x4
+b3 Manner x2 x4
+b3 Destination x2 x5
+b4 REF x5
+b4 REF x6
+b4 Attribute x5 x6
+b4 village "n.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 Role x5 x7
+b4 chemist "n.01" x7
+b4 person "n.01" x5
+b3 CONTINUATION b5
+b5 REF x8
+b5 Agent x8 x1
+b5 Theme x8 x9
+b5 purchase "v.01" x8
+b5 REF x9
+b5 REF x10
+b5 Location x8 x10
+b5 SZP x11 x10
+b5 location "n.01" x10
+b3 REF x11
+b3 PRESUPPOSITION b5
+b3 User x11 x5
+b3 name "n.01" x11
+b5 Instrument x11 x12
+b5 REF x12
+b5 REF x13
+b5 Attribute x12 x13
+b5 story "n.01" x12
+b5 Topic x12 x14
+b5 REF x14
+b5 dog "n.01" x14
+b5 Time x15 x7
+b5 REF x15
+b5 REF x16
+b5 Recipient x15 x17
+b5 TPR x16 "now"
+b5 Time x15 x16
+b5 Topic x15 x15
+b5 time "n.08" x16
+b5 REF x17
+b5 Attribute x13 x17
+b5 absurd "a.01" x17

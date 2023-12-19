@@ -1,0 +1,36 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 take "v.01" x2
+b2 REF x3
+b2 Time x2 x3
+b2 time "n.08" x3
+b3 REF x4
+b3 REF x5
+b3 Attribute x4 x5
+b3 PRESUPPOSITION b2
+b3 last "a.01" x5
+b3 person "n.01" x4
+b2 REF x6
+b2 Quantity x6 "2"
+b2 Unit x6 "day"
+b2 measure "n.02" x6
+b2 TAB x3 x6
+b2 TAB x6 "now"
+b2 CONTINUATION b4
+b1 PRESUPPOSITION b4
+b4 REF x7
+b4 TPR x7 "now"
+b4 time "n.08" x7
+b5 Time x8 x7
+b4 NEGATION b5
+b5 REF x8
+b5 Pivot x8 x2
+b5 Theme x8 x9
+b5 have "v.01" x8
+b5 REF x9
+b5 ass "n.01" x9

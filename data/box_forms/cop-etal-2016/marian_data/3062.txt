@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Location x3 x1
+b1 Name x1 "?"
+b1 reason "n.01" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Result x3 "speaker"
+b2 make "v.03" x3
+b2 Time x3 x4
+b1 REF x4
+b1 afternoon "n.01" x4
+b1 PartOf x4 x5
+b3 REF x5
+b3 female "n.02" x5

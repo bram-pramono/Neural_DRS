@@ -1,0 +1,21 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Recipient x2 x3
+b2 Time x2 x1
+b2 Topic x2 x4
+b2 show "v.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 person "n.01" x3
+b4 CONDITION b1
+b1 REF x4
+b1 CONSEQUENCE b2
+b1 PartOf x4 x5
+b1 entity "n.01" x4
+b5 REF x5
+b5 PRESUPPOSITION b1
+b5 User x5 "speaker"
+b5 exhibit "n.02" x5

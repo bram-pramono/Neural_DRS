@@ -1,0 +1,14 @@
+b1 Time x3 x1
+b1 REF x1
+b1 Quantity x1 "@-8"
+b1 Unit x1 "minute"
+b1 measure "n.02" x1
+b2 REF x2
+b2 male "n.02" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Theme x4 x2
+b1 back "a.01" x4

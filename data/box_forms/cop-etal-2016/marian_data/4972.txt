@@ -1,0 +1,8 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 difficult "a.01" x2
+b2 REF x3
+b2 Agent x3 x1
+b2 explain "v.01" x3

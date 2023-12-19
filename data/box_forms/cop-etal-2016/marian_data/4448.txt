@@ -1,0 +1,16 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 transaction "n.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b3 Time x3 x2
+b3 REF x3
+b3 Destination x3 x1
+b3 enter "v.01" x3
+b3 Theme x3 x5
+b4 REF x4
+b4 person "n.01" x4
+b5 REF x5
+b5 Of x5 x4
+b5 book "n.01" x5

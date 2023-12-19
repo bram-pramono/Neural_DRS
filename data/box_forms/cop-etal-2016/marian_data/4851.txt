@@ -1,0 +1,29 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Theme x2 x3
+b2 Time x2 x4
+b2 think "v.01" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 REF x6
+b4 Theme x5 x6
+b4 mr "n.01" x6
+b4 Name x5 "inglethorp"
+b4 female "n.02" x5
+b3 REF x7
+b3 TPR x7 "now"
+b3 Time x8 x7
+b3 time "n.08" x7
+b3 REF x8
+b3 Agent x8 x5
+b3 Source x8 x9
+b3 shield "v.01" x8
+b5 REF x9
+b5 Of x9 x3
+b5 stepson "n.01" x9

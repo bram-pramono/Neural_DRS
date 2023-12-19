@@ -1,0 +1,27 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 Participant x1 x2
+b3 REF x2
+b3 PRESUPPOSITION b1
+b1 point "n.01" x1
+b3 point "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Experiencer x4 "hearer"
+b1 Stimulus x4 x5
+b1 know "v.01" x4
+b1 REF x5
+b1 key "n.01" x5
+b1 PartOf x5 x6
+b4 REF x6
+b4 PRESUPPOSITION b1
+b2 REF x7
+b2 TPR x7 "now"
+b2 Time x8 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 Theme x8 x5
+b2 lose "v.01" x8

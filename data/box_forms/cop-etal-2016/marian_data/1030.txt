@@ -1,0 +1,7 @@
+b1 Time x2 x1
+b1 REF x1
+b1 chance "n.01" x1
+b1 POS b2
+b2 REF x2
+b2 NOT b2 "speaker"
+b2 see "v.01" x2

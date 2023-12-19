@@ -1,0 +1,75 @@
+b1 REF x1
+b1 thing "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 be "v.03" x2
+b2 REF x4
+b2 EQU x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Theme x5 x6
+b3 Time x5 x4
+b3 discover "v.01" x5
+b4 REF x6
+b4 User x6 "speaker"
+b4 REF x7
+b4 Theme x7 x6
+b4 last "a.01" x7
+b4 link "n.01" x6
+b5 DRS x4
+b5 DRS x7
+b4 CONTINUATION b1 b5
+b5 REF x8
+b5 REF x9
+b5 Agent x8 "speaker"
+b5 Beneficiary x8 x10
+b5 EQU x9 "now"
+b5 Theme x8 x11
+b5 Time x8 x9
+b5 owe "v.03" x8
+b5 time "n.08" x9
+b6 REF x10
+b6 User x10 "speaker"
+b6 REF x11
+b6 Theme x11 x10
+b6 last "a.01" x11
+b6 link "n.01" x10
+b7 DRS x9
+b7 DRS x11
+b6 CONTINUATION b4 b7
+b7 REF x12
+b7 REF x13
+b7 Agent x12 "speaker"
+b7 Beneficiary x12 x14
+b7 EQU x13 "now"
+b7 Theme x12 x15
+b7 Time x12 x13
+b7 owe "v.03" x12
+b7 time "n.08" x13
+b8 REF x14
+b8 User x14 "speaker"
+b8 REF x15
+b8 Theme x15 x14
+b8 last "a.01" x15
+b8 link "n.01" x14
+b9 DRS x13
+b9 DRS x15
+b8 CONTINUATION b6 b9
+b9 REF x16
+b9 REF x17
+b9 Agent x16 "speaker"
+b9 Beneficiary x16 x18
+b9 EQU x17 "now"
+b9 Theme x16 x19
+b9 Time x16 x17
+b9 owe "v.03" x16
+b9 time "n.08" x17
+b10 REF x18
+b10 User x18 "speaker"
+b10 REF x19
+b10 Theme x19 x18

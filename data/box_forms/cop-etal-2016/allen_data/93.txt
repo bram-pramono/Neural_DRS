@@ -1,0 +1,6 @@
+b1 NEGATION b2
+b2 REF x1
+b2 time "n.08" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 do "a.01" x2

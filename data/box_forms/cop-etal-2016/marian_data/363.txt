@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 female "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 @-4 "n.01" x2
+b1 Stimulus x3 x1
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 see "v.01" x3
+b1 time "n.08" x4
+b1 Location x3 x5
+b3 REF x5
+b3 man "n.01" x5
+b4 DRS x2
+b4 DRS x5
+b3 CONTRAST b1 b4
+b5 Time x7 x6
+b4 REF x6
+b4 TPR x6 "now"
+b4 time "n.08" x6
+b6 IMP b4 b5
+b5 REF x7
+b5 Agent x7 "speaker"
+b5 Recipient x7 x1
+b5 ask_off "v.01" x7
+b5 Theme x7 x8
+b7 REF x8
+b7 house "n.01" x8
+b8 DRS x5
+b8 DRS x8
+b7 CONTRAST b4 b8
+b8 REF x9
+b8 TPR x9 "now"
+b8 time "n.08" x9
+b9 Time x10 x9
+b8 IMP b10 b9
+b10 REF x10
+b10 time "n.08" x10
+b11 REF x11
+b11 Agent x11 "speaker"
+b11 Recipient x11 x5
+b11 Time x11 x10
+b11 go_off "v.01" x11
+b11 Theme x11 x12
+b12 REF x12
+b12 house "n.01" x12
+b13 DRS x9
+b13 DRS x12
+b12 CONTRAST b9 b13
+b13 REF x13
+b13 TPR x13 "now"
+b13 time "n.08" x13
+b14 Time x14 x13
+b13 IMP b15 b14
+b15 REF x14
+b15 time "n.08" x14
+b16 REF x15
+b16 Agent x15 "speaker"
+b16 Recipient x15 x9
+b16 Time x15 x14
+b16 go_off "v.01" x15
+b16 Theme x15 x16
+b17 REF x16
+b17 house "n.01" x16
+b18 DRS x13
+b18 DRS x16
+b17 CONTRAST b14 b18
+b18 REF x17
+b18 TPR x17 "now"
+b18 time "n.08" x17
+b19 Time x18 x17
+b18 IMP b20 b19
+b20 REF x18

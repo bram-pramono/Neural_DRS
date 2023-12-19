@@ -1,0 +1,13 @@
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b1 REF x1
+b2 Time x2 x1
+b1 CONDITION b2
+b2 REF x2
+b2 CONSEQUENCE b1
+b2 SubOf x2 "speaker"
+b2 entity "n.01" x2
+b1 REF x3
+b1 Attribute x1 x3
+b1 whole "a.01" x3
+b1 time "n.01" x1

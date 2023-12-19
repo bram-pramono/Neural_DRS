@@ -1,0 +1,46 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 pick_up "v.04" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 bunch "n.01" x4
+b2 Part x4 x5
+b2 REF x5
+b2 key "n.01" x5
+b2 Source x5 x6
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 floor "n.01" x6
+b2 CONTINUATION b4
+b4 REF x7
+b4 Agent x7 x1
+b4 Theme x7 x8
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 person "n.01" x8
+b4 REF x9
+b4 Degree x10 x9
+b4 very "r.01" x9
+b4 REF x10
+b4 Attribute x8 x10
+b4 bright "a.01" x10
+b4 REF x11
+b4 Theme x11 x8
+b4 shine "v.01" x11
+b4 Location x11 x12
+b1 REF x12
+b1 PRESUPPOSITION b4
+b1 lock "n.01" x12
+b1 PartOf x12 x13
+b6 REF x13
+b6 REF x14
+b6 Colour x13 x14
+b6 PRESUPPOSITION b1
+b6 purple "a.01" x14

@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.03" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 Agent x4 "hearer"
+b2 Theme x4 x5
+b2 Time x4 x3
+b2 discover "v.01" x4
+b2 REF x5
+b2 lock "n.01" x5
+b2 PartOf x5 x6
+b2 REF x6
+b2 despatch@-8case "n.01" x6
+b2 PartOf x6 x7
+b2 REF x7
+b2 despatch@-8case "n.01" x7
+b2 PartOf x7 x8
+b2 REF x8
+b2 despatch@-8case "n.01" x8
+b2 PartOf x8 x9
+b2 REF x9
+b2 despatch@-8case "n.01" x9
+b2 PartOf x9 x10
+b2 REF x10
+b2 despatch@-8case "n.01" x10
+b2 PartOf x10 x11
+b2 REF x11
+b2 despatch@-8case "n.01" x11
+b2 PartOf x11 x12
+b2 REF x12
+b2 despatch@-8case "n.01" x12
+b2 PartOf x12 x13
+b2 REF x13
+b2 despatch@-8case "n.01" x13
+b2 PartOf x13 x14
+b3 REF x14
+b3 despatch@-8case "n.01" x14
+b3 PartOf x14 x15
+b4 REF x15
+b4 despatch@-8case "n.01" x15
+b4 PartOf x15 x16
+b5 REF x16
+b5 despatch@-8case "n.01" x16
+b5 PartOf x16 x17
+b6 REF x17
+b6 despatch@-8case "n.01" x17
+b6 PartOf x17 x18
+b7 REF x18
+b7 despatch@-8case "n.01" x18
+b7 PartOf x18 x19
+b8 REF x19
+b8 despatch@-8case "n.01" x19
+b8 PartOf x19 x20
+b9 REF x20
+b9 despatch@-8case "n.01" x20
+b9 PartOf x20 x21
+b10 REF x21
+b10 despatch@-8case "n.01" x21
+b10 PartOf x21 x22
+b11 REF x22
+b11 despatch@-8case "n.01" x22
+b11 PartOf x22 x23
+b12 REF x23
+b12 despatch@-8case "n.01" x23
+b12 PartOf x23 x24
+b13 REF x24
+b13 despatch@-8case "n.01" x24
+b13 PartOf x24 x25
+b14 REF x25

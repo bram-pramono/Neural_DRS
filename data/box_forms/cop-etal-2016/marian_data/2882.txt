@@ -1,0 +1,35 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 Theme x2 "speaker"
+b2 sir "v.01" x2
+b3 DRS x1
+b3 CONTINUATION b1 b2
+b2 REF x3
+b2 Agent x3 "speaker"
+b2 say "v.01" x3
+b2 REF x4
+b2 Manner x3 x4
+b2 briskly "r.01" x4
+b2 Co-Agent x3 x5
+b4 Name x5 "john"
+b4 REF x5
+b4 male "n.02" x5
+b5 DRS x2
+b5 DRS x5
+b4 CONTINUATION b1 b5
+b5 NEC b6
+b6 REF x6
+b6 @-4 "n.01" "speaker"
+b6 Stimulus x6 x7
+b6 have "v.01" x6
+b6 REF x7
+b6 REF x8
+b6 Theme x8 x7
+b6 little "a.01" x8
+b6 chat "n.01" x7
+b6 Co-Theme x7 x9
+b7 REF x9
+b7 servant "n.01" x9

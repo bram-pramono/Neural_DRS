@@ -1,0 +1,37 @@
+b1 REF x1
+b1 Agent x1 "speaker"
+b1 Theme x1 x4
+b1 Time x1 x2
+b1 follow "v.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 female "n.02" x3
+b1 REF x4
+b1 Sub x4 x3
+b1 Sub x4 x5
+b1 entity "n.01" x4
+b3 REF x5
+b3 Of x6 x3
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 Role x5 x6
+b3 friend "n.01" x6
+b3 person "n.01" x5
+b1 CONTINUATION b4
+b5 REF x7
+b5 PRESUPPOSITION b4
+b5 person "n.01" x7
+b4 REF x8
+b4 Agent x8 x7
+b4 Theme x8 x9
+b4 Time x8 x3
+b4 point "v.01" x8
+b6 REF x9
+b6 REF x10
+b6 Attribute x9 x10
+b6 PRESUPPOSITION b4
+b6 different "a.01" x10
+b4 Recipient x8 "speaker"

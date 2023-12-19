@@ -1,0 +1,26 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 possibility "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Pivot x2 x1
+b2 TPR x4 "now"
+b2 Theme x2 x3
+b2 Time x2 x4
+b2 have "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 Theme x5 x1
+b3 Time x5 x6
+b3 confirm "v.01" x5
+b3 time "n.08" x6
+b4 ALTERNATION b5
+b5 ALTERNATION b6
+b6 REF x7
+b6 Theme x7 x1
+b6 eliminate "v.01" x7

@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Of x2 "hearer"
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Role x1 x2
+b1 person "n.01" x1
+b1 wife "n.01" x2
+b2 REF x3
+b2 REF x4
+b2 Experiencer x3 x1
+b2 Stimulus x3 x5
+b2 TPR x4 "now"
+b2 Time x3 x4
+b2 have "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 quarrel "n.01" x5

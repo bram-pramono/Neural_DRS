@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Part x1 "speaker"
+b1 Part x1 x2
+b1 group "n.01" x1
+b2 REF x2
+b2 PartOf x2 x3
+b3 REF x3
+b3 male "n.02" x3
+b2 anger "n.01" x2
+b2 REF x4
+b2 REF x5
+b2 TPR x5 "now"
+b2 Theme x4 x2
+b2 Time x4 x5
+b2 burst "v.01" x4
+b2 time "n.08" x5
+b2 REF x6
+b2 Manner x4 x6
+b2 freely "r.01" x6
+b4 DRS x4
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 Theme x7 "speaker"
+b4 miserable "a.01" x7
+b4 REF x8
+b4 Manner x7 x8
+b4 freely "r.01" x8
+b4 REF x9
+b4 Manner x7 x9
+b4 freely "r.01" x9
+b5 DRS x8
+b5 DRS x9
+b4 CONTINUATION b3 b5
+b5 REF x10
+b5 Theme x10 "speaker"
+b5 miserable "a.01" x10
+b5 REF x11
+b5 Manner x10 x11
+b5 freely "r.01" x11
+b5 REF x12
+b5 Manner x10 x12
+b5 freely "r.01" x12
+b6 DRS x11
+b6 DRS x12
+b5 CONTINUATION b4 b6
+b6 REF x13
+b6 Theme x13 "speaker"
+b6 miserable "a.01" x13
+b6 REF x14
+b6 Manner x13 x14
+b6 freely "r.01" x14
+b6 REF x15
+b6 Manner x13 x15
+b6 freely "r.01" x15
+b7 DRS x14
+b7 DRS x15
+b6 CONTINUATION b5 b7
+b7 REF x16
+b7 Theme x16 "speaker"
+b7 miserable "a.01" x16
+b7 REF x17
+b7 Manner x16 x17
+b7 freely "r.01" x17
+b7 REF x18
+b7 Manner x16 x18
+b7 freely "r.01" x18
+b8 DRS x17
+b8 DRS x18
+b7 CONTINUATION b6 b8
+b8 REF x19
+b8 Theme x19 "speaker"
+b8 miserable "a.01" x19
+b8 REF x20
+b8 Manner x19 x20

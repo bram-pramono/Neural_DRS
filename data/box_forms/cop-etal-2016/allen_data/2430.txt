@@ -1,0 +1,62 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 Agent x1 "speaker"
+b1 TPR x3 "now"
+b1 Theme x1 x2
+b1 Time x1 x3
+b1 proposition "n.01" x2
+b1 think "v.01" x1
+b1 time "n.08" x3
+b3 PRESUPPOSITION b2
+b3 REF x4
+b3 male "n.02" x4
+b2 REF x5
+b2 TPR x5 "now"
+b2 Time x6 x5
+b2 time "n.08" x5
+b2 REF x6
+b2 REF x7
+b2 ATTRIBUTION b4
+b2 Agent x6 x4
+b2 Topic x6 x7
+b2 go "v.01" x6
+b2 proposition "n.01" x7
+b4 REF x8
+b4 Theme x8 x4
+b4 rise "v.01" x8
+b4 Source x8 x9
+b1 REF x9
+b1 PRESUPPOSITION b4
+b1 User x9 x4
+b1 chair "n.01" x9
+b4 CONTRAST b5
+b2 PRESUPPOSITION b5
+b5 REF x10
+b5 Agent x10 x9
+b5 Time x10 x11
+b5 Topic x10 x12
+b5 remain "v.01" x10
+b5 REF x11
+b5 TPR x11 "now"
+b5 time "n.08" x11
+b5 REF x12
+b5 Theme x12 x3
+b5 Time x12 x11
+b5 seat "v.01" x12
+b2 REF x13
+b2 REF x14
+b2 Attribute x13 x14
+b2 expression "n.01" x13
+b2 Part x13 x15
+b2 REF x15
+b2 REF x16
+b2 Theme x16 x13
+b2 Time x16 x11
+b2 rise "v.02" x16
+b2 Location x16 x17
+b6 REF x17
+b6 PRESUPPOSITION b2
+b6 PartOf x17 x6
+b6 face "n.01" x17

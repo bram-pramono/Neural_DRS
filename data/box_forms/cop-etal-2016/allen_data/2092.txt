@@ -1,0 +1,63 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b3 POSSIBILITY b2
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b4
+b2 Agent x2 x1
+b2 TPR x4 "now"
+b2 Theme x2 x3
+b2 Time x2 x4
+b2 forget "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b4 REF x5
+b4 Agent x5 x1
+b4 Patient x5 x6
+b4 lock "v.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 door "n.01" x6
+b4 Destination x5 x7
+b6 REF x7
+b6 PRESUPPOSITION b4
+b6 passage "n.01" x7
+b7 REF x8
+b7 PRESUPPOSITION b5
+b7 female "n.02" x8
+b5 REF x9
+b5 TPR x10 "now"
+b5 Theme x9 x8
+b5 Time x9 x10
+b5 go "v.01" x9
+b5 REF x10
+b5 time "n.08" x10
+b5 Destination x9 x11
+b5 REF x11
+b5 bed "n.01" x11
+b5 CONTINUATION b8
+b8 REF x12
+b8 REF x13
+b8 Agent x12 x8
+b8 TPR x13 "now"
+b8 Time x12 x13
+b8 Topic x12 x14
+b8 get~up "v.01" x12
+b8 time "n.08" x13
+b8 REF x14
+b8 Attribute x14 x8
+b8 up "v.01" x14
+b8 CONTINUATION b9
+b9 REF x15
+b9 Agent x15 x8
+b9 Patient x15 x17
+b9 Time x15 x16
+b9 lock "v.01" x15
+b9 REF x16
+b9 TPR x16 "now"
+b9 time "n.08" x16
+b10 REF x17
+b10 PRESUPPOSITION b9
+b10 entity "n.01" x17

@@ -1,0 +1,31 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 REF x3
+b1 @-4 "n.01" "speaker"
+b1 PRP x2 b2
+b1 Stimulus x3 x2
+b1 inclined "a.01" x3
+b2 REF x4
+b2 Agent x4 "speaker"
+b2 Recipient x4 x5
+b2 Theme x4 x6
+b2 give "v.03" x4
+b3 REF x5
+b3 Name x5 "hastings~hastings"
+b3 organization "n.01" x5
+b2 REF x6
+b2 REF x7
+b2 Theme x7 x6
+b2 free "a.01" x7
+b2 hand "n.01" x6
+b2 NEC b4
+b4 REF x8
+b4 Theme x8 "speaker"
+b4 Value x8 x9
+b4 wait "v.01" x8
+b4 REF x9
+b4 Quantity x9 "@-8"
+b4 measure "n.02" x9

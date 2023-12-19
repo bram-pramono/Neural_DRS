@@ -1,0 +1,28 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 whole "a.01" x2
+b1 entity "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 EQU x3 "now"
+b2 EQU x4 "now"
+b2 Time x5 x3
+b2 time "n.08" x3
+b2 time "n.08" x4
+b3 Time x6 x4
+b2 REF x5
+b2 Theme x5 x5
+b2 absurd "a.03" x5
+b4 DRS x3
+b4 DRS x4
+b4 CONTINUATION b2 b3
+b3 REF x6
+b3 Theme x6 x1
+b3 ridiculous "a.02" x6
+b3 Destination x6 x7
+b5 REF x7
+b5 REF x8
+b5 Theme x8 x7
+b5 last "a.01" x8
+b5 degree "n.01" x7

@@ -1,0 +1,48 @@
+b1 POSSIBILITY b2
+b3 NEGATION b1
+b2 REF x1
+b2 Manner x2 x1
+b2 right "r.01" x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Topic x2 x3
+b2 say "v.01" x2
+b2 REF x3
+b2 sir "n.01" x3
+b2 CONTRAST b4
+b5 REF x4
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x4
+b4 REF x5
+b4 TPR x5 "now"
+b4 Time x6 x5
+b4 time "n.08" x5
+b4 REF x6
+b4 Patient x6 x4
+b4 shut "v.01" x6
+b4 CONTRAST b6
+b7 POSSIBILITY b8
+b6 NEGATION b7
+b8 REF x7
+b8 REF x8
+b8 ATTRIBUTION b9
+b8 Agent x7 "speaker"
+b8 Topic x7 x8
+b8 question "n.01" x8
+b8 say "v.01" x7
+b10 REF x9
+b10 PRESUPPOSITION b9
+b10 entity "n.01" x9
+b9 REF x10
+b9 REF x11
+b9 TPR x10 "now"
+b9 TPR x11 "now"
+b9 Time x12 x10
+b9 time "n.08" x10
+b9 time "n.08" x11
+b11 Time x13 x11
+b9 REF x12
+b9 Patient x12 x9
+b11 REF x13
+b11 Theme x13 x9
+b9 NEGATION b11

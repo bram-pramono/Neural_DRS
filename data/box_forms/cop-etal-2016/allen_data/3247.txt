@@ -1,0 +1,35 @@
+b1 Theme x4 x1
+b1 REF x1
+b1 nod "n.01" x1
+b1 Time x3 x2
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b1 REF x3
+b1 Degree x4 x3
+b1 barely "r.04" x3
+b1 REF x4
+b1 Attribute x1 x4
+b1 real "a.01" x4
+b2 REF x5
+b2 REF x6
+b2 PRESUPPOSITION b1
+b2 Title x5 x6
+b2 miss "n.03" x6
+b2 female "n.02" x5
+b1 REF x7
+b1 Agent x7 x5
+b1 Time x7 x2
+b1 assent "v.01" x7
+b1 Recipient x7 x9
+b3 REF x8
+b3 PRESUPPOSITION b4
+b3 person "n.01" x8
+b4 REF x9
+b4 Creator x9 x8
+b4 PRESUPPOSITION b1
+b4 request "n.01" x9
+b1 Asset x7 x10
+b1 REF x10
+b1 Quantity x10 "-"
+b1 conversation "n.01" x10

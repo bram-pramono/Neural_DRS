@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 REF x1
+b3 REF x2
+b3 REF x3
+b3 ATTRIBUTION b1
+b3 Agent x1 "speaker"
+b3 TPR x3 "now"
+b3 Theme x1 x2
+b3 Time x1 x3
+b3 discover "v.01" x1
+b3 proposition "n.01" x2
+b3 time "n.08" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Quantity x4 "5"
+b1 REF x5
+b1 Attribute x4 x5
+b1 short "a.01" x5
+b1 Quantity x4 "15"
+b1 Unit x4 "minute"
+b1 measure "n.02" x4
+b1 Location x6 x4
+b1 REF x6
+b4 REF x7
+b4 PRESUPPOSITION b1
+b4 male "n.02" x7
+b1 POSSIBILITY b5
+b5 REF x8
+b5 Agent x8 x7
+b5 Theme x8 x9
+b5 take "v.01" x8
+b6 REF x9
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x9
+b5 CONTINUATION b7
+b8 REF x10
+b8 PRESUPPOSITION b7
+b8 Quantity x10 "5"
+b8 Unit x10 "minute"
+b8 measure "n.02" x10
+b7 REF x11
+b7 Manner x12 x11
+b7 immediately "r.01" x11
+b7 REF x12
+b7 Agent x12 x10
+b7 Theme x12 x13
+b7 brush "v.01" x12
+b9 REF x13
+b9 PRESUPPOSITION b7
+b9 stairs "n.01" x13
+b7 CONTINUATION b10
+b10 Duration x17 x14
+b11 REF x14
+b11 PRESUPPOSITION b10
+b11 time "n.01" x14
+b12 REF x15
+b12 PRESUPPOSITION b10
+b12 female "n.02" x15
+b10 REF x16
+b10 TPR x16 "now"
+b10 Time x17 x16
+b10 time "n.08" x16
+b10 REF x17
+b10 Agent x17 x15
+b10 Patient x17 x18
+b10 brush "v.01" x17
+b10 REF x18
+b10 person "n.01" x18
+b10 REF x19
+b10 REF x20
+b10 REF x21
+b10 ATTRIBUTION b13
+b10 Experiencer x19 x18
+b10 Stimulus x19 x20
+b10 TPR x21 "now"

@@ -1,0 +1,19 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 Asset x2 x3
+b2 pay "v.01" x2
+b1 Experiencer x2
+b2 REF x3
+b2 attention "n.01" x3
+b2 Goal x3 x4
+b3 REF x4
+b3 User x4 "speaker"
+b3 instinct "n.01" x4
+b3 PartOf x4 x5
+b4 REF x5
+b4 Name x5 "alfred~inglethorp"
+b4 instinct "n.01" x5

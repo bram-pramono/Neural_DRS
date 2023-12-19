@@ -1,0 +1,16 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 entity "n.01" x2
+b2 REF x3
+b2 Experiencer x3 x2
+b2 familiar "a.01" x3
+b2 Stimulus x3 x4
+b1 REF x4
+b1 Of x4 x5
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x5

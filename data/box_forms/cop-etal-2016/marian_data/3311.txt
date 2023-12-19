@@ -1,0 +1,19 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 POS b3
+b4 Experiencer x1
+b3 REF x2
+b3 REF x3
+b3 Agent x2 x1
+b3 PRP x3 b5
+b3 Topic x2 x3
+b3 be "v.01" x2
+b5 REF x4
+b5 Theme x4 x1
+b5 so "v.01" x4
+b5 REF x5
+b5 Manner x4 x5
+b5 monstrous "r.01" x5
+b5 Stimulus x4 x6
+b5 REF x6
+b5 impossible "n.01" x6

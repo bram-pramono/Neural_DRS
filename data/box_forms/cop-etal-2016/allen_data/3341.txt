@@ -1,0 +1,5 @@
+b1 REF x1
+b2 NECESSITY b3
+b1 NEGATION b2
+b3 REF x2
+b3 Theme x2 x1

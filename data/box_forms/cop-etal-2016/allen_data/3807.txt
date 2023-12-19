@@ -1,0 +1,7 @@
+b1 NEGATION b2
+b2 REF x1
+b2 Theme x1 "hearer"
+b2 take "v.01" x1
+b2 Agent x1 x2
+b3 REF x2
+b3 PRESUPPOSITION b2

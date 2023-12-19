@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 REF x1
+b3 PRESUPPOSITION b4
+b3 female "n.02" x1
+b4 REF x2
+b4 CONSEQUENCE b5
+b4 PartOf x2 x1
+b4 REF x3
+b4 Attribute x2 x3
+b4 Value x3 "+"
+b4 tall "a.01" x3
+b4 REF x4
+b4 Attribute x2 x4
+b4 form "n.01" x2
+b4 REF x5
+b4 Theme x5 x2
+b4 Instrument x5 x6
+b6 REF x6
+b6 REF x7
+b6 Attribute x6 x7
+b6 PRESUPPOSITION b4
+b6 bright "a.01" x7
+b6 light "n.01" x6
+b4 REF x8
+b4 REF x9
+b4 Attribute x8 x9
+b4 sense "n.01" x8
+b4 Part x8 x11
+b4 REF x10
+b4 REF x11
+b4 Attribute x11 x10
+b4 countless "a.01" x10
+b4 REF x12
+b4 Attribute x11 x12
+b4 PRESUPPOSITION b5
+b4 light "n.01" x11
+b4 REF x13
+b4 Experiencer x13 x6
+b4 different "a.01" x13
+b4 Stimulus x13 x14
+b4 REF x14
+b4 REF x15
+b4 Attribute x14 x15
+b4 wonderful "a.01" x15
+b4 REF x16
+b4 Attribute x14 x16
+b4 eye "n.01" x14
+b4 Part x14 x17
+b4 REF x17
+b4 Owner x17 x13
+b4 entity "n.01" x17
+b4 REF x18
+b4 REF x19
+b4 Attribute x19 x18
+b4 eye "n.01" x19
+b4 REF x20
+b4 Theme x20 x19
+b4 different "a.01" x20
+b4 Source x20 x21
+b4 REF x21
+b4 NEQ x21 x22
+b7 REF x22
+b7 PRESUPPOSITION b4
+b4 woman "n.01" x21
+b7 woman "n.01" x22
+b4 REF x23
+b4 Experiencer x23 "speaker"
+b4 Stimulus x23 x16
+b4 Time x23 x24
+b4 believe "v.01" x23
+b4 REF x24
+b4 TPR x24 "now"
+b4 time "n.08" x24
+b4 CONTINUATION b8
+b8 REF x25

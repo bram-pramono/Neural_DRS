@@ -1,0 +1,21 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Result x1 x3
+b2 Theme x1 x2
+b2 call "v.03" x1
+b4 REF x2
+b4 entity "n.01" x2
+b2 REF x3
+b2 suspicion "n.01" x3
+b5 DRS x1
+b5 DRS x3
+b4 CONTINUATION b1 b5
+b5 REF x4
+b5 REF x5
+b5 Agent x4 "speaker"
+b5 TPR x5 "now"
+b5 Time x4 x5
+b5 murmur "v.01" x4
+b5 time "n.08" x5

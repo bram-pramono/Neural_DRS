@@ -1,0 +1,47 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Pivot x1 "hearer"
+b2 Theme x1 x3
+b2 Time x1 x2
+b2 need "v.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 Role x3 x4
+b2 father "n.01" x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 female "n.02" x5
+b2 REF x6
+b2 Agent x6 x5
+b2 Time x6 x1
+b2 start "v.01" x6
+b2 REF x7
+b2 Manner x6 x7
+b2 slightly "r.01" x7
+b2 REF x8
+b2 Manner x6 x8
+b2 slightly "r.01" x8
+b2 CONTINUATION b4
+b5 REF x9
+b5 PRESUPPOSITION b4
+b5 person "n.01" x9
+b6 REF x10
+b6 Co-Theme x10 x12
+b6 Theme x10 x9
+b6 Time x10 x11
+b6 be "v.01" x10
+b4 REF x11
+b4 EQU x11 "now"
+b4 time "n.08" x11
+b7 CONDITION b8
+b8 REF x12
+b8 CONSEQUENCE b5
+b8 PartOf x12 x13
+b8 entity "n.01" x12
+b9 REF x13
+b9 PRESUPPOSITION b8
+b9 User x13 "hearer"
+b9 service "n.01" x13

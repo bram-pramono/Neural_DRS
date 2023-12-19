@@ -1,0 +1,67 @@
+b1 REF x1
+b1 Name x1 "so~dorcas"
+b1 male "n.02" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 time "n.08" x2
+b3 REF x3
+b3 @-4 "n.01" x1
+b3 Stimulus x3 x4
+b3 Time x3 x2
+b3 know "v.01" x3
+b2 Experiencer x3
+b3 REF x4
+b3 entity "n.01" x4
+b3 Theme x4 x5
+b4 REF x5
+b4 REF x6
+b4 Colour x5 x6
+b4 black "a.01" x6
+b4 beard "n.01" x5
+b5 DRS x3
+b5 DRS x6
+b4 CONTINUATION b1 b5
+b5 REF x7
+b5 REF x8
+b5 Causer x7 "speaker"
+b5 TPR x8 "now"
+b5 Time x7 x8
+b5 Topic x7 x5
+b5 say "v.01" x7
+b5 time "n.08" x8
+b5 Causer x7 x9
+b6 REF x9
+b6 REF x10
+b6 Colour x9 x10
+b6 black "a.01" x10
+b6 beard "n.01" x9
+b4 REF x11
+b4 REF x12
+b4 Causer x11 "speaker"
+b4 TPR x12 "now"
+b4 Time x11 x12
+b4 Topic x11 x9
+b4 say "v.01" x11
+b4 time "n.08" x12
+b4 Causer x11 x13
+b7 REF x13
+b7 REF x14
+b7 Colour x13 x14
+b7 black "a.01" x14
+b7 beard "n.01" x13
+b4 REF x15
+b4 TPR x15 "now"
+b4 time "n.08" x15
+b5 REF x16
+b5 REF x17
+b5 Agent x16 "speaker"
+b5 PRP x17 b8
+b5 Time x16 x15
+b5 Topic x16 x17
+b5 say "v.01" x16
+b8 REF x18
+b8 Theme x18 x12
+b8 walk_out "v.01" x18
+b8 Destination x18 x19
+b9 REF x19
+b9 hall "n.01" x19

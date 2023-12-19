@@ -1,0 +1,7 @@
+b1 IMP b2 b3
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b3 REF x2
+b3 @-4 "n.01" "hearer"
+b3 please "a.01" x2

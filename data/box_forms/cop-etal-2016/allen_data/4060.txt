@@ -1,0 +1,47 @@
+b1 REF x1
+b1 Quantity x1 "-"
+b1 cry "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Theme x2 x1
+b1 Time x2 x3
+b1 break "v.01" x2
+b1 time "n.08" x3
+b1 Source x2 x5
+b2 REF x4
+b2 PRESUPPOSITION b3
+b2 female "n.02" x4
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 PartOf x5 x4
+b3 lip "n.01" x5
+b4 REF x6
+b4 EQU x6 "now"
+b4 Time x7 x6
+b4 time "n.08" x6
+b1 NEGATION b4
+b4 REF x7
+b4 REF x8
+b4 ATTRIBUTION b5
+b4 Experiencer x7 "hearer"
+b4 Stimulus x7 x8
+b4 know "v.01" x7
+b4 question "n.01" x8
+b6 REF x9
+b6 Causer x11 x9
+b6 EQU x9 "?"
+b6 reason "n.01" x9
+b7 REF x10
+b7 REF x11
+b7 Attribute x10 x11
+b7 PRESUPPOSITION b6
+b7 place "n.01" x10
+b5 REF x12
+b5 TPR x12 "now"
+b5 time "n.08" x12
+b6 Time x13 x12
+b6 REF x13
+b6 Patient x13 x10
+b6 prison "v.01" x13
+b6 Recipient x13 "speaker"

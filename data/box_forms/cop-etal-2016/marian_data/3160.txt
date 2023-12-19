@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 quite "v.01" x1
+b1 REF x2
+b1 REF x3
+b1 Theme x3 x2
+b1 different "a.01" x3
+b1 class "n.02" x2
+b1 Source x2 x4
+b2 REF x4
+b2 person "n.01" x4
+b1 REF x5
+b1 Quantity x5 "2"
+b1 REF x6
+b1 Role x5 x6
+b1 detective "n.01" x6
+b1 person "n.01" x5
+b1 Source x6 x7
+b3 REF x7
+b3 person "n.01" x7
+b1 REF x8
+b1 Quantity x8 "2"
+b1 REF x9
+b1 Role x8 x9
+b1 detective "n.01" x9
+b1 person "n.01" x8
+b1 Source x9 x10
+b4 REF x10
+b4 Name x10 "london"
+b4 city "n.01" x10
+b1 REF x11
+b1 EQU x11 "now"
+b1 time "n.08" x11
+b2 Time x12 x11
+b2 REF x12
+b2 Agent x12 x9
+b2 pry "v.02" x12
+b2 Source x12 x13
+b5 REF x13
+b5 Name x13 "london"
+b5 city "n.01" x13
+b2 REF x14
+b2 REF x15
+b2 EQU x14 "now"
+b2 EQU x15 "now"
+b2 time "n.08" x14
+b2 time "n.08" x15
+b3 Time x16 x14
+b4 Time x17 x15
+b3 REF x16
+b3 Agent x16 x13
+b3 pry "v.02" x16
+b3 Source x16 x17
+b6 REF x17
+b6 Name x17 "london"
+b6 city "n.01" x17
+b3 REF x18
+b3 entity "n.01" x18
+b3 REF x19
+b3 EQU x19 "now"
+b3 time "n.08" x19
+b4 Time x20 x19
+b4 REF x20
+b4 Agent x20 x18
+b4 pry "v.02" x20
+b4 Source x20 x21
+b7 REF x21
+b7 Name x21 "london"
+b7 city "n.01" x21
+b4 REF x22
+b4 REF x23
+b4 EQU x22 "now"
+b4 EQU x23 "now"
+b4 time "n.08" x22

@@ -1,0 +1,45 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Result x3 x1
+b2 write "v.01" x3
+b2 Instrument x3 x4
+b2 REF x4
+b2 Quantity x4 "1"
+b2 entity "n.01" x4
+b2 SubOf x4 x5
+b2 REF x5
+b2 REF x6
+b2 Theme x6 x5
+b2 print "v.01" x6
+b2 REF x7
+b2 Goal x5 x7
+b2 royal "n.01" x7
+b2 form "n.01" x5
+b2 CONTINUATION b3
+b3 REF x8
+b3 REF x9
+b3 TPR x9 "now"
+b3 Theme x8 x5
+b3 Time x8 x9
+b3 time "n.08" x9
+b3 Agent x8 x10
+b3 REF x10
+b3 Quantity x10 "2"
+b3 entity "n.01" x10
+b3 PartOf x10 x11
+b4 REF x11
+b4 REF x12
+b4 PRESUPPOSITION b3
+b4 Role x11 x12
+b4 person "n.01" x11
+b4 servant "n.01" x12
+b3 NEGATION b5
+b5 REF x13
+b5 Theme x13 x10
+b5 do "a.01" x13

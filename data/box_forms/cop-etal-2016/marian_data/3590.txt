@@ -1,0 +1,7 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 POS b3
+b4 Experiencer x1
+b3 REF x2
+b3 Theme x2 x1
+b3 last "v.01" x2

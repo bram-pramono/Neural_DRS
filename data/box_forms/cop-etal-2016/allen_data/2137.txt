@@ -1,0 +1,11 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 Name x2 "yes"
+b2 PRESUPPOSITION b1
+b2 artifact "n.01" x2
+b1 EQU x2 "hearer"
+b1 EQU x2 x3
+b1 REF x3
+b1 course "n.01" x3

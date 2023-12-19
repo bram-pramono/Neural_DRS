@@ -1,0 +1,10 @@
+b1 NEC b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Theme x1 x2
+b2 consider "v.01" x1
+b3 REF x2
+b3 entity "n.01" x2
+b2 REF x3
+b2 Manner x1 x3
+b2 unlikely "r.01" x3

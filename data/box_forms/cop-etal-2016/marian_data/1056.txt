@@ -1,0 +1,33 @@
+b1 NEC b2
+b2 REF x1
+b2 REF x2
+b2 @-4 "n.01" "speaker"
+b2 PRP x2 b3
+b2 Stimulus x1 x2
+b2 like "v.01" x1
+b3 REF x3
+b3 Agent x3 "speaker"
+b3 Recipient x3 x4
+b3 ask "v.01" x3
+b3 REF x4
+b3 Quantity x4 "@-8"
+b3 question "n.01" x4
+b3 PartOf x4 x5
+b4 REF x5
+b4 REF x6
+b4 Role x5 x6
+b4 parlourmaid "n.01" x6
+b4 person "n.01" x5
+b5 REF x7
+b5 User x7 x5
+b5 name "n.01" x7
+b1 REF x8
+b1 EQU x8 "now"
+b1 time "n.08" x8
+b3 REF x9
+b3 Co-Theme x9 x10
+b3 Theme x9 x7
+b3 Time x9 x8
+b3 be "v.06" x9
+b6 REF x10
+b6 entity "n.01" x10

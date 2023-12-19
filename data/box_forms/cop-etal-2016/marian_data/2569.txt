@@ -1,0 +1,37 @@
+b1 REF x1
+b1 Name x1 "summerhaye"
+b1 female "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Attribute x3 x4
+b2 Theme x3 x1
+b2 look "v.01" x3
+b2 REF x4
+b2 REF x5
+b2 Theme x4 x5
+b2 rather "n.01" x5
+b2 sceptical "n.01" x4
+b3 DRS x4
+b3 DRS x5
+b2 CONTRAST b1 b3
+b4 REF x6
+b4 Name x6 "japp"
+b4 organization "n.01" x6
+b3 REF x7
+b3 REF x8
+b3 Agent x7 x6
+b3 TPR x8 "now"
+b3 Theme x7 x9
+b3 Time x7 x8
+b3 continue "v.01" x7
+b3 time "n.08" x8
+b5 REF x9
+b5 User x9 x3
+b5 scrutiny "n.01" x9
+b5 Of x9 x10
+b6 REF x10
+b6 Name x10 "poirot"
+b6 city "n.01" x10

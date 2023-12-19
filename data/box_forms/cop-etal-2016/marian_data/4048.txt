@@ -1,0 +1,75 @@
+b1 NEC b2
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Result x2 x3
+b2 Time x2 x1
+b2 make "v.06" x2
+b2 REF x3
+b2 murmur "n.01" x3
+b2 Theme x3 x4
+b2 REF x4
+b2 dissent "n.01" x4
+b2 Theme x4 x5
+b2 REF x5
+b2 dissent "n.01" x5
+b2 Theme x5 x6
+b2 REF x6
+b2 dissent "n.01" x6
+b2 Theme x6 x7
+b2 REF x7
+b2 dissent "n.01" x7
+b2 Theme x7 x8
+b2 REF x8
+b2 dissent "n.01" x8
+b2 Theme x8 x9
+b2 REF x9
+b2 dissent "n.01" x9
+b2 Theme x9 x10
+b2 REF x10
+b2 dissent "n.01" x10
+b2 Theme x10 x11
+b2 REF x11
+b2 dissent "n.01" x11
+b2 Theme x11 x12
+b2 REF x12
+b2 dissent "n.01" x12
+b2 Theme x12 x13
+b2 REF x13
+b2 dissent "n.01" x13
+b2 Theme x13 x14
+b2 REF x14
+b2 dissent "n.01" x14
+b2 Theme x14 x15
+b2 REF x15
+b2 dissent "n.01" x15
+b2 Theme x15 x16
+b2 REF x16
+b2 dissent "n.01" x16
+b2 Theme x16 x17
+b2 REF x17
+b2 dissent "n.01" x17
+b2 Theme x17 x18
+b2 REF x18
+b2 dissent "n.01" x18
+b2 Theme x18 x19
+b2 REF x19
+b2 dissent "n.01" x19
+b2 Theme x19 x20
+b2 REF x20
+b2 dissent "n.01" x20
+b2 Theme x20 x21
+b2 REF x21
+b2 dissent "n.01" x21
+b2 Theme x21 x22
+b2 REF x22
+b2 dissent "n.01" x22
+b2 Theme x22 x23
+b2 REF x23
+b2 dissent "n.01" x23
+b2 Theme x23 x24
+b2 REF x24
+b2 dissent "n.01" x24
+b2 Theme x24 x24

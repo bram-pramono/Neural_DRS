@@ -1,0 +1,34 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 REF x2
+b2 Role x1 x2
+b2 murderer "n.01" x2
+b2 person "n.01" x1
+b1 REF x3
+b1 EQU x3 "now"
+b1 time "n.08" x3
+b3 Time x4 x3
+b3 POS b4
+b4 REF x4
+b4 PartOf x4 x1
+b4 REF x5
+b4 Theme x5 x6
+b4 old "a.02" x5
+b4 REF x6
+b4 Role x4 x6
+b4 friend "n.01" x6
+b4 person "n.01" x4
+b1 REF x7
+b1 TPR x7 "now"
+b1 time "n.08" x7
+b4 REF x8
+b4 Agent x8 x2
+b4 Theme x8 x9
+b4 Time x8 x7
+b4 observe "v.02" x8
+b5 REF x9
+b5 Name x9 "poirot"
+b5 city "n.01" x9
+b4 REF x10
+b4 Manner x8 x10
+b4 philosophically "r.01" x10

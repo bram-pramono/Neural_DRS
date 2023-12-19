@@ -1,0 +1,32 @@
+b1 REF x1
+b1 Recipient x1 x2
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 detective "n.01" x3
+b2 person "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x1
+b1 EQU x5 "now"
+b1 Time x4 x5
+b1 Topic x4 x6
+b1 say "v.01" x4
+b1 time "n.08" x5
+b1 REF x6
+b1 Attribute x1 x6
+b1 Value x6 "+"
+b1 small "a.01" x6
+b1 CONTINUATION b3
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x7
+b3 REF x8
+b3 EQU x8 "now"
+b3 time "n.08" x8
+b5 Time x9 x8
+b3 NEGATION b5
+b5 REF x9
+b5 Stimulus x9 x7
+b5 matter "v.01" x9

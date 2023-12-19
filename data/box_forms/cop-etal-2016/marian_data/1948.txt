@@ -1,0 +1,32 @@
+b1 Experiencer x1
+b1 REF x1
+b1 word "n.01" x1
+b2 REF x2
+b2 female "n.02" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 NOT b2 b1
+b1 Time x4 x3
+b1 turn "v.01" x4
+b3 DRS x1
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 Theme x5 "speaker"
+b3 Time x5 x6
+b3 stand "v.01" x5
+b3 time "n.08" x6
+b3 Attribute x5 x7
+b3 REF x7
+b3 REF x8
+b3 Role x7 x8
+b3 idiot "n.01" x8
+b3 person "n.01" x7
+b3 REF x9
+b3 Agent x9 x7
+b3 gap "v.01" x9
+b3 Theme x9 x6

@@ -1,0 +1,7 @@
+b1 NEC b2
+b2 REF x1
+b2 Theme x1 "speaker"
+b2 go_way "v.01" x1
+b2 Time x1 x2
+b3 REF x2
+b3 wood "n.02" x2

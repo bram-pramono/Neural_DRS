@@ -1,0 +1,45 @@
+b1 Time x3 x1
+b2 REF x1
+b2 User x1 "speaker"
+b2 REF x2
+b2 Theme x2 x1
+b2 extreme "a.01" x2
+b2 annoyance "n.01" x1
+b1 REF x3
+b1 poirot "n.01" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b3 Time x5 x4
+b1 Experiencer x4
+b3 REF x5
+b3 Theme x5 x3
+b3 in "a.01" x5
+b4 DRS x2
+b4 DRS x5
+b3 CONTINUATION b1 b4
+b4 REF x6
+b4 Name x6 "poirot"
+b4 male "n.02" x6
+b4 REF x7
+b4 TPR x7 "now"
+b4 time "n.08" x7
+b5 Time x8 x7
+b4 Experiencer x7
+b5 REF x8
+b5 Theme x8 x6
+b5 in "v.01" x8
+b6 REF x9
+b6 User x9 "speaker"
+b6 knock "n.01" x9
+b3 REF x10
+b3 TPR x10 "now"
+b3 time "n.08" x10
+b4 REF x11
+b4 Theme x11 x9
+b4 Time x11 x10
+b4 go "v.01" x11
+b4 Destination x11 x12
+b7 REF x12
+b7 Name x12 "london"
+b7 city "n.01" x12

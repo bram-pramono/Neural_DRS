@@ -1,0 +1,73 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 paper "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Attribute x1 x3
+b2 safe "a.01" x3
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x4
+b2 REF x5
+b2 REF x6
+b2 Agent x5 x4
+b2 TPR x6 "now"
+b2 Time x5 x6
+b2 think "v.01" x5
+b2 time "n.08" x6
+b4 CONTINUATION b5
+b5 NEGATION b6
+b6 REF x7
+b6 person "n.01" x7
+b5 REF x8
+b5 TPR x8 "now"
+b5 time "n.08" x8
+b6 REF x9
+b6 Agent x9 x7
+b6 Time x9 x8
+b6 think "v.01" x9
+b6 REF x10
+b6 Theme x9 x11
+b6 entity "n.01" x10
+b6 REF x11
+b6 Agent x11 x10
+b6 look "v.01" x11
+b6 Time x11 x12
+b7 REF x12
+b7 PRESUPPOSITION b6
+b7 Order x12 "1"
+b7 Unit x12 "week"
+b7 measure "n.02" x12
+b8 REF x13
+b8 PRESUPPOSITION b9
+b8 entity "n.01" x13
+b10 REF x14
+b10 TPR x14 "now"
+b10 Time x15 x14
+b10 time "n.08" x14
+b9 NEGATION b10
+b10 REF x15
+b10 REF x16
+b10 ATTRIBUTION b11
+b10 Experiencer x16 x13
+b10 Stimulus x16 x15
+b10 likely "a.01" x16
+b10 proposition "n.01" x15
+b12 REF x17
+b12 PRESUPPOSITION b11
+b12 person "n.01" x17
+b11 REF x18
+b11 TPR "now" x18
+b11 Time x19 x18
+b11 time "n.08" x18
+b11 NEGATION b11
+b11 REF x19
+b11 Agent x19 x17
+b11 Topic x19 x20
+b11 do "v.01" x19
+b11 REF x20
+b11 Theme x20 x17
+b11 so "v.01" x20

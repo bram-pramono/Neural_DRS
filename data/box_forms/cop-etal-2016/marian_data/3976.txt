@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Name x1 "?"
+b1 entity "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 Co-Theme x2 x4
+b1 EQU x3 "now"
+b1 Theme x2 x1
+b1 Time x2 x3
+b1 be "v.02" x2
+b1 time "n.08" x3
+b2 REF x4
+b2 Of x4 "hearer"
+b2 REF x5
+b2 Theme x5 x4
+b2 remarkable "a.01" x5
+b2 REF x6
+b2 Theme x6 x4
+b2 little "a.01" x6
+b2 REF x7
+b2 Theme x7 x4
+b2 little "a.01" x7
+b2 REF x8
+b2 Theme x8 x5
+b2 little "a.01" x8
+b2 REF x9
+b2 Theme x9 x6
+b2 little "a.01" x9
+b2 REF x10
+b2 Theme x10 x7
+b2 little "a.01" x10
+b2 REF x11
+b2 Theme x11 x8
+b2 little "a.01" x11
+b2 REF x12
+b2 Theme x12 x9
+b2 little "a.01" x12
+b2 REF x13
+b2 Theme x13 x10
+b2 little "a.01" x13
+b2 REF x14
+b2 Theme x14 x11
+b2 little "a.01" x14
+b2 REF x15
+b2 Theme x15 x12
+b2 little "a.01" x15
+b2 REF x16
+b2 Theme x16 x13
+b2 little "a.01" x16
+b2 REF x17
+b2 Theme x17 x14
+b2 little "a.01" x17
+b2 REF x18
+b2 Theme x18 x15
+b2 little "a.01" x18
+b2 REF x19
+b2 Theme x19 x16
+b2 little "a.01" x19
+b2 REF x20
+b2 Theme x20 x17
+b2 little "a.01" x20
+b2 REF x21
+b2 Theme x21 x18
+b2 little "a.01" x21
+b2 REF x22
+b2 Theme x22 x19
+b2 little "a.01" x22
+b2 REF x23
+b2 Theme x23 x20
+b2 little "a.01" x23
+b2 REF x24
+b2 Theme x24 x21
+b2 little "a.01" x24
+b2 REF x25
+b2 Theme x25 x22

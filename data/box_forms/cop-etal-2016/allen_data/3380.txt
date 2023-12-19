@@ -1,0 +1,29 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Pivot x2 "speaker"
+b2 Theme x2 x3
+b2 Time x2 x1
+b2 have "v.01" x2
+b1 NEGATION b2
+b2 REF x3
+b2 opportunity "n.01" x3
+b2 REF x4
+b2 Theme x3 x5
+b2 entity "n.01" x4
+b2 REF x5
+b2 Agent x5 x4
+b2 pass "v.01" x5
+b2 Patient x5 x7
+b3 REF x6
+b3 PRESUPPOSITION b4
+b3 person "n.01" x6
+b4 REF x7
+b4 Creator x7 x6
+b4 PRESUPPOSITION b2
+b4 message "n.01" x7
+b2 Recipient x5 x8
+b5 REF x8
+b5 PRESUPPOSITION b2
+b5 male "n.02" x8

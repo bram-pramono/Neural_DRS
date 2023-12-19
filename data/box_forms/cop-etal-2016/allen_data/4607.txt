@@ -1,0 +1,46 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Role x1 x2
+b1 person "n.01" x1
+b1 prisoner "n.01" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 return "v.01" x3
+b2 Destination x3 x4
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 house "n.01" x4
+b2 Time x3 x5
+b2 REF x5
+b2 TPR x5 "now"
+b2 time "n.08" x5
+b2 Time x7 x5
+b2 REF x6
+b2 Manner x7 x6
+b2 REF x7
+b2 REF x8
+b2 ATTRIBUTION b4
+b2 Agent x7 x2
+b2 Topic x7 x8
+b2 proposition "n.01" x8
+b2 tell "v.01" x7
+b4 REF x9
+b4 Theme x9 x2
+b4 Time x9 x4
+b4 be "v.01" x9
+b4 REF x10
+b4 REF x11
+b4 Attribute x10 x11
+b4 violent "a.01" x11
+b4 quarrel "n.01" x10
+b4 REF x12
+b4 Location x10 x12
+b4 SY2 x12 x13
+b4 location "n.01" x12
+b5 REF x13
+b5 REF x14
+b5 PRESUPPOSITION b4
+b5 Title x13 x14
+b5 mr "n.01" x14
+b5 person "n.01" x13

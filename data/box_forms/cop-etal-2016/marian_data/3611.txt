@@ -1,0 +1,5 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 guess "v.01" x1

@@ -1,0 +1,16 @@
+b1 REF x1
+b1 destruction "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 REF x3
+b2 Attribute x2 x3
+b2 PRESUPPOSITION b1
+b1 Location x1 x4
+b3 REF x4
+b3 PRESUPPOSITION b1
+b4 EQU x1 x5
+b1 TPR x1 "now"
+b4 NEGATION b1
+b1 REF x5
+b1 surprise "n.01" x5
+b1 Recipient x5 "speaker"

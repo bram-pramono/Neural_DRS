@@ -1,0 +1,16 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 scream "v.01" x1
+b1 headline "n.01" x2
+b1 Theme x2 x3
+b2 REF x3
+b2 country_journalist "n.01" x3
+b1 REF x4
+b1 REF x5
+b1 Causer x4 "speaker"
+b1 EQU x5 "now"
+b1 Time x4 x5
+b1 Topic x4 x2
+b1 say "v.01" x4
+b1 time "n.08" x5

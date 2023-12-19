@@ -1,0 +1,36 @@
+b1 Goal x4 x1
+b1 REF x1
+b1 rest "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Theme x2 x3
+b2 way "n.01" x3
+b2 home "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 Agent x4 "speaker"
+b1 TPR x5 "now"
+b1 Time x4 x5
+b1 Topic x4 x4
+b1 time "n.08" x5
+b1 Recipient x4 x6
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 person "n.01" x6
+b1 REF x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 various "a.01" x8
+b1 wrestling "n.01" x7
+b1 REF x9
+b1 Sub x9 x7
+b1 Sub x9 x10
+b1 entity "n.01" x9
+b1 REF x10
+b1 triumph "n.01" x10
+b1 Of x10 x11
+b4 REF x11
+b4 PRESUPPOSITION b1
+b4 person "n.01" x11

@@ -1,0 +1,36 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 be "v.03" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 Quantity x3 "2"
+b1 REF x4
+b1 Role x3 x4
+b1 person "n.01" x3
+b1 witness "n.01" x4
+b1 REF x5
+b1 TPR "now" x5
+b1 Time x6 x5
+b1 time "n.08" x5
+b1 REF x6
+b1 Agent x6 x3
+b1 swear "v.02" x6
+b1 REF x7
+b1 Theme x6 x8
+b1 entity "n.01" x7
+b1 REF x8
+b1 @-4 "n.01" x7
+b1 Stimulus x8 x9
+b1 hear "v.01" x8
+b1 REF x9
+b1 disagreement "n.01" x9
+b1 Co-Agent x9 x10
+b2 REF x10
+b2 REF x11
+b2 Theme x10 x11
+b2 mr "n.01" x11
+b2 Name x10 "inglethorp"
+b2 state "n.01" x10

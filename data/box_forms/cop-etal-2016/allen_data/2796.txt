@@ -1,0 +1,63 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b3 POSSIBILITY b2
+b2 REF x2
+b2 Pivot x2 x1
+b2 Theme x2 x4
+b2 have "v.01" x2
+b2 REF x3
+b2 REF x4
+b2 Attribute x4 x3
+b2 excellent "a.01" x3
+b2 reason "n.01" x4
+b2 Goal x2 x5
+b4 REF x5
+b4 PRESUPPOSITION b2
+b4 PartOf x5 x6
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 male "n.02" x6
+b4 innocence "n.01" x5
+b2 CONTRAST b6
+b6 REF x7
+b6 man "n.01" x7
+b6 PartOf x7 x8
+b7 REF x8
+b7 PRESUPPOSITION b6
+b7 artifact "n.01" x8
+b6 REF x9
+b6 TPR "now" x9
+b6 Time x10 x9
+b6 time "n.08" x9
+b6 REF x10
+b6 Agent x10 x7
+b6 Result x10 x12
+b6 require "v.01" x10
+b6 REF x11
+b6 REF x12
+b6 Attribute x12 x11
+b6 tangible "a.01" x11
+b6 CONTINUATION b8
+b9 REF x13
+b9 PRESUPPOSITION b8
+b9 entity "n.01" x13
+b8 REF x14
+b8 REF x15
+b8 REF x16
+b8 ATTRIBUTION b10
+b8 Agent x14 x13
+b8 TPR x16 "now"
+b8 Time x14 x16
+b8 Topic x14 x15
+b8 doubt "v.01" x14
+b8 question "n.01" x15
+b8 time "n.08" x16
+b11 REF x17
+b11 PRESUPPOSITION b12
+b11 person "n.01" x17
+b10 POSSIBILITY b12
+b12 REF x18
+b12 Agent x18 x17
+b12 Theme x18 x16
+b12 supply "v.01" x18

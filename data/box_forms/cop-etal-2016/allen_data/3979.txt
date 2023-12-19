@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Degree x2 x1
+b1 really "r.04" x1
+b2 POSSIBILITY b1
+b3 NEGATION b2
+b1 REF x2
+b1 Agent x2 "speaker"
+b1 Topic x2 "hearer"
+b1 tell "v.01" x2

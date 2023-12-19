@@ -1,0 +1,75 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 Sub x2 "speaker"
+b2 Sub x2 x1
+b2 entity "n.01" x2
+b2 REF x3
+b2 REF x4
+b2 REF x5
+b2 ATTRIBUTION b3
+b2 Agent x3 x2
+b2 TPR x5 "now"
+b2 Time x3 x5
+b2 Topic x3 x4
+b2 proposition "n.01" x4
+b2 say "v.01" x3
+b2 time "n.08" x5
+b3 REF x6
+b3 REF x7
+b3 REF x8
+b3 ATTRIBUTION b4
+b3 Experiencer x6 "speaker"
+b3 Stimulus x6 x7
+b3 TPR x8 "now"
+b3 Time x6 x8
+b3 proposition "n.01" x7
+b3 time "n.08" x8
+b3 wish "v.01" x6
+b4 REF x9
+b4 TPR "now" x9
+b4 Time x10 x9
+b4 time "n.08" x9
+b4 REF x10
+b4 REF x11
+b4 ATTRIBUTION b5
+b4 Experiencer x10 "speaker"
+b4 Stimulus x10 x11
+b4 question "n.01" x11
+b4 tell "v.01" x10
+b5 REF x12
+b5 Causer x13 x12
+b5 EQU x12 "?"
+b5 reason "n.02" x12
+b5 REF x13
+b5 REF x14
+b5 REF x15
+b5 ATTRIBUTION b6
+b5 Pivot x13 "hearer"
+b5 TPR x15 "now"
+b5 Theme x13 x14
+b5 Time x13 x15
+b5 proposition "n.01" x14
+b5 time "n.08" x15
+b5 want "v.01" x13
+b6 REF x16
+b6 REF x17
+b6 ATTRIBUTION b7
+b6 Experiencer x16 "hearer"
+b6 Stimulus x16 x17
+b6 know "v.01" x16
+b6 question "n.01" x17
+b8 REF x18
+b8 REF x19
+b8 PRESUPPOSITION b7
+b8 Title x18 x19
+b8 mr "n.01" x19
+b8 person "n.01" x18
+b7 REF x20
+b7 REF x21
+b7 Agent x20 x18
+b7 TPR x21 "now"
+b7 Time x20 x21
+b7 eat "v.01" x20
+b7 time "n.08" x21

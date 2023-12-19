@@ -1,0 +1,22 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 Experiencer x1 "speaker"
+b1 Stimulus x1 x2
+b1 TPR x3 "now"
+b1 Time x1 x3
+b1 feel "v.01" x1
+b1 proposition "n.01" x2
+b1 time "n.08" x3
+b3 REF x4
+b3 Of x5 "speaker"
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 Role x4 x5
+b3 friend "n.01" x5
+b3 person "n.01" x4
+b4 EQU x4 x5
+b4 TPR x4 "now"
+b2 NEGATION b4
+b4 entity "n.01" x3

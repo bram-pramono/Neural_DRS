@@ -1,0 +1,28 @@
+b1 REF x4 x1
+b1 REF x1
+b1 REF x2
+b1 Title x1 x2
+b1 mr "n.01" x2
+b1 male "n.02" x1
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 male "n.02" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Time x6 x4
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 ATTRIBUTION b3
+b1 Agent x6 x3
+b1 Topic x6 x5
+b1 able "a.01" x6
+b1 proposition "n.01" x5
+b3 REF x7
+b3 Agent x7 x3
+b3 Result x7 x8
+b3 produce "v.02" x7
+b3 REF x8
+b3 REF x9
+b3 Attribute x8 x9
+b3 alibi "n.01" x8

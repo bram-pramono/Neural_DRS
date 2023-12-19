@@ -1,0 +1,16 @@
+b1 Time x3 x1
+b1 REF x1
+b1 case "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 Name x2 "alfred~inglethorp"
+b2 city "n.01" x2
+b1 REF x3
+b1 all "n.01" x3
+b1 REF x4
+b1 EQU x4 "now"
+b1 Time x5 x4
+b1 time "n.08" x4
+b1 REF x5
+b1 NOT b2 b1
+b1 change "v.01" x5

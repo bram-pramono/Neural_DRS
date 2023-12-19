@@ -1,0 +1,45 @@
+b1 REF x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Theme x1 "speaker"
+b1 Time x1 x2
+b1 go "v.01" x1
+b1 time "n.08" x2
+b1 Path x1 x3
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 door "n.01" x3
+b1 REF x4
+b1 Agent x4 "speaker"
+b1 Patient x4 x6
+b1 lock "v.01" x4
+b3 REF x5
+b3 CONSEQUENCE b4
+b3 PartOf x5 x6
+b3 Quantity x5 "1"
+b3 Quantity x6 "2"
+b3 entity "n.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b3
+b5 entity "n.01" x6
+b6 REF x7
+b6 PRESUPPOSITION b7
+b6 entity "n.01" x7
+b3 REF x8
+b3 Sub x8 x7
+b3 Sub x8 x9
+b3 entity "n.01" x8
+b7 REF x9
+b7 entity "n.01" x9
+b7 Part x9 x11
+b8 REF x10
+b8 REF x11
+b8 PRESUPPOSITION b9
+b8 PRESUPPOSITION b7
+b8 Title x10 x11
+b8 mr "n.01" x11
+b8 person "n.01" x10
+b9 REF x12
+b9 PRESUPPOSITION b7
+b9 User x12 x10
+b9 room "n.01" x12

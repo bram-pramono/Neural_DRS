@@ -1,0 +1,10 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x3 x1
+b1 Experiencer x1
+b3 REF x2
+b3 entity "n.01" x2
+b2 REF x3
+b2 Theme x3 x2
+b2 moosier "a.01" x3

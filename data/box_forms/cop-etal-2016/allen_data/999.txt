@@ -1,0 +1,22 @@
+b1 REF x1
+b1 Participant x1 x5
+b1 event "v.01" x1
+b2 REF x2
+b2 Co-Theme x2 "4"
+b2 PRESUPPOSITION b3
+b2 entity "n.01" x2
+b3 REF x3
+b3 Part x3 x4
+b3 REF x4
+b3 REF x5
+b3 Colour x4 x5
+b3 dark "a.01" x5
+b3 fabric "n.01" x4
+b3 REF x6
+b3 EQU x6 x3
+b3 Sub x6 x7
+b3 entity "n.01" x6
+b3 REF x7
+b3 Quantity x7 "2"
+b3 REF x8
+b3 Attribute x7 x8

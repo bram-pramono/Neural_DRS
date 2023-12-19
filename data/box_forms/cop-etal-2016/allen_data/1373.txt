@@ -1,0 +1,40 @@
+b1 CONDITION b2
+b3 REF x1
+b3 CONSEQUENCE b4
+b3 REF x2
+b3 PartOf x1 x2
+b3 man "n.01" x2
+b3 man "n.01" x1
+b3 Attribute x1 x3
+b3 REF x3
+b3 method "n.01" x3
+b5 REF x4
+b5 Theme x4 x1
+b5 be "a.01" x4
+b6 Context x4 x6
+b7 REF x5
+b7 PRESUPPOSITION b8
+b7 person "n.01" x5
+b8 REF x6
+b8 Creator x6 x5
+b8 PRESUPPOSITION b4
+b8 regulation "n.01" x6
+b4 REF x7
+b4 REF x8
+b4 REF x9
+b4 Attribute x7 x8
+b4 Degree x8 x9
+b4 high "a.01" x8
+b4 most "r.01" x9
+b4 praise "n.01" x7
+b4 POSSIBILITY b9
+b6 REF x10
+b6 TPR x10 "now"
+b6 time "n.08" x10
+b9 REF x11
+b9 Theme x11 x7
+b9 Time x11 x10
+b9 donate "v.01" x11
+b9 Location x11 x12
+b9 REF x12
+b9 individual "n.01" x12

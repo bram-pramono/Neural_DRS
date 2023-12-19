@@ -1,0 +1,26 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b2 REF x2
+b2 person "n.01" x2
+b1 REF x3
+b1 Agent x3 x2
+b1 NOT b2 "hearer"
+b1 bully "v.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 Agent x4 "speaker"
+b3 PRP x5 b4
+b3 TPR x6 "now"
+b3 Time x4 x6
+b3 Topic x4 x5
+b3 ask "v.01" x4
+b3 time "n.08" x6
+b4 REF x7
+b4 Agent x7 "speaker"
+b4 smile "v.01" x7

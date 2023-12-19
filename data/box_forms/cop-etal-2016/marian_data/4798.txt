@@ -1,0 +1,16 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 then "r.01" x1
+b2 REF x2
+b2 Name x2 "mary"
+b2 female "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x2
+b1 NOT b1 b3
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 destroy "v.01" x3
+b1 time "n.08" x4
+b3 REF x5
+b3 will "n.01" x5

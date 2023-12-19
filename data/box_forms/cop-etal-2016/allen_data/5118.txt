@@ -1,0 +1,37 @@
+b1 EXPLANATION b2
+b3 REF x1
+b3 PRESUPPOSITION b2
+b3 person "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Patient x3 x1
+b4 REF x4
+b4 TPR "now" x4
+b4 time "n.08" x4
+b5 Time x5 x4
+b4 NEGATION b5
+b5 REF x5
+b5 need "n.01" x5
+b5 REF x6
+b5 Agent x6 x5
+b5 Patient x6 x7
+b5 straighten "v.01" x6
+b6 REF x7
+b6 PRESUPPOSITION b5
+b6 person "n.01" x7
+b5 Location x6 x8
+b7 REF x8
+b7 PRESUPPOSITION b5
+b7 meantime "n.01" x8
+b5 REF x9
+b5 person "n.01" x9
+b5 REF x10
+b5 Agent x10 x9
+b5 Patient x10 x11
+b5 touch "v.01" x10
+b8 REF x11
+b8 PRESUPPOSITION b5
+b8 person "n.01" x11

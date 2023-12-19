@@ -1,0 +1,25 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 Patient x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 time "n.08" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 female "n.02" x3
+b1 CONTINUATION b3
+b3 REF x4
+b3 REF x5
+b3 ATTRIBUTION b4
+b3 Agent x5 "speaker"
+b3 Topic x5 x4
+b3 proposition "n.01" x4
+b5 REF x6
+b5 Agent x6 "speaker"
+b5 Beneficiary x6 x7
+b5 help "v.01" x6
+b4 ALTERNATION b6
+b4 ALTERNATION b7
+b7 REF x7
+b7 Theme x7 "speaker"

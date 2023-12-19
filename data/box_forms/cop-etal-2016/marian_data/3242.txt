@@ -1,0 +1,26 @@
+b1 REF x1
+b1 dear_fellow "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b2 Experiencer x2
+b3 REF x3
+b3 Theme x3 x1
+b3 perhaps "a.01" x3
+b3 REF x4
+b3 Manner x3 x4
+b3 bright "r.01" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 Agent x5 "speaker"
+b4 TPR x6 "now"
+b4 Time x5 x6
+b4 say "v.01" x5
+b4 time "n.08" x6
+b4 REF x7
+b4 Manner x5 x7
+b4 thoughtfully "r.01" x7

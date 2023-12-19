@@ -1,0 +1,75 @@
+b1 REF x1
+b1 war "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 inactive "a.01" x3
+b3 DRS x2
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b4 REF x4
+b4 newspaper "n.01" x4
+b3 REF x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 Theme x5 x4
+b3 Time x5 x6
+b3 seize "v.01" x5
+b3 time "n.08" x6
+b3 Instrument x5 x7
+b3 REF x7
+b3 avidity "n.01" x7
+b3 Location x5 x8
+b5 REF x8
+b5 crime "n.01" x8
+b5 Theme x8 x9
+b5 REF x9
+b5 REF x10
+b5 Theme x10 x9
+b5 fashionable "a.01" x10
+b5 life "n.01" x9
+b5 Theme x9 x11
+b5 REF x11
+b5 avidity "n.01" x11
+b5 Theme x11 x12
+b5 REF x12
+b5 REF x13
+b5 Theme x13 x12
+b5 fashionable "a.01" x13
+b5 life "n.01" x12
+b5 Theme x12 x14
+b5 REF x14
+b5 avidity "n.01" x14
+b5 Theme x14 x15
+b5 REF x15
+b5 REF x16
+b5 Theme x16 x15
+b5 fashionable "a.01" x16
+b5 life "n.01" x15
+b5 Theme x15 x17
+b5 REF x17
+b5 avidity "n.01" x17
+b5 Theme x17 x18
+b5 REF x18
+b5 REF x19
+b5 Theme x19 x18
+b5 fashionable "a.01" x19
+b5 life "n.01" x18
+b5 Theme x18 x20
+b5 REF x20
+b5 avidity "n.01" x20
+b5 Theme x20 x21
+b5 REF x21
+b5 REF x22
+b5 Theme x22 x21
+b5 fashionable "a.01" x22
+b5 life "n.01" x21
+b5 Theme x21 x23
+b5 REF x23
+b5 avidity "n.01" x23
+b5 Theme x23 x24
+b5 REF x24
+b5 REF x25

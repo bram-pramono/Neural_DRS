@@ -1,0 +1,29 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 look "v.04" x2
+b2 Theme x2 x3
+b3 REF x3
+b3 chest "n.01" x3
+b1 Experiencer x2
+b2 REF x4
+b2 matter "n.01" x4
+b1 REF x5
+b1 TPR "now" x2
+b1 time "n.08" x2
+b2 Time x6 x2
+b2 REF x6
+b2 Agent x6 x4
+b2 NOT b3 b4
+b2 examine "v.01" x6
+b4 REF x7
+b4 entity "n.01" x7
+b2 IMP b5 b3
+b5 REF x8
+b5 PartOf x8 x9
+b5 entity "n.01" x8
+b6 REF x9
+b6 same "n.01" x9

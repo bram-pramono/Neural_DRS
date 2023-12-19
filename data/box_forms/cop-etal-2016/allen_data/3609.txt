@@ -1,0 +1,11 @@
+b1 REF x1
+b1 Location x3 x1
+b1 Name x1 "?"
+b1 how "n.01" x1
+b2 POSSIBILITY b1
+b3 REF x2
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x2
+b2 REF x3
+b2 Theme x3 x2
+b2 be "v.01" x3

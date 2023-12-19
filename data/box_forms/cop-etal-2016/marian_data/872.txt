@@ -1,0 +1,4 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Source x1 "speaker"
+b1 permit "v.01" x1

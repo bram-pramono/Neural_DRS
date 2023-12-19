@@ -1,0 +1,30 @@
+b1 IMP b2 b3
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 "hearer"
+b2 PRP x3 b4
+b2 Recipient x2 "speaker"
+b2 Topic x2 x3
+b2 allow "v.01" x2
+b4 REF x4
+b4 Agent x4 "speaker"
+b4 send "v.01" x4
+b4 Theme x4 x5
+b5 REF x5
+b5 Of x5 "hearer"
+b5 gardener "n.01" x5
+b2 REF x6
+b2 TPR "now" x6
+b2 time "n.08" x6
+b4 Time x7 x6
+b4 REF x7
+b4 Agent x7 "speaker"
+b4 Theme x7 x8
+b4 prove "v.01" x7
+b6 REF x8
+b6 entity "n.01" x8
+b4 Recipient x7 "hearer"

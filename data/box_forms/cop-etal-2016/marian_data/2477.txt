@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 Agent x1 "speaker"
+b1 EQU x3 "now"
+b1 PRP x2 b2
+b1 Time x1 x3
+b1 Topic x1 x2
+b1 be "v.03" x1
+b1 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Agent x4 "speaker"
+b2 PRP x5 b3
+b2 Recipient x4 x6
+b2 Topic x4 x5
+b2 take "v.01" x4
+b4 REF x6
+b4 entity "n.01" x6
+b3 REF x7
+b3 Manner x9 x7
+b3 then "r.01" x7
+b2 REF x8
+b2 TPR "now" x8
+b2 time "n.08" x8
+b3 REF x9
+b3 REF x10
+b3 Agent x9 "hearer"
+b3 PRP x10 b5
+b3 Time x9 x8
+b3 Topic x9 x10
+b3 decline "v.01" x9
+b5 REF x11
+b5 REF x12
+b5 Agent x11 "hearer"
+b5 PRP x12 b6
+b5 Topic x11 x12
+b5 say "v.01" x11
+b3 REF x13
+b3 TPR x13 "now"
+b3 time "n.08" x13
+b6 REF x14
+b6 REF x15
+b6 Agent x14 "hearer"
+b6 PRP x15 b7
+b6 Topic x14 x15
+b6 say "v.01" x14
+b7 REF x16
+b7 REF x17
+b7 Agent x16 "hearer"
+b7 PRP x17 b8
+b7 Topic x16 x17
+b7 say "v.01" x16
+b8 REF x18
+b8 REF x19
+b8 Agent x18 "hearer"
+b8 PRP x19 b9
+b8 Topic x18 x19
+b8 say "v.01" x18
+b9 REF x20
+b9 REF x21
+b9 Agent x20 "hearer"
+b9 PRP x21 b10
+b9 Topic x20 x21
+b9 say "v.01" x20
+b10 REF x22
+b10 REF x23
+b10 Agent x22 "hearer"
+b10 PRP x23 b11
+b10 Topic x22 x23
+b10 say "v.01" x22
+b11 REF x24
+b11 REF x25
+b11 Agent x24 "hearer"
+b11 PRP x25 b12

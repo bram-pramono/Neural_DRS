@@ -1,0 +1,75 @@
+b1 Theme x4 x1
+b1 REF x1
+b1 ClockTime x1 "16:00"
+b1 time "n.08" x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Title x2 x3
+b2 mr "n.01" x3
+b2 male "n.02" x2
+b1 REF x4
+b1 Agent x4 x2
+b1 EQU x1 "now"
+b1 quarrel "v.01" x4
+b1 Co-Agent x4 x6
+b3 REF x5
+b3 PRESUPPOSITION b4
+b3 female "n.02" x5
+b4 REF x6
+b4 Of x7 x5
+b4 REF x7
+b4 PRESUPPOSITION b1
+b4 Role x6 x7
+b4 person "n.01" x6
+b4 son "n.01" x7
+b1 CONTINUATION b5
+b5 REF x8
+b5 REF x9
+b5 REF x10
+b5 ATTRIBUTION b6
+b5 EQU x10 "now"
+b5 Experiencer x8 x3
+b5 Stimulus x8 x9
+b5 Time x8 x10
+b5 proposition "n.01" x9
+b5 threaten "v.01" x8
+b5 time "n.08" x10
+b6 REF x11
+b6 Agent x11 x2
+b6 Patient x11 x12
+b6 denounce "v.01" x11
+b7 PRESUPPOSITION b6
+b7 REF x12
+b7 male "n.02" x12
+b6 Recipient x11 x13
+b8 REF x13
+b8 Of x14 x2
+b8 REF x14
+b8 PRESUPPOSITION b6
+b8 Role x13 x14
+b8 person "n.01" x13
+b8 wife "n.01" x14
+b6 REF x15
+b6 REF x16
+b6 Role x15 x16
+b6 person "n.01" x15
+b6 wife "n.01" x16
+b6 CONTINUATION b9
+b9 Theme x19 x17
+b10 REF x17
+b10 PRESUPPOSITION b9
+b10 way "n.01" x17
+b6 REF x18
+b6 TPR x18 "now"
+b6 time "n.08" x18
+b9 REF x19
+b9 Experiencer x19 x12
+b9 Stimulus x19 x20
+b9 Time x19 x18
+b9 overhear "v.01" x19
+b7 REF x20
+b7 REF x21
+b7 PRESUPPOSITION b9
+b7 Theme x20 x21
+b7 greater "n.01" x21

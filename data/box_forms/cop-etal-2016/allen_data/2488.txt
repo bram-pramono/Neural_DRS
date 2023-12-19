@@ -1,0 +1,19 @@
+b1 REF x1
+b1 Agent x1 "speaker"
+b1 Theme x1 "speaker"
+b1 interrupt "v.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 male "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 TPR x3 "now"
+b1 TPR x4 "now"
+b1 Time x5 x3
+b1 Time x6 x4
+b1 time "n.08" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 Patient x5 x2
+b1 Patient x6 "hearer"

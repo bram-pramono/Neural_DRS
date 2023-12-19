@@ -1,0 +1,12 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Agent x2 "speaker"
+b1 Recipient x2 "hearer"
+b1 Topic x2 x3
+b1 tell "v.01" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 this "n.01" x3

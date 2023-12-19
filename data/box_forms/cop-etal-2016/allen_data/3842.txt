@@ -1,0 +1,20 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 TPR "now" x2
+b2 REF x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Attribute x1 x3
+b2 generally "r.01" x3
+b2 REF x4
+b2 Experiencer x4 x1
+b2 known "a.01" x4
+b2 REF x5
+b2 REF x6
+b2 TAB x5 x6
+b2 TIN "now" x5
+b2 TIN x3 x6
+b2 day "n.03" x5
+b2 day "n.03" x6

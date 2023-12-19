@@ -1,0 +1,13 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 REF x2
+b2 ATTRIBUTION b3
+b2 Agent x1 "speaker"
+b2 Recipient x1 "hearer"
+b2 Topic x1 x2
+b2 ask "v.01" x1
+b2 proposition "n.01" x2
+b3 REF x3
+b3 Experiencer x3 "hearer"
+b3 Stimulus x3 "speaker"
+b3 trust "v.01" x3

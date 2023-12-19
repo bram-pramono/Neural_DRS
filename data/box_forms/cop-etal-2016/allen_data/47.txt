@@ -1,0 +1,42 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Patient x1 "speaker"
+b2 Time x1 x2
+b2 knock "v.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 Instrument x1 x3
+b2 REF x3
+b2 feather "n.01" x3
+b2 REF x4
+b2 Quantity x4 "3"
+b2 Unit x4 "month"
+b2 measure "n.02" x4
+b2 TAB x2 x4
+b2 TAB x4 "now"
+b2 REF x5
+b2 Manner x6 x5
+b2 suddenly "a.01" x5
+b2 REF x6
+b2 REF x7
+b2 ATTRIBUTION b3
+b2 Agent x6 x3
+b2 Time x6 x1
+b2 Topic x6 x7
+b2 announce "v.01" x6
+b2 proposition "n.01" x7
+b1 PRESUPPOSITION b3
+b3 REF x8
+b3 Sub x8 x2
+b3 Sub x8 x9
+b3 entity "n.01" x8
+b4 REF x9
+b4 Name x9 "alfred~nobel"
+b4 PRESUPPOSITION b3
+b4 male "n.02" x9
+b3 Time x10 x2
+b3 REF x10
+b3 Theme x10 x8
+b3 engage "v.05" x10

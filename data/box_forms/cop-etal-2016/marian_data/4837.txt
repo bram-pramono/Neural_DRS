@@ -1,0 +1,28 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 PRP x1 b2
+b1 PRP x2 b3
+b1 PRP x3 b4
+b4 REF x4
+b4 Manner x8 x4
+b4 far "r.01" x4
+b1 REF x5
+b1 EQU x5 "now"
+b1 time "n.08" x5
+b3 REF x6
+b3 @-4 "n.01" "speaker"
+b3 Time x6 x5
+b3 know "v.01" x6
+b5 REF x7
+b5 female "n.02" x7
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b4 Time x9 x8
+b4 REF x9
+b4 Theme x9 x7
+b4 alone "a.01" x9
+b4 Instrument x9 x10
+b6 REF x10
+b6 half@-8hour "n.01" x10

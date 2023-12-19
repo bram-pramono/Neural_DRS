@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Degree x2 x1
+b1 very "r.01" x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 simply "r.04" x2

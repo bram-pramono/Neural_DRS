@@ -1,0 +1,25 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 surely "r.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b3
+b2 male "n.02" x2
+b4 POSSIBILITY b1
+b3 NEGATION b4
+b3 REF x3
+b3 Experiencer x3 x2
+b3 aware "v.01" x3
+b3 Stimulus x3 x4
+b5 REF x4
+b5 PRESUPPOSITION b3
+b5 fact "n.01" x4
+b6 REF x5
+b6 Agent x5 "speaker"
+b6 Patient x5 x6
+b6 conceal "v.01" x5
+b7 REF x6
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x6
+b6 REF x7
+b6 Theme x7 "speaker"
+b6 will "a.01" x7

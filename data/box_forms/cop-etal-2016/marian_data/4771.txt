@@ -1,0 +1,75 @@
+b1 Time x2 x1
+b1 REF x1
+b1 fact "n.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Time x3 x2
+b1 time "n.08" x2
+b1 REF x3
+b1 Result x3 x4
+b1 Theme x3 "speaker"
+b1 convince "v.02" x3
+b2 REF x4
+b2 far "n.01" x4
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 TPR x6 "now"
+b3 Theme x5 "speaker"
+b3 Time x5 x6
+b3 be "v.03" x5
+b3 time "n.08" x6
+b3 Location x5 x7
+b4 REF x7
+b4 User x7 x4
+b4 REF x8
+b4 Theme x8 x7
+b4 own "a.01" x8
+b4 room "n.01" x7
+b5 DRS x6
+b5 CONTINUATION b3 b6
+b6 REF x9
+b6 REF x10
+b6 TPR x10 "now"
+b6 Theme x9 "speaker"
+b6 Time x9 x10
+b6 be "v.03" x9
+b6 time "n.08" x10
+b6 Location x9 x11
+b7 REF x11
+b7 decease "n.01" x11
+b8 DRS x8
+b8 CONTINUATION b5 b9
+b9 REF x12
+b9 REF x13
+b9 TPR x13 "now"
+b9 Theme x12 "speaker"
+b9 Time x12 x13
+b9 be "v.03" x12
+b9 time "n.08" x13
+b9 Location x12 x14
+b10 REF x14
+b10 decease "n.01" x14
+b11 DRS x11
+b11 CONTINUATION b8 b12
+b12 REF x15
+b12 REF x16
+b12 TPR x16 "now"
+b12 Theme x15 "speaker"
+b12 Time x15 x16
+b12 be "v.03" x15
+b12 time "n.08" x16
+b12 Location x15 x17
+b13 REF x17
+b13 decease "n.01" x17
+b14 DRS x14
+b14 CONTINUATION b11 b15
+b15 REF x18
+b15 REF x19
+b15 TPR x19 "now"
+b15 Theme x18 "speaker"
+b15 Time x18 x19
+b15 be "v.03" x18
+b15 time "n.08" x19

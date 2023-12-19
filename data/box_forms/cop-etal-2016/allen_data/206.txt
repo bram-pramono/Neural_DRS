@@ -1,0 +1,10 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 sit "v.01" x1
+b1 Location x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 grass "n.01" x2
+b1 REF x3
+b1 Theme x3 "hearer"
+b1 do "a.01" x3

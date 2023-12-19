@@ -1,0 +1,44 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 just "r.01" x1
+b1 TPR x2 x2
+b1 REF x2
+b1 tea "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 REF x5
+b1 Agent x3 "speaker"
+b1 PRP x4 b2
+b1 TPR x5 "now"
+b1 Time x3 x5
+b1 Topic x3 x4
+b1 stroll "v.01" x3
+b1 time "n.08" x5
+b2 REF x6
+b2 Agent x6 "speaker"
+b2 Recipient x6 x7
+b2 tell "v.01" x6
+b3 REF x7
+b3 Name x7 "poirot"
+b3 city "n.01" x7
+b2 Theme x6 x8
+b4 REF x8
+b4 REF x9
+b4 Theme x9 x8
+b4 new "a.01" x9
+b4 disappointment "n.01" x8
+b5 DRS x6
+b5 DRS x9
+b4 CONTRAST b1 b5
+b5 REF x10
+b5 TPR x10 "now"
+b5 Time x11 x10
+b5 time "n.08" x10
+b5 REF x11
+b5 REF x12
+b5 Quantity x12 "1"
+b5 Theme x11 x6
+b5 Unit x12 "year"
+b5 Value x11 x12
+b5 measure "n.02" x12
+b5 out "n.01" x11

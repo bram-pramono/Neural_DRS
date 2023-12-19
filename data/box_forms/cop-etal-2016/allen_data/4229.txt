@@ -1,0 +1,5 @@
+b1 NEGATION b2
+b2 NEGATION b3
+b3 REF x1
+b3 Theme x1 "hearer"
+b3 at~all "a.01" x1

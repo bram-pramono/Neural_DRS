@@ -1,0 +1,74 @@
+b1 REF x1
+b2 REF x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 person "n.01" x3
+b2 REF x4
+b2 Agent x4 x2
+b2 Theme x4 x5
+b2 expression "v.01" x4
+b2 REF x5
+b2 REF x6
+b2 Attribute x5 x6
+b2 REF x7
+b2 Attribute x5 x7
+b2 cry "n.01" x5
+b2 REF x8
+b2 REF x9
+b2 Agent x8 x5
+b2 TPR x9 "now"
+b2 Theme x8 x10
+b2 Time x8 x9
+b2 time "n.08" x9
+b4 PRESUPPOSITION b5
+b5 REF x10
+b5 PRESUPPOSITION b2
+b5 PartOf x10 x11
+b5 REF x11
+b5 male "n.02" x11
+b4 REF x12
+b4 PRESUPPOSITION b2
+b4 Role x10 x12
+b4 person "n.01" x10
+b2 REF x13
+b2 REF x14
+b2 Agent x13 x10
+b2 TPR x14 "now"
+b2 Theme x13 x15
+b2 Time x13 x14
+b2 time "n.08" x14
+b6 REF x15
+b6 PRESUPPOSITION b2
+b6 PartOf x15 x11
+b2 PRESUPPOSITION b6
+b2 REF x16
+b2 male "n.02" x16
+b2 wallet "n.01" x15
+b2 Theme x15 x17
+b7 REF x17
+b7 PRESUPPOSITION b2
+b7 PartOf x17 x6
+b7 eye "n.01" x17
+b3 REF x18
+b3 REF x19
+b3 TPR x19 "now"
+b3 Theme x18 x16
+b3 Time x18 x19
+b3 time "n.08" x19
+b3 weaken "v.01" x18
+b3 REF x20
+b3 Manner x18 x20
+b3 forward "r.01" x20
+b3 CONTINUATION b8
+b8 REF x21
+b8 Manner x22 x21
+b8 apparently "r.01" x21
+b8 REF x22
+b8 Experiencer x22 x14
+b8 Stimulus x22 x23
+b8 suffer "v.01" x22
+b9 REF x23
+b9 REF x24
+b9 Attribute x23 x24
+b9 PRESUPPOSITION b8
+b9 pain "n.01" x23

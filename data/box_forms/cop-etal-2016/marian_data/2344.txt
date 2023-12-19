@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 then "r.01" x1
+b2 POS b3
+b1 Experiencer x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b3 REF x3
+b3 REF x4
+b3 Agent x3 "hearer"
+b3 PRP x4 b4
+b3 Time x3 x2
+b3 Topic x3 x4
+b3 fail "v.01" x3
+b4 REF x5
+b4 @-4 "n.01" "hearer"
+b4 Stimulus x5 x6
+b4 hear "v.01" x5
+b5 REF x6
+b5 voice "n.01" x6
+b4 REF x7
+b4 Manner x5 x7
+b4 inside "a.01" x7
+b4 REF x8
+b4 Manner x6 x8
+b4 inside "a.01" x8
+b4 REF x9
+b4 Manner x7 x9
+b4 inside "a.01" x9
+b4 REF x10
+b4 Manner x8 x10
+b4 inside "a.01" x10
+b4 REF x11
+b4 Manner x9 x11
+b4 inside "a.01" x11
+b4 REF x12
+b4 Manner x10 x12
+b4 inside "a.01" x12
+b4 REF x13
+b4 Manner x11 x13
+b4 inside "a.01" x13
+b4 REF x14
+b4 Manner x12 x14
+b4 inside "a.01" x14
+b4 REF x15
+b4 Manner x13 x15
+b4 inside "a.01" x15
+b4 REF x16
+b4 Manner x14 x16
+b4 inside "a.01" x16
+b4 REF x17
+b4 Manner x15 x17
+b4 inside "a.01" x17
+b4 REF x18
+b4 Manner x16 x18
+b4 inside "a.01" x18
+b4 REF x19
+b4 Manner x17 x19
+b4 inside "a.01" x19
+b4 REF x20
+b4 Manner x18 x20
+b4 inside "a.01" x20
+b4 REF x21
+b4 Manner x19 x21
+b4 inside "a.01" x21
+b4 REF x22
+b4 Manner x20 x22
+b4 inside "a.01" x22
+b4 REF x23
+b4 Manner x21 x23
+b4 inside "a.01" x23
+b4 REF x24
+b4 Manner x22 x24
+b4 inside "a.01" x24

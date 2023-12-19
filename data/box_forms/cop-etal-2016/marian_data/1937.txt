@@ -1,0 +1,43 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 "speaker"
+b2 Time x2 x3
+b2 study "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 curiously "r.01" x4
+b2 Instrument x2 x5
+b2 REF x5
+b2 Unit x5 "minute"
+b2 measure "n.02" x5
+b3 DRS x4
+b3 DRS x5
+b2 CONTINUATION b1 b3
+b3 REF x6
+b3 Manner x7 x6
+b3 then "a.01" x6
+b3 REF x7
+b3 REF x8
+b3 REF x9
+b3 Agent x7 "hearer"
+b3 PRP x8 b4
+b3 TPR x9 "now"
+b3 Time x7 x9
+b3 Topic x7 x8
+b3 say "v.01" x7
+b3 time "n.08" x9
+b4 REF x10
+b4 @-4 "n.01" "hearer"
+b4 loyal "a.01" x10
+b4 Recipient x10 x11
+b5 REF x11
+b5 Of x12 "hearer"
+b5 REF x12
+b5 Role x11 x12
+b5 friend "n.01" x12
+b5 person "n.01" x11

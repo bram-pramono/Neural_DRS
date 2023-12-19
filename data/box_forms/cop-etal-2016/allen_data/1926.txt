@@ -1,0 +1,5 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x1 x1
+b1 NEGATION b2

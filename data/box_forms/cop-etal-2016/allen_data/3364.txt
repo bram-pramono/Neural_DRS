@@ -1,0 +1,8 @@
+b1 NEGATION b2
+b3 REF x1
+b3 Of x2 "speaker"
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 Role x1 x2
+b3 friend "n.01" x2
+b3 person "n.01" x1

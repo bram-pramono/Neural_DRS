@@ -1,0 +1,13 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b2 REF x2
+b2 Name x2 "bauerstein"
+b2 male "n.02" x2
+b1 REF x3
+b1 NOT b2 b1
+b1 arrest "v.01" x3
+b1 REF x4
+b1 Manner x3 x4
+b1 then "r.01" x4

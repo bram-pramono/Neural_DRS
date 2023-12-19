@@ -1,0 +1,19 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 door "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 Patient x3 x1
+b2 lock "v.01" x3
+b2 Location x3 x4
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 inside "n.01" x4
+b2 CONTINUATION b4
+b4 REF x5
+b4 Agent x5 "speaker"
+b4 Time x5 x2
+b4 cry "v.02" x5

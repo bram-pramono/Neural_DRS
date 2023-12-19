@@ -1,0 +1,29 @@
+b1 REF x1
+b1 Theme x1 "speaker"
+b1 Time x1 x2
+b1 walk "v.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b1 REF x3
+b1 Manner x1 x3
+b1 Source x1 x4
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 house "n.01" x4
+b1 REF x5
+b1 Agent x5 "speaker"
+b1 Time x5 x2
+b1 glance "v.01" x5
+b1 Theme x5 x6
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 male "n.02" x6
+b1 REF x7
+b1 REF x8
+b1 REF x9
+b1 LES x9 x8
+b1 Quantity x7 x8
+b1 quantity "n.01" x8
+b1 quantity "n.01" x9
+b1 EQU x9 "1"

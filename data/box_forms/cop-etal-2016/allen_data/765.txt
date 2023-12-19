@@ -1,0 +1,14 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 well "r.01" x1
+b1 REF x2
+b1 Pivot x2 "hearer"
+b1 Theme x2 x3
+b1 have "v.01" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x3
+b3 REF x4
+b3 Of x4 "hearer"
+b3 PRESUPPOSITION b1
+b3 way "n.01" x4

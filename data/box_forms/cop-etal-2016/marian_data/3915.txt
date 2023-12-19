@@ -1,0 +1,8 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Agent x2 "speaker"
+b1 Recipient x2 "hearer"
+b1 tell "v.01" x2

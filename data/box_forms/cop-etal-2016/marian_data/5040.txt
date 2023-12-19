@@ -1,0 +1,39 @@
+b1 POS b2
+b3 REF x1
+b3 female "n.02" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b2 REF x3
+b2 @-4 "n.01" x1
+b2 Stimulus x3 x4
+b2 Time x3 x2
+b2 dispense "v.01" x3
+b4 REF x4
+b4 Of x4 x1
+b4 medicine "n.02" x4
+b4 Theme x4 x1
+b5 DRS x1
+b5 DRS x4
+b4 CONTINUATION b1 b5
+b5 POS b6
+b6 REF x5
+b6 Agent x5 x5
+b6 Theme x5 x6
+b6 take "v.01" x5
+b7 REF x6
+b7 idea "n.01" x6
+b7 Theme x6 x7
+b8 REF x7
+b8 many "n.01" x7
+b5 REF x8
+b5 TPR x8 "now"
+b5 time "n.08" x8
+b6 Time x9 x8
+b6 REF x9
+b6 Agent x9 x6
+b6 study "v.05" x9
+b6 Goal x9 x10
+b9 REF x10
+b9 Of x10 x4
+b9 exam "n.01" x10

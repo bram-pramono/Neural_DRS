@@ -1,0 +1,31 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEC b2
+b2 REF x2
+b2 Co-Theme x2 x3
+b2 Theme x2 x1
+b2 be "v.03" x2
+b2 REF x3
+b2 REF x4
+b2 Theme x4 x3
+b2 long "a.01" x4
+b2 period "n.01" x3
+b2 Theme x3 x6
+b2 REF x5
+b2 REF x6
+b2 Theme x5 x6
+b2 chronic "a.01" x5
+b2 symptom "n.01" x6
+b2 REF x7
+b2 TPR "now" x7
+b2 Time x8 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 Destination x8 x9
+b2 Theme x8 x6
+b2 attract "v.01" x8
+b3 REF x9
+b3 User x9 "speaker"
+b3 attention "n.01" x9

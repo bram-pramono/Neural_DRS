@@ -1,0 +1,75 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 propose "v.01" x2
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x5
+b3 Theme x5 x6
+b3 call "v.03" x5
+b3 REF x6
+b3 REF x7
+b3 Role x6 x7
+b3 person "n.01" x6
+b3 witness "n.01" x7
+b3 REF x8
+b3 Theme x8 x6
+b3 be "v.03" x8
+b3 Location x8 x9
+b3 REF x9
+b3 intrigue "n.01" x9
+b3 Instrument x9 x10
+b3 REF x10
+b3 REF x11
+b3 Role x10 x11
+b3 person "n.01" x10
+b3 prisoner "n.01" x11
+b3 REF x12
+b3 Part x12 x10
+b3 Part x12 x13
+b3 group "n.01" x12
+b3 REF x13
+b3 REF x14
+b3 Role x13 x14
+b3 person "n.01" x13
+b3 prisoner "n.01" x14
+b3 REF x15
+b3 Part x15 x13
+b3 Part x15 x16
+b3 group "n.01" x15
+b3 REF x16
+b3 REF x17
+b3 Role x16 x17
+b3 person "n.01" x16
+b3 prisoner "n.01" x17
+b3 REF x18
+b3 Part x18 x16
+b3 Part x18 x19
+b3 group "n.01" x18
+b3 REF x19
+b3 REF x20
+b3 Role x19 x20
+b3 person "n.01" x19
+b3 prisoner "n.01" x20
+b3 REF x21
+b3 Part x21 x19
+b3 Part x21 x22
+b3 group "n.01" x21
+b3 REF x22
+b3 REF x23
+b3 Role x22 x23
+b3 person "n.01" x22
+b3 prisoner "n.01" x23
+b3 REF x24
+b3 Part x24 x22
+b3 Part x24 x25
+b3 group "n.01" x24
+b3 REF x25
+b3 REF x26

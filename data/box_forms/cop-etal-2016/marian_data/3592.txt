@@ -1,0 +1,26 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 POS b3
+b3 REF x2
+b3 Manner x3 x2
+b3 last "r.01" x2
+b3 REF x3
+b3 Theme x3 x1
+b3 long "a.01" x3
+b3 Goal x3 "speaker"
+b3 Experiencer x3
+b3 REF x4
+b3 time "n.08" x4
+b3 REF x5
+b3 REF x6
+b3 Agent x6 "speaker"
+b3 PRP x5 b4
+b3 Topic x6 x5
+b3 able "a.01" x6
+b4 REF x7
+b4 Agent x7 "speaker"
+b4 Theme x7 x8
+b4 hold_up "v.01" x7
+b5 REF x8
+b5 PartOf x8 "speaker"
+b5 head "n.01" x8

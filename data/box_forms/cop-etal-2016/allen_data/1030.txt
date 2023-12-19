@@ -1,0 +1,9 @@
+b1 Creator x2 x1
+b1 REF x1
+b1 chance "n.01" x1
+b1 CONTINUATION b2
+b2 POSSIBILITY b3
+b3 REF x2
+b3 Theme x2 "hearer"
+b3 be "v.01" x2
+b3 Instrument x2 "speaker"

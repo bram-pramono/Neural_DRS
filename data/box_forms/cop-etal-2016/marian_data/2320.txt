@@ -1,0 +1,19 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 person "n.01" x1
+b1 witness "n.01" x2
+b2 REF x3
+b2 REF x4
+b2 Co-Theme x3 x5
+b2 TPR x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 be "v.02" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 Theme x5 x6
+b3 REF x6
+b3 Name x6 "mary"
+b3 female "n.02" x6
+b2 cavendish "n.01" x5

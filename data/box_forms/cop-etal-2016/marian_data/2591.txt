@@ -1,0 +1,8 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 use "v.01" x1
+b2 REF x2
+b2 User x2 "hearer"
+b2 warrant "n.01" x2
+b2 Name x2 "arrest~mr.~inglethorp"

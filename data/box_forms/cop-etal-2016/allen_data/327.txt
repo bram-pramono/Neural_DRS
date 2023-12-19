@@ -1,0 +1,39 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 CONDITION b4
+b4 CONSEQUENCE b2
+b4 REF x2
+b4 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 Stimulus x3 x4
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 have "v.01" x3
+b2 REF x4
+b2 REF x5
+b2 Attribute x4 x5
+b2 rough "a.01" x5
+b2 tongue "n.01" x4
+b2 CONTRAST b5
+b5 REF x6
+b6 EQU x6 "now"
+b6 EQU x6 x7
+b5 NEGATION b6
+b6 REF x7
+b6 REF x8
+b6 Attribute x7 x8
+b6 REF x9
+b6 Role x7 x9
+b6 friend "n.01" x9
+b6 person "n.01" x7
+b6 Location x7 x10
+b7 REF x10
+b7 Name x10 "england"
+b7 PRESUPPOSITION b6
+b7 country "n.02" x10
+b6 Instrument x8 x11
+b8 REF x11
+b8 PRESUPPOSITION b6
+b8 female "n.02" x11

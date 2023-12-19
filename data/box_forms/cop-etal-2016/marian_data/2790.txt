@@ -1,0 +1,51 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 think "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 appearance "n.01" x3
+b1 PartOf x3 x4
+b2 REF x4
+b2 Quantity x4 "2"
+b2 Name x4 "scotland~yard~man"
+b2 male "n.02" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 Time x6 x5
+b1 time "n.08" x5
+b1 REF x6
+b1 Result x6 x7
+b1 Theme x6 x3
+b1 realize "v.01" x6
+b3 REF x7
+b3 entity "n.01" x7
+b1 REF x8
+b1 TPR x8 "now"
+b1 time "n.08" x8
+b2 Time x9 x8
+b2 REF x9
+b2 Result x9 x10
+b2 Theme x9 x7
+b2 realize "v.01" x9
+b4 REF x10
+b4 entity "n.01" x10
+b2 REF x11
+b2 REF x12
+b2 @-4 "n.01" x10
+b2 Stimulus x11 x13
+b2 TPR x12 "now"
+b2 Time x11 x12
+b2 be "v.03" x11
+b2 time "n.08" x12
+b2 REF x13
+b2 REF x14
+b2 Role x13 x14
+b2 matter "n.01" x14
+b2 person "n.01" x13
+b2 Of x14 x15
+b2 REF x15
+b2 time "n.01" x15

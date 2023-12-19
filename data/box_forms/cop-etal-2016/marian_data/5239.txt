@@ -1,0 +1,8 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 IMP b3 b4
+b3 REF x2
+b3 arise "n.01" x2
+b3 Time x2 x3
+b2 REF x3
+b2 misunderstanding "n.01" x3

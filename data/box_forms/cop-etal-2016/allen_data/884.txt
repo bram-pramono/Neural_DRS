@@ -1,0 +1,40 @@
+b1 PRESUPPOSITION b2
+b2 REF x1
+b2 Creator x1 x2
+b2 PRESUPPOSITION b3
+b1 REF x2
+b1 female "n.02" x2
+b2 death "n.01" x1
+b3 REF x3
+b3 REF x4
+b3 Co-Theme x3 x6
+b3 TPR x4 "now"
+b3 Theme x3 x1
+b3 Time x3 x4
+b3 be "v.01" x3
+b3 time "n.08" x4
+b3 REF x5
+b3 shock "n.01" x5
+b3 REF x6
+b3 Sub x6 x5
+b3 Sub x6 x7
+b3 entity "n.01" x6
+b3 REF x7
+b3 distress "n.01" x7
+b3 CONTRAST b4
+b1 PRESUPPOSITION b4
+b4 REF x8
+b4 TPR "now" x8
+b4 time "n.08" x8
+b5 Time x9 x8
+b4 NEGATION b5
+b5 REF x9
+b5 Agent x9 x2
+b5 Topic x9 x11
+b5 be "v.01" x9
+b5 REF x10
+b5 Manner x11 x10
+b5 passionately "a.01" x10
+b5 REF x11
+b5 Stimulus x11 x5
+b5 regret "v.01" x11

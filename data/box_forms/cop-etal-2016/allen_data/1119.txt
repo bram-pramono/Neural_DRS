@@ -1,0 +1,25 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Experiencer x2 "speaker"
+b2 Stimulus x2 x3
+b2 hear "v.01" x2
+b2 REF x3
+b2 entity "n.01" x3
+b3 REF x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 Role x4 x5
+b3 mr "n.01" x5
+b3 male "n.02" x4
+b2 REF x6
+b2 REF x7
+b2 Agent x6 x4
+b2 TPR x7 "now"
+b2 Time x6 x7
+b2 Topic x6 x4
+b2 reply "v.01" x6
+b2 time "n.08" x7

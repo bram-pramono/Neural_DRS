@@ -1,0 +1,25 @@
+b1 REF x1
+b1 Of x2 "speaker"
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Role x1 x2
+b1 mother "n.01" x2
+b1 person "n.01" x1
+b3 CONDITION b4
+b4 CONSEQUENCE b2
+b4 REF x3
+b4 time "n.08" x3
+b2 TPR x3 "now"
+b2 Time x5 x3
+b2 REF x4
+b2 Degree x5 x4
+b2 REF x5
+b2 Attribute x1 x5
+b2 good "a.05" x5
+b2 Experiencer x5 "speaker"
+b2 CONTINUATION b5
+b5 NECESSITY b6
+b6 REF x6
+b6 Agent x6 "speaker"
+b6 Topic x6 x1
+b6 say "v.01" x6

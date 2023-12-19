@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 peaceful "a.01" x2
+b1 of "n.01" x1
+b1 PartOf x1 x3
+b2 REF x3
+b2 User x3 "speaker"
+b2 REF x4
+b2 Theme x4 x3
+b2 peaceful "a.01" x4
+b2 Unit x3 "day"
+b2 measure "n.02" x3
+b1 REF x5
+b1 REF x6
+b1 Co-Theme x5 x7
+b1 TPR x6 "now"
+b1 Theme x5 x1
+b1 Time x5 x6
+b1 be "v.03" x5
+b1 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 Theme x8 x7
+b3 mr "a.01" x8
+b3 Unit x7 "day"
+b3 measure "n.02" x7
+b4 DRS x5
+b4 CONTINUATION b1 b5
+b5 REF x9
+b5 REF x10
+b5 Co-Theme x9 x11
+b5 TPR x10 "now"
+b5 Theme x9 x4
+b5 Time x9 x10
+b5 be "v.03" x9
+b5 time "n.08" x10
+b5 REF x11
+b5 REF x12
+b5 Role x11 x12
+b5 mr "n.01" x12
+b5 person "n.01" x11
+b5 Of x12 x13
+b6 REF x13
+b6 User x13 "speaker"
+b6 REF x14
+b6 Theme x14 x13
+b6 peaceful "a.01" x14
+b6 Unit x13 "day"
+b6 measure "n.02" x13
+b7 DRS x12
+b7 CONTINUATION b5 b8
+b8 REF x15
+b8 REF x16
+b8 Co-Theme x15 x17
+b8 TPR x16 "now"
+b8 Theme x15 x10
+b8 Time x15 x16
+b8 be "v.03" x15
+b8 time "n.08" x16
+b8 REF x17
+b8 REF x18
+b8 Role x17 x18
+b8 mr "n.01" x18
+b8 person "n.01" x17
+b8 Of x18 x19
+b9 REF x19
+b9 User x19 "speaker"
+b9 REF x20
+b9 Theme x20 x19
+b9 peaceful "a.01" x20
+b9 Unit x19 "day"
+b9 measure "n.02" x19
+b10 DRS x18
+b10 CONTINUATION b8 b11

@@ -1,0 +1,8 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Patient x1 "speaker"
+b2 lock "v.01" x1
+b2 CONTINUATION b3
+b3 REF x2
+b3 Theme x2 "speaker"
+b3 go "v.01" x2

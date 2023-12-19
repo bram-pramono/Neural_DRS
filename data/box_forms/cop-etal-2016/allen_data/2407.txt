@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 REF x1
+b3 CONSEQUENCE b4
+b3 PartOf x1 x2
+b3 entity "n.01" x1
+b5 REF x2
+b5 PRESUPPOSITION b3
+b6 REF x3
+b6 REF x4
+b6 REF x5
+b6 Co-Theme x3 x7
+b6 EQU x4 "now"
+b6 EQU x5 "now"
+b6 PRESUPPOSITION b7
+b6 Theme x3 x1
+b6 Time x3 x4
+b6 be "v.01" x3
+b6 time "n.08" x4
+b6 time "n.08" x5
+b7 REF x6
+b7 Co-Theme x6 x8
+b7 Theme x6 x2
+b7 Time x6 x5
+b7 be "v.01" x6
+b6 REF x7
+b7 REF x8
+b6 REF x9
+b6 Attribute x7 x9
+b6 great "a.01" x9
+b7 REF x10
+b7 Attribute x8 x10
+b7 great "a.01" x10
+b6 waste "n.01" x7
+b7 waste "n.01" x8
+b6 Part x7 x11
+b7 Part x8 x12
+b6 REF x11
+b6 time "n.01" x11
+b7 REF x12
+b7 time "n.01" x12
+b6 REF x13
+b6 REF x14
+b6 REF x15
+b6 Agent x13 x11
+b6 Agent x14 x12
+b6 Patient x13 x17
+b6 Patient x14 x19
+b6 TPR x15 "now"
+b6 Time x13 x16
+b6 Time x14 x15
+b6 continue "v.01" x13
+b6 continue "v.01" x14
+b6 time "n.08" x15
+b6 REF x16
+b6 TPR x16 "now"
+b6 time "n.08" x16
+b8 REF x17
+b8 REF x18
+b8 REF x19
+b8 REF x20
+b8 Attribute x17 x19
+b8 Attribute x18 x20
+b8 PRESUPPOSITION b6
+b8 PRESUPPOSITION b7
+b8 great "a.01" x19
+b8 great "a.01" x20
+b8 waste "n.01" x17
+b8 routine "n.01" x18
+b6 REF x21
+b6 Patient x21 x13
+b6 glance "v.01" x21
+b6 CONTINUATION b7
+b7 Instrument x20 x22
+b9 REF x22
+b9 REF x23

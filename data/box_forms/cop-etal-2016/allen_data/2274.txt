@@ -1,0 +1,42 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 person "n.01" x1
+b2 SubOf x1 x2
+b4 REF x2
+b4 PRESUPPOSITION b2
+b4 jury "n.01" x2
+b3 REF x3
+b3 REF x4
+b3 REF x5
+b3 ATTRIBUTION b5
+b3 Pivot x3 x1
+b3 TPR x5 "now"
+b3 Theme x3 x4
+b3 Time x3 x5
+b3 proposition "n.01" x4
+b3 time "n.08" x5
+b3 want "v.01" x3
+b5 REF x6
+b5 REF x7
+b5 ATTRIBUTION b6
+b5 Experiencer x6 x2
+b5 Stimulus x6 x7
+b5 know "v.01" x6
+b5 question "n.01" x7
+b7 REF x8
+b7 REF x9
+b7 Attribute x8 x9
+b7 PRESUPPOSITION b6
+b7 same "a.01" x9
+b7 objection "n.01" x8
+b5 REF x10
+b5 TPR x10 "now"
+b5 time "n.08" x10
+b6 REF x11
+b6 Theme x11 x8
+b6 Time x11 x10
+b6 apply "v.01" x11
+b6 Goal x11 x12
+b6 REF x12
+b6 coffee "n.01" x12

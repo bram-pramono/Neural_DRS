@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 PartOf x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 begin "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 stammer "n.01" x3
+b1 REF x4
+b1 REF x5
+b1 Agent x4 "speaker"
+b1 PRP x5 b2
+b1 Time x4 x6
+b1 Topic x4 x5
+b1 hope "v.01" x4
+b1 REF x6
+b1 TPR x6 "now"
+b1 time "n.08" x6
+b3 REF x7
+b3 female "n.02" x7
+b2 Time x8 x6
+b2 REF x8
+b2 Theme x8 x7
+b2 unexpected "a.01" x8
+b4 DRS x5
+b4 DRS x8
+b3 CONTINUATION b1 b4
+b5 REF x9
+b5 female "n.02" x9
+b4 REF x10
+b4 REF x11
+b4 Agent x10 x9
+b4 TPR x11 "now"
+b4 Theme x10 x8
+b4 Time x10 x11
+b4 stop "v.01" x10
+b4 time "n.08" x11
+b6 REF x12
+b6 Name x12 "cynthia"
+b6 person "n.01" x12
+b7 DRS x9
+b7 DRS x12
+b6 CONTINUATION b3 b7
+b8 REF x13
+b8 female "n.02" x13
+b7 REF x14
+b7 REF x15
+b7 Agent x14 x13
+b7 TPR x15 "now"
+b7 Theme x14 x12
+b7 Time x14 x15
+b7 stop "v.01" x14
+b7 time "n.08" x15
+b9 REF x16
+b9 Name x16 "cynthia"
+b9 person "n.01" x16
+b10 DRS x13
+b10 DRS x16
+b9 CONTINUATION b6 b10
+b11 REF x17
+b11 female "n.02" x17
+b10 REF x18
+b10 REF x19
+b10 Agent x18 x17
+b10 TPR x19 "now"
+b10 Theme x18 x16
+b10 Time x18 x19
+b10 stop "v.01" x18
+b10 time "n.08" x19
+b12 DRS x17
+b12 DRS x19
+b11 CONTINUATION b9 b12
+b13 REF x20
+b13 female "n.02" x20

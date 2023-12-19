@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 PRP x2 b2
+b1 Topic x1 x2
+b1 seem "v.01" x1
+b2 REF x3
+b2 Theme x3 "speaker"
+b2 pause "v.01" x3
+b2 Goal x3 x4
+b2 REF x4
+b2 time "n.01" x4
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 REF x7
+b3 Agent x5 "speaker"
+b3 EQU x7 "now"
+b3 PRP x6 b4
+b3 Time x5 x7
+b3 Topic x5 x6
+b3 seem "v.01" x5
+b3 time "n.08" x7
+b4 REF x8
+b4 Co-Theme x8 x9
+b4 Theme x8 "speaker"
+b4 be "v.03" x8
+b4 REF x9
+b4 Quantity x9 ""+""
+b4 REF x10
+b4 Theme x10 x9
+b4 confused "a.01" x10
+b4 finger@-8mark "n.01" x9
+b5 DRS x8
+b5 DRS x10
+b4 CONTRAST b2 b5
+b5 REF x11
+b5 REF x12
+b5 REF x13
+b5 Agent x11 "speaker"
+b5 EQU x13 "now"
+b5 PRP x12 b6
+b5 Time x11 x13
+b5 Topic x11 x12
+b5 seem "v.01" x11
+b5 time "n.08" x13
+b6 REF x14
+b6 Co-Theme x14 x15
+b6 Theme x14 "speaker"
+b6 be "v.03" x14
+b6 REF x15
+b6 Quantity x15 ""+""
+b6 REF x16
+b6 Theme x16 x15
+b6 confused "a.01" x16
+b6 finger@-8mark "n.01" x15
+b7 DRS x14
+b7 DRS x16
+b6 CONTRAST b4 b7
+b7 REF x17
+b7 REF x18
+b7 REF x19
+b7 Agent x17 "speaker"
+b7 EQU x19 "now"
+b7 PRP x18 b8
+b7 Time x17 x19
+b7 Topic x17 x18
+b7 seem "v.01" x17
+b7 time "n.08" x19
+b8 REF x20
+b8 Co-Theme x20 x20
+b8 Theme x20 "speaker"
+b8 be "v.03" x20

@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Name x1 "but~it"
+b1 geographical_area "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 Agent x4 x1
+b2 PRP x3 b3
+b2 Topic x4 x3
+b2 strange "a.01" x4
+b4 REF x5
+b4 female "n.02" x5
+b3 Experiencer x5
+b4 REF x6
+b4 time "n.08" x6
+b4 REF x7
+b4 @-4 "n.01" x5
+b4 Stimulus x7 x8
+b4 Time x7 x6
+b4 hear "v.01" x7
+b4 REF x8
+b4 sound "n.01" x8
+b5 DRS x5
+b5 CONTINUATION b2 b6
+b6 Experiencer x8
+b6 REF x9
+b6 time "n.08" x9
+b6 REF x10
+b6 @-4 "n.01" x5
+b6 Stimulus x10 x11
+b6 hear "v.01" x10
+b6 REF x11
+b6 sound "n.01" x11
+b7 DRS x9
+b7 CONTINUATION b5 b8
+b8 Experiencer x11
+b8 REF x12
+b8 time "n.08" x12
+b8 REF x13
+b8 @-4 "n.01" x8
+b8 Stimulus x13 x14
+b8 hear "v.01" x13
+b8 REF x14
+b8 sound "n.01" x14
+b9 DRS x12
+b9 CONTINUATION b7 b10
+b10 Experiencer x14
+b10 REF x15
+b10 time "n.08" x15
+b10 REF x16
+b10 @-4 "n.01" x11
+b10 Stimulus x16 x17
+b10 hear "v.01" x16
+b10 REF x17
+b10 sound "n.01" x17
+b11 DRS x15
+b11 CONTINUATION b9 b12
+b12 Experiencer x17
+b12 REF x18
+b12 time "n.08" x18
+b12 REF x19
+b12 @-4 "n.01" x14
+b12 Stimulus x19 x20
+b12 hear "v.01" x19
+b12 REF x20
+b12 sound "n.01" x20
+b13 DRS x18
+b13 CONTINUATION b11 b14
+b14 Experiencer x20
+b14 REF x21
+b14 time "n.08" x21
+b14 REF x22

@@ -1,0 +1,61 @@
+b1 REF x1
+b2 REF x2
+b2 PRESUPPOSITION b3
+b2 person "n.01" x2
+b3 REF x3
+b3 REF x4
+b3 Co-Theme x3 x5
+b3 EQU x4 "now"
+b3 Theme x3 x2
+b3 Time x3 x4
+b3 be "v.01" x3
+b3 time "n.08" x4
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 Role x5 x6
+b4 murderer "n.01" x6
+b4 person "n.01" x5
+b3 NEGATION b5
+b5 REF x7
+b5 entity "n.01" x7
+b3 POSSIBILITY b6
+b6 POSSIBILITY b7
+b7 REF x8
+b7 Theme x8 x7
+b7 "trotzky" "v.01" x8
+b7 REF x9
+b7 REF x10
+b7 ATTRIBUTION b8
+b7 Agent x9 x7
+b7 Recipient x9 x11
+b7 Topic x9 x10
+b7 for "v.01" x9
+b7 proposition "n.01" x10
+b9 PRESUPPOSITION b7
+b9 REF x11
+b9 male "n.02" x11
+b8 REF x12
+b8 REF x13
+b8 Agent x12 x11
+b8 EQU x13 "now"
+b8 Theme x12 x14
+b8 Time x12 x13
+b8 substitute "v.01" x12
+b8 time "n.08" x13
+b8 REF x14
+b8 REF x15
+b8 Attribute x14 x15
+b8 ordinary "a.01" x15
+b8 measure "n.02" x14
+b8 Goal x14 x16
+b10 REF x16
+b10 PRESUPPOSITION b8
+b10 PartOf x16 x8
+b10 sample "n.01" x16
+b8 REF x17
+b8 Agent x17 x13
+b8 Theme x17 x18
+b8 send "v.01" x17
+b8 REF x18
+b8 test "n.01" x18

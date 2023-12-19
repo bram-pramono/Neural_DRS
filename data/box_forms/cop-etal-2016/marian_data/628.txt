@@ -1,0 +1,25 @@
+b1 REF x1
+b1 violence "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 REF x3
+b2 Theme x2 x3
+b2 mr "n.01" x3
+b2 Name x2 "inglethorp"
+b2 female "n.02" x2
+b3 REF x4
+b3 User x4 x2
+b3 attack "n.01" x4
+b4 REF x5
+b4 REF x6
+b4 REF x7
+b4 Agent x5 x4
+b4 PRP x6 b5
+b4 TPR x7 "now"
+b4 Time x5 x7
+b4 Topic x5 x6
+b4 seem "v.01" x5
+b4 time "n.08" x7
+b5 REF x8
+b5 NOT b5 b1
+b5 pass "v.01" x8

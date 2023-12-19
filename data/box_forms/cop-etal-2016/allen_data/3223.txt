@@ -1,0 +1,4 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Attribute "speaker" x1
+b2 intelligent "a.01" x1

@@ -1,0 +1,29 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 be "v.03" x2
+b2 Time x2 x3
+b2 REF x3
+b2 time "n.08" x3
+b2 YearOfCentury x3 "1904"
+b3 REF x4
+b3 male "n.02" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 Agent x5 "speaker"
+b4 TPR x6 "now"
+b4 Time x5 x6
+b4 time "n.08" x6
+b4 work "v.02" x5
+b4 REF x7
+b4 NOT b4 b2
+b4 run_down "v.01" x7
+b4 Location x7 x8
+b5 REF x8
+b5 Name x8 "brussels"
+b5 city "n.01" x8

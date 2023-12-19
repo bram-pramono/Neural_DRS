@@ -1,0 +1,62 @@
+b1 Context x7 x1
+b1 REF x1
+b1 view "n.01" x1
+b1 PartOf x1 x2
+b1 REF x2
+b1 REF x3
+b1 Attribute x2 x3
+b1 REF x4
+b1 Role x2 x4
+b1 person "n.01" x2
+b1 REF x5
+b1 REF x6
+b1 Agent x5 x2
+b1 TPR x6 "now"
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 attend "v.01" x5
+b1 time "n.08" x6
+b2 REF x7
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x7
+b3 REF x8
+b3 TPR x8 "now"
+b3 Time x9 x8
+b3 time "n.08" x8
+b3 REF x9
+b3 Patient x9 "speaker"
+b3 ask "v.01" x9
+b1 CONDITION b4
+b4 REF x10
+b4 CONSEQUENCE b3
+b4 Quantity x10 "1"
+b4 SubOf x10 "speaker"
+b4 entity "n.01" x10
+b3 Agent x9 x11
+b5 REF x11
+b5 Of x12 "speaker"
+b5 REF x12
+b5 PRESUPPOSITION b3
+b5 Role x11 x12
+b5 friend "n.01" x12
+b5 person "n.01" x11
+b3 REF x13
+b3 Sub x13 x14
+b3 Sub x13 x8
+b3 entity "n.01" x13
+b6 REF x14
+b6 PRESUPPOSITION b3
+b6 family "n.01" x14
+b3 REF x15
+b3 Agent x15 x8
+b3 Result x15 x16
+b3 write "v.01" x15
+b3 REF x16
+b3 portrait "n.01" x16
+b3 PartOf x16 x17
+b7 REF x17
+b7 REF x18
+b7 Attribute x17 x18
+b7 PRESUPPOSITION b3
+b7 whole "a.01" x18
+b7 story "n.01" x17

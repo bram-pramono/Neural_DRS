@@ -1,0 +1,13 @@
+b1 REF x1
+b1 REF x2
+b1 NOT b1 "speaker"
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 go_up "v.01" x1
+b1 time "n.08" x2
+b1 Destination x1 x3
+b1 REF x3
+b1 room "n.01" x3
+b1 PartOf x3 x4
+b2 REF x4
+b2 tragedy "n.01" x4

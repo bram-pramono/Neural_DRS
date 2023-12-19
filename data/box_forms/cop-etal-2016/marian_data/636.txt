@@ -1,0 +1,16 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 then "r.01" x1
+b2 REF x2
+b2 entity "n.01" x2
+b1 NEC b3
+b3 REF x3
+b3 Theme x3 x2
+b3 later "a.01" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Time x5 x4
+b3 think "v.01" x5

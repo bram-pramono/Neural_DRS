@@ -1,0 +1,41 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 person "n.01" x1
+b4 POSSIBILITY b1
+b3 REF x2
+b3 Agent x2 x1
+b3 Theme x2 x3
+b3 save "v.01" x2
+b3 REF x3
+b3 time "n.01" x3
+b3 CONTINUATION b5
+b5 REF x4
+b5 Agent x4 x1
+b5 Theme x4 x5
+b5 take "v.01" x4
+b5 REF x5
+b5 REF x6
+b5 Attribute x5 x6
+b5 narrow "n.01" x6
+b5 path "n.01" x5
+b5 Path x4 x7
+b6 REF x7
+b6 REF x8
+b6 Attribute x7 x8
+b6 PRESUPPOSITION b5
+b6 Value x8 "+"
+b6 long "a.01" x8
+b6 grass "n.01" x7
+b3 REF x9
+b3 TPR x9 "now"
+b3 time "n.08" x9
+b5 REF x10
+b5 Agent x10 x7
+b5 Patient x10 x11
+b5 Time x10 x9
+b3 REF x11
+b3 detour "n.01" x11
+b3 PartOf x11 x12
+b7 REF x12
+b7 PRESUPPOSITION b3

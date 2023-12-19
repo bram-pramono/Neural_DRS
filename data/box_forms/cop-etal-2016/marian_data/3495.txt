@@ -1,0 +1,10 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 entity "n.01" x1
+b3 EQU x1 x2
+b3 REF x2
+b3 very "r.01" x2
+b3 REF x3
+b3 Theme x3 x2
+b3 responsible "a.01" x3
+b3 work "n.01" x2

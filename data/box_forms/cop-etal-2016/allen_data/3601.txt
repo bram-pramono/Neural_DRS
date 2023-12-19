@@ -1,0 +1,13 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 nightmare "v.01" x3
+b2 Stimulus x3 x4
+b2 REF x4
+b2 man "n.01" x4

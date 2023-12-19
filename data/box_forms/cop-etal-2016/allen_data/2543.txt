@@ -1,0 +1,35 @@
+b1 REF x1
+b1 Causer x5 x1
+b1 EQU x1 "?"
+b1 reason "n.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x2
+b3 REF x3
+b3 REF x4
+b3 Co-Theme x3 x5
+b3 EQU x4 "now"
+b3 Theme x3 x2
+b3 Time x3 x4
+b3 be "v.02" x3
+b3 time "n.08" x4
+b1 NEGATION b3
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 Title x5 x6
+b4 mr "n.01" x6
+b4 person "n.01" x5
+b1 REF x7
+b1 TPR x7 "now"
+b1 time "n.08" x7
+b3 REF x8
+b3 Experiencer x8 x9
+b3 Stimulus x8 x10
+b3 Time x8 x7
+b3 cry "v.01" x8
+b5 REF x9
+b5 REF x10
+b5 PRESUPPOSITION b3
+b5 Role x9 x10
+b5 person "n.01" x9

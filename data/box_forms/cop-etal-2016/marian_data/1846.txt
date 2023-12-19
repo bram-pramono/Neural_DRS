@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 NOT b1 b2
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 guard "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 female "n.02" x3
+b1 Source x1 x4
+b1 REF x4
+b1 Quantity x4 ""+""
+b1 entity "n.01" x4
+b1 PartOf x4 x5
+b3 REF x5
+b3 person "n.01" x5
+b4 DRS x2
+b4 DRS x5
+b3 CONTINUATION b1 b4
+b4 REF x6
+b4 Manner x8 x6
+b4 then "r.01" x6
+b4 REF x7
+b4 REF x8
+b4 Theme x8 x7
+b4 glib@-8tongued "a.01" x8
+b4 scoundrel "n.01" x7
+b4 REF x9
+b4 REF x10
+b4 EQU x10 "now"
+b4 Theme x9 x7
+b4 Time x9 x10
+b4 come "v.02" x9
+b4 time "n.08" x10
+b4 REF x11
+b4 scoundrel "n.01" x11
+b4 REF x12
+b4 Theme x12 x11
+b4 come "v.02" x12
+b4 REF x13
+b4 scoundrel "n.01" x13
+b4 REF x14
+b4 REF x15
+b4 EQU x15 "now"
+b4 Theme x14 x13
+b4 Time x14 x15
+b4 come "v.02" x14
+b4 time "n.08" x15
+b4 REF x16
+b4 scoundrel "n.01" x16
+b4 REF x17
+b4 Theme x17 x16
+b4 come "v.02" x17
+b4 REF x18
+b4 scoundrel "n.01" x18
+b4 REF x19
+b4 Theme x19 x18
+b4 come "v.02" x19
+b4 REF x20
+b4 scoundrel "n.01" x20
+b4 REF x21
+b4 Theme x21 x20
+b4 come "v.02" x21
+b4 REF x22
+b4 scoundrel "n.01" x22
+b4 REF x23
+b4 Theme x23 x22
+b4 come "v.01" x23
+b4 REF x24
+b4 scoundrel "n.01" x24
+b4 REF x25
+b4 Theme x25 x24
+b4 come "v.01" x25
+b4 REF x26

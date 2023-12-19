@@ -1,0 +1,42 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 motor "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 TPR x4 "now"
+b2 Time x3 x4
+b2 drive_away "v.01" x3
+b2 time "n.08" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 Role x5 x6
+b3 mr "n.01" x6
+b3 person "n.01" x5
+b3 REF x7
+b3 Manner x8 x7
+b3 suddenly "a.01" x7
+b3 REF x8
+b3 REF x9
+b3 Agent x8 x3
+b3 NOT b2 b1
+b3 TPR x9 "now"
+b3 Time x8 x9
+b3 detach "v.01" x8
+b3 time "n.08" x9
+b4 REF x10
+b4 REF x11
+b4 Theme x11 x10
+b4 tall "a.01" x11
+b4 man "n.01" x10
+b3 REF x12
+b3 Theme x12 x10
+b3 make "v.01" x12
+b3 Goal x12 x13
+b5 REF x13
+b5 house "n.01" x13

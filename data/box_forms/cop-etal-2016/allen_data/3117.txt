@@ -1,0 +1,69 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 CONTINUATION b3
+b3 REF x4
+b3 REF x5
+b3 TPR x5 "now"
+b3 Theme x4 "speaker"
+b3 Time x4 x5
+b3 be "v.01" x4
+b3 time "n.08" x5
+b3 Location x4 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 wrong "n.01" x6
+b5 REF x7
+b5 EQU x7 "now"
+b5 PRESUPPOSITION b6
+b5 time "n.08" x7
+b6 Theme x8 x9
+b6 Time x8 x7
+b6 be "v.03" x8
+b6 REF x8
+b6 REF x9
+b6 Attribute x8 x9
+b6 feeling "n.01" x8
+b7 REF x10
+b7 person "n.01" x10
+b6 NECESSITY b7
+b7 REF x11
+b7 Agent x11 x10
+b7 Product x11 x12
+b7 make "v.01" x11
+b7 REF x12
+b7 amends "n.01" x12
+b8 REF x13
+b8 person "n.01" x13
+b8 REF x14
+b8 EQU x14 "now"
+b8 Time x15 x14
+b8 time "n.08" x14
+b7 NEGATION b8
+b8 REF x15
+b8 Experiencer x15 x13
+b8 Stimulus x15 x16
+b8 like "v.03" x15
+b9 REF x16
+b9 REF x17
+b9 PRESUPPOSITION b8
+b9 Role x16 x17
+b9 fellow "n.01" x17
+b9 person "n.01" x16
+b8 REF x18
+b8 Quantity x18 "-"
+b8 measure "n.02" x18
+b8 REF x19
+b8 Theme x19 x18
+b8 Time x19 x20
+b8 do "v.01" x19
+b8 REF x20
+b8 TPR x20 "now"
+b8 time "n.08" x20

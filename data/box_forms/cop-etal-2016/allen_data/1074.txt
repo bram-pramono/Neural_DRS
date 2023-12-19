@@ -1,0 +1,19 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 Recipient x2 "speaker"
+b2 Topic x2 x4
+b2 resent "v.01" x2
+b2 REF x3
+b2 moment "n.01" x3
+b2 REF x4
+b2 PartOf x4 x3
+b2 satisfaction "n.01" x4
+b2 PartOf x4 x5
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 eye "n.01" x5

@@ -1,0 +1,34 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 intense "a.01" x2
+b1 interest "n.01" x1
+b2 REF x3
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 arouse "v.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b2 Location x3 x5
+b2 REF x5
+b2 public "n.01" x5
+b2 Theme x5 x6
+b2 REF x6
+b2 entity "n.01" x6
+b2 Time x7 x4
+b2 REF x7
+b2 Stimulus x7 x6
+b2 know "v.01" x7
+b2 Location x7 x8
+b2 REF x8
+b2 time "n.01" x8
+b2 PartOf x8 x9
+b2 REF x9
+b2 entity "n.01" x9
+b2 REF x10
+b2 Theme x10 x9
+b2 somewhat "a.01" x10
+b2 REF x11
+b2 Theme x11 x9
+b2 subside "v.01" x11

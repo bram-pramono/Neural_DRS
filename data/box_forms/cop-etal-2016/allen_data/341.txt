@@ -1,0 +1,11 @@
+b1 NECESSITY b2
+b2 NEGATION b3
+b3 REF x1
+b3 Degree x2 x1
+b3 so "r.01" x1
+b3 REF x2
+b3 Theme x2 "speaker"
+b3 REF x3
+b3 EQU x3 "now"
+b3 time "n.08" x3
+b3 Time x2 x3

@@ -1,0 +1,28 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x3 x1
+b3 REF x2
+b3 entity "n.01" x2
+b4 POS b5
+b2 Experiencer x1
+b1 REF x3
+b1 EQU x3 "now"
+b1 time "n.08" x3
+b6 POS b7
+b5 Experiencer x2
+b7 Time x5 x3
+b5 REF x4
+b5 TPR x4 "now"
+b5 time "n.08" x4
+b7 REF x5
+b7 Attribute x5 x2
+b7 Time x5 x4
+b7 do "v.01" x5
+b5 REF x6
+b5 REF x7
+b5 TAB x6 x7
+b5 TIN "now" x6
+b5 TIN x4 x7
+b5 day "n.03" x6
+b5 day "n.03" x7

@@ -1,0 +1,33 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 PartOf x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 happen "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Agent x4 x1
+b2 Theme x4 x5
+b2 pick_up "v.02" x4
+b2 REF x5
+b2 key "n.01" x5
+b2 Theme x5 x6
+b3 REF x6
+b3 REF x7
+b3 Theme x6 x7
+b3 mr "n.01" x7
+b3 Name x6 "inglethorp"
+b3 person "n.01" x6
+b4 DRS x5
+b4 DRS x7
+b3 CONTINUATION b1 b4
+b4 REF x8
+b4 TPR x8 "now"
+b4 Time x9 x8
+b4 time "n.08" x8
+b4 REF x9
+b4 Theme x9 x3
+b4 lose "v.02" x9
+b4 morning "n.01" x9

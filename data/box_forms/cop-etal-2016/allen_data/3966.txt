@@ -1,0 +1,51 @@
+b1 REF x1
+b1 Name x1 "yes"
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Agent x3 "hearer"
+b2 Topic x3 x4
+b2 mention "v.01" x3
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x4
+b4 REF x5
+b4 PRESUPPOSITION b5
+b4 entity "n.01" x5
+b2 REF x6
+b2 Theme x6 x5
+b2 do "a.01" x6
+b5 REF x7
+b5 EQU x7 "now"
+b5 Time x8 x7
+b5 time "n.08" x7
+b2 NEGATION b5
+b5 REF x8
+b5 REF x9
+b5 ATTRIBUTION b6
+b5 Experiencer x8 "speaker"
+b5 Stimulus x8 x9
+b5 know "v.01" x8
+b5 question "n.01" x9
+b6 REF x10
+b6 Causer x12 x10
+b6 EQU x10 "?"
+b6 reason "n.01" x10
+b5 REF x11
+b5 TPR x11 "now"
+b5 time "n.08" x11
+b6 REF x12
+b6 Theme x12 "hearer"
+b6 Time x12 x11
+b6 come "v.01" x12
+b6 REF x13
+b6 Agent x13 "hearer"
+b6 hear "v.01" x13
+b6 Theme x13 x14
+b7 REF x14
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x14

@@ -1,0 +1,75 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 baffled "a.01" x3
+b2 CONTRAST b3
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 person "n.01" x4
+b3 REF x5
+b3 TPR x5 "now"
+b3 Time x6 x5
+b3 time "n.08" x5
+b3 REF x6
+b3 Agent x6 x4
+b3 follow "v.01" x6
+b3 Co-Patient x6 x7
+b5 REF x7
+b5 PRESUPPOSITION b3
+b5 candle "n.01" x7
+b3 CONTINUATION b6
+b6 Creator x10 x9
+b7 REF x8
+b7 PRESUPPOSITION b8
+b7 entity "n.01" x8
+b8 REF x9
+b8 PartOf x9 x8
+b8 REF x10
+b8 Attribute x9 x10
+b8 PRESUPPOSITION b6
+b8 light "n.01" x9
+b6 REF x11
+b6 REF x12
+b6 REF x13
+b6 ATTRIBUTION b9
+b6 Experiencer x11 "speaker"
+b6 Stimulus x11 x12
+b6 TPR x13 "now"
+b6 Time x11 x13
+b6 proposition "n.01" x12
+b6 see "v.01" x11
+b6 time "n.08" x13
+b10 REF x14
+b10 PRESUPPOSITION b9
+b10 bed "n.01" x14
+b9 NEGATION b11
+b11 REF x15
+b11 TPR x15 "now"
+b11 Time x16 x15
+b11 time "n.08" x15
+b11 REF x16
+b11 Agent x16 x14
+b11 sleep "v.01" x16
+b9 CONTINUATION b12
+b12 REF x17
+b13 EQU x17 x18
+b13 TPR x17 "now"
+b12 NEGATION b13
+b13 REF x18
+b13 sign "n.01" x18
+b13 PartOf x18 x19
+b14 REF x19
+b14 PRESUPPOSITION b13
+b14 room "n.01" x19
+b13 REF x20
+b13 PRESUPPOSITION b15
+b13 TPR x20 "now"
+b13 time "n.08" x20
+b15 Time x21 x20
+b15 REF x21

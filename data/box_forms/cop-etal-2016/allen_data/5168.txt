@@ -1,0 +1,64 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 entity "n.01" x1
+b3 REF x2
+b3 REF x3
+b3 TPR x3 "now"
+b3 Theme x2 x1
+b3 Time x2 x3
+b3 go "v.01" x2
+b3 time "n.08" x3
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 person "n.01" x4
+b3 REF x5
+b3 REF x6
+b3 Agent x5 x4
+b3 TPR x6 "now"
+b3 Time x5 x6
+b3 plan "v.01" x5
+b3 time "n.08" x6
+b5 REF x7
+b5 PRESUPPOSITION b6
+b5 person "n.01" x7
+b3 REF x8
+b3 TPR "now" x8
+b3 Time x9 x8
+b3 time "n.08" x8
+b3 POSSIBILITY b6
+b6 REF x9
+b6 Source x9 x11
+b6 Theme x9 x7
+b6 leave "v.01" x9
+b7 REF x10
+b7 Name x10 "england"
+b7 PRESUPPOSITION b6
+b7 country "n.02" x10
+b6 REF x11
+b6 PRESUPPOSITION b8
+b6 TPR x11 "now"
+b6 time "n.08" x11
+b8 REF x12
+b8 Theme x12 x10
+b8 Time x12 x11
+b8 live "v.01" x12
+b8 Location x12 x15
+b9 REF x13
+b9 PRESUPPOSITION b10
+b9 person "n.01" x13
+b10 REF x14
+b10 Of x14 x13
+b10 PRESUPPOSITION b11
+b10 REF x15
+b10 Attribute x14 x15
+b10 poor "a.01" x15
+b10 REF x16
+b10 PRESUPPOSITION b8
+b10 Role x14 x16
+b10 person "n.01" x14
+b10 victim "n.01" x16
+b11 REF x17
+b11 Owner x17 x14
+b11 PRESUPPOSITION b8
+b11 money "n.01" x17

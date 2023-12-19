@@ -1,0 +1,16 @@
+b1 POS b2
+b2 REF x1
+b2 @-4 "n.01" "speaker"
+b2 Stimulus x1 x2
+b2 hear "v.01" x1
+b2 REF x2
+b2 poirot "n.01" x2
+b2 REF x3
+b2 Agent x3 x2
+b2 shout "v.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 Agent x4 "speaker"
+b3 expound "v.01" x4

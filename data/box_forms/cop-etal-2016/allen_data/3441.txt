@@ -1,0 +1,13 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Attribute x2 x4
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 look "v.02" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Attribute x1 x4

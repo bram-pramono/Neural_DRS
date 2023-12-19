@@ -1,0 +1,15 @@
+b1 REF x1
+b1 thing "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 used_to "a.01" x3
+b2 Location x3 x4
+b2 REF x4
+b2 REF x5
+b2 Theme x4 x5
+b2 most "n.01" x5
+b2 medicine "n.02" x4

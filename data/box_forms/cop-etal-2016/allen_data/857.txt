@@ -1,0 +1,30 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 war "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 ATTRIBUTION b3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x3
+b2 Time x2 x4
+b2 have "v.01" x2
+b2 proposition "n.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Theme x5 x7
+b3 Time x5 x4
+b3 affect "v.01" x5
+b4 REF x6
+b4 PRESUPPOSITION b5
+b4 REF x7
+b4 Attribute x6 x7
+b4 PRESUPPOSITION b2
+b4 little "a.01" x7
+b4 man "n.01" x6
+b5 REF x8
+b5 PRESUPPOSITION b2
+b5 PartOf x8 x6
+b5 brain "n.01" x8

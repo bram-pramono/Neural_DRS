@@ -1,0 +1,60 @@
+b1 REF x1
+b1 Name x1 "coroner"
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 reflect "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 moment "n.02" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 Manner x7 x5
+b3 then "r.01" x5
+b4 REF x6
+b4 male "n.02" x6
+b3 REF x7
+b3 REF x8
+b3 REF x9
+b3 Agent x7 x6
+b3 PRP x8 b5
+b3 TPR x9 "now"
+b3 Time x7 x9
+b3 Topic x7 x8
+b3 say "v.01" x7
+b3 time "n.08" x9
+b5 REF x10
+b5 Agent x10 "speaker"
+b5 Theme x10 x11
+b5 believe "v.01" x10
+b6 REF x11
+b6 REF x12
+b6 Theme x11 x12
+b6 mr "n.01" x12
+b6 Name x11 "inglethorp"
+b6 male "n.02" x11
+b7 DRS x9
+b7 DRS x12
+b6 CONTINUATION b3 b7
+b7 REF x13
+b7 REF x14
+b7 Agent x13 "speaker"
+b7 TPR x14 "now"
+b7 Theme x13 x11
+b7 Time x13 x14
+b7 take "v.05" x13
+b7 time "n.08" x14
+b5 entity "n.01" x12
+b7 Destination x13 x15
+b8 REF x15
+b8 Of x16 "hearer"
+b8 REF x16
+b8 Role x15 x16
+b8 person "n.01" x15
+b8 wife "n.01" x16

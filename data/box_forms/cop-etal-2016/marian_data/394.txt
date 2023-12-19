@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 @-4 "n.01" "speaker"
+b1 Stimulus x1 x3
+b1 Time x1 x2
+b1 know "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 entity "n.01" x3
+b1 REF x4
+b1 EQU x4 "now"
+b1 Time x5 x4
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 Agent x5 "hearer"
+b1 PRP x6 b3
+b1 Topic x5 x6
+b1 go "v.01" x5
+b3 REF x7
+b3 Agent x7 "hearer"
+b3 say "v.01" x7
+b3 Theme x7 x8
+b3 REF x8
+b3 say "n.01" x8
+b1 REF x9
+b1 EQU x9 "now"
+b1 time "n.08" x9
+b3 Time x10 x9
+b3 REF x10
+b3 REF x11
+b3 Agent x10 "hearer"
+b3 PRP x11 b4
+b3 Topic x10 x11
+b3 go "v.01" x10
+b4 REF x12
+b4 REF x13
+b4 Agent x12 "hearer"
+b4 PRP x13 b5
+b4 Topic x12 x13
+b4 say "v.01" x12
+b2 REF x14
+b2 EQU x14 "now"
+b2 time "n.08" x14
+b5 Time x15 x14
+b5 REF x15
+b5 REF x16
+b5 Agent x15 "hearer"
+b5 PRP x16 b6
+b5 Topic x15 x16
+b5 say "v.01" x15
+b6 REF x17
+b6 Theme x17 "hearer"
+b6 say "v.01" x17
+b4 REF x18
+b4 Theme x18 "hearer"
+b4 say "v.01" x18
+b4 REF x19
+b4 REF x20
+b4 Agent x19 "hearer"
+b4 PRP x20 b7
+b4 Topic x19 x20
+b4 say "v.01" x19
+b7 REF x21
+b7 Theme x21 "hearer"
+b7 say "v.01" x21
+b5 REF x22
+b5 Theme x22 "hearer"
+b5 say "v.01" x22
+b5 REF x23
+b5 Theme x23 "hearer"
+b5 say "v.01" x23
+b5 REF x24
+b5 Theme x24 "hearer"

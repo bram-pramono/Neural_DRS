@@ -1,0 +1,9 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 REF x2
+b1 Attribute x2 x1
+b1 worse "v.01" x2
+b1 Instrument x2 x3
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x3

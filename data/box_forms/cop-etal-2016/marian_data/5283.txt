@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 EQU x4 "now"
+b2 PRP x3 b3
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 mean "v.02" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 female "n.02" x5
+b2 REF x6
+b2 TPR x6 "now"
+b2 time "n.08" x6
+b3 REF x7
+b3 Agent x7 x5
+b3 Theme x7 x8
+b3 Time x7 x6
+b3 discover "v.01" x7
+b5 Name x8 "monsieur~lawrence"
+b5 REF x8
+b5 female "n.02" x8
+b3 REF x9
+b3 EQU x6 "now"
+b3 time "n.08" x6
+b6 Time x10 x6
+b3 Experiencer x9
+b6 REF x10
+b6 @-4 "n.01" x8
+b6 Stimulus x10 x7
+b6 dislike "v.01" x10
+b7 REF x11
+b7 Name x11 "monsieur~lawrence"
+b7 male "n.02" x11
+b3 REF x12
+b3 EQU x12 "now"
+b3 time "n.08" x12
+b8 Time x13 x12
+b5 Experiencer x12
+b8 REF x13
+b8 @-4 "n.01" x11
+b8 Stimulus x13 x10
+b8 dislike "v.01" x13
+b9 REF x14
+b9 Name x14 "monsieur~lawrence"
+b9 male "n.02" x14
+b5 REF x15
+b5 EQU x15 "now"
+b5 time "n.08" x15
+b10 Time x16 x15
+b7 Experiencer x15
+b10 REF x16
+b10 @-4 "n.01" x14
+b10 Stimulus x16 x13
+b10 dislike "v.01" x16
+b11 REF x17
+b11 Name x17 "monsieur~lawrence"
+b11 male "n.02" x17
+b7 REF x18
+b7 EQU x18 "now"
+b7 time "n.08" x18
+b12 Time x19 x18
+b9 Experiencer x18
+b12 REF x19
+b12 @-4 "n.01" x17
+b12 Stimulus x19 x16
+b12 dislike "v.01" x19
+b13 REF x20
+b13 Name x20 "monsieur~lawrence"
+b13 male "n.02" x20
+b9 REF x21
+b9 EQU x21 "now"

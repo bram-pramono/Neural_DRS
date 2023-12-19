@@ -1,0 +1,3 @@
+b1 REF x1
+b1 exactly "n.01" "hearer"
+b1 exactly "v.01" x1

@@ -1,0 +1,69 @@
+b1 REF x1
+b1 have "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 come "v.02" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 Destination x2 x6
+b3 REF x4
+b3 Of x5 x2
+b3 REF x5
+b3 Role x4 x5
+b3 person "n.01" x4
+b3 stepmother "n.01" x5
+b4 REF x6
+b4 PartOf x6 x4
+b4 ear "n.01" x6
+b2 REF x7
+b2 Agent x7 x6
+b2 NOT b4 b1
+b2 Time x7 x7
+b2 tax "v.01" x7
+b2 Instrument x7 x8
+b5 REF x8
+b5 PartOf x8 x9
+b2 REF x9
+b2 female "n.02" x9
+b5 REF x10
+b5 Role x8 x10
+b5 death "n.01" x10
+b5 person "n.01" x8
+b6 DRS x6
+b6 DRS x10
+b5 CONTINUATION b2 b6
+b6 REF x11
+b6 part "n.01" x11
+b6 Theme x11 x12
+b7 REF x12
+b7 PartOf x12 x6
+b7 death "n.01" x12
+b6 REF x13
+b6 Part x13 x11
+b6 Part x13 x14
+b6 group "n.01" x13
+b8 REF x14
+b8 PartOf x14 x8
+b8 death "n.01" x14
+b6 REF x15
+b6 Part x15 x13
+b6 Part x15 x16
+b6 group "n.01" x15
+b9 REF x16
+b9 PartOf x16 x10
+b9 death "n.01" x16
+b6 REF x17
+b6 Part x17 x15
+b6 Part x17 x18
+b6 group "n.01" x17
+b6 REF x18
+b6 quarrel "n.01" x18
+b6 REF x19
+b6 REF x20
+b6 TPR x20 "now"
+b6 Theme x19 x17
+b6 Time x19 x20
+b6 ensue "v.01" x19
+b6 time "n.08" x20

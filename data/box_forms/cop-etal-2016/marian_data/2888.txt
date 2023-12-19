@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 stand "v.01" x1
+b1 Time x1 x2
+b2 REF x2
+b2 side "n.01" x2
+b2 PartOf x2 x3
+b3 REF x3
+b3 baize_door "n.01" x3

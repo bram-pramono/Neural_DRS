@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x2 x1
+b1 Theme x2 x3
+b1 have "v.01" x2
+b2 Experiencer x1
+b1 REF x3
+b1 REF x4
+b1 Theme x4 x3
+b1 near "a.01" x4
+b1 relation "n.01" x3
+b1 Theme x3 x5
+b1 REF x5
+b1 REF x6
+b1 Role x5 x6
+b1 friend "n.01" x6
+b1 person "n.01" x5
+b1 REF x7
+b1 TPR x7 "now"
+b1 Time x8 x7
+b1 time "n.08" x7
+b1 REF x8
+b1 REF x9
+b1 Agent x8 "speaker"
+b1 PRP x9 b3
+b1 Topic x8 x9
+b1 try "v.01" x8
+b3 REF x10
+b3 Agent x10 "speaker"
+b3 Theme x10 x11
+b3 make_up "v.01" x10
+b4 REF x11
+b4 User x11 "speaker"
+b4 mind "n.01" x11
+b1 REF x12
+b1 TPR x12 "now"
+b1 time "n.08" x12
+b2 Time x13 x12
+b2 REF x13
+b2 REF x14
+b2 Agent x13 "speaker"
+b2 PRP x14 b5
+b2 Topic x13 x14
+b2 try "v.01" x13
+b5 REF x15
+b5 Agent x15 "speaker"
+b5 Theme x15 x16
+b5 make_up "v.01" x15
+b6 REF x16
+b6 User x16 "speaker"
+b6 mind "n.01" x16
+b2 REF x17
+b2 TPR x17 "now"
+b2 time "n.08" x17
+b4 Time x18 x17
+b4 REF x18
+b4 REF x19
+b4 Agent x18 "speaker"
+b4 PRP x19 b7
+b4 Topic x18 x19
+b4 try "v.01" x18
+b7 REF x20
+b7 Agent x20 "speaker"
+b7 Theme x20 x21
+b7 make_up "v.01" x20
+b8 REF x21
+b8 User x21 "speaker"
+b8 mind "n.01" x21
+b4 REF x22
+b4 TPR x22 "now"
+b4 time "n.08" x22
+b6 Time x23 x22
+b6 REF x23
+b6 REF x24
+b6 Agent x23 "speaker"

@@ -1,0 +1,34 @@
+b1 REF x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 motor "n.01" x2
+b1 REF x3
+b1 Theme x3 x1
+b1 Time x3 x4
+b1 come "v.01" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b1 Path x3 x5
+b3 REF x5
+b3 REF x6
+b3 Attribute x5 x6
+b3 PRESUPPOSITION b1
+b3 open "a.01" x6
+b3 window "n.01" x5
+b1 CONTINUATION b4
+b5 REF x7
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 Title x7 x8
+b5 miss "n.03" x8
+b5 male "n.02" x7
+b4 REF x9
+b4 Theme x9 x7
+b4 Time x9 x4
+b4 rise "v.01" x9
+b4 Destination x9 x10
+b6 REF x10
+b6 PRESUPPOSITION b4
+b6 door "n.01" x10

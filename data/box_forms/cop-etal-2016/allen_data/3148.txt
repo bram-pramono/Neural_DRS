@@ -1,0 +1,13 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 Name x2 "yes"
+b2 PRESUPPOSITION b1
+b2 artifact "n.01" x2
+b1 REF x3
+b1 Sub x3 x2
+b1 Sub x3 x4
+b1 entity "n.01" x3
+b1 REF x4
+b1 yes "n.01" x4

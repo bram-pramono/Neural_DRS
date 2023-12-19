@@ -1,0 +1,4 @@
+b1 Time x1 x1
+b1 REF x1
+b1 ClockTime x1 "14:30"
+b1 time "n.08" x1

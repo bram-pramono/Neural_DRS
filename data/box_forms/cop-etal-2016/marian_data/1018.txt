@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 suggestive "a.01" x3
+b3 DRS x2
+b3 DRS x3
+b2 CONTRAST b1 b3
+b4 REF x4
+b4 entity "n.01" x4
+b3 REF x5
+b3 Agent x5 x4
+b3 Source x5 x6
+b3 sweep "v.01" x5
+b5 REF x6
+b5 REF x7
+b5 Theme x7 x6
+b5 whole "a.01" x7
+b5 length "n.01" x6
+b5 PartOf x6 x8
+b6 REF x8
+b6 wall "n.01" x8
+b7 REF x9
+b7 entity "n.01" x9
+b4 REF x10
+b4 REF x11
+b4 Co-Theme x10 x12
+b4 TPR x11 "now"
+b4 Theme x10 x9
+b4 Time x10 x11
+b4 be "v.03" x10
+b4 time "n.08" x11
+b4 REF x12
+b4 REF x13
+b4 Colour x12 x13
+b4 white "a.01" x13
+b4 length "n.01" x12
+b4 Theme x12 x14
+b8 REF x14
+b8 wall "n.01" x14
+b9 DRS x11
+b9 DRS x14
+b8 CONTRAST b5 b9
+b10 REF x15
+b10 entity "n.01" x15
+b9 REF x16
+b9 REF x17
+b9 Agent x16 x15
+b9 Source x16 x18
+b9 TPR x17 "now"
+b9 Time x16 x17
+b9 make "v.13" x16
+b9 time "n.08" x17
+b11 REF x18
+b11 REF x19
+b11 Theme x19 x18
+b11 whereas "a.01" x19
+b11 length "n.01" x18
+b11 PartOf x18 x20
+b12 REF x20
+b12 wall "n.01" x20
+b13 DRS x17
+b13 DRS x20
+b12 CONTRAST b9 b13
+b14 REF x21
+b14 entity "n.01" x21
+b13 REF x22
+b13 REF x23
+b13 Agent x22 x21
+b13 Source x22 x23
+b13 TPR x23 "now"

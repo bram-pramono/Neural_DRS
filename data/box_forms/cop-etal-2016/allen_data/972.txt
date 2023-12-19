@@ -1,0 +1,8 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Theme x2 "hearer"
+b2 not "a.01" x2

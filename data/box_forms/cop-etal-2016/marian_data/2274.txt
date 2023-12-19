@@ -1,0 +1,31 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 person "n.01" x1
+b2 PartOf x1 x2
+b4 REF x2
+b4 jury "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b3 REF x4
+b3 REF x5
+b3 PRP x5 b5
+b3 Pivot x4 x5
+b3 Theme x4 x5
+b3 Time x4 x3
+b3 want "v.01" x4
+b5 REF x6
+b5 @-4 "n.01" x1
+b5 know "v.01" x6
+b6 REF x7
+b6 same_objection "n.01" x7
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b4 REF x9
+b4 Agent x9 x7
+b4 Time x9 x8
+b4 apply "v.01" x9
+b4 Result x9 x10
+b4 REF x10
+b4 coffee "n.01" x10

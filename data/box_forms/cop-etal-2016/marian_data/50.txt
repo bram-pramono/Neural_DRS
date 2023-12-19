@@ -1,0 +1,13 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 NEC b3
+b3 REF x2
+b3 Co-Theme x2 x3
+b3 Theme x2 x1
+b3 be "v.08" x2
+b3 REF x3
+b3 REF x4
+b3 Theme x4 x3
+b3 difficult "a.01" x4
+b3 situation "n.01" x3
+b3 Beneficiary x3 "hearer"

@@ -1,0 +1,66 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 unfortunately "r.01" x1
+b2 PRESUPPOSITION b1
+b2 REF x2
+b2 male "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x2
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 meet "v.01" x3
+b1 time "n.08" x4
+b3 Theme x3 x5
+b1 NEGATION b3
+b3 REF x5
+b3 person "n.01" x5
+b3 Location x3 x6
+b4 REF x6
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 Theme x7 x6
+b4 way "v.01" x7
+b5 REF x8
+b5 REF x9
+b5 CONSEQUENCE b6
+b5 back "n.01" x9
+b2 POSSIBILITY b7
+b7 REF x10
+b7 Agent x10 x7
+b7 Theme x10 x11
+b5 REF x11
+b5 PRESUPPOSITION b7
+b5 truth "n.01" x11
+b5 PartOf x11 x12
+b8 PRESUPPOSITION b9
+b9 REF x12
+b9 Creator x12 x7
+b9 PRESUPPOSITION b7
+b9 story "n.02" x12
+b5 CONTRAST b10
+b10 REF x13
+b10 Manner x14 x13
+b10 carelessly "r.01" x13
+b6 PRESUPPOSITION b10
+b10 REF x14
+b10 Agent x14 x7
+b10 Theme x14 x15
+b10 keep "v.01" x14
+b11 REF x15
+b11 PRESUPPOSITION b10
+b11 note "n.01" x15
+b10 CONTINUATION b12
+b13 REF x16
+b13 PRESUPPOSITION b12
+b13 entity "n.01" x16
+b10 REF x17
+b10 TPR "now" x17
+b10 time "n.08" x17
+b12 Time x18 x17
+b12 REF x18
+b12 Theme x18 x16
+b12 produce "v.01" x18
+b12 Attribute x18 x19
+b12 REF x19
+b12 evidence "n.01" x19

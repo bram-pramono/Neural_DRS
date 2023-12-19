@@ -1,0 +1,35 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Title x1 x2
+b1 miss "n.03" x2
+b1 female "n.02" x1
+b2 REF x3
+b2 REF x4
+b2 Co-Theme x3 x5
+b2 TPR x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 be "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 REF x6
+b2 Role x5 x6
+b2 person "n.01" x5
+b2 REF x7
+b2 Sub x7 x5
+b2 Sub x7 x8
+b2 entity "n.01" x7
+b2 REF x8
+b2 trouble "n.01" x8
+b3 REF x9
+b3 PRESUPPOSITION b2
+b3 female "n.02" x9
+b2 REF x10
+b2 REF x11
+b2 Pivot x10 x9
+b2 TPR x11 "now"
+b2 Theme x10 x8
+b2 Time x10 x11
+b2 have "v.01" x10
+b2 time "n.08" x11

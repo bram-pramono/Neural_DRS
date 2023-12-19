@@ -1,0 +1,27 @@
+b1 REF x1
+b1 person "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 NOT b2 b1
+b2 elicit "v.01" x3
+b2 Agent x3 x4
+b3 REF x4
+b3 trial "n.01" x4
+b3 Agent x4 x5
+b3 REF x5
+b3 process "n.01" x5
+b3 Theme x5 x6
+b3 REF x6
+b3 long "n.01" x6
+b3 REF x7
+b3 Part x7 x6
+b3 Part x7 x8
+b3 group "n.01" x7
+b3 REF x8
+b3 REF x9
+b3 Theme x9 x8
+b3 tedious "a.01" x9
+b3 cross@-8examination "n.01" x8

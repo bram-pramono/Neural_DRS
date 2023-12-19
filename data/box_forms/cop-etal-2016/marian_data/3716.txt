@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 mr "n.01" x2
+b1 Name x1 "inglethorp"
+b1 female "n.02" x1
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b3 REF x4
+b3 Agent x4 x1
+b3 Product x4 x5
+b3 Time x4 x3
+b3 make "v.09" x4
+b2 Experiencer x4
+b3 REF x5
+b3 provision "n.01" x5
+b3 PartOf x5 x6
+b3 REF x6
+b3 kind "n.01" x6
+b3 PartOf x6 x7
+b4 REF x7
+b4 female "n.02" x7
+b5 DRS x4
+b5 DRS x7
+b4 CONTRAST b1 b5
+b5 REF x8
+b5 REF x9
+b5 REF x10
+b5 Agent x8 "speaker"
+b5 PRP x9 b6
+b5 TPR x10 "now"
+b5 Theme x8 x9
+b5 Time x8 x10
+b5 imagine "v.01" x8
+b5 time "n.08" x10
+b6 Experiencer x10
+b6 REF x11
+b6 person "n.01" x11
+b6 PartOf x11 x12
+b7 REF x12
+b7 female "n.02" x12
+b4 REF x13
+b4 TPR "now" x13
+b4 time "n.08" x13
+b8 Time x14 x13
+b5 POS b8
+b8 REF x14
+b8 Agent x14 x12
+b8 insist "v.01" x14
+b8 Experiencer x14
+b8 Theme x14 x15
+b9 REF x15
+b9 female "n.02" x15
+b10 DRS x11
+b10 DRS x15
+b9 CONTRAST b6 b10
+b11 REF x16
+b11 Name x16 "mary"
+b11 female "n.02" x16
+b10 REF x17
+b10 TPR "now" x17
+b10 time "n.08" x17
+b12 Time x18 x17
+b10 POS b12
+b12 REF x18
+b12 Agent x18 x16
+b12 insist "v.01" x18
+b12 Experiencer x18
+b12 Theme x18 x19
+b13 REF x19
+b13 female "n.02" x19
+b14 DRS x15
+b14 DRS x19
+b13 CONTRAST b10 b14

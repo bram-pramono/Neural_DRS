@@ -1,0 +1,22 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b2 NEGATION b1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b3
+b1 Agent x2 "speaker"
+b1 Recipient x2 "speaker"
+b1 Topic x2 x3
+b1 ask "v.01" x2
+b1 proposition "n.01" x3
+b3 REF x4
+b3 Agent x4 "speaker"
+b3 Beneficiary x4 "hearer"
+b3 help "v.01" x4
+b3 EXPLANATION b4
+b4 REF x5
+b4 Theme x5 "speaker"
+b4 will "a.01" x5
+b3 NEGATION b4

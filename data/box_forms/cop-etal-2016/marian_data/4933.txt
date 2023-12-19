@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x2 x1
+b1 Attribute x2 x3
+b1 make "v.06" x2
+b2 REF x3
+b2 clear "n.01" x3
+b2 Theme x3 "hearer"
+b3 DRS x1
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 TPR "now" x4
+b3 Time x5 x4
+b3 time "n.08" x4
+b3 REF x5
+b3 @-4 "n.01" "speaker"
+b3 Stimulus x5 x6
+b3 read "v.01" x5
+b3 REF x6
+b3 extract "n.01" x6
+b3 Theme x6 x7
+b3 REF x7
+b3 book "n.01" x7
+b3 Theme x7 x8
+b4 REF x8
+b4 Name x8 "red~cross~hospital"
+b4 state "n.01" x8
+b3 Theme x7 x9
+b3 REF x9
+b3 book "n.01" x9
+b3 Theme x9 x10
+b5 REF x10
+b5 Name x10 "red~cross~hospital"
+b5 state "n.01" x10
+b5 Theme x10 x11
+b5 REF x11
+b5 book "n.01" x11
+b5 Theme x11 x12
+b6 REF x12
+b6 Name x12 "red~cross~hospital"
+b6 state "n.01" x12
+b6 Theme x12 x13
+b6 REF x13
+b6 book "n.01" x13
+b6 Theme x13 x14
+b7 REF x14
+b7 Name x14 "red~cross~hospital"
+b7 state "n.01" x14
+b7 Theme x14 x15
+b7 REF x15
+b7 book "n.01" x15
+b7 Theme x15 x16
+b8 REF x16
+b8 Name x16 "red~cross~hospital"
+b8 state "n.01" x16
+b8 Theme x16 x17
+b8 REF x17
+b8 book "n.01" x17
+b8 Theme x17 x18
+b9 REF x18
+b9 Name x18 "red~cross~hospital"
+b9 state "n.01" x18
+b9 Theme x18 x19
+b9 REF x19
+b9 book "n.01" x19
+b9 Theme x19 x20
+b10 REF x20
+b10 Name x20 "red~cross~hospital"
+b10 state "n.01" x20
+b10 Theme x20 x21
+b10 REF x21
+b10 book "n.01" x21
+b10 Theme x21 x22
+b11 REF x22

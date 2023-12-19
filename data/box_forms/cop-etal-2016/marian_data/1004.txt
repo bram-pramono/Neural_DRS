@@ -1,0 +1,4 @@
+b1 NEC b2
+b2 REF x1
+b2 @-4 "n.01" "speaker"
+b2 see "v.01" x1

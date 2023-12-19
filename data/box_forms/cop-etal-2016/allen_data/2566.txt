@@ -1,0 +1,9 @@
+b1 EQU x1 "now"
+b1 EQU x1 x2
+b2 NEGATION b1
+b3 REF x1
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x1
+b4 REF x2
+b4 PRESUPPOSITION b2
+b4 god "n.01" x2

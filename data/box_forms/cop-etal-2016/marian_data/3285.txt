@@ -1,0 +1,59 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 REF x3
+b1 Agent x2 "hearer"
+b1 PRP x3 b2
+b1 Theme x2 x3
+b1 remember "v.01" x2
+b2 REF x4
+b2 REF x5
+b2 @-4 "n.01" "hearer"
+b2 PRP x5 b3
+b2 Stimulus x4 x5
+b2 affirm "v.01" x4
+b2 REF x6
+b2 TPR "now" x6
+b2 time "n.08" x6
+b3 Time x7 x6
+b3 REF x7
+b3 Theme x7 "hearer"
+b3 commit "v.01" x7
+b4 DRS x4
+b4 DRS x7
+b3 CONTINUATION b1 b4
+b4 IMP b5 b6
+b5 REF x8
+b5 person "n.01" x8
+b4 REF x9
+b4 TPR x9 "now"
+b4 time "n.08" x9
+b6 Time x10 x9
+b6 REF x10
+b6 Theme x10 "hearer"
+b6 commit "v.01" x10
+b7 DRS x7
+b7 DRS x10
+b6 CONTINUATION b3 b7
+b7 IMP b8 b9
+b8 REF x11
+b8 person "n.01" x11
+b7 REF x12
+b7 TPR x12 "now"
+b7 time "n.08" x12
+b9 Time x13 x12
+b9 REF x13
+b9 @-4 "n.01" "hearer"
+b9 Stimulus x13 x11
+b9 know "v.01" x13
+b9 REF x14
+b9 Manner x13 x14
+b9 unable "a.01" x14
+b9 REF x15
+b9 Agent x15 "hearer"
+b9 Theme x15 x16
+b9 prove "v.01" x15
+b10 REF x16
+b10 entity "n.01" x16

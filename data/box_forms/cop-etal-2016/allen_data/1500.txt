@@ -1,0 +1,62 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b3 REF x2
+b3 TPR x2 "now"
+b3 Time x4 x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Degree x4 x3
+b3 very "r.01" x3
+b3 REF x4
+b3 Attribute x1 x4
+b3 silent "a.01" x4
+b3 CONTINUATION b4
+b4 REF x5
+b4 Manner x6 x5
+b4 hardly "r.01" x5
+b4 REF x6
+b4 Agent x6 x1
+b4 Patient x6 x7
+b4 open "v.01" x6
+b1 PRESUPPOSITION b5
+b5 REF x7
+b5 PRESUPPOSITION b4
+b5 PartOf x7 x2
+b5 lip "n.01" x7
+b2 CONTINUATION b6
+b6 Location x11 x8
+b6 REF x8
+b6 REF x9
+b6 Attribute x8 x9
+b6 queer "a.01" x9
+b6 way "n.01" x8
+b6 REF x10
+b6 REF x11
+b6 REF x12
+b6 ATTRIBUTION b7
+b6 Experiencer x10 "speaker"
+b6 Stimulus x10 x11
+b6 TPR x12 "now"
+b6 Time x10 x12
+b6 feel "v.01" x10
+b6 proposition "n.01" x11
+b6 time "n.08" x12
+b4 REF x13
+b4 REF x14
+b4 Attribute x13 x14
+b4 PRESUPPOSITION b7
+b4 great "a.01" x14
+b4 PartOf x13 x15
+b8 REF x15
+b8 PRESUPPOSITION b4
+b8 User x15 x8
+b8 personality "n.01" x15
+b5 REF x16
+b5 TPR x16 "now"
+b5 time "n.08" x16
+b7 Time x17 x16
+b7 REF x17
+b7 Agent x17 x12
+b7 Patient x17 "speaker"
+b7 dominate "v.01" x17

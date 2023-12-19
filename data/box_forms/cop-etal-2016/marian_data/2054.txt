@@ -1,0 +1,8 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 Part x2 x1
+b2 Part x2 x3
+b2 group "n.01" x2
+b3 REF x3
+b3 entity "n.01" x3

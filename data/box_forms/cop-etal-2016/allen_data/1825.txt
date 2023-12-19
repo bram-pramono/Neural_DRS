@@ -1,0 +1,16 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b3 REF x2
+b3 Creator x2 "hearer"
+b3 PRESUPPOSITION b2
+b3 help "n.01" x2
+b2 POSSIBILITY b1
+b1 REF x3
+b1 Degree x4 x3
+b1 very "r.01" x3
+b1 REF x4
+b1 Stimulus x4 x2
+b1 valuable "a.01" x4
+b1 Experiencer x4 "speaker"

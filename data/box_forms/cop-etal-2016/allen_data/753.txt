@@ -1,0 +1,30 @@
+b1 Location x4 x1
+b2 REF x1
+b2 Creator x1 "speaker"
+b2 PRESUPPOSITION b1
+b2 opinion "n.01" x1
+b3 REF x2
+b3 REF x3
+b3 Attribute x2 x3
+b3 PRESUPPOSITION b1
+b3 whole "a.01" x3
+b3 entity "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 Co-Theme x4 x7
+b1 EQU x5 "now"
+b1 Theme x4 x2
+b1 Time x4 x5
+b1 be "v.01" x4
+b1 time "n.08" x5
+b1 REF x6
+b1 REF x7
+b1 Role x6 x7
+b1 person "n.01" x6
+b1 REF x8
+b1 PartOf x8 x6
+b1 nest "n.01" x8
+b1 Creator x8 x9
+b4 REF x9
+b4 PRESUPPOSITION b1
+b4 male "n.02" x9

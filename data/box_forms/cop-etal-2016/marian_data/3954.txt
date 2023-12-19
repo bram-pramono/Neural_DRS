@@ -1,0 +1,75 @@
+b1 REF x1
+b1 top "n.01" x1
+b1 PartOf x1 x2
+b1 REF x2
+b1 wardrobe "n.01" x2
+b2 REF x3
+b2 REF x4
+b2 Co-Theme x3 x5
+b2 EQU x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 be "v.08" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 REF x6
+b2 Theme x6 x5
+b2 excellent "a.01" x6
+b2 place "n.01" x5
+b2 Goal x5 x8
+b2 REF x7
+b2 REF x8
+b2 Colour x8 x7
+b2 excellent "a.01" x7
+b2 place "n.01" x8
+b2 Goal x8 x10
+b2 REF x9
+b2 REF x10
+b2 Colour x10 x9
+b2 excellent "a.01" x9
+b2 place "n.01" x10
+b2 Goal x10 x12
+b2 REF x11
+b2 REF x12
+b2 Colour x12 x11
+b2 excellent "a.01" x11
+b2 place "n.01" x12
+b2 Goal x12 x14
+b2 REF x13
+b2 REF x14
+b2 Colour x14 x13
+b2 excellent "a.01" x13
+b2 place "n.01" x14
+b2 Goal x14 x16
+b2 REF x15
+b2 REF x16
+b2 Colour x16 x15
+b2 excellent "a.01" x15
+b2 place "n.01" x16
+b2 Goal x16 x18
+b2 REF x17
+b2 REF x18
+b2 Colour x18 x17
+b2 excellent "a.01" x17
+b2 place "n.01" x18
+b2 Goal x18 x20
+b2 REF x19
+b2 REF x20
+b2 Colour x20 x19
+b2 excellent "a.01" x19
+b2 place "n.01" x20
+b2 Goal x20 x22
+b2 REF x21
+b2 REF x22
+b2 Colour x22 x21
+b2 excellent "a.01" x21
+b2 place "n.01" x22
+b2 Goal x22 x24
+b2 REF x23
+b2 REF x24
+b2 Colour x24 x23
+b2 excellent "a.01" x23
+b2 place "n.01" x24
+b2 Goal x24 x26
+b2 REF x25
+b2 REF x26

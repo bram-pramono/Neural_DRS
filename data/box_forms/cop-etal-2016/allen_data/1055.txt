@@ -1,0 +1,32 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x5 x1
+b3 REF x2
+b3 Of x3 "speaker"
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 Role x2 x3
+b3 friend "n.01" x3
+b3 person "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 REF x6
+b1 ATTRIBUTION b2
+b1 Agent x4 x2
+b1 TPR x6 "now"
+b1 Time x4 x6
+b1 Topic x4 x5
+b1 proposition "n.01" x5
+b1 say "v.01" x4
+b1 time "n.08" x6
+b4 REF x7
+b4 PRESUPPOSITION b1
+b4 person "n.01" x7
+b1 REF x8
+b1 TPR "now" x8
+b1 time "n.08" x8
+b2 Time x9 x8
+b2 REF x9
+b2 Theme x9 x7
+b2 go "v.01" x9

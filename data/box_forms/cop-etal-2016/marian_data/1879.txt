@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Location x2 x1
+b1 Name x1 "?"
+b1 reason "n.01" x1
+b2 NEC b1
+b3 REF x2
+b3 person "n.01" x2

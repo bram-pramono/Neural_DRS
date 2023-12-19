@@ -1,0 +1,24 @@
+b1 REF x1
+b1 heaviness "n.01" x1
+b2 REF x2
+b2 Part x2 x1
+b2 Part x2 x3
+b2 group "n.01" x2
+b2 REF x3
+b2 languor "n.01" x3
+b2 PartOf x3 x5
+b3 REF x4
+b3 female "n.02" x4
+b4 REF x5
+b4 Of x6 x4
+b4 REF x6
+b4 Role x5 x6
+b4 manner "n.01" x6
+b4 person "n.01" x5
+b2 REF x7
+b2 TPR x7 "now"
+b2 Time x8 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 Theme x8 x5
+b2 marked "a.01" x8

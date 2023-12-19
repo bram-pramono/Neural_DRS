@@ -1,0 +1,75 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 house "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Manner x4 x3
+b2 constantly "r.01" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 stare "v.01" x4
+b2 Agent x4 x5
+b2 REF x5
+b2 REF x6
+b2 Role x5 x6
+b2 person "n.01" x5
+b2 reporter "n.01" x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 Time x9 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 Manner x9 x8
+b2 REF x9
+b2 Agent x9 x5
+b2 Theme x9 x10
+b2 deny "v.01" x9
+b2 REF x10
+b2 admission "n.01" x10
+b2 CONTRAST b3
+b3 REF x11
+b3 PartOf x11 x12
+b3 Time x11 x12
+b3 continue "v.01" x11
+b3 REF x12
+b3 TPR x12 "now"
+b3 time "n.08" x12
+b3 REF x13
+b3 Agent x13 x6
+b3 Theme x13 x15
+b3 haunt "v.03" x13
+b4 REF x14
+b4 PRESUPPOSITION b3
+b4 village "n.01" x14
+b3 REF x15
+b3 Sub x15 x14
+b3 Sub x15 x17
+b3 entity "n.01" x15
+b5 REF x16
+b5 PRESUPPOSITION b3
+b5 grounds "n.01" x16
+b3 Location x18 x16
+b6 REF x17
+b6 PRESUPPOSITION b3
+b6 person "n.01" x17
+b3 REF x18
+b3 Agent x18 x17
+b3 Time x18 x11
+b3 lie "v.01" x18
+b3 Theme x18 x19
+b3 REF x19
+b3 wait "n.01" x19
+b3 Instrument x18 x20
+b3 REF x20
+b3 REF x21
+b3 Attribute x20 x21
+b3 REF x22
+b3 Role x20 x22
+b3 member "n.01" x22
+b3 person "n.01" x20
+b3 Of x22 x23
+b7 REF x23
+b7 PRESUPPOSITION b3

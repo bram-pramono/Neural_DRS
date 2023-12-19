@@ -1,0 +1,27 @@
+b1 Location x4 x1
+b1 REF x1
+b1 Quantity x1 "1"
+b1 point "n.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 ATTRIBUTION b3
+b1 Experiencer x3 x2
+b1 Stimulus x3 x4
+b1 Time x3 x5
+b1 proposition "n.01" x4
+b1 seem "v.01" x3
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b3 REF x6
+b3 Pivot x6 x2
+b3 Theme x6 x7
+b3 Time x6 x5
+b3 have "v.01" x6
+b3 REF x7
+b3 REF x8
+b3 Attribute x7 x8
+b3 curious "a.02" x8

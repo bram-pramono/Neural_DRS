@@ -1,0 +1,53 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 @-4 "n.01" "hearer"
+b1 Stimulus x1 x3
+b1 Time x1 x2
+b1 see "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 Of x4 "speaker"
+b2 REF x4
+b2 Role x3 x4
+b2 friend "n.01" x4
+b2 person "n.01" x3
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 EQU x6 "now"
+b3 Pivot x5 "hearer"
+b3 Theme x5 x7
+b3 Time x5 x6
+b3 have "v.01" x5
+b3 time "n.08" x6
+b3 REF x7
+b3 nature_honest "n.01" x7
+b3 REF x8
+b3 Part x8 x7
+b3 Part x8 x9
+b3 group "n.01" x8
+b3 REF x9
+b3 countenance "n.01" x9
+b3 REF x10
+b3 Part x10 "hearer"
+b3 Part x10 x11
+b3 group "n.01" x10
+b3 REF x11
+b3 countenance "n.01" x11
+b3 REF x12
+b3 Agent x12 "hearer"
+b3 NOT b3 b4
+b3 conceal "v.01" x12
+b4 REF x13
+b4 @-4 "n.01" "hearer"
+b4 feeling "n.01" x13
+b3 REF x14
+b3 EQU x14 "now"
+b3 Time x15 x14
+b3 time "n.08" x14
+b3 REF x15
+b3 Theme x15 x12
+b3 impossible "a.01" x15

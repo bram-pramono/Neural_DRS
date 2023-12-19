@@ -1,0 +1,61 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.01" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 speak "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 Experiencer x4 "speaker"
+b2 Stimulus x4 x5
+b2 Time x4 x3
+b2 have "v.01" x4
+b2 REF x5
+b2 REF x6
+b2 Attribute x5 x6
+b2 sudden "a.01" x6
+b2 vision "n.01" x5
+b2 Part x5 x8
+b2 REF x7
+b2 REF x8
+b2 Attribute x8 x7
+b2 Value x7 "+"
+b2 broad "a.01" x7
+b2 space "n.01" x8
+b2 REF x9
+b2 REF x10
+b2 Attribute x10 x9
+b2 region "n.01" x10
+b2 Part x10 x11
+b2 REF x11
+b2 forest "n.01" x11
+b2 REF x12
+b2 Sub x12 x10
+b2 Sub x12 x13
+b2 entity "n.01" x12
+b2 REF x13
+b2 realization "n.01" x13
+b2 Content x13 x14
+b2 REF x14
+b2 entity "n.01" x14
+b2 REF x15
+b2 TPR "now" x15
+b2 Time x16 x15
+b2 time "n.08" x15
+b2 REF x16
+b2 Co-Theme x16 x13
+b2 Theme x16 x14
+b2 mean "v.03" x16
+b2 Recipient x16 x17
+b2 REF x17
+b2 PartOf x17 x18
+b2 such "n.01" x17
+b2 REF x18
+b2 nature "n.01" x18
+b2 Attribute x18 x19
+b3 REF x19
+b3 PRESUPPOSITION b2
+b3 female "n.02" x19

@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 small "a.01" x2
+b1 purple "n.01" x1
+b1 REF x3
+b1 Theme x3 x1
+b1 despatch@-8case "v.01" x3
+b1 Instrument x3 x4
+b1 REF x4
+b1 key "n.01" x4
+b1 Instrument x3 x5
+b1 REF x5
+b1 key "n.01" x5
+b1 Instrument x3 x6
+b2 REF x6
+b2 lock "n.01" x6
+b1 Location x3 x7
+b3 REF x7
+b3 lock "n.01" x7
+b1 Location x5 x8
+b4 REF x8
+b4 lock "n.01" x8
+b1 Location x6 x9
+b5 REF x9
+b5 lock "n.01" x9
+b2 Location x7 x10
+b6 REF x10
+b6 lock "n.01" x10
+b3 Location x8 x11
+b7 REF x11
+b7 lock "n.01" x11
+b4 Location x9 x12
+b8 REF x12
+b8 lock "n.01" x12
+b5 Location x10 x13
+b9 REF x13
+b9 lock "n.01" x13
+b6 Location x11 x14
+b10 REF x14
+b10 lock "n.01" x14
+b7 Location x12 x15
+b11 REF x15
+b11 lock "n.01" x15
+b8 Location x13 x16
+b12 REF x16
+b12 lock "n.01" x16
+b9 Location x14 x17
+b13 REF x17
+b13 lock "n.01" x17
+b10 Location x15 x18
+b14 REF x18
+b14 lock "n.01" x18
+b11 Location x16 x19
+b15 REF x19
+b15 lock "n.01" x19
+b12 Location x17 x20
+b16 REF x20
+b16 lock "n.01" x20
+b13 Location x18 x21
+b17 REF x21
+b17 lock "n.01" x21
+b14 Location x19 x22
+b18 REF x22
+b18 lock "n.01" x22
+b15 Location x20 x23
+b19 REF x23
+b19 lock "n.01" x23
+b16 Location x21 x24
+b20 REF x24
+b20 lock "n.01" x24
+b17 Location x22 x25
+b21 REF x25
+b21 lock "n.01" x25
+b18 Location x23 x25

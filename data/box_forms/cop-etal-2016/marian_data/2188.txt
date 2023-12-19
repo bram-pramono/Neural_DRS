@@ -1,0 +1,19 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 mon "n.01" x2
+b1 ami "n.01" x1
+b1 REF x3
+b1 TPR "now" x3
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Agent x4 "speaker"
+b1 Theme x4 x5
+b1 do "v.02" x4
+b1 REF x5
+b1 entity "n.01" x5
+b1 REF x6
+b1 Causer x6 "speaker"
+b1 Topic x6 x5
+b1 say "v.01" x6

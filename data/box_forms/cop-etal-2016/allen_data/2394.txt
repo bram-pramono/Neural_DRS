@@ -1,0 +1,28 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b1 REF x2
+b1 plain "n.01" x2
+b1 Attribute x2 x3
+b1 REF x3
+b1 Recipient x2 "speaker"
+b2 REF x4
+b2 REF x5
+b2 REF x6
+b2 ATTRIBUTION b1
+b2 Agent x4 x7
+b2 TPR x6 "now"
+b2 Time x4 x6
+b2 Topic x4 x5
+b2 proposition "n.01" x5
+b2 say "v.01" x4
+b2 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 PRESUPPOSITION b2
+b3 Title x7 x8
+b3 miss "n.03" x8
+b3 female "n.02" x7
+b2 REF x9
+b2 Manner x6 x9
+b2 shortly "r.01" x9

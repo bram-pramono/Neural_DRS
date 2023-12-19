@@ -1,0 +1,9 @@
+b1 Experiencer x1
+b1 REF x1
+b1 NEQ x1 x2
+b2 REF x2
+b1 side "n.01" x1
+b2 side "n.01" x2
+b2 PartOf x2 x3
+b3 REF x3
+b3 room "n.01" x3

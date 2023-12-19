@@ -1,0 +1,25 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 far "r.01" x1
+b1 REF x2
+b1 REF x3
+b1 EQU x3 "now"
+b1 Theme x2 "speaker"
+b1 Time x2 x3
+b1 remember "v.01" x2
+b1 time "n.08" x3
+b2 REF x4
+b2 PRESUPPOSITION b3
+b2 female "n.02" x4
+b4 REF x5
+b4 TPR x5 "now"
+b4 time "n.08" x5
+b5 Time x6 x5
+b4 NEGATION b5
+b5 REF x6
+b5 Agent x6 x4
+b5 Patient x6 x7
+b5 eat "v.01" x6
+b5 REF x7
+b5 Quantity x7 "?"
+b5 measure "n.02" x7

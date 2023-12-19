@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Theme x1 x2
+b1 come "v.01" x1
+b2 REF x2
+b2 Of x3 "speaker"
+b2 REF x3
+b2 Role x2 x3
+b2 friend "n.01" x3
+b2 person "n.01" x2
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 Agent x4 x6
+b3 PRP x5 b4
+b3 TPR x6 "now"
+b3 Time x4 x6
+b3 Topic x4 x5
+b3 say "v.01" x4
+b3 time "n.08" x6
+b5 REF x7
+b5 male "n.02" x7
+b3 REF x8
+b3 TPR x8 "now"
+b3 time "n.08" x8
+b4 REF x9
+b4 Agent x9 x7
+b4 Theme x9 x10
+b4 Time x9 x8
+b4 change "v.01" x9
+b6 REF x10
+b6 subject "n.01" x10
+b4 REF x11
+b4 Agent x11 "hearer"
+b4 Theme x11 x12
+b4 change "v.01" x11
+b7 REF x12
+b7 subject "n.01" x12
+b4 REF x13
+b4 Agent x13 "hearer"
+b4 Theme x13 x14
+b4 change "v.01" x13
+b8 REF x14
+b8 subject "n.01" x14
+b4 REF x15
+b4 Agent x15 "hearer"
+b4 Theme x15 x16
+b4 change "v.01" x15
+b9 REF x16
+b9 subject "n.01" x16
+b5 REF x17
+b5 Agent x17 "hearer"
+b5 Theme x17 x18
+b5 change "v.01" x17
+b10 REF x18
+b10 subject "n.01" x18
+b6 REF x19
+b6 Agent x19 "hearer"
+b6 Theme x19 x20
+b6 change "v.01" x19
+b11 REF x20
+b11 subject "n.01" x20
+b7 REF x21
+b7 Agent x21 "hearer"
+b7 Theme x21 x22
+b7 change "v.01" x21
+b12 REF x22
+b12 subject "n.01" x22
+b8 REF x23
+b8 Agent x23 "hearer"
+b8 Theme x23 x24
+b8 change "v.01" x23
+b13 REF x24
+b13 subject "n.01" x24
+b9 REF x25
+b9 Agent x25 "hearer"

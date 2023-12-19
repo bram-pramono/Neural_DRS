@@ -1,0 +1,22 @@
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b1 REF x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 Topic x2 x3
+b2 idea "n.01" x2
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b1 REF x5
+b1 Experiencer x5 "hearer"
+b1 Stimulus x5 x6
+b1 Time x5 x4
+b1 know "v.04" x5
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 male "n.02" x6

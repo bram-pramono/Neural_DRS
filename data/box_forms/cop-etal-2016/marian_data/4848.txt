@@ -1,0 +1,75 @@
+b1 Time x3 x1
+b2 REF x1
+b2 NEQ x1 x2
+b3 REF x2
+b2 hand "n.01" x1
+b3 hand "n.01" x2
+b2 REF x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 Theme x3 x5
+b2 Time x3 x4
+b2 believe "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 slip "n.04" x5
+b2 PartOf x5 x6
+b4 REF x6
+b4 Of x7 x4
+b4 REF x7
+b4 Role x6 x7
+b4 mother@-8in@-8law_paper "n.01" x7
+b4 person "n.01" x6
+b4 Of x7 x8
+b5 REF x8
+b5 Of x10 x9
+b6 REF x9
+b6 female "n.02" x9
+b5 REF x10
+b5 Role x8 x10
+b5 mother@-8in@-8law_paper "n.01" x10
+b5 person "n.01" x8
+b5 Of x10 x11
+b7 REF x11
+b7 Of x13 x12
+b8 REF x12
+b8 female "n.02" x12
+b7 REF x13
+b7 Role x11 x13
+b7 mother@-8in@-8law_paper "n.01" x13
+b7 person "n.01" x11
+b7 Of x13 x14
+b9 REF x14
+b9 Of x16 x15
+b10 REF x15
+b10 female "n.02" x15
+b9 REF x16
+b9 Role x14 x16
+b9 mother@-8in@-8law_paper "n.01" x16
+b9 person "n.01" x14
+b9 Of x16 x17
+b11 REF x17
+b11 Of x19 x18
+b12 REF x18
+b12 female "n.02" x18
+b11 REF x19
+b11 Role x17 x19
+b11 mother@-8in@-8law_paper "n.01" x19
+b11 person "n.01" x17
+b11 Of x19 x20
+b13 REF x20
+b13 Of x22 x21
+b14 REF x21
+b14 female "n.02" x21
+b13 REF x22
+b13 Role x20 x22
+b13 mother@-8in@-8law_paper "n.01" x22
+b13 person "n.01" x20
+b13 Of x22 x23
+b15 REF x23
+b15 Of x25 x24
+b16 REF x24
+b16 female "n.02" x24
+b15 REF x25
+b15 Role x23 x25
+b15 mother@-8in@-8law_paper "n.01" x25

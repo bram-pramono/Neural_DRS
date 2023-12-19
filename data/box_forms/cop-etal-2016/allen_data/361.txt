@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 TPR x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 receive "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 letter "n.01" x3
+b1 Source x1 x4
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 female "n.02" x4
+b1 REF x5
+b1 REF x6
+b1 ATTRIBUTION b3
+b1 Agent x5 x4
+b1 Recipient x5 x7
+b1 Topic x5 x6
+b1 proposition "n.01" x6
+b1 tell "v.01" x5
+b1 REF x7
+b1 entity "n.01" x7
+b1 REF x8
+b1 Agent x8 x7
+b1 Recipient x8 "speaker"
+b1 Topic x8 x9
+b1 tell "v.01" x8
+b1 REF x9
+b1 REF x10
+b1 Role x9 x10
+b1 nurse "n.01" x10
+b1 person "n.01" x9
+b1 Location x9 x11
+b1 REF x11
+b1 REF x12
+b1 Attribute x11 x12
+b1 Value x12 "+"
+b1 big "a.01" x12
+b1 hospital "n.01" x11
+b1 Location x11 x13
+b1 REF x13
+b1 REF x14
+b1 Attribute x13 x14
+b1 Value x14 "+"
+b1 big "a.01" x14
+b1 town "n.01" x13
+b1 REF x15
+b1 REF x16
+b1 REF x17
+b1 APX x16 x17
+b1 Quantity x15 x16
+b1 quantity "n.01" x16
+b1 quantity "n.01" x17
+b1 EQU x17 "15"
+b1 Unit x15 "mile"
+b1 measure "n.02" x15
+b1 REF x18
+b1 Attribute x14 x18
+b1 Value x18 "+"
+b1 away "a.01" x18
+b1 CONTINUATION b4
+b4 REF x19
+b4 REF x20
+b4 ATTRIBUTION b5
+b4 Agent x19 "speaker"
+b4 Recipient x19 "speaker"
+b4 Topic x19 x20
+b4 beg "v.01" x19
+b4 proposition "n.01" x20
+b5 REF x21
+b5 REF x22
+b5 REF x23
+b5 ATTRIBUTION b6

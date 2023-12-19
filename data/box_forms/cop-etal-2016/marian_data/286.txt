@@ -1,0 +1,3 @@
+b1 REF x1
+b1 Unit x1 "minute"
+b1 measure "n.02" x1

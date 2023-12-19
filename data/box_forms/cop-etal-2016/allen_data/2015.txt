@@ -1,0 +1,45 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 Pivot x3 "hearer"
+b1 Theme x3 x2
+b1 have "v.01" x3
+b3 REF x4
+b3 Agent x4 "hearer"
+b3 Result x4 x5
+b3 write "v.01" x4
+b3 REF x5
+b3 letter "n.01" x5
+b1 REF x6
+b1 TPR x6 "now"
+b1 Time x7 x6
+b1 time "n.08" x6
+b1 NEGATION b3
+b3 REF x7
+b3 Experiencer x7 "hearer"
+b3 arrest "v.01" x7
+b3 Agent x7 x8
+b4 REF x8
+b4 REF x9
+b4 PRESUPPOSITION b3
+b4 PRP x9 b5
+b4 Topic x8 x9
+b4 fact "n.01" x8
+b6 REF x10
+b6 TPR x10 "now"
+b6 Time x11 x10
+b6 time "n.08" x10
+b5 NEGATION b6
+b6 REF x11
+b6 Experiencer x11 "hearer"
+b6 Stimulus x11 x12
+b6 know "v.01" x11
+b6 REF x12
+b6 REF x13
+b6 Attribute x12 x13
+b6 certain "a.01" x13
+b6 word "n.01" x12

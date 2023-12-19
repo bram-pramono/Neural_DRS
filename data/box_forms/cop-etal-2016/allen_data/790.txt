@@ -1,0 +1,29 @@
+b1 Time x2 x1
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 NEGATION b1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b3
+b1 Pivot x2 "speaker"
+b1 Theme x2 x3
+b1 proposition "n.01" x3
+b1 want "v.01" x2
+b3 REF x4
+b3 Agent x4 "speaker"
+b3 Theme x4 x5
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 household "n.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b6
+b5 male "n.02" x6
+b6 REF x7
+b6 Agent x7 x6
+b6 Recipient x7 "speaker"
+b6 Theme x7 x8
+b6 Time x7 x2
+b6 give "v.03" x7
+b6 REF x8
+b6 bed "n.01" x8

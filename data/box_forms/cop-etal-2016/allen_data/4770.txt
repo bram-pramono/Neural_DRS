@@ -1,0 +1,66 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 confirm "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 Creator x4 "speaker"
+b3 PRESUPPOSITION b2
+b3 belief "n.01" x4
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b2
+b4 Title x5 x6
+b4 mr "n.01" x6
+b4 male "n.02" x5
+b5 REF x7
+b5 TPR x7 "now"
+b5 time "n.08" x7
+b6 Time x8 x7
+b5 NEGATION b6
+b6 REF x8
+b6 Agent x8 x5
+b6 Theme x8 x9
+b6 speak "v.03" x8
+b7 REF x9
+b7 PRESUPPOSITION b6
+b7 truth "n.01" x9
+b8 REF x10
+b8 PRESUPPOSITION b6
+b8 female "n.02" x10
+b6 REF x11
+b6 REF x12
+b6 ATTRIBUTION b9
+b6 Agent x11 x10
+b6 Time x11 x13
+b6 Topic x11 x12
+b6 declare "v.01" x11
+b6 proposition "n.01" x12
+b6 REF x13
+b6 TPR x13 "now"
+b6 time "n.08" x13
+b5 PRESUPPOSITION b9
+b9 Time x14 x13
+b9 REF x14
+b9 Patient x14 x10
+b9 dress "v.01" x14
+b9 Location x14 x15
+b6 PRESUPPOSITION b10
+b10 REF x15
+b10 PRESUPPOSITION b9
+b10 User x15 x10
+b10 room "n.01" x15
+b9 Location x14 x16
+b6 REF x16
+b6 PRESUPPOSITION b9
+b6 time "n.01" x16
+b6 PartOf x16 x17
+b11 REF x17
+b11 PRESUPPOSITION b6
+b11 disaster "n.01" x17

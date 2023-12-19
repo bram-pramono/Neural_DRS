@@ -1,0 +1,75 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 seize "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 User x4 x1
+b3 hat "n.01" x4
+b2 CONTINUATION b4
+b4 REF x5
+b4 Agent x5 x1
+b4 Theme x5 x7
+b4 Time x5 x6
+b4 give "v.01" x5
+b4 REF x6
+b4 TPR x6 "now"
+b4 time "n.08" x6
+b4 REF x7
+b4 REF x8
+b4 Attribute x7 x8
+b4 fierce "a.01" x8
+b4 twist "n.01" x7
+b4 Destination x7 x9
+b5 REF x9
+b5 PRESUPPOSITION b4
+b5 User x9 x10
+b6 PRESUPPOSITION b5
+b6 REF x10
+b6 male "n.02" x10
+b5 CONTINUATION b7
+b7 REF x11
+b7 Manner x12 x11
+b7 carefully "r.01" x11
+b7 REF x12
+b7 Agent x12 x9
+b7 Patient x12 x13
+b7 brush "v.01" x12
+b7 REF x13
+b7 REF x14
+b7 Attribute x13 x14
+b7 obscure "a.01" x14
+b7 spectre "n.01" x13
+b7 Theme x13 x15
+b7 REF x15
+b7 dust "n.01" x15
+b7 Source x13 x16
+b8 PRESUPPOSITION b9
+b9 REF x16
+b9 PRESUPPOSITION b7
+b9 PartOf x16 x17
+b8 REF x17
+b8 male "n.02" x17
+b9 sleeve "n.01" x16
+b8 REF x18
+b8 REF x19
+b8 ATTRIBUTION b10
+b8 Agent x18 x17
+b8 Recipient x18 "speaker"
+b8 Time x18 x8
+b8 Topic x18 x19
+b8 pretend "v.01" x18
+b8 proposition "n.01" x19
+b10 REF x20
+b10 Agent x20 "speaker"
+b10 Theme x20 x16
+b10 precede "v.01" x20
+b6 PRESUPPOSITION b10
+b10 Instrument x20 x20

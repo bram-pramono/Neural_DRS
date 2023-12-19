@@ -1,0 +1,21 @@
+b1 POS b2
+b2 REF x1
+b2 REF x2
+b2 Role x1 x2
+b2 other "n.01" x2
+b2 person "n.01" x1
+b2 Of x2 x3
+b3 REF x3
+b3 doorkey "n.01" x3
+b3 PartOf x3 x4
+b4 REF x4
+b4 passage "n.01" x4
+b1 REF x5
+b1 TPR "now" x5
+b1 time "n.08" x5
+b3 Time x6 x5
+b3 REF x6
+b3 Agent x6 x1
+b3 NOT b4 b1
+b3 fit "v.01" x6
+b2 entity "n.01" x4

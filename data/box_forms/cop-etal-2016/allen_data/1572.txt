@@ -1,0 +1,21 @@
+b1 POSSIBILITY b2
+b3 REF x1
+b3 Agent x1 "hearer"
+b3 Recipient x1 "speaker"
+b3 Theme x1 x2
+b3 give "v.01" x1
+b2 NEGATION b3
+b3 REF x2
+b3 help "n.01" x2
+b3 REF x3
+b3 Context x2 x4
+b3 entity "n.01" x3
+b3 REF x4
+b3 Agent x4 x3
+b3 Theme x4 x5
+b3 solve "v.01" x4
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x5
+b3 REF x6
+b3 name "n.01" x6

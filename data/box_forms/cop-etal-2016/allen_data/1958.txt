@@ -1,0 +1,25 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b2 NEGATION b1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b3
+b1 Agent x2 "hearer"
+b1 Recipient x2 x4
+b1 Topic x2 x3
+b1 proposition "n.01" x3
+b1 want "v.01" x2
+b1 REF x4
+b1 REF x5
+b1 Attribute x4 x5
+b1 whole "a.01" x5
+b1 house "n.01" x4
+b3 REF x6
+b3 Experiencer x6 x4
+b3 know "v.01" x6
+b3 Stimulus x6 x7
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 occurrence "n.01" x7

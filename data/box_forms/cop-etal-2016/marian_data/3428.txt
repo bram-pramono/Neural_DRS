@@ -1,0 +1,36 @@
+b1 REF x1
+b1 Name x1 "poirot"
+b1 male "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Result x3 x1
+b2 ask "v.02" x3
+b2 Agent x3 x4
+b3 REF x4
+b3 Name x4 "john"
+b3 male "n.02" x4
+b2 REF x5
+b2 Theme x5 x5
+b2 remain "v.01" x5
+b2 Agent x5 x6
+b2 REF x6
+b2 lunch "n.01" x6
+b4 DRS x4
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 TPR x7 "now"
+b4 Time x9 x7
+b4 time "n.08" x7
+b4 REF x8
+b4 Manner x9 x8
+b4 already "a.01" x8
+b4 REF x9
+b4 NOT b4 b1
+b4 seat "v.01" x9
+b4 Location x9 x10
+b5 REF x10
+b5 table "n.02" x10

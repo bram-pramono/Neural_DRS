@@ -1,0 +1,3 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 entity "v.01" x1

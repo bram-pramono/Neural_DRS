@@ -1,0 +1,43 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Agent x4 x1
+b2 Patient x4 x5
+b2 shake "v.01" x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 girl "n.01" x5
+b2 POSSIBILITY b4
+b4 REF x6
+b4 Co-Theme x6 x7
+b4 Theme x6 x5
+b4 be "a.01" x6
+b4 REF x7
+b4 REF x8
+b4 Attribute x7 x8
+b4 sound "a.01" x8
+b4 REF x9
+b4 Role x7 x9
+b4 person "n.01" x7
+b4 CONTINUATION b5
+b5 REF x10
+b5 REF x11
+b5 ATTRIBUTION b6
+b5 Agent x10 x6
+b5 Theme x10 x11
+b5 proposition "n.01" x11
+b5 try "v.01" x10
+b6 REF x12
+b6 Agent x12 x6
+b6 Patient x12 x6
+b6 wake "v.01" x12
+b4 PRESUPPOSITION b6

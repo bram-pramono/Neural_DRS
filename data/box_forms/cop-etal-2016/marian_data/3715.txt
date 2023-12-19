@@ -1,0 +1,29 @@
+b1 Time x3 x1
+b2 REF x1
+b2 Order x1 "1"
+b2 time "n.02" x1
+b3 REF x2
+b3 entity "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 REF x5
+b1 Agent x3 x2
+b1 PRP x4 b4
+b1 TPR x5 "now"
+b1 Time x3 x5
+b1 Topic x3 x4
+b1 occur "v.01" x3
+b1 time "n.08" x5
+b4 REF x6
+b4 Agent x6 "speaker"
+b4 wonder "v.01" x6
+b4 Theme x6 x8
+b5 REF x7
+b5 girl "n.01" x7
+b1 REF x8
+b1 EQU x8 "now"
+b1 time "n.08" x8
+b3 Time x9 x8
+b3 REF x9
+b3 Theme x9 x7
+b3 future "a.01" x9

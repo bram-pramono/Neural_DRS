@@ -1,0 +1,30 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Recipient x1 "hearer"
+b2 Topic x1 x2
+b2 tell "v.01" x1
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 Quantity x2 "?"
+b3 measure "n.02" x2
+b2 CONTINUATION b4
+b5 REF x3
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x3
+b6 REF x4
+b6 Theme x4 x3
+b6 be "a.01" x4
+b4 NEGATION b6
+b6 Location x4 x7
+b7 REF x5
+b7 REF x6
+b7 PRESUPPOSITION b8
+b7 PRESUPPOSITION b6
+b7 Title x5 x6
+b7 miss "n.03" x6
+b7 female "n.02" x5
+b8 REF x7
+b8 Creator x7 x5
+b8 PRESUPPOSITION b6
+b8 favour "n.01" x7

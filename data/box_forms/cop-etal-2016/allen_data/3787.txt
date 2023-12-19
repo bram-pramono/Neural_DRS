@@ -1,0 +1,7 @@
+b1 REF x1
+b1 person "n.01" x1
+b2 POSSIBILITY b1
+b2 REF x2
+b2 Agent x2 x1
+b2 Theme x2 "hearer"
+b2 accept "v.01" x2

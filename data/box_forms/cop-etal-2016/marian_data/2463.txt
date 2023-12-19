@@ -1,0 +1,8 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 really "r.01" x1
+b2 POS b3
+b1 Experiencer x1
+b3 REF x2
+b3 NOT b3 "speaker"
+b3 remember "v.01" x2

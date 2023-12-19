@@ -1,0 +1,29 @@
+b1 Source x3 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 moment "n.01" x1
+b3 REF x2
+b3 TPR x2 "now"
+b3 Time x4 x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Degree x4 x3
+b3 REF x4
+b3 REF x5
+b3 ATTRIBUTION b4
+b3 Experiencer x4 "speaker"
+b3 Stimulus x4 x5
+b3 determine "v.01" x4
+b3 proposition "n.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 male "n.02" x6
+b6 NECESSITY b7
+b4 NEGATION b6
+b7 REF x7
+b7 Agent x7 x6
+b7 Topic x7 x8
+b7 be "v.01" x7
+b7 REF x8
+b7 Patient x8 x6
+b7 arrest "v.01" x8

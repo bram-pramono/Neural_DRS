@@ -1,0 +1,53 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 imagine "v.01" x1
+b2 PRESUPPOSITION b3
+b3 REF x2
+b3 Creator x2 x3
+b3 PRESUPPOSITION b1
+b2 REF x3
+b2 female "n.02" x3
+b3 feeling "n.01" x2
+b4 REF x4
+b4 Of x5 x2
+b4 REF x5
+b4 PRESUPPOSITION b1
+b4 Role x4 x5
+b4 mother-in-law "n.01" x5
+b4 person "n.01" x4
+b1 Time x7 x6
+b1 REF x6
+b1 EQU x6 "now"
+b1 time "n.08" x6
+b1 REF x7
+b1 Manner x8 x7
+b1 suddenly "a.01" x7
+b1 REF x8
+b1 REF x9
+b1 Agent x8 x4
+b1 TPR x9 "now"
+b1 Time x8 x9
+b1 Topic x8 x10
+b1 take "v.01" x8
+b1 time "n.08" x9
+b1 REF x10
+b1 Attribute x4 x10
+b1 ill "a.01" x10
+b1 CONTINUATION b5
+b5 REF x11
+b5 Patient x11 x4
+b5 die "v.01" x11
+b5 REF x12
+b5 Manner x11 x12
+b5 immediately "r.01" x12
+b5 TPR x11 x13
+b2 PRESUPPOSITION b5
+b5 REF x13
+b5 Experiencer x13 x4
+b5 Stimulus x13 x14
+b5 Time x13 x6
+b5 hear "v.01" x13
+b6 REF x14
+b6 PRESUPPOSITION b5
+b6 word "n.01" x14

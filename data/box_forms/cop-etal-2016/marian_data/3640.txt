@@ -1,0 +1,5 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 EQU x1 x2
+b2 REF x2
+b2 point "n.01" x2

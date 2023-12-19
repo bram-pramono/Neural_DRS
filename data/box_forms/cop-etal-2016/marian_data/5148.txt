@@ -1,0 +1,74 @@
+b1 IMP b2 b3
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 Time x2 x1
+b2 look "v.01" x2
+b2 Theme x2 x3
+b3 REF x3
+b3 date "n.01" x3
+b3 Theme x3 x4
+b3 REF x4
+b3 top "n.01" x4
+b3 PartOf x4 x5
+b3 REF x5
+b3 top "n.01" x5
+b3 PartOf x5 x6
+b3 REF x6
+b3 top "n.01" x6
+b3 PartOf x6 x7
+b3 REF x7
+b3 top "n.01" x7
+b3 PartOf x7 x8
+b3 REF x8
+b3 top "n.01" x8
+b3 PartOf x8 x9
+b3 REF x9
+b3 top "n.01" x9
+b3 PartOf x9 x10
+b3 REF x10
+b3 letter "n.01" x10
+b3 REF x11
+b3 TPR "now" x11
+b3 Time x12 x11
+b3 time "n.08" x11
+b3 REF x12
+b3 @-4 "n.01" "hearer"
+b3 Stimulus x12 x10
+b3 notice "v.02" x12
+b3 Time x12 x13
+b4 REF x13
+b4 letter "n.01" x13
+b2 REF x14
+b2 TPR "now" x14
+b2 time "n.08" x14
+b3 Time x15 x14
+b3 REF x15
+b3 Stimulus x15 x16
+b3 notice "v.02" x15
+b5 REF x16
+b5 top "n.01" x16
+b5 PartOf x16 x17
+b6 REF x17
+b6 letter "n.01" x17
+b2 REF x18
+b2 TPR "now" x18
+b2 time "n.08" x18
+b4 Time x19 x18
+b4 REF x19
+b4 @-4 "n.01" "hearer"
+b4 Stimulus x19 x16
+b4 notice "v.02" x19
+b4 Time x19 x20
+b7 REF x20
+b7 letter "n.01" x20
+b3 REF x21
+b3 TPR "now" x21
+b3 time "n.08" x21
+b5 Time x22 x21
+b5 REF x22
+b5 @-4 "n.01" "hearer"
+b5 Stimulus x22 x22
+b5 notice "v.02" x22

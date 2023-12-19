@@ -1,0 +1,29 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 Agent x1 "speaker"
+b1 PRP x2 b2
+b1 TPR x3 "now"
+b1 Time x1 x3
+b1 Topic x1 x2
+b1 hope "v.01" x1
+b1 time "n.08" x3
+b3 REF x4
+b3 male "n.02" x4
+b1 REF x5
+b1 TPR "now" x5
+b1 time "n.08" x5
+b2 Time x6 x5
+b2 REF x6
+b2 Agent x6 x4
+b2 Theme x6 x7
+b2 observe "v.01" x6
+b1 REF x7
+b1 stiffness "n.01" x7
+b1 PartOf x7 x8
+b4 REF x8
+b4 Of x9 "speaker"
+b4 REF x9
+b4 Role x8 x9
+b4 manner "n.01" x9
+b4 person "n.01" x8

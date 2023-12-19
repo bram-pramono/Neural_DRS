@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 likely "r.01" x1
+b1 REF x2
+b1 Experiencer x2 "hearer"
+b1 likely "a.01" x2

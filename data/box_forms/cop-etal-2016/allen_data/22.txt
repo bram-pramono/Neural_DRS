@@ -1,0 +1,74 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b3 REF x2
+b3 Theme x2 x1
+b3 be "a.01" x2
+b3 REF x3
+b3 Degree x4 x3
+b3 completely "r.01" x3
+b3 REF x4
+b3 Location x2 x4
+b3 SZP x5 x4
+b3 location "n.01" x4
+b2 REF x5
+b2 Of x6 x1
+b2 PRESUPPOSITION b3
+b2 REF x6
+b2 Role x5 x6
+b2 person "n.01" x5
+b2 wife "n.01" x6
+b3 REF x7
+b3 User x7 x5
+b3 CONTINUATION b4
+b4 REF x8
+b4 Patient x8 x1
+b4 die "v.01" x8
+b1 REF x9
+b1 TPR x9 "now"
+b1 time "n.08" x9
+b4 REF x10
+b4 Agent x10 x1
+b4 Theme x10 x11
+b4 Time x10 x9
+b4 leave "v.01" x10
+b5 REF x11
+b5 PRESUPPOSITION b4
+b5 place "n.01" x11
+b4 Recipient x10 x12
+b6 REF x12
+b6 PRESUPPOSITION b4
+b6 female "n.02" x12
+b7 REF x13
+b7 PRESUPPOSITION b4
+b7 User x13 x12
+b7 lifetime "n.01" x13
+b4 REF x14
+b4 Sub x14 x13
+b4 Sub x14 x15
+b4 entity "n.01" x14
+b4 REF x15
+b4 REF x16
+b4 Attribute x15 x16
+b4 large "a.01" x16
+b4 part "n.01" x15
+b4 PartOf x15 x17
+b8 REF x17
+b8 PRESUPPOSITION b4
+b8 PartOf x17 x6
+b8 income "n.01" x17
+b4 CONTRAST b9
+b9 REF x18
+b9 arrangement "n.01" x18
+b9 Time x20 x19
+b9 REF x19
+b9 TPR x19 "now"
+b9 time "n.08" x19
+b9 REF x20
+b9 Degree x21 x20
+b9 REF x21
+b9 Theme x21 x18
+b9 unfair "v.01" x21
+b9 Co-Theme x21 x22
+b10 REF x22
+b10 Of x22 x18

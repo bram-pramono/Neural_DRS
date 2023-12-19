@@ -1,0 +1,27 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 DRS x1
+b1 CONTRAST b1 b2
+b2 POS b3
+b3 REF x2
+b3 person "n.01" x2
+b3 PartOf x2 x4
+b4 REF x3
+b4 REF x4
+b4 Theme x3 x4
+b4 mr "n.01" x4
+b4 Name x3 "inglethorp"
+b4 male "n.02" x3
+b5 REF x5
+b5 User x5 x3
+b5 key "n.01" x5
+b1 REF x6
+b1 TPR "now" x6
+b1 time "n.08" x6
+b3 Time x7 x6
+b3 REF x7
+b3 Agent x7 x5
+b3 NOT b5 b2
+b3 open "v.01" x7
+b3 entity "n.01" x5

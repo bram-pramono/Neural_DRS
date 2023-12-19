@@ -1,0 +1,51 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 Experiencer x2 x1
+b2 Stimulus x2 x5
+b2 Time x2 x3
+b2 show "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 clearly "r.01" x4
+b3 REF x5
+b3 Of x8 "speaker"
+b3 REF x6
+b3 Attribute x5 x6
+b3 poor "a.01" x6
+b3 REF x7
+b3 Attribute x5 x7
+b3 PRESUPPOSITION b2
+b3 old "a.01" x7
+b3 REF x8
+b3 Role x5 x8
+b3 friend "n.01" x8
+b3 person "n.01" x5
+b2 REF x9
+b2 Manner x10 x9
+b2 just "a.01" x9
+b2 REF x10
+b2 REF x11
+b2 ATTRIBUTION b4
+b2 Agent x10 x5
+b2 Theme x10 x11
+b2 Time x10 x12
+b2 find "v.01" x10
+b2 proposition "n.01" x11
+b2 REF x12
+b2 TPR x12 "now"
+b2 time "n.08" x12
+b4 Time x13 x12
+b4 REF x13
+b4 Result x13 x14
+b4 Theme x13 x4
+b4 make "v.01" x13
+b4 REF x14
+b4 REF x15
+b4 Role x14 x15
+b4 fool "n.01" x15
+b4 person "n.01" x14

@@ -1,0 +1,37 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 PartOf x1 x2
+b2 entity "n.01" x1
+b4 REF x2
+b4 discovery "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b3 Time x4 x3
+b3 REF x4
+b3 Result x4 x1
+b3 make "v.04" x4
+b3 Agent x4 x5
+b5 REF x5
+b5 Name x5 "japp"
+b5 country "n.02" x5
+b6 DRS x2
+b6 DRS x5
+b5 CONTINUATION b2 b6
+b7 REF x6
+b7 Name x6 "japp"
+b7 organization "n.01" x6
+b6 REF x7
+b6 TPR "now" x7
+b6 time "n.08" x7
+b8 Time x8 x7
+b8 REF x8
+b8 Agent x8 x6
+b8 Theme x8 x9
+b8 take "v.01" x8
+b6 IMP b9 b8
+b9 REF x9
+b9 PartOf x9 x10
+b9 entity "n.01" x9
+b10 REF x10
+b10 credit "n.01" x10

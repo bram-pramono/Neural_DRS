@@ -1,0 +1,75 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Theme x2 "speaker"
+b2 sure "a.01" x2
+b3 DRS x1
+b3 DRS x2
+b2 CONTRAST b1 b3
+b3 REF x3
+b3 TPR "now" x3
+b3 time "n.08" x3
+b4 Time x4 x3
+b3 Experiencer x3
+b4 REF x4
+b4 Pivot x4 "speaker"
+b4 Theme x4 x5
+b4 have "v.01" x4
+b5 REF x5
+b5 REF x6
+b5 Role x5 x6
+b5 criminal "n.01" x6
+b5 person "n.01" x5
+b6 DRS x3
+b6 DRS x6
+b5 CONTRAST b2 b6
+b6 REF x7
+b6 TPR "now" x7
+b6 time "n.08" x7
+b7 Time x8 x7
+b6 Experiencer x7
+b7 REF x8
+b7 @-4 "n.01" "speaker"
+b7 Stimulus x8 x9
+b7 have "v.01" x8
+b8 REF x9
+b8 REF x10
+b8 Role x9 x10
+b8 criminal "n.01" x10
+b8 person "n.01" x9
+b9 DRS x7
+b9 DRS x10
+b8 CONTRAST b5 b9
+b9 REF x11
+b9 TPR "now" x11
+b9 time "n.08" x11
+b10 Time x12 x11
+b9 Experiencer x11
+b10 REF x12
+b10 @-4 "n.01" "speaker"
+b10 Stimulus x12 x13
+b10 have "v.01" x12
+b11 REF x13
+b11 REF x14
+b11 Role x13 x14
+b11 criminal "n.01" x14
+b11 person "n.01" x13
+b12 DRS x11
+b12 DRS x14
+b11 CONTRAST b8 b12
+b12 REF x15
+b12 TPR "now" x15
+b12 time "n.08" x15
+b13 Time x16 x15
+b12 Experiencer x15
+b13 REF x16
+b13 @-4 "n.01" "speaker"
+b13 Stimulus x16 x17
+b13 have "v.01" x16
+b14 REF x17
+b14 REF x18
+b14 Role x17 x18
+b14 criminal "n.01" x18

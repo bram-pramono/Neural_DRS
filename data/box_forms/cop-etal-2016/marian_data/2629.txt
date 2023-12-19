@@ -1,0 +1,34 @@
+b1 REF x1
+b1 @-4 "n.01" "hearer"
+b1 see "v.01" x1
+b2 DRS x1
+b1 CONTRAST b1 b2
+b2 REF x2
+b2 REF x3
+b2 Agent x2 "hearer"
+b2 PRP x3 b3
+b2 Topic x2 x3
+b2 say "v.01" x2
+b4 REF x4
+b4 entity "n.01" x4
+b2 REF x5
+b2 EQU x5 "now"
+b2 time "n.08" x5
+b3 REF x6
+b3 Agent x6 x4
+b3 Theme x6 x7
+b3 Time x6 x5
+b3 commit "v.01" x6
+b5 REF x7
+b5 murder "n.01" x7
+b3 POS b6
+b6 REF x8
+b6 @-4 "n.01" "speaker"
+b6 think "v.01" x8
+b6 Stimulus x8 x9
+b6 REF x9
+b6 Quantity x9 "7"
+b6 REF x10
+b6 Theme x10 x9
+b6 plausible "a.01" x10
+b6 story "n.01" x9

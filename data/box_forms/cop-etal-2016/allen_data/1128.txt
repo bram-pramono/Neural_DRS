@@ -1,0 +1,49 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 EQU x3 "now"
+b1 Pivot x1 "hearer"
+b1 Theme x1 x2
+b1 Time x1 x3
+b1 need "v.01" x1
+b1 proposition "n.01" x2
+b1 time "n.08" x3
+b2 NEGATION b3
+b3 REF x4
+b3 REF x5
+b3 ATTRIBUTION b4
+b3 Agent x4 "hearer"
+b3 Theme x4 x5
+b3 proposition "n.01" x5
+b3 think "v.01" x4
+b5 REF x6
+b5 fear "n.01" x6
+b5 Content x6 x7
+b5 REF x7
+b5 publicity "n.01" x7
+b6 REF x8
+b6 scandal "n.01" x8
+b6 Theme x8 x9
+b6 REF x9
+b6 REF x10
+b6 Role x9 x10
+b6 husband "n.01" x10
+b6 person "n.01" x9
+b6 REF x11
+b6 Sub x11 x9
+b6 Sub x11 x12
+b6 entity "n.01" x11
+b6 REF x12
+b6 REF x13
+b6 Role x12 x13
+b6 person "n.01" x12
+b6 wife "n.01" x13
+b4 REF x14
+b4 TPR "now" x14
+b4 time "n.08" x14
+b6 Time x15 x14
+b6 REF x15
+b6 Experiencer x15 "speaker"
+b6 Stimulus x15 x11
+b6 tolerant "v.01" x15

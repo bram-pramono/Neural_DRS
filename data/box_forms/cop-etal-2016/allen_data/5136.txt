@@ -1,0 +1,55 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x3 x1
+b2 Theme x3 x4
+b2 proposition "n.01" x4
+b2 suppose "v.01" x3
+b3 REF x5
+b3 Co-Theme x5 x7
+b3 Theme x5 x1
+b3 be "v.01" x5
+b3 REF x6
+b3 REF x7
+b3 Attribute x7 x6
+b3 deadly "a.01" x6
+b3 REF x8
+b3 Role x7 x8
+b3 enemy "n.01" x8
+b3 person "n.01" x7
+b4 REF x9
+b4 PRESUPPOSITION b5
+b4 person "n.01" x9
+b5 Time x12 x10
+b5 REF x10
+b5 TPR x10 "now"
+b5 time "n.08" x10
+b5 REF x11
+b5 Manner x12 x11
+b5 safely "a.01" x11
+b5 REF x12
+b5 Theme x12 x9
+b5 convict "v.01" x12
+b6 REF x13
+b6 PRESUPPOSITION b7
+b6 person "n.01" x13
+b5 NEGATION b7
+b7 REF x14
+b7 entity "n.01" x14
+b7 SubOf x14 x15
+b8 REF x15
+b8 PRESUPPOSITION b7
+b8 person "n.01" x15
+b7 REF x16
+b7 Agent x16 x14
+b7 Theme x16 x17
+b7 risk "v.01" x16
+b7 REF x17
+b7 meeting "n.01" x17

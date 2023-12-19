@@ -1,0 +1,30 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 person "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b3 REF x3
+b3 REF x4
+b3 ATTRIBUTION b4
+b3 Recipient x3 x1
+b3 Topic x3 x4
+b3 proposition "n.01" x4
+b4 REF x5
+b4 Agent x5 x1
+b4 believe "v.01" x5
+b4 Theme x5 x8
+b5 REF x6
+b5 REF x7
+b5 PRESUPPOSITION b6
+b5 PRESUPPOSITION b4
+b5 PRESUPPOSITION b7
+b6 Title x6 x7
+b6 mr "n.01" x7
+b6 person "n.01" x6
+b7 REF x8
+b7 Creator x8 x6
+b7 PRESUPPOSITION b3
+b7 guilt "n.01" x8

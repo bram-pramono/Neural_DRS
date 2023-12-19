@@ -1,0 +1,50 @@
+b1 NEGATION b2
+b2 REF x1
+b2 time "n.08" x1
+b2 REF x2
+b2 REF x3
+b2 ATTRIBUTION b3
+b2 Pivot x2 "hearer"
+b2 TPR x1 "now"
+b2 Theme x2 x3
+b2 Time x2 x1
+b2 believe "v.01" x2
+b2 proposition "n.01" x3
+b3 REF x4
+b3 REF x5
+b3 Attribute x4 x5
+b3 pretty "a.01" x5
+b3 REF x6
+b3 Attribute x4 x6
+b3 young "a.01" x6
+b3 lady "n.01" x4
+b3 REF x7
+b3 Location x7 x8
+b3 Theme x7 x4
+b3 like "a.01" x7
+b4 REF x8
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x8
+b3 POSSIBILITY b5
+b5 REF x9
+b5 REF x10
+b5 ATTRIBUTION b6
+b5 Pivot x9 x5
+b5 Theme x9 x10
+b5 have "v.01" x9
+b5 proposition "n.01" x10
+b6 REF x11
+b6 Agent x11 x4
+b6 Product x11 x12
+b6 make "v.01" x11
+b7 REF x12
+b7 PRESUPPOSITION b6
+b7 female "n.02" x12
+b6 Destination x11 x13
+b6 REF x13
+b6 PartOf x13 x14
+b6 such "n.01" x13
+b6 REF x14
+b6 REF x15
+b6 Role x14 x15
+b6 person "n.01" x14

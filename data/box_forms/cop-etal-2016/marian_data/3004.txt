@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 x2
+b1 speak "v.03" x1
+b2 REF x2
+b2 PartOf x2 "hearer"
+b2 mind "n.01" x2

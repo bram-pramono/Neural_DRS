@@ -1,0 +1,8 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 ah "v.01" x1
+b2 EQU x1 x2
+b1 Experiencer x1
+b2 REF x2
+b2 foi "n.01" x2
+b1 Experiencer x2

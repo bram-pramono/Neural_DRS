@@ -1,0 +1,19 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 Patient x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 shoot "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Attribute x4 x5
+b2 glance "n.01" x4
+b2 Destination x2 x6
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 female "n.02" x6

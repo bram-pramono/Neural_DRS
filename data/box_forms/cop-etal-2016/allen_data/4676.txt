@@ -1,0 +1,40 @@
+b1 REF x1
+b2 POSSIBILITY b3
+b3 REF x2
+b3 Agent x2 "speaker"
+b3 Theme x2 x3
+b3 build "v.01" x2
+b3 REF x3
+b3 REF x4
+b3 Theme x3 x4
+b3 card "n.01" x4
+b3 house "n.01" x3
+b1 REF x5
+b1 Quantity x5 "7"
+b1 story "n.02" x5
+b1 REF x6
+b1 Attribute x5 x6
+b1 Value x6 "+"
+b1 high "a.01" x6
+b1 CONTRAST b4
+b5 POSSIBILITY b6
+b4 NEGATION b5
+b6 REF x7
+b6 Agent x7 "speaker"
+b6 Theme x7 x8
+b6 find "v.01" x7
+b6 REF x8
+b7 REF x9
+b7 REF x10
+b7 Attribute x10 x9
+b7 last "a.01" x9
+b7 link "n.01" x10
+b7 Part x11 x9
+b7 REF x11
+b7 Agent x11 "speaker"
+b7 TPR x12 "now"
+b7 Time x11 x12
+b7 speak "v.02" x11
+b7 REF x12
+b7 time "n.08" x12
+b7 Recipient x11 "hearer"

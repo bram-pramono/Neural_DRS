@@ -1,0 +1,34 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 POSSIBILITY b2
+b2 REF x2
+b2 Theme x2 x1
+b2 turn "v.01" x2
+b2 REF x3
+b2 Co-Theme x3 x4
+b2 Theme x3 x1
+b2 be "v.01" x3
+b2 REF x4
+b2 piece "n.01" x4
+b2 Content x4 x5
+b2 REF x5
+b2 one "n.01" x5
+b2 SubOf x5 x7
+b4 REF x6
+b4 REF x7
+b4 PRESUPPOSITION b2
+b4 PRESUPPOSITION b5
+b4 Title x6 x7
+b4 mr "n.01" x7
+b4 person "n.01" x6
+b5 REF x8
+b5 PRESUPPOSITION b2
+b5 User x8 x6
+b5 dress "n.01" x8
+b2 REF x9
+b2 Sub x9 x8
+b2 Sub x9 x10
+b2 entity "n.01" x9
+b2 REF x10
+b2 somewhat "n.01" x10

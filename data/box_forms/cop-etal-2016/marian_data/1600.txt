@@ -1,0 +1,39 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Theme x2 "speaker"
+b1 right "a.01" x2
+b1 REF x3
+b1 Theme x2 x4
+b1 entity "n.01" x3
+b1 REF x4
+b1 NOT b1 b1
+b1 say "v.01" x4
+b2 DRS x3
+b2 DRS x4
+b1 CONTINUATION b1 b2
+b2 REF x5
+b2 TPR "now" x5
+b2 time "n.08" x5
+b3 Time x6 x5
+b2 Experiencer x5
+b3 REF x6
+b3 Manner x7 x6
+b3 automatically "r.01" x6
+b3 REF x7
+b3 NOT b3 "hearer"
+b3 revoke "v.01" x7
+b4 DRS x4
+b4 DRS x7
+b3 CONTINUATION b1 b4
+b4 REF x8
+b4 inglethorp "n.01" x8
+b4 REF x9
+b4 REF x10
+b4 TPR x10 "now"
+b4 Theme x9 x8
+b4 Time x9 x10
+b4 remarry "v.01" x9
+b4 time "n.08" x10

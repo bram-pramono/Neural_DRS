@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Theme x1 "speaker"
+b1 excuse "v.01" x1
+b1 EQU x1 x2
+b1 REF x2
+b1 Quantity x2 "1"
+b1 Unit x2 "minute"
+b1 measure "n.02" x2

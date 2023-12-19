@@ -1,0 +1,15 @@
+b1 REF x1
+b1 Quantity x1 ""+""
+b1 REF x2
+b1 Theme x2 x1
+b1 hectic "a.01" x2
+b1 Unit x1 "day"
+b1 measure "n.02" x1
+b1 REF x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Theme x3 x1
+b1 Time x3 x4
+b1 lie "v.02" x3
+b1 time "n.08" x4
+b1 Location x3 "speaker"

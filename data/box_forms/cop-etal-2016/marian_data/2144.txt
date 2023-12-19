@@ -1,0 +1,18 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 Agent x4 x1
+b2 PRP x3 b3
+b2 Topic x4 x3
+b2 evidence "a.01" x4
+b3 REF x5
+b3 NOT b3 b3
+b3 give "v.03" x5
+b3 Location x5 x6
+b4 REF x6
+b4 inbuest "n.01" x6

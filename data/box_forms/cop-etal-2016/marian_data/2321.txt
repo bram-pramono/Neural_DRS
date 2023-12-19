@@ -1,0 +1,75 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 @-4 "n.01" x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 stand "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 upright "r.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 Agent x5 x1
+b3 TPR x6 "now"
+b3 Time x5 x6
+b3 speak "v.02" x5
+b3 time "n.08" x6
+b3 Location x5 x7
+b3 REF x7
+b3 low "n.01" x7
+b4 DRS x6
+b4 DRS x7
+b3 CONTINUATION b2 b4
+b4 REF x8
+b4 REF x9
+b4 Agent x8 x3
+b4 TPR x9 "now"
+b4 Time x8 x9
+b4 speak "v.02" x8
+b4 time "n.08" x9
+b4 Location x8 x10
+b4 REF x10
+b4 low "n.01" x10
+b5 DRS x9
+b5 DRS x10
+b4 CONTINUATION b3 b5
+b5 REF x11
+b5 REF x12
+b5 Agent x11 x6
+b5 TPR x12 "now"
+b5 Time x11 x12
+b5 speak "v.02" x11
+b5 time "n.08" x12
+b5 Location x11 x13
+b5 REF x13
+b5 low "n.01" x13
+b6 DRS x12
+b6 DRS x13
+b5 CONTINUATION b4 b6
+b6 REF x14
+b6 REF x15
+b6 Agent x14 x9
+b6 TPR x15 "now"
+b6 Time x14 x15
+b6 speak "v.02" x14
+b6 time "n.08" x15
+b6 Location x14 x16
+b6 REF x16
+b6 low "n.01" x16
+b7 DRS x15
+b7 DRS x16
+b6 CONTINUATION b5 b7
+b7 REF x17
+b7 REF x18
+b7 Agent x17 x12
+b7 TPR x18 "now"
+b7 Time x17 x18
+b7 speak "v.02" x17
+b7 time "n.08" x18
+b7 Location x17 x18

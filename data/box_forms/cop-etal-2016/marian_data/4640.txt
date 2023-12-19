@@ -1,0 +1,20 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Recipient x1 "speaker"
+b1 tell "v.01" x1
+b2 DRS x1
+b1 CONTINUATION b1 b2
+b2 REF x2
+b2 EQU x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b2 Experiencer x2
+b3 REF x3
+b3 @-4 "n.01" "hearer"
+b3 familiar "a.01" x3
+b3 Stimulus x3 x4
+b3 REF x4
+b3 hand@-8writing "n.01" x4
+b3 Theme x4 x5
+b4 REF x5
+b4 entity "n.01" x5

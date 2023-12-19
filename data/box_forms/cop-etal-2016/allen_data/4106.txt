@@ -1,0 +1,7 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Theme x1 "speaker"
+b2 go "v.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 special "n.01" x2

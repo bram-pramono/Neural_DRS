@@ -1,0 +1,37 @@
+b1 REF x1
+b1 Manner x3 x1
+b1 suddenly "r.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 User x2 "speaker"
+b2 attention "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Patient x4 x2
+b1 arrest "v.01" x4
+b1 Agent x4 x5
+b1 REF x5
+b1 REF x6
+b1 Attribute x5 x6
+b1 weed "n.01" x6
+b1 REF x7
+b1 Attribute x5 x7
+b1 Value x7 "+"
+b1 young "a.01" x7
+b1 man "n.01" x5
+b1 REF x8
+b1 Theme x8 x5
+b1 rush "v.01" x8
+b1 Path x8 x9
+b3 REF x9
+b3 PRESUPPOSITION b1
+b3 street "n.01" x9
+b1 Location x8 x10
+b1 REF x10
+b1 REF x11
+b1 Attribute x10 x11
+b1 great "a.01" x11
+b1 pace "n.01" x10

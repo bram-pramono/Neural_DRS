@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 time "n.08" x2
+b2 Time x3 x2
+b1 Experiencer x2
+b2 REF x3
+b2 Theme x3 x1
+b2 do "v.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 REF x5
+b3 Agent x4 "speaker"
+b3 EQU x5 "now"
+b3 Time x4 x5
+b3 stare "v.01" x4
+b3 time "n.08" x5
+b3 REF x6
+b3 Manner x4 x6
+b3 earnestly "r.01" x6
+b4 DRS x5
+b4 DRS x6
+b3 CONTINUATION b2 b4
+b4 REF x7
+b4 REF x8
+b4 Agent x7 "speaker"
+b4 TPR x8 "now"
+b4 Time x7 x8
+b4 stare "v.01" x7
+b4 time "n.08" x8
+b4 REF x9
+b4 Manner x7 x9
+b4 earnestly "r.01" x9
+b5 DRS x8
+b5 DRS x9
+b4 CONTINUATION b3 b5
+b5 REF x10
+b5 REF x11
+b5 Agent x10 "speaker"
+b5 TPR x11 "now"
+b5 Time x10 x11
+b5 stare "v.01" x10
+b5 time "n.08" x11
+b5 REF x12
+b5 Manner x10 x12
+b5 earnestly "r.01" x12
+b6 DRS x11
+b6 DRS x12
+b5 CONTINUATION b4 b6
+b6 REF x13
+b6 REF x14
+b6 Agent x13 "speaker"
+b6 TPR x14 "now"
+b6 Time x13 x14
+b6 stare "v.01" x13
+b6 time "n.08" x14
+b6 REF x15
+b6 Manner x13 x15
+b6 earnestly "r.01" x15
+b7 DRS x14
+b7 DRS x15
+b6 CONTINUATION b5 b7
+b7 REF x16
+b7 REF x17
+b7 Agent x16 "speaker"
+b7 TPR x17 "now"
+b7 Time x16 x17
+b7 stare "v.01" x16
+b7 time "n.08" x17
+b7 REF x18
+b7 Manner x16 x18
+b7 earnestly "r.01" x18
+b8 DRS x17

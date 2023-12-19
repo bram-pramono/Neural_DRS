@@ -1,0 +1,13 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Degree x3 x2
+b1 hardly "r.01" x2
+b1 REF x3
+b1 Attribute "speaker" x3
+b1 clear "a.01" x3
+b1 REF x4
+b1 Theme x4 "speaker"
+b1 wish "v.01" x4

@@ -1,0 +1,8 @@
+b1 REF x1
+b1 colossal_cheek "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 REF x3
+b2 Theme x3 x2
+b2 little "a.01" x3
+b2 man "n.01" x2

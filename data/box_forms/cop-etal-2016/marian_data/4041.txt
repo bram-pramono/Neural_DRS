@@ -1,0 +1,30 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Theme x2 x3
+b2 Time x2 x4
+b2 declare "v.01" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 satisfied "n.01" x5
+b3 REF x6
+b3 Part x6 x5
+b3 Part x6 x7
+b3 group "n.01" x6
+b3 REF x7
+b3 REF x8
+b3 Theme x8 x7
+b3 so "a.01" x8
+b3 measure "n.02" x7
+b2 REF x9
+b2 TPR x9 "now"
+b2 time "n.08" x9
+b3 Time x10 x9
+b3 REF x10
+b3 Theme x10 x7
+b3 married "a.01" x10

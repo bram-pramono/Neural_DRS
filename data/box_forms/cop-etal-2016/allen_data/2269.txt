@@ -1,0 +1,34 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Topic x1 x2
+b2 say "v.01" x1
+b3 REF x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 Role x2 x3
+b3 doctor "n.01" x3
+b3 person "n.01" x2
+b2 REF x4
+b2 TPR x4 "now"
+b2 Time x5 x4
+b2 time "n.08" x4
+b2 REF x5
+b2 Theme x5 x2
+b2 continue "v.01" x5
+b2 REF x6
+b2 TPR "now" x6
+b2 Time x8 x6
+b2 time "n.08" x6
+b2 REF x7
+b2 Manner x8 x7
+b2 considerably "a.01" x7
+b2 REF x8
+b2 Experiencer x8 "speaker"
+b2 surprised "a.01" x8
+b2 Stimulus x8 x9
+b2 REF x9
+b2 NEQ x9 x10
+b4 REF x10
+b4 PRESUPPOSITION b2
+b2 result "n.01" x9

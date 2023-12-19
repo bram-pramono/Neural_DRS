@@ -1,0 +1,31 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 PartOf x2 x1
+b2 REF x3
+b2 Role x2 x3
+b2 effect "n.01" x3
+b2 person "n.01" x2
+b3 REF x4
+b3 TPR "now" x4
+b3 time "n.08" x4
+b4 Time x5 x4
+b3 Experiencer x4
+b4 REF x5
+b4 @-4 "n.01" x2
+b4 feel "v.01" x5
+b4 REF x6
+b4 Manner x5 x6
+b4 soon "r.01" x6
+b5 POS b6
+b3 IMP b7 b5
+b7 REF x7
+b7 REF x8
+b7 REF x9
+b7 LES x8 x9
+b7 Quantity x7 x8
+b7 quantity "n.01" x8
+b7 quantity "n.01" x9
+b7 EQU x9 "1"
+b7 Unit x7 "hour"
+b7 measure "n.02" x7

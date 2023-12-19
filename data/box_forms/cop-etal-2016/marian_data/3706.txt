@@ -1,0 +1,38 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 Recipient x2 "speaker"
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 make "v.09" x2
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Theme x5 x6
+b3 take "v.09" x5
+b4 REF x6
+b4 brooch "n.01" x6
+b3 Source x5 x7
+b5 REF x7
+b5 PartOf x7 "speaker"
+b5 tie "n.01" x7
+b3 PartOf x4 x8
+b6 REF x8
+b6 NEQ x8 "speaker"
+b6 day "n.01" x8
+b7 DRS x5
+b7 DRS x8
+b6 EXPLANATION b3 b7
+b3 REF x9
+b3 TPR x9 "now"
+b3 time "n.08" x9
+b8 Time x10 x9
+b7 Experiencer x9
+b8 REF x10
+b8 Theme x10 x4
+b8 straight "a.01" x10

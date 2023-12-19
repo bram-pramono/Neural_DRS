@@ -1,0 +1,9 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 NEC b3
+b3 REF x2
+b3 Agent x2 x1
+b3 act "v.01" x2
+b3 REF x3
+b3 Manner x2 x3
+b3 quickly "r.01" x3

@@ -1,0 +1,11 @@
+b1 REF x1
+b1 Name x1 "yes"
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 Quantity x2 "+"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 Quantity "v.01" x3

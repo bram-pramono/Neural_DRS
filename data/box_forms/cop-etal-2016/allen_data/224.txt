@@ -1,0 +1,38 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 call "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 Title x4 x5
+b3 mr "n.01" x5
+b3 person "n.01" x4
+b2 CONTINUATION b4
+b4 REF x6
+b4 EQU x6 "now"
+b4 Time x7 x6
+b4 time "n.08" x6
+b4 REF x7
+b4 REF x8
+b4 ATTRIBUTION b5
+b4 Pivot x7 "hearer"
+b4 Theme x7 x8
+b4 proposition "n.01" x8
+b4 think "v.01" x7
+b5 POSSIBILITY b6
+b6 REF x9
+b6 Agent x9 "hearer"
+b6 Theme x9 x10
+b6 write "v.01" x9
+b6 REF x10
+b6 Quantity x10 "-"
+b6 note "n.01" x10
+b6 Beneficiary x9 "speaker"

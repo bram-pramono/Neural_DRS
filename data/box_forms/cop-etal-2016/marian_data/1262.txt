@@ -1,0 +1,18 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 "speaker"
+b2 PRP x3 b3
+b2 Theme x2 x3
+b2 think "v.01" x2
+b3 POS b4
+b4 REF x4
+b4 @-4 "n.01" "speaker"
+b4 Stimulus x4 x5
+b4 notice "v.02" x4
+b5 REF x5
+b5 entity "n.01" x5

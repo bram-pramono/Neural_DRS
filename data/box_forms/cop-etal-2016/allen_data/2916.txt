@@ -1,0 +1,46 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 TPR x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 make "v.01" x1
+b1 time "n.08" x2
+b2 NEGATION b1
+b1 REF x3
+b1 REF x4
+b1 Attribute x3 x4
+b1 slight "a.01" x4
+b1 gesture "n.01" x3
+b1 CONTINUATION b3
+b3 REF x5
+b3 REF x6
+b3 EQU x6 "now"
+b3 Experiencer x5 "speaker"
+b3 Stimulus x5 x8
+b3 Time x5 x6
+b3 know "v.01" x5
+b3 time "n.08" x6
+b4 REF x7
+b4 PRESUPPOSITION b5
+b4 person "n.01" x7
+b5 REF x8
+b5 Creator x8 x7
+b5 PRESUPPOSITION b3
+b5 gesture "n.01" x8
+b3 CONTINUATION b6
+b6 REF x9
+b6 REF x10
+b6 TPR x10 "now"
+b6 Theme x9 x8
+b6 Time x9 x10
+b6 Value x9 x11
+b6 go "v.01" x9
+b6 time "n.08" x10
+b7 REF x11
+b7 PRESUPPOSITION b6
+b7 table "n.02" x11
+b6 Instrument x9 x12
+b8 REF x12
+b8 PRESUPPOSITION b6
+b8 bed "n.01" x12

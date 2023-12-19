@@ -1,0 +1,36 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 LES x2 x3
+b1 Quantity x1 x2
+b1 quantity "n.01" x2
+b1 quantity "n.01" x3
+b1 EQU x3 x4
+b2 REF x4
+b2 Of x5 x2
+b2 REF x5
+b2 Role x4 x5
+b2 person "n.01" x4
+b2 wife "n.01" x5
+b1 Name x2 "emily"
+b1 female "n.02" x2
+b1 REF x6
+b1 REF x7
+b1 Agent x6 "speaker"
+b1 PRP x7 b3
+b1 Theme x6 x7
+b1 Time x6 x8
+b1 think "v.01" x6
+b1 REF x8
+b1 EQU x8 "now"
+b1 time "n.08" x8
+b4 REF x9
+b4 cushion "n.01" x9
+b3 Time x11 x8
+b3 REF x10
+b3 Quantity x10 "@-8"
+b3 measure "n.02" x10
+b3 REF x11
+b3 Theme x11 x10
+b3 Value x11 x10
+b3 damp "a.01" x11

@@ -1,0 +1,14 @@
+b1 REF x1
+b1 contents "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 thing "n.01" x2
+b3 TPR "now" x3
+b3 Time x4 x3
+b3 REF x3
+b3 time "n.08" x3
+b2 Experiencer x3
+b3 REF x4
+b3 @-4 "n.01" "speaker"
+b3 Stimulus x4 x2
+b3 know "v.01" x4

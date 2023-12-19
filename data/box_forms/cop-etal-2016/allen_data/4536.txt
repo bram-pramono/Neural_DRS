@@ -1,0 +1,49 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 CONDITION b1
+b1 CONSEQUENCE b3
+b1 REF x2
+b1 REF x3
+b1 Attribute x2 x3
+b1 Value x3 "+"
+b1 low "a.01" x3
+b1 voice "n.01" x2
+b1 Context x8 x4
+b1 REF x4
+b1 answer "n.01" x4
+b1 Co-Patient x4 x7
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b5
+b4 PRESUPPOSITION b3
+b4 Title x5 x6
+b4 mr "n.01" x6
+b4 person "n.01" x5
+b5 REF x7
+b5 Bearer x7 x5
+b5 PRESUPPOSITION b1
+b5 question "n.01" x7
+b6 REF x8
+b6 PRESUPPOSITION b3
+b6 male "n.02" x8
+b3 REF x9
+b3 REF x10
+b3 ATTRIBUTION b7
+b4 Agent x9 x8
+b4 TPR x11 "now"
+b4 Time x9 x11
+b4 Topic x9 x10
+b4 deny "v.01" x9
+b4 proposition "n.01" x10
+b4 REF x11
+b4 time "n.08" x11
+b7 REF x12
+b7 Agent x12 x8
+b7 Theme x12 x13
+b7 order "v.01" x12
+b7 REF x13
+b7 entity "n.01" x13
+b7 Source x12 x11
+b4 MonthOfYear x11 "05"
+b4 YearOfCentury x11 "05"

@@ -1,0 +1,16 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 @-4 "n.01" "speaker"
+b1 Stimulus x2 x3
+b1 hush "v.01" x2
+b2 REF x3
+b2 entity "n.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 EXPLANATION b1 b3
+b3 REF x4
+b3 Theme x4 "speaker"
+b3 could "v.01" x4

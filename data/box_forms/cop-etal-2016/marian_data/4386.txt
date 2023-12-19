@@ -1,0 +1,34 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 have "v.01" x2
+b2 time "n.08" x3
+b2 Topic x2 x4
+b2 REF x4
+b2 year "n.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 Agent x5 x1
+b3 TPR x6 "now"
+b3 Theme x5 x7
+b3 Time x5 x6
+b3 execute "v.01" x5
+b3 time "n.08" x6
+b3 REF x7
+b3 will "n.01" x7
+b3 Theme x7 x8
+b3 REF x8
+b3 favour "n.01" x8
+b3 PartOf x8 x9
+b4 REF x9
+b4 REF x10
+b4 Role x9 x10
+b4 person "n.01" x9
+b4 prisoner "n.01" x10

@@ -1,0 +1,32 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Attribute x1 x3
+b2 pleasant "a.01" x3
+b2 EXPLANATION b3
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 ATTRIBUTION b4
+b3 EQU x6 "now"
+b3 Pivot x4 "hearer"
+b3 Theme x4 x5
+b3 Time x4 x6
+b3 proposition "n.01" x5
+b3 time "n.08" x6
+b3 want "v.01" x4
+b4 REF x7
+b4 Agent x7 "hearer"
+b4 Topic x7 x8
+b4 lead "v.01" x7
+b5 REF x8
+b5 REF x9
+b5 Attribute x8 x9
+b5 PRESUPPOSITION b4
+b5 leisure "a.01" x9
+b5 life "n.01" x8

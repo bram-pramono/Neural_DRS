@@ -1,0 +1,12 @@
+b1 REF x1
+b1 Quantity x1 "6"
+b1 point "n.01" x1
+b2 DRS x1
+b1 CONTINUATION b1 b2
+b2 REF x2
+b2 REF x3
+b2 Agent x2 "speaker"
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 ask "v.01" x2
+b2 time "n.08" x3

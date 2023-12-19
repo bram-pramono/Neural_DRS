@@ -1,0 +1,75 @@
+b1 POS b2
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Pivot x2 "hearer"
+b2 Theme x2 x3
+b2 Time x2 x1
+b2 have "v.01" x2
+b2 REF x3
+b2 warrant "n.01" x3
+b2 Goal x3 x4
+b3 REF x4
+b3 User x4 "hearer"
+b3 arrest "n.01" x4
+b2 Goal x3 x5
+b4 REF x5
+b4 User x5 "hearer"
+b4 arrest "n.01" x5
+b2 Goal x3 x6
+b5 REF x6
+b5 User x6 "hearer"
+b5 arrest "n.01" x6
+b2 Goal x4 x7
+b6 REF x7
+b6 User x7 "hearer"
+b6 arrest "n.01" x7
+b6 Theme x7 x8
+b7 REF x8
+b7 User x8 "hearer"
+b7 arrest "n.01" x8
+b7 Theme x8 x9
+b8 REF x9
+b8 User x9 "hearer"
+b8 arrest "n.01" x9
+b8 Theme x9 x10
+b9 REF x10
+b9 User x10 "hearer"
+b9 arrest "n.01" x10
+b9 Theme x10 x11
+b10 REF x11
+b10 User x11 "hearer"
+b10 arrest "n.01" x11
+b10 Theme x11 x12
+b11 REF x12
+b11 User x12 "hearer"
+b11 arrest "n.01" x12
+b11 Theme x12 x13
+b12 REF x13
+b12 User x13 "hearer"
+b12 arrest "n.01" x13
+b12 Theme x13 x14
+b13 REF x14
+b13 User x14 "hearer"
+b13 arrest "n.01" x14
+b13 Theme x14 x15
+b14 REF x15
+b14 User x15 "hearer"
+b14 arrest "n.01" x15
+b14 Theme x15 x16
+b15 REF x16
+b15 User x16 "hearer"
+b15 arrest "n.01" x16
+b15 Theme x16 x17
+b16 REF x17
+b16 User x17 "hearer"
+b16 arrest "n.01" x17
+b16 Theme x17 x18
+b17 REF x18
+b17 User x18 "hearer"
+b17 arrest "n.01" x18
+b17 Theme x18 x19
+b18 REF x19
+b18 User x19 "hearer"
+b18 arrest "n.01" x19

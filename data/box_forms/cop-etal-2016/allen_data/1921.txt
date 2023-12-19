@@ -1,0 +1,66 @@
+b1 REF x1
+b1 REF x2
+b1 Experiencer x2 "speaker"
+b1 Stimulus x2 x4
+b1 Time x2 x3
+b1 see "v.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 REF x5
+b1 Attribute x4 x5
+b1 faint "v.01" x5
+b1 smile "n.01" x4
+b1 REF x6
+b1 Theme x6 x4
+b1 Time x6 x3
+b1 gather "v.02" x6
+b1 Location x6 x9
+b2 REF x7
+b2 REF x8
+b2 PRESUPPOSITION b3
+b2 PRESUPPOSITION b1
+b2 Title x7 x8
+b2 mr "n.01" x8
+b2 person "n.01" x7
+b3 REF x9
+b3 Creator x9 x7
+b3 PRESUPPOSITION b1
+b1 REF x10
+b1 REF x11
+b1 REF x12
+b1 ATTRIBUTION b4
+b1 Agent x10 "speaker"
+b1 TPR x12 "now"
+b1 Time x10 x12
+b1 Topic x10 x11
+b1 endeavour "v.01" x10
+b1 proposition "n.01" x11
+b1 time "n.08" x12
+b4 REF x13
+b4 Agent x13 x9
+b4 try "v.01" x13
+b4 CONTINUATION b5
+b5 REF x14
+b5 Agent x14 "speaker"
+b5 Theme x14 x15
+b5 turn "v.01" x14
+b6 REF x15
+b6 PRESUPPOSITION b5
+b6 conversation "n.01" x15
+b7 REF x16
+b7 PRESUPPOSITION b8
+b7 person "n.01" x16
+b8 NEGATION b9
+b8 REF x17
+b8 TPR x17 "now"
+b8 time "n.08" x17
+b9 REF x18
+b9 Agent x18 x16
+b9 Co-Agent x18 x19
+b9 Time x18 x17
+b9 meet "v.01" x18
+b10 REF x19
+b10 PRESUPPOSITION b9
+b10 person "n.01" x19

@@ -1,0 +1,39 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 Agent x2 x1
+b1 TPR x3 "now"
+b1 Theme x2 x4
+b1 Time x2 x3
+b1 insurrection "v.01" x2
+b1 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 PRESUPPOSITION b1
+b2 Role x4 x5
+b2 deceased "n.01" x5
+b2 person "n.01" x4
+b1 REF x6
+b1 Agent x6 x1
+b1 Product x6 x7
+b1 make "v.01" x6
+b1 REF x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 fresh "a.01" x8
+b1 sail "n.01" x7
+b1 Co-Patient x6 x9
+b3 REF x9
+b3 REF x10
+b3 Attribute x9 x10
+b3 PRESUPPOSITION b1
+b3 Value x10 "+"
+b3 old "a.01" x10
+b3 person "n.01" x9
+b4 POSSIBILITY b5
+b2 NEGATION b4
+b5 REF x11
+b5 Agent x11 x4
+b5 Topic x11 x9
+b5 say "v.01" x11

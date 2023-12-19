@@ -1,0 +1,75 @@
+b1 Name x1 "manning"
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 come "v.02" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 slowly "r.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 REF x6
+b3 Agent x5 x1
+b3 TPR x6 "now"
+b3 Time x5 x6
+b3 stand "v.01" x5
+b3 time "n.08" x6
+b3 Location x5 x7
+b4 REF x7
+b4 REF x8
+b4 Name x8 "france"
+b4 Source x7 x8
+b4 country "n.02" x8
+b4 window "n.01" x7
+b5 DRS x5
+b5 DRS x8
+b4 CONTINUATION b1 b5
+b5 REF x9
+b5 REF x10
+b5 Agent x9 x4
+b5 TPR x10 "now"
+b5 Time x9 x10
+b5 stand "v.01" x9
+b5 time "n.08" x10
+b5 Location x9 x11
+b6 REF x11
+b6 REF x12
+b6 Name x12 "france"
+b6 Source x11 x12
+b6 country "n.02" x12
+b6 window "n.01" x11
+b7 DRS x9
+b7 DRS x12
+b6 CONTINUATION b3 b7
+b7 REF x13
+b7 REF x14
+b7 Agent x13 x8
+b7 TPR x14 "now"
+b7 Time x13 x14
+b7 stand "v.01" x13
+b7 time "n.08" x14
+b7 Location x13 x15
+b8 REF x15
+b8 REF x16
+b8 Name x16 "france"
+b8 Source x15 x16
+b8 country "n.02" x16
+b8 window "n.01" x15
+b9 DRS x13
+b9 DRS x16
+b8 CONTINUATION b5 b9
+b9 REF x17
+b9 REF x18
+b9 Agent x17 x12
+b9 TPR x18 "now"
+b9 Time x17 x18
+b9 stand "v.01" x17
+b9 time "n.08" x18
+b9 Location x17 x18

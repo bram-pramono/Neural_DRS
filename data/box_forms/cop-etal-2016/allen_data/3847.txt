@@ -1,0 +1,38 @@
+b1 Recipient x4 x1
+b2 REF x1
+b2 Creator x1 "speaker"
+b2 REF x2
+b2 Attribute x1 x2
+b2 PRESUPPOSITION b1
+b2 intense "n.01" x2
+b2 surprise "n.01" x1
+b1 REF x3
+b1 Theme x3 x1
+b1 get "v.01" x3
+b1 REF x4
+b1 Manner x3 x4
+b1 early "a.01" x4
+b1 Time x3 x5
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 morning "n.01" x5
+b1 REF x6
+b1 Manner x7 x6
+b1 eagerly "a.01" x6
+b1 REF x7
+b1 Agent x7 x1
+b1 Patient x7 x8
+b1 open "v.01" x7
+b4 REF x8
+b4 PRESUPPOSITION b1
+b4 newspaper "n.01" x8
+b5 REF x9
+b6 TPR x9 "now"
+b6 TPR x9 x10
+b5 NEGATION b6
+b6 REF x10
+b6 word "n.01" x10
+b6 Topic x10 x11
+b7 REF x11
+b7 PRESUPPOSITION b6
+b7 arrest "n.01" x11

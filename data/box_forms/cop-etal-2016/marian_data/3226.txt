@@ -1,0 +1,13 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 mon "n.01" x2
+b1 ami "n.01" x1
+b1 REF x3
+b1 TPR "now" x3
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Theme x4 "hearer"
+b1 be "v.03" x4
+b1 Theme x4 "speaker"

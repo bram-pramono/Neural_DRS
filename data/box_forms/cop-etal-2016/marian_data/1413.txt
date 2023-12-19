@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Theme x1 x2
+b1 location "v.01" x1
+b2 REF x2
+b2 Quantity x2 "3"
+b2 cup "n.01" x2

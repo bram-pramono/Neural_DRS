@@ -1,0 +1,64 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 EQU x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 admit "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b2 Recipient x2 x5
+b4 REF x5
+b4 PRESUPPOSITION b2
+b4 organization "n.01" x5
+b5 REF x6
+b5 EQU x6 "now"
+b5 Time x7 x6
+b5 time "n.08" x6
+b3 NEGATION b5
+b5 REF x7
+b5 Experiencer x7 "speaker"
+b5 Stimulus x7 x8
+b5 know "v.01" x7
+b5 REF x8
+b5 entity "n.01" x8
+b5 REF x9
+b5 Agent x9 x8
+b5 Theme x9 x2
+b5 do "v.01" x9
+b2 CONTRAST b6
+b6 REF x10
+b6 scandal "n.01" x10
+b6 Theme x10 x11
+b6 REF x11
+b6 REF x12
+b6 Role x11 x12
+b6 husband "n.01" x12
+b6 person "n.01" x11
+b6 REF x13
+b6 Sub x13 x10
+b6 Sub x13 x14
+b6 entity "n.01" x13
+b6 REF x14
+b6 REF x15
+b6 Role x14 x15
+b6 person "n.01" x14
+b6 wife "n.01" x15
+b3 REF x16
+b3 EQU x16 "now"
+b3 time "n.08" x16
+b6 REF x17
+b6 Co-Theme x17 x18
+b6 Theme x17 x13
+b6 Time x17 x16
+b6 be "v.01" x17
+b6 REF x18
+b6 REF x19
+b6 Attribute x18 x19
+b6 dreadful "a.01" x19
+b6 entity "n.01" x18

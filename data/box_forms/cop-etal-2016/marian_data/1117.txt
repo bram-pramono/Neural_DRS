@@ -1,0 +1,70 @@
+b1 REF x1
+b1 door "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 NOT b2 b1
+b2 shut "v.01" x3
+b3 DRS x2
+b3 DRS x3
+b2 CONTRAST b1 b3
+b4 REF x4
+b4 REF x5
+b4 Role x4 x5
+b4 mistress "n.01" x5
+b4 person "n.01" x4
+b3 REF x6
+b3 TPR x6 "now"
+b3 Time x7 x6
+b3 time "n.08" x6
+b3 REF x7
+b3 Agent x7 x4
+b3 Theme x7 x8
+b3 speak "v.03" x7
+b3 REF x8
+b3 sharp "n.01" x8
+b5 DRS x6
+b5 DRS x8
+b4 CONTINUATION b2 b5
+b5 REF x9
+b5 REF x10
+b5 Agent x9 "speaker"
+b5 TPR x10 "now"
+b5 Theme x9 x11
+b5 Time x9 x10
+b5 hear "v.01" x9
+b5 time "n.08" x10
+b5 REF x11
+b5 entity "n.01" x11
+b6 DRS x10
+b6 DRS x11
+b5 CONTINUATION b4 b6
+b6 REF x12
+b6 REF x13
+b6 Agent x12 "speaker"
+b6 TPR x13 "now"
+b6 Theme x12 x14
+b6 Time x12 x13
+b6 hear "v.01" x12
+b6 time "n.08" x13
+b6 REF x14
+b6 entity "n.01" x14
+b7 DRS x13
+b7 DRS x14
+b6 CONTINUATION b5 b7
+b7 REF x15
+b7 REF x16
+b7 Agent x15 "speaker"
+b7 TPR x16 "now"
+b7 Theme x15 x14
+b7 Time x15 x16
+b7 say "v.01" x15
+b7 time "n.08" x16
+b7 REF x17
+b7 entity "n.01" x17
+b7 REF x18
+b7 Causer x18 x17
+b7 Topic x18 x15
+b7 say "v.01" x18

@@ -1,0 +1,60 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 Experiencer x1 "speaker"
+b1 Stimulus x1 x2
+b1 TPR x3 "now"
+b1 Time x1 x3
+b1 feel "v.01" x1
+b1 proposition "n.01" x2
+b1 time "n.08" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 Time x5 x4
+b2 time "n.08" x4
+b2 REF x5
+b2 Attribute "speaker" x5
+b2 right "a.05" x5
+b2 Context x5 x6
+b3 REF x6
+b3 Creator x6 "speaker"
+b3 PRESUPPOSITION b2
+b3 opinion "n.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b5
+b4 person "n.01" x7
+b2 REF x8
+b2 PRESUPPOSITION b5
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b5 REF x9
+b5 Co-Theme x9 x10
+b5 Theme x9 x7
+b5 Time x9 x8
+b5 be "v.01" x9
+b2 REF x10
+b2 person "n.01" x10
+b2 REF x11
+b2 REF x12
+b2 Degree x13 x11
+b2 Degree x13 x12
+b2 most "r.01" x11
+b2 most "r.01" x12
+b2 REF x13
+b2 Experiencer x13 x10
+b2 Time x13 x14
+b2 affect "v.01" x13
+b2 REF x14
+b2 TPR x14 "now"
+b2 time "n.08" x14
+b2 Stimulus x13 x15
+b2 REF x15
+b2 REF x16
+b2 Attribute x15 x16
+b2 personal "a.01" x16
+b2 side "n.01" x15
+b2 PartOf x15 x17
+b6 REF x17
+b6 PRESUPPOSITION b2
+b6 tragedy "n.01" x17

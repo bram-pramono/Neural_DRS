@@ -1,0 +1,4 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 choose "v.01" x1

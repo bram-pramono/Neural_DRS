@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 wretched "a.01" x2
+b1 REF x3
+b1 Theme x3 x1
+b1 young "a.01" x3
+b1 man "n.01" x1
+b2 REF x4
+b2 TPR "now" x4
+b2 Time x5 x4
+b2 time "n.08" x4
+b2 REF x5
+b2 Theme x5 x5
+b2 visibly "v.03" x5
+b2 REF x6
+b2 Manner x5 x6
+b2 visibly "r.01" x6
+b2 REF x7
+b2 Manner x5 x7
+b2 visibly "r.01" x7
+b2 REF x8
+b2 Manner x5 x8
+b2 visibly "r.01" x8
+b2 REF x9
+b2 Manner x6 x9
+b2 visibly "r.01" x9
+b2 REF x10
+b2 Manner x7 x10
+b2 visibly "r.01" x10
+b2 REF x11
+b2 Manner x8 x11
+b2 visibly "r.01" x11
+b2 REF x12
+b2 Manner x9 x12
+b2 visibly "r.01" x12
+b2 REF x13
+b2 Manner x10 x13
+b2 visibly "r.01" x13
+b2 REF x14
+b2 Manner x11 x14
+b2 visibly "r.01" x14
+b2 REF x15
+b2 Manner x12 x15
+b2 visibly "r.01" x15
+b2 REF x16
+b2 Manner x13 x16
+b2 visibly "r.01" x16
+b2 REF x17
+b2 Manner x14 x17
+b2 visibly "r.01" x17
+b2 REF x18
+b2 Manner x15 x18
+b2 visibly "r.01" x18
+b2 REF x19
+b2 Manner x16 x19
+b2 visibly "r.01" x19
+b2 REF x20
+b2 Manner x17 x20
+b2 visibly "r.01" x20
+b2 REF x21
+b2 Manner x18 x21
+b2 visibly "r.01" x21
+b2 REF x22
+b2 Manner x19 x22
+b2 visibly "r.01" x22
+b2 REF x23
+b2 Manner x20 x23
+b2 visibly "r.01" x23
+b2 REF x24
+b2 Manner x21 x24
+b2 visibly "r.01" x24
+b2 REF x25
+b2 Manner x22 x25
+b2 visibly "r.01" x25

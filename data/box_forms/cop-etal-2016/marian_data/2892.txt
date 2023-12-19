@@ -1,0 +1,20 @@
+b1 REF x1
+b1 Location x3 x1
+b1 Name x1 "?"
+b1 reason "n.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Time x3 x2
+b1 time "n.08" x2
+b1 REF x3
+b1 Agent x3 "speaker"
+b1 stand "v.05" x3
+b1 Location x3 x4
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 particular "a.01" x5
+b2 spot "n.01" x4
+b1 Destination x2 x6
+b1 REF x6
+b1 guard "n.01" x6

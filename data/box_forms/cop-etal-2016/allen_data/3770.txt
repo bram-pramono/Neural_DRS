@@ -1,0 +1,69 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 PRESUPPOSITION b3
+b3 REF x2
+b3 CONSEQUENCE b1
+b3 PartOf x2 x3
+b2 REF x3
+b2 female "n.02" x3
+b3 beauty "n.01" x2
+b2 POSSIBILITY b4
+b1 PRESUPPOSITION b4
+b4 REF x4
+b4 REF x5
+b4 Agent x4 x2
+b4 TPR x5 "now"
+b4 Time x4 x5
+b4 sit "v.01" x4
+b4 time "n.08" x5
+b4 Instrument x4 x6
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 sunlight "n.01" x6
+b4 REF x7
+b4 REF x8
+b4 Agent x7 x6
+b4 TPR x8 "now"
+b4 Time x7 x8
+b4 time "n.08" x8
+b4 Location x7 x9
+b6 REF x9
+b6 PRESUPPOSITION b4
+b6 PartOf x9 x1
+b6 head "n.01" x9
+b4 CONTRAST b7
+b8 REF x10
+b8 PRESUPPOSITION b7
+b8 hat "n.01" x10
+b8 Theme x10 x11
+b8 REF x11
+b8 relief "n.01" x11
+b9 POSSIBILITY b10
+b11 REF x12
+b11 Pivot x12 x5
+b11 Theme x12 x13
+b11 have "v.01" x12
+b10 NEGATION b11
+b11 REF x13
+b11 connection "n.01" x13
+b11 Co-Patient x13 x14
+b12 REF x14
+b12 PRESUPPOSITION b11
+b12 tragedy "n.01" x14
+b13 REF x15
+b13 POSSIBILITY b14
+b14 REF x16
+b14 Attribute x15 x16
+b14 honest "a.01" x16
+b14 pity "n.01" x15
+b14 Goal x15 x17
+b15 REF x17
+b15 PRESUPPOSITION b14
+b15 User x17 x6
+b15 youth "n.01" x17
+b14 REF x18
+b14 Sub x18 x15
+b14 Sub x18 x19
+b14 entity "n.01" x18
+b14 REF x19

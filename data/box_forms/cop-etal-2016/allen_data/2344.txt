@@ -1,0 +1,33 @@
+b1 POSSIBILITY b2
+b3 NEGATION b1
+b2 REF x1
+b2 REF x2
+b2 ATTRIBUTION b4
+b2 Pivot x1 "hearer"
+b2 Theme x1 x2
+b2 Time x1 x3
+b2 fail "v.01" x1
+b2 proposition "n.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b4 REF x4
+b4 Agent x4 "hearer"
+b4 Theme x4 x5
+b4 hear "v.01" x4
+b5 REF x5
+b5 PRESUPPOSITION b4
+b5 voice "n.01" x5
+b4 REF x6
+b4 Manner x3 x6
+b4 especially "r.01" x6
+b6 REF x7
+b6 PRESUPPOSITION b4
+b6 person "n.01" x7
+b4 Time x8 x3
+b4 REF x8
+b4 Patient x8 x7
+b4 raise "v.01" x8
+b4 Context x8 x9
+b4 REF x9
+b4 anger "n.01" x9

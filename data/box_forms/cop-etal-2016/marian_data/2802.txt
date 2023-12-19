@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 TAB x1 x2
+b1 TIN "now" x1
+b1 TIN x3 x2
+b1 day "n.03" x1
+b1 day "n.03" x2
+b1 REF x3
+b1 Time x5 x3
+b1 time "n.08" x3
+b2 REF x4
+b2 daily_papers "n.01" x4
+b1 EQU x4 x5
+b3 REF x5
+b3 daily_papers "n.01" x5
+b1 IMP b4 b2
+b4 REF x6
+b4 all "n.01" x6
+b4 Theme x6 x7
+b5 REF x7
+b5 news "n.01" x7
+b5 Theme x7 x8
+b6 REF x8
+b6 Name x8 "england"
+b6 country "n.02" x8
+b2 REF x9
+b2 TPR "now" x9
+b2 time "n.08" x9
+b4 Time x10 x9
+b4 REF x10
+b4 Agent x10 x7
+b4 NOT b6 b7
+b4 blazon_out "v.01" x10
+b7 REF x11
+b7 news "n.01" x11
+b4 REF x12
+b4 Theme x10 x13
+b4 entity "n.01" x12
+b4 REF x13
+b4 Agent x13 x12
+b4 Theme x13 x14
+b4 stare "v.01" x13
+b8 REF x14
+b8 news "n.01" x14
+b8 Theme x14 x15
+b9 REF x15
+b9 news "n.01" x15
+b9 REF x16
+b9 Theme x15 x17
+b9 entity "n.01" x16
+b9 REF x17
+b9 Agent x17 x16
+b9 Theme x17 x18
+b9 stare "v.01" x17
+b10 REF x18
+b10 news "n.01" x18
+b10 Theme x18 x19
+b11 REF x19
+b11 news "n.01" x19
+b11 REF x20
+b11 Theme x19 x21
+b11 entity "n.01" x20
+b11 REF x21
+b11 Agent x21 x20
+b11 Theme x21 x22
+b11 stare "v.01" x21
+b12 REF x22
+b12 news "n.01" x22
+b12 Theme x22 x23
+b13 REF x23
+b13 news "n.01" x23
+b13 REF x24
+b13 Theme x23 x25
+b13 entity "n.01" x24
+b13 REF x25

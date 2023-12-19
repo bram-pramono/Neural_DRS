@@ -1,0 +1,11 @@
+b1 REF x1
+b1 person "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 relate "n.02" x2
+b2 Destination x2 x3
+b1 REF x3
+b1 destruction "n.01" x3
+b1 PartOf x3 x4
+b3 REF x4
+b3 will "n.01" x4

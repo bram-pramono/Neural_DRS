@@ -1,0 +1,5 @@
+b1 POS b2
+b3 Experiencer x1
+b4 REF x1
+b4 Agent x1 "speaker"
+b4 try "v.01" x1

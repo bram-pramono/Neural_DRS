@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 whole "a.01" x2
+b1 entity "n.01" x1
+b2 REF x3
+b2 TPR "now" x3
+b2 Time x4 x3
+b2 time "n.08" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 come_out "v.01" x4
+b2 REF x5
+b2 Manner x4 x5
+b2 then "r.01" x5
+b3 DRS x4
+b3 DRS x5
+b2 CONTINUATION b1 b3
+b3 REF x6
+b3 TPR "now" x6
+b3 time "n.08" x6
+b4 Time x7 x6
+b3 Experiencer x6
+b4 REF x7
+b4 REF x8
+b4 @-4 "n.01" x2
+b4 PRP x8 b5
+b4 Stimulus x7 x8
+b4 believe "v.01" x7
+b5 REF x9
+b5 man "n.01" x9
+b5 PartOf x9 x10
+b5 REF x10
+b5 person "n.01" x10
+b5 POS b6
+b6 REF x11
+b6 REF x12
+b6 @-4 "n.01" x9
+b6 PRP x12 b7
+b6 Stimulus x11 x12
+b6 believe "v.01" x11
+b7 REF x13
+b7 man "n.01" x13
+b7 PartOf x13 x14
+b7 REF x14
+b7 person "n.01" x14
+b7 POS b8
+b4 REF x15
+b4 TPR x15 "now"
+b4 time "n.08" x15
+b8 Time x16 x15
+b8 REF x16
+b8 Theme x16 x13
+b8 deceive "v.01" x16
+b8 Theme x16 x17
+b8 REF x17
+b8 REF x18
+b8 Theme x18 x17
+b8 awkward "a.01" x18
+b8 position "n.01" x17
+b8 REF x19
+b8 TPR "now" x19
+b8 time "n.08" x19
+b6 Time x20 x19
+b6 REF x20
+b6 REF x21
+b6 @-4 "n.01" x15
+b6 PRP x21 b9
+b6 Stimulus x20 x21
+b6 believe "v.01" x20
+b9 REF x22
+b9 man "n.01" x22
+b9 PartOf x22 x23
+b9 REF x23
+b9 person "n.01" x23

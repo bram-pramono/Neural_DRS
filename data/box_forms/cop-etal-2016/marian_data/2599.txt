@@ -1,0 +1,18 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Theme x2 x3
+b2 do "v.02" x2
+b3 REF x3
+b3 entity "n.01" x3
+b2 EQU x3 x4
+b4 REF x4
+b4 REF x5
+b4 Theme x4 x5
+b4 mr "n.01" x5
+b4 Name x4 "poirot"
+b4 male "n.02" x4

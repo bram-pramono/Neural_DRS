@@ -1,0 +1,39 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 POSSIBILITY b2
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 Patient x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 burn "v.01" x2
+b2 time "n.08" x3
+b4 REF x4
+b4 REF x5
+b4 Attribute x4 x5
+b4 PRESUPPOSITION b2
+b4 new "a.01" x5
+b4 person "n.01" x4
+b2 REF x6
+b2 Agent x6 x1
+b2 Theme x6 x7
+b2 mistake "v.01" x6
+b5 REF x7
+b5 PRESUPPOSITION b2
+b5 entity "n.01" x7
+b2 Destination x6 x8
+b2 REF x8
+b2 REF x9
+b2 Attribute x8 x9
+b2 earlier "n.01" x9
+b2 person "n.01" x8
+b2 Location x8 x11
+b6 REF x10
+b6 PRESUPPOSITION b7
+b6 male "n.02" x10
+b7 REF x11
+b7 PRESUPPOSITION b2
+b7 PartOf x11 x10
+b7 favour "n.01" x11

@@ -1,0 +1,24 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b3 NECESSITY b2
+b3 TPR x2 "now"
+b3 Time x3 x2
+b3 REF x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Theme x3 x1
+b3 administer "v.01" x3
+b3 REF x4
+b3 Location x3 x4
+b3 SY2 x4 x3
+b3 location "n.01" x4
+b3 ClockTime x3 "19:00"
+b3 REF x5
+b3 Sub x5 x1
+b3 Sub x5 x6
+b3 entity "n.01" x5
+b3 ClockTime x2 "09:00"
+b3 Time x2 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 evening "n.01" x6

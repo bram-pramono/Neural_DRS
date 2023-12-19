@@ -1,0 +1,36 @@
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 long "a.01" x2
+b1 REF x3
+b1 Manner x1 x3
+b1 enough "a.01" x3
+b1 Stimulus x1 x4
+b1 REF x4
+b1 gentleman "n.01" x4
+b1 REF x5
+b1 Agent x5 x4
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 study "v.01" x5
+b1 REF x6
+b1 TPR x6 "now"
+b1 time "n.08" x6
+b1 REF x7
+b1 medicine "n.02" x7
+b1 REF x8
+b1 Agent x8 x2
+b1 Patient x8 x9
+b1 Time x8 x6
+b1 REF x9
+b1 very "r.01" x9
+b1 REF x10
+b1 Attribute x9 x10
+b1 natural "a.01" x10
+b1 interest "n.01" x9
+b1 REF x11
+b1 Sub x11 x9
+b1 Sub x11 x12
+b1 entity "n.01" x11
+b1 REF x12
+b1 curiosity "n.01" x12

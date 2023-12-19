@@ -1,0 +1,39 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 drift "v.01" x2
+b2 time "n.08" x3
+b2 Result x2 x4
+b2 REF x4
+b2 entanglement "n.01" x4
+b2 Co-Agent x2 x5
+b2 REF x5
+b2 entanglement "n.01" x5
+b2 Co-Agent x2 x6
+b3 REF x6
+b3 REF x7
+b3 Theme x6 x7
+b3 mr "n.01" x7
+b3 Name x6 "raikes"
+b3 female "n.02" x6
+b4 DRS x5
+b4 DRS x7
+b3 CONTINUATION b1 b4
+b4 REF x8
+b4 REF x9
+b4 Agent x8 x3
+b4 Result x8 x10
+b4 TPR x9 "now"
+b4 Time x8 x9
+b4 cultivate "v.01" x8
+b4 time "n.08" x9
+b4 REF x10
+b4 friendship "n.01" x10
+b4 PartOf x10 x11
+b5 REF x11
+b5 Name x11 "dr~bauerstein"
+b5 state "n.01" x11

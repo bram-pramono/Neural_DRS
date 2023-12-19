@@ -1,0 +1,64 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Experiencer x4 x1
+b2 Stimulus x4 x3
+b2 proposition "n.01" x3
+b2 true "a.01" x4
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 female "n.02" x5
+b3 NEGATION b5
+b5 REF x6
+b5 time "n.08" x6
+b5 REF x7
+b5 Experiencer x7 x5
+b5 Stimulus x7 x8
+b5 TPR x6 "now"
+b5 Time x7 x6
+b5 hear "v.01" x7
+b5 REF x8
+b5 sound "n.01" x8
+b3 REF x9
+b3 Agent x9 x5
+b3 sleep "v.01" x9
+b3 CONTINUATION b6
+b7 REF x10
+b7 REF x11
+b7 PRESUPPOSITION b6
+b7 Title x10 x11
+b7 mr "n.01" x11
+b7 person "n.01" x10
+b6 Location x15 x12
+b3 REF x12
+b3 PRESUPPOSITION b6
+b3 REF x13
+b3 NEQ x13 x12
+b3 wing "n.01" x12
+b3 wing "n.01" x13
+b3 PartOf x12 x14
+b3 PartOf x13 x15
+b8 REF x14
+b8 REF x15
+b8 PRESUPPOSITION b5
+b8 building "n.01" x14
+b8 building "n.01" x15
+b4 REF x16
+b4 Manner x17 x16
+b4 REF x17
+b4 Experiencer x17 x10
+b4 Stimulus x17 x19
+b4 Time x17 x18
+b4 hear "v.01" x17
+b4 REF x18
+b4 TPR x18 "now"
+b4 time "n.08" x18
+b9 REF x19
+b9 PRESUPPOSITION b4

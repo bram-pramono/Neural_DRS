@@ -1,0 +1,54 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 be "v.01" x2
+b2 question "n.01" x3
+b2 REF x4
+b2 EQU x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Causer x7 x5
+b3 EQU x5 "?"
+b3 reason "n.01" x5
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 artifact "n.01" x6
+b3 REF x7
+b3 Theme x7 x6
+b3 Time x7 x4
+b3 be "v.01" x7
+b3 Location x7 x8
+b3 REF x8
+b3 REF x9
+b3 Role x8 x9
+b3 disadvantage "n.01" x9
+b3 person "n.01" x8
+b3 Of x9 x10
+b3 REF x10
+b3 PRESUPPOSITION b2
+b3 kind "n.01" x10
+b5 REF x11
+b5 PRESUPPOSITION b3
+b5 murder "n.01" x11
+b3 REF x12
+b3 Theme x12 x11
+b3 Time x12 x7
+b3 be "v.01" x12
+b3 REF x13
+b3 Manner x12 x13
+b3 only "a.01" x13
+b3 REF x14
+b3 Manner x15 x14
+b3 only "a.01" x14
+b3 REF x15
+b3 Theme x15 x4
+b3 speak "v.01" x15
+b3 TPR x16 x12
+b6 REF x16
+b6 PRESUPPOSITION b3

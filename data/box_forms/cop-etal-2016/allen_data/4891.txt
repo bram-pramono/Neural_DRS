@@ -1,0 +1,75 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 believe "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b4 REF x5
+b4 REF x6
+b4 Attribute x5 x6
+b4 PRESUPPOSITION b5
+b4 sleep "a.01" x6
+b3 PRESUPPOSITION b5
+b5 REF x7
+b5 REF x8
+b5 Agent x7 x5
+b5 TPR x8 "now"
+b5 Time x7 x8
+b5 Topic x7 x9
+b5 administer "v.01" x7
+b5 time "n.08" x8
+b5 REF x9
+b5 Degree x10 x9
+b5 perfectly "r.01" x9
+b5 REF x10
+b5 Attribute x5 x10
+b5 harmless "a.01" x10
+b3 CONTRAST b6
+b6 REF x11
+b7 EQU x11 "now"
+b7 EQU x11 x12
+b6 NEGATION b7
+b7 REF x12
+b8 REF x13
+b8 REF x14
+b8 PRESUPPOSITION b7
+b8 Title x13 x14
+b8 mr "n.01" x14
+b8 person "n.01" x13
+b7 REF x15
+b7 PRESUPPOSITION b9
+b7 TPR "now" x15
+b7 Time x16 x15
+b7 time "n.08" x15
+b7 REF x16
+b7 REF x17
+b7 ATTRIBUTION b10
+b7 Pivot x16 x13
+b7 Theme x16 x17
+b7 Time x16 x18
+b7 fear "v.01" x16
+b7 proposition "n.01" x17
+b7 REF x18
+b7 TPR x18 "now"
+b7 time "n.08" x18
+b11 REF x19
+b11 REF x20
+b11 PRESUPPOSITION b12
+b11 PRESUPPOSITION b10
+b11 Title x19 x20
+b11 mr "n.01" x20
+b11 person "n.01" x19
+b12 REF x21
+b12 PRESUPPOSITION b10
+b12 User x21 x19
+b12 death "n.01" x21
+b10 REF x22
+b10 Theme x22 x21

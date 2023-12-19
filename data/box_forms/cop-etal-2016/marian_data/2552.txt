@@ -1,0 +1,54 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 friendly "a.01" x2
+b1 reminiscence "n.01" x1
+b2 REF x3
+b2 TPR x3 "now"
+b2 Time x4 x3
+b2 time "n.08" x3
+b2 REF x4
+b2 NOT b2 b1
+b2 indulge "v.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 TPR x5 "now"
+b3 Time x6 x5
+b3 time "n.08" x5
+b3 REF x6
+b3 NOT b3 "speaker"
+b3 indulge "v.01" x6
+b4 DRS x5
+b4 DRS x6
+b3 CONTINUATION b2 b4
+b4 REF x7
+b4 TPR x7 "now"
+b4 Time x8 x7
+b4 time "n.08" x7
+b4 REF x8
+b4 NOT b4 "speaker"
+b4 introduce "v.02" x8
+b4 Recipient x8 x9
+b5 REF x9
+b5 Name x9 "detective@-8inspector~japp"
+b5 state "n.01" x9
+b6 DRS x7
+b6 DRS x9
+b5 CONTINUATION b3 b6
+b6 REF x10
+b6 TPR x10 "now"
+b6 Time x11 x10
+b6 time "n.08" x10
+b6 REF x11
+b6 NOT b6 "speaker"
+b6 introduce "v.02" x11
+b6 Recipient x11 x12
+b6 REF x12
+b6 REF x13
+b6 Name x13 "detective"
+b6 Source x12 x13
+b6 country "n.02" x13
+b6 superintendent "n.01" x12
+b6 Name x12 "summerhaye"

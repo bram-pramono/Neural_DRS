@@ -1,0 +1,12 @@
+b1 REF x1
+b2 TPR x1 "now"
+b2 EQU x1 x2
+b1 Experiencer x1
+b2 REF x2
+b2 need "n.01" x2
+b2 REF x3
+b2 Agent x3 x2
+b2 NOT b2 b3
+b2 introduce "v.01" x3
+b3 REF x4
+b3 entity "n.01" x4

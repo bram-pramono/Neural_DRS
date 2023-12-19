@@ -1,0 +1,37 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 take "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x4
+b2 CONTINUATION b4
+b4 REF x5
+b4 REF x6
+b4 ATTRIBUTION b5
+b4 Agent x5 "speaker"
+b4 TPR x5 x6
+b4 Time x5 x7
+b4 grant "v.01" x5
+b4 proposition "n.01" x6
+b4 REF x7
+b4 TPR x7 "now"
+b4 time "n.08" x7
+b5 REF x8
+b5 Manner x9 x8
+b5 just "a.01" x8
+b5 REF x9
+b5 Theme x9 "speaker"
+b5 Time x9 x7
+b5 come "v.01" x9
+b5 Location x9 x10
+b6 REF x10
+b6 PRESUPPOSITION b5
+b6 scene "n.01" x10

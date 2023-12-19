@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 figure "v.01" x1
+b1 Recipient x1 "speaker"
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 scene "n.01" x2

@@ -1,0 +1,46 @@
+b1 CONDITION b2
+b3 PRESUPPOSITION b1
+b3 REF x1
+b3 female "n.02" x1
+b4 REF x2
+b4 REF x3
+b4 REF x4
+b4 ATTRIBUTION b1
+b4 Experiencer x2 x1
+b4 Stimulus x2 x3
+b4 TPR x4 "now"
+b4 Time x2 x4
+b4 know "v.01" x2
+b4 proposition "n.01" x3
+b4 time "n.08" x4
+b1 PRESUPPOSITION b5
+b5 REF x5
+b5 Of x6 x1
+b5 REF x6
+b5 PRESUPPOSITION b3
+b5 Role x5 x6
+b5 mother-in-law "n.01" x6
+b5 person "n.01" x5
+b6 REF x7
+b6 Manner x8 x7
+b3 REF x8
+b3 TPR x8 "now"
+b3 time "n.08" x8
+b6 REF x9
+b6 Agent x9 x5
+b6 Theme x9 x10
+b6 Time x9 x8
+b6 keep "v.08" x9
+b3 REF x10
+b3 CONSEQUENCE b6
+b3 REF x11
+b3 Attribute x10 x11
+b3 important "a.01" x11
+b3 papers "n.01" x10
+b3 Location x10 x12
+b7 REF x12
+b7 REF x13
+b7 Attribute x12 x13
+b7 PRESUPPOSITION b3
+b7 particular "n.01" x13
+b7 case "n.01" x12

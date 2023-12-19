@@ -1,0 +1,63 @@
+b1 REF x1
+b1 quarrel "n.01" x1
+b1 REF x2
+b1 Agent x2 x1
+b1 Theme x2 x3
+b1 take "v.01" x2
+b1 REF x3
+b1 place "n.01" x3
+b1 REF x4
+b1 Location x2 x4
+b1 SY2 x4 x5
+b1 location "n.01" x4
+b1 REF x5
+b1 REF x6
+b1 Role x5 x6
+b1 person "n.01" x5
+b1 prisoner "n.01" x6
+b1 REF x7
+b1 Sub x7 x2
+b1 Sub x7 x8
+b1 entity "n.01" x7
+b2 PRESUPPOSITION b3
+b3 REF x8
+b3 Of x10 x9
+b2 REF x9
+b2 PRESUPPOSITION b1
+b2 male "n.02" x9
+b3 REF x10
+b3 PRESUPPOSITION b1
+b3 Role x8 x10
+b3 person "n.01" x8
+b1 Time x12 x11
+b1 REF x11
+b1 TPR x11 "now"
+b1 time "n.08" x11
+b1 REF x12
+b1 Manner x13 x12
+b1 freely "a.01" x12
+b1 REF x13
+b1 Theme x13 x8
+b1 Time x13 x11
+b1 admit "v.01" x13
+b1 CONTRAST b4
+b5 REF x14
+b5 CONSEQUENCE b6
+b5 PartOf x14 x15
+b5 Quantity x14 "1"
+b5 Quantity x15 "2"
+b5 entity "n.01" x14
+b7 PRESUPPOSITION b8
+b8 REF x15
+b8 User x15 x4
+b8 REF x16
+b8 Attribute x15 x16
+b8 PRESUPPOSITION b6
+b8 financial "a.01" x16
+b6 Time x17 x5
+b6 REF x17
+b6 Degree x18 x17
+b6 grossly "r.01" x17
+b6 REF x18
+b6 Attribute x15 x18
+b6 exaggerated "a.01" x18

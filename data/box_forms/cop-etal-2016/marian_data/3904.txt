@@ -1,0 +1,46 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 man "n.01" x4
+b2 Theme x4 x5
+b3 REF x5
+b3 REF x6
+b3 Role x5 x6
+b3 mr "n.01" x6
+b3 person "n.01" x5
+b4 DRS x4
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 cavendish "n.01" x7
+b4 REF x8
+b4 TPR x8 "now"
+b4 Time x9 x8
+b4 time "n.08" x8
+b4 REF x9
+b4 Theme x9 x7
+b4 wander "v.01" x9
+b4 Location x9 x10
+b5 REF x10
+b5 country "n.01" x10
+b6 DRS x8
+b6 DRS x10
+b5 CONTINUATION b3 b6
+b6 REF x11
+b6 REF x12
+b6 Agent x11 "speaker"
+b6 TPR x12 "now"
+b6 Time x11 x12
+b6 cry "v.01" x11
+b6 time "n.08" x12
+b6 REF x13
+b6 Manner x11 x13
+b6 indignantly "r.01" x13

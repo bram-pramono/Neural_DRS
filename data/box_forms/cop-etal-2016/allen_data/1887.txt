@@ -1,0 +1,11 @@
+b1 PRECONDITION b2
+b1 REF x1
+b1 Manner x2 x1
+b1 only "a.01" x1
+b2 REF x2
+b2 REF x3
+b2 Experiencer x2 "speaker"
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 know "v.01" x2
+b2 time "n.08" x3

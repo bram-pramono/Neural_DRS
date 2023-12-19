@@ -1,0 +1,30 @@
+b1 Time x2 x1
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b1 REF x2
+b1 Source x2 "speaker"
+b1 relieve "v.01" x2
+b2 DRS x1
+b2 DRS x2
+b1 EXPLANATION b1 b2
+b3 REF x3
+b3 female "n.02" x3
+b2 REF x4
+b2 Agent x4 x3
+b2 NOT b3 "speaker"
+b2 Time x4 x1
+b2 shake "v.01" x4
+b2 Agent x4 x5
+b4 REF x5
+b4 hand "n.01" x5
+b1 Instrument x4 x6
+b5 REF x6
+b5 PartOf x6 "speaker"
+b5 REF x7
+b5 Theme x7 x6
+b5 well "a.01" x7
+b5 REF x8
+b5 Theme x8 x6
+b5 painful "a.01" x8
+b5 grip "n.01" x6

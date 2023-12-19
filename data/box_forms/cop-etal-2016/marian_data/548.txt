@@ -1,0 +1,32 @@
+b1 REF x1
+b1 entity "n.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Time x3 x2
+b1 time "n.08" x2
+b1 REF x3
+b1 Agent x3 "hearer"
+b1 Attribute x3 x4
+b1 do "v.01" x3
+b1 REF x4
+b1 REF x5
+b1 Role x4 x5
+b1 doctor "n.01" x5
+b1 person "n.01" x4
+b2 DRS x4
+b2 DRS x5
+b1 CONTINUATION b1 b2
+b2 REF x6
+b2 REF x7
+b2 Agent x6 "hearer"
+b2 Result x6 x8
+b2 TPR x7 "now"
+b2 Time x6 x7
+b2 cry "v.02" x6
+b2 time "n.08" x7
+b3 REF x8
+b3 REF x9
+b3 Theme x8 x9
+b3 mr "n.01" x9
+b3 Name x8 "cavendish"
+b3 person "n.01" x8

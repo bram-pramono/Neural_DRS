@@ -1,0 +1,37 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Co-Theme x3 x4
+b2 Theme x3 x1
+b2 be "v.03" x3
+b2 REF x4
+b2 mine "n.01" x4
+b2 Instrument x3 x5
+b2 REF x5
+b2 rights "n.01" x5
+b3 DRS x4
+b3 DRS x5
+b2 CONTRAST b1 b3
+b4 REF x6
+b4 Of x7 "speaker"
+b4 REF x7
+b4 Role x6 x7
+b4 father "n.01" x7
+b4 person "n.01" x6
+b3 REF x8
+b3 REF x9
+b3 Agent x8 x6
+b3 Result x8 x10
+b3 TPR x9 "now"
+b3 Time x8 x9
+b3 make "v.09" x8
+b3 time "n.08" x9
+b3 REF x10
+b3 decent "n.01" x10
+b3 REF x11
+b3 Theme x11 x10
+b3 will "v.01" x11

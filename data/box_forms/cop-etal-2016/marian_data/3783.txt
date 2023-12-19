@@ -1,0 +1,15 @@
+b1 Time x2 x1
+b1 REF x1
+b1 course "n.01" x1
+b2 REF x2
+b2 entity "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 "speaker"
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 say "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 Manner x3 x5
+b1 stiffly "r.01" x5

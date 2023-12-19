@@ -1,0 +1,8 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 ah "v.01" x1
+b2 DRS x1
+b1 CONTINUATION b1 b2
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 pig "v.01" x2

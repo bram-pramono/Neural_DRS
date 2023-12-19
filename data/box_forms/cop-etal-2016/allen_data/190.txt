@@ -1,0 +1,26 @@
+b1 REF x1
+b1 Location x5 x1
+b1 Name x1 "?"
+b1 reason "n.01" x1
+b2 REF x2
+b2 Name x2 "mary"
+b2 PRESUPPOSITION b1
+b2 female "n.02" x2
+b1 REF x3
+b1 REF x4
+b1 Attribute x3 x4
+b1 conversation "n.01" x3
+b1 REF x5
+b1 REF x6
+b1 Agent x5 x3
+b1 Patient x5 x7
+b1 TPR x6 "now"
+b1 Time x5 x6
+b1 cry "v.01" x5
+b1 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 PRESUPPOSITION b1
+b3 Title x7 x8
+b3 mr "n.01" x8
+b3 person "n.01" x7

@@ -1,0 +1,20 @@
+b1 REF x1
+b1 Name x1 "rollestons"
+b1 geographical_area "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 come_over "v.01" x2
+b2 time "n.08" x3
+b2 Instrument x2 x4
+b2 REF x4
+b2 conbueror "n.01" x4
+b2 PartOf x4 x5
+b3 REF x5
+b3 User x5 "speaker"
+b3 REF x6
+b3 Theme x6 x5
+b3 oldest "a.01" x6
+b3 family "n.01" x5

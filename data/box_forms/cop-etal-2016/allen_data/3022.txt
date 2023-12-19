@@ -1,0 +1,28 @@
+b1 REF x1
+b1 REF x2
+b1 Experiencer x1 "speaker"
+b1 Stimulus x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 have "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 REF x4
+b1 Topic x3 x4
+b1 idea "n.01" x4
+b2 REF x5
+b2 PRESUPPOSITION b3
+b2 female "n.02" x5
+b1 POSSIBILITY b3
+b3 REF x6
+b3 Experiencer x6 x5
+b3 Stimulus x6 x7
+b3 know "v.01" x6
+b3 REF x7
+b3 entity "n.01" x7
+b3 Topic x7 x8
+b1 REF x8
+b1 PartOf x8 x9
+b4 REF x9
+b4 PRESUPPOSITION b1
+b4 bow "n.01" x9

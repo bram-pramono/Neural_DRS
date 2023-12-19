@@ -1,0 +1,42 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 quickly "a.01" x1
+b1 REF x2
+b1 REF x3
+b1 Agent x2 "speaker"
+b1 TPR x3 "now"
+b1 Theme x2 x4
+b1 Time x2 x3
+b1 hand "v.01" x2
+b1 time "n.08" x3
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 person "n.01" x4
+b1 Recipient x2 x5
+b3 PRESUPPOSITION b1
+b3 REF x5
+b3 male "n.02" x5
+b1 CONTINUATION b4
+b4 Instrument x8 x6
+b4 REF x6
+b4 skill "n.01" x6
+b5 REF x7
+b5 PRESUPPOSITION b4
+b5 male "n.02" x7
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b4 REF x9
+b4 Agent x9 x7
+b4 Theme x9 x10
+b4 Time x9 x8
+b4 extract "v.01" x9
+b4 REF x10
+b4 REF x11
+b4 Attribute x10 x11
+b4 Value x11 "+"
+b4 small "a.01" x11
+b4 piece "n.01" x10
+b4 Value x10 x12
+b4 REF x12
+b4 paper "n.01" x12

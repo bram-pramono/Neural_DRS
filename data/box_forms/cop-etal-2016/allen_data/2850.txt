@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Creator x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b1 REF x3
+b1 REF x4
+b1 ATTRIBUTION b3
+b1 Agent x3 x1
+b1 Topic x3 x4
+b1 proposition "n.01" x4
+b1 REF x5
+b1 man "n.01" x5
+b1 REF x6
+b1 Destination x6 x8
+b1 Theme x6 x5
+b1 Time x6 x7
+b1 enter "v.01" x6
+b1 REF x7
+b1 TPR x7 "now"
+b1 time "n.08" x7
+b4 REF x8
+b4 PRESUPPOSITION b5
+b4 REF x9
+b4 PRESUPPOSITION b2
+b4 Role x8 x9
+b4 chemist "n.01" x9
+b4 person "n.01" x8
+b5 REF x10
+b5 PRESUPPOSITION b2
+b5 User x10 x8
+b5 shop "n.01" x10
+b2 CONTINUATION b6
+b6 REF x11
+b6 Agent x11 x4
+b6 TPR x12 "now"
+b6 Theme x11 x13
+b6 Time x11 x12
+b6 capture "v.01" x11
+b6 REF x12
+b6 time "n.08" x12
+b6 REF x13
+b6 ClockTime x12 "18:00"
+b6 Time x10 x14
+b7 REF x14
+b7 PRESUPPOSITION b6
+b7 ClockTime x14 "06:00"
+b7 time "n.08" x14
+b6 PartOf x11 x15
+b8 REF x15
+b8 PRESUPPOSITION b6
+b8 day "n.01" x15
+b9 REF x16
+b9 REF x17
+b9 PRESUPPOSITION b6
+b9 Title x16 x17
+b9 mr "n.01" x17
+b9 person "n.01" x16
+b6 Time x18 x6
+b6 REF x18
+b6 Agent x18 x16
+b6 Theme x18 x19
+b6 escort "v.01" x18
+b10 REF x19
+b10 REF x20
+b10 PRESUPPOSITION b6
+b10 Title x19 x20
+b10 mr "n.01" x20
+b10 person "n.01" x19
+b6 REF x21
+b6 Theme x21 x10
+b6 back "v.01" x21
+b6 Destination x21 x23
+b6 REF x22
+b6 User x23 x23
+b11 REF x23

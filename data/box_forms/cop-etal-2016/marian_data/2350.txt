@@ -1,0 +1,34 @@
+b1 REF x1
+b1 REF x2
+b1 @-4 "n.01" "speaker"
+b1 Stimulus x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 hear "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 voice "n.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 CONTRAST b1 b3
+b3 REF x4
+b3 TPR x4 "now"
+b3 time "n.08" x4
+b4 Time x5 x4
+b3 Experiencer x4
+b4 REF x5
+b4 @-4 "n.01" "speaker"
+b4 Stimulus x5 x6
+b4 hear "v.01" x5
+b4 REF x6
+b4 entity "n.01" x6
+b5 REF x7
+b5 person "n.01" x7
+b4 REF x8
+b4 REF x9
+b4 Agent x8 x7
+b4 TPR x9 "now"
+b4 Time x8 x9
+b4 Topic x8 x6
+b4 say "v.01" x8
+b4 time "n.08" x9

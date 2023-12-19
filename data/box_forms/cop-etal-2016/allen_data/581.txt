@@ -1,0 +1,40 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 "speaker"
+b2 Time x2 x3
+b2 join "v.01" x2
+b2 time "n.08" x3
+b2 CONTINUATION b3
+b4 REF x4
+b4 Quantity x4 "1"
+b4 entity "n.01" x4
+b4 PartOf x4 x5
+b5 REF x5
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 Role x5 x6
+b5 person "n.01" x5
+b5 servant "n.01" x6
+b3 REF x7
+b3 TPR x7 "now"
+b3 time "n.08" x7
+b4 Time x8 x7
+b4 REF x8
+b4 Experiencer x8 x4
+b4 Stimulus x8 x9
+b4 stand "v.01" x8
+b4 REF x9
+b4 round "n.01" x9
+b4 Location x8 x10
+b4 REF x10
+b4 state "n.01" x10
+b4 Theme x10 x12
+b4 REF x11
+b4 REF x12
+b4 Attribute x12 x11
+b4 excitement "n.01" x12

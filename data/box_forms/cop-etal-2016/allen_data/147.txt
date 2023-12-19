@@ -1,0 +1,4 @@
+b1 REF x1
+b1 Participant x1 x1
+b1 event "v.01" x1
+b2 POSSIBILITY b1

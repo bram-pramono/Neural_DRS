@@ -1,0 +1,15 @@
+b1 NEGATION b2
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 Experiencer x2 "hearer"
+b2 Stimulus x2 x3
+b2 get "v.01" x2
+b2 REF x3
+b2 Experiencer x3 "hearer"
+b2 Stimulus x3 x4
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 subject "n.01" x4

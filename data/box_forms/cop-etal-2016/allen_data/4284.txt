@@ -1,0 +1,60 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b3 REF x2
+b3 REF x3
+b3 Agent x2 x1
+b3 Patient x2 x4
+b3 TPR x3 "now"
+b3 Time x2 x3
+b3 safeguard "v.01" x2
+b3 time "n.08" x3
+b3 REF x4
+b3 Manner x2 x4
+b3 Location x2 x7
+b2 REF x5
+b2 Of x6 x1
+b2 PRESUPPOSITION b4
+b2 REF x6
+b2 PRESUPPOSITION b3
+b2 Role x5 x6
+b2 husband "n.01" x6
+b2 person "n.01" x5
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 User x7 x5
+b4 side "n.01" x7
+b3 REF x8
+b3 Agent x8 x4
+b3 Patient x8 x9
+b3 scour "v.01" x8
+b3 REF x9
+b3 REF x10
+b3 REF x11
+b3 Attribute x9 x10
+b3 Degree x10 x11
+b3 mere "a.01" x10
+b3 most "r.01" x11
+b3 idea "n.01" x9
+b3 PartOf x9 x13
+b5 REF x12
+b5 PRESUPPOSITION b6
+b5 male "n.02" x12
+b6 REF x13
+b6 Creator x13 x12
+b6 PRESUPPOSITION b3
+b6 guilt "n.01" x13
+b3 CONTINUATION b7
+b7 REF x14
+b7 Agent x14 x7
+b7 Time x14 x15
+b7 fight "v.01" x14
+b7 REF x15
+b7 TPR x15 "now"
+b7 time "n.08" x15
+b7 Beneficiary x14 x8
+b4 PRESUPPOSITION b7
+b7 REF x16
+b7 CONSEQUENCE b6
+b7 PartOf x16 x5
+b7 entity "n.01" x16

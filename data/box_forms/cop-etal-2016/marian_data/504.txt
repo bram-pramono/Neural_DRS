@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Name x1 "aunt~emily"
+b1 female "n.02" x1
+b2 REF x2
+b2 Part x2 x1
+b2 Part x2 x3
+b2 group "n.01" x2
+b3 REF x3
+b3 male "n.02" x3

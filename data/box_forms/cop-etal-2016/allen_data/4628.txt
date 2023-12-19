@@ -1,0 +1,74 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 EQU x3 "now"
+b1 Experiencer x1 "speaker"
+b1 Stimulus x1 x2
+b1 Time x1 x3
+b1 proposition "n.01" x2
+b1 time "n.08" x3
+b1 REF x4
+b1 REF x5
+b1 REF x6
+b1 ATTRIBUTION b3
+b1 Agent x4 "speaker"
+b1 EQU x6 "now"
+b1 Time x4 x6
+b1 Topic x4 x5
+b1 proposition "n.01" x5
+b1 time "v.01" x4
+b1 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 ATTRIBUTION b4
+b3 Agent x7 "speaker"
+b3 Topic x7 x8
+b3 proposition "n.01" x8
+b3 say "v.01" x7
+b5 REF x9
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x9
+b4 NEGATION b6
+b6 REF x10
+b6 time "n.08" x10
+b6 REF x11
+b6 Agent x11 x9
+b6 TPR x10 "now"
+b6 Theme x11 x12
+b6 Time x11 x10
+b6 enter "v.01" x11
+b7 REF x12
+b7 PRESUPPOSITION b6
+b7 User x12 "hearer"
+b7 head "n.01" x12
+b8 REF x13
+b8 REF x14
+b8 PRESUPPOSITION b6
+b8 Role x13 x14
+b8 person "n.01" x13
+b8 witness "n.01" x14
+b6 Location x13 x15
+b9 REF x15
+b9 PRESUPPOSITION b6
+b6 POSSIBILITY b10
+b10 POSSIBILITY b11
+b11 REF x16
+b11 Agent x16 x12
+b11 Theme x16 x17
+b11 mistaken "a.01" x16
+b12 REF x17
+b12 Creator x17 "hearer"
+b12 PRESUPPOSITION b11
+b12 voice "n.02" x17
+b11 Beneficiary x16 x18
+b13 REF x18
+b13 PRESUPPOSITION b11
+b13 entity "n.01" x18
+b13 SubOf x18 x19
+b14 REF x19
+b14 REF x20
+b14 PRESUPPOSITION b13
+b14 Title x19 x20
+b14 mr "n.01" x20
+b14 male "n.02" x19

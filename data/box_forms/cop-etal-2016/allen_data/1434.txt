@@ -1,0 +1,33 @@
+b1 Time x4 x1
+b2 CONDITION b3
+b3 REF x1
+b3 CONSEQUENCE b1
+b3 all "n.01" x1
+b4 REF x2
+b4 PRESUPPOSITION b1
+b4 male "n.02" x2
+b1 Time x4 x3
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 Attribute x2 x4
+b1 old "a.01" x4
+b5 REF x5
+b5 PRESUPPOSITION b2
+b5 artifact "n.01" x5
+b2 REF x6
+b2 Co-Theme x6 x7
+b2 Theme x6 x5
+b2 Time x6 x3
+b2 be "v.01" x6
+b2 REF x7
+b2 REF x8
+b2 Attribute x7 x8
+b2 great "a.01" x8
+b2 man "n.01" x7
+b2 Location x7 x9
+b6 REF x9
+b6 PRESUPPOSITION b2
+b6 User x9 x4
+b6 day "n.01" x9

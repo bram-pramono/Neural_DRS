@@ -1,0 +1,7 @@
+b1 Experiencer x1
+b1 REF x1
+b1 time "n.08" x1
+b1 NEC b2
+b2 REF x2
+b2 Theme x2 "hearer"
+b2 should "v.01" x2

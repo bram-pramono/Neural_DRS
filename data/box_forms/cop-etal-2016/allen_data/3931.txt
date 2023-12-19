@@ -1,0 +1,35 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Attribute x4 x5
+b2 Value x5 "+"
+b2 big "a.01" x5
+b2 sheet "n.01" x4
+b2 Attribute x4 x6
+b2 REF x6
+b2 paper "n.01" x6
+b2 REF x7
+b2 Degree x8 x7
+b2 rather "r.04" x7
+b2 REF x8
+b2 Attribute x4 x8
+b2 dusty "a.01" x8
+b3 REF x9
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x9
+b2 REF x10
+b2 Patient x10 x9
+b2 mend "v.01" x10
+b2 Agent x10 x11
+b2 REF x11
+b2 time "n.01" x11

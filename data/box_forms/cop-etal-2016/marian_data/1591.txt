@@ -1,0 +1,34 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 PartOf x2 x1
+b2 last "n.01" x2
+b3 REF x3
+b3 TPR "now" x3
+b3 Time x4 x3
+b3 time "n.08" x3
+b3 REF x4
+b3 @-4 "n.01" x2
+b3 Stimulus x4 x5
+b3 date "v.01" x4
+b3 REF x5
+b3 MonthOfYear x5 "08"
+b3 time "n.08" x5
+b3 REF x6
+b3 Manner x4 x6
+b3 august "r.01" x6
+b3 Theme x4 x8
+b3 REF x7
+b3 REF x8
+b3 Theme x7 x8
+b3 various "a.01" x7
+b3 legacy "n.01" x8
+b3 Theme x8 x9
+b3 REF x9
+b3 REF x10
+b3 Theme x10 x9
+b3 various "a.01" x10
+b3 legacy "n.01" x9
+b3 Theme x9 x11
+b3 REF x11
+b3 servant "n.01" x11

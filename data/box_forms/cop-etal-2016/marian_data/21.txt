@@ -1,0 +1,28 @@
+b1 REF x1
+b1 person "n.01" x1
+b2 REF x2
+b2 Of x2 x1
+b2 country@-8place "n.01" x2
+b2 Name x2 "styles~court"
+b3 REF x3
+b3 TPR x3 "now"
+b3 Time x4 x3
+b3 time "n.08" x3
+b3 REF x4
+b3 Theme x4 x2
+b3 purchase "v.02" x4
+b3 Agent x4 x6
+b4 REF x5
+b4 REF x6
+b4 Theme x5 x6
+b4 mr "n.01" x6
+b4 early "n.01" x5
+b3 Location x3 x8
+b5 REF x7
+b5 person "n.01" x7
+b6 REF x8
+b6 Of x8 x7
+b6 REF x9
+b6 Theme x9 x8
+b6 married "a.01" x9
+b6 life "n.01" x8

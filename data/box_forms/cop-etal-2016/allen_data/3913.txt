@@ -1,0 +1,10 @@
+b1 POSSIBILITY b2
+b3 NEGATION b1
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Patient x1 x2
+b2 dye "v.01" x1
+b4 REF x2
+b4 PRESUPPOSITION b2
+b4 User x2 "speaker"
+b4 pleasure "n.01" x2

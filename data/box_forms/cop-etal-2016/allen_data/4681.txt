@@ -1,0 +1,16 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 NEGATION b3
+b3 REF x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Agent x3 x1
+b3 TPR x2 "now"
+b3 Time x3 x2
+b3 hesitate "v.01" x3
+b1 ALTERNATION b4
+b2 ALTERNATION b5
+b5 REF x4
+b5 Agent x4 x1
+b5 Time x4 x2

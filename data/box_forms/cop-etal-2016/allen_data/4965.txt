@@ -1,0 +1,11 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Theme x2 "speaker"
+b1 sit "v.01" x2
+b1 Location x2 x3
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 library "n.03" x3

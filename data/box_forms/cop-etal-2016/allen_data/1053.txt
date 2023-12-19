@@ -1,0 +1,16 @@
+b1 REF x1
+b1 EQU x1 "?"
+b1 Manner x4 x1
+b1 manner "n.01" x1
+b1 REF x2
+b1 person "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x2
+b1 TPR x4 "now"
+b1 Theme x3 x5
+b1 Time x3 x4
+b1 gain "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 admission "n.01" x5

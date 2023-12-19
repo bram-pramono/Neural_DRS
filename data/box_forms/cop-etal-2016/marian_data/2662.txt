@@ -1,0 +1,7 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 @-4 "n.01" "speaker"
+b1 see "v.01" x2

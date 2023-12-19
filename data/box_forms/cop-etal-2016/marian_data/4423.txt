@@ -1,0 +1,9 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Theme x1 x2
+b2 remember "v.01" x1
+b2 REF x2
+b2 Quantity x2 "1"
+b2 special_one "n.01" x2

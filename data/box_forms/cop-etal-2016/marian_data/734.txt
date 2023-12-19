@@ -1,0 +1,32 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 NOT b1 b2
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 lock "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 person "n.01" x3
+b1 Location x1 x4
+b3 REF x4
+b3 User x4 "speaker"
+b3 opinion "n.01" x4
+b4 DRS x1
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b5 REF x5
+b5 person "n.01" x5
+b4 REF x6
+b4 TPR "now" x6
+b4 Time x7 x6
+b4 time "n.08" x6
+b4 REF x7
+b4 Theme x7 x5
+b4 better "a.01" x7
+b4 REF x8
+b4 NOT b5 b2
+b4 lock "v.01" x8
+b4 Goal x8 x9
+b6 REF x9
+b6 present "n.02" x9

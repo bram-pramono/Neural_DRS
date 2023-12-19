@@ -1,0 +1,28 @@
+b1 REF x1
+b1 Name x1 "cynthia"
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 take "v.09" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 bottle "n.01" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 Agent x5 x1
+b4 TPR x6 "now"
+b4 Theme x5 x4
+b4 Time x5 x6
+b4 examine "v.01" x5
+b4 time "n.08" x6
+b2 entity "n.01" x4
+b4 Co-Theme x5 x7
+b5 REF x7
+b5 severity_of_a_judge "n.01" x7

@@ -1,0 +1,40 @@
+b1 REF x1
+b1 REF x2
+b1 ATTRIBUTION b2
+b1 Topic x2 x1
+b1 according "a.02" x2
+b1 proposition "n.01" x1
+b1 Source x2 "hearer"
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 female "n.02" x3
+b2 REF x4
+b2 REF x5
+b2 Agent x4 x3
+b2 Patient x4 x6
+b2 TPR x5 "now"
+b2 Time x4 x5
+b2 eat "v.01" x4
+b2 time "n.08" x5
+b2 REF x6
+b2 Quantity x6 "-"
+b2 measure "n.02" x6
+b2 Goal x4 x7
+b2 REF x7
+b2 supper "n.01" x7
+b2 CONTINUATION b4
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 symptom "n.01" x8
+b4 REF x9
+b4 EQU x9 "now"
+b4 time "n.08" x9
+b6 Time x10 x9
+b4 NEGATION b6
+b6 REF x10
+b6 Patient x10 x8
+b6 develop "v.01" x10
+b6 Finish x10 x11
+b6 REF x11
+b6 early "n.01" x11
+b6 morning "n.01" x11

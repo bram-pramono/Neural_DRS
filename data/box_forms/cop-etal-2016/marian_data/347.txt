@@ -1,0 +1,10 @@
+b1 Experiencer x1
+b1 REF x1
+b1 Co-Theme x1 x2
+b1 Theme x1 "speaker"
+b1 be "v.08" x1
+b1 REF x2
+b1 REF x3
+b1 Theme x3 x2
+b1 impecunious "a.01" x3
+b1 lot "n.01" x2

@@ -1,0 +1,39 @@
+b1 REF x1
+b1 Theme x1 "hearer"
+b1 wait "v.01" x1
+b2 REF x2
+b2 Sub x2 "speaker"
+b2 Sub x2 x3
+b2 entity "n.01" x2
+b3 REF x3
+b3 Of x4 "speaker"
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 Role x3 x4
+b3 friend "n.01" x4
+b3 person "n.01" x3
+b2 REF x5
+b2 REF x6
+b2 TPR "now" x5
+b2 TPR "now" x6
+b2 Time x7 x5
+b2 time "n.08" x5
+b2 time "n.08" x6
+b4 Time x8 x6
+b2 REF x7
+b2 Agent x7 x3
+b2 Recipient x7 "hearer"
+b2 Topic x7 x9
+b2 let "v.01" x7
+b4 REF x8
+b4 Experiencer x8 "speaker"
+b4 Stimulus x8 x4
+b4 forsake "v.01" x8
+b2 Recipient x7 "speaker"
+b2 Recipient x8 "speaker"
+b5 REF x9
+b5 PRESUPPOSITION b2
+b5 affair "n.01" x9
+b2 REF x10
+b2 Experiencer x10 "speaker"
+b2 dress "v.01" x10

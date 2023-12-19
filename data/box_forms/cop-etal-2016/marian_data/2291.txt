@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Of x2 "speaker"
+b1 REF x2
+b1 Role x1 x2
+b1 mother "n.01" x2
+b1 person "n.01" x1

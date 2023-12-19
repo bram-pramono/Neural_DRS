@@ -1,0 +1,4 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 hunt "v.01" x1

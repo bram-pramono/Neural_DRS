@@ -1,0 +1,16 @@
+b1 REF x1
+b1 NEQ x1 x2
+b2 REF x2
+b1 man "n.01" x1
+b2 man "n.01" x2
+b3 REF x3
+b3 REF x4
+b3 EQU x4 "now"
+b3 Theme x3 x1
+b3 Time x3 x4
+b3 be "v.03" x3
+b3 time "n.08" x4
+b3 Source x3 x5
+b4 REF x5
+b4 Name x5 "scotland~yard"
+b4 yard "n.01" x5

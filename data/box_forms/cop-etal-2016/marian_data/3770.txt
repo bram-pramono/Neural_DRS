@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Of x3 x2
+b2 REF x2
+b2 female "n.02" x2
+b1 REF x3
+b1 Role x1 x3
+b1 beauty "n.01" x3
+b1 perhaps "n.01" x1
+b3 REF x4
+b3 REF x5
+b3 Agent x4 x5
+b3 TPR x5 "now"
+b3 Time x4 x5
+b3 sit "v.01" x4
+b3 time "n.08" x5
+b3 Location x4 x6
+b4 REF x6
+b4 sunlight_perhaps "n.01" x6
+b5 DRS x4
+b5 DRS x6
+b4 CONTRAST b2 b5
+b5 POS b6
+b6 REF x7
+b6 Agent x7 x1
+b6 NOT b6 b7
+b6 have "v.01" x7
+b6 REF x8
+b6 sense "n.01" x8
+b6 Theme x8 x10
+b6 REF x9
+b6 REF x10
+b6 Theme x9 x10
+b6 sunlight "a.01" x9
+b6 pity "n.01" x10
+b6 Theme x10 x11
+b7 REF x11
+b7 tragedy "n.01" x11
+b8 DRS x8
+b8 CONTRAST b5 b9
+b9 POS b10
+b10 REF x12
+b10 Agent x12 x6
+b10 NOT b10 b11
+b10 have "v.01" x12
+b9 Experiencer x12
+b10 REF x13
+b10 connection "n.01" x13
+b10 Theme x13 x14
+b10 REF x14
+b10 encountering_pity "n.01" x14
+b10 Theme x14 x15
+b11 REF x15
+b11 tragedy "n.01" x15
+b12 DRS x12
+b12 CONTRAST b9 b13
+b13 POS b14
+b14 REF x16
+b14 Agent x16 x10
+b14 NOT b14 b15
+b14 have "v.01" x16
+b13 Experiencer x16
+b14 REF x17
+b14 connection "n.01" x17
+b14 Theme x17 x19
+b14 REF x18
+b14 REF x19
+b14 Theme x18 x19
+b14 sunlight "a.01" x18
+b14 pity "n.01" x19
+b14 Theme x19 x20
+b15 REF x20
+b15 tragedy "n.01" x20
+b16 DRS x17
+b16 CONTRAST b13 b17
+b17 POS b18

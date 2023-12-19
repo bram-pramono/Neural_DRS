@@ -1,0 +1,31 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 seem "v.01" x2
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Theme x5 x5
+b3 absorb "a.01" x5
+b3 Location x5 x6
+b3 REF x6
+b3 thought "n.01" x6
+b4 DRS x4
+b4 DRS x6
+b3 CONTRAST b1 b4
+b4 REF x7
+b4 Quantity x7 ""+""
+b4 curiosity "n.01" x7
+b4 REF x8
+b4 TPR x8 "now"
+b4 Time x9 x8
+b4 time "n.08" x8
+b4 REF x9
+b4 Theme x9 x7
+b4 arouse "v.01" x9

@@ -1,0 +1,66 @@
+b1 Time x2 x1
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 NEGATION b1
+b1 REF x2
+b1 Experiencer x2 "speaker"
+b1 Stimulus x2 x3
+b1 see "v.01" x2
+b3 REF x3
+b3 REF x4
+b3 PRESUPPOSITION b1
+b3 Title x3 x4
+b3 mr "n.01" x4
+b3 person "n.01" x3
+b1 Finish x1 x5
+b1 REF x5
+b1 Location x7 x5
+b4 REF x6
+b4 PRESUPPOSITION b1
+b4 female "n.02" x6
+b1 REF x7
+b1 REF x8
+b1 ATTRIBUTION b5
+b1 Agent x7 x6
+b1 Time x7 x9
+b1 Topic x7 x8
+b1 proposition "n.01" x8
+b1 REF x9
+b1 TPR x9 "now"
+b1 time "n.08" x9
+b5 REF x10
+b5 Agent x10 x6
+b5 Theme x10 "speaker"
+b5 take "v.01" x10
+b5 Asset x10 x11
+b5 REF x11
+b5 walk "n.01" x11
+b5 CONTINUATION b6
+b6 REF x12
+b6 Agent x12 "speaker"
+b6 Duration x12 x13
+b6 Time x12 x9
+b6 spend "v.01" x12
+b6 REF x13
+b6 REF x14
+b6 Attribute x13 x14
+b6 charming "a.01" x14
+b6 afternoon "n.01" x13
+b6 REF x15
+b6 Theme x15 x13
+b6 sail "v.01" x15
+b6 Location x15 x16
+b7 REF x16
+b7 PRESUPPOSITION b6
+b7 wood "n.01" x16
+b6 REF x17
+b6 Theme x17 x13
+b6 return "v.01" x17
+b6 Destination x17 x18
+b8 REF x18
+b8 PRESUPPOSITION b6
+b8 house "n.01" x18
+b6 REF x19
+b6 ClockTime x19 "17:00"
+b6 time "n.08" x19

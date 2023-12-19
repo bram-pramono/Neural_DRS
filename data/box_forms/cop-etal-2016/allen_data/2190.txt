@@ -1,0 +1,22 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 Of x3 x1
+b2 REF x3
+b2 PRESUPPOSITION b3
+b2 Role x2 x3
+b2 person "n.01" x2
+b3 REF x4
+b3 REF x5
+b3 Experiencer x4 x2
+b3 Stimulus x4 x6
+b3 TPR x5 "now"
+b3 Time x4 x5
+b3 time "n.08" x5
+b3 underwent "v.01" x4
+b3 REF x6
+b3 REF x7
+b3 Attribute x6 x7
+b3 complete "a.01" x7
+b3 change "n.01" x6

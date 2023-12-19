@@ -1,0 +1,25 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 REF x3
+b2 PRP x3 b3
+b2 Pivot x2 "hearer"
+b2 Theme x2 x3
+b2 want "v.01" x2
+b3 REF x4
+b3 Theme x4 "hearer"
+b3 to "v.01" x4
+b4 DRS x1
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 EQU x5 "now"
+b4 time "n.08" x5
+b5 Time x6 x5
+b4 Experiencer x5
+b5 REF x6
+b5 Theme x6 "speaker"
+b5 either "v.01" x6

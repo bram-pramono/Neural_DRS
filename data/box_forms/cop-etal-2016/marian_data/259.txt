@@ -1,0 +1,34 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Attribute x2 x3
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Theme x2 x1
+b2 Time x2 x4
+b2 look "v.02" x2
+b2 time "n.08" x4
+b3 REF x5
+b3 Theme x5 x5
+b3 excited "a.01" x5
+b4 DRS x3
+b4 DRS x5
+b3 CONTINUATION b1 b4
+b4 REF x6
+b4 REF x7
+b4 TPR x7 "now"
+b4 Theme x6 x2
+b4 Time x6 x7
+b4 determine "v.01" x6
+b4 time "n.08" x7
+b5 DRS x6
+b5 DRS x7
+b4 CONTINUATION b3 b5
+b5 REF x8
+b5 Manner x9 x8
+b5 slightly "r.01" x8
+b5 REF x9
+b5 Theme x9 x3
+b5 defensive "a.01" x9

@@ -1,0 +1,55 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "hearer"
+b1 EQU x2 "now"
+b1 Time x1 x2
+b1 guess "v.01" x1
+b1 time "n.08" x2
+b1 Theme x1 x3
+b2 PRESUPPOSITION b3
+b3 REF x3
+b3 CONSEQUENCE b1
+b3 PartOf x3 x4
+b4 REF x4
+b4 PRESUPPOSITION b3
+b4 female "n.02" x4
+b3 relief "n.01" x3
+b2 REF x5
+b2 REF x6
+b2 EQU x6 "now"
+b2 Time x7 x6
+b2 time "n.08" x6
+b2 REF x7
+b2 Patient x7 x5
+b2 mention "v.01" x7
+b2 CONTINUATION b5
+b5 REF x8
+b5 REF x9
+b5 REF x10
+b5 ATTRIBUTION b6
+b5 EQU x10 "now"
+b5 Experiencer x8 x9
+b5 Stimulus x8 x9
+b5 Time x8 x10
+b5 discover "v.01" x8
+b5 proposition "n.01" x9
+b5 time "n.08" x10
+b7 REF x11
+b7 TPR x12 x11
+b7 Time x12 x11
+b7 time "n.08" x11
+b6 CONDITION b8
+b8 REF x12
+b8 CONSEQUENCE b7
+b8 PartOf x12 x13
+b8 entity "n.01" x12
+b9 REF x13
+b9 PRESUPPOSITION b8
+b9 tragedy "n.01" x13
+b10 EQU x12 "now"
+b10 EQU x12 x14
+b8 NEGATION b10
+b11 REF x14
+b11 PRESUPPOSITION b10
+b11 User x14 x3
+b11 do "v.01" x14

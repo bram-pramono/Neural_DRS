@@ -1,0 +1,44 @@
+b1 REF x1
+b1 Name x1 "mon"
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 say "v.01" x2
+b2 time "n.08" x4
+b2 REF x5
+b2 TPR x5 "now"
+b2 time "n.08" x5
+b3 REF x6
+b3 NOT b3 b1
+b3 Time x6 x5
+b3 say "v.01" x6
+b4 DRS x4
+b4 DRS x6
+b3 EXPLANATION b1 b4
+b1 REF x7
+b1 person "n.01" x7
+b1 REF x8
+b1 TPR x8 "now"
+b1 time "n.08" x8
+b4 Time x9 x8
+b4 REF x9
+b4 Theme x9 x7
+b4 strychnine "a.01" x9
+b5 DRS x6
+b5 DRS x9
+b4 EXPLANATION b1 b5
+b2 REF x10
+b2 person "n.01" x10
+b2 REF x11
+b2 TPR x11 "now"
+b2 time "n.08" x11
+b5 Time x12 x11
+b5 REF x12
+b5 Theme x12 x10
+b5 strychnine "a.01" x12

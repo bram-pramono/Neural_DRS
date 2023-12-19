@@ -1,0 +1,75 @@
+b1 Time x3 x1
+b2 REF x1
+b2 Of x1 x2
+b3 REF x2
+b3 female "n.02" x2
+b2 hurry "n.01" x1
+b2 REF x3
+b2 Theme x3 x1
+b2 be "v.03" x3
+b2 Location x3 x4
+b4 REF x4
+b4 REF x5
+b4 Theme x5 x4
+b4 village "a.01" x5
+b4 REF x6
+b4 Role x4 x6
+b4 later "n.01" x6
+b4 person "n.01" x4
+b5 DRS x3
+b5 CONTINUATION b2 b6
+b6 REF x7
+b6 entity "n.01" x7
+b6 REF x8
+b6 TPR x8 "now"
+b6 Time x9 x8
+b6 time "n.08" x8
+b6 REF x9
+b6 Agent x9 x7
+b6 anticipate "v.01" x9
+b6 Theme x9 x10
+b6 REF x10
+b6 REF x11
+b6 Theme x11 x10
+b6 village "a.01" x11
+b6 link "n.01" x10
+b6 PartOf x10 x12
+b7 REF x12
+b7 REF x13
+b7 Theme x13 x12
+b7 final "a.01" x13
+b7 REF x14
+b7 Role x12 x14
+b7 later "n.01" x14
+b7 person "n.01" x12
+b8 DRS x11
+b8 DRS x14
+b7 CONTRAST b4 b8
+b9 REF x15
+b9 entity "n.01" x15
+b8 REF x16
+b8 TPR x16 "now"
+b8 Time x17 x16
+b8 time "n.08" x16
+b8 REF x17
+b8 Agent x17 x15
+b8 anticipate "v.01" x17
+b8 Theme x17 x18
+b10 REF x18
+b10 REF x19
+b10 Theme x19 x18
+b10 village "a.01" x19
+b10 link "n.01" x18
+b10 PartOf x18 x20
+b10 REF x20
+b10 home "n.01" x20
+b11 DRS x17
+b11 CONTINUATION b8 b12
+b13 REF x21
+b13 entity "n.01" x21
+b12 REF x22
+b12 TPR x22 "now"
+b12 Time x23 x22
+b12 time "n.08" x22
+b12 REF x23
+b12 Agent x23 x21

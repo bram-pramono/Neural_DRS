@@ -1,0 +1,22 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Theme x2 "hearer"
+b2 mr "v.01" x2
+b3 DRS x1
+b3 DRS x2
+b2 CONTINUATION b1 b3
+b3 REF x3
+b3 inglethorp "n.01" x3
+b3 REF x4
+b3 REF x5
+b3 Agent x4 x3
+b3 EQU x5 "now"
+b3 Result x4 "hearer"
+b3 Theme x4 "hearer"
+b3 Time x4 x5
+b3 call "v.03" x4
+b3 time "n.08" x5

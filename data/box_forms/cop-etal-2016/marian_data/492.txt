@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Of x1 x2
+b2 REF x2
+b2 female "n.02" x2
+b1 hand "n.01" x1
+b3 REF x3
+b3 REF x4
+b3 Agent x3 x1
+b3 TPR x4 "now"
+b3 Theme x3 x2
+b3 Time x3 x4
+b3 clench "v.01" x3
+b3 time "n.08" x4
+b3 Location x3 x5
+b4 REF x5
+b4 REF x6
+b4 Role x5 x6
+b4 banister "n.01" x6
+b4 person "n.01" x5
+b5 DRS x4
+b5 DRS x6
+b4 CONTINUATION b2 b5
+b5 REF x7
+b5 Manner x8 x7
+b5 then "r.01" x7
+b5 REF x8
+b5 REF x9
+b5 REF x10
+b5 Agent x8 x4
+b5 PRP x9 b6
+b5 TPR x10 "now"
+b5 Time x8 x10
+b5 Topic x8 x9
+b5 seem "v.01" x8
+b5 time "n.08" x10
+b6 REF x11
+b6 Agent x11 "speaker"
+b6 Theme x11 x12
+b6 nerve "v.01" x11
+b7 REF x12
+b7 stairs "n.01" x12
+b7 Theme x12 x13
+b7 REF x13
+b7 REF x14
+b7 Role x13 x14
+b7 banister "n.01" x14
+b7 person "n.01" x13
+b8 DRS x11
+b8 DRS x14
+b7 CONTINUATION b4 b8
+b8 REF x15
+b8 Manner x16 x15
+b8 then "r.01" x15
+b8 REF x16
+b8 REF x17
+b8 REF x18
+b8 Agent x16 x12
+b8 PRP x17 b9
+b8 TPR x18 "now"
+b8 Time x16 x18
+b8 Topic x16 x17
+b8 seem "v.01" x16
+b8 time "n.08" x18
+b9 REF x19
+b9 Agent x19 "speaker"
+b9 Theme x19 x20
+b9 nerve "v.01" x19
+b10 REF x20
+b10 stairs "n.01" x20
+b10 Theme x20 x21
+b10 REF x21
+b10 REF x22
+b10 Role x21 x22
+b10 banister "n.01" x22
+b10 person "n.01" x21

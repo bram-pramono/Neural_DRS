@@ -1,0 +1,58 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 EQU x3 "now"
+b2 Time x2 x3
+b2 occur "v.01" x2
+b2 time "n.08" x3
+b3 Theme x2 x4
+b2 Experiencer x3
+b3 REF x4
+b3 person "n.01" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 TPR x6 "now"
+b4 Theme x5 x4
+b4 Time x5 x6
+b4 arrive "v.01" x5
+b4 time "n.08" x6
+b4 Co-Theme x5 x7
+b5 REF x7
+b5 rest "n.01" x7
+b6 DRS x5
+b6 DRS x7
+b5 CONTINUATION b3 b6
+b7 REF x8
+b7 entity "n.01" x8
+b6 REF x9
+b6 REF x10
+b6 REF x11
+b6 Agent x9 x8
+b6 PRP x10 b8
+b6 Recipient x9 x12
+b6 TPR x11 "now"
+b6 Time x9 x11
+b6 Topic x9 x10
+b6 see "v.01" x9
+b6 time "n.08" x11
+b6 Experiencer x10
+b7 REF x12
+b7 person "n.01" x12
+b7 REF x13
+b7 TPR x13 "now"
+b7 time "n.08" x13
+b8 REF x14
+b8 Theme x14 x12
+b8 Time x14 x13
+b8 come "v.01" x14
+b8 Source x14 x15
+b9 REF x15
+b9 NEQ x15 x16
+b10 REF x16
+b9 wing "n.01" x15
+b10 wing "n.01" x16

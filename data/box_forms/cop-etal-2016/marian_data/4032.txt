@@ -1,0 +1,25 @@
+b1 REF x1
+b1 narrowness "n.01" x1
+b1 EQU x1 x2
+b2 REF x2
+b2 REF x3
+b2 Theme x3 x2
+b2 deadly "a.01" x3
+b2 monotony "n.01" x2
+b2 Theme x2 x4
+b3 REF x4
+b3 entity "n.01" x4
+b2 REF x5
+b2 REF x6
+b2 REF x7
+b2 Agent x5 "speaker"
+b2 PRP x6 b4
+b2 Recipient x5 "speaker"
+b2 TPR x7 "now"
+b2 Time x5 x7
+b2 Topic x5 x6
+b2 drive "v.01" x5
+b2 time "n.08" x7
+b4 REF x8
+b4 Theme x8 "speaker"
+b4 mad "a.01" x8

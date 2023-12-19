@@ -1,0 +1,27 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 sir "v.01" x1
+b2 DRS x1
+b1 CONTINUATION b1 b2
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Agent x3 "speaker"
+b2 Theme x3 x4
+b2 take_out "v.01" x3
+b3 REF x4
+b3 entity "n.01" x4
+b3 PartOf x4 x6
+b3 REF x5
+b3 blotting@-8paper "n.01" x5
+b3 REF x6
+b3 Part x6 x5
+b3 Part x6 x7
+b3 group "n.01" x6
+b3 REF x7
+b3 REF x8
+b3 Theme x8 x7
+b3 hot "a.01" x8
+b3 iron "n.01" x7

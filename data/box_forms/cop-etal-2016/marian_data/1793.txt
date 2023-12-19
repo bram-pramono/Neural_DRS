@@ -1,0 +1,8 @@
+b1 NEC b2
+b2 REF x1
+b2 @-4 "n.01" "hearer"
+b2 ashamed "a.01" x1
+b2 Stimulus x1 "speaker"
+b3 REF x2
+b3 Name x2 "john~cavendish"
+b3 male "n.02" x2

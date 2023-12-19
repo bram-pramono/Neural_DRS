@@ -1,0 +1,50 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Attribute "speaker" x2
+b1 right "a.01" x2
+b1 REF x3
+b1 Context x2 x4
+b1 entity "n.01" x3
+b1 REF x4
+b1 Agent x4 x3
+b1 Topic "v.01" x4
+b1 CONTINUATION b2
+b2 Agent x8 x5
+b3 REF x5
+b3 User x5 "hearer"
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 Theme x5 x6
+b3 english "n.01" x6
+b3 law "n.01" x5
+b4 REF x7
+b4 PRESUPPOSITION b2
+b4 male "n.02" x7
+b2 REF x8
+b2 TPR "now" x8
+b2 Time x10 x8
+b2 time "n.08" x8
+b2 REF x9
+b2 Manner x10 x9
+b2 automatically "r.02" x9
+b2 REF x10
+b2 Theme x10 x7
+b2 revoke "v.02" x10
+b5 REF x11
+b5 REF x12
+b5 PRESUPPOSITION b2
+b5 Title x11 x12
+b5 mr "n.01" x12
+b5 male "n.02" x11
+b2 REF x13
+b2 TPR x13 "now"
+b2 time "n.08" x13
+b3 Time x15 x13
+b3 REF x14
+b3 Manner x15 x14
+b3 automatically "r.01" x14
+b3 REF x15
+b3 Theme x15 x11

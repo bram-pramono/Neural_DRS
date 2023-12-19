@@ -1,0 +1,66 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 turn "v.01" x2
+b2 Source x2 x4
+b2 REF x4
+b2 nowhere "n.01" x4
+b2 Location x2 x5
+b3 REF x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 Role x5 x6
+b3 person "n.01" x5
+b2 REF x7
+b2 Of x5 x8
+b2 entity "n.01" x7
+b2 REF x8
+b2 Co-Theme x8 x9
+b2 Theme x8 x7
+b2 be "v.01" x8
+b2 REF x9
+b2 Order x9 "2"
+b2 REF x10
+b2 Role x9 x10
+b2 cousin "n.01" x10
+b2 person "n.01" x9
+b4 ALTERNATION b1
+b4 ALTERNATION b5
+b5 REF x11
+b5 entity "n.01" x11
+b5 SubOf x11 x12
+b6 REF x12
+b6 PRESUPPOSITION b5
+b6 female "n.02" x12
+b7 REF x13
+b7 TPR x13 "now"
+b7 Time x14 x13
+b7 time "n.08" x13
+b5 NEGATION b7
+b7 REF x14
+b7 Experiencer x14 x7
+b7 Stimulus x14 x17
+b7 seem "v.01" x14
+b7 REF x15
+b7 Degree x16 x15
+b7 particular "r.01" x15
+b7 REF x16
+b7 REF x17
+b7 ATTRIBUTION b8
+b7 Experiencer x17 x10
+b7 Stimulus x17 x16
+b7 keen "a.01" x17
+b7 proposition "n.01" x16
+b8 REF x18
+b8 Agent x18 x11
+b8 Topic x18 x19
+b8 acknowledge "v.01" x18
+b9 REF x19
+b9 PRESUPPOSITION b8
+b9 relationship "n.01" x19

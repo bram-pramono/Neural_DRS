@@ -1,0 +1,26 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 REF x3
+b2 @-4 "n.01" "speaker"
+b2 PRP x3 b3
+b2 Stimulus x2 x3
+b2 believe "v.01" x2
+b3 IMP b4 b5
+b4 REF x4
+b4 person "n.01" x4
+b5 POS b6
+b6 REF x5
+b6 Agent x5 x4
+b6 Theme x5 "speaker"
+b6 accuse "v.01" x5
+b6 Theme x5 x6
+b6 REF x6
+b6 entity "n.01" x6
+b6 REF x7
+b6 Causer x7 "hearer"
+b6 Topic x7 x6
+b6 say "v.01" x7

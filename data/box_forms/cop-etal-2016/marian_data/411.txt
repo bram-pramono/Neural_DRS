@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Theme x1 "speaker"
+b1 Time x1 x2
+b1 gather "v.01" x1
+b1 time "n.08" x2
+b1 Source x1 x3
+b1 REF x3
+b1 REF x4
+b1 Theme x4 x3
+b1 little "a.01" x4
+b1 REF x5
+b1 Role x3 x5
+b1 nurse "n.01" x5
+b1 person "n.01" x3
+b1 Causer x2 x6
+b1 REF x6
+b1 Agent x6 "speaker"
+b1 Theme x6 x7
+b1 retail "v.01" x6
+b2 REF x7
+b2 REF x8
+b2 Theme x8 x7
+b2 least "a.01" x8
+b2 likelihood "n.01" x7
+b2 PartOf x7 x9
+b3 REF x9
+b3 hardihood "n.01" x9
+b3 REF x10
+b3 Agent x10 x9
+b3 Theme x10 x11
+b3 retail "v.01" x10
+b4 REF x11
+b4 REF x12
+b4 Theme x12 x11
+b4 least "a.01" x12
+b4 likelihood "n.01" x11
+b4 PartOf x11 x13
+b5 REF x13
+b5 hardihood "n.01" x13
+b5 REF x14
+b5 Agent x14 x13
+b5 Theme x14 x15
+b5 retail "v.01" x14
+b6 REF x15
+b6 REF x16
+b6 Theme x16 x15
+b6 least "a.01" x16
+b6 likelihood "n.01" x15
+b6 PartOf x15 x17
+b7 REF x17
+b7 female "n.02" x17
+b7 REF x18
+b7 Agent x18 x17
+b7 Theme x18 x19
+b7 retail "v.01" x18
+b8 REF x19
+b8 REF x20
+b8 Theme x20 x19
+b8 least "a.01" x20
+b8 likelihood "n.01" x19
+b8 PartOf x19 x21
+b9 REF x21
+b9 female "n.02" x21
+b9 REF x22
+b9 Agent x22 x21
+b9 Theme x22 x23
+b9 retail "v.01" x22
+b10 REF x23
+b10 REF x24
+b10 Theme x24 x23
+b10 least "a.01" x24
+b10 likelihood "n.01" x23
+b10 PartOf x23 x24

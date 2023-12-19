@@ -1,0 +1,9 @@
+b1 NECESSITY b2
+b2 NEGATION b3
+b3 REF x1
+b3 Theme x1 "speaker"
+b3 appear "v.02" x1
+b3 Location x1 x2
+b4 REF x2
+b4 PRESUPPOSITION b3
+b4 case "n.01" x2

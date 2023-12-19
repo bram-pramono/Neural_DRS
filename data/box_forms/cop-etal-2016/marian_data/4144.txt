@@ -1,0 +1,75 @@
+b1 REF x1
+b1 thing "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 all_right "a.01" x3
+b2 REF x4
+b2 Manner x3 x4
+b2 then "r.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 NEC b4
+b4 REF x5
+b4 Theme x5 "hearer"
+b4 go "v.01" x5
+b4 Destination x5 x6
+b4 REF x6
+b4 tea "n.01" x6
+b4 Instrument x5 x7
+b4 REF x7
+b4 tea "n.01" x7
+b4 Instrument x5 x8
+b4 REF x8
+b4 tea "n.01" x8
+b4 Instrument x6 x9
+b4 REF x9
+b4 tea "n.01" x9
+b4 Theme x9 x10
+b4 REF x10
+b4 tea "n.01" x10
+b4 Theme x10 x11
+b4 REF x11
+b4 tea "n.01" x11
+b4 Theme x11 x12
+b4 REF x12
+b4 tea "n.01" x12
+b4 Instrument x10 x13
+b4 REF x13
+b4 tea "n.01" x13
+b4 Instrument x11 x14
+b4 REF x14
+b4 tea "n.01" x14
+b4 Instrument x12 x15
+b4 REF x15
+b4 tea "n.01" x15
+b4 Instrument x13 x16
+b4 REF x16
+b4 tea "n.01" x16
+b4 Instrument x14 x17
+b4 REF x17
+b4 tea "n.01" x17
+b4 Instrument x15 x18
+b4 REF x18
+b4 tea "n.01" x18
+b4 Instrument x16 x19
+b4 REF x19
+b4 tea "n.01" x19
+b4 Instrument x17 x20
+b4 REF x20
+b4 tea "n.01" x20
+b4 Instrument x18 x21
+b4 REF x21
+b4 tea "n.01" x21
+b4 Instrument x19 x22
+b4 REF x22
+b4 tea "n.01" x22
+b4 Instrument x20 x23
+b4 REF x23
+b4 tea "n.01" x23
+b4 Instrument x21 x24
+b4 REF x24

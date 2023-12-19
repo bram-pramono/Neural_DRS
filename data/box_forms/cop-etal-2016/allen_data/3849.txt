@@ -1,0 +1,57 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Degree x4 x3
+b2 rather "r.04" x3
+b2 REF x4
+b2 Attribute x1 x4
+b2 CONTRAST b3
+b3 REF x5
+b3 REF x6
+b3 REF x7
+b3 ATTRIBUTION b4
+b3 Agent x5 "speaker"
+b3 TPR x7 "now"
+b3 Time x5 x7
+b3 Topic x5 x6
+b3 proposition "n.01" x6
+b3 suppose "v.01" x5
+b3 time "n.08" x7
+b5 Duration x11 x8
+b5 REF x8
+b5 reason "n.01" x8
+b4 ALTERNATION b5
+b4 ALTERNATION b6
+b6 REF x9
+b6 NEQ x9 x10
+b7 person "n.01" x9
+b8 REF x10
+b8 PRESUPPOSITION b7
+b8 person "n.01" x10
+b7 REF x11
+b7 REF x12
+b7 REF x13
+b7 ATTRIBUTION b9
+b7 Agent x11 x9
+b7 TPR x13 "now"
+b7 Theme x11 x12
+b7 Time x11 x13
+b7 proposition "n.01" x12
+b7 time "n.08" x13
+b7 wish "v.01" x11
+b9 REF x14
+b9 Agent x14 x10
+b9 Theme x14 x15
+b9 keep "v.01" x14
+b10 REF x15
+b10 PRESUPPOSITION b9
+b10 entity "n.01" x15
+b9 Source x14 x16
+b11 REF x16
+b11 PRESUPPOSITION b9
+b11 papers "n.01" x16

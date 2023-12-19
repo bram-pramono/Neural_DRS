@@ -1,0 +1,6 @@
+b1 REF x1
+b1 @-4 "n.01" "hearer"
+b1 hurry "v.01" x1
+b1 Destination x1 x2
+b2 REF x2
+b2 window "n.01" x2

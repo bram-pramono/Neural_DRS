@@ -1,0 +1,3 @@
+b1 REF x1
+b1 EQU x1 "?"
+b1 symmetry "n.01" x1

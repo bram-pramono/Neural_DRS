@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 IMP b1 b3
+b1 REF x2
+b1 REF x3
+b1 Theme x3 x2
+b1 whole "a.01" x3
+b1 afternoon "n.01" x2
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b2 Time x6 x4
+b2 REF x5
+b2 Manner x6 x5
+b2 only "a.01" x5
+b2 REF x6
+b2 Theme x6 "hearer"
+b2 alone "a.01" x6
+b2 Goal x6 x7
+b2 REF x7
+b2 couple "n.01" x7
+b2 Theme x7 x8
+b2 REF x8
+b2 couple "n.01" x8
+b2 Theme x8 x9
+b2 REF x9
+b2 couple "n.01" x9
+b2 Theme x9 x10
+b2 REF x10
+b2 couple "n.01" x10
+b2 Theme x10 x11
+b2 REF x11
+b2 couple "n.01" x11
+b2 Theme x11 x12
+b2 REF x12
+b2 couple "n.01" x12
+b2 Theme x12 x13
+b2 REF x13
+b2 Quantity x13 "2"
+b2 Unit x13 "minute"
+b2 measure "n.02" x13
+b2 REF x14
+b2 REF x15
+b2 TPR x15 "now"
+b2 Theme x14 "hearer"
+b2 Time x14 x15
+b2 happened "v.01" x14
+b2 time "n.08" x15
+b2 REF x16
+b2 Manner x14 x16
+b2 alone "a.01" x16
+b2 Goal x14 x17
+b2 REF x17
+b2 couple "n.01" x17
+b2 Theme x17 x18
+b2 REF x18
+b2 couple "n.01" x18
+b2 Theme x18 x19
+b2 REF x19
+b2 couple "n.01" x19
+b2 Theme x19 x20
+b2 REF x20
+b2 couple "n.01" x20
+b2 Theme x20 x21
+b2 REF x21
+b2 couple "n.01" x21
+b2 Theme x21 x22
+b2 REF x22
+b2 couple "n.01" x22
+b2 Theme x22 x23
+b2 REF x23
+b2 couple "n.01" x23
+b2 Theme x23 x24
+b2 REF x24

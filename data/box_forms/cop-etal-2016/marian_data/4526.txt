@@ -1,0 +1,39 @@
+b1 Time x3 x1
+b2 REF x1
+b2 case "n.01" x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 time "n.08" x2
+b3 Time x4 x2
+b1 Experiencer x2
+b3 REF x3
+b3 REF x4
+b3 Agent x4 x1
+b3 PRP x3 b4
+b3 Topic x4 x3
+b3 possible "a.01" x4
+b5 REF x5
+b5 article "n.02" x5
+b5 PartOf x5 x6
+b5 REF x6
+b5 Quantity x6 "3"
+b5 Unit x6 "person"
+b5 measure "n.02" x6
+b6 REF x7
+b6 REF x8
+b6 Role x7 x8
+b6 person "n.01" x7
+b6 prisoner "n.01" x8
+b2 REF x9
+b2 TPR x9 "now"
+b2 time "n.08" x9
+b4 Time x10 x9
+b4 REF x10
+b4 Agent x10 x7
+b4 unaware "v.01" x10
+b4 Theme x10 x12
+b7 REF x11
+b7 person "n.01" x11
+b8 REF x12
+b8 Of x12 x11
+b8 presence "n.01" x12

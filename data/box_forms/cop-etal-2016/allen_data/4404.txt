@@ -1,0 +1,27 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 deny "v.01" x2
+b2 proposition "n.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Time x5 x4
+b3 quarrel "v.01" x5
+b3 Co-Agent x5 x6
+b1 PRESUPPOSITION b4
+b4 REF x6
+b4 Of x7 x1
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 Role x6 x7
+b4 person "n.01" x6
+b4 wife "n.01" x7

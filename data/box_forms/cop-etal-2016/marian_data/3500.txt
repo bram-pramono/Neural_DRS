@@ -1,0 +1,22 @@
+b1 REF x1
+b1 person "n.01" x1
+b2 IMP b3 b4
+b3 REF x2
+b3 time "n.08" x2
+b3 EQU x2 "now"
+b4 REF x3
+b4 Agent x3 x1
+b4 Theme x3 x4
+b4 Time x3 x2
+b4 take_out "v.01" x3
+b5 REF x4
+b5 key "n.01" x4
+b6 DRS x1
+b6 DRS x4
+b5 CONTINUATION b2 b6
+b6 REF x5
+b6 Source x5 x6
+b6 Theme x5 x2
+b6 leave "v.01" x5
+b7 REF x6
+b7 room "n.01" x6

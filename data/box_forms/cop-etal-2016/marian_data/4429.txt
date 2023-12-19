@@ -1,0 +1,22 @@
+b1 NEC b2
+b2 REF x1
+b2 REF x2
+b2 Agent x1 "speaker"
+b2 PRP x2 b3
+b2 Theme x1 x2
+b2 think "v.01" x1
+b3 REF x3
+b3 person "n.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x3
+b3 Theme x5 x6
+b3 Time x5 x4
+b3 take "v.01" x5
+b3 REF x6
+b3 charge "n.01" x6
+b3 Theme x6 x7
+b4 REF x7
+b4 entity "n.01" x7

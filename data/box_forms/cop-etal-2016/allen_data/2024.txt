@@ -1,0 +1,74 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 Recipient x2 "speaker"
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 proposition "n.01" x3
+b2 tell "v.01" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 Title x5 x6
+b4 mr "n.01" x6
+b4 person "n.01" x5
+b3 REF x7
+b3 TPR x7 "now"
+b3 Time x8 x7
+b3 time "n.08" x7
+b3 REF x8
+b3 Agent x8 x5
+b3 Result x8 x9
+b3 write "v.01" x8
+b5 REF x9
+b5 PRESUPPOSITION b3
+b5 word "n.01" x9
+b5 's "n.01" x10
+b5 REF x10
+b3 CONTINUATION b6
+b6 REF x11
+b6 Agent x11 x4
+b6 Patient x11 x12
+b6 have "v.01" x11
+b3 REF x12
+b3 PRESUPPOSITION b6
+b3 Part x12 x13
+b3 REF x13
+b3 paper "n.01" x13
+b3 REF x14
+b3 REF x15
+b3 TPR x15 "now"
+b3 Theme x14 x13
+b3 Time x14 x15
+b3 find "v.01" x14
+b3 time "n.08" x15
+b3 Location x14 x16
+b7 REF x16
+b7 PRESUPPOSITION b3
+b8 REF x17
+b8 PRESUPPOSITION b6
+b8 possibility "n.01" x17
+b8 PartOf x17 x18
+b8 REF x18
+b8 will "n.01" x18
+b6 REF x19
+b6 REF x20
+b6 ATTRIBUTION b9
+b6 Experiencer x20 x17
+b6 Stimulus x20 x19
+b6 certain "a.01" x20
+b6 proposition "n.01" x19
+b9 REF x21
+b9 Agent x21 x17
+b9 Patient x21 x22
+b9 contain "v.01" x21
+b10 REF x22
+b10 PRESUPPOSITION b9
+b10 word "n.01" x22

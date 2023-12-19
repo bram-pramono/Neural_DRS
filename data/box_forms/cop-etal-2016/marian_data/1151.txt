@@ -1,0 +1,43 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 @-4 "n.01" "speaker"
+b2 Stimulus x2 x3
+b2 know "v.01" x2
+b2 REF x3
+b2 sir "n.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 Agent x4 "speaker"
+b3 EQU x6 "now"
+b3 PRP x5 b4
+b3 Theme x4 x5
+b3 Time x4 x6
+b3 expect "v.01" x4
+b3 time "n.08" x6
+b5 REF x7
+b5 female "n.02" x7
+b3 REF x8
+b3 TPR "now" x8
+b3 time "n.08" x8
+b4 Time x9 x8
+b4 REF x9
+b4 Agent x9 x7
+b4 NOT b5 b6
+b4 lock "v.01" x9
+b6 REF x10
+b6 entity "n.01" x10
+b4 Location x9 x11
+b4 REF x11
+b4 REF x12
+b4 Colour x11 x12
+b4 purple "a.01" x12
+b4 case "n.01" x11
+b4 Theme x11 x9

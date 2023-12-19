@@ -1,0 +1,39 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 be "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 Quantity x3 "1"
+b1 entity "n.01" x3
+b1 NECESSITY b2
+b2 REF x4
+b2 REF x5
+b2 ATTRIBUTION b3
+b2 Pivot x4 "speaker"
+b2 Theme x4 x5
+b2 like "v.01" x4
+b2 proposition "n.01" x5
+b3 REF x6
+b3 Agent x6 "speaker"
+b3 Recipient x6 "hearer"
+b3 Topic x6 x3
+b3 ask "v.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b5
+b4 entity "n.01" x7
+b3 REF x8
+b3 EQU x8 "now"
+b3 time "n.08" x8
+b5 Time x9 x8
+b3 NEGATION b5
+b5 REF x9
+b5 Experiencer x9 x7
+b5 Stimulus x9 x11
+b5 anti "a.01" x9
+b5 REF x10
+b5 REF x11
+b5 Attribute x11 x10
+b5 professional "a.01" x10

@@ -1,0 +1,19 @@
+b1 REF x1
+b1 EQU x1 "?"
+b1 end "n.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 Time x4 x3
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 Agent x4 x2
+b1 work "v.02" x4
+b1 CONTINUATION b3
+b3 Time x5 x3
+b1 NEGATION b3
+b3 REF x5
+b3 Experiencer x5 "speaker"
+b3 know "v.01" x5

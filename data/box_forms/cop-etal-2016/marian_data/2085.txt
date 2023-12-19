@@ -1,0 +1,21 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Agent x3 x1
+b2 NOT b2 b3
+b2 open "v.01" x3
+b3 REF x4
+b3 door "n.01" x4
+b2 Co-Agent x3 x5
+b4 REF x5
+b4 Of x7 x6
+b5 REF x6
+b5 female "n.02" x6
+b4 REF x7
+b4 Role x5 x7
+b4 husband "n.01" x7
+b4 person "n.01" x5

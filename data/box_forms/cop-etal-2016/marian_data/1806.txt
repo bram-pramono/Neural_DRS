@@ -1,0 +1,30 @@
+b1 REF x1
+b1 Name x1 "mademoiselle"
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 say "v.01" x2
+b2 time "n.08" x4
+b2 REF x5
+b2 TPR "now" x5
+b2 time "n.08" x5
+b3 REF x6
+b3 REF x7
+b3 PRP x7 b4
+b3 Pivot x6 "speaker"
+b3 Theme x6 x7
+b3 Time x6 x5
+b3 want "v.01" x6
+b4 REF x8
+b4 Agent x8 "speaker"
+b4 NOT b4 "hearer"
+b4 Result x8 x9
+b4 ask "v.01" x8
+b4 REF x9
+b4 entity "n.01" x9

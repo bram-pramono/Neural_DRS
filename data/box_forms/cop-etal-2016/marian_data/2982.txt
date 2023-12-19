@@ -1,0 +1,9 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b2 REF x2
+b2 REF x3
+b2 Theme x3 x2
+b2 real "a.01" x3
+b2 versity "n.03" x2

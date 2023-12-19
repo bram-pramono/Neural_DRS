@@ -1,0 +1,40 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 happiness "n.01" x1
+b1 Value x1 x2
+b1 REF x2
+b1 Quantity x2 "1"
+b1 man "n.01" x2
+b2 REF x3
+b2 Sub x3 x1
+b2 Sub x3 x4
+b2 entity "n.01" x3
+b2 REF x4
+b2 Quantity x4 "1"
+b2 woman "n.01" x4
+b2 REF x5
+b2 REF x6
+b2 Co-Theme x5 x7
+b2 EQU x6 "now"
+b2 Theme x5 x3
+b2 Time x5 x6
+b2 be "v.02" x5
+b2 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 REF x9
+b3 Attribute x7 x8
+b3 Degree x8 x9
+b3 PRESUPPOSITION b2
+b3 great "a.01" x8
+b3 most "r.01" x9
+b3 entity "n.01" x7
+b4 Location x7 x10
+b2 CONDITION b5
+b5 REF x10
+b5 CONSEQUENCE b4
+b5 PartOf x10 x11
+b5 entity "n.01" x10
+b6 REF x11
+b6 PRESUPPOSITION b5
+b6 world "n.01" x11

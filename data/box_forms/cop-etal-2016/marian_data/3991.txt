@@ -1,0 +1,22 @@
+b1 Time x3 x1
+b1 REF x1
+b1 spite "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 Of x2 x3
+b3 REF x3
+b3 female "n.02" x3
+b2 laugh "n.01" x2
+b4 REF x4
+b4 Name x4 "mary"
+b4 female "n.02" x4
+b2 TPR x5 "now"
+b2 Time x6 x5
+b2 REF x5
+b2 time "n.08" x5
+b2 REF x6
+b2 Attribute x6 x4
+b2 look "v.01" x6
+b2 Time x6 x7
+b5 REF x7
+b5 morning "n.01" x7

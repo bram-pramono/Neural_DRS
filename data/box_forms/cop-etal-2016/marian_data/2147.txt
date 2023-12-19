@@ -1,0 +1,10 @@
+b1 Experiencer x1
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 Theme x2 x3
+b2 mon "a.01" x2
+b2 REF x3
+b2 ami "n.01" x3

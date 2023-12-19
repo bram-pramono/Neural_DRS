@@ -1,0 +1,50 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Title x2 x3
+b2 sir "n.01" x3
+b2 person "n.01" x2
+b1 Time x5 x4
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b1 REF x5
+b1 Attribute x2 x5
+b1 famous "a.01" x5
+b1 Path x5 x6
+b3 REF x6
+b3 Name x6 "england"
+b3 PRESUPPOSITION b1
+b3 country "n.02" x6
+b1 Goal x5 x7
+b1 REF x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 manner "n.01" x7
+b1 Location x9 x7
+b1 REF x9
+b1 REF x10
+b1 Agent x9 x3
+b1 Patient x9 x11
+b1 TPR x10 "now"
+b1 Time x9 x10
+b1 bully "v.01" x9
+b1 time "n.08" x10
+b1 REF x11
+b1 REF x12
+b1 Role x11 x12
+b1 person "n.01" x11
+b1 REF x13
+b1 Manner x14 x13
+b1 only "a.01" x13
+b1 REF x14
+b1 Agent x14 x7
+b1 Patient x14 x15
+b1 Time x14 x8
+b1 ask "v.01" x14
+b1 REF x15
+b1 Quantity x15 "2"
+b1 question "n.01" x15

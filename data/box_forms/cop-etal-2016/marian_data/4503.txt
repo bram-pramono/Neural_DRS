@@ -1,0 +1,8 @@
+b1 DayOfWeek x1 "tuesday"
+b1 Time x2 x1
+b1 REF x1
+b1 time "n.08" x1
+b1 REF x2
+b1 ClockTime x1 "14:30"
+b1 time "n.08" x2
+b1 MonthOfYear x2 "07"

@@ -1,0 +1,27 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Topic x2 x3
+b2 describe "v.01" x2
+b2 Recipient x2 "hearer"
+b3 REF x3
+b3 REF x4
+b3 Attribute x3 x4
+b3 PRESUPPOSITION b2
+b3 special "a.01" x4
+b3 apparatus "n.01" x3
+b2 REF x5
+b2 Source x5 x6
+b2 paint "v.01" x5
+b2 REF x6
+b2 powder "n.01" x6
+b2 REF x7
+b2 Sub x7 x6
+b2 Sub x7 x8
+b2 entity "n.01" x7
+b2 REF x8
+b2 etcetera "n.01" x8

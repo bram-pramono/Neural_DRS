@@ -1,0 +1,66 @@
+b1 Theme x4 x1
+b1 REF x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 doctor "n.01" x3
+b2 person "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 Destination x4 x6
+b1 TPR x5 "now"
+b1 Theme x4 x2
+b1 Time x4 x5
+b1 reach "v.01" x4
+b1 time "n.08" x5
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 bed "n.01" x6
+b1 CONTINUATION b4
+b4 REF x7
+b4 Agent x7 x3
+b4 Patient x7 x9
+b4 seize "v.01" x7
+b5 REF x8
+b5 PRESUPPOSITION b6
+b5 female "n.02" x8
+b6 REF x9
+b6 PRESUPPOSITION b4
+b6 PartOf x9 x8
+b6 arm "n.01" x9
+b4 REF x10
+b4 Agent x10 x3
+b4 Patient x10 x12
+b4 Time x10 x11
+b4 work "v.01" x10
+b4 REF x11
+b4 TPR x11 "now"
+b4 time "n.08" x11
+b7 REF x12
+b7 PRESUPPOSITION b4
+b7 person "n.01" x12
+b4 REF x13
+b4 Manner x14 x13
+b4 REF x14
+b4 Agent x14 x7
+b4 Theme x14 x15
+b4 apply "v.01" x14
+b4 REF x15
+b4 entity "n.01" x15
+b4 REF x16
+b4 REF x17
+b4 ATTRIBUTION b8
+b4 Experiencer x16 "speaker"
+b4 Stimulus x16 x17
+b4 Time x16 x6
+b4 know "v.01" x16
+b4 proposition "n.01" x17
+b8 REF x18
+b8 Co-Theme x18 x20
+b8 Theme x18 x15
+b8 be "v.01" x18
+b8 REF x19
+b8 REF x20
+b8 Attribute x20 x19
+b8 artificial "a.01" x19

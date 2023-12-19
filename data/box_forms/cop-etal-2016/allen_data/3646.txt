@@ -1,0 +1,59 @@
+b1 NEGATION b2
+b2 REF x1
+b2 person "n.01" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 dream "v.01" x3
+b2 REF x4
+b2 Stimulus x3 x5
+b2 entity "n.01" x4
+b2 REF x5
+b2 Agent x5 x4
+b2 Theme x5 x6
+b2 suspect "v.01" x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 person "n.01" x6
+b4 ALTERNATION b1
+b4 ALTERNATION b5
+b5 REF x7
+b5 Agent x7 x3
+b5 think "v.01" x7
+b5 REF x8
+b5 Theme x7 x9
+b5 entity "n.01" x8
+b5 REF x9
+b5 Agent x9 x8
+b5 Theme x9 x10
+b5 take "v.01" x9
+b5 REF x10
+b5 NEQ x10 x11
+b6 REF x11
+b6 PRESUPPOSITION b5
+b5 portion "n.01" x10
+b6 sample "n.01" x11
+b5 NEGATION b7
+b7 Instrument x9 x12
+b8 REF x12
+b8 PRESUPPOSITION b7
+b8 artifact "n.01" x12
+b4 REF x13
+b4 REF x14
+b4 REF x15
+b4 ATTRIBUTION b5
+b4 Agent x13 "speaker"
+b4 TPR x15 "now"
+b4 Time x13 x15
+b4 Topic x13 x14
+b4 add "v.01" x13
+b4 proposition "n.01" x14
+b4 time "n.08" x15
+b4 Co-Theme x13 x17
+b4 REF x16
+b4 REF x17
+b4 Attribute x17 x16
+b4 recognition "n.01" x17

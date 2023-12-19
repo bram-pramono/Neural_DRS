@@ -1,0 +1,44 @@
+b1 REF x1
+b2 REF x2
+b2 Of x3 "speaker"
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 friend "n.01" x3
+b2 person "n.01" x2
+b1 REF x4
+b1 Manner x5 x4
+b1 only "a.01" x4
+b1 REF x5
+b1 REF x6
+b1 Agent x5 x2
+b1 TPR x6 "now"
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 make "v.01" x5
+b1 time "n.08" x6
+b1 REF x7
+b1 rather "r.01" x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 irritate "a.01" x8
+b1 reply "n.01" x7
+b1 REF x9
+b1 REF x10
+b1 ATTRIBUTION b3
+b1 Agent x9 x3
+b1 Patient x9 "speaker"
+b1 Result x9 x10
+b1 proposition "n.01" x10
+b1 urge "v.01" x9
+b3 REF x11
+b3 Agent x11 "speaker"
+b3 Theme x11 x12
+b3 use "v.01" x11
+b4 REF x12
+b4 Of x12 "speaker"
+b4 REF x13
+b4 Attribute x12 x13
+b4 PRESUPPOSITION b3
+b4 natural "a.01" x13
+b4 baffled "n.01" x12

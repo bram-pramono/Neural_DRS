@@ -1,0 +1,33 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 smile "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 CONTINUATION b3
+b3 REF x4
+b3 Agent x4 x1
+b3 Time x4 x3
+b3 answer "v.01" x4
+b2 Instrument x2 x5
+b2 REF x5
+b2 REF x6
+b2 Attribute x5 x6
+b2 REF x7
+b2 Attribute x5 x7
+b2 old "a.01" x7
+b2 envelope "n.01" x5
+b2 REF x8
+b2 Sub x8 x5
+b2 Sub x8 x9
+b2 entity "n.01" x8
+b2 REF x9
+b2 REF x10
+b2 Attribute x9 x10
+b2 bed "n.01" x9
+b2 Theme x9 x11
+b2 REF x11

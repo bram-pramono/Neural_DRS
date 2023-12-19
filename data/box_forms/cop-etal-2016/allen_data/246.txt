@@ -1,0 +1,31 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 morning "n.01" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 dawn "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 Attribute x1 x4
+b2 bright "a.01" x4
+b2 REF x5
+b2 Attribute x1 x5
+b2 sunny "a.01" x5
+b2 CONTINUATION b3
+b3 Time x6 x3
+b3 REF x6
+b3 Experiencer x6 "speaker"
+b3 full "a.01" x6
+b3 Stimulus x6 x7
+b4 REF x7
+b4 PartOf x7 x8
+b4 REF x8
+b4 REF x9
+b4 Attribute x8 x9
+b4 PRESUPPOSITION b3
+b4 awful "a.01" x9
+b4 visit "n.01" x8

@@ -1,0 +1,41 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Recipient x2 x4
+b2 Time x2 x3
+b2 Topic "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 question "n.01" x4
+b2 Topic x4 x5
+b2 REF x5
+b2 bell "n.01" x5
+b2 CONTINUATION b3
+b3 REF x6
+b3 Agent x6 x1
+b3 Time x6 x3
+b3 Topic x6 x7
+b3 appear "v.01" x6
+b3 REF x7
+b3 Experiencer x7 x1
+b3 delight "a.01" x7
+b3 Stimulus x7 x9
+b1 PRESUPPOSITION b4
+b4 REF x8
+b4 Creator x8 x1
+b4 PRESUPPOSITION b3
+b4 answer "n.01" x8
+b5 REF x9
+b5 PRESUPPOSITION b3
+b5 male "n.02" x9
+b3 Time x10 x2
+b3 REF x10
+b3 Theme x10 x9
+b3 REF x11
+b3 Experiencer x11 "hearer"
+b3 Time x11 x1
+b3 see "v.01" x11

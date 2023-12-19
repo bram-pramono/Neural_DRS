@@ -1,0 +1,25 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 Manner x4 x2
+b2 accordingly "r.01" x2
+b2 REF x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 Value x3 x5
+b2 go "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 downstairs "n.01" x5
+b2 REF x6
+b2 Agent x6 x5
+b2 Theme x6 x7
+b2 rectify "v.01" x6
+b3 REF x7
+b3 Of x8 x2
+b3 REF x8
+b3 Role x7 x8
+b3 error "n.01" x8
+b3 person "n.01" x7

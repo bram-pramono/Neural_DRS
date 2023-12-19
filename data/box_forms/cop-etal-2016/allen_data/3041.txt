@@ -1,0 +1,20 @@
+b1 REF x1
+b1 Causer x3 x1
+b1 EQU x1 "?"
+b1 reason "n.01" x1
+b2 PRESUPPOSITION b1
+b2 REF x2
+b2 female "n.02" x2
+b1 Time x4 x3
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 Theme x4 x2
+b1 devote "v.01" x4
+b1 Recipient x4 x2
+b1 CONTINUATION b3
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 Time x5 x3
+b3 exclaim "v.01" x5

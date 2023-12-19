@@ -1,0 +1,4 @@
+b1 Location x1 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 contrary "n.01" x1

@@ -1,0 +1,8 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 POSSIBILITY b4
+b2 NEGATION b3
+b4 REF x2
+b4 Attribute x1 x2
+b4 true "a.01" x2

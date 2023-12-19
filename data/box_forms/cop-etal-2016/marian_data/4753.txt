@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 TPR x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 examine "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 bedroom "n.01" x3
+b1 PartOf x3 x4
+b2 REF x4
+b2 deceased "n.01" x4
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 TPR x5 "now"
+b3 Time x6 x5
+b3 time "n.08" x5
+b3 REF x6
+b3 Theme x6 x1
+b3 keep "v.01" x6
+b3 REF x7
+b3 Manner x6 x7
+b3 lock "a.01" x7
+b4 DRS x6
+b4 DRS x7
+b3 CONTINUATION b2 b4
+b4 REF x8
+b4 TPR x8 "now"
+b4 Time x9 x8
+b4 time "n.08" x8
+b4 REF x9
+b4 Result x9 x3
+b4 keep "v.02" x9
+b4 Agent x9 x10
+b4 REF x10
+b4 doctor "n.01" x10
+b4 REF x11
+b4 TPR x11 "now"
+b4 Time x12 x11
+b4 time "n.08" x11
+b4 REF x12
+b4 Result x12 x10
+b4 keep "v.02" x12
+b4 Agent x12 x13
+b4 REF x13
+b4 doctor "n.01" x13
+b5 DRS x12
+b5 DRS x13
+b4 CONTINUATION b3 b5
+b5 REF x14
+b5 TPR x14 "now"
+b5 Time x15 x14
+b5 time "n.08" x14
+b5 REF x15
+b5 Theme x15 x9
+b5 consequently "a.01" x15
+b5 Agent x15 x16
+b5 REF x16
+b5 advice "n.01" x16
+b5 PartOf x16 x17
+b5 REF x17
+b5 advice "n.01" x17
+b5 PartOf x17 x18
+b6 REF x18
+b6 doctor "n.01" x18
+b5 REF x19
+b5 TPR x19 "now"
+b5 Time x20 x19
+b5 time "n.08" x19
+b5 REF x20
+b5 Result x20 x17
+b5 keep "v.02" x20

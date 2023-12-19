@@ -1,0 +1,74 @@
+b1 REF x1
+b1 Name x1 "mary"
+b1 female "n.02" x1
+b2 EQU x1 x2
+b2 REF x2
+b2 REF x3
+b2 Theme x3 x2
+b2 absurd "a.01" x3
+b2 station "n.01" x2
+b2 Theme x2 x4
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 apparent "a.01" x5
+b2 reason "n.01" x4
+b2 Goal x4 x6
+b2 REF x6
+b2 existence "n.01" x6
+b2 REF x7
+b2 REF x8
+b2 NOT b1 b1
+b2 TPR x8 "now"
+b2 Time x7 x8
+b2 perch_up "v.01" x7
+b2 time "n.08" x8
+b2 Location x7 x10
+b2 REF x9
+b2 REF x10
+b2 Theme x9 x10
+b2 apparent "a.01" x9
+b2 reason "n.01" x10
+b2 Theme x10 x12
+b2 REF x11
+b2 existence "n.01" x11
+b2 REF x12
+b2 NOT b2 b1
+b2 perch_up "v.01" x12
+b2 Location x12 x14
+b2 REF x13
+b2 REF x14
+b2 Theme x13 x14
+b2 apparent "a.01" x13
+b2 reason "n.01" x14
+b2 Theme x14 x16
+b2 REF x15
+b2 REF x16
+b2 Theme x16 x15
+b2 apparent "a.01" x16
+b2 reason "n.01" x15
+b2 Goal x15 x18
+b2 REF x17
+b2 REF x18
+b2 Theme x17 x18
+b2 apparent "a.01" x17
+b2 reason "n.01" x18
+b2 Theme x18 x19
+b2 REF x19
+b2 REF x20
+b2 Theme x20 x19
+b2 apparent "a.01" x20
+b2 reason "n.01" x19
+b2 Goal x19 x22
+b2 REF x21
+b2 existence "n.01" x21
+b2 REF x22
+b2 perch_up "v.01" x22
+b2 Location x22 x24
+b2 REF x23
+b2 REF x24
+b2 Theme x23 x24
+b2 apparent "a.01" x23
+b2 reason "n.01" x24
+b2 Goal x24 x25
+b2 REF x25

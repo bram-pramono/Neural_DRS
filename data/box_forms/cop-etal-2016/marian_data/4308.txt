@@ -1,0 +1,33 @@
+b1 REF x1
+b1 Name x1 "nevertheless"
+b1 geographical_area "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 clever "a.02" x3
+b2 Co-Theme x3 x4
+b3 REF x4
+b3 person "n.01" x4
+b2 time "n.01" x2
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b5 REF x5
+b5 charge "n.01" x5
+b5 Theme x5 x2
+b4 REF x6
+b4 espionage "n.01" x6
+b4 POS b6
+b4 REF x7
+b4 TPR x7 "now"
+b4 time "n.08" x7
+b6 Time x8 x7
+b6 REF x8
+b6 Theme x8 x6
+b6 clip "v.01" x8
+b6 Goal x8 x9
+b7 REF x9
+b7 future "n.01" x9

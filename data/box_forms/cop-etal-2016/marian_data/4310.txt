@@ -1,0 +1,26 @@
+b1 Time x3 x1
+b2 REF x1
+b2 User x1 "speaker"
+b2 REF x2
+b2 Theme x2 x1
+b2 intense "a.01" x2
+b2 surprise "n.01" x1
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x1
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 reply "v.01" x3
+b1 time "n.08" x4
+b1 Location x3 x5
+b3 REF x5
+b3 contrary "n.01" x5
+b4 REF x6
+b4 male "n.02" x6
+b1 REF x7
+b1 TPR x7 "now"
+b1 time "n.08" x7
+b2 Time x8 x7
+b2 REF x8
+b2 Theme x8 x6
+b2 acruit "v.01" x8

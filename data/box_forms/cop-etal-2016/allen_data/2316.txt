@@ -1,0 +1,31 @@
+b1 Location x4 x1
+b2 REF x1
+b2 PRESUPPOSITION b1
+b2 contrary "n.01" x1
+b3 REF x2
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 Title x2 x3
+b3 mr "n.01" x3
+b3 person "n.01" x2
+b1 REF x4
+b1 Agent x4 x2
+b1 Theme x4 x5
+b1 take "v.01" x4
+b4 REF x5
+b4 REF x6
+b4 Attribute x5 x6
+b4 PRESUPPOSITION b1
+b4 last "a.01" x6
+b4 dose "n.01" x5
+b1 Location x3 x7
+b1 REF x7
+b1 day "n.01" x7
+b1 PartOf x7 x9
+b5 REF x8
+b5 PRESUPPOSITION b6
+b5 female "n.02" x8
+b6 REF x9
+b6 PRESUPPOSITION b2
+b6 PartOf x9 x8
+b6 death "n.01" x9

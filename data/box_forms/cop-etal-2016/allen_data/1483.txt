@@ -1,0 +1,14 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 person "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b3 Time x3 x2
+b3 REF x3
+b3 Theme x3 x1
+b3 assemble "v.01" x3
+b3 Location x3 x4
+b4 REF x4
+b4 PRESUPPOSITION b3

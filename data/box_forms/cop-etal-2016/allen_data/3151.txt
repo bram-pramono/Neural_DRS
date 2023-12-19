@@ -1,0 +1,9 @@
+b1 NEGATION b2
+b3 REF x1
+b3 Participant x1 x2
+b3 event "v.01" x1
+b3 REF x2
+b4 NEGATION b3
+b5 REF x3
+b5 PRESUPPOSITION b3
+b5 entity "n.01" x3

@@ -1,0 +1,29 @@
+b1 Context x4 x1
+b1 REF x1
+b1 consequence "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 quarrel "n.01" x2
+b3 REF x3
+b3 Of x4 "hearer"
+b3 REF x4
+b3 PRESUPPOSITION b1
+b3 Role x3 x4
+b3 mother "n.01" x4
+b3 person "n.01" x3
+b1 REF x5
+b1 Degree x6 x5
+b1 very "r.01" x5
+b1 REF x6
+b1 Manner x7 x6
+b1 suddenly "r.01" x6
+b1 REF x7
+b1 Agent x7 x3
+b1 Product x7 x8
+b1 make "v.01" x7
+b1 REF x8
+b1 REF x9
+b1 Attribute x8 x9
+b1 new "a.01" x9
+b1 will "n.01" x8

@@ -1,0 +1,11 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 arrangement "n.01" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 "hearer"
+b2 Stimulus x3 x1
+b2 suit "v.01" x3

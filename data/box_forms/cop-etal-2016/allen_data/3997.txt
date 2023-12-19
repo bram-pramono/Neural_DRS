@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 PartOf x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 begin "v.01" x1
+b1 time "n.08" x2
+b1 REF x3
+b1 Theme x3 "speaker"
+b1 REF x4
+b1 REF x5
+b1 REF x6
+b1 REF x7
+b1 ATTRIBUTION b2
+b1 Agent x5 "speaker"
+b1 TPR x7 "now"
+b1 Time x5 x7
+b1 Topic x5 x6
+b1 hope "v.01" x5
+b1 proposition "n.01" x6
+b1 time "n.08" x7
+b3 PRESUPPOSITION b2
+b3 REF x8
+b3 female "n.02" x8
+b4 REF x9
+b4 REF x10
+b4 ATTRIBUTION b5
+b4 Experiencer x9 x8
+b4 Stimulus x9 x10
+b4 Time x9 x11
+b4 pretend "v.01" x9
+b4 proposition "n.01" x10
+b4 REF x11
+b4 TPR x11 "now"
+b4 time "n.08" x11
+b6 PRESUPPOSITION b5
+b6 REF x12
+b6 female "n.02" x12
+b5 NEGATION b7
+b7 REF x13
+b7 Agent x13 x12
+b7 Patient x13 "speaker"
+b7 Time x13 x11
+b7 stop "v.01" x13
+b5 PRESUPPOSITION b8
+b8 CONTINUATION b9
+b9 REF x14
+b9 PRESUPPOSITION b8
+b9 User x14 x12
+b9 word "n.01" x14
+b8 Time x15 x11
+b8 RESULT b10
+b8 REF x15
+b8 Attribute x14 x15
+b8 surprised "a.01" x15
+b11 REF x16
+b11 PRESUPPOSITION b10
+b11 person "n.01" x16
+b10 REF x17
+b10 REF x18
+b10 Agent x17 x16
+b10 Patient x17 x19
+b10 TPR x18 "now"
+b10 Time x17 x18
+b10 drive "v.01" x17
+b10 time "n.08" x18
+b12 REF x19
+b12 PRESUPPOSITION b10
+b12 female "n.02" x19
+b10 REF x20
+b10 Sub x20 x19
+b10 Sub x20 x21
+b10 entity "n.01" x20
+b10 REF x21
+b10 PRESUPPOSITION b9

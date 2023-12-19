@@ -1,0 +1,75 @@
+b1 Time x3 x1
+b2 REF x1
+b2 REF x2
+b2 Theme x1 x2
+b2 mr "n.01" x2
+b2 Name x1 "inglethorp"
+b2 city "n.01" x1
+b3 REF x3
+b3 User x3 x1
+b3 case "n.01" x3
+b4 DRS x1
+b4 DRS x3
+b3 CONTINUATION b1 b4
+b5 REF x4
+b5 symptom "n.01" x4
+b4 REF x5
+b4 EQU x5 "now"
+b4 time "n.08" x5
+b6 Time x6 x5
+b4 Experiencer x5
+b6 REF x6
+b6 Agent x6 x4
+b6 NOT b6 b7
+b6 manifest "v.01" x6
+b7 REF x7
+b7 symptom "n.01" x7
+b3 REF x8
+b3 EQU x8 "now"
+b3 time "n.08" x8
+b8 Time x9 x8
+b5 Experiencer x8
+b8 REF x9
+b8 Agent x9 x3
+b8 NOT b8 b9
+b8 manifest "v.01" x9
+b9 REF x10
+b9 symptom "n.01" x10
+b5 REF x11
+b5 EQU x11 "now"
+b5 time "n.08" x11
+b10 Time x12 x11
+b7 Experiencer x11
+b10 REF x12
+b10 Agent x12 x6
+b10 NOT b10 b11
+b10 manifest "v.01" x12
+b11 REF x13
+b11 symptom "n.01" x13
+b7 REF x14
+b7 EQU x14 "now"
+b7 time "n.08" x14
+b12 Time x15 x14
+b9 Experiencer x14
+b12 REF x15
+b12 Agent x15 x9
+b12 NOT b12 b13
+b12 manifest "v.01" x15
+b13 REF x16
+b13 symptom "n.01" x16
+b9 REF x17
+b9 EQU x17 "now"
+b9 time "n.08" x17
+b14 Time x18 x17
+b11 Experiencer x17
+b14 REF x18
+b14 Agent x18 x12
+b14 NOT b14 b15
+b14 manifest "v.01" x18
+b15 REF x19
+b15 symptom "n.01" x19
+b11 REF x20
+b11 EQU x20 "now"
+b11 time "n.08" x20
+b16 Time x20 x20
+b13 Experiencer x20

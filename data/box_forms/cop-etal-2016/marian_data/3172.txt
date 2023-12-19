@@ -1,0 +1,32 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 seem "v.01" x2
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b3 REF x5
+b3 Theme x5 x5
+b3 apathetic "a.01" x5
+b3 Location x5 x6
+b4 REF x6
+b4 search "n.01" x6
+b5 REF x7
+b5 male "n.02" x7
+b3 REF x8
+b3 Agent x8 x7
+b3 Theme x8 x9
+b3 Time x8 x8
+b3 expect "v.01" x8
+b3 Experiencer x7
+b4 REF x9
+b4 REF x10
+b4 Theme x10 x9
+b4 great "a.01" x10
+b4 result "n.01" x9
+b4 Source x9 x7

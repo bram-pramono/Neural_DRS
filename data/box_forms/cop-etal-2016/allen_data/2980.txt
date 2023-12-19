@@ -1,0 +1,27 @@
+b1 REF x1
+b1 Experiencer x1 "speaker"
+b1 Stimulus x1 x3
+b1 Time x1 x2
+b1 know "v.01" x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 time "n.08" x2
+b1 REF x3
+b1 REF x4
+b1 EQU x4 "now"
+b1 Theme x3 x5
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 Quantity x5 "1"
+b1 person "n.01" x5
+b2 Time x6 x2
+b1 NEGATION b2
+b2 REF x6
+b2 Agent x6 x5
+b2 Theme x6 x7
+b2 buy "v.01" x6
+b3 REF x7
+b3 PRESUPPOSITION b2
+b3 poison "n.01" x7

@@ -1,0 +1,75 @@
+b1 Name x1 "john"
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 turn "v.01" x2
+b2 Co-Agent x2 "speaker"
+b3 DRS x2
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 Agent x4 x1
+b3 Theme x4 x5
+b3 take_out "v.03" x4
+b4 REF x5
+b4 User x5 x1
+b4 cigarette@-8case "n.01" x5
+b5 DRS x2
+b5 DRS x5
+b4 CONTINUATION b1 b5
+b5 REF x6
+b5 Agent x6 x1
+b5 Product x6 x7
+b5 light "v.02" x6
+b6 REF x7
+b6 User x7 x1
+b6 cigarette@-8case "n.01" x7
+b7 DRS x4
+b7 DRS x7
+b6 CONTINUATION b3 b7
+b7 REF x8
+b7 Agent x8 x2
+b7 Product x8 x9
+b7 light "v.02" x8
+b8 REF x9
+b8 User x9 x3
+b8 cigarette@-8case "n.01" x9
+b9 DRS x6
+b9 DRS x9
+b8 CONTINUATION b5 b9
+b9 REF x10
+b9 Agent x10 x4
+b9 Product x10 x11
+b9 light "v.02" x10
+b10 REF x11
+b10 User x11 x5
+b10 cigarette@-8case "n.01" x11
+b11 DRS x8
+b11 DRS x11
+b10 CONTINUATION b7 b11
+b11 REF x12
+b11 Agent x12 x6
+b11 Product x12 x13
+b11 light "v.02" x12
+b12 REF x13
+b12 User x13 x7
+b12 cigarette@-8case "n.01" x13
+b13 DRS x10
+b13 DRS x13
+b12 CONTINUATION b9 b13
+b13 REF x14
+b13 Agent x14 x8
+b13 Product x14 x15
+b13 light "v.02" x14
+b14 REF x15
+b14 User x15 x9
+b14 cigarette@-8case "n.01" x15
+b15 DRS x12
+b15 DRS x15
+b14 CONTINUATION b11 b15
+b15 REF x16

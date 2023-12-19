@@ -1,0 +1,21 @@
+b1 NEC b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Product x1 x2
+b2 make "v.06" x1
+b3 REF x2
+b3 User x2 "speaker"
+b3 apology "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b2 REF x4
+b2 Causer x4 "speaker"
+b2 Time x4 x3
+b2 Topic x4 x5
+b2 say "v.01" x4
+b4 REF x5
+b4 REF x6
+b4 Role x5 x6
+b4 doctor "n.01" x6
+b4 person "n.01" x5

@@ -1,0 +1,6 @@
+b1 REF x1
+b1 of_course "n.01" x1
+b1 NEC b2
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 should "v.01" x2

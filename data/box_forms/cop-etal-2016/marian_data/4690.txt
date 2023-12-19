@@ -1,0 +1,61 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "hearer"
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 stand "v.01" x1
+b1 time "n.08" x2
+b1 Theme x1 x3
+b2 REF x3
+b2 mantel@-8piece "n.01" x3
+b3 DRS x1
+b3 DRS x3
+b2 CONTINUATION b1 b3
+b3 REF x4
+b3 Agent x4 "hearer"
+b3 Theme x4 x5
+b3 twiddle "v.02" x4
+b4 REF x5
+b4 thing "n.01" x5
+b3 Destination x4 x6
+b5 REF x6
+b5 PartOf x6 "hearer"
+b5 REF x7
+b5 Theme x7 x6
+b5 usual "a.01" x7
+b5 fashion "n.01" x6
+b6 DRS x4
+b6 DRS x7
+b5 CONTINUATION b2 b6
+b7 REF x8
+b7 User x8 "hearer"
+b7 REF x9
+b7 Theme x9 x8
+b7 usual "a.01" x9
+b7 fashion "n.01" x8
+b6 REF x10
+b6 Part x10 "hearer"
+b6 Part x10 x11
+b6 group "n.01" x10
+b8 REF x11
+b8 PartOf x11 "hearer"
+b8 REF x12
+b8 Theme x12 x11
+b8 usual "a.01" x12
+b8 fashion "n.01" x11
+b9 DRS x9
+b9 DRS x12
+b8 CONTINUATION b5 b9
+b10 REF x13
+b10 User x13 "hearer"
+b10 hand "n.01" x13
+b9 REF x14
+b9 REF x15
+b9 TPR x15 "now"
+b9 Theme x14 x13
+b9 Time x14 x15
+b9 shake "v.01" x14
+b9 time "n.08" x15
+b9 Attribute x14 x16
+b9 REF x16
+b9 leaf "n.01" x16

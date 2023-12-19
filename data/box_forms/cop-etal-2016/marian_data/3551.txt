@@ -1,0 +1,19 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 NOT b2 b3
+b2 Time x2 x1
+b2 have "v.01" x2
+b1 Experiencer x2
+b2 REF x3
+b2 REF x4
+b2 Role x3 x4
+b2 friend "n.01" x4
+b2 person "n.01" x3
+b2 Of x4 "speaker"
+b2 NEC b3
+b3 REF x5
+b3 @-4 "n.01" "speaker"
+b3 disapprove "v.01" x5

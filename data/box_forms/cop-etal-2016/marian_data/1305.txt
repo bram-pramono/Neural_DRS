@@ -1,0 +1,75 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 NOT b2 b1
+b2 gape "v.01" x3
+b3 REF x4
+b3 female "n.02" x4
+b2 REF x5
+b2 @-4 "n.01" x4
+b2 Stimulus x5 x6
+b2 realize "v.01" x5
+b4 REF x6
+b4 User x6 x4
+b4 REF x7
+b4 Theme x7 x6
+b4 coarse "a.01" x7
+b4 kitchen_salt "n.01" x6
+b2 REF x8
+b2 TPR x8 "now"
+b2 time "n.08" x8
+b3 Time x9 x8
+b3 REF x9
+b3 Theme x9 x6
+b3 strychnine "a.01" x9
+b3 REF x10
+b3 person "n.01" x10
+b3 PartOf x10 x11
+b5 REF x11
+b5 REF x12
+b5 Theme x12 x11
+b5 coarse "a.01" x12
+b5 REF x13
+b5 Role x11 x13
+b5 kitchen_salt "n.01" x13
+b5 person "n.01" x11
+b3 REF x14
+b3 TPR x14 "now"
+b3 time "n.08" x14
+b3 REF x15
+b3 @-4 "n.01" x12
+b3 Stimulus x15 x16
+b3 Time x15 x14
+b3 realize "v.01" x15
+b6 REF x16
+b6 Of x16 x10
+b6 REF x17
+b6 Theme x17 x16
+b6 coarse "a.01" x17
+b6 kitchen_salt "n.01" x16
+b2 REF x18
+b2 TPR x18 "now"
+b2 time "n.08" x18
+b4 REF x19
+b4 @-4 "n.01" x16
+b4 Stimulus x19 x20
+b4 Time x19 x18
+b4 realize "v.01" x19
+b7 REF x20
+b7 Of x20 x14
+b7 REF x21
+b7 Theme x21 x20
+b7 coarse "a.01" x21
+b7 kitchen_salt "n.01" x20
+b3 REF x22
+b3 TPR x22 "now"
+b3 time "n.08" x22
+b5 REF x23
+b5 @-4 "n.01" x20
+b5 Stimulus x23 x23
+b5 Time x23 x22
+b5 realize "v.01" x23

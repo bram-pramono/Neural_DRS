@@ -1,0 +1,40 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 add "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 EQU x5 "now"
+b3 Time x6 x5
+b3 time "n.08" x5
+b3 REF x6
+b3 Attribute "speaker" x6
+b3 EXPLANATION b4
+b4 POSSIBILITY b5
+b5 REF x7
+b5 Co-Theme x7 x8
+b5 Theme x7 "speaker"
+b5 see "v.01" x7
+b5 REF x8
+b5 entity "n.01" x8
+b6 REF x9
+b6 PRESUPPOSITION b7
+b6 male "n.02" x9
+b7 REF x10
+b7 Creator x10 x9
+b7 PRESUPPOSITION b8
+b7 motive "n.01" x10
+b5 POSSIBILITY b8
+b8 REF x11
+b8 Co-Theme x11 x9
+b8 Theme x11 x10
+b8 be "a.01" x11

@@ -1,0 +1,19 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x2 x1
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 endeavor "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 Agent x5 x1
+b3 Patient x5 x1
+b3 explain "v.02" x5
+b1 PRESUPPOSITION b3

@@ -1,0 +1,59 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 present "a.01" x2
+b1 contention "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 Co-Theme x3 x5
+b2 EQU x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 be "v.02" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 REF x6
+b3 Theme x6 x5
+b3 mr "a.01" x6
+b3 Name x5 "inglethorp"
+b3 female "n.02" x5
+b4 DRS x4
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 NOT b4 b2
+b4 die "v.01" x7
+b4 Causer x7 x8
+b4 REF x8
+b4 strychning "n.01" x8
+b4 Name x8 "inglethorp"
+b4 city "n.01" x8
+b4 REF x9
+b4 NOT b4 b3
+b4 die "v.01" x9
+b4 Causer x9 x10
+b4 REF x10
+b4 strychning "n.01" x10
+b4 Name x10 "inglethorp"
+b4 city "n.01" x10
+b4 REF x11
+b4 die "v.01" x11
+b4 Causer x11 x12
+b4 REF x12
+b4 strychning "n.01" x12
+b4 Name x12 "inglethorp"
+b4 city "n.01" x12
+b4 REF x13
+b4 die "v.01" x13
+b4 Causer x13 x15
+b4 REF x14
+b4 REF x15
+b4 Theme x14 x15
+b4 strychnine "a.01" x14
+b4 poisoning "n.01" x15
+b4 REF x16
+b4 administer "v.01" x16
+b4 Location x16 x17
+b5 REF x17
+b5 User x17 x15
+b5 coffee "n.01" x17

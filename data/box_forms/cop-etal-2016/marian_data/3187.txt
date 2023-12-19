@@ -1,0 +1,14 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b2 REF x2
+b2 person "n.01" x2
+b1 POS b3
+b3 REF x3
+b3 Theme x3 x2
+b3 use "v.01" x3
+b1 POS b4
+b4 REF x4
+b4 Agent x4 "speaker"
+b4 ask "v.01" x4

@@ -1,0 +1,25 @@
+b1 REF x1
+b1 Frequency x2 x1
+b1 Quantity x1 "1"
+b1 time "n.08" x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 Experiencer x2 "speaker"
+b1 Stimulus x2 x3
+b1 Time x2 x4
+b1 proposition "n.01" x3
+b1 realize "v.01" x2
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b2 REF x5
+b2 Theme x5 "speaker"
+b2 Time x5 x4
+b2 be "v.01" x5
+b2 Location x5 x6
+b2 REF x6
+b2 very "r.01" x6
+b2 REF x7
+b2 Attribute x6 x7
+b2 awkward "a.01" x7

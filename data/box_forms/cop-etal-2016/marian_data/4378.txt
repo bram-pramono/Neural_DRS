@@ -1,0 +1,75 @@
+b1 Time x3 x1
+b2 REF x1
+b2 REF x2
+b2 Theme x2 x1
+b2 previous "a.01" x2
+b2 day "n.01" x1
+b3 REF x3
+b3 REF x4
+b3 Role x3 x4
+b3 person "n.01" x3
+b3 prisoner "n.01" x4
+b1 REF x5
+b1 REF x6
+b1 Agent x5 x3
+b1 TPR x6 "now"
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 purchase "v.01" x5
+b1 time "n.08" x6
+b1 REF x7
+b1 strychnine "n.01" x7
+b1 Theme x5 x8
+b4 REF x8
+b4 REF x9
+b4 Theme x9 x8
+b4 village "a.01" x9
+b4 REF x10
+b4 Role x8 x10
+b4 chemist "n.01" x10
+b4 person "n.01" x8
+b4 REF x11
+b4 Agent x11 x8
+b4 Theme x11 x12
+b4 wear "v.01" x11
+b4 REF x12
+b4 strychnine "n.01" x12
+b4 Theme x12 x13
+b4 REF x13
+b4 REF x14
+b4 Theme x14 x13
+b4 village "a.01" x14
+b4 REF x15
+b4 Role x13 x15
+b4 chemist "n.01" x15
+b4 person "n.01" x13
+b4 REF x16
+b4 Agent x16 x13
+b4 Theme x16 x17
+b4 wear "v.01" x16
+b4 REF x17
+b4 strychnine "n.01" x17
+b4 Theme x17 x18
+b4 REF x18
+b4 REF x19
+b4 Theme x19 x18
+b4 village "a.01" x19
+b4 REF x20
+b4 Role x18 x20
+b4 chemist "n.01" x20
+b4 person "n.01" x18
+b4 REF x21
+b4 Agent x21 x18
+b4 Theme x21 x22
+b4 wear "v.01" x21
+b4 REF x22
+b4 strychnine "n.01" x22
+b4 Theme x22 x23
+b4 REF x23
+b4 REF x24
+b4 Theme x24 x23
+b4 village "a.01" x24
+b4 REF x25
+b4 Role x23 x25
+b4 chemist "n.01" x25
+b4 person "n.01" x23

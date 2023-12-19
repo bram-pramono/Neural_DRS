@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Name x1 "strychnine"
+b1 city "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.03" x2
+b2 time "n.08" x3
+b2 Location x2 x4
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 certain "a.01" x5
+b2 sense "n.01" x4
+b2 Causer x4 x6
+b2 REF x6
+b2 REF x7
+b2 Theme x7 x6
+b2 cumulative "a.01" x7
+b2 poissible "n.01" x6
+b2 Theme x6 x8
+b2 REF x8
+b2 REF x9
+b2 Theme x9 x8
+b2 cumulative "a.01" x9
+b2 poissible "n.01" x8
+b2 Theme x8 x10
+b2 REF x10
+b2 REF x11
+b2 Theme x11 x10
+b2 cumulative "a.01" x11
+b2 poissible "n.01" x10
+b2 Theme x10 x12
+b2 REF x12
+b2 REF x13
+b2 Theme x13 x12
+b2 cumulative "a.01" x13
+b2 poissible "n.01" x12
+b2 Theme x12 x14
+b2 REF x14
+b2 REF x15
+b2 Theme x15 x14
+b2 cumulative "a.01" x15
+b2 poissible "n.01" x14
+b2 Theme x14 x16
+b2 REF x16
+b2 REF x17
+b2 Theme x17 x16
+b2 cumulative "a.01" x17
+b2 poissible "n.01" x16
+b2 Theme x16 x18
+b2 REF x18
+b2 REF x19
+b2 Theme x19 x18
+b2 cumulative "a.01" x19
+b2 poissible "n.01" x18
+b2 Theme x18 x20
+b2 REF x20
+b2 REF x21
+b2 Theme x21 x20
+b2 cumulative "a.01" x21
+b2 poissible "n.01" x20
+b2 Theme x20 x22
+b2 REF x22
+b2 REF x23
+b2 Theme x23 x22
+b2 cumulative "a.01" x23
+b2 poissible "n.01" x22
+b2 Theme x22 x24
+b2 REF x24
+b2 REF x25
+b2 Theme x25 x24
+b2 cumulative "a.01" x25

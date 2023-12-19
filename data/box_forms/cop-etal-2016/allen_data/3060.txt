@@ -1,0 +1,34 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Title x1 x2
+b1 miss "n.03" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 Agent x3 x1
+b2 TPR x4 "now"
+b2 Theme x3 x5
+b2 occupy "v.03" x3
+b2 REF x4
+b2 Time x3 x4
+b2 time "n.08" x4
+b2 Quantity x4 "?"
+b3 REF x5
+b3 REF x6
+b3 Attribute x5 x6
+b3 PRESUPPOSITION b2
+b3 Value x6 "+"
+b3 same "a.01" x6
+b3 position "n.01" x5
+b2 CONTINUATION b4
+b4 REF x7
+b4 Agent x7 "speaker"
+b4 Theme x7 x9
+b4 use "v.01" x7
+b5 REF x8
+b5 PRESUPPOSITION b6
+b5 female "n.02" x8
+b6 REF x9
+b6 PRESUPPOSITION b4
+b6 User x9 x8
+b6 name "n.01" x9

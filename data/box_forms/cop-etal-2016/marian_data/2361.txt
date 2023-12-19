@@ -1,0 +1,18 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 coroner "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 TPR x4 "now"
+b2 Time x3 x4
+b2 Topic x3 x5
+b2 lean "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 back "n.01" x5
+b2 REF x6
+b2 Theme x6 x5
+b2 satisfied "a.01" x6

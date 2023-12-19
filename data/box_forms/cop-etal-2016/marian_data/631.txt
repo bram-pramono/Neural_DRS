@@ -1,0 +1,75 @@
+b1 REF x1
+b1 shadow "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Theme x2 x1
+b1 Time x2 x3
+b1 fall "v.01" x2
+b1 time "n.08" x3
+b1 Location x2 x4
+b2 REF x4
+b2 bed "n.01" x4
+b3 DRS x2
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 Agent x5 "speaker"
+b3 see "v.01" x5
+b3 Theme x5 x6
+b4 REF x6
+b4 bed "n.01" x6
+b5 DRS x4
+b5 DRS x6
+b4 CONTINUATION b2 b5
+b5 REF x7
+b5 REF x8
+b5 Agent x7 "speaker"
+b5 TPR x8 "now"
+b5 Theme x7 x9
+b5 Time x7 x8
+b5 see "v.01" x7
+b5 time "n.08" x8
+b6 REF x9
+b6 Name x9 "mary~cavendish"
+b6 female "n.02" x9
+b5 REF x10
+b5 Agent x10 "speaker"
+b5 see "v.01" x10
+b5 Theme x10 x11
+b7 REF x11
+b7 bed "n.01" x11
+b8 DRS x8
+b8 DRS x11
+b7 CONTINUATION b4 b8
+b8 REF x12
+b8 REF x13
+b8 Agent x12 "speaker"
+b8 TPR x13 "now"
+b8 Theme x12 x14
+b8 Time x12 x13
+b8 see "v.01" x12
+b8 time "n.08" x13
+b8 REF x14
+b8 Theme x14 x15
+b9 Name x15 "mary"
+b9 REF x15
+b9 female "n.02" x15
+b8 REF x16
+b8 Role x14 x16
+b8 cavendish "n.01" x16
+b8 person "n.01" x14
+b8 REF x17
+b8 Agent x17 "speaker"
+b8 see "v.01" x17
+b8 Theme x17 x18
+b10 REF x18
+b10 bed "n.01" x18
+b11 DRS x15
+b11 DRS x18
+b10 CONTINUATION b7 b11
+b11 REF x19
+b11 REF x20
+b11 Agent x19 "speaker"
+b11 TPR x20 "now"
+b11 Theme x19 x20

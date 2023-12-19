@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Location x5 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 PartOf x2 x3
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 female "n.02" x3
+b2 hurry "n.01" x2
+b1 REF x4
+b1 Theme x4 x2
+b1 be "v.01" x4
+b1 Location x4 x5
+b1 REF x5
+b1 time "n.01" x5
+b1 Goal x5 x6
+b4 REF x6
+b4 REF x7
+b4 PRESUPPOSITION b1
+b4 Theme x6 x7
+b4 village "n.01" x7
+b4 REF x8
+b4 PRESUPPOSITION b2
+b4 PartOf x6 x8
+b4 haunt "n.01" x8
+b4 person "n.01" x6
+b2 REF x9
+b2 REF x10
+b2 REF x11
+b2 ATTRIBUTION b5
+b2 Agent x9 x4
+b2 TPR x11 "now"
+b2 Time x9 x11
+b2 Topic x9 x10
+b2 forget "v.01" x9
+b2 proposition "n.01" x10
+b2 time "n.08" x11
+b5 REF x12
+b5 Agent x12 x3
+b5 Theme x12 x13
+b5 take "v.01" x12
+b2 PRESUPPOSITION b6
+b6 REF x13
+b6 PRESUPPOSITION b5
+b6 User x13 x8
+b6 medicine "n.02" x13
+b5 CONTINUATION b7
+b8 REF x14
+b8 PRESUPPOSITION b7
+b8 last "n.01" x14
+b7 REF x15
+b7 Sub x15 x14
+b7 Sub x15 x16
+b7 entity "n.01" x15
+b7 REF x16
+b7 REF x17
+b7 Attribute x16 x17
+b7 fatality "n.01" x17
+b7 REF x18
+b7 Role x16 x18
+b7 person "n.01" x16
+b7 dose "n.01" x18
+b7 Time x21 x19
+b7 REF x19
+b7 TPR x19 "now"
+b7 time "n.08" x19
+b7 REF x20
+b7 Manner x21 x20
+b7 actually "a.01" x20
+b7 REF x21
+b7 Theme x21 x16
+b7 take "v.01" x21
+b7 Agent x21 x22
+b9 REF x22
+b9 REF x23

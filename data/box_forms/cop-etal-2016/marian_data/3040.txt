@@ -1,0 +1,33 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x3 x1
+b2 REF x2
+b2 entity "n.01" x2
+b2 REF x3
+b2 reason "n.01" x3
+b2 EQU x3 "now"
+b2 REF x4
+b2 Theme x4 x3
+b2 there "v.01" x4
+b2 Beneficiary x4 x5
+b3 REF x5
+b3 REF x6
+b3 Theme x5 x6
+b3 miss "n.01" x6
+b3 Name x5 "miss~howard"
+b3 male "n.02" x5
+b1 REF x7
+b1 TPR "now" x7
+b1 time "n.08" x7
+b2 Time x8 x7
+b2 REF x8
+b2 @-4 "n.01" x5
+b2 Stimulus x8 x9
+b2 poison "v.01" x8
+b4 REF x9
+b4 REF x10
+b4 Theme x9 x10
+b4 miss "n.01" x10
+b4 Name x9 "inglethorp"
+b4 female "n.02" x9

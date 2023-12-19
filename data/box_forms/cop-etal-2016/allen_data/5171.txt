@@ -1,0 +1,30 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b3 REF x2
+b3 REF x3
+b3 EQU x3 "now"
+b3 Theme x2 x1
+b3 Time x2 x3
+b3 arrive "v.01" x2
+b3 time "n.08" x3
+b3 Source x2 x4
+b3 REF x4
+b4 Co-Patient x2 x5
+b3 CONDITION b5
+b5 REF x5
+b5 CONSEQUENCE b4
+b5 PartOf x5 x6
+b5 entity "n.01" x5
+b6 REF x6
+b6 REF x7
+b6 Attribute x6 x7
+b6 PRESUPPOSITION b5
+b6 skateboard "a.01" x7
+b6 item "n.01" x6
+b5 Location x2 x8
+b3 PRESUPPOSITION b7
+b7 REF x8
+b7 PRESUPPOSITION b4
+b7 User x8 x2
+b7 possession "n.01" x8

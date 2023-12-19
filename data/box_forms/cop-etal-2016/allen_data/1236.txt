@@ -1,0 +1,13 @@
+b1 NEGATION b2
+b3 POSSIBILITY b4
+b2 NEGATION b3
+b4 REF x1
+b4 REF x2
+b4 ATTRIBUTION b5
+b4 Agent x1 "speaker"
+b4 Topic x1 x2
+b4 proposition "n.01" x2
+b4 say "v.01" x1
+b5 REF x3
+b5 Theme x3 "speaker"
+b5 do "a.01" x3

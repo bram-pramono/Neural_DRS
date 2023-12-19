@@ -1,0 +1,27 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Time x2 x3
+b2 nod "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b2 CONTINUATION b3
+b3 REF x4
+b3 Agent x4 x1
+b3 Theme x4 x5
+b3 take "v.01" x4
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 photograph "n.01" x5
+b3 Source x4 "speaker"
+b2 REF x6
+b2 Agent x6 x1
+b2 Patient x6 x7
+b2 Time x6 x3
+b2 lock "v.01" x6
+b5 REF x7
+b5 PRESUPPOSITION b2
+b5 person "n.01" x7

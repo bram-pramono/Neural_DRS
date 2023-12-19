@@ -1,0 +1,15 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Degree x3 x2
+b1 quite "r.04" x2
+b1 REF x3
+b1 Experiencer x3 "hearer"
+b1 sure "a.01" x3
+b2 Stimulus x3 x4
+b1 CONDITION b3
+b3 REF x4
+b3 CONSEQUENCE b2
+b3 entity "n.01" x4

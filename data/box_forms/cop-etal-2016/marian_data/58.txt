@@ -1,0 +1,6 @@
+b1 REF x1
+b1 village "n.02" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 Name x2 "styles~st"
+b2 state "n.01" x2

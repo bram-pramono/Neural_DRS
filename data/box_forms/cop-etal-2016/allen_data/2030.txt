@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 REF x1
+b3 TPR x1 "now"
+b3 Time x3 x1
+b3 time "n.08" x1
+b3 REF x2
+b3 REF x3
+b3 ATTRIBUTION b4
+b3 Experiencer x3 "speaker"
+b3 Stimulus x3 x2
+b3 proposition "n.01" x2
+b3 sure "a.01" x3
+b5 REF x4
+b5 person "n.01" x4
+b6 REF x5
+b6 CONSEQUENCE b7
+b6 entity "n.01" x5
+b7 PartOf x5 x6
+b8 REF x6
+b8 REF x7
+b8 PRESUPPOSITION b7
+b8 Role x6 x7
+b8 gardener "n.01" x7
+b8 person "n.01" x6
+b7 REF x8
+b7 REF x9
+b7 TPR x9 "now"
+b7 Theme x8 x5
+b7 Time x8 x9
+b7 enter "v.01" x8
+b7 time "n.08" x9
+b9 REF x10
+b9 PRESUPPOSITION b7
+b7 CONTINUATION b10
+b10 REF x11
+b10 REF x12
+b10 Role x11 x12
+b10 mr "n.01" x12
+b10 person "n.01" x11
+b10 REF x13
+b10 REF x14
+b10 REF x15
+b10 ATTRIBUTION b11
+b10 Agent x13 x11
+b10 TPR x15 "now"
+b10 Theme x13 x14
+b10 Time x13 x15
+b10 proposition "n.01" x14
+b10 time "n.08" x15
+b10 wish "v.01" x13
+b11 REF x16
+b11 Agent x16 x11
+b11 speak "v.02" x16
+b11 Co-Agent x16 x17
+b12 REF x17
+b12 PRESUPPOSITION b11
+b12 person "n.01" x17
+b13 REF x18
+b13 PRESUPPOSITION b11
+b13 female "n.02" x18
+b11 REF x19
+b11 TPR "now" x19
+b11 Time x20 x19
+b11 time "n.08" x19
+b11 NEGATION b14
+b14 REF x20
+b14 Theme x20 x18
+b14 Time x20 x21
+b14 stand "v.01" x20
+b12 REF x21
+b12 TPR x21 "now"
+b12 time "n.08" x21
+b12 Location x20 x22
+b15 REF x22
+b15 PRESUPPOSITION b12

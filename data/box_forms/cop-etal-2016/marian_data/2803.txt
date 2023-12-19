@@ -1,0 +1,39 @@
+b1 REF x1
+b1 REF x2
+b1 TPR "now" x2
+b1 Time x1 x2
+b1 time "n.08" x2
+b1 Theme x1 x3
+b1 be "v.03" x1
+b1 REF x3
+b1 picture "n.01" x3
+b1 Theme x3 x4
+b2 REF x4
+b2 Name x4 "styles"
+b2 city "n.01" x4
+b1 REF x5
+b1 Agent x5 x3
+b1 Theme x5 x6
+b1 leave "v.01" x5
+b3 REF x6
+b3 Name x6 "inbuest"
+b3 inbuest "n.01" x6
+b4 DRS x3
+b4 DRS x6
+b3 CONTINUATION b1 b4
+b4 REF x7
+b4 REF x8
+b4 Theme x8 x7
+b4 village "a.01" x8
+b4 REF x9
+b4 Role x7 x9
+b4 person "n.01" x7
+b4 photographer "n.01" x9
+b4 Experiencer x9
+b3 REF x10
+b3 TPR x10 "now"
+b3 time "n.08" x10
+b4 Time x11 x10
+b4 REF x11
+b4 Theme x11 x8
+b4 idle "a.01" x11

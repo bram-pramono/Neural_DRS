@@ -1,0 +1,15 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 both "n.01" x1
+b2 SubOf x1 x2
+b4 REF x2
+b4 PRESUPPOSITION b2
+b4 person "n.01" x2
+b5 REF x3
+b5 Of x4 "speaker"
+b5 REF x4
+b5 PRESUPPOSITION b3
+b5 Role x3 x4
+b5 friend "n.01" x4
+b5 person "n.01" x3

@@ -1,0 +1,71 @@
+b1 NEGATION b2
+b2 Context x4 x1
+b2 REF x1
+b2 PartOf x1 x2
+b2 such "n.01" x1
+b2 REF x2
+b2 case "n.01" x2
+b3 REF x3
+b3 REF x4
+b3 Agent x2 x6
+b3 PRESUPPOSITION b4
+b3 TPR x3 "now"
+b3 TPR x4 "now"
+b3 Theme x2 x8
+b3 Time x2 x3
+b3 time "n.08" x3
+b3 time "n.08" x4
+b3 try "v.01" x2
+b4 REF x5
+b4 Agent x5 x1
+b4 Theme x5 x9
+b4 Time x5 x4
+b4 try "v.01" x5
+b5 REF x6
+b5 REF x7
+b5 PRESUPPOSITION b3
+b5 PRESUPPOSITION b4
+b5 word "n.01" x6
+b5 word "n.01" x7
+b3 REF x8
+b3 Frequency x5 x8
+b3 Quantity x8 "1"
+b3 time "n.08" x8
+b4 Location x5 x9
+b2 REF x9
+b2 edge "n.01" x9
+b2 PartOf x9 x10
+b6 REF x10
+b6 PRESUPPOSITION b2
+b2 ALTERNATION b3
+b3 ALTERNATION b4
+b4 REF x11
+b4 REF x12
+b4 Attribute x11 x12
+b4 spare "a.01" x12
+b4 scrap "n.01" x11
+b4 Content x11 x13
+b4 REF x13
+b4 paper "n.01" x13
+b4 REF x14
+b4 REF x15
+b4 ATTRIBUTION b7
+b4 Co-Theme x14 x15
+b4 Theme x14 x11
+b4 Theme x14 x15
+b4 question "n.01" x15
+b4 see "v.01" x14
+b8 REF x16
+b8 PRESUPPOSITION b7
+b8 entity "n.01" x16
+b4 REF x17
+b4 TPR x17 "now"
+b4 time "n.08" x17
+b7 REF x18
+b7 Attribute x18 x19
+b7 Theme x18 x16
+b7 Time x18 x17
+b7 look "v.01" x18
+b7 REF x19
+b7 Attribute x16 x19
+b7 right "a.05" x19

@@ -1,0 +1,43 @@
+b1 PRECONDITION b2
+b3 REF x1
+b3 REF x2
+b3 PRESUPPOSITION b1
+b3 Title x1 x2
+b3 miss "n.03" x2
+b3 female "n.02" x1
+b2 Time x4 x3
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b1 REF x4
+b1 Experiencer x4 x1
+b1 capable "a.01" x4
+b1 REF x5
+b1 Stimulus x4 x6
+b1 entity "n.01" x5
+b1 REF x6
+b1 Agent x6 x5
+b1 Patient x6 x7
+b1 poison "v.02" x6
+b4 REF x7
+b4 REF x8
+b4 Attribute x7 x8
+b4 PRESUPPOSITION b1
+b4 Value x8 "+"
+b4 old "a.01" x8
+b4 lady "n.01" x7
+b5 REF x9
+b5 PRESUPPOSITION b3
+b5 female "n.02" x9
+b3 Time x10 x4
+b3 REF x10
+b3 Degree x11 x10
+b3 quite "r.04" x10
+b3 REF x11
+b3 Experiencer x11 x4
+b3 capable "a.01" x11
+b3 Stimulus x11 x13
+b3 REF x12
+b3 REF x13
+b3 Attribute x13 x12
+b3 massage "n.01" x13

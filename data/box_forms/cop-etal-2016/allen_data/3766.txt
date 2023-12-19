@@ -1,0 +1,43 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 NEGATION b3
+b3 REF x2
+b3 time "n.08" x2
+b3 REF x3
+b3 Agent x3 x1
+b3 EQU x2 "now"
+b3 Time x3 x2
+b3 speak "v.02" x3
+b3 Co-Agent x3 "speaker"
+b1 PRESUPPOSITION b4
+b3 POSSIBILITY b4
+b4 REF x4
+b4 Agent x4 x1
+b4 Beneficiary x4 x5
+b4 help "v.01" x4
+b5 REF x5
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x5
+b6 REF x6
+b6 Name x6 "mary"
+b6 PRESUPPOSITION b7
+b6 female "n.02" x6
+b4 POSSIBILITY b7
+b7 REF x7
+b7 REF x8
+b7 ATTRIBUTION b8
+b7 Agent x7 x6
+b7 Recipient x7 x5
+b7 Topic x7 x8
+b7 bring "v.01" x7
+b7 proposition "n.01" x8
+b8 REF x9
+b8 Agent x9 x5
+b8 Recipient x9 x5
+b8 Topic x9 x10
+b8 be "v.01" x9
+b8 REF x10
+b8 Theme x10 x5
+b8 civil "a.01" x10
+b8 Experiencer x10 "speaker"

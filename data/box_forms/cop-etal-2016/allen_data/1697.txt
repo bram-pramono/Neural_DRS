@@ -1,0 +1,51 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 person "n.01" x1
+b1 sir "n.01" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 female "n.02" x3
+b1 REF x4
+b1 Agent x4 x3
+b1 Theme x4 x6
+b1 Time x4 x5
+b1 slip "v.01" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x6
+b1 Destination x4 x7
+b1 REF x7
+b1 REF x8
+b1 Attribute x7 x8
+b1 Value x8 "+"
+b1 long "a.01" x8
+b1 envelope "n.01" x7
+b1 CONTINUATION b4
+b4 REF x9
+b4 Agent x9 x2
+b4 Theme x9 x10
+b4 Time x9 x5
+b4 put "v.01" x9
+b1 PRESUPPOSITION b4
+b4 entity "n.01" x6
+b4 REF x10
+b4 Location x9 x10
+b4 STI x10 x11
+b4 location "n.01" x10
+b4 REF x11
+b4 REF x12
+b4 Colour x11 x12
+b4 purple "a.01" x12
+b4 box "n.01" x11
+b4 Time x13 x5
+b4 REF x13
+b4 Theme x13 x11
+b4 stand "v.01" x13
+b4 Location x13 x14
+b5 REF x14
+b5 PRESUPPOSITION b4
+b5 desk "n.01" x14

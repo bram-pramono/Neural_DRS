@@ -1,0 +1,26 @@
+b1 CONDITION b2
+b2 REF x1
+b2 CONSEQUENCE b3
+b2 SubOf x1 "hearer"
+b2 entity "n.01" x1
+b3 REF x2
+b3 Agent x2 x1
+b3 Theme x2 x3
+b3 do "v.01" x2
+b3 REF x3
+b3 REF x4
+b3 Attribute x3 x4
+b3 silly "a.01" x4
+b3 look "n.01" x3
+b3 Topic x3 x7
+b3 REF x5
+b3 PRESUPPOSITION b4
+b4 REF x6
+b4 Sub x6 x5
+b4 Sub x6 x7
+b4 entity "n.01" x6
+b4 REF x7
+b4 Time x7 x8
+b4 REF x8
+b4 DayOfWeek x8 "friday"
+b4 time "n.08" x8

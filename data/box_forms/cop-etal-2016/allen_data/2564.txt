@@ -1,0 +1,39 @@
+b1 REF x1
+b1 Sub x1 "speaker"
+b1 Sub x1 x2
+b1 entity "n.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x1
+b1 TPR x4 "now"
+b1 Time x3 x4
+b1 meet "v.01" x3
+b1 time "n.08" x4
+b1 CONTINUATION b3
+b4 REF x5
+b5 EQU x5 "now"
+b5 EQU x5 x7
+b4 NEGATION b5
+b5 REF x6
+b5 man "n.01" x6
+b5 REF x7
+b5 Creator x7 x6
+b5 judgment "n.01" x7
+b3 REF x8
+b3 TPR "now" x8
+b3 time "n.08" x8
+b5 Time x9 x8
+b5 REF x9
+b5 Agent x9 "speaker"
+b5 Theme x9 x7
+b5 take "v.01" x9
+b3 Instrument x4 x10
+b5 REF x10
+b5 Owner x10 x11
+b5 entity "n.01" x10
+b6 REF x11
+b6 PRESUPPOSITION b5
+b6 male "n.02" x11

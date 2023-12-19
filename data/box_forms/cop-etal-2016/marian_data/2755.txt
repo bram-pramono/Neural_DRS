@@ -1,0 +1,26 @@
+b1 REF x1
+b1 quarrel "n.01" x1
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 REF x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Agent x3 x1
+b2 Theme x3 x4
+b2 take_place "v.01" x3
+b2 REF x4
+b2 earlier "n.01" x4
+b2 Location x3 x5
+b3 REF x5
+b3 afternoon "n.01" x5
+b2 MonthOfYear x3 "04"
+b2 ClockTime x3 "04:00"
+b4 REF x6
+b4 female "n.02" x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 time "n.08" x7
+b3 REF x8
+b3 NOT b4 b2
+b3 Time x8 x7
+b3 say "v.01" x8

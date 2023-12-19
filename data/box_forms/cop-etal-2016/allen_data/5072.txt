@@ -1,0 +1,63 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 EQU x4 "now"
+b2 Experiencer x2 x1
+b2 Stimulus x2 x3
+b2 Time x2 x4
+b2 fear "v.01" x2
+b2 proposition "n.01" x3
+b2 time "n.08" x4
+b3 PRECONDITION b4
+b1 PRESUPPOSITION b4
+b4 REF x5
+b4 REF x6
+b4 EQU x6 "now"
+b4 Theme x5 x1
+b4 Time x5 x6
+b4 remain "v.01" x5
+b4 time "n.08" x6
+b4 Location x5 x7
+b5 REF x7
+b5 PRESUPPOSITION b4
+b5 room "n.01" x7
+b1 PRESUPPOSITION b6
+b4 POSSIBILITY b6
+b6 REF x8
+b6 Agent x8 x2
+b6 Patient x8 x9
+b6 open "v.01" x8
+b7 REF x9
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x9
+b6 CONTINUATION b8
+b9 REF x10
+b9 REF x11
+b9 PRESUPPOSITION b10
+b9 Title x10 x11
+b9 mr "n.01" x11
+b9 male "n.02" x10
+b8 POSSIBILITY b10
+b10 REF x12
+b10 Experiencer x12 x5
+b10 Stimulus x12 x13
+b10 catch "v.01" x12
+b10 REF x13
+b10 sight "n.01" x13
+b10 Of x13 x14
+b11 REF x14
+b11 PRESUPPOSITION b10
+b11 letter "n.01" x14
+b10 PRESUPPOSITION b12
+b10 POSSIBILITY b12
+b12 REF x15
+b12 Agent x15 x8
+b12 Theme x15 x16
+b12 snatch "v.01" x15
+b13 REF x16
+b13 PRESUPPOSITION b12
+b13 entity "n.01" x16

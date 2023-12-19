@@ -1,0 +1,22 @@
+b1 Context x4 x1
+b1 REF x1
+b1 PRESUPPOSITION b1 b2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b1 moment "n.01" x1
+b2 moment "n.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 door "n.01" x3
+b1 REF x4
+b1 Patient x4 x3
+b1 Time x4 x5
+b1 open "v.01" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b1 CONTINUATION b4
+b4 REF x6
+b4 Agent x6 "hearer"
+b4 Time x6 x5
+b4 appear "v.03" x6

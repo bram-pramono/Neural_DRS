@@ -1,0 +1,14 @@
+b1 REF x1
+b1 Name x1 "yes"
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 Sub x2 x1
+b2 Sub x2 x3
+b2 entity "n.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 female "n.02" x3
+b2 REF x4
+b2 Theme x4 x2
+b2 do "a.01" x4

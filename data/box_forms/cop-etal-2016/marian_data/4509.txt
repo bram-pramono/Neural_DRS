@@ -1,0 +1,30 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 NOT b2 "hearer"
+b2 strike "v.01" x2
+b2 REF x3
+b2 man "n.01" x3
+b2 NEC b3
+b3 REF x4
+b3 Agent x4 "hearer"
+b3 Theme x4 x5
+b3 keep "v.05" x4
+b3 REF x5
+b3 evidence "n.01" x5
+b3 Theme x5 x6
+b3 REF x6
+b3 REF x7
+b3 Theme x7 x6
+b3 unlock "v.01" x7
+b3 drawer "n.01" x6
+b3 Theme x6 x8
+b3 REF x8
+b3 person "n.01" x8
+b3 Theme x8 x9
+b3 REF x9
+b3 find "n.01" x9

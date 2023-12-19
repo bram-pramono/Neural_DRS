@@ -1,0 +1,75 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Time x3 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 REF x3
+b1 @-4 "n.01" "speaker"
+b1 PRP x2 b2
+b1 Stimulus x3 x2
+b1 convinced "a.01" x3
+b3 REF x4
+b3 female "n.02" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b2 REF x6
+b2 Agent x6 x4
+b2 Result x6 x7
+b2 Time x6 x5
+b2 make "v.01" x6
+b2 REF x7
+b2 fresh "n.01" x7
+b4 DRS x4
+b4 DRS x7
+b3 CONTINUATION b1 b4
+b4 REF x8
+b4 REF x9
+b4 Agent x8 "speaker"
+b4 Result x8 x10
+b4 TPR x9 "now"
+b4 Time x8 x9
+b4 make "v.01" x8
+b4 time "n.08" x9
+b4 REF x10
+b4 fresh "n.01" x10
+b4 REF x11
+b4 Theme x11 x10
+b4 will "v.01" x11
+b5 REF x12
+b5 female "n.02" x12
+b4 REF x13
+b4 TPR x13 "now"
+b4 time "n.08" x13
+b3 REF x14
+b3 Agent x14 x12
+b3 Result x14 x15
+b3 Time x14 x13
+b3 call "v.01" x14
+b3 REF x15
+b3 fresh "n.01" x15
+b6 DRS x12
+b6 DRS x15
+b5 CONTINUATION b2 b6
+b6 REF x16
+b6 REF x17
+b6 Agent x16 "speaker"
+b6 Result x16 x18
+b6 TPR x17 "now"
+b6 Time x16 x17
+b6 call "v.01" x16
+b6 time "n.08" x17
+b6 REF x18
+b6 REF x19
+b6 Theme x19 x18
+b6 fresh "a.01" x19
+b6 will "n.01" x18
+b7 DRS x18
+b7 DRS x19
+b6 CONTINUATION b5 b7
+b7 REF x20
+b7 REF x21
+b7 Agent x20 "speaker"
+b7 Result x20 x21
+b7 TPR x21 "now"
+b7 Time x20 x21

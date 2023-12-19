@@ -1,0 +1,29 @@
+b1 REF x1
+b1 Name x1 "dorcas"
+b1 male "n.02" x1
+b2 REF x2
+b2 PartOf x2 x1
+b2 eye "n.01" x2
+b3 REF x3
+b3 REF x4
+b3 REF x5
+b3 Attribute x3 x4
+b3 PRP x4 b4
+b3 TPR x5 "now"
+b3 Theme x3 x2
+b3 Time x3 x5
+b3 look "v.01" x3
+b3 time "n.08" x5
+b5 REF x6
+b5 person "n.01" x6
+b3 REF x7
+b3 TPR "now" x7
+b3 time "n.08" x7
+b4 Time x8 x7
+b4 REF x8
+b4 Agent x8 x6
+b4 pop "v.01" x8
+b4 Source x8 x9
+b6 REF x9
+b6 PartOf x9 x3
+b6 head "n.01" x9

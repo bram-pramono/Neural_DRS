@@ -1,0 +1,7 @@
+b1 Name x1 "annie"
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x2 x2
+b2 time "n.08" x2

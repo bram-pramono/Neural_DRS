@@ -1,0 +1,75 @@
+b1 Time x3 x1
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 long "a.01" x2
+b1 time "n.02" x1
+b2 REF x3
+b2 person "n.01" x3
+b1 REF x4
+b1 Co-Theme x4 x6
+b1 Theme x4 x3
+b1 Time x4 x5
+b1 be "v.08" x4
+b1 REF x5
+b1 TPR x5 "now"
+b1 time "n.08" x5
+b1 REF x6
+b1 stumbling@-8block "n.01" x6
+b1 Co-Agent x4 "speaker"
+b3 REF x7
+b3 female "n.02" x7
+b1 REF x8
+b1 Co-Theme x8 x9
+b1 Theme x8 x7
+b1 Time x8 x5
+b1 remember "v.01" x8
+b1 REF x9
+b1 stumblock "n.01" x9
+b1 Theme x9 "speaker"
+b4 REF x10
+b4 female "n.02" x10
+b1 REF x11
+b1 REF x12
+b1 Co-Theme x11 x13
+b1 TPR x12 "now"
+b1 Theme x11 x10
+b1 Time x11 x12
+b1 remember "v.01" x11
+b1 time "n.08" x12
+b1 REF x13
+b1 stumblock "n.01" x13
+b1 Theme x13 "speaker"
+b5 REF x14
+b5 female "n.02" x14
+b2 REF x15
+b2 REF x16
+b2 Co-Theme x15 x17
+b2 TPR x16 "now"
+b2 Theme x15 x14
+b2 Time x15 x16
+b2 remember "v.01" x15
+b2 time "n.08" x16
+b2 REF x17
+b2 stumblock "n.01" x17
+b2 Theme x17 "speaker"
+b6 REF x18
+b6 female "n.02" x18
+b3 REF x19
+b3 REF x20
+b3 Co-Theme x19 x21
+b3 TPR x20 "now"
+b3 Theme x19 x18
+b3 Time x19 x20
+b3 remember "v.01" x19
+b3 time "n.08" x20
+b3 REF x21
+b3 stumblock "n.01" x21
+b3 Co-Agent x19 "speaker"
+b7 REF x22
+b7 female "n.02" x22
+b3 REF x23
+b3 REF x24
+b3 Co-Theme x23 x24
+b3 TPR x24 "now"
+b3 Theme x23 x22

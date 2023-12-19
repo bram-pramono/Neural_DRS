@@ -1,0 +1,8 @@
+b1 REF x1
+b1 Location x2 x1
+b1 Name x1 "?"
+b1 how "n.01" x1
+b2 POSSIBILITY b1
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 speak "v.01" x2

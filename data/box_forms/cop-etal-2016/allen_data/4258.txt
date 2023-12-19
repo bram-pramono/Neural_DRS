@@ -1,0 +1,13 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Theme x2 "hearer"
+b2 walk "v.01" x2
+b2 Co-Theme x2 "speaker"
+b2 EQU "speaker" x3
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 male "n.02" x3

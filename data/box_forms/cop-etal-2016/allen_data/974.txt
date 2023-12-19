@@ -1,0 +1,18 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 see "r.04" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b1 REF x3
+b1 EQU x3 "now"
+b1 Time x5 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Degree x5 x4
+b1 totally "r.01" x4
+b1 REF x5
+b1 Experiencer x5 x2
+b1 smashed "a.01" x5
+b1 Stimulus x5 x6
+b1 REF x6
+b1 powder "n.01" x6

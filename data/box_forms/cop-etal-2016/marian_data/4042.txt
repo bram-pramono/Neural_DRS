@@ -1,0 +1,31 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 wait "v.01" x2
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 long "a.01" x5
+b2 time "n.02" x4
+b2 REF x6
+b2 REF x7
+b2 Theme x7 x6
+b2 little "a.01" x7
+b2 frown "n.01" x6
+b2 REF x8
+b2 REF x9
+b2 TPR x9 "now"
+b2 Theme x8 x6
+b2 Time x8 x9
+b2 gather "v.01" x8
+b2 time "n.08" x9
+b2 Destination x8 x10
+b3 REF x10
+b3 PartOf x10 x4
+b3 forehead "n.01" x10

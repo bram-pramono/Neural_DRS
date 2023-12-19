@@ -1,0 +1,9 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Pivot x2 "speaker"
+b1 Theme x2 x3
+b1 have "v.01" x2
+b1 REF x3

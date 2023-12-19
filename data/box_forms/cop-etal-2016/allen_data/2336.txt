@@ -1,0 +1,31 @@
+b1 REF x1
+b1 Manner x3 x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 thought "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 Theme x3 x2
+b1 Time x3 x4
+b1 flash "v.01" x3
+b1 time "n.08" x4
+b1 Path x3 x5
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 User x5 "speaker"
+b3 mind "n.01" x5
+b1 EQU x7 x5
+b4 REF x6
+b4 PRESUPPOSITION b1
+b4 female "n.02" x6
+b1 REF x7
+b1 EQU x7 "now"
+b1 Time x8 x7
+b1 time "n.08" x7
+b1 REF x8
+b1 Agent x8 x6
+b1 Theme x8 x9
+b1 gain "v.01" x8
+b1 REF x9
+b1 time "n.01" x9

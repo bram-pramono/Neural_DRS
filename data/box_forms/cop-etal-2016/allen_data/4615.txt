@@ -1,0 +1,50 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 ATTRIBUTION b3
+b2 Agent x3 x1
+b2 Recipient x3 x5
+b2 Theme x3 x4
+b2 call "v.01" x3
+b2 proposition "n.01" x4
+b2 REF x5
+b2 evidence "n.01" x5
+b3 REF x6
+b3 Agent x6 x5
+b3 show "v.01" x6
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 TPR "n.01" x7
+b5 REF x8
+b5 PRESUPPOSITION b6
+b5 entity "n.01" x8
+b3 REF x9
+b3 TPR x9 "now"
+b3 Time x10 x9
+b3 time "n.08" x9
+b3 REF x10
+b3 Attribute x8 x10
+b3 possible "a.01" x10
+b7 REF x11
+b7 PRESUPPOSITION b8
+b7 entity "n.01" x11
+b6 POSSIBILITY b8
+b8 REF x12
+b8 Agent x12 x11
+b8 Patient x12 x13
+b8 open "v.01" x12
+b8 REF x13
+b8 REF x14
+b8 Attribute x13 x14
+b8 new "a.01" x14
+b8 view "n.01" x13
+b8 PartOf x13 x15
+b9 REF x15
+b9 PRESUPPOSITION b8
+b9 case "n.01" x15

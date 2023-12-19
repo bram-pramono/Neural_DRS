@@ -1,0 +1,74 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 occur "v.01" x2
+b2 time "n.08" x3
+b3 Recipient x2 x4
+b2 NEGATION b3
+b3 REF x4
+b3 person "n.01" x4
+b4 REF x5
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 Title x5 x6
+b4 mr "n.01" x6
+b4 person "n.01" x5
+b3 NEGATION b5
+b3 REF x7
+b3 TPR x7 "now"
+b3 time "n.08" x7
+b5 REF x8
+b5 Theme x8 x5
+b5 Time x8 x7
+b5 arrive "v.01" x8
+b5 Co-Theme x8 x9
+b6 REF x9
+b6 PRESUPPOSITION b5
+b6 rest "n.01" x9
+b5 CONTRAST b7
+b8 REF x10
+b8 PRESUPPOSITION b7
+b8 entity "n.01" x10
+b7 REF x11
+b7 EQU x11 "now"
+b7 Time x12 x11
+b7 time "n.08" x11
+b7 REF x12
+b7 Attribute x10 x12
+b7 significant "a.01" x12
+b7 CONTINUATION b9
+b10 POSSIBILITY b11
+b12 REF x13
+b12 Agent x13 "speaker"
+b12 Theme x13 x14
+b12 find "v.01" x13
+b11 NEGATION b12
+b12 REF x14
+b12 person "n.01" x14
+b12 REF x15
+b12 REF x16
+b12 REF x17
+b12 ATTRIBUTION b13
+b12 Agent x15 x14
+b12 Recipient x15 x18
+b12 TPR x17 "now"
+b12 Time x15 x17
+b12 Topic x15 x16
+b12 proposition "n.01" x16
+b12 see "v.01" x15
+b12 time "n.08" x17
+b13 REF x18
+b13 person "n.01" x18
+b13 REF x19
+b13 Theme x19 x18
+b13 come "v.01" x19
+b13 Source x19 x20
+b14 REF x20
+b14 PRESUPPOSITION b13
+b14 NEQ x20 x21
+b15 REF x21

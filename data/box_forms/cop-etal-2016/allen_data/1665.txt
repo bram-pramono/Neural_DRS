@@ -1,0 +1,38 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 Manner x3 x2
+b2 alone "a.01" x2
+b2 REF x3
+b2 Agent x3 x1
+b2 Time x3 x4
+b2 seem "v.01" x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 time "n.08" x4
+b2 REF x5
+b2 Manner x3 x5
+b2 perfectly "r.01" x5
+b2 Context x3 x7
+b3 REF x6
+b3 PRESUPPOSITION b4
+b3 male "n.02" x6
+b4 REF x7
+b4 PRESUPPOSITION b2
+b4 User x7 x6
+b4 ease "n.01" x7
+b2 CONTINUATION b5
+b5 REF x8
+b5 Agent x8 x1
+b5 Theme x8 x9
+b5 Time x8 x4
+b5 dust "v.01" x8
+b5 REF x9
+b5 REF x10
+b5 Theme x10 x9
+b5 forget "v.01" x10
+b5 circle "n.01" x9
+b5 PartOf x9 x11
+b6 REF x11
+b6 PRESUPPOSITION b5

@@ -1,0 +1,54 @@
+b1 REF x1
+b2 POSSIBILITY b3
+b1 NEGATION b2
+b3 REF x2
+b3 Degree x3 x2
+b3 quite "r.01" x2
+b3 REF x3
+b3 Agent x3 "speaker"
+b3 Topic x3 x4
+b3 tell "v.01" x3
+b3 REF x4
+b3 entity "n.01" x4
+b3 REF x5
+b3 Agent x5 x4
+b3 Topic x5 x3
+b3 say "v.01" x5
+b4 REF x6
+b4 Agent x6 "speaker"
+b4 Theme x6 x8
+b4 Time x6 x7
+b4 hold "v.02" x6
+b4 REF x7
+b4 TPR x7 "now"
+b4 time "n.08" x7
+b5 REF x8
+b5 Creator x8 "speaker"
+b5 PRESUPPOSITION b4
+b5 peace "n.01" x8
+b6 REF x9
+b6 PRESUPPOSITION b7
+b6 male "n.02" x9
+b4 PRESUPPOSITION b7
+b7 REF x10
+b7 PartOf x10 x12
+b7 Time x10 x6
+b7 begin "v.01" x10
+b7 REF x11
+b7 Manner x12 x11
+b7 slowly "a.01" x11
+b7 REF x12
+b7 Agent x12 x9
+b7 Product x12 x13
+b7 build "v.01" x12
+b8 REF x13
+b8 PRESUPPOSITION b7
+b8 card "n.01" x13
+b7 REF x14
+b7 Agent x14 x9
+b7 Time x14 x9
+b7 Topic x14 x15
+b7 do "v.01" x14
+b7 REF x15
+b7 Theme x15 x10
+b7 so "v.01" x15

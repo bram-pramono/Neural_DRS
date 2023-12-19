@@ -1,0 +1,34 @@
+b1 CONDITION b2
+b3 REF x1
+b3 PRESUPPOSITION b4
+b3 male "n.02" x1
+b5 REF x2
+b5 REF x3
+b5 Co-Theme x2 x4
+b5 TPR x3 "now"
+b5 Theme x2 x1
+b5 Time x2 x3
+b5 be "v.01" x2
+b5 time "n.08" x3
+b6 REF x4
+b6 opposite "n.01" x4
+b6 PartOf x4 x5
+b5 REF x5
+b5 Of x6 x1
+b5 REF x6
+b5 PRESUPPOSITION b6
+b5 Role x5 x6
+b5 brother "n.01" x6
+b5 person "n.01" x5
+b7 Location x3 x7
+b4 REF x7
+b4 CONSEQUENCE b7
+b4 respect "n.01" x7
+b8 REF x8
+b8 Degree x9 x8
+b8 REF x9
+b8 Attribute x2 x9
+b8 shy "a.01" x9
+b8 REF x10
+b8 Attribute x3 x10
+b8 reserved "a.02" x10

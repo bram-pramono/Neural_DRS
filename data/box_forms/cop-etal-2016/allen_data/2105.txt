@@ -1,0 +1,13 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 CONDITION b3
+b3 CONSEQUENCE b1
+b3 REF x2
+b3 time "n.08" x2
+b3 TPR x2 "now"
+b1 REF x3
+b1 Agent x3 "speaker"
+b1 Recipient x3 "hearer"
+b1 Time x3 x2
+b1 Topic x3 x1
+b1 tell "v.01" x3

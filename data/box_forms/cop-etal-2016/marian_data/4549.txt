@@ -1,0 +1,17 @@
+b1 REF x1
+b1 Of x2 "hearer"
+b1 REF x2
+b1 Role x1 x2
+b1 brother "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 EQU x3 "now"
+b2 time "n.08" x3
+b3 REF x4
+b3 Pivot x4 x1
+b3 Theme x4 x5
+b3 Time x4 x3
+b3 have "v.01" x4
+b2 Experiencer x4
+b3 REF x5
+b3 child "n.01" x5

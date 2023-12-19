@@ -1,0 +1,75 @@
+b1 CONDITION b2
+b3 REF x1
+b3 EQU x1 "now"
+b3 Time x2 x1
+b3 time "n.08" x1
+b3 REF x2
+b3 REF x3
+b3 ATTRIBUTION b4
+b3 Agent x2 "hearer"
+b3 Theme x2 x3
+b3 proposition "n.01" x3
+b3 remember "v.01" x2
+b4 REF x4
+b4 REF x5
+b4 REF x6
+b4 ATTRIBUTION b5
+b4 Agent x4 "hearer"
+b4 TPR x6 "now"
+b4 Theme x4 x5
+b4 Time x4 x6
+b4 proposition "n.01" x5
+b4 remember "v.01" x4
+b4 time "n.08" x6
+b5 REF x7
+b5 REF x8
+b5 ATTRIBUTION b6
+b5 Agent x7 "hearer"
+b5 Theme x7 x8
+b5 proposition "n.01" x8
+b6 PRECONDITION b7
+b7 REF x9
+b7 crime "n.01" x9
+b6 REF x10
+b6 TPR x10 "now"
+b6 time "n.08" x10
+b7 Time x11 x10
+b7 REF x11
+b7 Patient x11 x9
+b7 murder "v.01" x11
+b4 REF x12
+b4 TPR x12 "now"
+b4 Time x13 x12
+b4 time "n.08" x12
+b4 REF x13
+b4 Experiencer x13 "hearer"
+b4 know "v.01" x13
+b4 Stimulus x13 x14
+b4 REF x14
+b4 instinct "n.01" x14
+b8 REF x15
+b8 REF x16
+b8 PRESUPPOSITION b7
+b8 Role x15 x16
+b8 criminal "n.01" x16
+b8 person "n.01" x15
+b7 REF x17
+b7 TPR x17 "now"
+b7 Time x19 x17
+b7 time "n.08" x17
+b7 REF x18
+b7 Degree x19 x18
+b7 quite "r.04" x18
+b7 REF x19
+b7 REF x20
+b7 ATTRIBUTION b9
+b7 Agent x20 "hearer"
+b7 Topic x20 x19
+b7 proposition "n.01" x19
+b7 unable "a.01" x20
+b9 REF x21
+b9 Agent x21 "hearer"
+b9 Topic x21 x22
+b9 prove "v.01" x21
+b10 REF x22
+b10 PRESUPPOSITION b9

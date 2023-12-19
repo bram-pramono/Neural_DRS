@@ -1,0 +1,36 @@
+b1 IMP b2 b3
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b2 REF x2
+b2 Theme x2 "speaker"
+b2 call_upon "v.01" x2
+b3 REF x3
+b3 Agent x3 "speaker"
+b3 Theme x3 x4
+b3 give "v.03" x3
+b3 REF x4
+b3 evidence "n.01" x4
+b4 DRS x1
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b5 REF x5
+b5 entity "n.01" x5
+b4 REF x6
+b4 TPR "now" x6
+b4 time "n.08" x6
+b6 Time x7 x6
+b4 POS b6
+b6 REF x7
+b6 Theme x7 x5
+b6 be "v.03" x7
+b6 Result x7 x8
+b6 REF x8
+b6 REF x9
+b6 Role x8 x9
+b6 person "n.01" x8
+b6 witness "n.01" x9
+b6 Goal x9 x10
+b7 REF x10
+b7 defence "n.01" x10

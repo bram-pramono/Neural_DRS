@@ -1,0 +1,32 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.08" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Theme x5 x4
+b2 generous "a.01" x5
+b2 woman "n.01" x4
+b3 DRS x4
+b3 DRS x5
+b2 CONTINUATION b1 b3
+b3 REF x6
+b3 REF x7
+b3 Agent x6 x1
+b3 TPR x7 "now"
+b3 Theme x6 x8
+b3 Time x6 x7
+b3 possess "v.01" x6
+b3 time "n.08" x7
+b3 REF x8
+b3 REF x9
+b3 Theme x9 x8
+b3 considerable "a.01" x9
+b3 fortune "n.01" x8
+b3 Theme x8 x6

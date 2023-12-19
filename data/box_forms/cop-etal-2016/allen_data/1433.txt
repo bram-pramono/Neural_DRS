@@ -1,0 +1,59 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 REF x2
+b2 Agent x1 "speaker"
+b2 Recipient x1 x3
+b2 TPR x2 "now"
+b2 Time x1 x2
+b2 Topic x1 x1
+b2 time "n.08" x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 male "n.02" x3
+b2 Source x1 x4
+b4 REF x4
+b4 PRESUPPOSITION b2
+b4 beginning "n.01" x4
+b1 REF x5
+b1 identification "n.01" x5
+b1 PartOf x5 x6
+b1 REF x6
+b1 Owner x6 x7
+b1 entity "n.01" x6
+b1 Co-Patient x5 x8
+b5 REF x7
+b5 PRESUPPOSITION b1
+b5 coffee "n.01" x7
+b1 REF x8
+b1 TPR x8 "now"
+b1 Time x9 x8
+b1 time "n.08" x8
+b1 REF x9
+b1 REF x10
+b1 ATTRIBUTION b6
+b3 Recipient x10 x9
+b3 Topic x10 x9
+b3 bound "a.01" x10
+b3 proposition "n.01" x9
+b6 REF x11
+b6 Theme x11 x2
+b6 end "v.01" x11
+b6 Location x11 x12
+b6 REF x12
+b6 REF x13
+b6 Attribute x12 x13
+b6 blind "a.01" x13
+b6 alley "n.01" x12
+b6 CONTRAST b7
+b6 REF x14
+b6 TPR x14 "now"
+b6 time "n.08" x14
+b7 REF x15
+b7 Agent x15 "speaker"
+b7 Patient x15 x16
+b7 Time x15 x14
+b7 adhere "v.01" x15
+b8 REF x16
+b8 PRESUPPOSITION b7
+b8 PartOf x16 "speaker"
+b8 tongue "n.01" x16

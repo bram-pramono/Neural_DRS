@@ -1,0 +1,49 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR "now" x2
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Co-Theme x3 x4
+b2 Theme x3 x1
+b2 be "v.01" x3
+b2 REF x4
+b2 Owner x4 "speaker"
+b2 entity "n.01" x4
+b2 REF x5
+b2 Time x3 x5
+b2 day "n.01" x5
+b2 NECESSITY b3
+b3 REF x6
+b3 Co-Theme x6 x7
+b3 Theme x6 x5
+b3 be "v.01" x6
+b3 REF x7
+b3 Owner x7 "speaker"
+b3 entity "n.01" x7
+b3 EXPLANATION b4
+b5 REF x8
+b5 Of x9 "speaker"
+b5 REF x9
+b5 PRESUPPOSITION b4
+b5 Role x8 x9
+b5 father "n.01" x9
+b5 person "n.01" x8
+b4 REF x10
+b4 Manner x12 x10
+b4 only "a.01" x10
+b3 REF x11
+b3 TPR x11 "now"
+b3 time "n.08" x11
+b4 REF x12
+b4 Agent x12 x8
+b4 Product x12 x13
+b4 Time x12 x11
+b4 make "v.01" x12
+b4 REF x13
+b4 REF x14
+b4 Attribute x13 x14
+b4 decent "a.01" x14
+b4 sail "n.01" x13

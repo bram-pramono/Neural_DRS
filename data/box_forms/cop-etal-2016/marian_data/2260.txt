@@ -1,0 +1,53 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 presume "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 REF x4
+b2 Theme x3 x4
+b2 mr "n.01" x4
+b2 Name x3 "inglethorp"
+b2 female "n.02" x3
+b3 DRS x2
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 Agent x5 x3
+b4 Theme x5 x7
+b4 Time x5 x6
+b4 take "v.09" x5
+b4 REF x6
+b4 TPR x6 "now"
+b4 time "n.08" x6
+b5 REF x7
+b5 coffee "n.01" x7
+b4 Causer x5 x8
+b6 REF x8
+b6 REF x9
+b6 Theme x9 x8
+b6 early "a.01" x9
+b6 hour "n.01" x8
+b6 PartOf x8 x10
+b6 REF x10
+b6 REF x11
+b6 Theme x11 x10
+b6 drug "a.01" x11
+b6 hour "n.01" x10
+b6 PartOf x10 x12
+b7 REF x12
+b7 REF x13
+b7 Theme x13 x12
+b7 drug "a.01" x13
+b7 hour "n.01" x12
+b7 PartOf x12 x14
+b8 REF x14
+b8 REF x15
+b8 Theme x15 x14
+b8 drug "a.01" x15
+b8 hour "n.01" x14
+b8 PartOf x14 x16
+b5 REF x16
+b5 evening "n.01" x16

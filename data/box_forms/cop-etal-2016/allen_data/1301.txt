@@ -1,0 +1,62 @@
+b1 REF x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Theme x1 "speaker"
+b1 Time x1 x2
+b1 be "v.01" x1
+b1 time "n.08" x2
+b1 Location x1 x3
+b1 REF x3
+b1 hurry "n.01" x3
+b1 EXPLANATION b2
+b3 REF x4
+b3 PRESUPPOSITION b2
+b3 location "n.01" x4
+b2 REF x5
+b2 TPR x5 "now"
+b2 Time x6 x5
+b2 time "n.08" x5
+b2 REF x6
+b2 Attribute x4 x6
+b2 out "a.01" x6
+b2 CONTINUATION b4
+b4 REF x7
+b4 REF x8
+b4 REF x9
+b4 ATTRIBUTION b5
+b4 Agent x7 "speaker"
+b4 TPR x9 "now"
+b4 Theme x7 x8
+b4 Time x7 x9
+b4 proposition "n.01" x8
+b4 think "v.01" x7
+b4 time "n.08" x9
+b2 POSSIBILITY b6
+b7 REF x10
+b7 PRESUPPOSITION b6
+b7 chocolate "n.01" x10
+b6 REF x11
+b6 TPR x11 "now"
+b6 Time x12 x11
+b6 time "n.08" x11
+b6 REF x12
+b6 Attribute x10 x12
+b6 all~right "a.01" x12
+b3 CONTINUATION b8
+b9 REF x13
+b9 PRESUPPOSITION b8
+b9 salt "n.01" x13
+b8 REF x14
+b8 Manner x16 x14
+b8 only "a.01" x14
+b7 REF x15
+b7 TPR x15 "now"
+b7 time "n.08" x15
+b8 REF x16
+b8 Theme x16 x13
+b8 Time x16 x15
+b8 go "v.01" x16
+b8 Location x16 x17
+b10 REF x17
+b10 PRESUPPOSITION b8
+b10 tray "n.01" x17

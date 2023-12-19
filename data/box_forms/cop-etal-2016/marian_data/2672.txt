@@ -1,0 +1,26 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 mon "n.01" x2
+b1 ami "n.01" x1
+b1 REF x3
+b1 EQU x3 "now"
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Agent x4 "hearer"
+b1 Theme x4 x5
+b1 remember "v.01" x4
+b1 REF x5
+b1 Quantity x5 "2"
+b1 point "n.01" x5
+b1 REF x6
+b1 REF x7
+b1 Agent x6 "speaker"
+b1 Result x6 x8
+b1 TPR x7 "now"
+b1 Time x6 x7
+b1 lay "v.01" x6
+b1 time "n.08" x7
+b1 REF x8
+b1 stress_upon "n.01" x8

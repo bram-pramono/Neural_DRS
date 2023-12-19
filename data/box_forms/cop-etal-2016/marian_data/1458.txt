@@ -1,0 +1,43 @@
+b1 REF x1
+b1 one "n.01" x1
+b1 REF x2
+b1 REF x3
+b1 REF x4
+b1 Agent x2 x1
+b1 EQU x4 "now"
+b1 PRP x3 b2
+b1 Time x2 x4
+b1 Topic x2 x3
+b1 have "v.02" x2
+b1 time "n.08" x4
+b2 REF x5
+b2 Agent x5 x5
+b2 Recipient x5 x6
+b2 treat "v.01" x5
+b3 REF x6
+b3 male "n.02" x6
+b1 IMP b4 b5
+b4 REF x7
+b4 person "n.01" x7
+b1 REF x8
+b1 EQU x8 "now"
+b1 time "n.08" x8
+b5 Time x9 x8
+b5 REF x9
+b5 Theme x9 x7
+b5 rise "v.01" x9
+b5 REF x10
+b5 Theme x9 x11
+b5 entity "n.01" x10
+b5 REF x11
+b5 Agent x11 x10
+b5 eat "v.01" x11
+b5 Instrument x11 x12
+b5 REF x12
+b5 REF x13
+b5 Theme x13 x12
+b5 possible "a.01" x13
+b5 REF x14
+b5 Role x12 x14
+b5 murderer "n.01" x14
+b5 person "n.01" x12

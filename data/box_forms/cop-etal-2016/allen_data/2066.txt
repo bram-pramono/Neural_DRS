@@ -1,0 +1,5 @@
+b1 REF x1
+b1 NEGATION b2
+b2 Instrument x1 x2
+b2 REF x2
+b2 doubt "n.01" x2

@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 NOT b1 b2
+b1 open "v.01" x1
+b2 REF x2
+b2 case "n.01" x2
+b1 Goal x1 x3
+b3 REF x3
+b3 crown "n.01" x3

@@ -1,0 +1,75 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 seize "v.01" x3
+b2 Stimulus x3 x4
+b2 REF x4
+b2 panic "n.01" x4
+b2 CONTINUATION b3
+b3 Location x8 x6
+b4 REF x5
+b4 PRESUPPOSITION b5
+b4 entity "n.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b3
+b5 PartOf x6 x5
+b5 influence "n.01" x6
+b2 PRESUPPOSITION b3
+b3 REF x7
+b3 REF x8
+b3 Agent x7 x1
+b3 TPR x8 "now"
+b3 Theme x7 x9
+b3 Time x7 x8
+b3 time "n.08" x8
+b3 REF x9
+b3 downstairs "n.01" x9
+b3 CONTINUATION b6
+b6 REF x10
+b6 Manner x11 x10
+b6 quickly "a.01" x10
+b6 REF x11
+b6 Agent x11 x4
+b6 Theme x11 x13
+b6 Time x11 x12
+b6 drop "v.01" x11
+b6 REF x12
+b6 TPR x12 "now"
+b6 time "n.08" x12
+b7 REF x13
+b7 PRESUPPOSITION b6
+b6 REF x14
+b6 Sub x14 x13
+b6 Sub x14 x15
+b6 entity "n.01" x14
+b6 REF x15
+b6 REF x16
+b6 Theme x16 x9
+b6 use "v.01" x16
+b6 Agent x16 x17
+b8 REF x17
+b8 PRESUPPOSITION b6
+b8 female "n.02" x17
+b6 Destination x16 x18
+b6 REF x18
+b6 REF x19
+b6 Attribute x18 x19
+b6 Value x19 "+"
+b6 large "a.01" x19
+b6 REF x20
+b6 MadeOf x18 x20
+b6 sunglasses "n.01" x20
+b6 vase "n.01" x18
+b6 Location x22 x18
+b9 REF x21
+b9 PRESUPPOSITION b6
+b9 entity "n.01" x21
+b6 Time x22 x13
+b6 REF x22
+b6 Theme x22 x21

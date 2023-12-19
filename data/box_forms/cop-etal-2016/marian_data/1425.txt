@@ -1,0 +1,35 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 expression "n.01" x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 time "n.08" x2
+b3 REF x3
+b3 REF x4
+b3 Agent x3 x1
+b3 PRP x4 b4
+b3 Time x3 x2
+b3 Topic x3 x4
+b3 gather "v.02" x3
+b3 REF x5
+b3 TPR x2 "now"
+b3 time "n.08" x2
+b4 POS b5
+b5 REF x6
+b5 Manner x7 x6
+b5 only "a.01" x6
+b5 REF x7
+b5 @-4 "n.01" "speaker"
+b5 describe "a.01" x7
+b5 Stimulus x7 x8
+b5 REF x8
+b5 Quantity x8 "0.5"
+b5 Unit x8 "puzzle"
+b5 measure "n.02" x8
+b5 REF x9
+b5 Part x9 x8
+b5 Part x9 x10
+b5 group "n.01" x9
+b5 REF x10
+b5 Quantity x10 "0.5"
+b5 relieved "n.01" x10

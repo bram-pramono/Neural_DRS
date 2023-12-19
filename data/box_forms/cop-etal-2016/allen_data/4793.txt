@@ -1,0 +1,69 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 EQU x3 "now"
+b1 Experiencer x1 "hearer"
+b1 Stimulus x1 x2
+b1 Time x1 x3
+b1 proposition "n.01" x2
+b1 time "n.08" x3
+b1 understand "v.01" x1
+b3 REF x4
+b3 REF x5
+b3 REF x6
+b3 ATTRIBUTION b4
+b3 Agent x4 "speaker"
+b3 TPR x6 "now"
+b3 Theme x4 x5
+b3 Time x4 x6
+b3 proposition "n.01" x5
+b3 think "v.01" x4
+b3 time "n.08" x6
+b2 REF x7
+b2 TPR "now" x7
+b2 time "n.08" x7
+b4 Time x8 x7
+b4 REF x8
+b4 Agent x8 "speaker"
+b4 Theme x8 x9
+b4 do "v.01" x8
+b5 REF x9
+b5 Of x10 "speaker"
+b5 REF x10
+b5 PRESUPPOSITION b4
+b5 Role x9 x10
+b5 husband "n.01" x10
+b5 person "n.01" x9
+b4 REF x11
+b4 Manner x12 x11
+b4 good "a.01" x11
+b4 REF x12
+b4 Agent x12 x5
+b4 Theme x12 x13
+b4 reveal "v.01" x12
+b6 REF x13
+b6 PRESUPPOSITION b4
+b6 fact "n.01" x13
+b4 REF x14
+b4 TPR "now" x14
+b4 Time x15 x14
+b4 time "n.08" x14
+b4 REF x15
+b4 REF x16
+b4 ATTRIBUTION b7
+b4 Pivot x15 "speaker"
+b4 Theme x15 x16
+b4 have "v.01" x15
+b4 proposition "n.01" x16
+b4 REF x17
+b4 TPR x17 "now"
+b4 time "n.08" x17
+b7 REF x18
+b7 Agent x18 "speaker"
+b7 Time x18 x17
+b7 Topic x18 x19
+b7 do "v.01" x18
+b7 REF x19
+b7 Theme x19 "speaker"
+b7 so "v.01" x19

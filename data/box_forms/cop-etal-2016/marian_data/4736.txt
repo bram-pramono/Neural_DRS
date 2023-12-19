@@ -1,0 +1,7 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 Co-Agent x1 x2
+b1 miss "v.01" x1
+b2 REF x2
+b2 Name x2 "howard"
+b2 organization "n.01" x2

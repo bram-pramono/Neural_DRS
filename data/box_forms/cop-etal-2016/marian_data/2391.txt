@@ -1,0 +1,71 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 PRP x2 b2
+b1 Recipient x1 x2
+b1 Time x1 x3
+b1 Topic x1 x2
+b1 find "v.01" x1
+b1 REF x3
+b1 TPR x3 "now"
+b1 time "n.08" x3
+b3 REF x4
+b3 entity "n.01" x4
+b2 REF x5
+b2 Theme x5 x4
+b2 hard "a.01" x5
+b2 REF x6
+b2 Agent x6 "hearer"
+b2 Theme x6 x7
+b2 Time x6 x3
+b2 be "v.03" x6
+b2 REF x7
+b2 REF x8
+b2 Theme x8 x7
+b2 old "a.01" x8
+b2 woman "n.01" x7
+b4 DRS x5
+b4 CONTRAST b1 b5
+b5 REF x9
+b5 REF x10
+b5 Agent x9 "hearer"
+b5 TPR x10 "now"
+b5 Time x9 x10
+b5 say "v.01" x9
+b5 time "n.08" x10
+b5 Theme x9 x11
+b5 REF x11
+b5 REF x12
+b5 Theme x12 x11
+b5 old "a.01" x12
+b5 woman "n.01" x11
+b5 REF x13
+b5 REF x14
+b5 TPR x14 "now"
+b5 Theme x13 "hearer"
+b5 Time x13 x14
+b5 say "v.01" x13
+b5 time "n.08" x14
+b5 Recipient x13 x15
+b5 REF x15
+b5 REF x16
+b5 Theme x16 x15
+b5 old "a.01" x16
+b5 woman "n.01" x15
+b5 Theme x15 "hearer"
+b6 DRS x15
+b6 DRS x16
+b5 CONTRAST b4 b6
+b6 REF x17
+b6 REF x18
+b6 Co-Theme x17 x19
+b6 EQU x18 "now"
+b6 Theme x17 "speaker"
+b6 Time x17 x18
+b6 scrutinize "v.01" x17
+b6 time "n.08" x18
+b7 REF x19
+b7 entity "n.01" x19
+b6 REF x20
+b6 Manner x17 x20
+b6 attentively "r.01" x20

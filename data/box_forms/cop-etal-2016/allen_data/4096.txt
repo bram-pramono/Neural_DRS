@@ -1,0 +1,14 @@
+b1 Location x4 x1
+b2 REF x1
+b2 REF x2
+b2 Attribute x1 x2
+b2 PRESUPPOSITION b1
+b2 follow "a.01" x2
+b2 day "n.01" x1
+b3 NEGATION b1
+b1 REF x3
+b1 sign "n.01" x3
+b1 Of x3 x4
+b4 REF x4
+b4 PRESUPPOSITION b1
+b4 artifact "n.01" x4

@@ -1,0 +1,28 @@
+b1 NEGATION b2
+b2 REF x1
+b2 entity "n.01" x1
+b3 Location x5 x2
+b2 NEGATION b3
+b3 REF x2
+b3 REF x3
+b3 Attribute x2 x3
+b3 possible "a.01" x3
+b2 way "n.01" x2
+b4 POSSIBILITY b1
+b5 REF x4
+b5 PRESUPPOSITION b6
+b5 male "n.02" x4
+b2 REF x5
+b2 PRESUPPOSITION b6
+b2 User x5 x4
+b2 death "n.01" x5
+b6 REF x6
+b6 Experiencer x6 x7
+b6 Stimulus x6 x5
+b6 benefit "v.02" x6
+b7 REF x7
+b7 REF x8
+b7 PRESUPPOSITION b6
+b7 Title x7 x8
+b7 miss "n.03" x8
+b7 person "n.01" x7

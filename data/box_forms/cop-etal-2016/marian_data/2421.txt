@@ -1,0 +1,3 @@
+b1 REF x1
+b1 DayOfWeek x1 "monday"
+b1 time "n.08" x1

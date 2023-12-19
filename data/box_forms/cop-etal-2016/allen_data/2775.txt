@@ -1,0 +1,56 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 PRESUPPOSITION b3
+b1 Title x1 x2
+b1 miss "n.03" x2
+b1 female "n.02" x1
+b2 REF x3
+b2 Creator x3 x1
+b2 PRESUPPOSITION b3
+b2 evidence "n.03" x3
+b3 REF x4
+b3 Attribute x4 x3
+b3 REF x5
+b3 PRESUPPOSITION b4
+b3 entity "n.01" x5
+b4 REF x6
+b4 TPR x6 "now"
+b4 Time x7 x6
+b4 time "n.08" x6
+b4 REF x7
+b4 Theme x7 x5
+b4 give "v.01" x7
+b4 Location x7 x8
+b4 REF x8
+b4 PartOf x8 x9
+b4 such "n.01" x8
+b4 REF x9
+b4 REF x10
+b4 Attribute x9 x10
+b4 REF x11
+b4 Role x9 x11
+b4 manner "n.01" x11
+b4 person "n.01" x9
+b5 REF x12
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x12
+b4 NEGATION b6
+b6 REF x13
+b6 time "n.08" x13
+b6 REF x14
+b6 Agent x14 x12
+b6 TPR x13 "now"
+b6 Time x14 x13
+b6 occur "v.01" x14
+b6 Recipient x14 "speaker"
+b4 REF x15
+b4 Agent x15 x12
+b4 Theme x15 x17
+b4 doubt "v.01" x15
+b7 REF x16
+b7 PRESUPPOSITION b8
+b7 female "n.02" x16
+b8 REF x17
+b8 Creator x17 x16
+b8 PRESUPPOSITION b4

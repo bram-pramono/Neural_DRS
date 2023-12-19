@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 Recipient x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 Topic x1 x4
+b1 find "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 entity "n.01" x3
+b1 REF x4
+b1 Attribute x3 x4
+b1 hard "a.01" x4
+b1 REF x5
+b1 Agent x5 x3
+b1 Theme x5 x6
+b1 forgive "v.01" x5
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 entity "n.01" x6
+b1 REF x7
+b1 Agent x7 "hearer"
+b1 Time x7 x8
+b1 Topic x7 x9
+b1 say "v.01" x7
+b1 REF x8
+b1 TPR x8 "now"
+b1 time "n.08" x8
+b1 Instrument x7 x9
+b4 REF x9
+b4 Of x9 "speaker"
+b4 REF x10
+b4 Attribute x9 x10
+b4 PRESUPPOSITION b1
+b4 dear "a.01" x10
+b4 REF x11
+b4 Role x9 x11
+b4 husband "n.01" x11
+b4 person "n.01" x9
+b1 CONTRAST b5
+b5 REF x12
+b5 Co-Theme x12 x13
+b5 Theme x12 "speaker"
+b5 Time x12 x7
+b5 be "v.01" x12
+b5 REF x13
+b5 REF x14
+b5 Attribute x13 x14
+b5 Value x14 "+"
+b5 old "a.01" x14
+b5 woman "n.01" x13
+b5 REF x15
+b5 Degree x16 x15
+b5 very "r.01" x15
+b5 REF x16
+b5 Experiencer x16 x13
+b5 fond "a.01" x16
+b5 Stimulus x16 "hearer"
+b6 REF x17
+b6 PRESUPPOSITION b5
+b6 female "n.02" x17
+b5 Time x19 x18
+b5 REF x18
+b5 TPR x18 "now"
+b5 time "n.08" x18
+b5 REF x19
+b5 Theme x19 x17
+b5 hand "v.01" x19
+b5 Destination x19 x20
+b7 REF x20
+b7 PRESUPPOSITION b5
+b7 jury "n.01" x20
+b5 REF x21

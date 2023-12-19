@@ -1,0 +1,28 @@
+b1 REF x1
+b1 User x1 "speaker"
+b1 dear "n.01" x1
+b1 Name x1 "poirot"
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 "speaker"
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 say "v.01" x2
+b2 time "n.08" x4
+b3 REF x5
+b3 Theme x5 "speaker"
+b3 coldly "a.01" x5
+b4 REF x6
+b4 entity "n.01" x6
+b2 REF x7
+b2 EQU x7 "now"
+b2 time "n.08" x7
+b5 Time x8 x7
+b2 Experiencer x7
+b5 REF x8
+b5 Agent x8 x6
+b5 dictate "v.01" x8
+b5 Co-Agent x8 "hearer"

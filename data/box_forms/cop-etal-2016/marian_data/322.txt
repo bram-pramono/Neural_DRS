@@ -1,0 +1,75 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.08" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 Name x5 "london"
+b2 Source x4 x5
+b2 country "n.02" x5
+b2 REF x6
+b2 Role x4 x6
+b2 person "n.01" x4
+b2 specialist "n.01" x6
+b2 Of x6 x7
+b3 REF x7
+b3 REF x8
+b3 REF x9
+b3 IMP b4 b5
+b3 Theme x8 x7
+b3 Value x8 x9
+b3 greatest "n.01" x8
+b3 measure "n.02" x9
+b4 REF x10
+b4 REF x11
+b4 REF x12
+b4 Theme x11 x10
+b4 Value x11 x12
+b4 greatest "n.01" x11
+b4 man "n.01" x12
+b4 PartOf x12 x13
+b6 REF x13
+b6 REF x14
+b6 REF x15
+b6 IMP b7 b8
+b6 Theme x14 x13
+b6 Value x14 x15
+b6 greatest "n.01" x14
+b6 measure "n.02" x15
+b7 REF x16
+b7 REF x17
+b7 REF x18
+b7 Theme x17 x16
+b7 Value x17 x18
+b7 greatest "n.01" x17
+b7 man "n.01" x18
+b7 PartOf x18 x19
+b9 REF x19
+b9 REF x20
+b9 REF x21
+b9 IMP b10 b11
+b9 Theme x20 x19
+b9 Value x20 x21
+b9 greatest "n.01" x20
+b9 measure "n.02" x21
+b10 REF x22
+b10 REF x23
+b10 REF x24
+b10 Theme x23 x22
+b10 Value x23 x24
+b10 greatest "n.01" x23
+b10 measure "n.02" x24
+b11 DIS b12 b13
+b12 EQU x24 x21
+b13 LES x24 x21
+b9 living_expert "n.01" x19
+b10 man "n.01" x22
+b9 Theme x19 x25
+b14 REF x25
+b14 REF x26

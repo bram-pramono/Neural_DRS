@@ -1,0 +1,8 @@
+b1 REF x1
+b1 Location x2 x1
+b1 Name x1 "?"
+b1 manner "n.01" x1
+b2 POS b1
+b1 REF x2
+b1 Agent x2 "hearer"
+b1 speak "v.01" x2

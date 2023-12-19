@@ -1,0 +1,4 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b2 REF x2
+b2 Agent x2 x1

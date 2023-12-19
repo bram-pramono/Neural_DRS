@@ -1,0 +1,41 @@
+b1 REF x1
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 time "n.08" x3
+b2 turn_up "v.01" x2
+b2 Theme x2 x4
+b2 REF x4
+b2 nowhere "n.01" x4
+b2 Location x2 x5
+b2 REF x5
+b2 nowhere "n.01" x5
+b2 Location x2 x6
+b2 REF x6
+b2 evie "n.01" x6
+b2 PartOf x6 x7
+b2 REF x7
+b2 evie "n.01" x7
+b2 PartOf x7 x8
+b2 REF x8
+b2 evie "n.01" x8
+b2 REF x9
+b2 TPR x9 "now"
+b2 time "n.08" x9
+b3 Time x10 x9
+b2 Experiencer x9
+b3 REF x10
+b3 REF x11
+b3 Agent x10 x5
+b3 PRP x11 b4
+b3 Topic x10 x11
+b3 seem "v.01" x10
+b4 REF x12
+b4 Agent x12 x6
+b4 Theme x12 x13
+b4 acknowledge "v.01" x12
+b5 REF x13
+b5 relationship "n.01" x13

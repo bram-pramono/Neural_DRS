@@ -1,0 +1,21 @@
+b1 POSSIBILITY b2
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Experiencer x2 "hearer"
+b2 Stimulus x2 x3
+b2 Time x2 x1
+b2 notice "v.01" x2
+b2 REF x3
+b2 sort "n.01" x3
+b2 Content x3 x4
+b2 REF x4
+b2 blurry "n.01" x4
+b3 REF x5
+b3 Theme x5 x3
+b3 stretch "v.01" x5
+b2 Path x2 x6
+b4 REF x6
+b4 PRESUPPOSITION b2
+b4 picture "n.02" x6

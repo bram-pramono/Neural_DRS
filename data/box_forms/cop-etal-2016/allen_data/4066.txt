@@ -1,0 +1,23 @@
+b1 REF x1
+b1 Name x1 "john"
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x2
+b2 REF x3
+b2 Degree x4 x3
+b2 so "r.01" x3
+b2 REF x4
+b2 Attribute x1 x4
+b2 kind "a.01" x4
+b2 REF x5
+b2 Agent x5 x1
+b2 Theme x5 x6
+b2 break "v.01" x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x6
+b2 Recipient x5 "speaker"
+b2 morning "n.01" x2

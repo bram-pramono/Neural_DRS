@@ -1,0 +1,12 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 sit_down "v.01" x1
+b1 Location x1 x2
+b2 REF x2
+b2 grass "n.01" x2
+b3 DRS x1
+b3 DRS x2
+b2 CONTINUATION b1 b3
+b3 REF x3
+b3 Theme x3 "hearer"
+b3 do "v.01" x3

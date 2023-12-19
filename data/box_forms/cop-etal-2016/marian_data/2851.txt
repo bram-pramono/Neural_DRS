@@ -1,0 +1,52 @@
+b1 POS b2
+b3 REF x1
+b3 Agent x1 "speaker"
+b3 Result x1 x2
+b3 produce "v.01" x1
+b2 Experiencer x1
+b3 REF x2
+b3 less "n.01" x2
+b3 Theme x2 x3
+b3 REF x3
+b3 Quantity x3 "5"
+b3 REF x4
+b3 Role x3 x4
+b3 person "n.01" x3
+b3 witness "n.01" x4
+b3 REF x5
+b3 REF x6
+b3 Agent x5 "hearer"
+b3 PRP x6 b4
+b3 Topic x5 x6
+b3 swear "v.01" x5
+b4 REF x7
+b4 @-4 "n.01" "hearer"
+b4 Stimulus x7 x8
+b4 swear "v.01" x7
+b4 REF x8
+b4 REF x9
+b4 REF x10
+b4 LES x9 x10
+b4 Quantity x8 x9
+b4 quantity "n.01" x9
+b4 quantity "n.01" x10
+b4 EQU x10 "5"
+b4 Unit x8 "witness"
+b4 measure "n.02" x8
+b4 REF x11
+b4 REF x12
+b4 REF x13
+b4 Agent x11 "hearer"
+b4 EQU x13 "now"
+b4 PRP x12 b5
+b4 Time x11 x13
+b4 Topic x11 x12
+b4 be "v.03" x11
+b4 time "n.08" x13
+b5 REF x14
+b5 REF x15
+b5 REF x16
+b5 LES x15 x16
+b5 Quantity x14 x15
+b5 quantity "n.01" x15
+b5 quantity "n.01" x16

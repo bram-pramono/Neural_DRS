@@ -1,0 +1,49 @@
+b1 REF x1
+b1 Quantity x1 "-"
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Role x1 x2
+b1 nurse "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 TPR x4 "now"
+b2 Time x3 x4
+b2 time "n.08" x4
+b2 withdraw "v.01" x3
+b2 CONTINUATION b3
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 female "n.02" x5
+b3 REF x6
+b3 REF x7
+b3 Agent x6 x5
+b3 TPR x7 "now"
+b3 Theme x6 x8
+b3 Time x6 x7
+b3 take "v.01" x6
+b3 time "n.08" x7
+b3 REF x8
+b3 jar "n.01" x8
+b3 Source x6 x9
+b5 REF x9
+b5 PRESUPPOSITION b3
+b5 shelf "n.01" x9
+b3 CONTINUATION b6
+b6 REF x10
+b6 Agent x10 x3
+b6 Theme x10 x11
+b7 REF x11
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x11
+b6 Instrument x10 x12
+b4 REF x12
+b4 table "n.02" x12
+b4 REF x13
+b4 Location x12 x13
+b4 STO x13 x14
+b4 location "n.01" x13
+b8 REF x14
+b8 PRESUPPOSITION b4
+b8 door "n.01" x14

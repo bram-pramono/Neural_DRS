@@ -1,0 +1,75 @@
+b1 REF x1
+b1 User x1 "speaker"
+b1 attention "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 NOT b2 b1
+b2 attract "v.03" x3
+b2 Agent x3 x4
+b2 REF x4
+b2 story "n.04" x4
+b2 PartOf x4 x5
+b3 REF x5
+b3 Name x5 "annie"
+b3 female "n.02" x5
+b2 Location x2 x6
+b2 REF x6
+b2 salt "n.01" x6
+b2 Theme x6 x7
+b2 REF x7
+b2 salt "n.01" x7
+b2 Theme x7 x8
+b4 REF x8
+b4 tray "n.01" x8
+b4 PartOf x8 x9
+b5 REF x9
+b5 tray "n.01" x9
+b5 PartOf x9 x10
+b6 REF x10
+b6 tray "n.01" x10
+b6 PartOf x10 x11
+b7 REF x11
+b7 tray "n.01" x11
+b7 PartOf x11 x12
+b8 REF x12
+b8 tray "n.01" x12
+b8 PartOf x12 x13
+b9 REF x13
+b9 tray "n.01" x13
+b9 PartOf x13 x14
+b10 REF x14
+b10 tray "n.01" x14
+b10 PartOf x14 x15
+b11 REF x15
+b11 tray "n.01" x15
+b11 PartOf x15 x16
+b12 REF x16
+b12 tray "n.01" x16
+b12 PartOf x16 x17
+b13 REF x17
+b13 tray "n.01" x17
+b13 PartOf x17 x18
+b14 REF x18
+b14 tray "n.01" x18
+b14 PartOf x18 x19
+b15 REF x19
+b15 tray "n.01" x19
+b15 PartOf x19 x20
+b16 REF x20
+b16 tray "n.01" x20
+b16 PartOf x20 x21
+b17 REF x21
+b17 tray "n.01" x21
+b17 PartOf x21 x22
+b18 REF x22
+b18 tray "n.01" x22
+b18 PartOf x22 x23
+b19 REF x23
+b19 tray "n.01" x23
+b19 PartOf x23 x24
+b20 REF x24
+b20 tray "n.01" x24
+b20 PartOf x24 x24

@@ -1,0 +1,17 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 CONDITION b4
+b4 CONSEQUENCE b2
+b4 REF x2
+b4 time "n.08" x2
+b4 EQU x2 "now"
+b2 REF x3
+b2 Experiencer x3 x1
+b2 Stimulus x3 x4
+b2 Time x3 x2
+b2 seem "v.01" x3
+b5 REF x4
+b5 PRESUPPOSITION b2
+b5 difficulty "n.01" x4
+b5 Experiencer x4 "speaker"

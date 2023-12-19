@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Manner x2 x1
+b1 certainly "r.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 female "n.02" x2

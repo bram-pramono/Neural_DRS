@@ -1,0 +1,64 @@
+b1 REF x1
+b1 REF x2
+b1 Sub x2 x1
+b1 Sub x2 x4
+b1 entity "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Attribute x4 x3
+b1 good "a.01" x3
+b1 breed "v.01" x4
+b1 REF x5
+b1 Manner x6 x5
+b1 normally "a.01" x5
+b1 REF x6
+b1 REF x7
+b1 REF x8
+b1 ATTRIBUTION b2
+b1 Experiencer x6 "speaker"
+b1 Stimulus x6 x7
+b1 TPR x8 "now"
+b1 Time x6 x8
+b1 proposition "n.01" x7
+b1 time "n.08" x8
+b3 REF x9
+b3 Of x9 "speaker"
+b3 PRESUPPOSITION b4
+b2 NECESSITY b4
+b4 REF x10
+b4 Co-Theme x10 x11
+b4 Theme x10 x9
+b4 be "v.01" x10
+b4 REF x11
+b4 Quantity x11 "?"
+b4 Time x10 x11
+b4 time "n.08" x11
+b4 REF x12
+b4 Quantity x12 "?"
+b4 Time x13 x12
+b4 time "n.08" x12
+b4 REF x13
+b4 REF x14
+b4 ATTRIBUTION b5
+b4 Agent x13 "speaker"
+b4 Beneficiary x13 x14
+b4 help "v.01" x13
+b4 question "n.01" x14
+b6 REF x15
+b6 PRESUPPOSITION b5
+b5 REF x16
+b5 Co-Theme x16 x18
+b5 Theme x16 x15
+b5 Time x16 x17
+b5 be "v.01" x16
+b5 REF x17
+b5 TPR x17 "now"
+b5 time "n.08" x17
+b5 REF x18
+b5 matter "n.01" x18
+b5 Part x18 x20
+b5 REF x19
+b5 REF x20
+b5 Attribute x20 x19
+b5 great "a.01" x19
+b5 difficulty "n.01" x20

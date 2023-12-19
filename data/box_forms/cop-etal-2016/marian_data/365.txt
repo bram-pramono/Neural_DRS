@@ -1,0 +1,11 @@
+b1 REF x1
+b1 YearOfCentury x1 "16th~of~july"
+b1 measure "n.02" x1
+b2 REF x2
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 fall "v.01" x2
+b2 Time x2 x3
+b2 REF x3
+b2 time "n.08" x3
+b2 DayOfWeek x3 "monday"

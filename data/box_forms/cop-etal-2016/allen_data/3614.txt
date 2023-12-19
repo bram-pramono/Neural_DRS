@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Participant x1 x2
+b1 event "v.01" x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Title x2 x3
+b2 doctor "n.04" x3
+b2 person "n.01" x2

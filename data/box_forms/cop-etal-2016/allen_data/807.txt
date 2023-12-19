@@ -1,0 +1,72 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 Recipient x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 Topic x1 x1
+b1 time "n.08" x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 male "n.02" x3
+b1 Theme x1 x4
+b3 REF x4
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 Title x4 x5
+b3 mr "n.01" x5
+b3 person "n.01" x4
+b1 REF x6
+b1 PartOf x6 x4
+b1 REF x7
+b1 Attribute x6 x7
+b1 PRESUPPOSITION b1
+b1 die "a.01" x7
+b1 word "n.01" x6
+b1 PartOf x6 x9
+b4 REF x8
+b4 PRESUPPOSITION b1
+b4 female "n.02" x8
+b1 REF x9
+b1 Sub x9 x8
+b1 Sub x9 x10
+b1 entity "n.01" x9
+b1 REF x10
+b1 Of x11 x8
+b1 REF x11
+b1 PRESUPPOSITION b2
+b1 Role x10 x11
+b1 mother-in-law "n.01" x11
+b1 person "n.01" x10
+b1 REF x12
+b1 Sub x12 x9
+b1 Sub x12 x13
+b1 entity "n.01" x12
+b1 REF x13
+b1 Of x14 x8
+b1 REF x14
+b1 Role x13 x14
+b1 mother-in-law "n.01" x14
+b1 person "n.01" x13
+b1 REF x15
+b1 REF x16
+b1 Experiencer x15 "speaker"
+b1 Stimulus x15 x12
+b1 TPR x16 "now"
+b1 Time x15 x16
+b1 overhear "v.01" x15
+b1 time "n.08" x16
+b1 REF x17
+b1 REF x18
+b1 Attribute x17 x18
+b1 last "a.01" x18
+b1 quarrel "n.01" x17
+b1 Part x17 x21
+b1 REF x19
+b1 REF x20
+b1 Title x19 x20
+b1 mr "n.01" x20
+b1 male "n.02" x19
+b1 REF x21
+b1 Sub x21 x19
+b1 Sub x21 x21

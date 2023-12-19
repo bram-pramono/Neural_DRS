@@ -1,0 +1,75 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 Co-Theme x2 x4
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 time "n.08" x3
+b2 REF x4
+b2 Quantity x4 "1"
+b2 entity "n.01" x4
+b2 REF x5
+b2 REF x6
+b2 @-4 "n.01" x1
+b2 PRP x6 b3
+b2 Stimulus x5 x6
+b2 know "v.01" x5
+b3 REF x7
+b3 man "n.01" x7
+b3 Time x8 x7
+b3 REF x8
+b3 Theme x8 x7
+b3 guilty "a.01" x8
+b4 REF x9
+b4 entity "n.01" x9
+b3 Time x11 x10
+b3 REF x10
+b3 EQU x10 "now"
+b3 time "n.08" x10
+b3 REF x11
+b3 Theme x11 x9
+b3 guilty "a.01" x11
+b5 REF x12
+b5 entity "n.01" x12
+b3 Time x13 x10
+b3 REF x13
+b3 Theme x13 x12
+b3 guilty "a.01" x13
+b6 REF x14
+b6 entity "n.01" x14
+b3 Time x16 x15
+b3 REF x15
+b3 EQU x15 "now"
+b3 time "n.08" x15
+b3 REF x16
+b3 Theme x16 x14
+b3 guilty "a.01" x16
+b3 REF x17
+b3 man "n.01" x17
+b3 Time x18 x15
+b3 REF x18
+b3 Theme x18 x17
+b3 guilty "a.01" x18
+b3 REF x19
+b3 man "n.01" x19
+b3 REF x20
+b3 EQU x20 "now"
+b3 time "n.08" x20
+b4 Time x21 x20
+b4 REF x21
+b4 Theme x21 x19
+b4 guilty "a.01" x21
+b7 REF x22
+b7 entity "n.01" x22
+b3 REF x23
+b3 EQU x23 "now"
+b3 time "n.08" x23
+b5 Time x24 x23
+b5 REF x24
+b5 Theme x24 x22
+b5 guilty "a.01" x24
+b8 REF x25
+b8 entity "n.01" x25

@@ -1,0 +1,11 @@
+b1 NEGATION b2
+b2 REF x1
+b2 time "n.08" x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 Recipient x2 "speaker"
+b2 TPR x1 "now"
+b2 Time x2 x1
+b2 Topic x2 x3
+b2 tell "v.01" x2
+b2 REF x3

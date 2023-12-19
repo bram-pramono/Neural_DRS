@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 out "v.01" x1
+b1 Co-Theme x1 x2
+b2 REF x2
+b2 entity "n.01" x2

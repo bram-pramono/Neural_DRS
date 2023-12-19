@@ -1,0 +1,17 @@
+b1 POS b2
+b2 REF x1
+b2 ClockTime x1 "04:00"
+b2 time "n.08" x1
+b3 DRS x1
+b2 CONTINUATION b1 b3
+b4 REF x2
+b4 entity "n.01" x2
+b3 POS b5
+b3 REF x3
+b3 TPR x3 "now"
+b3 time "n.08" x3
+b5 Time x4 x3
+b5 REF x4
+b5 Theme x4 x2
+b5 Quantity x4 "@-8"
+b5 measure "n.02" x4

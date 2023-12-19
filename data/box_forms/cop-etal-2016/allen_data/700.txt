@@ -1,0 +1,6 @@
+b1 NEGATION b2
+b2 NEGATION b3
+b3 REF x1
+b3 Agent x1 "hearer"
+b3 Theme x1 "speaker"
+b3 leave "v.01" x1

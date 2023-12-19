@@ -1,0 +1,20 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 do "v.01" x3
+b3 DRS x2
+b3 DRS x3
+b2 CONTRAST b1 b3
+b3 REF x4
+b3 EQU x4 "now"
+b3 time "n.08" x4
+b4 Time x5 x4
+b3 Experiencer x4
+b4 REF x5
+b4 Theme x5 x5
+b4 so "v.01" x5

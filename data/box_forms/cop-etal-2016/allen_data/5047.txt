@@ -1,0 +1,53 @@
+b1 CONDITION b2
+b1 CONSEQUENCE b3
+b2 REF x1
+b2 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x4
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 see "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 either "n.01" x4
+b2 SubOf x4 x5
+b4 REF x5
+b4 PRESUPPOSITION b2
+b4 person "n.01" x5
+b2 REF x6
+b2 Agent x6 x4
+b2 Experiencer x6 x7
+b2 touch "v.01" x6
+b5 REF x7
+b5 PRESUPPOSITION b2
+b5 medicine "n.02" x7
+b6 REF x8
+b6 PRESUPPOSITION b7
+b6 person "n.01" x8
+b7 TPR "now" x9
+b7 Time x10 x9
+b7 REF x9
+b7 time "n.08" x9
+b7 REF x10
+b7 REF x11
+b7 ATTRIBUTION b8
+b7 Pivot x10 x8
+b7 Theme x10 x11
+b7 have "v.01" x10
+b7 proposition "n.01" x11
+b7 REF x12
+b7 TPR x12 "now"
+b7 time "n.08" x12
+b8 REF x13
+b8 Agent x13 x9
+b8 Theme x13 x14
+b8 Time x13 x12
+b8 forget "v.01" x13
+b9 REF x14
+b9 PRESUPPOSITION b8
+b9 entity "n.01" x14
+b8 Agent x13 x8
+b5 PRESUPPOSITION b8
+b5 time "n.01" x9

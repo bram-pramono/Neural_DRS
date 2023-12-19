@@ -1,0 +1,19 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 PartOf x1 x2
+b3 REF x2
+b3 PRESUPPOSITION b1
+b3 artifact "n.01" x2
+b1 Context x6 x3
+b1 REF x3
+b1 respect "n.01" x3
+b1 PartOf x3 x4
+b4 REF x4
+b4 PRESUPPOSITION b1
+b4 banana "n.02" x4
+b1 REF x5
+b1 Agent x5 "speaker"
+b1 Theme x5 "speaker"
+b1 puzzled "a.01" x5
+b1 REF x6
+b1 Manner x5 x6

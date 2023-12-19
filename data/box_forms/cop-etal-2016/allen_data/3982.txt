@@ -1,0 +1,3 @@
+b1 REF x1
+b1 Attribute "hearer" x1
+b1 ridiculous "a.01" x1

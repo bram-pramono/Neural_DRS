@@ -1,0 +1,9 @@
+b1 REF x1
+b1 Participant x1 x3
+b1 event "v.01" x1
+b2 REF x2
+b2 REF x3
+b2 Attribute x3 x2
+b2 PRESUPPOSITION b1
+b2 old "a.02" x2
+b2 state "n.01" x3

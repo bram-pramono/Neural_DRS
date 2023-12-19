@@ -1,0 +1,46 @@
+b1 REF x1
+b1 house "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 besiege "v.02" x3
+b2 Agent x3 x4
+b2 REF x4
+b2 REF x5
+b2 Role x4 x5
+b2 person "n.01" x4
+b2 reporter "n.01" x5
+b3 DRS x4
+b3 DRS x5
+b2 CONTRAST b1 b3
+b3 REF x6
+b3 REF x7
+b3 REF x8
+b3 Agent x6 x2
+b3 PRP x7 b4
+b3 TPR x8 "now"
+b3 Time x6 x8
+b3 Topic x6 x7
+b3 continue "v.01" x6
+b3 time "n.08" x8
+b4 REF x9
+b4 @-4 "n.01" x10
+b4 Stimulus x9 x3
+b4 haunt "v.01" x9
+b4 REF x10
+b4 admission "n.01" x10
+b5 DRS x8
+b5 DRS x10
+b4 CONTRAST b2 b5
+b5 REF x11
+b5 Name x11 "?"
+b5 REF x12
+b5 Role x11 x12
+b5 member "n.01" x12
+b5 person "n.01" x11
+b5 Of x12 x13
+b6 REF x13
+b6 household "n.01" x13

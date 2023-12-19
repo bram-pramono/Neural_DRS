@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Of x2 "speaker"
+b1 REF x2
+b1 Role x1 x2
+b1 friend "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 TPR x4 "now"
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 break_out "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 REF x6
+b2 Theme x6 x5
+b2 little "a.01" x6
+b2 idea "n.01" x5
+b2 REF x7
+b2 REF x8
+b2 Theme x8 x7
+b2 little "a.01" x8
+b2 idea "n.01" x7
+b2 REF x9
+b2 REF x10
+b2 Theme x10 x9
+b2 little "a.01" x10
+b2 idea "n.01" x9
+b2 REF x11
+b2 REF x12
+b2 Theme x12 x11
+b2 little "a.01" x12
+b2 idea "n.01" x11
+b2 REF x13
+b2 REF x14
+b2 Theme x14 x13
+b2 little "a.01" x14
+b2 idea "n.01" x13
+b2 REF x15
+b2 REF x16
+b2 Theme x16 x15
+b2 little "a.01" x16
+b2 idea "n.01" x15
+b2 REF x17
+b2 REF x18
+b2 Theme x18 x17
+b2 little "a.01" x18
+b2 idea "n.01" x17
+b2 REF x19
+b2 REF x20
+b2 Theme x20 x19
+b2 little "a.01" x20
+b2 idea "n.01" x19
+b2 REF x21
+b2 REF x22
+b2 Theme x22 x21
+b2 little "a.01" x22
+b2 idea "n.01" x21
+b2 REF x23
+b2 REF x24
+b2 Theme x24 x23
+b2 little "a.01" x24
+b2 idea "n.01" x23
+b2 REF x25
+b2 REF x26
+b2 Theme x26 x25
+b2 little "a.01" x26
+b2 idea "n.01" x25
+b2 REF x27
+b2 REF x28
+b2 Theme x28 x27
+b2 little "a.01" x28
+b2 idea "n.01" x27
+b2 REF x29
+b2 REF x30

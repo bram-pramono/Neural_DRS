@@ -1,0 +1,30 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 examination "n.01" x1
+b2 Time x3 x2
+b2 REF x2
+b2 TPR x2 "now"
+b2 time "n.08" x2
+b2 REF x3
+b2 Attribute x1 x3
+b2 over "a.01" x3
+b2 REF x4
+b2 Agent x4 "speaker"
+b2 Time x4 x2
+b2 doubt "v.01" x4
+b3 REF x5
+b3 REF x6
+b3 PRESUPPOSITION b2
+b3 Role x5 x6
+b3 person "n.01" x5
+b2 Time x8 x7
+b2 REF x7
+b2 TPR x7 "now"
+b2 time "n.08" x7
+b2 REF x8
+b2 Experiencer x8 x5
+b2 satisfied "a.01" x8
+b2 Stimulus x8 x9
+b4 REF x9
+b4 PRESUPPOSITION b2
+b4 entity "n.01" x9

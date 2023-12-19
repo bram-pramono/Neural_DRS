@@ -1,0 +1,16 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Topic x1 x3
+b2 say "v.01" x1
+b2 REF x2
+b2 man "n.01" x2
+b2 REF x3
+b2 PartOf x3 x2
+b2 REF x4
+b2 Sub x4 x3
+b2 Sub x4 x5
+b2 entity "n.01" x4
+b2 REF x5
+b2 Order x5 "1"
+b2 finger "n.01" x5

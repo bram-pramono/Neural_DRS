@@ -1,0 +1,63 @@
+b1 REF x1
+b1 REF x2
+b1 Title x1 x2
+b1 mr "n.01" x2
+b1 REF x3
+b1 PRESUPPOSITION b2
+b1 Source x1 x3
+b1 location "n.01" x3
+b1 person "n.01" x1
+b3 CONDITION b4
+b4 CONSEQUENCE b2
+b4 REF x4
+b4 time "n.08" x4
+b2 REF x5
+b2 Experiencer x5 x1
+b2 Stimulus x5 x6
+b2 TPR x4 "now"
+b2 Time x5 x4
+b2 have "v.01" x5
+b2 REF x6
+b2 REF x7
+b2 REF x8
+b2 Attribute x6 x7
+b2 Degree x7 x8
+b2 quantity "n.01" x7
+b2 quantity "n.01" x8
+b2 REF x9
+b2 Attribute x6 x9
+b2 large "a.01" x9
+b2 Value "n.01" x6
+b2 Value x6 x10
+b2 REF x10
+b2 medicine "n.02" x10
+b2 REF x11
+b2 Patient x11 x10
+b2 Time x11 x12
+b2 make "v.01" x11
+b2 REF x12
+b2 TPR x12 "now"
+b2 time "n.08" x12
+b2 Location x11 x13
+b2 REF x13
+b2 time "n.01" x13
+b2 CONTINUATION b5
+b6 REF x14
+b6 PRESUPPOSITION b5
+b6 female "n.02" x14
+b5 REF x15
+b5 Agent x15 x14
+b5 Time x15 x11
+b5 deal "v.04" x15
+b5 Co-Agent x15 x17
+b7 REF x16
+b7 PRESUPPOSITION b8
+b7 male "n.02" x16
+b8 REF x17
+b8 PRESUPPOSITION b5
+b8 User x17 x16
+b8 artifact "n.01" x17
+b5 Location x15 x18
+b9 REF x18
+b9 PRESUPPOSITION b5
+b9 male "n.02" x18

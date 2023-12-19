@@ -1,0 +1,41 @@
+b1 REF x1
+b1 Causer x5 x1
+b1 EQU x1 "?"
+b1 reason "n.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b3
+b2 entity "n.01" x2
+b4 REF x3
+b4 EQU x3 "now"
+b4 Time x4 x3
+b4 time "n.08" x3
+b3 NEGATION b4
+b4 RESULT b5
+b5 NEGATION b6
+b6 POSSIBILITY b7
+b3 REF x4
+b3 Attribute x2 x4
+b3 delightful "a.01" x4
+b7 REF x5
+b7 Co-Theme x5 "hearer"
+b7 Theme x5 x2
+b7 see "v.01" x5
+b8 REF x6
+b8 REF x7
+b8 PRESUPPOSITION b7
+b8 Title x6 x7
+b8 mr "n.01" x7
+b8 person "n.01" x6
+b9 REF x8
+b9 TPR x9 x8
+b9 Time x5 x8
+b9 time "n.08" x8
+b7 CONDITION b10
+b10 REF x9
+b10 CONSEQUENCE b9
+b10 PartOf x9 x10
+b10 entity "n.01" x9
+b11 REF x10
+b11 PRESUPPOSITION b10
+b11 Unit x10 "year"
+b11 measure "n.02" x10

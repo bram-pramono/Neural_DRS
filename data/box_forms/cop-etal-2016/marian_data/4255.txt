@@ -1,0 +1,62 @@
+b1 IMP b2 b3
+b2 NEC b4
+b4 REF x1
+b4 Pivot x1 "hearer"
+b4 Theme x1 x2
+b4 need "v.01" x1
+b4 REF x2
+b4 REF x3
+b4 Role x2 x3
+b4 father_confessor "n.01" x3
+b4 person "n.01" x2
+b4 REF x4
+b4 REF x5
+b4 TPR x5 "now"
+b4 Theme x4 x2
+b4 Time x4 x5
+b4 start "v.01" x4
+b4 time "n.08" x5
+b4 REF x6
+b4 REF x7
+b4 Role x6 x7
+b4 father_madame "n.01" x7
+b4 person "n.01" x6
+b5 DRS x4
+b5 CONTINUATION b2 b6
+b6 REF x8
+b6 REF x9
+b6 TPR x9 "now"
+b6 Theme x8 "hearer"
+b6 Time x8 x9
+b6 start "v.01" x8
+b6 time "n.08" x9
+b6 REF x10
+b6 REF x11
+b6 Role x10 x11
+b6 father_madame "n.01" x11
+b6 person "n.01" x10
+b7 DRS x10
+b7 CONTINUATION b6 b8
+b9 REF x12
+b9 female "n.02" x12
+b8 REF x13
+b8 REF x14
+b8 TPR x14 "now"
+b8 Theme x13 x12
+b8 Time x13 x14
+b8 start "v.01" x13
+b8 time "n.08" x14
+b8 REF x15
+b8 REF x16
+b8 Role x15 x16
+b8 person "n.01" x15
+b8 confessor "n.01" x16
+b10 DRS x13
+b10 CONTINUATION b7 b11
+b11 REF x17
+b11 REF x18
+b11 TPR x18 "now"
+b11 Theme x17 "hearer"
+b11 Time x17 x18
+b11 start "v.01" x17
+b11 time "n.08" x18

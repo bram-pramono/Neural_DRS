@@ -1,0 +1,75 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Agent x2 "speaker"
+b2 hold "v.02" x2
+b2 Theme x2 x3
+b2 REF x3
+b2 foreigner "n.01" x3
+b2 Attribute x2 x4
+b2 REF x4
+b2 foreigner "n.01" x4
+b2 Attribute x2 x5
+b2 REF x5
+b2 rule "n.01" x5
+b3 DRS x3
+b3 DRS x5
+b2 CONTRAST b1 b3
+b3 Source x7 x6
+b3 REF x6
+b3 foreigner "n.01" x6
+b3 REF x7
+b3 REF x8
+b3 Agent x7 "speaker"
+b3 PRP x8 b4
+b3 Time x7 x9
+b3 Topic x7 x8
+b3 be "v.03" x7
+b3 REF x9
+b3 EQU x9 "now"
+b3 time "n.08" x9
+b4 REF x10
+b4 REF x11
+b4 Theme x11 x10
+b4 ordinary "a.01" x11
+b4 run "n.01" x10
+b4 Theme x10 x12
+b4 REF x12
+b4 foreigner "n.01" x12
+b5 DRS x10
+b5 DRS x12
+b4 CONTRAST b2 b5
+b5 REF x13
+b5 REF x14
+b5 REF x15
+b5 Agent x13 "speaker"
+b5 EQU x15 "now"
+b5 PRP x14 b6
+b5 Time x13 x15
+b5 Topic x13 x14
+b5 be "v.03" x13
+b5 time "n.08" x15
+b6 REF x16
+b6 REF x17
+b6 Theme x17 x16
+b6 ordinary "a.01" x17
+b6 run "n.01" x16
+b6 Theme x16 x18
+b6 REF x18
+b6 foreigner "n.01" x18
+b7 DRS x16
+b7 DRS x18
+b6 CONTRAST b4 b7
+b7 REF x19
+b7 REF x20
+b7 REF x21
+b7 Agent x19 "speaker"
+b7 EQU x21 "now"
+b7 PRP x20 b8
+b7 Time x19 x21
+b7 Topic x19 x20
+b7 be "v.03" x19
+b7 time "n.08" x21

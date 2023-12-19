@@ -1,0 +1,25 @@
+b1 Time x3 x1
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 long "a.01" x2
+b1 exclamation "n.01" x1
+b1 Theme x1 x3
+b1 REF x3
+b1 ecstasy "n.01" x3
+b2 REF x4
+b2 Name x4 "poirot"
+b2 way "n.01" x4
+b1 REF x5
+b1 REF x6
+b1 Agent x5 x4
+b1 TPR x6 "now"
+b1 Theme x5 x7
+b1 Time x5 x6
+b1 lead "v.01" x5
+b1 time "n.08" x6
+b3 REF x7
+b3 way "n.01" x7
+b1 Goal x5 x8
+b4 REF x8
+b4 morning@-8room "n.01" x8

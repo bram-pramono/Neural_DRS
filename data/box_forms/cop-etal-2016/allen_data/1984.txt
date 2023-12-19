@@ -1,0 +1,19 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Recipient x1 "speaker"
+b2 Topic x1 x2
+b2 tell "v.01" x1
+b2 REF x2
+b2 entity "n.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b2
+b3 person "n.01" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b2 REF x5
+b2 Co-Theme x5 x2
+b2 Theme x5 x3
+b2 Time x5 x4
+b2 be "v.03" x5

@@ -1,0 +1,41 @@
+b1 REF x1
+b1 REF x2
+b1 REF x3
+b1 ATTRIBUTION b2
+b1 Agent x1 "speaker"
+b1 EQU x3 "now"
+b1 Time x1 x3
+b1 Topic x1 x2
+b1 burst "v.01" x1
+b1 proposition "n.01" x2
+b1 time "n.08" x3
+b2 REF x4
+b2 REF x5
+b2 ATTRIBUTION b3
+b2 Agent x4 "speaker"
+b2 Theme x4 x5
+b2 proposition "n.01" x5
+b2 think "v.01" x4
+b4 REF x6
+b4 Bearer x6 "hearer"
+b4 REF x7
+b4 Attribute x6 x7
+b4 PRESUPPOSITION b5
+b4 poor "a.01" x7
+b4 lady "n.01" x6
+b3 REF x8
+b3 TPR "now" x8
+b3 time "n.08" x8
+b5 Time x9 x8
+b3 NECESSITY b5
+b5 REF x9
+b5 REF x10
+b5 Experiencer x9 x6
+b5 Stimulus x9 x11
+b5 TPR x10 "now"
+b5 Time x9 x10
+b5 feel "v.01" x9
+b5 time "n.08" x10
+b6 REF x11
+b6 PRESUPPOSITION b5
+b6 same "n.01" x11

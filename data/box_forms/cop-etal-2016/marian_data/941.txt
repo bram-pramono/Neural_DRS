@@ -1,0 +1,2 @@
+b1 REF x1
+b1 foot@-8mark "n.01" x1

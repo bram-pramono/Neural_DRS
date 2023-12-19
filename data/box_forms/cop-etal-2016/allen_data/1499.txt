@@ -1,0 +1,24 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 choose "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 PRESUPPOSITION b4
+b3 PartOf x4 x1
+b3 face "n.01" x4
+b2 POSSIBILITY b4
+b4 REF x5
+b4 Attribute x4 x5
+b4 Location x5 x7
+b5 REF x6
+b5 PRESUPPOSITION b6
+b5 entity "n.01" x6
+b6 REF x7
+b6 PRESUPPOSITION b4
+b6 PartOf x7 x6

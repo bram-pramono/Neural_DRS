@@ -1,0 +1,60 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 EQU x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Manner x4 x3
+b2 simply "a.01" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 bare@-8faced "a.01" x4
+b2 hunt "r.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTRAST b1 b3
+b3 REF x5
+b3 REF x6
+b3 Co-Theme x5 x8
+b3 EQU x6 "now"
+b3 Theme x5 "hearer"
+b3 Time x5 x6
+b3 be "v.03" x5
+b3 time "n.08" x6
+b4 REF x7
+b4 female "n.02" x7
+b5 REF x8
+b5 Of x8 x7
+b5 REF x9
+b5 Theme x9 x8
+b5 own "a.01" x9
+b5 mistress "n.01" x8
+b6 DRS x6
+b6 DRS x9
+b5 CONTINUATION b2 b6
+b6 REF x10
+b6 REF x11
+b6 Co-Theme x10 x12
+b6 EQU x11 "now"
+b6 Theme x10 x8
+b6 Time x10 x11
+b6 be "v.03" x10
+b6 time "n.08" x11
+b7 REF x12
+b7 Of x12 x6
+b7 REF x13
+b7 Theme x13 x12
+b7 own "a.01" x13
+b7 mistress "n.01" x12
+b8 DRS x10
+b8 DRS x13
+b7 CONTINUATION b4 b8
+b8 REF x14
+b8 REF x15
+b8 Co-Theme x14 x12
+b8 EQU x15 "now"
+b8 Theme x14 x9
+b8 Time x14 x15
+b8 married "v.01" x14
+b8 time "n.08" x15

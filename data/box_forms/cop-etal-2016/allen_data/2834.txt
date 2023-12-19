@@ -1,0 +1,26 @@
+b1 Theme x4 x1
+b1 REF x1
+b1 effort "n.01" x1
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 person "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x2
+b1 TPR x4 "now"
+b1 Theme x3 x5
+b1 Time x3 x4
+b1 raise "v.01" x3
+b1 time "n.08" x4
+b3 REF x5
+b3 PRESUPPOSITION b1
+b3 PartOf x5 x6
+b4 REF x6
+b4 PRESUPPOSITION b3
+b4 male "n.02" x6
+b3 face "n.01" x5
+b1 Source x3 x7
+b5 REF x7
+b5 PRESUPPOSITION b1
+b5 PartOf x7 x2
+b5 hand "n.01" x7

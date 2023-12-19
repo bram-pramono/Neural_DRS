@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Title x1 x2
+b1 mr "n.01" x2
+b1 person "n.01" x1
+b1 REF x3
+b1 REF x4
+b1 Co-Theme x3 x5
+b1 TPR x4 "now"
+b1 Theme x3 x1
+b1 Time x3 x4
+b1 be "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 lady "n.01" x5
+b1 REF x6
+b1 REF x7
+b1 REF x8
+b1 ATTRIBUTION b2
+b1 Experiencer x6 x5
+b1 Stimulus x6 x7
+b1 TPR x8 "now"
+b1 Time x6 x8
+b1 like "v.01" x6
+b1 proposition "n.01" x7
+b1 time "n.08" x8
+b2 REF x9
+b2 Agent x9 x5
+b2 Product x9 x10
+b2 make "v.01" x9
+b3 PRESUPPOSITION b4
+b4 REF x10
+b4 PRESUPPOSITION b2
+b4 PartOf x10 x11
+b3 REF x11
+b3 female "n.02" x11
+b4 plan "n.01" x10
+b2 CONTINUATION b5
+b5 REF x12
+b5 REF x13
+b5 REF x14
+b5 ATTRIBUTION b6
+b5 Agent x12 x11
+b5 Recipient x12 x15
+b5 TPR x14 "now"
+b5 Time x12 x14
+b5 Topic x12 x13
+b5 expect "v.01" x12
+b5 proposition "n.01" x13
+b5 time "n.08" x14
+b5 REF x15
+b5 NEQ x15 x16
+b7 REF x16
+b7 PRESUPPOSITION b5
+b5 person "n.01" x15
+b7 plan "n.01" x16
+b5 CONTINUATION b8
+b8 REF x17
+b8 REF x18
+b8 REF x19
+b8 ATTRIBUTION b9
+b8 Agent x17 x15
+b8 Recipient x17 x20
+b8 TPR x19 "now"
+b8 Time x17 x19
+b8 Topic x17 x18
+b8 expect "v.01" x17
+b8 proposition "n.01" x18
+b8 time "n.08" x19
+b8 REF x20
+b8 NEQ x20 x21
+b10 REF x21
+b10 PRESUPPOSITION b8
+b8 person "n.01" x20
+b10 person "n.01" x21

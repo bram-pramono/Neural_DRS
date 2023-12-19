@@ -1,0 +1,34 @@
+b1 REF x1
+b1 Manner x5 x1
+b1 really "r.01" x1
+b2 REF x2
+b2 REF x3
+b2 PRESUPPOSITION b1
+b2 Role x2 x3
+b2 person "n.01" x2
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x2
+b1 TPR x5 "now"
+b1 Theme x4 x6
+b1 Time x4 x5
+b1 protest "v.01" x4
+b1 time "n.08" x5
+b3 REF x6
+b3 REF x7
+b3 PRESUPPOSITION b1
+b3 Role x6 x7
+b3 judge "n.01" x7
+b3 person "n.01" x6
+b1 CONTINUATION b4
+b5 REF x8
+b5 PRESUPPOSITION b4
+b5 question "n.01" x8
+b4 REF x9
+b4 EQU x9 "now"
+b4 time "n.08" x9
+b6 Time x10 x9
+b4 NEGATION b6
+b6 REF x10
+b6 Attribute x8 x10
+b6 valid "a.01" x10

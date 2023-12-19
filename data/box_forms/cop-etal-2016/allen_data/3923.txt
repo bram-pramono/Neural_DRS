@@ -1,0 +1,50 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 glance "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 CONTINUATION b3
+b3 REF x5
+b3 REF x6
+b3 Agent x5 x1
+b3 EQU x6 "now"
+b3 Product x5 x8
+b3 Time x5 x6
+b3 make "v.01" x5
+b3 time "n.08" x6
+b2 NEGATION b3
+b3 REF x7
+b3 person "n.01" x7
+b3 REF x8
+b3 NEQ x8 x9
+b3 person "n.01" x8
+b4 REF x9
+b4 PRESUPPOSITION b3
+b4 person "n.01" x9
+b3 REF x10
+b3 Manner x11 x10
+b3 quickly "a.01" x10
+b3 REF x11
+b3 Agent x11 x8
+b3 Theme x11 x13
+b3 Time x11 x12
+b3 produce "v.02" x11
+b3 REF x12
+b3 TPR x12 "now"
+b3 time "n.08" x12
+b3 REF x13
+b3 REF x14
+b3 Attribute x13 x14
+b3 Value x14 "+"
+b3 old "a.01" x14
+b3 REF x15
+b3 Role x13 x15
+b3 person "n.01" x13
+b3 sheet "n.01" x15

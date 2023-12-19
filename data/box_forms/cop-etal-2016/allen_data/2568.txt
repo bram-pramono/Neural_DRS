@@ -1,0 +1,12 @@
+b1 REF x1
+b1 Agent x1 "speaker"
+b1 Patient x1 x3
+b1 draw "v.01" x1
+b1 REF x2
+b1 REF x3
+b1 Attribute x3 x2
+b1 certain "a.01" x2
+b1 conclusion "n.01" x3
+b1 REF x4
+b1 Theme x3 x4
+b1 entity "n.01" x4

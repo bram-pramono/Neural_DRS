@@ -1,0 +1,33 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 long "a.01" x2
+b1 enough "n.01" x1
+b1 Theme x1 x3
+b1 REF x3
+b1 gentleman "n.01" x3
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x2
+b1 TPR x5 "now"
+b1 Theme x4 x6
+b1 Time x4 x5
+b1 study "v.01" x4
+b1 time "n.08" x5
+b1 REF x6
+b1 medicine "n.02" x6
+b1 REF x7
+b1 Agent x7 x6
+b1 Theme x7 x9
+b1 gratify "v.02" x7
+b1 REF x8
+b1 REF x9
+b1 Theme x8 x9
+b1 very "r.01" x8
+b1 natural_interest "n.01" x9
+b1 REF x10
+b1 Part x10 x9
+b1 Part x10 x11
+b1 group "n.01" x10
+b1 REF x11
+b1 curiosity "n.01" x11

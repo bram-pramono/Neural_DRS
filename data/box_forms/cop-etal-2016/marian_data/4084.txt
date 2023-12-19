@@ -1,0 +1,75 @@
+b1 REF x1
+b1 Of x1 "speaker"
+b1 effort "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.03" x2
+b2 time "n.08" x3
+b2 Theme x2 x4
+b2 REF x4
+b2 vain "n.01" x4
+b2 REF x5
+b2 REF x6
+b2 Agent x5 "speaker"
+b2 PRP x6 b3
+b2 Topic x5 x6
+b2 hope "v.01" x5
+b4 REF x7
+b4 matter "n.01" x7
+b3 POS b5
+b5 REF x8
+b5 Agent x8 x7
+b5 NOT b5 b6
+b5 abandon "v.01" x8
+b6 REF x9
+b6 matter "n.01" x9
+b4 POS b7
+b7 REF x10
+b7 Agent x10 "speaker"
+b7 NOT b7 b8
+b7 abandon "v.01" x10
+b8 REF x11
+b8 matter "n.01" x11
+b6 POS b9
+b9 REF x12
+b9 Agent x12 "speaker"
+b9 NOT b9 b10
+b9 abandon "v.01" x12
+b10 REF x13
+b10 matter "n.01" x13
+b8 POS b11
+b11 REF x14
+b11 Agent x14 "speaker"
+b11 NOT b11 b12
+b11 abandon "v.01" x14
+b12 REF x15
+b12 matter "n.01" x15
+b10 POS b13
+b13 REF x16
+b13 Agent x16 "speaker"
+b13 NOT b13 b14
+b13 abandon "v.01" x16
+b14 REF x17
+b14 matter "n.01" x17
+b12 POS b15
+b15 REF x18
+b15 Agent x18 "speaker"
+b15 NOT b15 b16
+b15 abandon "v.01" x18
+b16 REF x19
+b16 matter "n.01" x19
+b14 POS b17
+b17 REF x20
+b17 Agent x20 "speaker"
+b17 NOT b17 b18
+b17 abandon "v.01" x20
+b18 REF x21
+b18 matter "n.01" x21
+b16 POS b19
+b19 REF x22
+b19 Agent x22 "speaker"
+b19 NOT b19 b19
+b19 abandon "v.01" x22

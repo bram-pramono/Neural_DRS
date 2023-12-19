@@ -1,0 +1,25 @@
+b1 Time x3 x1
+b2 REF x1
+b2 walk "n.01" x1
+b1 Asset x1 x2
+b3 REF x2
+b3 REF x3
+b3 Theme x3 x2
+b3 open "a.01" x3
+b3 park "n.01" x2
+b2 REF x4
+b2 TPR x4 "now"
+b2 Time x6 x4
+b2 time "n.08" x4
+b2 REF x5
+b2 Theme x5 x2
+b2 pleasant "a.01" x5
+b2 REF x6
+b2 Theme x6 x6
+b2 lazily "a.01" x6
+b2 Causer x6 x7
+b4 REF x7
+b4 REF x8
+b4 Theme x8 x7
+b4 cool "a.01" x8
+b4 glade "n.01" x7

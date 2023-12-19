@@ -1,0 +1,25 @@
+b1 REF x1
+b1 Name x1 "coroner"
+b1 geographical_area "n.01" x1
+b2 EQU x1 x2
+b2 REF x2
+b2 briskly "n.01" x2
+b2 Theme x2 x3
+b3 REF x3
+b3 point "n.01" x3
+b4 DRS x1
+b4 DRS x3
+b3 CONTINUATION b1 b4
+b4 REF x4
+b4 REF x5
+b4 Agent x4 x5
+b4 TPR x5 "now"
+b4 Theme x4 x6
+b4 Time x4 x5
+b4 draw "v.06" x4
+b4 time "n.08" x5
+b4 REF x6
+b4 deep_breath "n.01" x6
+b4 Theme x6 x7
+b4 REF x7
+b4 relief "n.01" x7

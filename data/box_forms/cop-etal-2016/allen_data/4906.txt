@@ -1,0 +1,9 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 NEGATION b2
+b2 REF x2
+b2 Experiencer x2 "speaker"
+b2 Stimulus x2 "speaker"
+b2 trust "v.01" x2

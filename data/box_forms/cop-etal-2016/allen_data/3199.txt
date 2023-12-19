@@ -1,0 +1,27 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 evening "n.01" x1
+b3 NECESSITY b2
+b2 REF x2
+b2 Agent x2 x1
+b2 Theme x2 x4
+b2 be "a.01" x2
+b2 REF x3
+b2 REF x4
+b2 Attribute x4 x3
+b2 great "a.01" x3
+b2 fun "n.01" x4
+b4 REF x5
+b4 REF x6
+b4 REF x7
+b4 ATTRIBUTION b2
+b4 Agent x5 x4
+b4 TPR x7 "now"
+b4 Time x5 x7
+b4 Topic x5 x6
+b4 proposition "n.01" x6
+b4 say "v.01" x5
+b4 time "n.08" x7
+b5 REF x8
+b5 PRESUPPOSITION b2
+b5 female "n.02" x8

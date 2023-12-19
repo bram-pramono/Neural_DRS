@@ -1,0 +1,33 @@
+b1 REF x1
+b1 Name x1 "yes"
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 x1
+b2 PRP x3 b3
+b2 TPR x4 "now"
+b2 Time x2 x4
+b2 Topic x2 x3
+b2 say "v.01" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 REF x6
+b4 Role x5 x6
+b4 lawyer "n.01" x6
+b4 person "n.01" x5
+b3 REF x7
+b3 Theme x7 x5
+b3 possible "v.01" x7
+b5 REF x8
+b5 entity "n.01" x8
+b3 REF x9
+b3 Theme x9 x8
+b3 be "v.03" x9
+b3 Location x9 x10
+b3 REF x10
+b3 person "n.01" x10
+b3 PartOf x10 x11
+b6 REF x11
+b6 User x11 "speaker"
+b6 possession "n.01" x11

@@ -1,0 +1,32 @@
+b1 REF x1
+b1 moment "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x4 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Manner x4 x3
+b2 equally "a.01" x3
+b2 REF x4
+b2 REF x5
+b2 REF x6
+b2 Agent x4 "speaker"
+b2 PRP x5 b3
+b2 TPR x6 "now"
+b2 Time x4 x6
+b2 Topic x4 x5
+b2 determine "v.01" x4
+b2 time "n.08" x6
+b4 REF x7
+b4 male "n.02" x7
+b3 NEC b5
+b5 Experiencer x7
+b5 REF x8
+b5 REF x9
+b5 Agent x8 x7
+b5 PRP x9 b6
+b5 Topic x8 x9
+b5 be "v.01" x8
+b6 REF x10
+b6 NOT b6 b3
+b6 arrest "v.01" x10

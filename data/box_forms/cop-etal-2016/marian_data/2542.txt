@@ -1,0 +1,29 @@
+b1 REF x1
+b1 REF x2
+b1 @-4 "n.01" "speaker"
+b1 PRP x2 b2
+b1 Stimulus x1 x2
+b1 Time x1 x3
+b1 fear "v.01" x1
+b1 REF x3
+b1 EQU x3 "now"
+b1 time "n.08" x3
+b3 Time x4 x3
+b2 Experiencer x3
+b3 REF x4
+b3 Agent x4 "hearer"
+b3 Theme x4 "speaker"
+b3 remember "v.01" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 Agent x5 "hearer"
+b4 EQU x6 "now"
+b4 Theme x5 x7
+b4 Time x5 x6
+b4 remember "v.01" x5
+b4 time "n.08" x6
+b4 REF x7
+b4 inspector_japp "n.01" x7

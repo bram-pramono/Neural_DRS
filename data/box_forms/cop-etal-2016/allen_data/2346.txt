@@ -1,0 +1,3 @@
+b1 POSSIBILITY b2
+b2 REF x1
+b2 not "v.01" x1

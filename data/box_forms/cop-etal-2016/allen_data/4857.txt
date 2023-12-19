@@ -1,0 +1,29 @@
+b1 REF x1
+b1 time "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 evening "n.01" x2
+b3 REF x3
+b3 PRESUPPOSITION b1
+b3 female "n.02" x3
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x3
+b1 Patient x4 x6
+b1 TPR x5 "now"
+b1 Time x4 x5
+b1 time "n.08" x5
+b1 REF x6
+b1 door "n.01" x6
+b1 REF x7
+b1 Theme x7 x6
+b1 leading "a.01" x7
+b1 Destination x7 x9
+b4 REF x8
+b4 PRESUPPOSITION b5
+b4 female "n.02" x8
+b5 REF x9
+b5 PRESUPPOSITION b2
+b5 User x9 x8
+b5 room "n.01" x9

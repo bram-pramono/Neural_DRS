@@ -1,0 +1,13 @@
+b1 POSSIBILITY b2
+b3 NEGATION b1
+b2 REF x1
+b2 Experiencer x1 "speaker"
+b2 Stimulus x1 x2
+b2 believe "v.01" x1
+b4 REF x2
+b4 PRESUPPOSITION b2
+b4 entity "n.01" x2
+b2 Source x1 x3
+b5 REF x3
+b5 PRESUPPOSITION b2
+b5 time "n.01" x3

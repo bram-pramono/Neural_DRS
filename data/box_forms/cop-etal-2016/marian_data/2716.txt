@@ -1,0 +1,27 @@
+b1 REF x1
+b1 User x1 "speaker"
+b1 thought "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 fly "v.01" x2
+b2 time "n.08" x3
+b2 Destination x2 x4
+b3 REF x4
+b3 Name x4 "mary~cavendish"
+b3 female "n.02" x4
+b4 DRS x2
+b4 DRS x4
+b3 CONTINUATION b1 b4
+b4 REF x5
+b4 REF x6
+b4 NOT b3 "speaker"
+b4 TPR x6 "now"
+b4 Time x5 x6
+b4 hedge "v.01" x5
+b4 time "n.08" x6
+b4 Location x5 x7
+b4 REF x7
+b4 what_way "n.01" x7

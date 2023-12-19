@@ -1,0 +1,5 @@
+b1 POSSIBILITY b2
+b3 NEGATION b1
+b4 REF x1
+b4 PRESUPPOSITION b2
+b4 entity "n.01" x1

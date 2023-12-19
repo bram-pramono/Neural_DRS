@@ -1,0 +1,20 @@
+b1 Time x3 x1
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 nervous "a.01" x2
+b1 giggle "n.01" x1
+b2 REF x3
+b2 Name x3 "annie"
+b2 female "n.02" x3
+b1 REF x4
+b1 REF x5
+b1 Agent x4 x3
+b1 TPR x5 "now"
+b1 Theme x4 x3
+b1 Time x4 x5
+b1 take "v.01" x4
+b1 time "n.08" x5
+b1 Source x4 x6
+b3 REF x6
+b3 room "n.01" x6

@@ -1,0 +1,34 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 ever "n.01" x1
+b2 Theme x1 x2
+b1 REF x2
+b1 REF x3
+b1 Theme x3 x2
+b1 early "a.01" x3
+b1 hour "n.01" x2
+b1 PartOf x2 x4
+b4 REF x4
+b4 morning "n.01" x4
+b5 REF x5
+b5 Name x5 "john"
+b5 male "n.02" x5
+b2 REF x6
+b2 TPR x6 "now"
+b2 time "n.08" x6
+b3 Time x7 x6
+b3 REF x7
+b3 Theme x7 x5
+b3 hard "a.01" x7
+b3 Destination x7 x8
+b6 REF x8
+b6 papers "n.01" x8
+b3 REF x9
+b3 Part x9 x8
+b3 Part x9 x10
+b3 group "n.01" x9
+b3 REF x10
+b3 REF x11
+b3 Theme x11 x10
+b3 death "a.01" x11
+b3 entail "n.01" x10

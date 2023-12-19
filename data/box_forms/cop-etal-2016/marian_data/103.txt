@@ -1,0 +1,28 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 Agent x2 x1
+b2 Theme x2 x4
+b2 Time x2 x3
+b2 lead "v.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b3 REF x4
+b3 way "n.01" x4
+b2 REF x5
+b2 Agent x5 x5
+b2 NOT b3 b4
+b2 Time x5 x3
+b2 round "v.01" x5
+b4 REF x6
+b4 house "n.01" x6
+b3 Destination x5 x7
+b5 REF x7
+b5 shade "n.01" x7
+b5 PartOf x7 x8
+b5 REF x8
+b5 REF x9
+b5 Theme x9 x8
+b5 large "a.01" x9
+b5 sycamore "n.01" x8

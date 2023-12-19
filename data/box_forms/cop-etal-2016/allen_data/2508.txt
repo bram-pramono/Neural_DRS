@@ -1,0 +1,36 @@
+b1 REF x1
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Title x1 x2
+b1 doctor "n.04" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 Co-Theme x3 x5
+b2 Theme x3 x1
+b2 Time x3 x4
+b2 be "v.01" x3
+b2 REF x4
+b2 EQU x4 "now"
+b2 time "n.08" x4
+b2 Quantity x4 "?"
+b2 entity "n.01" x4
+b2 PartOf x4 x5
+b3 REF x5
+b3 Creator x5 "speaker"
+b3 PRESUPPOSITION b2
+b3 height "n.01" x5
+b2 REF x6
+b2 Sub x6 x4
+b2 Sub x6 x7
+b2 entity "n.01" x6
+b2 REF x7
+b2 building "n.01" x7
+b2 CONTINUATION b4
+b4 Participant x9 "speaker"
+b4 REF x8
+b4 Agent x8 x1
+b4 Theme x8 x9
+b4 Time x8 x3
+b4 wear "v.02" x8
+b4 REF x9
+b4 beard "n.01" x9

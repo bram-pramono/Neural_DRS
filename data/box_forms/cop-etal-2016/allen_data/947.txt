@@ -1,0 +1,75 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 Topic x2 x4
+b2 do "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Theme x4 x1
+b2 so "v.01" x4
+b2 Location x2 x5
+b3 REF x5
+b3 REF x6
+b3 Attribute x5 x6
+b3 PRESUPPOSITION b2
+b3 round "n.01" x6
+b3 table "n.02" x5
+b2 Location x3 x7
+b4 REF x7
+b4 PRESUPPOSITION b2
+b4 window "n.01" x7
+b2 CONTRAST b5
+b6 REF x8
+b6 PRESUPPOSITION b5
+b6 entity "n.01" x8
+b5 REF x9
+b5 REF x10
+b5 Co-Theme x9 x11
+b5 TPR x10 "now"
+b5 Theme x9 x8
+b5 Time x9 x10
+b5 be "v.01" x9
+b5 time "n.08" x10
+b5 REF x11
+b5 REF x12
+b5 Attribute x11 x12
+b5 REF x13
+b5 Role x11 x13
+b5 person "n.01" x11
+b5 CONTINUATION b7
+b7 REF x14
+b7 PRESUPPOSITION b5
+b7 entity "n.01" x14
+b5 REF x15
+b5 REF x16
+b5 Co-Theme x15 x17
+b5 TPR x16 "now"
+b5 Theme x15 x14
+b5 Time x15 x16
+b5 be "v.01" x15
+b5 time "n.08" x16
+b5 REF x17
+b5 REF x18
+b5 Attribute x17 x18
+b5 REF x19
+b5 Agent x19 x17
+b5 Time x19 x20
+b5 REF x20
+b5 TPR x20 "now"
+b5 time "n.08" x20
+b5 CONTINUATION b8
+b8 REF x21
+b8 Agent x21 x12
+b8 Theme x21 x22
+b8 Time x21 x20
+b9 REF x22
+b9 PRESUPPOSITION b8
+b8 Location x21 x23
+b10 REF x23
+b10 PRESUPPOSITION b8
+b10 floor "n.01" x23

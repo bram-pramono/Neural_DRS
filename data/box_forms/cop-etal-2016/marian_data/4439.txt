@@ -1,0 +1,11 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Agent x2 "hearer"
+b2 Theme x2 x3
+b2 find "v.01" x2
+b3 REF x3
+b3 entity "n.01" x3

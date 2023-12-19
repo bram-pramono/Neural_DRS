@@ -1,0 +1,33 @@
+b1 REF x1
+b1 REF x2
+b1 Manner x4 x2
+b1 surely "r.01" x2
+b2 REF x3
+b2 entity "n.01" x3
+b1 NEC b3
+b3 REF x4
+b3 Theme x4 x3
+b3 so "v.01" x4
+b3 REF x5
+b3 Manner x4 x5
+b3 unless "r.01" x5
+b4 DRS x2
+b4 DRS x5
+b3 CONTINUATION b1 b4
+b4 REF x6
+b4 REF x7
+b4 Theme x7 x6
+b4 new "a.01" x7
+b4 idea "n.02" x6
+b4 REF x8
+b4 REF x9
+b4 Causer x8 x6
+b4 TPR x9 "now"
+b4 Time x8 x9
+b4 Topic x8 x6
+b4 suggest "v.01" x8
+b4 time "n.08" x9
+b4 Goal x8 x10
+b5 REF x10
+b5 User x10 "speaker"
+b5 mind "n.01" x10

@@ -1,0 +1,10 @@
+b1 REF x1
+b1 User x1 "speaker"
+b1 instinct "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Theme x3 x1
+b2 right "a.03" x3

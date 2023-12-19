@@ -1,0 +1,4 @@
+b1 REF x1
+b1 Agent x1 "hearer"
+b1 hope "v.01" x1
+b2 NEGATION b1

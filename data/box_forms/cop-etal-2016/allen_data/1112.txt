@@ -1,0 +1,23 @@
+b1 POSSIBILITY b2
+b3 NEGATION b1
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 Topic x1 x2
+b2 say "v.01" x1
+b2 REF x2
+b2 exactly "n.01" x2
+b2 CONTRAST b4
+b5 REF x3
+b5 PRESUPPOSITION b4
+b5 entity "n.01" x3
+b6 REF x4
+b6 Theme x4 x3
+b6 be "a.01" x4
+b4 NEGATION b6
+b6 Instrument x4 x5
+b6 REF x5
+b6 REF x6
+b6 Attribute x5 x6
+b6 Value x6 "+"
+b6 long "a.01" x6
+b6 way "n.01" x5

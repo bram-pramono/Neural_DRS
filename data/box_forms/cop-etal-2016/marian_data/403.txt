@@ -1,0 +1,32 @@
+b1 REF x1
+b1 countenance "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 Name x2 "cynthia~and~nibs"
+b2 city "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Time x5 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Manner x5 x4
+b1 suddenly "a.01" x4
+b1 REF x5
+b1 Theme x5 x5
+b1 petrified "a.01" x5
+b1 Result x5 x6
+b1 REF x6
+b1 stern "n.01" x6
+b3 DRS x4
+b3 DRS x6
+b2 CONTINUATION b1 b3
+b3 REF x7
+b3 REF x8
+b3 Agent x7 x2
+b3 EQU x8 "now"
+b3 Theme x7 x9
+b3 Time x7 x8
+b3 forbid "v.02" x7
+b3 time "n.08" x8
+b3 REF x9
+b3 expression "n.01" x9

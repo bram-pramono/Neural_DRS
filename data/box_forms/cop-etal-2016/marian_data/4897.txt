@@ -1,0 +1,24 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 narcotic "a.01" x2
+b1 take "n.01" x1
+b1 Theme x1 x3
+b1 REF x3
+b1 strychnine "n.01" x3
+b1 REF x4
+b1 TPR "now" x4
+b1 Time x5 x4
+b1 time "n.08" x4
+b1 REF x5
+b1 Agent x5 x2
+b1 Theme x5 x6
+b1 delay "v.05" x5
+b1 REF x6
+b1 action "n.01" x6
+b1 PartOf x6 x7
+b2 REF x7
+b2 poison "n.01" x7
+b1 Goal x4 x8
+b1 REF x8
+b1 hour "n.01" x8

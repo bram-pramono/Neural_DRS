@@ -1,0 +1,17 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 Theme x2 x1
+b2 difficult "a.01" x2
+b2 REF x3
+b2 REF x4
+b2 @-4 "n.01" x1
+b2 PRP x4 b3
+b2 Stimulus x3 x4
+b2 know "v.01" x3
+b3 REF x5
+b3 Agent x5 x5
+b3 Recipient x5 x6
+b3 treat "v.01" x5
+b4 REF x6
+b4 male "n.02" x6

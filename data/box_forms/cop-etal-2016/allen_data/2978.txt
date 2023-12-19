@@ -1,0 +1,43 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 ATTRIBUTION b3
+b2 Experiencer x2 x1
+b2 Stimulus x2 x3
+b2 proposition "n.01" x3
+b2 realize "v.01" x2
+b4 REF x4
+b4 REF x5
+b4 PRESUPPOSITION b3
+b4 Title x4 x5
+b4 mr "n.01" x5
+b4 person "n.01" x4
+b3 REF x6
+b3 EQU x6 "now"
+b3 Time x7 x6
+b3 time "n.08" x6
+b3 REF x7
+b3 Attribute x4 x7
+b3 out "a.01" x7
+b3 Source x7 x8
+b5 REF x8
+b5 PRESUPPOSITION b3
+b5 entity "n.01" x8
+b6 REF x9
+b6 REF x10
+b6 Attribute x9 x10
+b6 PRESUPPOSITION b7
+b6 whole "a.01" x10
+b6 position "n.01" x9
+b7 REF x11
+b7 EQU x11 "now"
+b7 Time x13 x11
+b7 time "n.08" x11
+b7 REF x12
+b7 Manner x13 x12
+b7 greatly "a.01" x12
+b7 REF x13
+b7 Theme x13 x9
+b7 change "v.01" x13

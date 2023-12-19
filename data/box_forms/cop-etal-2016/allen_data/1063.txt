@@ -1,0 +1,48 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 step "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Location x2 x4
+b2 STO x4 x5
+b2 location "n.01" x4
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 Source x5 x6
+b4 REF x6
+b4 Name x6 "france"
+b4 PRESUPPOSITION b3
+b4 country "n.02" x6
+b3 window "n.01" x5
+b2 CONTINUATION b5
+b5 REF x7
+b5 REF x8
+b5 TPR x7 "now"
+b5 TPR x8 "now"
+b5 Time x9 x7
+b5 time "n.08" x7
+b5 time "n.08" x8
+b6 Time x11 x8
+b5 REF x9
+b5 Theme x9 x2
+b5 stand "v.01" x9
+b6 REF x10
+b6 Manner x9 x10
+b6 apparently "a.01" x10
+b5 Context x9 x11
+b6 REF x11
+b6 admiration "n.01" x11
+b5 CONTINUATION b6
+b6 REF x12
+b6 REF x13
+b6 Attribute x12 x13
+b6 various "a.01" x13
+b6 REF x14
+b6 Attribute x12 x14
+b6 PRESUPPOSITION b5

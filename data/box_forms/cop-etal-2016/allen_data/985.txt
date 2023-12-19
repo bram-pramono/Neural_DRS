@@ -1,0 +1,18 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 time "n.08" x1
+b2 REF x2
+b2 Pivot x2 "speaker"
+b2 Theme x2 x3
+b2 Time x2 x1
+b2 have "v.01" x2
+b1 NEGATION b2
+b2 REF x3
+b2 authority "n.01" x3
+b2 REF x4
+b2 Theme x4 x3
+b2 go "v.01" x4
+b2 Stimulus x4 x5
+b3 REF x5
+b3 PRESUPPOSITION b2
+b3 papers "n.01" x5

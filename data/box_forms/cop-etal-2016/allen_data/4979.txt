@@ -1,0 +1,28 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 REF x2
+b3 Co-Theme x2 x4
+b3 Theme x2 x1
+b3 Time x2 x3
+b3 be "v.01" x2
+b3 REF x3
+b3 EQU x3 "now"
+b3 time "n.08" x3
+b3 REF x4
+b3 extremely "r.01" x4
+b3 REF x5
+b3 Attribute x4 x5
+b3 beautiful "a.01" x5
+b3 nature "n.01" x4
+b3 Location x6 x4
+b3 REF x6
+b3 Pivot x6 "hearer"
+b3 Theme x6 x4
+b3 Time x6 x3
+b3 have "v.01" x6
+b3 REF x7
+b3 Agent x7 "speaker"
+b3 Theme x7 "speaker"
+b3 Time x7 x2
+b3 make "v.01" x7

@@ -1,0 +1,42 @@
+b1 Theme x4 x1
+b2 REF x1
+b2 Of x2 "speaker"
+b2 REF x2
+b2 Attribute x1 x2
+b2 PRESUPPOSITION b3
+b2 poor "a.01" x2
+b2 Name x1 "emily"
+b2 female "n.02" x1
+b3 NEGATION b4
+b4 REF x3
+b4 Patient x3 x1
+b4 bury "v.01" x3
+b4 POSSIBILITY b5
+b5 REF x4
+b5 REF x5
+b5 REF x6
+b5 ATTRIBUTION b6
+b5 Agent x4 "speaker"
+b5 TPR x6 "now"
+b5 Time x4 x6
+b5 Topic x4 x5
+b5 question "n.01" x5
+b5 time "n.08" x6
+b5 wonder "v.01" x4
+b6 NEGATION b7
+b7 REF x7
+b7 REF x8
+b7 REF x9
+b7 LES x9 x8
+b7 Quantity x7 x8
+b7 quantity "n.01" x8
+b7 quantity "n.01" x9
+b7 REF x10
+b7 Equal x10 x9
+b7 lie "v.01" x10
+b7 REF x11
+b7 terror "n.01" x11
+b6 NECESSITY b7
+b7 REF x12
+b7 Theme x12 x9
+b7 start "v.01" x12

@@ -1,0 +1,42 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b3 Time x3 x2
+b3 REF x2
+b3 TPR x2 "now"
+b3 time "n.08" x2
+b2 NEGATION b3
+b3 REF x3
+b3 REF x4
+b3 ATTRIBUTION b4
+b3 Experiencer x3 x1
+b3 Stimulus x3 x4
+b3 appear "v.01" x3
+b3 proposition "n.01" x4
+b4 REF x5
+b4 Experiencer x5 x1
+b4 understand "v.01" x5
+b5 REF x6
+b5 PRESUPPOSITION b4
+b5 male "n.02" x6
+b4 REF x7
+b4 Agent x7 x6
+b4 Time x7 x2
+b4 add "v.01" x7
+b6 REF x8
+b6 REF x9
+b6 PRESUPPOSITION b4
+b6 Title x8 x9
+b6 mr "n.01" x9
+b6 male "n.02" x8
+b4 Time x10 x4
+b4 REF x10
+b4 Theme x10 "hearer"
+b4 stand "v.01" x10
+b4 Location x10 x11
+b4 REF x11
+b4 very "r.01" x11
+b4 REF x12
+b4 Attribute x11 x12
+b4 grave "a.01" x12
+b4 danger "n.01" x11

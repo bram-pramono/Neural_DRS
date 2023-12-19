@@ -1,0 +1,13 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 Agent x2 "speaker"
+b1 work "v.01" x2
+b1 Finish x2 x3
+b1 REF x3
+b1 REF x4
+b1 Attribute x3 x4
+b1 common "a.01" x4
+b1 end "n.01" x3

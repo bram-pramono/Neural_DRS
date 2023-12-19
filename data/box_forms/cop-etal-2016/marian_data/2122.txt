@@ -1,0 +1,25 @@
+b1 REF x1
+b1 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 REF x5
+b3 Theme x4 x5
+b3 mr "n.01" x5
+b3 Name x4 "mace"
+b3 male "n.02" x4
+b2 Source x2 x7
+b4 REF x6
+b4 REF x7
+b4 Role x6 x7
+b4 chemist "n.01" x7
+b4 person "n.01" x6
+b5 REF x8
+b5 User x8 x6
+b5 shop "n.01" x8

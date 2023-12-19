@@ -1,0 +1,10 @@
+b1 NEGATION b2
+b2 REF x1
+b2 REF x2
+b2 Agent x1 "speaker"
+b2 Agent x2 "speaker"
+b2 Theme x1 "hearer"
+b2 Theme x2 x3
+b2 thank "v.01" x1
+b2 thank "v.01" x2
+b2 REF x3

@@ -1,0 +1,35 @@
+b1 REF x1
+b1 idea "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Agent x2 x1
+b2 NOT b1 b3
+b2 TPR x3 "now"
+b2 Time x2 x3
+b2 cross "v.03" x2
+b2 time "n.08" x3
+b3 REF x4
+b3 User x4 "speaker"
+b3 mind "n.01" x4
+b2 Experiencer x4
+b3 Goal x2 x5
+b3 REF x5
+b3 Order x5 "1"
+b3 time "n.01" x5
+b3 REF x6
+b3 REF x7
+b3 Theme x7 x6
+b3 old "a.01" x7
+b3 time "n.01" x6
+b3 REF x8
+b3 REF x9
+b3 Theme x9 x8
+b3 old "a.01" x9
+b3 poirot "n.01" x8
+b3 REF x10
+b3 TPR x10 "now"
+b3 Time x11 x10
+b3 time "n.08" x10
+b3 REF x11
+b3 Theme x11 x8
+b3 old "a.01" x11

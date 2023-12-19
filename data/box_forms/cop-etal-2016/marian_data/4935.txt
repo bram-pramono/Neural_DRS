@@ -1,0 +1,75 @@
+b1 REF x1
+b1 lady "n.01" x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 Name x2 "england"
+b2 city "n.01" x2
+b1 REF x3
+b1 REF x4
+b1 Agent x3 x1
+b1 TPR x4 "now"
+b1 Theme x3 x5
+b1 Time x3 x4
+b1 lose "v.01" x3
+b1 time "n.08" x4
+b1 REF x5
+b1 REF x6
+b1 Theme x6 x5
+b1 similar "a.01" x6
+b1 by "n.01" x5
+b1 REF x7
+b1 Theme x7 x5
+b1 collect "v.01" x7
+b1 Location x7 x8
+b3 REF x8
+b3 bottom "n.01" x8
+b4 DRS x5
+b4 DRS x8
+b3 CONTINUATION b1 b4
+b4 REF x9
+b4 REF x10
+b4 Agent x9 x4
+b4 TPR x10 "now"
+b4 Theme x9 x11
+b4 Time x9 x10
+b4 swallow "v.01" x9
+b4 time "n.08" x10
+b4 REF x11
+b4 REF x12
+b4 Theme x12 x11
+b4 similar "a.01" x12
+b4 mixture "n.01" x11
+b4 Theme x11 x13
+b5 REF x13
+b5 bottom "n.01" x13
+b6 DRS x10
+b6 DRS x13
+b5 CONTINUATION b2 b6
+b6 REF x14
+b6 REF x15
+b6 Agent x14 x9
+b6 TPR x15 "now"
+b6 Theme x14 x16
+b6 Time x14 x15
+b6 swallow "v.01" x14
+b6 time "n.08" x15
+b6 REF x16
+b6 REF x17
+b6 Theme x17 x16
+b6 similar "a.01" x17
+b6 mixture "n.01" x16
+b6 Theme x16 x18
+b7 REF x18
+b7 bottom "n.01" x18
+b8 DRS x16
+b8 DRS x18
+b7 CONTINUATION b5 b8
+b8 REF x19
+b8 REF x20
+b8 Agent x19 x14
+b8 TPR x20 "now"
+b8 Theme x19 x21
+b8 Time x19 x20
+b8 swallow "v.01" x19
+b8 time "n.08" x20
+b8 REF x21

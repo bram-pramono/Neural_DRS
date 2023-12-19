@@ -1,0 +1,62 @@
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 Value x2 "+"
+b1 young "a.01" x2
+b1 REF x3
+b1 Degree x4 x3
+b1 rather "r.04" x3
+b1 REF x4
+b1 Experiencer x4 x1
+b1 scared "a.01" x4
+b1 REF x5
+b1 Agent x5 x1
+b1 Theme x5 x6
+b1 look "v.01" x5
+b1 REF x6
+b1 REF x7
+b1 Role x6 x7
+b1 nurse "n.01" x7
+b1 person "n.01" x6
+b1 REF x8
+b1 Agent x8 x6
+b1 Time x8 x9
+b1 appear "v.01" x8
+b1 REF x9
+b1 TPR x9 "now"
+b1 time "n.08" x9
+b1 Recipient x8 x10
+b2 REF x10
+b2 PRESUPPOSITION b1
+b2 artifact "n.01" x10
+b1 REF x11
+b1 Agent x11 x10
+b1 Theme x11 x10
+b1 Time x11 x8
+b1 Recipient x11 x12
+b3 REF x12
+b3 PRESUPPOSITION b1
+b3 female "n.02" x12
+b1 Co-Theme x11 x13
+b4 REF x13
+b4 REF x14
+b4 REF x15
+b4 LES x14 x15
+b4 Quantity x13 x14
+b4 quantity "n.01" x14
+b4 quantity "n.01" x15
+b4 REF x16
+b4 Attribute x15 x16
+b4 PRESUPPOSITION b1
+b4 remark "n.01" x13
+b1 Time x17 x5
+b1 NEGATION b5
+b5 REF x17
+b5 Degree x18 x17
+b5 really "r.04" x17
+b5 REF x18
+b5 Attribute x18 x10
+b5 location "v.01" x18
+b5 REF x19
+b5 Manner x18 x19
+b5 today "a.01" x19

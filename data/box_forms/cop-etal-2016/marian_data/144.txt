@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x2 x1
+b1 mr "a.01" x2
+b1 Name x1 "inglethorp"
+b1 female "n.02" x1
+b2 REF x3
+b2 REF x4
+b2 REF x5
+b2 Agent x3 x5
+b2 PRP x4 b3
+b2 TPR x5 "now"
+b2 Time x3 x5
+b2 Topic x3 x4
+b2 time "n.08" x5
+b2 turn "v.01" x3
+b3 REF x6
+b3 Agent x6 x1
+b3 Theme x6 x7
+b3 give "v.03" x6
+b3 REF x7
+b3 instruction "n.01" x7
+b3 Theme x7 x8
+b4 REF x8
+b4 User x8 "hearer"
+b4 REF x9
+b4 Theme x9 x8
+b4 painstaking "a.01" x9
+b4 voice "n.01" x8
+b5 DRS x6
+b5 DRS x9
+b4 CONTINUATION b1 b5
+b5 REF x10
+b5 EQU x10 "now"
+b5 Time x11 x10
+b5 time "n.08" x10
+b5 REF x11
+b5 Agent x11 "speaker"
+b5 Theme x11 "speaker"
+b5 soldier "v.01" x11
+b5 Location x11 x12
+b6 REF x12
+b6 User x12 "hearer"
+b6 REF x13
+b6 Theme x13 x12
+b6 painstaking "a.01" x13
+b6 voice "n.01" x12
+b7 DRS x10
+b7 CONTINUATION b4 b8
+b8 REF x14
+b8 EQU x14 "now"
+b8 Time x15 x14
+b8 time "n.08" x14
+b8 REF x15
+b8 Agent x15 "speaker"
+b8 Theme x15 "speaker"
+b8 soldier "v.01" x15
+b8 Location x15 x16
+b9 REF x16
+b9 User x16 "hearer"
+b9 REF x17
+b9 Theme x17 x16
+b9 painstaking "a.01" x17
+b9 voice "n.01" x16
+b10 DRS x14
+b10 DRS x17
+b9 CONTINUATION b6 b10
+b10 REF x18
+b10 EQU x18 "now"
+b10 Time x19 x18
+b10 time "n.08" x18
+b10 REF x19
+b10 Agent x19 "speaker"
+b10 Theme x19 "speaker"
+b10 soldier "v.01" x19

@@ -1,0 +1,70 @@
+b1 REF x1
+b1 PartOf x1 x2
+b2 REF x2
+b2 PRESUPPOSITION b1
+b2 door "n.01" x2
+b1 REF x3
+b1 TPR x3 "now"
+b1 Time x4 x3
+b1 time "n.08" x3
+b1 REF x4
+b1 Attribute x1 x4
+b1 solid "a.01" x4
+b1 CONTINUATION b3
+b3 Duration x8 x5
+b3 REF x5
+b3 REF x6
+b3 Attribute x5 x6
+b3 Value x6 "+"
+b3 long "a.01" x6
+b3 time "n.01" x5
+b4 REF x7
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x7
+b3 REF x8
+b3 REF x9
+b3 Agent x8 x7
+b3 TPR x9 "now"
+b3 Theme x8 x10
+b3 Time x8 x9
+b3 resist "v.01" x8
+b3 time "n.08" x9
+b5 REF x10
+b5 PRESUPPOSITION b3
+b5 User x10 "speaker"
+b5 effort "n.01" x10
+b3 CONTRAST b6
+b6 Time x12 x11
+b6 REF x11
+b6 last "n.01" x11
+b6 REF x12
+b6 REF x13
+b6 Experiencer x12 "speaker"
+b6 Stimulus x12 x14
+b6 TPR x13 "now"
+b6 Time x12 x13
+b6 feel "v.01" x12
+b6 time "n.08" x13
+b7 REF x14
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x14
+b6 Instrument x12 x15
+b8 REF x15
+b8 PRESUPPOSITION b6
+b8 User x15 "speaker"
+b8 weight "n.01" x15
+b6 CONTINUATION b9
+b9 Instrument x19 x16
+b9 REF x16
+b9 REF x17
+b9 Attribute x16 x17
+b9 crash "n.01" x16
+b10 REF x18
+b10 PRESUPPOSITION b9
+b10 entity "n.01" x18
+b9 REF x19
+b9 TPR x19 "now"
+b9 Time x20 x19
+b9 time "n.08" x19
+b9 REF x20
+b9 Patient x20 x18

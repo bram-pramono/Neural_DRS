@@ -1,0 +1,25 @@
+b1 Experiencer x1
+b1 REF x1
+b1 Theme x1 "hearer"
+b1 sir "v.01" x1
+b2 DRS x1
+b1 CONTRAST b1 b2
+b2 REF x2
+b2 REF x3
+b2 REF x4
+b2 Agent x2 "speaker"
+b2 EQU x4 "now"
+b2 PRP x3 b3
+b2 Theme x2 x3
+b2 Time x2 x4
+b2 expect "v.01" x2
+b2 time "n.08" x4
+b4 REF x5
+b4 female "n.02" x5
+b2 REF x6
+b2 TPR x6 "now"
+b2 time "n.08" x6
+b3 REF x7
+b3 Agent x7 x5
+b3 Time x7 x6
+b3 do "v.02" x7

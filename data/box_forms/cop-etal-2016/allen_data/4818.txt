@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 TPR x2 "now"
+b1 Theme x1 "speaker"
+b1 Time x1 x2
+b1 come "v.01" x1
+b1 time "n.08" x2
+b1 Destination x1 x3
+b2 REF x3
+b2 REF x4
+b2 PRESUPPOSITION b1
+b2 Role x3 x4
+b2 conclusion "n.01" x4
+b2 person "n.01" x3
+b3 REF x5
+b3 REF x6
+b3 PRESUPPOSITION b1
+b3 Title x5 x6
+b3 mr "n.01" x6
+b3 person "n.01" x5
+b1 REF x7
+b1 Creator x7 x5
+b1 determination "n.01" x7
+b1 REF x8
+b1 Agent x8 x7
+b1 Patient x8 x10
+b1 destroy "v.01" x8
+b4 REF x9
+b4 PRESUPPOSITION b5
+b4 female "n.02" x9
+b5 REF x10
+b5 PRESUPPOSITION b2
+b5 User x10 x9
+b5 will "n.01" x10
+b2 REF x11
+b2 TPR "now" x11
+b2 time "n.08" x11
+b3 REF x12
+b3 Agent x12 x7
+b3 Time x12 x11
+b3 arise "v.01" x12
+b3 Attribute x12 x13
+b3 REF x13
+b3 REF x14
+b3 Attribute x13 x14
+b3 direct "a.01" x14
+b3 consequence "n.01" x13
+b3 PartOf x13 x15
+b6 REF x15
+b6 PRESUPPOSITION b3
+b6 quarrel "n.01" x15
+b7 REF x16
+b7 PRESUPPOSITION b4
+b7 female "n.02" x16
+b4 REF x17
+b4 REF x18
+b4 Pivot x17 x16
+b4 TPR x18 "now"
+b4 Theme x17 x15
+b4 Time x17 x18
+b4 have "v.01" x17
+b4 time "n.08" x18
+b4 Time x17 x19
+b8 REF x19
+b8 PRESUPPOSITION b4
+b8 afternoon "n.01" x19
+b4 CONTINUATION b9
+b9 NEGATION b10
+b11 REF x20
+b11 PRESUPPOSITION b10
+b11 quarrel "n.01" x20
+b10 REF x21
+b10 TPR x21 "now"
+b10 Theme x21 x20
+b10 Time x21 x21

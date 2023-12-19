@@ -1,0 +1,5 @@
+b1 NECESSITY b2
+b2 REF x1
+b2 Agent x1 "speaker"
+b2 speak "v.01" x1
+b2 Co-Agent x1 "hearer"

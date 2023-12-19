@@ -1,0 +1,75 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 jump_up "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 Manner x2 x4
+b2 promptly "r.01" x4
+b3 DRS x3
+b3 DRS x4
+b2 CONTINUATION b1 b3
+b3 REF x5
+b3 entity "n.01" x5
+b3 PartOf x5 x6
+b4 REF x6
+b4 Of x6 x7
+b5 REF x7
+b5 female "n.02" x7
+b4 position "n.01" x6
+b3 REF x8
+b3 REF x9
+b3 Co-Theme x8 x10
+b3 TPR x9 "now"
+b3 Theme x8 x6
+b3 Time x8 x9
+b3 be "v.01" x8
+b3 time "n.08" x9
+b3 REF x10
+b3 REF x11
+b3 Theme x11 x10
+b3 dependent "a.01" x11
+b3 position "n.01" x10
+b3 REF x12
+b3 REF x13
+b3 Co-Theme x12 x14
+b3 TPR x13 "now"
+b3 Theme x12 x10
+b3 Time x12 x13
+b3 be "v.01" x12
+b3 time "n.08" x13
+b3 REF x14
+b3 REF x15
+b3 Theme x15 x14
+b3 dependent "a.01" x15
+b3 position "n.01" x14
+b6 DRS x12
+b6 CONTINUATION b3 b7
+b7 REF x16
+b7 REF x17
+b7 REF x18
+b7 Agent x16 x12
+b7 PRP x17 b8
+b7 Recipient x16 "speaker"
+b7 TPR x18 "now"
+b7 Time x16 x18
+b7 Topic x16 x17
+b7 remind "v.01" x16
+b7 time "n.08" x18
+b8 REF x19
+b8 REF x20
+b8 Theme x20 x19
+b8 dependent "a.01" x20
+b8 position "n.01" x19
+b8 REF x21
+b8 REF x22
+b8 Co-Theme x21 x22
+b8 TPR x22 "now"
+b8 Theme x21 x19
+b8 Time x21 x22
+b8 be "v.01" x21
+b8 time "n.08" x22

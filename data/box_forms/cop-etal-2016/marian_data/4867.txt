@@ -1,0 +1,34 @@
+b1 DIS b2 b3
+b4 REF x1
+b4 female "n.02" x1
+b5 REF x2
+b5 PartOf x2 x1
+b5 sleep "n.01" x2
+b2 REF x3
+b2 TPR x3 "now"
+b2 time "n.08" x3
+b3 Time x4 x3
+b3 REF x4
+b3 @-4 "n.01" x2
+b3 feigned "v.01" x4
+b3 REF x5
+b3 TPR x3 "now"
+b3 time "n.08" x3
+b2 Time x6 x3
+b2 REF x6
+b2 @-4 "n.01" x1
+b2 believe "v.01" x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 time "n.08" x7
+b6 Time x8 x7
+b3 Experiencer x7
+b6 REF x8
+b6 @-4 "n.01" "speaker"
+b6 indeed "v.01" x8
+b6 Stimulus x8 x9
+b6 REF x9
+b6 REF x10
+b6 Theme x9 x10
+b6 artificial "n.01" x10
+b6 means "n.01" x9

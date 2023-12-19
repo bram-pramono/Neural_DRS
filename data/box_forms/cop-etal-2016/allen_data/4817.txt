@@ -1,0 +1,69 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 Time x2 x1
+b1 time "n.08" x1
+b2 NEGATION b1
+b1 REF x2
+b1 Experiencer x2 "speaker"
+b1 know "v.01" x2
+b1 Stimulus x2 x3
+b3 REF x3
+b3 REF x4
+b3 PRESUPPOSITION b1
+b3 PRP x4 b4
+b3 Topic x3 x4
+b3 time "n.01" x3
+b5 REF x5
+b5 PRESUPPOSITION b4
+b5 royal "n.01" x5
+b5 Context x5 x6
+b5 REF x6
+b5 question "n.01" x6
+b4 REF x7
+b4 Manner x9 x7
+b4 only "a.01" x7
+b4 REF x8
+b4 TPR x8 "now"
+b4 Time x9 x8
+b4 time "n.08" x8
+b4 REF x9
+b4 Patient x9 x5
+b4 make "v.01" x9
+b4 Time x9 x10
+b6 REF x10
+b6 PRESUPPOSITION b4
+b6 afternoon "n.01" x10
+b4 REF x11
+b4 TPR "now" x11
+b4 Time x12 x11
+b4 time "n.08" x11
+b4 REF x12
+b4 REF x13
+b4 ATTRIBUTION b7
+b4 Agent x12 "speaker"
+b4 Time x12 x14
+b4 Topic x12 x13
+b4 admit "v.01" x12
+b4 proposition "n.01" x13
+b4 REF x14
+b4 EQU x14 "now"
+b4 time "n.08" x14
+b4 REF x15
+b4 REF x16
+b4 REF x17
+b4 Agent x15 "speaker"
+b4 TPR x16 "now"
+b4 TPR x17 "now"
+b4 Time x15 x16
+b4 time "n.08" x16
+b4 time "n.08" x17
+b7 REF x18
+b7 Agent x18 "speaker"
+b7 Time x18 x17
+b7 Topic x18 x19
+b7 learn "v.01" x18
+b4 PRESUPPOSITION b7
+b7 REF x19
+b7 REF x20
+b7 Attribute x19 x20
+b7 error "n.01" x19

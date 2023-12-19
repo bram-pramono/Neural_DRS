@@ -1,0 +1,75 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "hearer"
+b1 PRP x2 b2
+b1 Recipient x1 "hearer"
+b1 Theme x1 x2
+b1 have "v.01" x1
+b2 REF x3
+b2 Location x5 x3
+b2 time "n.01" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b2 REF x5
+b2 @-4 "n.01" "hearer"
+b2 Stimulus x5 x6
+b2 Time x5 x4
+b2 know "v.01" x5
+b2 REF x6
+b2 REF x7
+b2 Role x6 x7
+b2 chemist "n.01" x7
+b2 person "n.01" x6
+b2 REF x8
+b2 Agent x8 x6
+b2 Theme x8 x9
+b2 send_out "v.01" x8
+b2 REF x9
+b2 chemist "n.01" x9
+b2 REF x10
+b2 Agent x10 "hearer"
+b2 Theme x10 x11
+b2 send_out "v.01" x10
+b2 REF x11
+b2 chemist "n.01" x11
+b2 REF x12
+b2 Agent x12 "hearer"
+b2 Theme x12 x13
+b2 send_out "v.01" x12
+b2 REF x13
+b2 chemist "n.01" x13
+b2 REF x14
+b2 Agent x14 "hearer"
+b2 Theme x14 x15
+b2 send_out "v.01" x14
+b2 REF x15
+b2 chemist "n.01" x15
+b2 REF x16
+b2 Agent x16 "hearer"
+b2 Theme x16 x17
+b2 send_out "v.01" x16
+b2 REF x17
+b2 chemist "n.01" x17
+b2 REF x18
+b2 Agent x18 "hearer"
+b2 Theme x18 x19
+b2 send_out "v.01" x18
+b2 REF x19
+b2 chemist "n.01" x19
+b2 REF x20
+b2 Agent x20 "hearer"
+b2 Theme x20 x21
+b2 send_out "v.01" x20
+b2 REF x21
+b2 chemist "n.01" x21
+b2 REF x22
+b2 Agent x22 "hearer"
+b2 Theme x22 x23
+b2 send_out "v.01" x22
+b2 REF x23
+b2 chemist "n.01" x23
+b2 REF x24
+b2 Agent x24 "hearer"
+b2 Theme x24 x24
+b2 send_out "v.01" x24

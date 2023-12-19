@@ -1,0 +1,7 @@
+b1 NEC b2
+b2 REF x1
+b2 Pivot x1 "speaker"
+b2 Theme x1 x2
+b2 have "v.01" x1
+b2 REF x2
+b2 thunderstorm "n.01" x2

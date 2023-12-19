@@ -1,0 +1,30 @@
+b1 REF x1
+b1 EQU x1 "now"
+b1 Time x5 x1
+b1 time "n.08" x1
+b1 EXPLANATION b2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x2
+b2 REF x3
+b2 Co-Theme x3 x6
+b2 Theme x3 x2
+b2 Time x3 x4
+b2 be "v.02" x3
+b1 REF x4
+b1 TPR x4 "now"
+b1 time "n.08" x4
+b4 REF x5
+b4 PRESUPPOSITION b5
+b4 male "n.02" x5
+b6 REF x6
+b6 PRESUPPOSITION b7
+b6 female "n.02" x6
+b7 REF x7
+b7 Creator x7 x6
+b7 PRESUPPOSITION b3
+b7 conduct "n.01" x7
+b3 Time x8 x4
+b3 REF x8
+b3 Attribute x7 x8
+b3 just "a.01" x8

@@ -1,0 +1,16 @@
+b1 NEGATION b2
+b2 REF x1
+b2 ClockTime x1 "16:00"
+b2 time "n.08" x1
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 female "n.02" x2
+b2 REF x3
+b2 Experiencer x3 x2
+b2 Stimulus x3 x4
+b2 TPR x1 "now"
+b2 Time x3 x1
+b2 hear "v.01" x3
+b4 REF x4
+b4 PRESUPPOSITION b2
+b4 voice "n.01" x4

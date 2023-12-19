@@ -1,0 +1,13 @@
+b1 REF x1
+b1 TPR "now" x1
+b1 Time x2 x1
+b1 time "n.08" x1
+b1 REF x2
+b1 NOT b1 "speaker"
+b1 examine "v.01" x2
+b2 DRS x1
+b2 DRS x2
+b1 CONTINUATION b1 b2
+b2 REF x3
+b2 Theme x3 "speaker"
+b2 reject "v.01" x3

@@ -1,0 +1,30 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 POS b3
+b4 Experiencer x1
+b4 REF x2
+b4 TPR x2 "now"
+b4 time "n.08" x2
+b3 REF x3
+b3 Agent x3 x1
+b3 Theme x3 x4
+b3 Time x3 x2
+b3 commit "v.02" x3
+b5 REF x4
+b5 crime "n.01" x4
+b5 REF x5
+b5 Theme x5 x4
+b5 single@-8handed "a.01" x5
+b6 DRS x2
+b6 DRS x5
+b5 CONTRAST b2 b6
+b7 REF x6
+b7 reason "n.01" x6
+b6 POS b8
+b8 REF x7
+b8 Agent x7 x6
+b8 Theme x7 x4
+b8 debar "v.01" x7
+b8 Causer x7 x8
+b8 REF x8
+b8 accomplice "n.01" x8

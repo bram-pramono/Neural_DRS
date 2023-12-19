@@ -1,0 +1,28 @@
+b1 REF x1
+b1 female "n.02" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 @-4 "n.01" x1
+b2 familiar "a.01" x3
+b2 Stimulus x3 x4
+b2 REF x4
+b2 fact "n.01" x4
+b2 PartOf x4 x5
+b2 REF x5
+b2 mixture_strychnine "n.01" x5
+b2 REF x6
+b2 TPR "now" x6
+b2 Time x7 x6
+b2 time "n.08" x6
+b2 REF x7
+b2 Agent x7 x5
+b2 Theme x7 x8
+b2 cause "v.01" x7
+b2 REF x8
+b2 precipitation "n.01" x8
+b2 PartOf x8 x9
+b3 REF x9
+b3 latter "n.01" x9

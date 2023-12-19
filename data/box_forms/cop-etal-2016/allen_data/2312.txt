@@ -1,0 +1,43 @@
+b1 REF x1
+b1 REF x2
+b1 Attribute x1 x2
+b1 Value x2 "+"
+b1 last "a.01" x2
+b1 REF x3
+b1 Theme x3 x1
+b1 REF x4
+b1 REF x5
+b1 REF x6
+b1 ATTRIBUTION b2
+b1 Experiencer x4 x1
+b1 Stimulus x4 x5
+b1 TPR x6 "now"
+b1 Time x4 x6
+b1 proposition "n.01" x5
+b1 suggest "v.01" x4
+b1 time "n.08" x6
+b3 REF x7
+b3 REF x8
+b3 PRESUPPOSITION b2
+b3 Role x7 x8
+b3 chemist "n.01" x8
+b3 person "n.01" x7
+b2 REF x9
+b2 Agent x9 x7
+b2 Result x9 x11
+b2 Time x9 x10
+b2 make "v.01" x9
+b1 REF x10
+b1 TPR x10 "now"
+b1 time "n.08" x10
+b4 REF x11
+b4 PRESUPPOSITION b2
+b4 medicine "n.02" x11
+b1 POSSIBILITY b5
+b5 REF x12
+b5 Agent x12 x8
+b5 Theme x12 x13
+b5 Time x12 x10
+b5 commit "v.01" x12
+b5 REF x13
+b5 error "n.01" x13

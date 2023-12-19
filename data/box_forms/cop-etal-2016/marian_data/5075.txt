@@ -1,0 +1,48 @@
+b1 REF x1
+b1 REF x2
+b1 Theme x1 x2
+b1 mr "n.01" x2
+b1 Name x1 "inglethorp"
+b1 female "n.02" x1
+b2 REF x3
+b2 REF x4
+b2 EQU x4 "now"
+b2 @-4 "n.01" x1
+b2 Stimulus x3 x5
+b2 Time x3 x4
+b2 read "v.01" x3
+b2 time "n.08" x4
+b3 REF x5
+b3 entity "n.01" x5
+b4 DRS x3
+b4 DRS x5
+b3 CONTINUATION b1 b4
+b4 REF x6
+b4 REF x7
+b4 REF x8
+b4 Agent x6 x2
+b4 EQU x8 "now"
+b4 PRP x7 b5
+b4 Time x6 x8
+b4 Topic x6 x7
+b4 become "v.02" x6
+b4 time "n.08" x8
+b5 REF x9
+b5 @-4 "n.01" x3
+b5 aware "a.01" x9
+b5 Stimulus x9 x11
+b5 REF x10
+b5 perfidy "n.01" x10
+b5 PartOf x10 x11
+b6 REF x11
+b6 Of x12 x5
+b6 REF x12
+b6 Role x11 x12
+b6 husband "n.01" x12
+b6 person "n.01" x11
+b5 REF x13
+b5 Part x13 x11
+b5 Part x13 x14
+b5 group "n.01" x13
+b7 REF x14
+b7 sentence "n.01" x14

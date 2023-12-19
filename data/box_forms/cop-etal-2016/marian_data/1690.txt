@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Part x1 "speaker"
+b1 Part x1 x2
+b1 group "n.01" x1
+b1 REF x2
+b1 then "n.01" x2

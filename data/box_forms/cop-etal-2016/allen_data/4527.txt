@@ -1,0 +1,12 @@
+b1 NECESSITY b2
+b2 NEGATION b3
+b3 REF x1
+b3 Agent x1 "speaker"
+b3 Recipient x1 x2
+b3 Topic "v.01" x1
+b4 REF x2
+b4 PRESUPPOSITION b3
+b4 entity "n.01" x2
+b3 REF x3
+b3 Manner x1 x3
+b3 likely "a.01" x3

@@ -1,0 +1,10 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b3 POSSIBILITY b2
+b3 REF x2
+b3 TPR x2 "now"
+b3 time "n.08" x2
+b2 Time x3 x2
+b3 REF x3
+b3 Patient x3 x1

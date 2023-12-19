@@ -1,0 +1,55 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 entity "n.01" x1
+b2 REF x2
+b2 TPR x2 "now"
+b2 Time x3 x2
+b2 time "n.08" x2
+b2 REF x3
+b2 Experiencer x3 x1
+b2 absurd "a.01" x3
+b2 Stimulus x3 x5
+b3 REF x4
+b3 Name x4 "john"
+b3 PRESUPPOSITION b2
+b3 male "n.02" x4
+b2 REF x5
+b2 Agent x5 x4
+b2 Product x5 x6
+b2 make "v.01" x5
+b2 REF x6
+b2 fuss "n.01" x6
+b2 Topic x6 x7
+b4 REF x7
+b4 PRESUPPOSITION b2
+b4 entity "n.01" x7
+b2 REF x8
+b2 Theme x8 "speaker"
+b2 go "v.01" x8
+b2 REF x9
+b2 Manner x8 x9
+b2 entity "n.01" x9
+b2 REF x10
+b2 REF x11
+b2 REF x12
+b2 ATTRIBUTION b5
+b2 Agent x10 "speaker"
+b2 EQU x12 "now"
+b2 Recipient x10 "hearer"
+b2 Time x10 x12
+b2 Topic x10 x11
+b2 proposition "n.01" x11
+b2 tell "v.01" x10
+b2 time "n.08" x12
+b5 REF x13
+b5 TPR "now" x13
+b5 time "n.08" x13
+b6 Time x14 x13
+b5 NEGATION b6
+b6 REF x14
+b6 Pivot x14 "speaker"
+b6 Theme x14 x15
+b6 have "v.01" x14
+b7 REF x15
+b7 PRESUPPOSITION b6
+b7 entity "n.01" x15

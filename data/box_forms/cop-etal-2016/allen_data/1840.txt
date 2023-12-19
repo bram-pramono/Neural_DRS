@@ -1,0 +1,17 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 female "n.02" x1
+b3 Time x3 x2
+b3 REF x2
+b3 TPR x2 "now"
+b3 time "n.08" x2
+b2 NEGATION b3
+b3 REF x3
+b3 Experiencer x3 x1
+b3 understand "v.01" x3
+b3 Time x5 x2
+b3 REF x4
+b3 Degree x5 x4
+b3 very "r.01" x4
+b3 REF x5
+b3 Experiencer x5 x1

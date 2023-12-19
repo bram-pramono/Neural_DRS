@@ -1,0 +1,13 @@
+b1 POS b2
+b3 Experiencer x1
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Recipient x1 "speaker"
+b2 Theme x1 x2
+b2 give "v.03" x1
+b2 REF x2
+b2 Quantity x2 "@-8"
+b2 measure "n.02" x2
+b2 REF x3
+b2 Theme x3 "hearer"
+b2 go_on "v.01" x3

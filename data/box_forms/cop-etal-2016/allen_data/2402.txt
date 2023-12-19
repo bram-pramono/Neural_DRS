@@ -1,0 +1,6 @@
+b1 REF x1
+b1 Quantity x1 "+"
+b1 person "n.01" x1
+b1 REF x2
+b1 Theme x2 x1
+b1 do "a.01" x2

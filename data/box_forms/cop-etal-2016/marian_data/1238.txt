@@ -1,0 +1,32 @@
+b1 REF x1
+b1 REF x2
+b1 Agent x1 "speaker"
+b1 Source x1 x3
+b1 TPR x2 "now"
+b1 Time x1 x2
+b1 read "v.01" x1
+b1 time "n.08" x2
+b2 REF x3
+b2 label "n.01" x3
+b1 REF x4
+b1 Manner x1 x4
+b1 carefully "r.01" x4
+b1 REF x5
+b1 Quantity x5 "1"
+b1 powder "n.01" x5
+b1 REF x6
+b1 Theme x6 x5
+b1 take "v.01" x6
+b1 Location x6 x7
+b1 REF x7
+b1 bedtime "n.01" x7
+b3 DRS x5
+b3 DRS x7
+b2 CONTINUATION b1 b3
+b3 REF x8
+b3 REF x9
+b3 Agent x8 "speaker"
+b3 TPR x9 "now"
+b3 Time x8 x9
+b3 rebuire "v.01" x8
+b3 time "n.08" x9

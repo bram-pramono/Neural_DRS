@@ -1,0 +1,41 @@
+b1 REF x1
+b1 REF x2
+b1 Role x1 x2
+b1 gardener "n.01" x2
+b1 person "n.01" x1
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 EQU x4 "now"
+b2 Time x3 x4
+b2 evidence "v.01" x3
+b2 time "n.08" x4
+b2 Theme x3 x5
+b2 REF x5
+b2 witness "n.01" x5
+b2 PartOf x5 x6
+b2 REF x6
+b2 will "n.01" x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 Time x8 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 Theme x8 x6
+b2 take "v.03" x8
+b3 DRS x7
+b3 DRS x8
+b2 CONTINUATION b1 b3
+b3 REF x9
+b3 Manner x11 x9
+b3 then "r.01" x9
+b4 REF x10
+b4 Name x10 "dorcas"
+b4 state "n.01" x10
+b3 REF x11
+b3 TPR x11 "now"
+b3 Time x12 x11
+b3 time "n.08" x11
+b3 REF x12
+b3 Result x12 x10
+b3 call "v.03" x12

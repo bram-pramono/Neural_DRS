@@ -1,0 +1,40 @@
+b1 EXPLANATION b2
+b3 REF x1
+b3 PRESUPPOSITION b2
+b3 entity "n.01" x1
+b2 REF x2
+b2 REF x3
+b2 Co-Theme x2 x4
+b2 EQU x3 "now"
+b2 Theme x2 x1
+b2 Time x2 x3
+b2 be "v.01" x2
+b2 time "n.08" x3
+b2 REF x4
+b2 law "n.01" x4
+b2 PartOf x4 x5
+b4 REF x5
+b4 PRESUPPOSITION b2
+b4 User x5 "hearer"
+b4 country "n.01" x5
+b2 REF x6
+b2 CONSEQUENCE b5
+b2 man "n.01" x6
+b2 REF x7
+b2 TPR x7 "now"
+b2 Time x8 x7
+b2 time "n.08" x7
+b2 REF x8
+b2 Theme x8 x6
+b2 acquit "v.01" x8
+b5 REF x9
+b5 Theme x9 x6
+b5 try "v.01" x9
+b5 Goal x9 x10
+b6 REF x10
+b6 REF x11
+b6 Attribute x10 x11
+b6 PRESUPPOSITION b5
+b6 Value x11 "+"
+b6 same "a.01" x11
+b6 offence "n.01" x10

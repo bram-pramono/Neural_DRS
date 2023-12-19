@@ -1,0 +1,19 @@
+b1 REF x1
+b1 REF x2
+b1 EQU x2 "now"
+b1 Theme x1 x3
+b1 Time x1 x2
+b1 be "v.03" x1
+b1 time "n.08" x2
+b2 Experiencer x1
+b1 REF x3
+b1 mention "n.01" x3
+b1 PartOf x3 x4
+b1 REF x4
+b1 any "n.01" x4
+b1 PartOf x4 x5
+b1 REF x5
+b1 event "n.01" x5
+b1 PartOf x5 x6
+b3 REF x6
+b3 afternoon "n.01" x6

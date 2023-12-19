@@ -1,0 +1,21 @@
+b1 REF x1
+b1 Quantity x1 "-"
+b1 REF x2
+b1 PRESUPPOSITION b2
+b1 Theme x1 x2
+b2 REF x3
+b2 REF x4
+b2 Agent x3 x1
+b2 TPR x4 "now"
+b2 Theme x3 x6
+b2 Time x3 x4
+b2 cause "v.01" x3
+b2 time "n.08" x4
+b2 REF x5
+b2 REF x6
+b2 Attribute x6 x5
+b2 great "a.03" x5
+b2 excitement "n.01" x6
+b2 Location x3 x7
+b2 REF x7
+b2 court "n.01" x7

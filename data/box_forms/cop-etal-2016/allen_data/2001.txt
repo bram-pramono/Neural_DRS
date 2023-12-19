@@ -1,0 +1,20 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b3 Time x3 x2
+b3 REF x2
+b3 TPR x2 "now"
+b3 time "n.08" x2
+b2 NEGATION b3
+b3 REF x3
+b3 REF x4
+b3 ATTRIBUTION b4
+b3 Experiencer x3 x1
+b3 Stimulus x3 x4
+b3 appear "v.01" x3
+b3 proposition "n.01" x4
+b4 Time x5 x2
+b4 REF x5
+b4 Agent x5 x1
+b4 listen "v.01" x5
+b4 Recipient x5 "speaker"

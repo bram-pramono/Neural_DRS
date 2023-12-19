@@ -1,0 +1,3 @@
+b1 REF x1
+b1 of~course "v.01" x1
+b2 NEGATION b1

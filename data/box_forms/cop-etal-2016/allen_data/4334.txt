@@ -1,0 +1,59 @@
+b1 CONDITION b2
+b3 Location x4 x1
+b4 REF x1
+b4 REF x2
+b4 PRESUPPOSITION b3
+b4 Theme x1 x2
+b4 police "n.01" x2
+b4 proceedings "n.01" x1
+b3 REF x3
+b3 TPR "now" x3
+b3 Time x4 x3
+b3 time "n.08" x3
+b3 REF x4
+b3 Agent x4 "speaker"
+b3 Theme x4 x5
+b3 hear "v.01" x4
+b1 REF x5
+b1 PRESUPPOSITION b3
+b1 case "n.01" x5
+b1 Goal x5 x6
+b5 REF x6
+b5 PRESUPPOSITION b1
+b5 prosecution "n.01" x6
+b1 CONTRAST b6
+b7 Location x9 x7
+b6 CONDITION b8
+b8 REF x7
+b8 CONSEQUENCE b7
+b8 PartOf x7 x8
+b8 entity "n.01" x7
+b9 PRESUPPOSITION b10
+b10 REF x8
+b10 CONSEQUENCE b8
+b10 User x8 x9
+b11 REF x9
+b11 PRESUPPOSITION b10
+b11 male "n.02" x9
+b7 REF x10
+b7 TPR "now" x10
+b7 Time x11 x10
+b7 time "n.08" x10
+b7 REF x11
+b7 REF x12
+b7 ATTRIBUTION b12
+b9 Agent x11 x8
+b9 Recipient x11 x8
+b9 Topic x11 x12
+b9 advise "v.01" x11
+b9 proposition "n.01" x12
+b10 PRESUPPOSITION b12
+b12 REF x13
+b12 Agent x13 x8
+b12 Theme x13 x14
+b12 reserve "v.03" x13
+b9 PRESUPPOSITION b13
+b13 REF x14
+b13 PRESUPPOSITION b12
+b13 User x14 x9
+b13 defence "n.01" x14

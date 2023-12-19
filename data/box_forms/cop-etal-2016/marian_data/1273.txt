@@ -1,0 +1,8 @@
+b1 IMP b2 b3
+b2 REF x1
+b2 time "n.08" x1
+b2 EQU x1 "now"
+b3 REF x2
+b3 Theme x2 "speaker"
+b3 Time x2 x1
+b3 be "v.03" x2

@@ -1,0 +1,14 @@
+b1 POS b2
+b2 REF x1
+b2 Agent x1 "hearer"
+b2 Theme x1 x3
+b2 water_off "v.01" x1
+b2 REF x2
+b2 duck "n.01" x2
+b2 REF x3
+b2 EQU x3 "now"
+b2 Time x4 x3
+b2 time "n.08" x3
+b2 REF x4
+b2 Theme x4 x2
+b2 back "a.01" x4

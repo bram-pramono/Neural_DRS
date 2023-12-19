@@ -1,0 +1,23 @@
+b1 REF x1
+b1 TPR x1 "now"
+b1 time "n.08" x1
+b2 Time x2 x1
+b1 Experiencer x1
+b2 REF x2
+b2 Theme x2 "hearer"
+b2 happen "v.01" x2
+b2 Destination x2 x3
+b2 REF x3
+b2 notice "n.01" x3
+b3 DRS x1
+b3 CONTINUATION b1 b4
+b5 REF x4
+b5 door "n.01" x4
+b4 REF x5
+b4 TPR x5 "now"
+b4 time "n.08" x5
+b3 Time x6 x5
+b3 REF x6
+b3 NOT b5 b3
+b3 bolt "v.01" x6
+b3 Experiencer x5
