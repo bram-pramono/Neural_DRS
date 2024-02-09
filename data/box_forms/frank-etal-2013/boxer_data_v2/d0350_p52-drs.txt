@@ -1,0 +1,16 @@
+b1 REF e1
+b1 Proposition e1 b2
+b1 event "v.01" e1
+b2 REF x1
+b2 EQU x1 "speaker"
+b2 person "n.01" x1
+b2 REF t1
+b2 TPR "now" t1
+b2 Time e2 t1
+b2 time "n.08" t1
+b2 REF e2
+b2 Experiencer e2 x1
+b2 Stimulus e2 x2
+b2 hear "v.01" e2
+b2 REF x2
+b2 entity "n.01" x2

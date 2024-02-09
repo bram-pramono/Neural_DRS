@@ -1,0 +1,18 @@
+b1 REF x1
+b1 EQU x1 "speaker"
+b1 person "n.01" x1
+b1 REF t1
+b1 EQU t1 "now"
+b1 time "n.08" t1
+b2 Time e2 t1
+b1 NEGATION b2
+b2 REF e2
+b2 Agent e2 x1
+b2 Asset e2 e1
+b2 Recipient e2 x2
+b2 spare "v.01" e2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 bird "n.01" x2
+b2 REF e1
+b2 killing "v.01" e1

@@ -1,0 +1,16 @@
+b1 REF x1
+b1 Name x1 "manchester~united"
+b1 PRESUPPOSITION b3
+b1 team "n.01" x1
+b3 REF e1
+b3 REF t1
+b3 Agent e1 x1
+b3 Co-Agent e1 x2
+b3 TPR t1 "now"
+b3 Time e1 t1
+b3 defeat "v.01" e1
+b3 time "n.08" t1
+b2 REF x2
+b2 Name x2 "fulham"
+b2 PRESUPPOSITION b3
+b2 team "n.01" x2

@@ -1,0 +1,35 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 male "n.02" x1
+b2 REF e1
+b2 Agent e1 x1
+b2 Time e1 t1
+b2 call "v.03" e1
+b2 REF t1
+b2 TPR t1 "now"
+b2 time "n.08" t1
+b2 CONTINUATION b3
+b3 REF x2
+b3 EQU x2 "speaker"
+b3 person "n.01" x2
+b3 REF e2
+b3 Agent e2 x2
+b3 Time e2 t1
+b3 Topic e2 e4
+b3 arrange "v.02" e2
+b3 REF e4
+b3 Patient e4 x2
+b3 Result e4 e3
+b3 go "v.01" e4
+b3 REF e3
+b3 swim "v.01" e3
+b3 REF t2
+b3 REF t3
+b3 REF x3
+b3 TAB t3 x3
+b3 TIN "now" t3
+b3 TIN t2 x3
+b3 Time e4 t2
+b3 day "n.03" t3
+b3 day "n.03" x3
+b3 time "n.08" t2

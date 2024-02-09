@@ -1,0 +1,9 @@
+b1 REF x1
+b1 thing "n.05" x1
+b1 REF t1
+b1 TPR t1 "now"
+b1 Time e1 t1
+b1 time "n.08" t1
+b1 REF e1
+b1 Theme e1 x1
+b1 look "v.02" e1

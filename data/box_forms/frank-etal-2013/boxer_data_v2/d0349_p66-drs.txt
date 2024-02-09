@@ -1,0 +1,18 @@
+b1 REF x1
+b1 Name x1 "alan"
+b1 PRESUPPOSITION b2
+b1 person "n.01" x1
+b2 REF e1
+b2 REF t1
+b2 Agent e1 x1
+b2 TPR t1 "now"
+b2 Time e1 t1
+b2 Topic e1 x2
+b2 forget "v.03" e1
+b2 time "n.08" t1
+b2 REF x2
+b2 Theme x2 x1
+b2 shave "n.01" x2
+b2 REF x3
+b2 Time x2 x3
+b2 morning "n.01" x3

@@ -697,28 +697,31 @@ def convert_clf(src, verbose_value, quiet_value, sig_file_value):
 if __name__ == '__main__':
     args = parse_arguments()
     print('cur',os.listdir('./'))
-    text_folder = 'text_data/'
-    base_folder = 'cop-etal-2016/'
-    data_folders = ['allen_data/', 'marian_data/']
+    base_folder = 'frank-etal-2013/'
+    data_folders = ['boxer_data_v2/']
     for data_folder in data_folders:
       rel_path = base_folder + data_folder
       files = sorted(os.listdir(rel_path))
-      for f in files:
+      for f in [f for f in files if f.endswith('-drs.txt')]:
         # read clausal forms and raw from the file
         verbose_value = 3
         quiet_value = False
         sig_file_value = ''
         src = rel_path + f
-        text_file = base_folder + text_folder + f
+        text_file = src.replace('-drs', '-text')
         with open(text_file) as tf:
           wrap_print('START clf -', src)
           wrap_print(tf.read())
           wrap_print('-' * 3)
         with open(src) as clff:
-          wrap_print(clff.read())
+          drs_clauses = clff.read()
+          wrap_print(drs_clauses)
           wrap_print('-' * 3)
         try:
-          convert_clf(src, verbose_value, quiet_value, sig_file_value)
+          if drs_clauses:
+            convert_clf(src, verbose_value, quiet_value, sig_file_value)
+          else:
+            wrap_print('This clause is empty. Check the original file.')
         except RuntimeError as err:
           wrap_print('Error clf -', src, ' *ERR:', str(err))
           wrap_print('X' * 10)

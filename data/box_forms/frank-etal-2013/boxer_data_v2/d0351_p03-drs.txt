@@ -1,0 +1,38 @@
+b1 PRESUPPOSITION b2
+b1 REF x1
+b1 female "n.02" x1
+b2 REF e1
+b2 Agent e1 x1
+b2 Theme e1 e2
+b2 Theme e1 e3
+b2 Time e1 t1
+b2 threaten "v.02" e1
+b2 REF t1
+b2 TPR t1 "now"
+b2 time "n.08" t1
+b2 REF e2
+b2 REF e3
+b2 Patient e2 x1
+b2 Patient e3 x1
+b2 Result e2 x2
+b2 Result e3 t1
+b2 leave "v.01" e2
+b2 leave "v.01" e3
+b2 REF x2
+b2 before "n.01" x2
+b2 CONTINUATION b2
+b2 Proposition t1 b3
+b2 time "n.01" t1
+b1 PRESUPPOSITION b3
+b3 REF s1
+b3 Manner e4 s1
+b3 just "r.02" s1
+b2 PRESUPPOSITION b3
+b3 REF e4
+b3 Experiencer e4 x1
+b3 Time e4 t1
+b3 Value e4 x3
+b3 have "v.03" e4
+b3 REF x3
+b3 Quantity x3 "enough"
+b3 measure "n.02" x3

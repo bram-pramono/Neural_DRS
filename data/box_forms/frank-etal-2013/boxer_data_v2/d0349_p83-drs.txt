@@ -1,0 +1,19 @@
+b1 REF x1
+b1 PRESUPPOSITION b3
+b1 female "n.02" x1
+b2 REF e1
+b2 REF t1
+b2 Agent e1 x1
+b2 TPR t1 "now"
+b2 Theme e1 e2
+b2 Time e1 t1
+b2 refuse "v.01" e1
+b2 time "n.08" t1
+b2 REF e2
+b2 Agent e2 x1
+b2 Source e2 x2
+b2 leave "v.01" e2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 User x2 x1
+b3 home "n.01" x2

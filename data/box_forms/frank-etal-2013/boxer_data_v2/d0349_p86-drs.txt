@@ -1,0 +1,12 @@
+b1 REF x1
+b1 PRESUPPOSITION b2
+b1 dead "n.01" x1
+b3 NECESSITY b5
+b2 NEGATION b3
+b5 REF e1
+b5 Agent e1 x1
+b5 Patient e1 x2
+b5 kill "v.01" e1
+b4 REF x2
+b4 PRESUPPOSITION b5
+b4 living "n.02" x2

@@ -1,0 +1,34 @@
+b3 REF x2
+b3 REF s1
+b3 AttributeOf s1 x2
+b3 PRESUPPOSITION b4
+b3 last "a.04" s1
+b3 entity "n.01" x2
+b1 REF t1
+b1 Name t1 "alex"
+b1 PRESUPPOSITION b2
+b1 male "n.02" t1
+b4 REF e1
+b4 REF t3
+b4 Experiencer e1 x2
+b4 TPR t3 "now"
+b4 Time e1 t3
+b4 feel "v.01" e1
+b4 time "n.08" t3
+b4 REF x3
+b4 Theme e1 e2
+b4 entity "n.01" x3
+b4 REF e2
+b4 Agent e2 x3
+b4 Proposition e2 b2
+b4 do "v.02" e2
+b4 REF t2
+b4 TPR x4 t2
+b4 Time e2 t2
+b4 time "n.08" t2
+b4 REF x4
+b4 work "n.03" x4
+b2 EQU t1 x1
+b2 TPR t1 "now"
+b2 REF x1
+b2 work "n.01" x1

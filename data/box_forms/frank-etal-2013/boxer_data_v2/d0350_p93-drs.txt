@@ -1,0 +1,29 @@
+b2 Time e1 t1
+b4 REF t1
+b4 PRESUPPOSITION b2
+b4 morning "n.01" t1
+b1 Name x1 "mickey"
+b2 REF e1
+b2 Theme e1 x1
+b2 stand "v.01" e1
+b4 TPR t1 "now"
+b4 time "n.08" t1
+b2 REF s1
+b2 Attribute e1 s1
+b2 straight "r.03" s1
+b2 Instrument s1 x2
+b3 REF x2
+b3 PRESUPPOSITION b2
+b3 PartOf x2 x1
+b3 hand "n.01" x2
+b2 REF x4
+b2 Location e1 x4
+b2 SXP x4 x3
+b2 location "n.01" x4
+b5 REF x3
+b5 PRESUPPOSITION b2
+b5 PartOf x3 x1
+b1 REF x1
+b1 PRESUPPOSITION b3
+b1 male "n.02" x1
+b5 back "n.01" x3

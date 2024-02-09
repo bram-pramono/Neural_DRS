@@ -1,0 +1,20 @@
+b1 REF x1
+b1 REF s1
+b1 AttributeOf s1 x1
+b1 powerful "a.01" s1
+b1 entity "n.01" x1
+b1 Location x1 x2
+b2 REF x2
+b2 REF s2
+b2 AttributeOf s2 x2
+b2 PRESUPPOSITION b1
+b2 wrong "a.02" s2
+b2 hand "n.01" x2
+b1 REF e1
+b1 REF t1
+b1 Co-Theme e1 x1
+b1 EQU t1 "now"
+b1 Theme e1 x1
+b1 Time e1 t1
+b1 be "v.01" e1
+b1 time "n.08" t1
