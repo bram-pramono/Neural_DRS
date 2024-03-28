@@ -1,0 +1,37 @@
+% Tom stood up and wiped his jeans.
+
+
+b1 REF x1              % his [23...26]
+b1 PRESUPPOSITION b3   % his [23...26]
+b1 Name x1 "tom"       % Tom [0...3]
+b1 male "n.02" x1      % Tom [0...3] his [23...26]
+b2 REF e1              % stood [4...9]
+b2 Theme e1 x1         % stood [4...9]
+b2 Time e1 t1          % stood [4...9]
+b2 stand_up "v.04" e1  % stood [4...9]
+b2 REF t1              % stood [4...9] wiped [17...22]
+b2 TPR t1 "now"        % stood [4...9] wiped [17...22]
+b2 time "n.08" t1      % stood [4...9] wiped [17...22]
+                       % up [10...12]
+                       % and [13...16]
+b2 REF e2              % wiped [17...22]
+b2 Agent e2 x1         % wiped [17...22]
+b2 Theme e2 x2         % wiped [17...22]
+b2 Time e2 t1          % wiped [17...22]
+b2 wipe "v.01" e2      % wiped [17...22]
+b3 REF x2              % his [23...26]
+b3 PRESUPPOSITION b2   % his [23...26]
+b3 User x2 x1          % his [23...26]
+b3 jean "n.01" x2      % jeans [27...32]
+                       % . [32...33]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Tom"                % Tom          [0-3]
+%SBN% stand_up.v.04 Theme -1 Time +1          % stood  --up--  --and-- [4-16]
+%SBN% time.n.08     TPR now                   %              
+%SBN% wipe.v.01     Agent -3 Time +1 Theme +3 % wiped        [17-22]
+%SBN% time.n.08     TPR now                   %              
+%SBN% male.n.02     ANA -5                    % his          [23-26]
+%SBN% jean.n.01     User -1                   % jeans --.--       [27-33]

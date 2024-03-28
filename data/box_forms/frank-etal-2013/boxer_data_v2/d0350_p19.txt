@@ -1,0 +1,39 @@
+% He is after glory and heads for his hall.
+
+
+b1 REF x1              % He [0...2] his [32...35]
+b1 PRESUPPOSITION b3   % He [0...2] his [32...35]
+b1 male "n.02" x1      % He [0...2] his [32...35]
+b2 REF e1              % is~after [3...11]
+b2 Agent e1 x1         % is~after [3...11]
+b2 Theme e1 x2         % is~after [3...11]
+b2 Time e1 t1          % is~after [3...11]
+b2 be_after "v.01" e1  % is~after [3...11]
+b2 REF t1              % is~after [3...11] heads [22...27]
+b2 EQU t1 "now"        % is~after [3...11] heads [22...27]
+b2 time "n.08" t1      % is~after [3...11] heads [22...27]
+b2 REF x2              % glory [12...17]
+b2 glory "n.01" x2     % glory [12...17]
+                       % and [18...21]
+b2 REF e2              % heads [22...27]
+b2 Theme e2 x1         % heads [22...27]
+b2 Time e2 t1          % heads [22...27]
+b2 head "v.01" e2      % heads [22...27]
+b2 Goal e2 x3          % for [28...31]
+b3 REF x3              % his [32...35]
+b3 PRESUPPOSITION b2   % his [32...35]
+b3 User x3 x1          % his [32...35]
+b3 hall "n.03" x3      % hall [36...40]
+                       % . [40...41]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                               % He        [0-2]
+%SBN% be_after.v.01 Agent -1 Time +1 Theme +2 % is after  [3-11]
+%SBN% time.n.08     EQU now                   %           
+%SBN% glory.n.01                              % glory  --and-- [12-21]
+%SBN% head.v.01     Theme -4 Time +1 Goal +3  % heads  --for-- [22-31]
+%SBN% time.n.08     EQU now                   %           
+%SBN% male.n.02     ANA -6                    % his       [32-35]
+%SBN% hall.n.03     User -1                   % hall --.--     [36-41]

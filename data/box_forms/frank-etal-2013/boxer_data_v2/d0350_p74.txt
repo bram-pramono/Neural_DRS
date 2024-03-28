@@ -1,0 +1,53 @@
+% The gate was double, one huge mass of wood following another.
+
+
+b2 REF x2              % The [0...3]
+b2 PRESUPPOSITION b1   % The [0...3]
+b2 gate "n.01" x2      % gate [4...8]
+b1 REF e1              % was [9...12]
+b1 REF e2              % was [9...12]
+b1 REF t1              % was [9...12]
+b1 REF t2              % was [9...12]
+b1 Co-Theme e1 x3      % was [9...12]
+b1 Co-Theme e2 x4      % was [9...12]
+b1 TPR t1 "now"        % was [9...12]
+b1 TPR t2 "now"        % was [9...12]
+b1 Theme e1 x2         % was [9...12]
+b1 Theme e2 x2         % was [9...12]
+b1 Time e1 t1          % was [9...12]
+b1 Time e2 t2          % was [9...12]
+b1 be "v.01" e1        % was [9...12]
+b1 be "v.01" e2        % was [9...12]
+b1 time "n.08" t1      % was [9...12]
+b1 time "n.08" t2      % was [9...12]
+b1 REF x3              % double [13...19]
+b1 entity "n.01" x3    % double [13...19]
+                       % , [19...20]
+b1 REF x4              % one [21...24]
+b1 REF x5              % one [21...24]
+b1 EQU x5 "1"          % one [21...24]
+b1 Quantity x4 x5      % one [21...24]
+b1 quantity "n.01" x5  % one [21...24]
+b1 REF s1              % huge [25...29]
+b1 AttributeOf s1 x4   % huge [25...29]
+b1 huge "a.01" s1      % huge [25...29]
+b1 mass "n.02" x4      % mass [30...34]
+b1 Theme x4 x1         % of [35...37]
+b1 REF x1              % following [43...52] another [53...60]
+b1 wood "n.01" x1      % wood [38...42] another [53...60]
+                       % . [60...61]
+				
+
+% Sequence Box Notation
+
+%SBN% gate.n.01                                  %  --The-- gate       [0-8]
+%SBN% be.v.01       Theme -1 Time +2 Co-Theme +4 % was            [9-12]
+%SBN% be.v.01       Theme -2 Time +2 Co-Theme +6 %                
+%SBN% time.n.08     TPR now                      %                
+%SBN% time.n.08     TPR now                      %                
+%SBN% entity.n.01                                % double --,--        [13-20]
+%SBN% quantity.n.01 EQU 1                        % one            [21-24]
+%SBN% huge.a.01     AttributeOf +1               % huge           [25-29]
+%SBN% mass.n.02     Quantity -2 Theme +1         % mass  --of--        [30-37]
+%SBN% wood.n.01     EQU +1                       % wood  --following-- [38-52]
+%SBN% entity.n.01                                % another --.--       [53-61]

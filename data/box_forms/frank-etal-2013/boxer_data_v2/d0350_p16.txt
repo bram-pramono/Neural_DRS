@@ -1,0 +1,40 @@
+% Don't die of cold before you die in battle.
+
+
+b1 REF x1            %
+b1 EQU x1 "hearer"   %
+b1 person "n.01" x1  %
+b1 REF t1            % Do [0...2]
+b1 EQU t1 "now"      % Do [0...2]
+b1 time "n.08" t1    % Do [0...2]
+b2 Time e1 t1        % Do [0...2]
+b1 NEGATION b2       % n't [2...5]
+b2 REF e1            % die [6...9]
+b2 Patient e1 x1     % die [6...9]
+b2 die "v.01" e1     % die [6...9]
+b2 Theme e1 x2       % of [10...12]
+b2 REF x2            % cold [13...17]
+b2 cold "n.02" x2    % cold [13...17]
+b2 SXP e1 e2         % before [18...24]
+b2 REF x3            % you [25...28]
+b2 EQU x3 "hearer"   % you [25...28]
+b2 person "n.01" x3  % you [25...28]
+b2 REF e2            % die [29...32]
+b2 Patient e2 x3     % die [29...32]
+b2 die "v.01" e2     % die [29...32]
+b2 Context e2 x4     % in [33...35]
+b2 REF x4            % battle [36...42]
+b2 battle "n.01" x4  % battle [36...42]
+                     % . [42...43]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                   %             
+%SBN%             NEGATION &lt;1                  %             
+%SBN% time.n.08   EQU now                      % Do --n't--       [0-5]
+%SBN% die.v.01    Patient -2 Time -1 Theme +1  % die  --of--      [6-12]
+%SBN% cold.n.02                                % cold  --before-- [13-24]
+%SBN% person.n.01 EQU hearer                   % you         [25-28]
+%SBN% die.v.01    SXN -3 Patient -1 Context +1 % die  --in--      [29-35]
+%SBN% battle.n.01                              % battle --.--     [36-43]

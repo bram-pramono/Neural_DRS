@@ -1,0 +1,39 @@
+% Let's have the gates closed and go home early.
+
+
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 Participant s1 x3  % Let [0...3]
+b1 REF x3             % 's [3...5]
+b1 EQU x3 "speaker"   % 's [3...5]
+b1 person "n.01" x3   % 's [3...5]
+b1 Patient s1 x1      % have [6...10]
+b2 REF x2             % the [11...14]
+b2 PRESUPPOSITION b1  % the [11...14]
+b2 gate "n.01" x2     % gates [15...20]
+b1 REF s1             % closed [21...27]
+b1 Result s1 x2       % closed [21...27]
+b1 closed "a.01" s1   % closed [21...27]
+b1 CONTINUATION b3    % and [28...31]
+b3 REF e1             % go [32...34]
+b3 Theme e1 x4        % go [32...34]
+b3 go "v.03" e1       % go [32...34]
+b3 REF x4             % home [35...39]
+b3 home "n.01" x4     % home [35...39]
+b3 REF s2             % early [40...45]
+b3 Time e1 s2         % early [40...45]
+b3 early "a.01" s2    % early [40...45]
+                      % . [45...46]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                          %            
+%SBN% person.n.01 EQU speaker                         %  --Let--'s  --have-- [0-10]
+%SBN% gate.n.01                                       %  --the-- gates  [11-20]
+%SBN% closed.a.01 Patient -3 Participant -2 Result -1 % closed  --and-- [21-31]
+%SBN%             CONTINUATION &lt;1                     %            
+%SBN% go.v.03     Theme +1 Time +2                    % go         [32-34]
+%SBN% home.n.01                                       % home       [35-39]
+%SBN% early.a.01                                      % early --.--     [40-46]

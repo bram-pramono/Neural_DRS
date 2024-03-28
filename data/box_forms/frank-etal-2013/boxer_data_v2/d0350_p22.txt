@@ -1,0 +1,46 @@
+% He sighed and walked back to the wood shop.
+
+
+b1 REF x1             % He [0...2]
+b1 PRESUPPOSITION b2  % He [0...2]
+b1 male "n.02" x1     % He [0...2]
+b2 REF e1             % sighed [3...9]
+b2 Agent e1 x1        % sighed [3...9]
+b2 Time e1 t1         % sighed [3...9]
+b2 sigh "v.01" e1     % sighed [3...9]
+b2 REF t1             % sighed [3...9] walked [14...20]
+b2 TPR t1 "now"       % sighed [3...9] walked [14...20]
+b2 time "n.08" t1     % sighed [3...9] walked [14...20]
+                      % and [10...13]
+b2 REF e2             % walked [14...20]
+b2 Theme e2 x1        % walked [14...20]
+b2 Time e2 t1         % walked [14...20]
+b2 walk "v.01" e2     % walked [14...20]
+                      % back [21...25]
+b2 Destination e1 x2  % to [26...28]
+b2 Destination e2 x4  % to [26...28]
+b3 REF x2             % the [29...32]
+b3 REF x4             % the [29...32]
+b3 REF x3             % wood [33...37]
+b3 REF x5             % wood [33...37]
+b3 PRESUPPOSITION b2  % wood [33...37]
+b3 PartOf x2 x3       % wood [33...37]
+b3 PartOf x4 x5       % wood [33...37]
+b3 wood "n.01" x3     % wood [33...37]
+b3 wood "n.01" x5     % wood [33...37]
+b3 shop "n.01" x2     % shop [38...42]
+b3 shop "n.01" x4     % shop [38...42]
+                      % . [42...43]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                                 % He             [0-2]
+%SBN% sigh.v.01 Agent -1 Time +1 Destination +6 % sighed  --and--     [3-13]
+%SBN% time.n.08 TPR now                         %                
+%SBN% walk.v.01 Theme -3 Time +1 Destination +5 % walked  --back--  --to-- [14-28]
+%SBN% time.n.08 TPR now                         %                
+%SBN% wood.n.01                                 %  --the-- wood       [29-37]
+%SBN% wood.n.01                                 %                
+%SBN% shop.n.01 PartOf -2                       % shop --.--          [38-43]
+%SBN% shop.n.01 PartOf -2                       %                

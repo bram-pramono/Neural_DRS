@@ -1,0 +1,44 @@
+% I knew I heard your voice.
+
+
+b1 REF x1              % I [0...1]
+b1 EQU x1 "speaker"    % I [0...1]
+b1 person "n.01" x1    % I [0...1]
+b1 REF e1              % knew [2...6]
+b1 Experiencer e1 x1   % knew [2...6]
+b1 Proposition e1 b2   % knew [2...6]
+b1 Time e1 t1          % knew [2...6]
+b1 know "v.01" e1      % knew [2...6]
+b1 REF t1              % knew [2...6] heard [9...14]
+b1 TPR t1 "now"        % knew [2...6] heard [9...14]
+b1 time "n.08" t1      % knew [2...6] heard [9...14]
+b2 REF x2              % I [7...8]
+b2 EQU x2 "speaker"    % I [7...8]
+b2 person "n.01" x2    % I [7...8]
+b1 PRESUPPOSITION b2   % heard [9...14]
+b2 REF e2              % heard [9...14]
+b2 Experiencer e2 x2   % heard [9...14]
+b2 Stimulus e2 x3      % heard [9...14]
+b2 Time e2 t1          % heard [9...14]
+b2 hear "v.01" e2      % heard [9...14]
+b3 REF x3              % your [15...19]
+b3 REF x4              % your [15...19]
+b3 PRESUPPOSITION b2   % your [15...19]
+b3 PartOf x4 "hearer"  % your [15...19]
+b3 User x3 x4          % your [15...19]
+b3 person "n.01" x4    % your [15...19]
+b3 voice "n.01" x3     % voice [20...25]
+                       % . [25...26]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker                           % I      [0-1]
+%SBN% know.v.01   Proposition &gt;1 Experiencer -1 Time +1 % knew   [2-6]
+%SBN% time.n.08   TPR now                               %        
+%SBN%             CONTINUATION &lt;0                       %        
+%SBN% person.n.01 EQU speaker                           % I      [7-8]
+%SBN% hear.v.01   Experiencer -1 Time +1 Stimulus +3    % heard  [9-14]
+%SBN% time.n.08   TPR now                               %        
+%SBN% person.n.01 PartOf hearer                         % your   [15-19]
+%SBN% voice.n.01  User -1                               % voice --.-- [20-26]

@@ -1,0 +1,39 @@
+% Run along home now and bring us some men to kill.
+
+
+b1 REF e1             % Run [0...3]
+b1 Theme e1 t1        % Run [0...3]
+b1 run "v.01" e1      % Run [0...3]
+b1 Destination e1 x1  % along [4...9]
+b1 REF x1             % home [10...14]
+b1 home "n.01" x1     % home [10...14]
+b1 REF t1             % now [15...18]
+b1 EQU t1 "now"       % now [15...18]
+b1 time "n.08" t1     % now [15...18]
+                      % and [19...22]
+b1 REF e3             % bring [23...28]
+b1 Agent e3 t1        % bring [23...28]
+b1 Recipient e3 x3    % bring [23...28]
+b1 Theme e3 x2        % bring [23...28]
+b1 bring "v.01" e3    % bring [23...28]
+b1 REF x3             % us [29...31]
+b1 Sub x3 "speaker"   % us [29...31]
+b1 person "n.01" x3   % us [29...31]
+b1 REF x2             % some [32...36]
+b1 man "n.01" x2      % men [37...40]
+                      % to [41...43]
+b1 REF e2             % kill [44...48]
+b1 Agent e2 x2        % kill [44...48]
+b1 kill "v.01" e2     % kill [44...48]
+                      % . [48...49]
+				
+
+% Sequence Box Notation
+
+%SBN% run.v.01    Destination +1 Theme +2        % Run  --along--   [0-9]
+%SBN% home.n.01                                  % home        [10-14]
+%SBN% time.n.08   EQU now                        % now  --and--     [15-22]
+%SBN% bring.v.01  Agent -1 Recipient +1 Theme +2 % bring       [23-28]
+%SBN% person.n.01 Sub speaker                    % us          [29-31]
+%SBN% man.n.01                                   %  --some-- men  --to-- [32-43]
+%SBN% kill.v.01   Agent -1                       % kill --.--       [44-49]

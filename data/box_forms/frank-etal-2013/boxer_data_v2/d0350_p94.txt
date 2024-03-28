@@ -1,0 +1,45 @@
+% In the morning at breakfast Mike smiled at the letter he received.
+
+
+b2 Location e1 t1       % In [0...2]
+b3 PRESUPPOSITION b2    % the [3...6] smiled [33...39]
+b3 REF t1               % the [3...6] smiled [33...39] received [57...65]
+b3 morning "n.01" t1    % morning [7...14]
+b3 Theme t1 x3          % at [15...17]
+b3 REF x3               % breakfast [18...27]
+b3 breakfast "n.01" x3  % breakfast [18...27]
+b1 Name x1 "mike"       % Mike [28...32]
+b1 PRESUPPOSITION b2    % Mike [28...32]
+b1 REF x1               % Mike [28...32] he [54...56]
+b1 male "n.02" x1       % Mike [28...32] he [54...56]
+b2 REF e1               % smiled [33...39]
+b2 Agent e1 x1          % smiled [33...39]
+b2 Time e1 t1           % smiled [33...39]
+b2 smile "v.01" e1      % smiled [33...39]
+b3 TPR t1 "now"         % smiled [33...39] received [57...65]
+b3 time "n.08" t1       % smiled [33...39] received [57...65]
+b2 Recipient e1 x2      % at [40...42]
+b2 REF x2               % the [43...46]
+b2 Proposition x2 b4    % letter [47...53]
+b2 letter "n.01" x2     % letter [47...53]
+b1 PRESUPPOSITION b4    % he [54...56]
+b3 PRESUPPOSITION b4    % received [57...65]
+b4 REF e2               % received [57...65]
+b4 Agent e2 x1          % received [57...65]
+b4 Time e2 t1           % received [57...65]
+b4 receive "v.01" e2    % received [57...65]
+                        % . [65...66]
+				
+
+% Sequence Box Notation
+
+%SBN% morning.n.01   Theme +1                                  %  --In--  --the-- morning  --at-- [0-17]
+%SBN% breakfast.n.01                                           % breakfast         [18-27]
+%SBN% male.n.02      Name "Mike"                               % Mike              [28-32]
+%SBN% smile.v.01     Location -3 Agent -1 Time +1 Recipient +2 % smiled  --at--         [33-42]
+%SBN% time.n.08      TPR now                                   %                   
+%SBN% letter.n.01    Proposition &gt;1                            %  --the-- letter        [43-53]
+%SBN%                CONTINUATION &lt;0                           %                   
+%SBN% male.n.02      ANA -4                                    % he                [54-56]
+%SBN% receive.v.01   Agent -1 Time +1                          % received --.--         [57-66]
+%SBN% time.n.08      TPR now                                   %                   

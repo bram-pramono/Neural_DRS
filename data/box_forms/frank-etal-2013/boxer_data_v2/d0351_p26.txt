@@ -1,0 +1,49 @@
+% The shout caught him off guard and he fell back a little way.
+
+
+b1 REF x1               % The [0...3]
+b1 PRESUPPOSITION b3    % The [0...3]
+b1 shout "n.01" x1      % shout [4...9]
+b3 REF e1               % caught [10...16]
+b3 Agent e1 x1          % caught [10...16]
+b3 Patient e1 x2        % caught [10...16]
+b3 Time e1 t1           % caught [10...16]
+b3 catch "v.01" e1      % caught [10...16]
+b3 REF t1               % caught [10...16] fell [38...42]
+b3 TPR t1 "now"         % caught [10...16] fell [38...42]
+b3 time "n.08" t1       % caught [10...16] fell [38...42]
+b2 PRESUPPOSITION b3    % him [17...20]
+b2 REF x2               % him [17...20] he [35...37]
+b2 male "n.02" x2       % him [17...20] he [35...37]
+b3 Manner e1 x3         % off [21...24]
+b3 REF x3               % guard [25...30]
+b3 guard "n.07" x3      % guard [25...30]
+b3 CONTINUATION b4      % and [31...34]
+b2 PRESUPPOSITION b4    % he [35...37]
+b4 REF e2               % fell [38...42]
+b4 Theme e2 x2          % fell [38...42]
+b4 Time e2 t1           % fell [38...42]
+b4 fall_back "v.01" e2  % fell [38...42]
+                        % back [43...47]
+b4 REF x4               % a [48...49]
+b4 Time e2 x4           % a [48...49]
+b4 REF s1               % little [50...56]
+b4 AttributeOf s1 x4    % little [50...56]
+b4 little "a.01" s1     % little [50...56]
+b4 way "n.01" x4        % way [57...60]
+                        % . [60...61]
+				
+
+% Sequence Box Notation
+
+%SBN% shout.n.01                                           %  --The-- shout [0-9]
+%SBN% catch.v.01     Agent -1 Time +1 Patient +2 Manner +3 % caught    [10-16]
+%SBN% time.n.08      TPR now                               %           
+%SBN% male.n.02                                            % him  --off--   [17-24]
+%SBN% guard.n.07                                           % guard  --and-- [25-34]
+%SBN%                CONTINUATION &lt;1                       %           
+%SBN% male.n.02      ANA -2                                % he        [35-37]
+%SBN% fall_back.v.01 Theme -1 Time +1 Time +3              % fell  --back-- [38-47]
+%SBN% time.n.08      TPR now                               %           
+%SBN% little.a.01    AttributeOf +1                        %  --a-- little  [48-56]
+%SBN% way.n.01                                             % way --.--      [57-61]

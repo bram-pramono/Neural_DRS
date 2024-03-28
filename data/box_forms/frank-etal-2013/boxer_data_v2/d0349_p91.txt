@@ -1,0 +1,42 @@
+% Albert spoke before Barbara had a chance to.
+
+
+b1 REF x1             % Albert [0...6]
+b1 Name x1 "albert"   % Albert [0...6]
+b1 PRESUPPOSITION b2  % Albert [0...6]
+b1 male "n.02" x1     % Albert [0...6]
+b2 REF t1             % spoke [7...12]
+b2 Agent t1 x1        % spoke [7...12]
+b2 Time t1 t2         % spoke [7...12]
+b2 speak "v.01" t1    % spoke [7...12]
+b2 REF t2             % spoke [7...12] had [28...31]
+b2 TPR t2 "now"       % spoke [7...12] had [28...31]
+b2 time "n.08" t2     % spoke [7...12] had [28...31]
+b2 TPR t3 t1          % before [13...19]
+b3 REF x2             % Barbara [20...27]
+b3 Name x2 "barbara"  % Barbara [20...27]
+b3 PRESUPPOSITION b2  % Barbara [20...27]
+b3 female "n.02" x2   % Barbara [20...27]
+b2 REF t3             % had [28...31]
+b2 Pivot t3 x2        % had [28...31]
+b2 Theme t3 x3        % had [28...31]
+b2 Time t3 t2         % had [28...31]
+b2 have "v.01" t3     % had [28...31]
+b2 REF x3             % a [32...33]
+b2 chance "n.01" x3   % chance [34...40]
+b2 REF s1             % to [41...43]
+b2 Theme s1 x3        % to [41...43]
+b2 speak "a.01" s1    % to [41...43]
+                      % . [43...44]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02   Name "Albert"                    % Albert       [0-6]
+%SBN% speak.v.01  Agent -1 Time +1                 % spoke  --before-- [7-19]
+%SBN% time.n.08   TPR now                          %              
+%SBN% female.n.02 Name "Barbara"                   % Barbara      [20-27]
+%SBN% have.v.01   Pivot -1 TPR -3 Time +1 Theme +2 % had          [28-31]
+%SBN% time.n.08   TPR now                          %              
+%SBN% chance.n.01                                  %  --a-- chance     [32-40]
+%SBN% speak.a.01  Theme -1                         % to --.--          [41-44]

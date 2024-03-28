@@ -1,0 +1,39 @@
+% I was thinking of getting the band together again.
+
+
+b1 REF x1              % I [0...1]
+b1 EQU x1 "speaker"    % I [0...1]
+b1 person "n.01" x1    % I [0...1]
+b1 REF t1              % was [2...5]
+b1 TPR t1 "now"        % was [2...5]
+b1 Time e1 t1          % was [2...5]
+b1 time "n.08" t1      % was [2...5]
+b1 REF e1              % thinking [6...14]
+b1 Agent e1 x1         % thinking [6...14]
+b1 think_of "v.03" e1  % thinking [6...14]
+b1 REF x2              % of [15...17]
+b1 Theme e1 e2         % of [15...17]
+b1 entity "n.01" x2    % of [15...17]
+b1 REF e2              % getting [18...25]
+b1 Agent e2 x2         % getting [18...25]
+b1 Theme e2 x3         % getting [18...25]
+b1 get "v.03" e2       % getting [18...25]
+b2 REF x3              % the [26...29]
+b2 PRESUPPOSITION b1   % the [26...29]
+b2 band "n.02" x3      % band [30...34]
+b1 REF s1              % together [35...43]
+b1 Manner e2 s1        % together [35...43]
+b1 together "a.01" s1  % together [35...43]
+                       % again [44...49]
+                       % . [49...50]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01   EQU speaker                 % I               [0-1]
+%SBN% time.n.08     TPR now                     % was             [2-5]
+%SBN% think_of.v.03 Agent -2 Time -1 Theme +2   % thinking        [6-14]
+%SBN% entity.n.01                               % of              [15-17]
+%SBN% get.v.03      Agent -1 Theme +1 Manner +2 % getting         [18-25]
+%SBN% band.n.02                                 %  --the-- band        [26-34]
+%SBN% together.a.01                             % together  --again.-- [35-50]

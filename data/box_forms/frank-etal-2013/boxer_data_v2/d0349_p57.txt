@@ -1,0 +1,31 @@
+% Ross sat back down and shivered.
+
+
+b1 REF x1              % Ross [0...4]
+b1 Name x1 "ross"      % Ross [0...4]
+b1 PRESUPPOSITION b2   % Ross [0...4]
+b1 male "n.02" x1      % Ross [0...4]
+b2 REF e1              % sat [5...8]
+b2 Agent e1 x1         % sat [5...8]
+b2 Time e1 t1          % sat [5...8]
+b2 sit_back "v.01" e1  % sat [5...8]
+b2 REF t1              % sat [5...8] shivered [23...31]
+b2 TPR t1 "now"        % sat [5...8] shivered [23...31]
+b2 time "n.08" t1      % sat [5...8] shivered [23...31]
+                       % back [9...13]
+                       % down [14...18]
+                       % and [19...22]
+b2 REF e2              % shivered [23...31]
+b2 Experiencer e2 x1   % shivered [23...31]
+b2 Time e2 t1          % shivered [23...31]
+b2 shiver "v.01" e2    % shivered [23...31]
+                       % . [31...32]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Ross"            % Ross              [0-4]
+%SBN% sit_back.v.01 Agent -1 Time +1       % sat  --back--  --down--  --and-- [5-22]
+%SBN% time.n.08     TPR now                %                   
+%SBN% shiver.v.01   Experiencer -3 Time +1 % shivered --.--         [23-32]
+%SBN% time.n.08     TPR now                %                   

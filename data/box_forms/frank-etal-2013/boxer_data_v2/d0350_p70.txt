@@ -1,0 +1,48 @@
+% Matthew stood against the wall with his hands behind his back.
+
+
+b1 Name x1 "matthew"   % Matthew [0...7]
+b2 REF e1              % stood [8...13]
+b2 REF t1              % stood [8...13]
+b2 Agent e1 x1         % stood [8...13]
+b2 TPR t1 "now"        % stood [8...13]
+b2 Time e1 t1          % stood [8...13]
+b2 Topic e1 x2         % stood [8...13]
+b2 stand "v.01" e1     % stood [8...13]
+b2 time "n.08" t1      % stood [8...13]
+b2 Destination e1 x6   % against [14...21]
+b4 REF x6              % the [22...25]
+b4 PRESUPPOSITION b2   % the [22...25]
+b4 wall "n.01" x6      % wall [26...30]
+b2 REF x5              % with [31...35]
+b2 Instrument x2 x5    % with [31...35]
+b2 with "n.01" x5      % with [31...35]
+b2 REF x2              % his [36...39]
+b2 PartOf x2 x1        % his [36...39]
+b2 hand "n.01" x2      % hands [40...45]
+b2 REF x4              % behind [46...52]
+b2 Location x2 x4      % behind [46...52]
+b2 SXP x4 x3           % behind [46...52]
+b2 location "n.01" x4  % behind [46...52]
+b3 REF x3              % his [53...56]
+b3 PRESUPPOSITION b2   % his [53...56]
+b3 PartOf x3 x1        % his [53...56]
+b1 REF x1              % his [53...56] his [36...39]
+b1 PRESUPPOSITION b3   % his [53...56] his [36...39]
+b1 male "n.02" x1      % his [53...56] Matthew [0...7] his [36...39]
+b3 back "n.01" x3      % back [57...61]
+                       % . [61...62]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Matthew"                           % Matthew       [0-7]
+%SBN% stand.v.01    Agent -1 Time +1 Destination +2 Topic +5 % stood  --against-- [8-21]
+%SBN% time.n.08     TPR now                                  %               
+%SBN% wall.n.01                                              %  --the-- wall      [22-30]
+%SBN% with.n.01                                              % with          [31-35]
+%SBN% male.n.02     ANA -5                                   % his           [36-39]
+%SBN% hand.n.01     Instrument -2 PartOf -1 Location +1      % hands         [40-45]
+%SBN% location.n.01 SXP +2                                   % behind        [46-52]
+%SBN% male.n.02     ANA -8                                   % his           [53-56]
+%SBN% back.n.01     PartOf -1                                % back --.--         [57-62]

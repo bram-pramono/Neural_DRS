@@ -1,0 +1,45 @@
+% The gathered villagers took a step back, almost as one man.
+
+
+b1 REF x1              % The [0...3]
+b1 REF e1              % gathered [4...12]
+b1 AttributeOf e1 x1   % gathered [4...12]
+b1 gather "v.02" e1    % gathered [4...12]
+b1 REF x2              % villagers [13...22]
+b1 PRESUPPOSITION b2   % villagers [13...22]
+b1 Role x1 x2          % villagers [13...22]
+b1 person "n.01" x1    % villagers [13...22]
+b1 villager "n.01" x2  % villagers [13...22]
+b2 REF e2              % took [23...27]
+b2 REF t1              % took [23...27]
+b2 Agent e2 x1         % took [23...27]
+b2 TPR t1 "now"        % took [23...27]
+b2 Theme e2 x3         % took [23...27]
+b2 Time e2 t1          % took [23...27]
+b2 take "v.01" e2      % took [23...27]
+b2 time "n.08" t1      % took [23...27]
+b2 REF x3              % a [28...29]
+b2 step "n.02" x3      % step [30...34]
+                       % back [35...39]
+                       % , [39...40]
+                       % almost [41...47]
+b2 Attribute e2 x4     % as [48...50]
+b2 REF x4              % one [51...54]
+b2 REF x5              % one [51...54]
+b2 EQU x5 "1"          % one [51...54]
+b2 Quantity x4 x5      % one [51...54]
+b2 quantity "n.01" x5  % one [51...54]
+b2 man "n.03" x4       % man [55...58]
+                       % . [58...59]
+				
+
+% Sequence Box Notation
+
+%SBN% gather.v.02   AttributeOf +1                         %  --The-- gathered           [0-12]
+%SBN% person.n.01   Role +1                                % villagers              [13-22]
+%SBN% villager.n.01                                        %                        
+%SBN% take.v.01     Agent -2 Time +1 Theme +2 Attribute +4 % took                   [23-27]
+%SBN% time.n.08     TPR now                                %                        
+%SBN% step.n.02                                            %  --a-- step  --back,--  --almost--  --as-- [28-50]
+%SBN% quantity.n.01 EQU 1                                  % one                    [51-54]
+%SBN% man.n.03      Quantity -1                            % man --.--                   [55-59]

@@ -1,0 +1,22 @@
+% Things were looking up again.
+
+
+b1 REF x1           % Things [0...6]
+b1 thing "n.05" x1  % Things [0...6]
+b1 REF t1           % were [7...11]
+b1 TPR t1 "now"     % were [7...11]
+b1 Time e1 t1       % were [7...11]
+b1 time "n.08" t1   % were [7...11]
+b1 REF e1           % looking [12...19]
+b1 Theme e1 x1      % looking [12...19]
+b1 look "v.02" e1   % looking [12...19]
+                    % up [20...22]
+                    % again [23...28]
+                    % . [28...29]
+				
+
+% Sequence Box Notation
+
+%SBN% thing.n.05                  % Things            [0-6]
+%SBN% time.n.08  TPR now          % were              [7-11]
+%SBN% look.v.02  Theme -2 Time -1 % looking  --up--  --again.-- [12-29]

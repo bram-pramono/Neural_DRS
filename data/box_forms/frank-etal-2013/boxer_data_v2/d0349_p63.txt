@@ -1,0 +1,35 @@
+% We barely escaped with our lives.
+
+
+b1 REF x1             % We [0...2]
+b1 EQU x1 "speaker"   % We [0...2]
+b1 person "n.01" x1   % We [0...2]
+b1 REF s1             % barely [3...9]
+b1 Degree e1 s1       % barely [3...9]
+b1 barely "r.01" s1   % barely [3...9]
+b1 REF e1             % escaped [10...17]
+b1 REF t1             % escaped [10...17]
+b1 TPR t1 "now"       % escaped [10...17]
+b1 Theme e1 x1        % escaped [10...17]
+b1 Time e1 t1         % escaped [10...17]
+b1 escape "v.01" e1   % escaped [10...17]
+b1 time "n.08" t1     % escaped [10...17]
+b1 Theme e1 x2        % with [18...22]
+b2 REF x2             % our [23...26]
+b2 REF x3             % our [23...26]
+b2 EQU x3 "speaker"   % our [23...26]
+b2 PRESUPPOSITION b1  % our [23...26]
+b2 User x2 x3         % our [23...26]
+b2 person "n.01" x3   % our [23...26]
+b2 life "n.11" x2     % lives [27...32]
+                      % . [32...33]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker                         % We           [0-2]
+%SBN% barely.r.01                                     % barely       [3-9]
+%SBN% escape.v.01 Theme -2 Degree -1 Time +1 Theme +3 % escaped  --with-- [10-22]
+%SBN% time.n.08   TPR now                             %              
+%SBN% person.n.01 EQU speaker                         % our          [23-26]
+%SBN% life.n.11   User -1                             % lives --.--       [27-33]

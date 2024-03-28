@@ -1,0 +1,62 @@
+% You know that I will do whatever you ask of me.
+
+
+b1 REF x1             % You [0...3]
+b1 EQU x1 "hearer"    % You [0...3]
+b1 person "n.01" x1   % You [0...3]
+b1 REF e1             % know [4...8]
+b1 Experiencer e1 x1  % know [4...8]
+b1 Proposition e1 b2  % know [4...8]
+b1 Time e1 t1         % know [4...8]
+b1 know "v.01" e1     % know [4...8]
+b1 REF t1             % know [4...8] ask [37...40]
+b1 EQU t1 "now"       % know [4...8] ask [37...40]
+b1 time "n.08" t1     % know [4...8] ask [37...40]
+                      % that [9...13]
+b2 REF x2             % I [14...15]
+b2 EQU x2 "speaker"   % I [14...15]
+b2 person "n.01" x2   % I [14...15]
+b4 REF e3             % will [16...20]
+b4 Agent e3 x2        % will [16...20]
+b4 Recipient e3 e4    % will [16...20]
+b4 Theme e3 x3        % will [16...20]
+b4 will "v.01" e3     % will [16...20]
+b4 REF e4             % do [21...23]
+b4 Agent e4 x3        % do [21...23]
+b4 Theme e4 x5        % do [21...23]
+b4 do "v.02" e4       % do [21...23]
+b2 NEGATION b3        % whatever [24...32]
+b3 REF x3             % whatever [24...32]
+b3 NEGATION b4        % whatever [24...32]
+b3 entity "n.01" x3   % whatever [24...32]
+b3 REF x4             % you [33...36]
+b3 EQU x4 "hearer"    % you [33...36]
+b3 person "n.01" x4   % you [33...36]
+b1 PRESUPPOSITION b3  % ask [37...40]
+b3 REF e2             % ask [37...40]
+b3 Experiencer e2 x4  % ask [37...40]
+b3 Time e2 t1         % ask [37...40]
+b3 ask "v.02" e2      % ask [37...40]
+b3 Stimulus e2 x3     % of [41...43]
+b4 REF x5             % me [44...46]
+b4 EQU x5 "speaker"   % me [44...46]
+b4 person "n.01" x5   % me [44...46]
+                      % . [46...47]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                            % You      [0-3]
+%SBN% know.v.01   Proposition &gt;1 Experiencer -1 Time +1 % know     [4-8]
+%SBN% time.n.08   EQU now                               %          
+%SBN%             CONTINUATION &lt;0                       %          
+%SBN% person.n.01 EQU speaker                           %  --that-- I   [9-15]
+%SBN%             NEGATION &lt;1                           %          
+%SBN% entity.n.01                                       % whatever [24-32]
+%SBN% person.n.01 EQU hearer                            % you      [33-36]
+%SBN% ask.v.02    Stimulus -2 Experiencer -1 Time +1    % ask  --of--   [37-43]
+%SBN% time.n.08   EQU now                               %          
+%SBN%             NEGATION &lt;1                           %          
+%SBN% will.v.01   Agent -5 Theme -4 Recipient +1        % will     [16-20]
+%SBN% do.v.02     Agent -5 Theme +1                     % do       [21-23]
+%SBN% person.n.01 EQU speaker                           % me --.--      [44-47]

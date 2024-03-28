@@ -1,0 +1,43 @@
+% Tell me what really happened to the truck.
+
+
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 REF e2             % Tell [0...4]
+b1 Agent e2 x1        % Tell [0...4]
+b1 Recipient e2 x4    % Tell [0...4]
+b1 Topic e2 x2        % Tell [0...4]
+b1 tell "v.02" e2     % Tell [0...4]
+b1 REF x4             % me [5...7]
+b1 EQU x4 "speaker"   % me [5...7]
+b1 person "n.01" x4   % me [5...7]
+b1 REF x2             % what [8...12]
+b1 entity "n.01" x2   % what [8...12]
+b1 REF s1             % really [13...19]
+b1 Degree e1 s1       % really [13...19]
+b1 really "r.02" s1   % really [13...19]
+b1 REF e1             % happened [20...28]
+b1 REF t1             % happened [20...28]
+b1 TPR t1 "now"       % happened [20...28]
+b1 Theme e1 x2        % happened [20...28]
+b1 Time e1 t1         % happened [20...28]
+b1 happen "v.02" e1   % happened [20...28]
+b1 time "n.08" t1     % happened [20...28]
+b1 Destination e1 x3  % to [29...31]
+b2 REF x3             % the [32...35]
+b2 PRESUPPOSITION b1  % the [32...35]
+b2 truck "n.01" x3    % truck [36...41]
+                      % . [41...42]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                                %             
+%SBN% tell.v.02   Agent -1 Recipient +1 Topic +2            % Tell        [0-4]
+%SBN% person.n.01 EQU speaker                               % me          [5-7]
+%SBN% entity.n.01                                           % what        [8-12]
+%SBN% really.r.02                                           % really      [13-19]
+%SBN% happen.v.02 Theme -2 Degree -1 Time +1 Destination +2 % happened  --to-- [20-31]
+%SBN% time.n.08   TPR now                                   %             
+%SBN% truck.n.01                                            %  --the-- truck --.--  [32-42]

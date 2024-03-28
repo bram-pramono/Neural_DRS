@@ -1,0 +1,27 @@
+% Helen ran to the toilet.
+
+
+b1 REF x1             % Helen [0...5]
+b1 Name x1 "helen"    % Helen [0...5]
+b1 PRESUPPOSITION b2  % Helen [0...5]
+b1 female "n.02" x1   % Helen [0...5]
+b2 REF e1             % ran [6...9]
+b2 REF t1             % ran [6...9]
+b2 TPR t1 "now"       % ran [6...9]
+b2 Theme e1 x1        % ran [6...9]
+b2 Time e1 t1         % ran [6...9]
+b2 run "v.01" e1      % ran [6...9]
+b2 time "n.08" t1     % ran [6...9]
+b2 Destination e1 x2  % to [10...12]
+b3 REF x2             % the [13...16]
+b3 PRESUPPOSITION b2  % the [13...16]
+b3 toilet "n.01" x2   % toilet [17...23]
+                      % . [23...24]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02 Name "Helen"                    % Helen       [0-5]
+%SBN% run.v.01    Theme -1 Time +1 Destination +2 % ran  --to--      [6-12]
+%SBN% time.n.08   TPR now                         %             
+%SBN% toilet.n.01                                 %  --the-- toilet --.-- [13-24]

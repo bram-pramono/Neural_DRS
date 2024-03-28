@@ -1,0 +1,70 @@
+% Good God, if you are watching, give me strength.
+
+
+b1 REF x2              %
+b1 EQU x2 "hearer"     %
+b1 person "n.01" x2    %
+b2 REF x6              %
+b2 EQU x6 "hearer"     %
+b2 person "n.01" x6    %
+b1 REF x1              % Good [0...4]
+b1 Attribute e1 x1     % Good [0...4]
+b1 god "n.01" x1       % God [5...8]
+                       % , [8...9]
+b1 CONSEQUENCE b2      % if [10...12]
+b1 REF x5              % you [13...16]
+b1 EQU x5 "hearer"     % you [13...16]
+b1 person "n.01" x5    % you [13...16]
+b1 Time e2 t1          % are [17...20]
+b1 REF t1              % are [17...20] give [31...35]
+b1 EQU t1 "now"        % are [17...20] give [31...35]
+b1 time "n.08" t1      % are [17...20] give [31...35]
+b1 REF e2              % watching [21...29]
+b1 Agent e2 x5         % watching [21...29]
+b1 watch "v.03" e2     % watching [21...29]
+                       % , [29...30]
+b1 REF e1              % give [31...35]
+b1 REF t2              % give [31...35]
+b1 Agent e1 x2         % give [31...35]
+b1 EQU t2 "now"        % give [31...35]
+b1 Recipient e1 x4     % give [31...35]
+b1 Theme e1 x3         % give [31...35]
+b1 Time e1 t1          % give [31...35]
+b1 give "v.01" e1      % give [31...35]
+b1 time "n.08" t2      % give [31...35]
+b2 REF e3              % give [31...35]
+b2 Agent e3 x6         % give [31...35]
+b2 Recipient e3 x8     % give [31...35]
+b2 Theme e3 x7         % give [31...35]
+b2 Time e3 t2          % give [31...35]
+b2 give "v.01" e3      % give [31...35]
+b1 REF x4              % me [36...38]
+b1 EQU x4 "speaker"    % me [36...38]
+b1 person "n.01" x4    % me [36...38]
+b2 REF x8              % me [36...38]
+b2 EQU x8 "speaker"    % me [36...38]
+b2 person "n.01" x8    % me [36...38]
+b1 REF x3              % strength [39...47]
+b1 strength "n.09" x3  % strength [39...47]
+b2 REF x7              % strength [39...47]
+b2 strength "n.09" x7  % strength [39...47]
+                       % . [47...48]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01   EQU hearer                                          %              
+%SBN% god.n.01                                                          %  --Good-- God --,--  --if-- [0-12]
+%SBN% person.n.01   EQU hearer                                          % you          [13-16]
+%SBN% time.n.08     EQU now                                             % are          [17-20]
+%SBN% watch.v.03    Agent -2 Time -1                                    % watching --,--    [21-30]
+%SBN% give.v.01     Agent -5 Attribute -4 Time +1 Recipient +2 Theme +3 % give         [31-35]
+%SBN% time.n.08     EQU now                                             %              
+%SBN% person.n.01   EQU speaker                                         % me           [36-38]
+%SBN% strength.n.09                                                     % strength --.--    [39-48]
+%SBN%               CONSEQUENCE &lt;1                                      %              
+%SBN% person.n.01   EQU hearer                                          %              
+%SBN% give.v.01     Agent -1 Time +1 Recipient +2 Theme +3              %              
+%SBN% time.n.08     EQU now                                             %              
+%SBN% person.n.01   EQU speaker                                         %              
+%SBN% strength.n.09                                                     %              

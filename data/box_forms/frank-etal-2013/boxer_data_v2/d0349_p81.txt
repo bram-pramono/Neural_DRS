@@ -1,0 +1,36 @@
+% Normally they want to cut things up.
+
+
+b2 REF s1              % Normally [0...8]
+b2 Manner e1 s1        % Normally [0...8]
+b2 normally "r.01" s1  % Normally [0...8]
+b1 REF x1              % they [9...13]
+b1 PRESUPPOSITION b2   % they [9...13]
+b1 person "n.01" x1    % they [9...13]
+b2 REF e1              % want [14...18]
+b2 REF t1              % want [14...18]
+b2 EQU t1 "now"        % want [14...18]
+b2 Pivot e1 x1         % want [14...18]
+b2 Theme e1 e2         % want [14...18]
+b2 Time e1 t1          % want [14...18]
+b2 time "n.08" t1      % want [14...18]
+b2 want "v.02" e1      % want [14...18]
+                       % to [19...21]
+b2 REF e2              % cut [22...25]
+b2 Agent e2 x1         % cut [22...25]
+b2 Patient e2 x2       % cut [22...25]
+b2 cut_up "v.01" e2    % cut [22...25]
+b2 REF x2              % things [26...32]
+b2 thing "n.12" x2     % things [26...32]
+                       % up [33...35]
+                       % . [35...36]
+				
+
+% Sequence Box Notation
+
+%SBN% normally.r.01                                     % Normally   [0-8]
+%SBN% person.n.01                                       % they       [9-13]
+%SBN% want.v.02     Manner -2 Pivot -1 Time +1 Theme +2 % want  --to--    [14-21]
+%SBN% time.n.08     EQU now                             %            
+%SBN% cut_up.v.01   Agent -3 Patient +1                 % cut        [22-25]
+%SBN% thing.n.12                                        % things  --up.-- [26-36]

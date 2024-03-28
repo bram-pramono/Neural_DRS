@@ -1,0 +1,32 @@
+% There will be men to kill either way.
+
+
+b1 REF x1            % There [0...5]
+b1 entity "n.01" x1  % There [0...5]
+b1 REF t1            % will [6...10]
+b1 TPR "now" t1      % will [6...10]
+b1 Time e1 t1        % will [6...10]
+b1 time "n.08" t1    % will [6...10]
+b1 REF e1            % be [11...13]
+b1 Agent e1 x1       % be [11...13]
+b1 Recipient e1 x2   % be [11...13]
+b1 Topic e1 e2       % be [11...13]
+b1 be "v.04" e1      % be [11...13]
+b1 REF x2            % men [14...17]
+b1 man "n.01" x2     % men [14...17]
+                     % to [18...20]
+b1 REF e2            % kill [21...25]
+b1 Patient e2 x2     % kill [21...25]
+b1 kill "v.01" e2    % kill [21...25]
+                     % either [26...32]
+                     % way [33...36]
+                     % . [36...37]
+				
+
+% Sequence Box Notation
+
+%SBN% entity.n.01                                        % There            [0-5]
+%SBN% time.n.08   TSU now                                % will             [6-10]
+%SBN% be.v.04     Agent -2 Time -1 Recipient +1 Topic +2 % be               [11-13]
+%SBN% man.n.01                                           % men  --to--           [14-20]
+%SBN% kill.v.01   Patient -1                             % kill  --either--  --way.-- [21-37]

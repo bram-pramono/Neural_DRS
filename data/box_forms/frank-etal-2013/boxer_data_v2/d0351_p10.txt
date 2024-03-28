@@ -1,0 +1,43 @@
+% Emma put her mug of tea down on the table with a bang.
+
+
+b1 REF x1             % her [9...12]
+b1 PRESUPPOSITION b2  % her [9...12]
+b1 Name x1 "emma"     % Emma [0...4]
+b1 female "n.02" x1   % Emma [0...4] her [9...12]
+b3 REF e1             % put [5...8]
+b3 REF t1             % put [5...8]
+b3 Agent e1 x1        % put [5...8]
+b3 TPR t1 "now"       % put [5...8]
+b3 Theme e1 x2        % put [5...8]
+b3 Time e1 t1         % put [5...8]
+b3 put "v.02" e1      % put [5...8]
+b3 time "n.08" t1     % put [5...8]
+b2 REF x2             % her [9...12]
+b2 PRESUPPOSITION b3  % her [9...12]
+b2 User x2 x1         % her [9...12]
+b2 mug "n.04" x2      % mug [13...16]
+b2 Content x2 x3      % of [17...19]
+b2 REF x3             % tea [20...23]
+b2 tea "n.01" x3      % tea [20...23]
+                      % down [24...28]
+b3 Location e1 x4     % on [29...31]
+b4 REF x4             % the [32...35]
+b4 PRESUPPOSITION b3  % the [32...35]
+b4 table "n.02" x4    % table [36...41]
+b3 Manner e1 x5       % with [42...46]
+b3 REF x5             % a [47...48]
+b3 bang "n.02" x5     % bang [49...53]
+                      % . [53...54]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02 Name "Emma"                                     % Emma           [0-4]
+%SBN% put.v.02    Agent -1 Time +1 Theme +3 Location +5 Manner +6 % put            [5-8]
+%SBN% time.n.08   TPR now                                         %                
+%SBN% female.n.02 ANA -3                                          % her            [9-12]
+%SBN% mug.n.04    User -1 Content +1                              % mug  --of--         [13-19]
+%SBN% tea.n.01                                                    % tea  --down--  --on--    [20-31]
+%SBN% table.n.02                                                  %  --the-- table  --with-- [32-46]
+%SBN% bang.n.02                                                   %  --a-- bang --.--        [47-54]

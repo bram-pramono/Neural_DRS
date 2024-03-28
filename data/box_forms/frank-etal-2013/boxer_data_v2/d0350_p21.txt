@@ -1,0 +1,46 @@
+% He lay his sword aside and extended his hands.
+
+
+b3 REF e1             % lay [3...6]
+b3 Agent e1 x1        % lay [3...6]
+b3 Theme e1 x2        % lay [3...6]
+b3 Time e1 t1         % lay [3...6]
+b3 lay "v.01" e1      % lay [3...6]
+b3 REF t1             % lay [3...6] extended [27...35]
+b3 TPR t1 "now"       % lay [3...6] extended [27...35]
+b3 time "n.08" t1     % lay [3...6] extended [27...35]
+b2 REF x2             % his [7...10]
+b2 PRESUPPOSITION b3  % his [7...10]
+b2 User x2 x1         % his [7...10]
+b2 sword "n.01" x2    % sword [11...16]
+b3 REF s1             % aside [17...22]
+b3 Manner e1 s1       % aside [17...22]
+b3 aside "r.01" s1    % aside [17...22]
+                      % and [23...26]
+b3 REF e2             % extended [27...35]
+b3 Agent e2 x1        % extended [27...35]
+b3 Theme e2 x3        % extended [27...35]
+b3 Time e2 t1         % extended [27...35]
+b3 extend "v.08" e2   % extended [27...35]
+b4 REF x3             % his [36...39]
+b4 PRESUPPOSITION b3  % his [36...39]
+b4 PartOf x3 x1       % his [36...39]
+b1 REF x1             % his [36...39] He [0...2] his [7...10]
+b1 PRESUPPOSITION b2  % his [36...39] He [0...2] his [7...10]
+b1 male "n.02" x1     % his [36...39] He [0...2] his [7...10]
+b4 hand "n.01" x3     % hands [40...45]
+                      % . [45...46]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                                       % He        [0-2]
+%SBN% lay.v.01    Agent -1 Time +1 Theme +3 Manner +4 % lay       [3-6]
+%SBN% time.n.08   TPR now                             %           
+%SBN% male.n.02   ANA -3                              % his       [7-10]
+%SBN% sword.n.01  User -1                             % sword     [11-16]
+%SBN% aside.r.01                                      % aside  --and-- [17-26]
+%SBN% extend.v.08 Agent -6 Time +1 Theme +3           % extended  [27-35]
+%SBN% time.n.08   TPR now                             %           
+%SBN% male.n.02   ANA -8                              % his       [36-39]
+%SBN% hand.n.01   PartOf -1                           % hands --.--    [40-46]

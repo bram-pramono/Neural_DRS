@@ -1,0 +1,34 @@
+% Simon nodded and walked into the room.
+
+
+b1 REF x1             % Simon [0...5]
+b1 Name x1 "simon"    % Simon [0...5]
+b1 PRESUPPOSITION b2  % Simon [0...5]
+b1 male "n.02" x1     % Simon [0...5]
+b2 REF e1             % nodded [6...12]
+b2 Agent e1 x1        % nodded [6...12]
+b2 Time e1 t1         % nodded [6...12]
+b2 nod "v.02" e1      % nodded [6...12]
+b2 REF t1             % nodded [6...12] walked [17...23]
+b2 TPR t1 "now"       % nodded [6...12] walked [17...23]
+b2 time "n.08" t1     % nodded [6...12] walked [17...23]
+                      % and [13...16]
+b2 REF e2             % walked [17...23]
+b2 Theme e2 x1        % walked [17...23]
+b2 Time e2 t1         % walked [17...23]
+b2 walk "v.01" e2     % walked [17...23]
+b2 Destination e2 x2  % into [24...28]
+b3 REF x2             % the [29...32]
+b3 PRESUPPOSITION b2  % the [29...32]
+b3 room "n.01" x2     % room [33...37]
+                      % . [37...38]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02 Name "Simon"                    % Simon       [0-5]
+%SBN% nod.v.02  Agent -1 Time +1                % nodded  --and--  [6-16]
+%SBN% time.n.08 TPR now                         %             
+%SBN% walk.v.01 Theme -3 Time +1 Destination +2 % walked  --into-- [17-28]
+%SBN% time.n.08 TPR now                         %             
+%SBN% room.n.01                                 %  --the-- room --.--   [29-38]

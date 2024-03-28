@@ -1,0 +1,26 @@
+% This man's hair is black.
+
+
+b1 REF x1             % This [0...4]
+b1 PRESUPPOSITION b2  % This [0...4]
+b1 man "n.01" x1      % man [5...8]
+b2 REF x2             % 's [8...10]
+b2 PRESUPPOSITION b3  % 's [8...10]
+b2 PartOf x2 x1       % 's [8...10]
+b2 hair "n.01" x2     % hair [11...15]
+b3 REF t1             % is [16...18]
+b3 EQU t1 "now"       % is [16...18]
+b3 Time s1 t1         % is [16...18]
+b3 time "n.08" t1     % is [16...18]
+b3 REF s1             % black [19...24]
+b3 ColourOf s1 x2     % black [19...24]
+b3 black "a.01" s1    % black [19...24]
+                      % . [24...25]
+				
+
+% Sequence Box Notation
+
+%SBN% man.n.01                       %  --This-- man --'s-- [0-10]
+%SBN% hair.n.01  PartOf -1           % hair       [11-15]
+%SBN% time.n.08  EQU now             % is         [16-18]
+%SBN% black.a.01 ColourOf -2 Time -1 % black --.--     [19-25]

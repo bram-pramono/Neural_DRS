@@ -1,0 +1,53 @@
+% I think our friend's demands are well justified.
+
+
+b1 REF x1               % I [0...1]
+b1 EQU x1 "speaker"     % I [0...1]
+b1 person "n.01" x1     % I [0...1]
+b1 REF e1               % think [2...7]
+b1 Agent e1 x1          % think [2...7]
+b1 Proposition e1 b4    % think [2...7]
+b1 Time e1 t1           % think [2...7]
+b1 think "v.01" e1      % think [2...7]
+b1 REF t1               % think [2...7] are [29...32]
+b1 EQU t1 "now"         % think [2...7] are [29...32]
+b1 time "n.08" t1       % think [2...7] are [29...32]
+b2 REF x2               % our [8...11]
+b2 REF x3               % our [8...11]
+b2 PRESUPPOSITION b3    % our [8...11]
+b2 Sub x3 "speaker"     % our [8...11]
+b2 User x2 x3           % our [8...11]
+b2 person "n.01" x3     % our [8...11]
+b2 REF x4               % friend [12...18]
+b2 PRESUPPOSITION b4    % friend [12...18]
+b2 Role x2 x4           % friend [12...18]
+b2 friend "n.01" x4     % friend [12...18]
+b2 person "n.01" x2     % friend [12...18]
+b3 REF x5               % 's [18...20]
+b3 PRESUPPOSITION b4    % 's [18...20]
+b3 User x5 x2           % 's [18...20]
+b3 demand "n.01" x5     % demands [21...28]
+b1 PRESUPPOSITION b4    % are [29...32]
+b4 Time s1 t1           % are [29...32]
+b4 REF s2               % well [33...37]
+b4 Attribute s1 s2      % well [33...37]
+b4 well "a.01" s2       % well [33...37]
+b4 REF s1               % justified [38...47]
+b4 AttributeOf s1 x5    % justified [38...47]
+b4 justified "a.01" s1  % justified [38...47]
+                        % . [47...48]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01    EQU speaker                         % I          [0-1]
+%SBN% think.v.01     Proposition &gt;1 Agent -1 Time +1     % think      [2-7]
+%SBN% time.n.08      EQU now                             %            
+%SBN%                CONTINUATION &lt;0                     %            
+%SBN% person.n.01    Sub speaker                         % our        [8-11]
+%SBN% person.n.01    User -1 Role +1                     % friend --'s--   [12-20]
+%SBN% friend.n.01                                        %            
+%SBN% demand.n.01    User -2                             % demands    [21-28]
+%SBN% time.n.08      EQU now                             % are        [29-32]
+%SBN% well.a.01                                          % well       [33-37]
+%SBN% justified.a.01 AttributeOf -3 Time -2 Attribute -1 % justified --.-- [38-48]

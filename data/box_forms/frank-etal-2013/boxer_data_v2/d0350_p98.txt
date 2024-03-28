@@ -1,0 +1,58 @@
+% Let us give battle to these foreign snakes once and for all.
+
+
+                      % Let [0...3]
+b1 REF x1             % us [4...6]
+b1 Sub x1 "speaker"   % us [4...6]
+b1 person "n.01" x1   % us [4...6]
+b1 REF e1             % give [7...11]
+b1 Agent e1 x1        % give [7...11]
+b1 Theme e1 x2        % give [7...11]
+b1 give "v.09" e1     % give [7...11]
+b3 REF e2             % give [7...11]
+b3 Agent e2 x1        % give [7...11]
+b3 Theme e2 x5        % give [7...11]
+b3 give "v.09" e2     % give [7...11]
+b1 REF x2             % battle [12...18]
+b1 battle "n.01" x2   % battle [12...18]
+b3 REF x5             % battle [12...18]
+b3 battle "n.01" x5   % battle [12...18]
+b1 Recipient e1 x3    % to [19...21]
+b3 Recipient e2 x6    % to [19...21]
+b2 REF x3             % these [22...27]
+b2 REF x6             % these [22...27]
+b2 REF s1             % foreign [28...35]
+b2 REF s2             % foreign [28...35]
+b2 AttributeOf s1 x3  % foreign [28...35]
+b2 AttributeOf s2 x6  % foreign [28...35]
+b2 PRESUPPOSITION b1  % foreign [28...35]
+b2 PRESUPPOSITION b3  % foreign [28...35]
+b2 foreign "a.02" s1  % foreign [28...35]
+b2 foreign "a.02" s2  % foreign [28...35]
+b2 snake "n.01" x3    % snakes [36...42]
+b2 snake "n.01" x6    % snakes [36...42]
+b1 REF x4             % once [43...47]
+b1 Frequency e1 x4    % once [43...47]
+b1 Quantity x4 "1"    % once [43...47]
+b1 time "n.01" x4     % once [43...47]
+b1 CONTINUATION b3    % and [48...51]
+b3 Manner e2 s3       % for [52...55]
+b3 REF s3             % all [56...59]
+b3 wholly "r.01" s3   % all [56...59]
+                      % . [59...60]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01  Sub speaker                                 %  --Let-- us        [0-6]
+%SBN% give.v.09    Agent -1 Theme +1 Recipient +3 Frequency +4 % give          [7-11]
+%SBN% battle.n.01                                              % battle  --to--     [12-21]
+%SBN% foreign.a.02 AttributeOf +1                              %  --these-- foreign [22-35]
+%SBN% snake.n.01                                               % snakes        [36-42]
+%SBN% time.n.01    Quantity 1                                  % once  --and--  --for--  [43-55]
+%SBN%              CONTINUATION &lt;1                             %               
+%SBN% give.v.09    Agent -6 Theme +1 Recipient +3 Manner +4    %               
+%SBN% battle.n.01                                              %               
+%SBN% foreign.a.02 AttributeOf +1                              %               
+%SBN% snake.n.01                                               %               
+%SBN% wholly.r.01                                              % all --.--          [56-60]

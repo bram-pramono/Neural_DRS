@@ -1,0 +1,68 @@
+% I flung out my hands and they said I had broken my wrists.
+
+
+b1 REF x1             % I [0...1]
+b1 EQU x1 "speaker"   % I [0...1]
+b1 person "n.01" x1   % I [0...1]
+b1 REF e1             % flung [2...7]
+b1 Agent e1 x1        % flung [2...7]
+b1 Theme e1 x2        % flung [2...7]
+b1 Time e1 t1         % flung [2...7]
+b1 fling "v.02" e1    % flung [2...7]
+b1 REF t1             % flung [2...7] said [30...34] broken [41...47]
+b1 TPR t1 "now"       % flung [2...7] said [30...34] broken [41...47]
+b1 time "n.08" t1     % flung [2...7] said [30...34] broken [41...47]
+                      % out [8...11]
+b2 REF x2             % my [12...14]
+b2 REF x3             % my [12...14]
+b2 EQU x3 "speaker"   % my [12...14]
+b2 PRESUPPOSITION b1  % my [12...14]
+b2 User x2 x3         % my [12...14]
+b2 person "n.01" x3   % my [12...14]
+b2 hand "n.01" x2     % hands [15...20]
+b1 CONTINUATION b4    % and [21...24]
+b3 REF x4             % they [25...29]
+b3 PRESUPPOSITION b4  % they [25...29]
+b3 person "n.01" x4   % they [25...29]
+b4 REF e2             % said [30...34]
+b4 Agent e2 x4        % said [30...34]
+b4 Proposition e2 b5  % said [30...34]
+b4 Time e2 t1         % said [30...34]
+b4 say "v.01" e2      % said [30...34]
+b5 REF x5             % I [35...36]
+b5 EQU x5 "speaker"   % I [35...36]
+b5 person "n.01" x5   % I [35...36]
+                      % had [37...40]
+b1 PRESUPPOSITION b5  % broken [41...47]
+b5 REF e3             % broken [41...47]
+b5 Agent e3 x5        % broken [41...47]
+b5 Patient e3 x6      % broken [41...47]
+b5 Time e3 t1         % broken [41...47]
+b5 break "v.57" e3    % broken [41...47]
+b6 REF x6             % my [48...50]
+b6 REF x7             % my [48...50]
+b6 EQU x7 "speaker"   % my [48...50]
+b6 PRESUPPOSITION b5  % my [48...50]
+b6 PartOf x6 x7       % my [48...50]
+b6 person "n.01" x7   % my [48...50]
+b6 wrist "n.01" x6    % wrists [51...57]
+                      % . [57...58]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker                     % I         [0-1]
+%SBN% fling.v.02  Agent -1 Time +1 Theme +3       % flung  --out-- [2-11]
+%SBN% time.n.08   TPR now                         %           
+%SBN% person.n.01 EQU speaker                     % my        [12-14]
+%SBN% hand.n.01   User -1                         % hands  --and-- [15-24]
+%SBN%             CONTINUATION &lt;1                 %           
+%SBN% person.n.01                                 % they      [25-29]
+%SBN% say.v.01    Proposition &gt;1 Agent -1 Time +1 % said      [30-34]
+%SBN% time.n.08   TPR now                         %           
+%SBN%             CONTINUATION &lt;0                 %           
+%SBN% person.n.01 EQU speaker                     % I  --had--     [35-40]
+%SBN% break.v.57  Agent -1 Time +1 Patient +3     % broken    [41-47]
+%SBN% time.n.08   TPR now                         %           
+%SBN% person.n.01 EQU speaker                     % my        [48-50]
+%SBN% wrist.n.01  PartOf -1                       % wrists --.--   [51-58]

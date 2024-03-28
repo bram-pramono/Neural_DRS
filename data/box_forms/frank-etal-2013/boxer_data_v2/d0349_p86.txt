@@ -1,0 +1,25 @@
+% The dead must not kill the living.
+
+
+b1 REF x1             % The [0...3]
+b1 PRESUPPOSITION b2  % The [0...3]
+b1 dead "n.01" x1     % dead [4...8]
+b3 NECESSITY b5       % must [9...13]
+b2 NEGATION b3        % not [14...17]
+b5 REF e1             % kill [18...22]
+b5 Agent e1 x1        % kill [18...22]
+b5 Patient e1 x2      % kill [18...22]
+b5 kill "v.01" e1     % kill [18...22]
+b4 REF x2             % the [23...26]
+b4 PRESUPPOSITION b5  % the [23...26]
+b4 living "n.02" x2   % living [27...33]
+                      % . [33...34]
+				
+
+% Sequence Box Notation
+
+%SBN% dead.n.01                       %  --The-- dead  --must--  --not-- [0-17]
+%SBN%             NEGATION &lt;1         %                   
+%SBN%             NECESSITY &lt;1        %                   
+%SBN% kill.v.01   Agent -1 Patient +1 % kill              [18-22]
+%SBN% living.n.02                     %  --the-- living --.--       [23-34]

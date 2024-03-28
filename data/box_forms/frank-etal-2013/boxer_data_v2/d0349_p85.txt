@@ -1,0 +1,40 @@
+% The bored looking soldier continued looking bored.
+
+
+b1 REF x1              % The [0...3]
+                       % bored [4...9]
+b1 REF s1              % looking [10...17]
+b1 PRESUPPOSITION b2   % looking [10...17]
+b1 Theme s1 x1         % looking [10...17]
+b1 looking "a.01" s1   % looking [10...17]
+b1 REF x2              % soldier [18...25]
+b1 Role x1 x2          % soldier [18...25]
+b1 person "n.01" x1    % soldier [18...25]
+b1 soldier "n.01" x2   % soldier [18...25]
+b2 REF e1              % continued [26...35]
+b2 REF t1              % continued [26...35]
+b2 Agent e1 x1         % continued [26...35]
+b2 TPR t1 "now"        % continued [26...35]
+b2 Theme e1 e2         % continued [26...35]
+b2 Time e1 t1          % continued [26...35]
+b2 continue "v.01" e1  % continued [26...35]
+b2 time "n.08" t1      % continued [26...35]
+b2 REF e2              % looking [36...43]
+b2 Attribute e2 s2     % looking [36...43]
+b2 Theme e2 x1         % looking [36...43]
+b2 look "v.02" e2      % looking [36...43]
+b2 REF s2              % bored [44...49]
+b2 Experiencer s2 x1   % bored [44...49]
+b2 bored "a.01" s2     % bored [44...49]
+                       % . [49...50]
+				
+
+% Sequence Box Notation
+
+%SBN% looking.a.01  Theme +1                  %  --The--  --bored-- looking [0-17]
+%SBN% person.n.01   Role +1                   % soldier           [18-25]
+%SBN% soldier.n.01                            %                   
+%SBN% continue.v.01 Agent -2 Time +1 Theme +2 % continued         [26-35]
+%SBN% time.n.08     TPR now                   %                   
+%SBN% look.v.02     Theme -4 Attribute +1     % looking           [36-43]
+%SBN% bored.a.01    Experiencer -5            % bored --.--            [44-50]

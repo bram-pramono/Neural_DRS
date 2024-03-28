@@ -1,0 +1,46 @@
+% He was built with muscle and liked to throw his weight around.
+
+
+b1 REF x1             % He [0...2] his [44...47]
+b1 PRESUPPOSITION b3  % He [0...2] his [44...47]
+b1 male "n.02" x1     % He [0...2] his [44...47]
+b2 Time e1 t1         % was [3...6]
+b2 REF t1             % was [3...6] liked [29...34]
+b2 TPR t1 "now"       % was [3...6] liked [29...34]
+b2 time "n.08" t1     % was [3...6] liked [29...34]
+b2 REF e1             % built [7...12]
+b2 Product e1 x1      % built [7...12]
+b2 build "v.02" e1    % built [7...12]
+b2 Theme e1 x2        % with [13...17]
+b2 REF x2             % muscle [18...24]
+b2 muscle "n.05" x2   % muscle [18...24]
+                      % and [25...28]
+b2 REF e2             % liked [29...34]
+b2 Experiencer e2 x1  % liked [29...34]
+b2 Stimulus e2 e3     % liked [29...34]
+b2 Time e2 t1         % liked [29...34]
+b2 like "v.02" e2     % liked [29...34]
+                      % to [35...37]
+b2 REF e3             % throw [38...43]
+b2 Agent e3 x1        % throw [38...43]
+b2 Theme e3 x3        % throw [38...43]
+b2 throw "v.02" e3    % throw [38...43]
+b3 REF x3             % his [44...47]
+b3 PRESUPPOSITION b2  % his [44...47]
+b3 PartOf x3 x1       % his [44...47]
+b3 weight "n.01" x3   % weight [48...54]
+                      % around [55...61]
+                      % . [61...62]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                                      % He             [0-2]
+%SBN% time.n.08   TPR now                            % was            [3-6]
+%SBN% build.v.02  Product -2 Time -1 Theme +1        % built  --with--     [7-17]
+%SBN% muscle.n.05                                    % muscle  --and--     [18-28]
+%SBN% like.v.02   Experiencer -4 Time +1 Stimulus +2 % liked  --to--       [29-37]
+%SBN% time.n.08   TPR now                            %                
+%SBN% throw.v.02  Agent -6 Theme +2                  % throw          [38-43]
+%SBN% male.n.02   ANA -7                             % his            [44-47]
+%SBN% weight.n.01 PartOf -1                          % weight  --around.-- [48-62]

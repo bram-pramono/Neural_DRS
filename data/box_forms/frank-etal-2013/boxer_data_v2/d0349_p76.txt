@@ -1,0 +1,30 @@
+% Steve sat down to eat his lunch.
+
+
+b1 REF x1              % his [22...25]
+b1 PRESUPPOSITION b3   % his [22...25]
+b1 Name x1 "steve"     % Steve [0...5]
+b1 male "n.02" x1      % Steve [0...5] his [22...25]
+b2 REF e1              % sat~down [6...14]
+b2 Agent e1 x1         % sat~down [6...14]
+b2 Topic e1 e2         % sat~down [6...14]
+b2 sat~down "v.01" e1  % sat~down [6...14]
+                       % to [15...17]
+b2 REF e2              % eat [18...21]
+b2 Agent e2 x1         % eat [18...21]
+b2 Patient e2 x2       % eat [18...21]
+b2 eat "v.01" e2       % eat [18...21]
+b3 REF x2              % his [22...25]
+b3 Consumer x2 x1      % his [22...25]
+b3 PRESUPPOSITION b2   % his [22...25]
+b3 lunch "n.01" x2     % lunch [26...31]
+                       % . [31...32]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Steve"        % Steve       [0-5]
+%SBN% sat_down.v.01 Agent -1 Topic +1   % sat down  --to-- [6-17]
+%SBN% eat.v.01      Agent -2 Patient +2 % eat         [18-21]
+%SBN% male.n.02     ANA -3              % his         [22-25]
+%SBN% lunch.n.01    Consumer -1         % lunch --.--      [26-32]

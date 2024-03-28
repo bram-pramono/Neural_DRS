@@ -1,0 +1,49 @@
+% Let me through and you'll hear nothing more of it.
+
+
+b1 REF e1             % Let [0...3]
+b1 REF t1             % Let [0...3]
+b1 EQU t1 "now"       % Let [0...3]
+b1 Patient e1 x1      % Let [0...3]
+b1 Time e1 t1         % Let [0...3]
+b1 let "v.03" e1      % Let [0...3]
+b1 time "n.08" t1     % Let [0...3]
+b1 REF x1             % me [4...6]
+b1 EQU x1 "speaker"   % me [4...6]
+b1 person "n.01" x1   % me [4...6]
+                      % through [7...14]
+b1 CONTINUATION b2    % and [15...18]
+b2 REF x2             % you [19...22]
+b2 EQU x2 "hearer"    % you [19...22]
+b2 person "n.01" x2   % you [19...22]
+b1 REF t2             % 'll [22...25]
+b1 PRESUPPOSITION b3  % 'll [22...25]
+b1 TPR "now" t2       % 'll [22...25]
+b1 time "n.08" t2     % 'll [22...25]
+b3 Time e2 t2         % 'll [22...25]
+b3 REF e2             % hear [26...30]
+b3 Agent e2 x2        % hear [26...30]
+b3 Theme e2 x3        % hear [26...30]
+b3 hear "v.01" e2     % hear [26...30]
+b2 NEGATION b3        % nothing [31...38]
+b3 REF x3             % nothing [31...38]
+b3 entity "n.01" x3   % more [39...43]
+b3 Of x3 x4           % of [44...46]
+b4 REF x4             % it [47...49]
+b4 PRESUPPOSITION b3  % it [47...49]
+b4 entity "n.01" x4   % it [47...49]
+                      % . [49...50]
+				
+
+% Sequence Box Notation
+
+%SBN% let.v.03    Time +1 Patient +2        % Let            [0-3]
+%SBN% time.n.08   EQU now                   %                
+%SBN% person.n.01 EQU speaker               % me  --through--  --and-- [4-18]
+%SBN%             CONTINUATION &lt;1           %                
+%SBN% person.n.01 EQU hearer                % you            [19-22]
+%SBN% time.n.08   TSU now                   % 'll            [22-25]
+%SBN%             NEGATION &lt;1               %                
+%SBN% hear.v.01   Agent -2 Time -1 Theme +1 % hear  --nothing--   [26-38]
+%SBN% entity.n.01 Of +1                     % more  --of--        [39-46]
+%SBN% entity.n.01 ANA -1                    % it --.--            [47-50]

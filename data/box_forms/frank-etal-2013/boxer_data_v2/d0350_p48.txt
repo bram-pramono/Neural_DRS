@@ -1,0 +1,54 @@
+% Jake smiled again at his baby daughter, she was perfect.
+
+
+b1 REF x1              % his [21...24]
+b1 PRESUPPOSITION b3   % his [21...24]
+b1 Name x1 "jake"      % Jake [0...4]
+b1 male "n.02" x1      % Jake [0...4] his [21...24]
+b2 REF e1              % smiled [5...11]
+b2 Agent e1 x1         % smiled [5...11]
+b2 Time e1 t1          % smiled [5...11]
+b2 smile "v.01" e1     % smiled [5...11]
+b2 REF t1              % smiled [5...11] was [44...47]
+b2 TPR t1 "now"        % smiled [5...11] was [44...47]
+b2 time "n.08" t1      % smiled [5...11] was [44...47]
+                       % again [12...17]
+b2 Recipient e1 x2     % at [18...20]
+b3 Creator x4 x1       % his [21...24]
+b3 REF x2              % his [21...24] she [40...43]
+b3 REF x3              % baby [25...29]
+b3 Attribute x2 x3     % baby [25...29]
+b3 baby "n.01" x3      % baby [25...29]
+b3 REF x4              % daughter [30...38]
+b3 PRESUPPOSITION b2   % daughter [30...38]
+b3 Role x2 x4          % daughter [30...38]
+b3 daughter "n.01" x4  % daughter [30...38]
+b3 person "n.01" x2    % daughter [30...38]
+b2 CONTINUATION b4     % , [38...39]
+b3 PRESUPPOSITION b4   % she [40...43]
+b3 female "n.02" x2    % she [40...43]
+b4 REF e2              % was [44...47]
+b4 Agent e2 x2         % was [44...47]
+b4 Time e2 t1          % was [44...47]
+b4 Topic e2 s1         % was [44...47]
+b4 be "v.01" e2        % was [44...47]
+b4 REF s1              % perfect [48...55]
+b4 AttributeOf s1 x2   % perfect [48...55]
+b4 perfect "a.01" s1   % perfect [48...55]
+                       % . [55...56]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Jake"                   % Jake            [0-4]
+%SBN% smile.v.01    Agent -1 Time +1 Recipient +4 % smiled  --again--  --at-- [5-20]
+%SBN% time.n.08     TPR now                       %                 
+%SBN% male.n.02     ANA -3                        % his             [21-24]
+%SBN% baby.n.01                                   % baby            [25-29]
+%SBN% person.n.01   Attribute -1 Role +1          % daughter --,--       [30-39]
+%SBN% daughter.n.01 Creator -3                    %                 
+%SBN%               CONTINUATION &lt;1               %                 
+%SBN% female.n.02   ANA -2                        % she             [40-43]
+%SBN% be.v.01       Agent -1 Time +1 Topic +2     % was             [44-47]
+%SBN% time.n.08     TPR now                       %                 
+%SBN% perfect.a.01  AttributeOf -3                % perfect --.--        [48-56]

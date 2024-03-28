@@ -1,0 +1,56 @@
+% He was already up and dressed and invited us in for a cup of tea.
+
+
+b1 REF x1             % He [0...2]
+b1 PRESUPPOSITION b2  % He [0...2]
+b1 male "n.02" x1     % He [0...2]
+b2 REF t2             % was [3...6]
+b2 PRESUPPOSITION b4  % was [3...6]
+b2 TPR t2 "now"       % was [3...6]
+b2 time "n.08" t2     % was [3...6]
+b4 Time e2 t2         % was [3...6]
+                      % already [7...14]
+                      % up [15...17]
+b2 NEGATION b3        % and [18...21]
+b3 REF x5             % and [18...21]
+b3 NEGATION b4        % and [18...21]
+b3 and "n.01" x5      % and [18...21]
+b4 Time e2 x5         % and [18...21]
+b4 REF e2             % dressed [22...29]
+b4 Patient e2 x1      % dressed [22...29]
+b4 dress "v.01" e2    % dressed [22...29]
+                      % and [30...33]
+b2 REF e1             % invited [34...41]
+b2 REF t1             % invited [34...41]
+b2 Agent e1 x1        % invited [34...41]
+b2 TPR t1 "now"       % invited [34...41]
+b2 Theme e1 x2        % invited [34...41]
+b2 Time e1 t1         % invited [34...41]
+b2 invite "v.02" e1   % invited [34...41]
+b2 time "n.08" t1     % invited [34...41]
+b2 REF x2             % us [42...44]
+b2 Sub x2 "speaker"   % us [42...44]
+b2 person "n.01" x2   % us [42...44]
+                      % in [45...47]
+b2 Goal e1 x3         % for [48...51]
+b2 REF x3             % a [52...53]
+b2 cup "n.02" x3      % cup [54...57]
+b2 Content x3 x4      % of [58...60]
+b2 REF x4             % tea [61...64]
+b2 tea "n.01" x4      % tea [61...64]
+                      % . [64...65]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                                     % He             [0-2]
+%SBN% invite.v.02 Agent -1 Time +1 Theme +2 Goal +3 % invited        [34-41]
+%SBN% time.n.08   TPR now                           %                
+%SBN% person.n.01 Sub speaker                       % us  --in--  --for--      [42-51]
+%SBN% cup.n.02    Content +1                        %  --a-- cup  --of--       [52-60]
+%SBN% tea.n.01                                      % tea --.--           [61-65]
+%SBN%             NEGATION &lt;1                       %                
+%SBN% and.n.01                                      % and            [18-21]
+%SBN% time.n.08   TPR now                           % was  --already--  --up-- [3-17]
+%SBN%             NEGATION &lt;1                       %                
+%SBN% dress.v.01  Patient -8 Time -2 Time -1        % dressed  --and--    [22-33]

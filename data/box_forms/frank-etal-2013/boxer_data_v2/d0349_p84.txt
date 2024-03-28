@@ -1,0 +1,38 @@
+% She hid the boxes and matches well.
+
+
+b1 REF x1             % She [0...3]
+b1 PRESUPPOSITION b2  % She [0...3]
+b1 female "n.02" x1   % She [0...3]
+b2 REF e1             % hid [4...7]
+b2 REF t1             % hid [4...7]
+b2 Agent e1 x1        % hid [4...7]
+b2 Patient e1 x2      % hid [4...7]
+b2 TPR t1 "now"       % hid [4...7]
+b2 Time e1 t1         % hid [4...7]
+b2 hide "v.01" e1     % hid [4...7]
+b2 time "n.08" t1     % hid [4...7]
+b3 REF x3             % the [8...11]
+b3 PRESUPPOSITION b2  % the [8...11]
+b3 box "n.01" x3      % boxes [12...17]
+b2 REF x2             % and [18...21]
+b2 Sub x2 x3          % and [18...21]
+b2 Sub x2 x4          % and [18...21]
+b2 entity "n.01" x2   % and [18...21]
+b2 REF x4             % matches [22...29]
+b2 match "n.01" x4    % matches [22...29]
+b2 REF s1             % well [30...34]
+b2 Manner e1 s1       % well [30...34]
+b2 well "r.10" s1     % well [30...34]
+                      % . [34...35]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02                                       % She       [0-3]
+%SBN% hide.v.01   Agent -1 Time +1 Patient +3 Manner +5 % hid       [4-7]
+%SBN% time.n.08   TPR now                               %           
+%SBN% box.n.01                                          %  --the-- boxes [8-17]
+%SBN% entity.n.01 Sub -1 Sub +1                         % and       [18-21]
+%SBN% match.n.01                                        % matches   [22-29]
+%SBN% well.r.10                                         % well --.--     [30-35]

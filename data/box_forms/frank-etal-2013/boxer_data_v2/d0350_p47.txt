@@ -1,0 +1,47 @@
+% Ian gave Geoffrey a hard slap across his right ear.
+
+
+b1 REF x1              % Ian [0...3]
+b1 Name x1 "ian"       % Ian [0...3]
+b1 PRESUPPOSITION b2   % Ian [0...3]
+b1 male "n.02" x1      % Ian [0...3]
+b2 REF e1              % gave [4...8]
+b2 REF t1              % gave [4...8]
+b2 Agent e1 x1         % gave [4...8]
+b2 Recipient e1 x3     % gave [4...8]
+b2 TPR t1 "now"        % gave [4...8]
+b2 Theme e1 x2         % gave [4...8]
+b2 Time e1 t1          % gave [4...8]
+b2 give "v.01" e1      % gave [4...8]
+b2 time "n.08" t1      % gave [4...8]
+b3 REF x3              % his [37...40]
+b3 PRESUPPOSITION b4   % his [37...40]
+b3 Name x3 "geoffrey"  % Geoffrey [9...17]
+b3 male "n.02" x3      % Geoffrey [9...17] his [37...40]
+b2 REF x2              % a [18...19]
+b2 REF s1              % hard [20...24]
+b2 AttributeOf s1 x2   % hard [20...24]
+b2 hard "a.04" s1      % hard [20...24]
+b2 slap "n.01" x2      % slap [25...29]
+b2 Location e1 x4      % across [30...36]
+b4 REF x4              % his [37...40]
+b4 PartOf x4 x3        % his [37...40]
+b4 REF s2              % right [41...46]
+b4 AttributeOf s2 x4   % right [41...46]
+b4 PRESUPPOSITION b2   % right [41...46]
+b4 right "a.01" s2     % right [41...46]
+b4 ear "n.01" x4       % ear [47...50]
+                       % . [50...51]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02  Name "Ian"                                         % Ian         [0-3]
+%SBN% give.v.01  Agent -1 Time +1 Recipient +2 Theme +4 Location +7 % gave        [4-8]
+%SBN% time.n.08  TPR now                                            %             
+%SBN% male.n.02  Name "Geoffrey"                                    % Geoffrey    [9-17]
+%SBN% hard.a.04  AttributeOf +1                                     %  --a-- hard      [18-24]
+%SBN% slap.n.01                                                     % slap  --across-- [25-36]
+%SBN% male.n.02  ANA -3                                             % his         [37-40]
+%SBN% right.a.01 AttributeOf +1                                     % right       [41-46]
+%SBN% ear.n.01   PartOf -2                                          % ear --.--        [47-51]

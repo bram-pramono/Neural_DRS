@@ -1,0 +1,41 @@
+% Sam felt proud when he went home.
+
+
+b1 Name x1 "sam"      % Sam [0...3]
+b1 PRESUPPOSITION b2  % Sam [0...3]
+b1 REF x1             % Sam [0...3] he [20...22]
+b1 male "n.02" x1     % Sam [0...3] he [20...22]
+b2 REF e1             % felt [4...8]
+b2 Experiencer e1 x1  % felt [4...8]
+b2 Stimulus e1 s1     % felt [4...8]
+b2 Time e1 t1         % felt [4...8]
+b2 feel "v.04" e1     % felt [4...8]
+b2 REF t1             % felt [4...8] went [23...27]
+b2 TPR t1 "now"       % felt [4...8] went [23...27]
+b2 time "n.08" t1     % felt [4...8] went [23...27]
+b2 REF s1             % proud [9...14]
+b2 AttributeOf s1 x1  % proud [9...14]
+b2 proud "a.01" s1    % proud [9...14]
+b2 PRECONDITION b3    % when [15...19]
+b1 PRESUPPOSITION b3  % he [20...22]
+b3 REF e2             % went [23...27]
+b3 Location e2 x1     % went [23...27]
+b3 Theme e2 x2        % went [23...27]
+b3 Time e2 t1         % went [23...27]
+b3 go "v.01" e2       % went [23...27]
+b3 REF x2             % home [28...32]
+b3 home "n.01" x2     % home [28...32]
+                      % . [32...33]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02  Name "Sam"                         % Sam        [0-3]
+%SBN% feel.v.04  Experiencer -1 Time +1 Stimulus +2 % felt       [4-8]
+%SBN% time.n.08  TPR now                            %            
+%SBN% proud.a.01 AttributeOf -3                     % proud  --when-- [9-19]
+%SBN%            PRECONDITION &lt;1                    %            
+%SBN% male.n.02  ANA -4                             % he         [20-22]
+%SBN% go.v.01    Location -1 Time +1 Theme +2       % went       [23-27]
+%SBN% time.n.08  TPR now                            %            
+%SBN% home.n.01                                     % home --.--      [28-33]

@@ -1,0 +1,53 @@
+% Shut your smart foul mouth and sit down.
+
+
+b1 REF x1              %
+b1 EQU x1 "hearer"     %
+b1 person "n.01" x1    %
+b1 REF e1              % Shut [0...4]
+b1 REF e3              % Shut [0...4]
+b1 REF t1              % Shut [0...4]
+b1 REF t2              % Shut [0...4]
+b1 Agent e1 x1         % Shut [0...4]
+b1 Agent e3 x1         % Shut [0...4]
+b1 EQU t1 "now"        % Shut [0...4]
+b1 EQU t2 "now"        % Shut [0...4]
+b1 Patient e1 x2       % Shut [0...4]
+b1 Patient e3 e2       % Shut [0...4]
+b1 Time e1 t1          % Shut [0...4]
+b1 Time e3 t2          % Shut [0...4]
+b1 shut "v.01" e1      % Shut [0...4]
+b1 shut "v.01" e3      % Shut [0...4]
+b1 time "n.08" t1      % Shut [0...4]
+b1 time "n.08" t2      % Shut [0...4]
+b2 REF x2              % your [5...9]
+b2 REF x3              % your [5...9]
+b2 PartOf x3 "hearer"  % your [5...9]
+b2 User x2 x3          % your [5...9]
+b2 person "n.01" x3    % your [5...9]
+b2 REF s1              % smart [10...15]
+b2 AttributeOf s1 x2   % smart [10...15]
+b2 smart "a.04" s1     % smart [10...15]
+b2 REF s2              % foul [16...20]
+b2 AttributeOf s2 x2   % foul [16...20]
+b2 PRESUPPOSITION b1   % foul [16...20]
+b2 foul "a.01" s2      % foul [16...20]
+b2 mouth "n.01" x2     % mouth [21...26]
+                       % and [27...30]
+b1 REF e2              % sit~down [31...39]
+b1 sit_down "v.01" e2  % sit~down [31...39]
+                       % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01   EQU hearer                  %           
+%SBN% shut.v.01     Agent -1 Time +2 Patient +7 % Shut      [0-4]
+%SBN% shut.v.01     Agent -2 Time +2 Patient +7 %           
+%SBN% time.n.08     EQU now                     %           
+%SBN% time.n.08     EQU now                     %           
+%SBN% person.n.01   PartOf hearer               % your      [5-9]
+%SBN% smart.a.04    AttributeOf +2              % smart     [10-15]
+%SBN% foul.a.01     AttributeOf +1              % foul      [16-20]
+%SBN% mouth.n.01    User -3                     % mouth  --and-- [21-30]
+%SBN% sit_down.v.01                             % sit down --.-- [31-40]

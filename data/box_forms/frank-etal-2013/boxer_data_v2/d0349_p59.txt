@@ -1,0 +1,31 @@
+% She couldn't help feel for Alex.
+
+
+b1 REF x1              % She [0...3]
+b1 PRESUPPOSITION b2   % She [0...3]
+b1 female "n.02" x1    % She [0...3]
+b3 POSSIBILITY b4      % could [4...9]
+b2 NEGATION b3         % n't [9...12]
+b4 REF e1              % help [13...17]
+b4 Pivot e1 x1         % help [13...17]
+b4 Theme e1 e2         % help [13...17]
+b4 help "v.04" e1      % help [13...17]
+b4 REF e2              % feel [18...22]
+b4 Experiencer e2 x1   % feel [18...22]
+b4 feel_for "v.01" e2  % feel [18...22]
+b4 Beneficiary e2 x2   % for [23...26]
+b5 REF x2              % Alex [27...31]
+b5 Name x2 "alex"      % Alex [27...31]
+b5 PRESUPPOSITION b4   % Alex [27...31]
+b5 person "n.01" x2    % Alex [27...31]
+                       % . [31...32]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02                                 % She  --couldn't-- [0-12]
+%SBN%               NEGATION &lt;1                   %              
+%SBN%               POSSIBILITY &lt;1                %              
+%SBN% help.v.04     Pivot -1 Theme +1             % help         [13-17]
+%SBN% feel_for.v.01 Experiencer -2 Beneficiary +1 % feel  --for--     [18-26]
+%SBN% person.n.01   Name "Alex"                   % Alex --.--        [27-32]

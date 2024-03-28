@@ -1,0 +1,47 @@
+% You shouldn't have been racing my truck in the first place.
+
+
+b1 REF x1             % You [0...3]
+b1 EQU x1 "hearer"    % You [0...3]
+b1 person "n.01" x1   % You [0...3]
+b2 NECESSITY b4       % should [4...10]
+b1 NEGATION b2        % n't [10...13]
+                      % have [14...18]
+b1 REF t1             % been [19...23]
+b1 PRESUPPOSITION b4  % been [19...23]
+b1 TPR t1 "now"       % been [19...23]
+b1 time "n.08" t1     % been [19...23]
+b4 Time e1 t1         % been [19...23]
+b4 REF e1             % racing [24...30]
+b4 Agent e1 x1        % racing [24...30]
+b4 Theme e1 x2        % racing [24...30]
+b4 race "v.04" e1     % racing [24...30]
+b3 REF x2             % my [31...33]
+b3 REF x3             % my [31...33]
+b3 EQU x3 "speaker"   % my [31...33]
+b3 PRESUPPOSITION b4  % my [31...33]
+b3 User x2 x3         % my [31...33]
+b3 person "n.01" x3   % my [31...33]
+b3 truck "n.01" x2    % truck [34...39]
+b4 Context e1 x4      % in [40...42]
+b5 REF x4             % the [43...46]
+b5 REF x5             % first [47...52]
+b5 EQU x5 "1"         % first [47...52]
+b5 Order x4 x5        % first [47...52]
+b5 PRESUPPOSITION b4  % first [47...52]
+b5 rank "n.02" x5     % first [47...52]
+b5 place "n.06" x4    % place [53...58]
+                      % . [58...59]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                           % You  --shouldn't--  --have-- [0-18]
+%SBN%             NEGATION &lt;1                          %                    
+%SBN%             NECESSITY &lt;1                         %                    
+%SBN% time.n.08   TPR now                              % been               [19-23]
+%SBN% race.v.04   Agent -2 Time -1 Theme +2 Context +4 % racing             [24-30]
+%SBN% person.n.01 EQU speaker                          % my                 [31-33]
+%SBN% truck.n.01  User -1                              % truck  --in--           [34-42]
+%SBN% rank.n.02   EQU 1                                %  --the-- first          [43-52]
+%SBN% place.n.06  Order -1                             % place --.--             [53-59]

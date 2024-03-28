@@ -1,0 +1,39 @@
+% After lunch he was told he had visitors.
+
+
+b2 Time e1 x2         % After [0...5]
+b2 REF x2             % lunch [6...11]
+b2 lunch "n.01" x2    % lunch [6...11]
+b1 PRESUPPOSITION b2  % he [12...14]
+b1 REF x1             % he [12...14] he [24...26]
+b1 male "n.02" x1     % he [12...14] he [24...26]
+b2 REF t1             % was [15...18] told [19...23]
+b2 TPR t1 "now"       % was [15...18] told [19...23]
+b2 Time e1 t1         % was [15...18] told [19...23]
+b2 time "n.08" t1     % was [15...18] told [19...23]
+b2 REF e1             % told [19...23]
+b2 Proposition e1 b3  % told [19...23]
+b2 Topic e1 x1        % told [19...23]
+b2 tell "v.02" e1     % told [19...23]
+b1 PRESUPPOSITION b3  % he [24...26]
+b3 EQU x1 x3          % had [27...30]
+b3 TPR x1 "now"       % had [27...30]
+b3 REF x3             % visitors [31...39]
+b3 REF x4             % visitors [31...39]
+b3 Role x3 x4         % visitors [31...39]
+b3 person "n.01" x3   % visitors [31...39]
+b3 visitor "n.01" x4  % visitors [31...39]
+                      % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN% lunch.n.01                                                   %  --After-- lunch [0-11]
+%SBN% male.n.02                                                    % he          [12-14]
+%SBN% time.n.08    TPR now                                         % was         [15-18]
+%SBN% tell.v.02    Time -3 Time -1 Proposition &gt;1 Topic -2 Time +1 % told        [19-23]
+%SBN% time.n.08    TPR now                                         %             
+%SBN%              CONTINUATION &lt;0                                 %             
+%SBN% male.n.02    ANA -4 TPR now EQU +1                           % he  --had--      [24-30]
+%SBN% person.n.01  Role +1                                         % visitors --.--   [31-40]
+%SBN% visitor.n.01                                                 %             

@@ -1,0 +1,28 @@
+% He called over his shoulder.
+
+
+b1 REF x1              % He [0...2] his [15...18]
+b1 PRESUPPOSITION b3   % He [0...2] his [15...18]
+b1 male "n.02" x1      % He [0...2] his [15...18]
+b2 REF e1              % called [3...9]
+b2 REF t1              % called [3...9]
+b2 Agent e1 x1         % called [3...9]
+b2 TPR t1 "now"        % called [3...9]
+b2 Time e1 t1          % called [3...9]
+b2 call "v.04" e1      % called [3...9]
+b2 time "n.08" t1      % called [3...9]
+b2 Theme e1 x2         % over [10...14]
+b3 REF x2              % his [15...18]
+b3 PRESUPPOSITION b2   % his [15...18]
+b3 PartOf x2 x1        % his [15...18]
+b3 shoulder "n.01" x2  % shoulder [19...27]
+                       % . [27...28]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                               % He          [0-2]
+%SBN% call.v.04     Agent -1 Time +1 Theme +3 % called  --over-- [3-14]
+%SBN% time.n.08     TPR now                   %             
+%SBN% male.n.02     ANA -3                    % his         [15-18]
+%SBN% shoulder.n.01 PartOf -1                 % shoulder --.--   [19-28]

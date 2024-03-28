@@ -1,0 +1,49 @@
+% The police officer got out of the van and picked up the two cans.
+
+
+b1 REF x1                    % The [0...3]
+b1 REF x2                    % police~officer [4...18]
+b1 PRESUPPOSITION b2         % police~officer [4...18]
+b1 Role x1 x2                % police~officer [4...18]
+b1 person "n.01" x1          % police~officer [4...18]
+b1 police_officer "n.01" x2  % police~officer [4...18]
+b2 REF e1                    % got [19...22]
+b2 Theme e1 x1               % got [19...22]
+b2 Time e1 t1                % got [19...22]
+b2 get_out "v.01" e1         % got [19...22]
+b2 REF t1                    % got [19...22] picked [42...48]
+b2 TPR t1 "now"              % got [19...22] picked [42...48]
+b2 time "n.08" t1            % got [19...22] picked [42...48]
+                             % out [23...26]
+b2 Source e1 x3              % of [27...29]
+b3 REF x3                    % the [30...33]
+b3 PRESUPPOSITION b2         % the [30...33]
+b3 van "n.05" x3             % van [34...37]
+                             % and [38...41]
+b2 REF e2                    % picked [42...48]
+b2 Agent e2 x1               % picked [42...48]
+b2 Theme e2 x4               % picked [42...48]
+b2 Time e2 t1                % picked [42...48]
+b2 pick_up "v.02" e2         % picked [42...48]
+                             % up [49...51]
+b4 REF x4                    % the [52...55]
+b4 REF x5                    % two [56...59]
+b4 EQU x5 "2"                % two [56...59]
+b4 PRESUPPOSITION b2         % two [56...59]
+b4 Quantity x4 x5            % two [56...59]
+b4 quantity "n.01" x5        % two [56...59]
+b4 can "n.01" x4             % cans [60...64]
+                             % . [64...65]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01         Role +1                    %  --The-- police officer [0-18]
+%SBN% police_officer.n.01                            %                    
+%SBN% get_out.v.01        Theme -2 Time +1 Source +2 % got  --out--  --of--         [19-29]
+%SBN% time.n.08           TPR now                    %                    
+%SBN% van.n.05                                       %  --the-- van  --and--        [30-41]
+%SBN% pick_up.v.02        Agent -5 Time +1 Theme +3  % picked  --up--          [42-51]
+%SBN% time.n.08           TPR now                    %                    
+%SBN% quantity.n.01       EQU 2                      %  --the-- two            [52-59]
+%SBN% can.n.01            Quantity -1                % cans --.--              [60-65]

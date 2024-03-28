@@ -1,0 +1,63 @@
+% Whether Peter heard him or not Gabriel didn't care.
+
+
+1 CONTINUATION b4     % Whether [0...7]
+b3 PRESUPPOSITION b1  % him [20...23]
+b3 REF x1             % him [20...23] Gabriel [31...38]
+b3 Name x1 "peter"    % Peter [8...13]
+b3 male "n.02" x1     % Peter [8...13] him [20...23] Gabriel [31...38]
+b1 REF e1             % heard [14...19]
+b1 Experiencer e1 x1  % heard [14...19]
+b1 Stimulus e1 x1     % heard [14...19]
+b1 Time e1 t1         % heard [14...19]
+b1 hear "v.01" e1     % heard [14...19]
+b1 REF t1             % heard [14...19] did [39...42]
+b1 TPR t1 "now"       % heard [14...19] did [39...42]
+b1 time "n.08" t1     % heard [14...19] did [39...42]
+b1 NEGATION b2        % or [24...26]
+b2 NEGATION b1        % or [24...26]
+b2 NEGATION b6        % or [24...26]
+b6 NEGATION b7        % not [27...30]
+b3 REF x2             % Gabriel [31...38]
+b3 Name x1 "gabriel"  % Gabriel [31...38]
+b3 Name x2 "gabriel"  % Gabriel [31...38]
+b3 PRESUPPOSITION b4  % Gabriel [31...38]
+b3 PRESUPPOSITION b7  % Gabriel [31...38]
+b3 male "n.02" x2     % Gabriel [31...38]
+b1 REF t2             % did [39...42]
+b1 PRESUPPOSITION b5  % did [39...42]
+b1 PRESUPPOSITION b8  % did [39...42]
+b1 TPR t2 "now"       % did [39...42]
+b1 time "n.08" t2     % did [39...42]
+b5 Time e2 t1         % did [39...42]
+b8 Time e3 t2         % did [39...42]
+b4 NEGATION b5        % n't [42...45]
+b7 NEGATION b8        % n't [42...45]
+b5 REF e2             % care [46...50]
+b5 Experiencer e2 x1  % care [46...50]
+b5 care "v.01" e2     % care [46...50]
+b8 REF e3             % care [46...50]
+b8 Experiencer e3 x2  % care [46...50]
+b8 care "v.01" e3     % care [46...50]
+                      % . [50...51]
+				
+
+% Sequence Box Notation
+
+%SBN%           NEGATION &lt;1                        %               
+%SBN%           NEGATION &lt;1                        %               
+%SBN%           NEGATION &lt;1                        %               
+%SBN% male.n.02 Name "Gabriel"                     % Gabriel       [31-38]
+%SBN% time.n.08 TPR now                            % did --n't--        [39-45]
+%SBN%           NEGATION &lt;1                        %               
+%SBN% care.v.01 Experiencer -2 Time -1             % care --.--         [46-51]
+%SBN%           NEGATION &lt;4                        %               
+%SBN% male.n.02 Name "Peter"                       %  --Whether-- Peter [0-13]
+%SBN% hear.v.01 Experiencer -1 Time +1 Stimulus +2 % heard         [14-19]
+%SBN% time.n.08 TPR now                            %               
+%SBN% male.n.02 ANA -3                             % him  --or--  --not--    [20-30]
+%SBN%           CONTINUATION &lt;1                    %               
+%SBN% male.n.02 Name "Gabriel"                     %               
+%SBN% time.n.08 TPR now                            %               
+%SBN%           NEGATION &lt;1                        %               
+%SBN% care.v.01 Experiencer -2 Time -1             %               

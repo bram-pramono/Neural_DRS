@@ -1,0 +1,70 @@
+% I am trying, old man, but I would rather kill the ship.
+
+
+b1 REF x1             % I [0...1]
+b1 EQU x1 "speaker"   % I [0...1]
+b1 person "n.01" x1   % I [0...1]
+b1 REF t1             % am [2...4]
+b1 EQU t1 "now"       % am [2...4]
+b1 Time e1 t1         % am [2...4]
+b1 time "n.08" t1     % am [2...4]
+b1 REF e1             % trying [5...11]
+b1 Agent e1 x1        % trying [5...11]
+b1 try "v.01" e1      % trying [5...11]
+                      % , [11...12]
+b1 old "a.01" e2      % old [13...16]
+b3 old "a.01" e3      % old [13...16]
+                      % man [17...20]
+                      % , [20...21]
+b1 CONTRAST b3        % but [22...25]
+b3 REF x3             % I [26...27]
+b3 EQU x3 "speaker"   % I [26...27]
+b3 person "n.01" x3   % I [26...27]
+b1 REF t2             % would [28...33]
+b1 REF t3             % would [28...33]
+b1 TPR "now" t2       % would [28...33]
+b1 TPR "now" t3       % would [28...33]
+b1 Time e2 t2         % would [28...33]
+b1 time "n.08" t2     % would [28...33]
+b1 time "n.08" t3     % would [28...33]
+b3 Time e3 t3         % would [28...33]
+b1 REF s1             % rather [34...40]
+b1 Degree e2 s1       % rather [34...40]
+b1 rather "r.01" s1   % rather [34...40]
+b3 REF s2             % rather [34...40]
+b3 Degree e3 s2       % rather [34...40]
+b3 rather "r.01" s2   % rather [34...40]
+b1 REF e2             % kill [41...45]
+b1 Agent e2 x1        % kill [41...45]
+b1 Patient e2 x2      % kill [41...45]
+b1 kill "v.01" e2     % kill [41...45]
+b3 REF e3             % kill [41...45]
+b3 Agent e3 x3        % kill [41...45]
+b3 Patient e3 x4      % kill [41...45]
+b3 kill "v.01" e3     % kill [41...45]
+b2 REF x2             % the [46...49]
+b2 REF x4             % the [46...49]
+b2 PRESUPPOSITION b1  % the [46...49]
+b2 PRESUPPOSITION b3  % the [46...49]
+b2 ship "n.01" x2     % ship [50...54]
+b2 ship "n.01" x4     % ship [50...54]
+                      % . [54...55]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker                           % I         [0-1]
+%SBN% time.n.08   EQU now                               % am        [2-4]
+%SBN% try.v.01    Agent -2 Time -1                      % trying --,--   [5-12]
+%SBN% old.a.01    Agent -3 Time +1 Degree +2 Patient +4 % old  --man,--  [13-21]
+%SBN% time.n.08   TSU now                               % would     [28-33]
+%SBN% rather.r.01                                       % rather    [34-40]
+%SBN% kill.v.01   EQU -3                                % kill      [41-45]
+%SBN% ship.n.01                                         %  --the-- ship --.-- [46-55]
+%SBN%             CONTRAST &lt;1                           %           
+%SBN% old.a.01    Agent +1 Time +2 Degree +3 Patient +5 %           
+%SBN% person.n.01 EQU speaker                           %  --but-- I     [22-27]
+%SBN% time.n.08   TSU now                               %           
+%SBN% rather.r.01                                       %           
+%SBN% kill.v.01   EQU -4                                %           
+%SBN% ship.n.01                                         %           

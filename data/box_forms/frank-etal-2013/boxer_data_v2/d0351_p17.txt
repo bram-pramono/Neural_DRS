@@ -1,0 +1,43 @@
+% I can't see any amount of talk getting you out of this mess.
+
+
+b1 REF x1             % I [0...1]
+b1 EQU x1 "speaker"   % I [0...1]
+b1 person "n.01" x1   % I [0...1]
+b2 POSSIBILITY b3     % ca [2...4]
+b1 NEGATION b2        % n't [4...7]
+b3 REF e2             % see [8...11]
+b3 Agent e2 x1        % see [8...11]
+b3 Theme e2 x2        % see [8...11]
+b3 see "v.04" e2      % see [8...11]
+b3 REF x2             % any [12...15]
+b3 amount "n.02" x2   % amount [16...22]
+b3 Content x2 x3      % of [23...25]
+b3 REF x3             % talk [26...30]
+b3 talk "n.01" x3     % talk [26...30]
+b3 REF e1             % getting [31...38]
+b3 Agent e1 x3        % getting [31...38]
+b3 Theme e1 x4        % getting [31...38]
+b3 get "v.03" e1      % getting [31...38]
+b3 REF x4             % you [39...42]
+b3 EQU x4 "hearer"    % you [39...42]
+b3 person "n.01" x4   % you [39...42]
+                      % out [43...46]
+b3 Source e1 x5       % of [47...49]
+b4 REF x5             % this [50...54]
+b4 PRESUPPOSITION b3  % this [50...54]
+b4 mess "n.01" x5     % mess [55...59]
+                      % . [59...60]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker                 % I  --can't--    [0-7]
+%SBN%             NEGATION &lt;1                 %            
+%SBN%             POSSIBILITY &lt;1              %            
+%SBN% see.v.04    Agent -1 Theme +1           % see  --any--    [8-15]
+%SBN% amount.n.02 Content +1                  % amount  --of--  [16-25]
+%SBN% talk.n.01                               % talk       [26-30]
+%SBN% get.v.03    Agent -1 Theme +1 Source +2 % getting    [31-38]
+%SBN% person.n.01 EQU hearer                  % you  --out--  --of-- [39-49]
+%SBN% mess.n.01                               %  --this-- mess --.-- [50-60]

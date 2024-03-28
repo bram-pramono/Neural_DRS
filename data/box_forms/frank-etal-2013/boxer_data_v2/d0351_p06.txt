@@ -1,0 +1,50 @@
+% The truck was an older version of the ones the others drove.
+
+
+b1 REF x1             % The [0...3]
+b1 PRESUPPOSITION b2  % The [0...3]
+b1 truck "n.01" x1    % truck [4...9]
+b2 REF e1             % was [10...13]
+b2 Co-Theme e1 x2     % was [10...13]
+b2 Theme e1 x1        % was [10...13]
+b2 Time e1 t1         % was [10...13]
+b2 be "v.01" e1       % was [10...13]
+b2 REF t1             % was [10...13] drove [54...59]
+b2 TPR t1 "now"       % was [10...13] drove [54...59]
+b2 time "n.08" t1     % was [10...13] drove [54...59]
+b2 REF x2             % an [14...16]
+b2 REF s1             % older [17...22]
+b2 REF s2             % older [17...22]
+b2 Attribute x2 s1    % older [17...22]
+b2 Degree s1 s2       % older [17...22]
+b2 more "r.01" s2     % older [17...22]
+b2 old "a.02" s1      % older [17...22]
+b2 version "n.02" x2  % version [23...30]
+b2 PartOf x2 x3       % of [31...33]
+b2 REF x3             % the [34...37]
+b2 Proposition x3 b4  % ones [38...42]
+b2 truck "n.01" x3    % ones [38...42]
+b3 REF x4             % the [43...46]
+b3 PRESUPPOSITION b4  % the [43...46]
+b3 person "n.01" x4   % others [47...53]
+b2 PRESUPPOSITION b4  % drove [54...59]
+b4 REF e2             % drove [54...59]
+b4 Agent e2 x4        % drove [54...59]
+b4 Time e2 t1         % drove [54...59]
+b4 drive "v.01" e2    % drove [54...59]
+                      % . [59...60]
+				
+
+% Sequence Box Notation
+
+%SBN% truck.n.01                                %  --The-- truck  [0-9]
+%SBN% be.v.01      Theme -1 Time +1 Co-Theme +4 % was        [10-13]
+%SBN% time.n.08    TPR now                      %            
+%SBN% old.a.02     Degree +1                    %  --an-- older   [14-22]
+%SBN% more.r.01                                 %            
+%SBN% version.n.02 Attribute -2 PartOf +1       % version  --of-- [23-33]
+%SBN% truck.n.01   Proposition &gt;1               %  --the-- ones   [34-42]
+%SBN%              CONTINUATION &lt;0              %            
+%SBN% person.n.01                               %  --the-- others [43-53]
+%SBN% drive.v.01   Agent -1 Time +1             % drove --.--     [54-60]
+%SBN% time.n.08    TPR now                      %            

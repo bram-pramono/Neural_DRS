@@ -1,0 +1,32 @@
+% Alice is looking for somewhere to live.
+
+
+b1 REF x1              % Alice [0...5]
+b1 Name x1 "alice"     % Alice [0...5]
+b1 PRESUPPOSITION b2   % Alice [0...5]
+b1 female "n.02" x1    % Alice [0...5]
+b2 REF t1              % is [6...8]
+b2 EQU t1 "now"        % is [6...8]
+b2 Time e2 t1          % is [6...8]
+b2 time "n.08" t1      % is [6...8]
+b2 REF e2              % looking [9...16]
+b2 Agent e2 x1         % looking [9...16]
+b2 Theme e2 x2         % looking [9...16]
+b2 look_for "v.01" e2  % looking [9...16]
+                       % for [17...20]
+b2 REF x2              % somewhere [21...30]
+b2 location "n.01" x2  % somewhere [21...30]
+                       % to [31...33]
+b2 REF e1              % live [34...38]
+b2 Location e1 x2      % live [34...38]
+b2 live "v.01" e1      % live [34...38]
+                       % . [38...39]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02   Name "Alice"              % Alice        [0-5]
+%SBN% time.n.08     EQU now                   % is           [6-8]
+%SBN% look_for.v.01 Agent -2 Time -1 Theme +1 % looking  --for--  [9-20]
+%SBN% location.n.01                           % somewhere  --to-- [21-33]
+%SBN% live.v.01     Location -1               % live --.--        [34-39]

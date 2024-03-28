@@ -1,0 +1,38 @@
+% Charles felt sick to the pit of his stomach.
+
+
+b1 REF x1             % his [32...35]
+b1 PRESUPPOSITION b3  % his [32...35]
+b1 Name x1 "charles"  % Charles [0...7]
+b1 male "n.02" x1     % Charles [0...7] his [32...35]
+b2 REF e1             % felt [8...12]
+b2 REF t1             % felt [8...12]
+b2 Agent e1 x1        % felt [8...12]
+b2 TPR t1 "now"       % felt [8...12]
+b2 Theme e1 s1        % felt [8...12]
+b2 Time e1 t1         % felt [8...12]
+b2 feel "v.01" e1     % felt [8...12]
+b2 time "n.08" t1     % felt [8...12]
+b2 REF s1             % sick [13...17]
+b2 Experiencer s1 x1  % sick [13...17]
+b2 sick "a.02" s1     % sick [13...17]
+b2 Stimulus s1 x2     % to [18...20]
+b2 REF x2             % the [21...24]
+b2 pit "n.02" x2      % pit [25...28]
+b2 PartOf x2 x3       % of [29...31]
+b3 REF x3             % his [32...35]
+b3 PRESUPPOSITION b2  % his [32...35]
+b3 PartOf x3 x1       % his [32...35]
+b3 stomach "n.01" x3  % stomach [36...43]
+                      % . [43...44]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02    Name "Charles"             % Charles    [0-7]
+%SBN% feel.v.01    Agent -1 Time +1 Theme +2  % felt       [8-12]
+%SBN% time.n.08    TPR now                    %            
+%SBN% sick.a.02    Experiencer -3 Stimulus +1 % sick  --to--    [13-20]
+%SBN% pit.n.02     PartOf +2                  %  --the-- pit  --of-- [21-31]
+%SBN% male.n.02    ANA -5                     % his        [32-35]
+%SBN% stomach.n.01 PartOf -1                  % stomach --.--   [36-44]

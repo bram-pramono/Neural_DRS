@@ -1,0 +1,56 @@
+% She just kept telling herself he had to learn a lesson.
+
+
+b3 REF x2             %
+b3 Participant e3 e2  %
+b3 entity "n.01" x2   %
+b1 REF x1             % She [0...3] herself [22...29]
+b1 PRESUPPOSITION b2  % She [0...3] herself [22...29]
+b1 female "n.02" x1   % She [0...3] herself [22...29]
+b2 REF s1             % just [4...8]
+b2 Manner e1 s1       % just [4...8]
+b2 just "a.01" s1     % just [4...8]
+b2 REF e1             % kept [9...13]
+b2 Agent e1 x1        % kept [9...13]
+b2 Theme e1 x1        % kept [9...13]
+b2 Time e1 t1         % kept [9...13]
+b2 keep "v.02" e1     % kept [9...13]
+b3 REF t1             % kept [9...13]
+b3 PRESUPPOSITION b2  % kept [9...13]
+b3 TPR t1 "now"       % kept [9...13]
+b3 time "n.08" t1     % kept [9...13]
+b3 REF e2             % telling [14...21]
+b3 Agent e2 x2        % telling [14...21]
+b3 Proposition e2 b2  % telling [14...21]
+b3 tell "v.06" e2     % telling [14...21]
+b4 REF x3             % he [30...32]
+b4 PRESUPPOSITION b3  % he [30...32]
+b4 male "n.02" x3     % he [30...32]
+b3 REF t2             % had [33...36]
+b3 TPR t2 "now"       % had [33...36]
+b3 Time e3 t2         % had [33...36]
+b3 time "n.08" t2     % had [33...36]
+                      % to [37...39]
+b3 REF e3             % learn [40...45]
+b3 Agent e3 x3        % learn [40...45]
+b3 Topic e3 x4        % learn [40...45]
+b3 learn "v.01" e3    % learn [40...45]
+b3 REF x4             % a [46...47]
+b3 lesson "n.03" x4   % lesson [48...54]
+                      % . [54...55]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02                                          % She       [0-3]
+%SBN% just.a.01                                            % just      [4-8]
+%SBN% keep.v.02   Theme -2 Manner -1 Time +1 Agent +2      % kept      [9-13]
+%SBN% time.n.08   TPR now                                  %           
+%SBN% female.n.02 ANA -4                                   % herself   [22-29]
+%SBN%             CONTINUATION &lt;0                          %           
+%SBN% entity.n.01                                          %           
+%SBN% tell.v.06   Proposition &lt;1 Agent -1                  % telling   [14-21]
+%SBN% male.n.02                                            % he        [30-32]
+%SBN% time.n.08   TPR now                                  % had  --to--    [33-39]
+%SBN% learn.v.01  Participant -3 Agent -2 Time -1 Topic +1 % learn     [40-45]
+%SBN% lesson.n.03                                          %  --a-- lesson --.-- [46-55]

@@ -1,0 +1,49 @@
+% She would soon be found if she tried to hide.
+
+
+b1 PRESUPPOSITION b2  % She [0...3]
+b1 REF x1             % She [0...3] she [27...30]
+b1 female "n.02" x1   % She [0...3] she [27...30]
+b2 REF t1             % would [4...9]
+b2 TPR "now" t1       % would [4...9]
+b2 Time e1 t1         % would [4...9]
+b2 time "n.08" t1     % would [4...9]
+b2 REF s1             % soon [10...14]
+b2 Time e1 s1         % soon [10...14]
+b2 soon "r.01" s1     % soon [10...14]
+b2 REF e1             % be [15...17]
+b2 Agent e1 x1        % be [15...17]
+b2 Topic e1 e2        % be [15...17]
+b2 be "v.01" e1       % be [15...17]
+b2 REF e2             % found [18...23]
+b2 Theme e2 x1        % found [18...23]
+b2 find "v.03" e2     % found [18...23]
+b2 PRECONDITION b3    % if [24...26]
+b1 PRESUPPOSITION b3  % she [27...30]
+b2 REF t2             % tried [31...36]
+b2 TPR t2 "now"       % tried [31...36]
+b2 time "n.08" t2     % tried [31...36]
+b3 REF e3             % tried [31...36]
+b3 Agent e3 x1        % tried [31...36]
+b3 Theme e3 e4        % tried [31...36]
+b3 Time e3 t2         % tried [31...36]
+b3 try "v.01" e3      % tried [31...36]
+                      % to [37...39]
+b3 REF e4             % hide [40...44]
+b3 Agent e4 x1        % hide [40...44]
+b3 hide "v.01" e4     % hide [40...44]
+                      % . [44...45]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02                                   % She      [0-3]
+%SBN% time.n.08   TSU now                           % would    [4-9]
+%SBN% soon.r.01                                     % soon     [10-14]
+%SBN% be.v.01     Agent -3 Time -2 Time -1 Topic +1 % be       [15-17]
+%SBN% find.v.03   Theme -4                          % found  --if-- [18-26]
+%SBN%             PRECONDITION &lt;1                   %          
+%SBN% female.n.02 ANA -5                            % she      [27-30]
+%SBN% try.v.01    Agent -1 Time +1 Theme +2         % tried  --to-- [31-39]
+%SBN% time.n.08   TPR now                           %          
+%SBN% hide.v.01   Agent -3                          % hide --.--    [40-45]

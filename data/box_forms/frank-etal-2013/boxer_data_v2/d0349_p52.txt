@@ -1,0 +1,29 @@
+% I am touched deeply in places.
+
+
+b1 REF x1             % I [0...1]
+b1 EQU x1 "speaker"   % I [0...1]
+b1 person "n.01" x1   % I [0...1]
+b1 REF t1             % am [2...4]
+b1 EQU t1 "now"       % am [2...4]
+b1 Time s1 t1         % am [2...4]
+b1 time "n.08" t1     % am [2...4]
+b1 REF s1             % touched [5...12]
+b1 Experiencer s1 x1  % touched [5...12]
+b1 touched "a.02" s1  % touched [5...12]
+b1 REF s2             % deeply [13...19]
+b1 Degree s1 s2       % deeply [13...19]
+b1 deeply "r.01" s2   % deeply [13...19]
+b1 Location s1 x2     % in [20...22]
+b1 REF x2             % places [23...29]
+b1 place "n.03" x2    % places [23...29]
+                      % . [29...30]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01  EQU speaker                                  % I         [0-1]
+%SBN% time.n.08    EQU now                                      % am        [2-4]
+%SBN% touched.a.02 Experiencer -2 Time -1 Degree +1 Location +2 % touched   [5-12]
+%SBN% deeply.r.01                                               % deeply  --in-- [13-22]
+%SBN% place.n.03                                                % places --.--   [23-30]

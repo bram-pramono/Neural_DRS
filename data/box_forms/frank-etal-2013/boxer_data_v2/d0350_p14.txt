@@ -1,0 +1,42 @@
+% Claudia still teaches and still claims to hate it.
+
+
+b1 REF x1             % Claudia [0...7]
+b1 Name x1 "claudia"  % Claudia [0...7]
+b1 PRESUPPOSITION b2  % Claudia [0...7]
+b1 female "n.02" x1   % Claudia [0...7]
+                      % still [8...13]
+b2 REF e1             % teaches [14...21]
+b2 Agent e1 x1        % teaches [14...21]
+b2 Time e1 t1         % teaches [14...21]
+b2 teach "v.01" e1    % teaches [14...21]
+b2 REF t1             % teaches [14...21] claims [32...38]
+b2 EQU t1 "now"       % teaches [14...21] claims [32...38]
+b2 time "n.08" t1     % teaches [14...21] claims [32...38]
+                      % and [22...25]
+                      % still [26...31]
+b2 REF e2             % claims [32...38]
+b2 Agent e2 x1        % claims [32...38]
+b2 Time e2 t1         % claims [32...38]
+b2 Topic e2 e3        % claims [32...38]
+b2 claim "v.01" e2    % claims [32...38]
+                      % to [39...41]
+b2 REF e3             % hate [42...46]
+b2 Experiencer e3 x1  % hate [42...46]
+b2 Stimulus e3 x2     % hate [42...46]
+b2 hate "v.01" e3     % hate [42...46]
+b3 REF x2             % it [47...49]
+b3 PRESUPPOSITION b2  % it [47...49]
+b3 entity "n.01" x2   % it [47...49]
+                      % . [49...50]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02 Name "Claudia"             % Claudia  --still--     [0-13]
+%SBN% teach.v.01  Agent -1 Time +1           % teaches  --and--  --still-- [14-31]
+%SBN% time.n.08   EQU now                    %                   
+%SBN% claim.v.01  Agent -3 Time +1 Topic +2  % claims  --to--         [32-41]
+%SBN% time.n.08   EQU now                    %                   
+%SBN% hate.v.01   Experiencer -5 Stimulus +1 % hate              [42-46]
+%SBN% entity.n.01                            % it --.--               [47-50]

@@ -1,0 +1,40 @@
+% They turned round just as Frankie walked toward them.
+
+
+b1 REF x1                 % They [0...4] them [48...52]
+b1 PRESUPPOSITION b2      % They [0...4] them [48...52]
+b1 person "n.01" x1       % They [0...4] them [48...52]
+b2 REF x2                 % turned~round [5...17]
+b2 Agent x2 x1            % turned~round [5...17]
+b2 Time x2 t1             % turned~round [5...17]
+b2 turn_around "n.01" x2  % turned~round [5...17]
+b2 REF t1                 % turned~round [5...17] walked [34...40]
+b2 TPR t1 "now"           % turned~round [5...17] walked [34...40]
+b2 time "n.08" t1         % turned~round [5...17] walked [34...40]
+                          % just [18...22]
+b2 REF x4                 % as [23...25]
+b2 Co-Theme x2 x4         % as [23...25]
+b2 Participant e1 x4      % as [23...25]
+b2 entity "n.01" x4       % as [23...25]
+b3 REF x3                 % Frankie [26...33]
+b3 Name x3 "frankie"      % Frankie [26...33]
+b3 PRESUPPOSITION b2      % Frankie [26...33]
+b3 male "n.02" x3         % Frankie [26...33]
+b2 REF e1                 % walked [34...40]
+b2 Agent e1 x3            % walked [34...40]
+b2 Time e1 t1             % walked [34...40]
+b2 walk "v.01" e1         % walked [34...40]
+b2 Destination e1 x1      % toward [41...47]
+                          % . [52...53]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01                                                     % They              [0-4]
+%SBN% time.n.08        TPR now                                        % turned round  --just-- [5-22]
+%SBN% turn_around.n.01 Agent -2 Time -1 Co-Theme +1                   %                   
+%SBN% entity.n.01                                                     % as                [23-25]
+%SBN% male.n.02        Name "Frankie"                                 % Frankie           [26-33]
+%SBN% walk.v.01        Participant -2 Destination -5 Agent -1 Time +1 % walked  --toward--     [34-47]
+%SBN% time.n.08        TPR now                                        %                   
+%SBN% person.n.01      EQU -7                                         % them --.--             [48-53]

@@ -1,0 +1,37 @@
+% Thomas stepped back and shook his head.
+
+
+b1 REF x1             % his [30...33]
+b1 PRESUPPOSITION b3  % his [30...33]
+b1 Name x1 "thomas"   % Thomas [0...6]
+b1 male "n.02" x1     % Thomas [0...6] his [30...33]
+b2 REF e1             % stepped [7...14]
+b2 Theme e1 x1        % stepped [7...14]
+b2 Time e1 t1         % stepped [7...14]
+b2 step "v.01" e1     % stepped [7...14]
+b2 REF t1             % stepped [7...14] shook [24...29]
+b2 TPR t1 "now"       % stepped [7...14] shook [24...29]
+b2 time "n.08" t1     % stepped [7...14] shook [24...29]
+                      % back [15...19]
+                      % and [20...23]
+b2 REF e2             % shook [24...29]
+b2 Agent e2 x1        % shook [24...29]
+b2 Theme e2 x2        % shook [24...29]
+b2 Time e2 t1         % shook [24...29]
+b2 shake "v.01" e2    % shook [24...29]
+b3 REF x2             % his [30...33]
+b3 PRESUPPOSITION b2  % his [30...33]
+b3 PartOf x2 x1       % his [30...33]
+b3 head "n.01" x2     % head [34...38]
+                      % . [38...39]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02  Name "Thomas"             % Thomas           [0-6]
+%SBN% step.v.01  Theme -1 Time +1          % stepped  --back--  --and-- [7-23]
+%SBN% time.n.08  TPR now                   %                  
+%SBN% shake.v.01 Agent -3 Time +1 Theme +3 % shook            [24-29]
+%SBN% time.n.08  TPR now                   %                  
+%SBN% male.n.02  ANA -5                    % his              [30-33]
+%SBN% head.n.01  PartOf -1                 % head --.--            [34-39]

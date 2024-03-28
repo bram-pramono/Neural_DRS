@@ -1,0 +1,32 @@
+% I do not spare the birds a killing.
+
+
+b1 REF x1             % I [0...1]
+b1 EQU x1 "speaker"   % I [0...1]
+b1 person "n.01" x1   % I [0...1]
+b1 REF t1             % do [2...4]
+b1 EQU t1 "now"       % do [2...4]
+b1 time "n.08" t1     % do [2...4]
+b2 Time e2 t1         % do [2...4]
+b1 NEGATION b2        % not [5...8]
+b2 REF e2             % spare [9...14]
+b2 Agent e2 x1        % spare [9...14]
+b2 Recipient e2 x2    % spare [9...14]
+b2 Theme e2 e1        % spare [9...14]
+b2 spare "v.01" e2    % spare [9...14]
+b3 REF x2             % the [15...18]
+b3 PRESUPPOSITION b2  % the [15...18]
+b3 bird "n.01" x2     % birds [19...24]
+b2 REF e1             % a [25...26]
+b2 killing "v.01" e1  % killing [27...34]
+                      % . [34...35]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01  EQU speaker                            % I          [0-1]
+%SBN% time.n.08    EQU now                                % do  --not--     [2-8]
+%SBN%              NEGATION &lt;1                            %            
+%SBN% spare.v.01   Agent -2 Time -1 Recipient +1 Theme +2 % spare      [9-14]
+%SBN% bird.n.01                                           %  --the-- birds  [15-24]
+%SBN% killing.v.01                                        %  --a-- killing --.-- [25-35]

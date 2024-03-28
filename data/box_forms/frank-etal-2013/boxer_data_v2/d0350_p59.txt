@@ -1,0 +1,39 @@
+% The brothers stood up and came down from the platform.
+
+
+b1 REF x1               % The [0...3]
+b1 REF x2               % brothers [4...12]
+b1 PRESUPPOSITION b2    % brothers [4...12]
+b1 Role x1 x2           % brothers [4...12]
+b1 brother "n.01" x2    % brothers [4...12]
+b1 person "n.01" x1     % brothers [4...12]
+b2 REF e1               % stood [13...18]
+b2 Agent e1 x1          % stood [13...18]
+b2 Time e1 t1           % stood [13...18]
+b2 stand_up "v.01" e1   % stood [13...18]
+b2 REF t1               % stood [13...18] came [26...30]
+b2 TPR t1 "now"         % stood [13...18] came [26...30]
+b2 time "n.08" t1       % stood [13...18] came [26...30]
+                        % up [19...21]
+                        % and [22...25]
+b2 REF e2               % came [26...30]
+b2 Agent e2 x1          % came [26...30]
+b2 Time e2 t1           % came [26...30]
+b2 come_down "v.01" e2  % came [26...30]
+                        % down [31...35]
+b2 Source e2 x3         % from [36...40]
+b3 REF x3               % the [41...44]
+b3 PRESUPPOSITION b2    % the [41...44]
+b3 platform "n.01" x3   % platform [45...53]
+                        % . [53...54]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01    Role +1                    %  --The-- brothers   [0-12]
+%SBN% brother.n.01                              %                
+%SBN% stand_up.v.01  Agent -2 Time +1           % stood  --up--  --and--   [13-25]
+%SBN% time.n.08      TPR now                    %                
+%SBN% come_down.v.01 Agent -4 Time +1 Source +2 % came  --down--  --from-- [26-40]
+%SBN% time.n.08      TPR now                    %                
+%SBN% platform.n.01                             %  --the-- platform --.--  [41-54]

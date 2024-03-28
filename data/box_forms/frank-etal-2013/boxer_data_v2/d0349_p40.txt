@@ -1,0 +1,27 @@
+% Turn your hearing aid up.
+
+
+b1 REF x1                 %
+b1 EQU x1 "hearer"        %
+b1 person "n.01" x1       %
+b1 REF e1                 % Turn [0...4]
+b1 Agent e1 x1            % Turn [0...4]
+b1 Theme e1 x2            % Turn [0...4]
+b1 turn_up "v.02" e1      % Turn [0...4]
+b2 REF x2                 % your [5...9]
+b2 REF x3                 % your [5...9]
+b2 EQU x3 "hearer"        % your [5...9]
+b2 PRESUPPOSITION b1      % your [5...9]
+b2 User x2 x3             % your [5...9]
+b2 person "n.01" x3       % your [5...9]
+b2 hearing_aid "n.01" x2  % hearing~aid [10...21]
+                          % up [22...24]
+                          % . [24...25]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01      EQU hearer        %                 
+%SBN% turn_up.v.02     Agent -1 Theme +2 % Turn            [0-4]
+%SBN% person.n.01      EQU hearer        % your            [5-9]
+%SBN% hearing_aid.n.01 User -1           % hearing aid  --up.-- [10-25]

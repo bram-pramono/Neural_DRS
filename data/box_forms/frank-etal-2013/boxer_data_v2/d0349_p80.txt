@@ -1,0 +1,35 @@
+% Tony stopped off at his first delivery.
+
+
+b1 REF x1              % his [20...23]
+b1 PRESUPPOSITION b3   % his [20...23]
+b1 Name x1 "tony"      % Tony [0...4]
+b1 male "n.02" x1      % Tony [0...4] his [20...23]
+b2 REF e1              % stopped [5...12]
+b2 REF t1              % stopped [5...12]
+b2 Agent e1 x1         % stopped [5...12]
+b2 TPR t1 "now"        % stopped [5...12]
+b2 Time e1 t1          % stopped [5...12]
+b2 stop "v.04" e1      % stopped [5...12]
+b2 time "n.08" t1      % stopped [5...12]
+                       % off [13...16]
+b2 Location e1 x2      % at [17...19]
+b3 REF x2              % his [20...23]
+b3 User x2 x1          % his [20...23]
+b3 REF x3              % first [24...29]
+b3 EQU x3 "1"          % first [24...29]
+b3 Order x2 x3         % first [24...29]
+b3 PRESUPPOSITION b2   % first [24...29]
+b3 rank "n.02" x3      % first [24...29]
+b3 delivery "n.01" x2  % delivery [30...38]
+                       % . [38...39]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Tony"                  % Tony           [0-4]
+%SBN% stop.v.04     Agent -1 Time +1 Location +4 % stopped  --off--  --at-- [5-19]
+%SBN% time.n.08     TPR now                      %                
+%SBN% male.n.02     ANA -3                       % his            [20-23]
+%SBN% rank.n.02     EQU 1                        % first          [24-29]
+%SBN% delivery.n.01 User -2 Order -1             % delivery --.--      [30-39]

@@ -1,7 +1,6 @@
 import difflib
 import filecmp
 import os
-import re
 import shutil
 from datetime import datetime
 
@@ -36,23 +35,27 @@ def scrape_franketal_data(target_base_folder, docs_to_scrape):
   def build_file_name(doc_id, part):
     return f'd{doc_id}_p{part:02d}.txt'
 
-  def scrape_page(url, css_selector):
+  def scrape_page(url, css_selectors: list):
     html = requests.get(url, headers=req_headers).text
     soup = BeautifulSoup(html)
-    return str(soup.select(css_selector)).replace('[<pre>', '').replace('</pre>]', '')
+    return [str(soup.select(css_selector)).replace('[<pre>', '').replace('</pre>]', '') for css_selector in css_selectors]
 
   os.mkdir(target_base_folder)
   count = 0
   for doc_id, part in docs_to_scrape:
     url_text = f"https://pmb.let.rug.nl/explorer/explore.php?part={part:02d}&doc_id={doc_id}&type=raw&alignment_language=en"
-    sent = scrape_page(url_text, "#content pre")
+    sent = scrape_page(url_text, ["#content pre"])[0]
     url_drc = f"https://pmb.let.rug.nl/explorer/explore.php?part={part:02d}&doc_id={doc_id}&type=drs.xml&alignment_language=en"
-    drc_content = scrape_page(url_drc, "#drc pre")
+    semantic_data = scrape_page(url_drc, ["#drc pre", "#sbn pre"])
 
     with open(f'{target_base_folder}/{build_file_name(doc_id, part)}', 'w') as out:
-      out.write(sent)
+      out.write('% ' + sent)
       out.write('\n\n')
-      out.write(drc_content)
+      out.write(semantic_data[0])
+      out.write('\n\n')
+      out.write('% Sequence Box Notation\n\n')
+      sbn_data = semantic_data[1].replace('<s>', ' --').replace('</s>', '--').split('\n')
+      out.write('\n'.join([f'%SBN% {line}' for line in sbn_data if len(line.strip()) > 0]))
 
     count += 1
     wrap_print(f"done ({count}/{len(docs_to_scrape)}) {doc_id}, {part}")
@@ -73,24 +76,6 @@ def scrape_data_sanity_check(target_folder):
         count += 1
   wrap_print(f'Found {count} files improperly scraped')
   wrap_print('!' * 20)
-
-
-def prepare_drs_clauses(source_folder, preparation_folder):
-  wrap_print(f'Preparing drs clauses for box transformations. Copying {source_folder} to {preparation_folder}')
-  for file_name in sorted(os.listdir(source_folder)):
-    with open(to_abspath(source_folder, file_name), 'r') as file:
-      raw_lines = file.readlines()
-      sent = raw_lines[0]
-      clean_lines = []
-      for line in raw_lines[1:]:
-        clean_line = re.sub('%.*', '', line).strip()
-        if clean_line.strip(): clean_lines.append(clean_line + '\n')
-    text_file = to_abspath(preparation_folder, file_name.replace('.txt', '-text.txt'))
-    with open(text_file, 'w') as out:
-      out.write(sent)
-    drs_file = to_abspath(preparation_folder, file_name.replace('.txt', '-drs.txt'))
-    with open(drs_file, 'w') as out:
-      out.writelines(clean_lines)
 
 
 # story_folder = 'cop-etal-2016'
@@ -131,7 +116,7 @@ def prepare_drs_clauses(source_folder, preparation_folder):
 #         count+=1
 
 
-def compare_scraped_data_with_previous(new_folder, prev_folder):
+def has_scraped_data_diff_with_previous(new_folder, prev_folder):
   wrap_print(f"Comparing the new folder {new_folder} against {prev_folder}")
   wrap_print('*' * 20)
   found_diff = False
@@ -202,19 +187,18 @@ if __name__ == '__main__':
                   for part in range(doc[1], doc[2] + 1)
                   if (doc[0], part) not in wrong_docs]
 
-  # NOTE: The following 2 cannot be scraped. On Feb 9th, the pages contain empty drs clauses
-  # https://pmb.let.rug.nl/explorer/explore.php?part=07&doc_id=0350&type=raw&alignment_language=en
-  # https://pmb.let.rug.nl/explorer/explore.php?part=35&doc_id=0351&type=drs.xml&alignment_language=en
+  # NOTE: The following cannot be scraped. On March 29th, the page contained empty drs clauses
+  # https://pmb.let.rug.nl/explorer/explore.php?part=96&doc_id=0350&type=raw&alignment_language=en
 
   scrape_franketal_data(target_scrape_folder, correct_docs)
   scrape_data_sanity_check(target_scrape_folder)
-  found_diff = compare_scraped_data_with_previous(target_scrape_folder, prev_scrape_folder)
   replace_prev_folder(target_scrape_folder, prev_scrape_folder)
 
-  if found_diff:
+  if has_scraped_data_diff_with_previous(target_scrape_folder, prev_scrape_folder):
     wrap_print(f'Differences found. Updating data on "{preparation_folder}"')
-    prepare_drs_clauses(target_scrape_folder, preparation_folder)
+    shutil.copytree(target_scrape_folder, preparation_folder, dirs_exist_ok=True)
   else:
+    wrap_print(f'No difference found.')
     wrap_print(f'Removing {target_scrape_folder}')
     shutil.rmtree(target_scrape_folder)
 

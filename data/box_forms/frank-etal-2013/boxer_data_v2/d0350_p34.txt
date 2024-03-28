@@ -1,0 +1,42 @@
+% Dave kicked him in the stomach and Paul groaned.
+
+
+b1 REF x1             % him [12...15]
+b1 PRESUPPOSITION b2  % him [12...15]
+b1 Name x1 "dave"     % Dave [0...4]
+b1 male "n.02" x1     % Dave [0...4] him [12...15]
+b2 REF e1             % kicked [5...11]
+b2 Agent e1 x1        % kicked [5...11]
+b2 Patient e1 x1      % kicked [5...11]
+b2 Time e1 t1         % kicked [5...11]
+b2 kick "v.03" e1     % kicked [5...11]
+b2 REF t1             % kicked [5...11] groaned [40...47]
+b2 TPR t1 "now"       % kicked [5...11] groaned [40...47]
+b2 time "n.08" t1     % kicked [5...11] groaned [40...47]
+b2 Destination e1 x2  % in [16...18]
+b2 Destination e1 x3  % in [16...18]
+b3 REF x2             % the [19...22]
+b3 PRESUPPOSITION b2  % the [19...22]
+b3 stomach "n.01" x2  % stomach [23...30]
+                      % and [31...34]
+b2 REF x3             % Paul [35...39]
+b2 Name x3 "paul"     % Paul [35...39]
+b2 male "n.02" x3     % Paul [35...39]
+                      %
+b2 REF e2             % groaned [40...47]
+b2 Agent e2 x3        % groaned [40...47]
+b2 Time e2 t1         % groaned [40...47]
+b2 groan "v.01" e2    % groaned [40...47]
+                      % . [47...48]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02    Name "Dave"                                               % Dave            [0-4]
+%SBN% kick.v.03    Agent -1 Time +1 Patient +2 Destination +3 Destination +4 % kicked          [5-11]
+%SBN% time.n.08    TPR now                                                   %                 
+%SBN% male.n.02    ANA -3                                                    % him  --in--          [12-18]
+%SBN% stomach.n.01                                                           %  --the-- stomach  --and-- [19-34]
+%SBN% male.n.02    Name "Paul"                                               % Paul            [35-39]
+%SBN% groan.v.01   Agent -1 Time +1                                          % groaned --.--        [40-48]
+%SBN% time.n.08    TPR now                                                   %                 

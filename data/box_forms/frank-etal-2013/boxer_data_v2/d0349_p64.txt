@@ -1,0 +1,35 @@
+% We've been travelling almost three days.
+
+
+b1 REF x1              % We [0...2]
+b1 Sub x1 "speaker"    % We [0...2]
+b1 person "n.01" x1    % We [0...2]
+                       % 've [2...5]
+b1 REF t1              % been [6...10]
+b1 TPR t1 "now"        % been [6...10]
+b1 Time e1 t1          % been [6...10]
+b1 time "n.08" t1      % been [6...10]
+b1 REF e1              % travelling [11...21]
+b1 Duration e1 x2      % travelling [11...21]
+b1 Theme e1 x1         % travelling [11...21]
+b1 travel "v.02" e1    % travelling [11...21]
+b1 REF n1              % almost [22...28]
+b1 REF n2              % almost [22...28]
+b1 REF x2              % almost [22...28]
+b1 LEQ n1 n2           % almost [22...28]
+b1 Quantity x2 n1      % almost [22...28]
+b1 quantity "n.01" n1  % almost [22...28]
+b1 EQU n2 "3"          % three [29...34]
+b1 quantity "n.01" n2  % three [29...34]
+b1 day "n.01" x2       % days [35...39]
+                       % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01   Sub speaker                  % We --'ve--      [0-5]
+%SBN% time.n.08     TPR now                      % been       [6-10]
+%SBN% travel.v.02   Theme -2 Time -1 Duration +3 % travelling [11-21]
+%SBN% quantity.n.01 TOP +1                       % almost     [22-28]
+%SBN% quantity.n.01 EQU 3                        % three      [29-34]
+%SBN% day.n.01      Quantity -2                  % days --.--      [35-40]

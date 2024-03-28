@@ -1,0 +1,37 @@
+% It is a narrow ship, much like our own.
+
+
+b1 REF x1             % It [0...2] our [31...34]
+b1 entity "n.01" x1   % It [0...2] own [35...38]
+b2 REF e1             % is [3...5]
+b2 REF t1             % is [3...5]
+b2 Co-Theme e1 x2     % is [3...5]
+b2 EQU t1 "now"       % is [3...5]
+b2 Theme e1 x1        % is [3...5]
+b2 Time e1 t1         % is [3...5]
+b2 be "v.01" e1       % is [3...5]
+b2 time "n.08" t1     % is [3...5]
+b2 REF x2             % a [6...7]
+b2 REF s1             % narrow [8...14]
+b2 AttributeOf s1 x2  % narrow [8...14]
+b2 narrow "a.01" s1   % narrow [8...14]
+b2 ship "n.01" x2     % ship [15...19]
+                      % , [19...20]
+                      % much [21...25]
+b2 Theme x2 x1        % like [26...30]
+b1 REF x3             % our [31...34]
+b1 PRESUPPOSITION b2  % our [31...34]
+b1 Sub x3 "speaker"   % our [31...34]
+b1 User x1 x3         % our [31...34]
+b1 person "n.01" x3   % our [31...34]
+                      % . [38...39]
+				
+
+% Sequence Box Notation
+
+%SBN% entity.n.01 User +5                      % It              [0-2]
+%SBN% be.v.01     Theme -1 Time +1 Co-Theme +3 % is              [3-5]
+%SBN% time.n.08   EQU now                      %                 
+%SBN% narrow.a.01 AttributeOf +1               %  --a-- narrow        [6-14]
+%SBN% ship.n.01   Theme -4                     % ship --,--  --much--  --like-- [15-30]
+%SBN% person.n.01 Sub speaker                  % our  --own.--        [31-39]

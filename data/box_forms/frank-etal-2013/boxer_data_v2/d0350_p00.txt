@@ -1,0 +1,30 @@
+% Let us leave these poor people in peace.
+
+
+                      % Let [0...3]
+b1 REF x1             % us [4...6]
+b1 EQU x1 "speaker"   % us [4...6]
+b1 person "n.01" x1   % us [4...6]
+b1 REF e1             % leave [7...12]
+b1 Source e1 x2       % leave [7...12]
+b1 Theme e1 x1        % leave [7...12]
+b1 leave "v.04" e1    % leave [7...12]
+b2 REF x2             % these [13...18]
+b2 REF s1             % poor [19...23]
+b2 AttributeOf s1 x2  % poor [19...23]
+b2 PRESUPPOSITION b1  % poor [19...23]
+b2 poor "a.01" s1     % poor [19...23]
+b2 person "n.01" x2   % people [24...30]
+b1 Manner e1 x3       % in [31...33]
+b1 REF x3             % peace [34...39]
+b1 peace "n.02" x3    % peace [34...39]
+                      % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker                  %  --Let-- us     [0-6]
+%SBN% leave.v.04  Theme -1 Source +2 Manner +3 % leave      [7-12]
+%SBN% poor.a.01   AttributeOf +1               %  --these-- poor [13-23]
+%SBN% person.n.01                              % people  --in--  [24-33]
+%SBN% peace.n.02                               % peace --.--     [34-40]

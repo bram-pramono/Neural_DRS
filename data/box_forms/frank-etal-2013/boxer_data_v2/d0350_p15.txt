@@ -1,0 +1,56 @@
+% Burn him now, don't wait for him to escape.
+
+
+b1 REF x1             %
+b1 REF x3             %
+b1 EQU x1 "hearer"    %
+b1 EQU x3 "hearer"    %
+b1 person "n.01" x1   %
+b1 person "n.01" x3   %
+b1 REF e1             % Burn [0...4]
+b1 Experiencer e1 x1  % Burn [0...4]
+b1 Patient e1 x2      % Burn [0...4]
+b1 burn "v.01" e1     % Burn [0...4]
+b2 REF x2             % him [5...8] him [29...32]
+b2 PRESUPPOSITION b1  % him [5...8] him [29...32]
+b2 male "n.02" x2     % him [5...8] him [29...32]
+b1 REF t2             % now [9...12]
+b1 EQU t2 "now"       % now [9...12]
+b1 Time e1 t1         % now [9...12]
+b1 Time e2 t2         % now [9...12]
+b1 time "n.08" t2     % now [9...12]
+b1 REF t1             % now [9...12] do [14...16]
+b1 EQU t1 "now"       % now [9...12] do [14...16]
+b1 time "n.08" t1     % now [9...12] do [14...16]
+                      % , [12...13]
+b1 Time e2 t1         % do [14...16]
+b1 NEGATION b3        % n't [16...19]
+b3 REF x4             % n't [16...19]
+b3 not "n.01" x4      % n't [16...19]
+b1 REF e2             % wait [20...24]
+b1 Theme e2 x3        % wait [20...24]
+b1 wait "v.02" e2     % wait [20...24]
+b3 Participant e2 e3  % for [25...28]
+                      % to [33...35]
+b3 REF e3             % escape [36...42]
+b3 Source e3 x4       % escape [36...42]
+b3 Theme e3 x2        % escape [36...42]
+b3 escape "v.01" e3   % escape [36...42]
+                      % . [42...43]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01          EQU hearer                        %         
+%SBN% person.n.01          EQU hearer                        %         
+%SBN% burn.v.01            Experiencer -2 Patient +1 Time +2 % Burn    [0-4]
+%SBN% male.n.02                                              % him     [5-8]
+%SBN% time.n.08            EQU now                           % now --,--    [9-13]
+%SBN% time.n.08            EQU now                           %         
+%SBN% time.n.08            EQU now                           % do      [14-16]
+%SBN% wait.v.02            Theme -6 Time -2 Time -1          % wait    [20-24]
+%SBN% male.n.02            ANA -5                            % him  --to--  [29-35]
+%SBN%                      NEGATION &lt;1                       %         
+%SBN% not.n.01                                               % n't     [16-19]
+%SBN% escape.v.01          Theme -2 Source -1                % escape --.-- [36-43]
+%SBN% terra_incognita.n.01 EQU -4 Participant -1             % for     [25-28]

@@ -1,0 +1,56 @@
+% We shall arrive properly or you will never live this down.
+
+
+b3 REF x1               % We [0...2]
+b3 Sub x1 "speaker"     % We [0...2]
+b3 person "n.01" x1     % We [0...2]
+b1 REF t1               % shall [3...8]
+b1 PRESUPPOSITION b3    % shall [3...8]
+b1 TPR "now" t1         % shall [3...8]
+b1 time "n.08" t1       % shall [3...8]
+b3 Time e1 t1           % shall [3...8]
+b3 REF e1               % arrive [9...15]
+b3 Theme e1 x1          % arrive [9...15]
+b3 arrive "v.01" e1     % arrive [9...15]
+b3 REF s1               % properly [16...24]
+b3 Manner e1 s1         % properly [16...24]
+b3 properly "r.01" s1   % properly [16...24]
+b1 NEGATION b2          % or [25...27]
+b2 NEGATION b3          % or [25...27]
+b2 NEGATION b4          % or [25...27]
+b4 REF x2               % you [28...31]
+b4 EQU x2 "hearer"      % you [28...31]
+b4 person "n.01" x2     % you [28...31]
+b1 REF t3               % will [32...36]
+b1 PRESUPPOSITION b5    % will [32...36]
+b1 TPR "now" t3         % will [32...36]
+b1 time "n.08" t3       % will [32...36]
+b5 Time e2 t3           % will [32...36]
+b4 NEGATION b5          % never [37...42]
+b5 REF t2               % never [37...42]
+b5 time "n.08" t2       % never [37...42]
+b5 REF e2               % live [43...47]
+b5 Agent e2 x2          % live [43...47]
+b5 Patient e2 x3        % live [43...47]
+b5 live_down "v.01" e2  % live [43...47]
+b6 REF x3               % this [48...52]
+b6 PRESUPPOSITION b5    % this [48...52]
+b6 this "n.01" x3       % this [48...52]
+                        % down [53...57]
+                        % . [57...58]
+				
+
+% Sequence Box Notation
+
+%SBN%                NEGATION &lt;1                 %             
+%SBN%                NEGATION &lt;1                 %             
+%SBN% person.n.01    Sub speaker                 % We          [0-2]
+%SBN% time.n.08      TSU now                     % shall       [3-8]
+%SBN% arrive.v.01    Theme -2 Time -1 Manner +1  % arrive      [9-15]
+%SBN% properly.r.01                              % properly  --or-- [16-27]
+%SBN%                NEGATION &lt;2                 %             
+%SBN% person.n.01    EQU hearer                  % you         [28-31]
+%SBN% time.n.08      TSU now                     % will  --never--  [32-42]
+%SBN%                NEGATION &lt;1                 %             
+%SBN% live_down.v.01 Agent -2 Time -1 Patient +1 % live        [43-47]
+%SBN% this.n.01                                  % this  --down.--  [48-58]

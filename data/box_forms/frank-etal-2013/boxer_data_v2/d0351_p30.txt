@@ -1,0 +1,58 @@
+% Henry washed his hands and sat on the seat in front of the stove.
+
+
+b1 REF x1             % his [13...16]
+b1 PRESUPPOSITION b2  % his [13...16]
+b1 Name x1 "henry"    % Henry [0...5]
+b1 male "n.02" x1     % Henry [0...5] his [13...16]
+b3 REF e1             % washed [6...12]
+b3 Agent e1 x1        % washed [6...12]
+b3 Theme e1 x2        % washed [6...12]
+b3 Time e1 t1         % washed [6...12]
+b3 wash "v.01" e1     % washed [6...12]
+b3 REF t1             % washed [6...12] sat [27...30]
+b3 TPR t1 "now"       % washed [6...12] sat [27...30]
+b3 time "n.08" t1     % washed [6...12] sat [27...30]
+b2 REF x2             % his [13...16]
+b2 PRESUPPOSITION b3  % his [13...16]
+b2 PartOf x2 x1       % his [13...16]
+b2 hand "n.01" x2     % hands [17...22]
+                      % and [23...26]
+b3 REF e2             % sat [27...30]
+b3 Agent e2 x1        % sat [27...30]
+b3 Time e2 t1         % sat [27...30]
+b3 sit "v.01" e2      % sat [27...30]
+b3 Location e2 x5     % on [31...33]
+b5 REF x5             % the [34...37]
+b5 PRESUPPOSITION b3  % the [34...37]
+b5 seat "n.01" x5     % seat [38...42]
+b3 Location e1 x3     % in [43...45]
+b3 Location e2 x6     % in [43...45]
+b3 REF x3             % front [46...51]
+b3 REF x6             % front [46...51]
+b3 entity "n.01" x3   % front [46...51]
+b3 entity "n.01" x6   % front [46...51]
+b3 Location x3 x4     % of [52...54]
+b3 Location x6 x7     % of [52...54]
+b4 REF x4             % the [55...58]
+b4 REF x7             % the [55...58]
+b4 PRESUPPOSITION b3  % the [55...58]
+b4 stove "n.01" x4    % stove [59...64]
+b4 stove "n.01" x7    % stove [59...64]
+                      % . [64...65]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02   Name "Henry"                             % Henry       [0-5]
+%SBN% wash.v.01   Agent -1 Time +1 Theme +3 Location +7    % washed      [6-12]
+%SBN% time.n.08   TPR now                                  %             
+%SBN% male.n.02   ANA -3                                   % his         [13-16]
+%SBN% hand.n.01   PartOf -1                                % hands  --and--   [17-26]
+%SBN% sit.v.01    Agent -5 Time +1 Location +2 Location +4 % sat  --on--      [27-33]
+%SBN% time.n.08   TPR now                                  %             
+%SBN% seat.n.01                                            %  --the-- seat  --in-- [34-45]
+%SBN% entity.n.01 Location +2                              % front  --of--    [46-54]
+%SBN% entity.n.01 Location +2                              %             
+%SBN% stove.n.01                                           %  --the-- stove --.--  [55-65]
+%SBN% stove.n.01                                           %             

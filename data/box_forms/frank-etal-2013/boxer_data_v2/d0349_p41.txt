@@ -1,0 +1,37 @@
+% You'll demand nothing of me.
+
+
+b1 REF x1            % You [0...3]
+b1 EQU x1 "hearer"   % You [0...3]
+b1 person "n.01" x1  % You [0...3]
+b1 REF t2            % 'll [3...6]
+b1 TPR "now" t2      % 'll [3...6]
+b1 time "n.08" t2    % 'll [3...6]
+b2 Time e1 t2        % 'll [3...6]
+b1 REF t1            % demand [7...13]
+b1 EQU t1 "now"      % demand [7...13]
+b1 time "n.08" t1    % demand [7...13]
+b2 REF e1            % demand [7...13]
+b2 Agent e1 x1       % demand [7...13]
+b2 Theme e1 x2       % demand [7...13]
+b2 Time e1 t1        % demand [7...13]
+b2 demand "v.01" e1  % demand [7...13]
+b1 NEGATION b2       % nothing [14...21]
+b2 REF x2            % nothing [14...21]
+b2 entity "n.01" x2  % nothing [14...21]
+b2 SubOf x2 x3       % of [22...24]
+b2 REF x3            % me [25...27]
+b2 EQU x3 "speaker"  % me [25...27]
+b2 person "n.01" x3  % me [25...27]
+                     % . [27...28]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                        % You        [0-3]
+%SBN%             NEGATION &lt;1                       %            
+%SBN% time.n.08   TSU now                           % 'll        [3-6]
+%SBN% demand.v.01 Agent -2 Time -1 Time +1 Theme +2 % demand     [7-13]
+%SBN% time.n.08   EQU now                           %            
+%SBN% entity.n.01 SubOf +1                          % nothing  --of-- [14-24]
+%SBN% person.n.01 EQU speaker                       % me --.--        [25-28]

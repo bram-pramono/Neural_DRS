@@ -1,0 +1,41 @@
+% Men could be paid to do all sorts of things.
+
+
+b1 REF x1            % Men [0...3]
+b1 man "n.01" x1     % Men [0...3]
+b1 POSSIBILITY b2    % could [4...9]
+b2 REF e1            % be [10...12]
+b2 Co-Theme e1 e2    % be [10...12]
+b2 Theme e1 x1       % be [10...12]
+b2 be "v.01" e1      % be [10...12]
+b2 REF e2            % paid [13...17]
+b2 Agent e2 x1       % paid [13...17]
+b2 pay "v.01" e2     % paid [13...17]
+b4 Theme e2 e3       % paid [13...17]
+                     % to [18...20]
+b4 REF e3            % do [21...23]
+b4 Agent e3 x1       % do [21...23]
+b4 Theme e3 x2       % do [21...23]
+b4 do "v.01" e3      % do [21...23]
+b2 NEGATION b3       % all [24...27]
+b3 REF x2            % all [24...27]
+b3 NEGATION b4       % all [24...27]
+b3 entity "n.01" x2  % sorts [28...33]
+b3 InstanceOf x2 x3  % of [34...36]
+b3 REF x3            % things [37...43]
+b3 thing "n.02" x3   % things [37...43]
+                     % . [43...44]
+				
+
+% Sequence Box Notation
+
+%SBN% man.n.01                                  % Men  --could--    [0-9]
+%SBN%                      POSSIBILITY &lt;1       %              
+%SBN% be.v.01              Theme -1 Co-Theme +1 % be           [10-12]
+%SBN% pay.v.01             Agent -2             % paid  --to--      [13-20]
+%SBN%                      NEGATION &lt;1          %              
+%SBN% entity.n.01          InstanceOf +1        %  --all-- sorts  --of-- [24-36]
+%SBN% thing.n.02                                % things --.--      [37-44]
+%SBN%                      NEGATION &lt;1          %              
+%SBN% do.v.01              Agent -5 Theme -2    % do           [21-23]
+%SBN% terra_incognita.n.01 EQU -4 Theme -1      %              

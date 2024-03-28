@@ -1,0 +1,39 @@
+% Finally Maria sat down with a cup of tea and a sandwich.
+
+
+b1 REF s1              % Finally [0...7]
+b1 Manner e1 s1        % Finally [0...7]
+b1 finally "r.01" s1   % Finally [0...7]
+b2 REF x1              % Maria [8...13]
+b2 Name x1 "maria"     % Maria [8...13]
+b2 PRESUPPOSITION b1   % Maria [8...13]
+b2 female "n.02" x1    % Maria [8...13]
+b1 REF t1              % sat~down [14...22]
+b1 Agent e1 x1         % sat~down [14...22]
+b1 TPR t1 "now"        % sat~down [14...22]
+b1 Time e1 t1          % sat~down [14...22]
+b1 sit_down "v.01" e1  % sat~down [14...22]
+b1 time "n.08" t1      % sat~down [14...22]
+b1 REF e1              % sat~down [14...22] with [23...27] a [28...29]
+b1 cup "n.01" e1       % cup [30...33]
+b1 Content e1 x2       % of [34...36]
+b3 Content e1 x3       % of [34...36]
+b1 REF x2              % tea [37...40]
+b1 tea "n.01" x2       % tea [37...40]
+b1 CONTINUATION b3     % and [41...44]
+b3 REF x3              % a [45...46]
+b3 sandwich "n.01" x3  % sandwich [47...55]
+                       % . [55...56]
+				
+
+% Sequence Box Notation
+
+%SBN% finally.r.01                                           % Finally       [0-7]
+%SBN% female.n.02          Name "Maria"                      % Maria         [8-13]
+%SBN% sit_down.v.01        Manner -2 Agent -1 Time +1 EQU +2 % sat down  --with-- [14-27]
+%SBN% time.n.08            TPR now                           %               
+%SBN% cup.n.01             Content +1                        %  --a-- cup         [28-33]
+%SBN% tea.n.01                                               % tea  --and--       [37-44]
+%SBN%                      CONTINUATION &lt;1                   %               
+%SBN% sandwich.n.01                                          %  --a-- sandwich --.--   [45-56]
+%SBN% terra_incognita.n.01 EQU -3 Content -1                 % of            [34-36]

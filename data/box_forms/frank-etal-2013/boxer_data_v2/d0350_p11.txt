@@ -1,0 +1,30 @@
+% There were choked screams and shouts of dismay.
+
+
+b1 REF t1            % There [0...5] were [6...10]
+b1 scream "n.01" t1  % There [0...5] screams [18...25]
+b1 TPR t1 "now"      % were [6...10]
+b2 EQU t1 x1         % were [6...10]
+b2 TPR t1 "now"      % were [6...10]
+b1 REF s1            % choked [11...17]
+b1 Attribute s1 t1   % choked [11...17]
+b1 choked "a.01" s1  % choked [11...17]
+b1 CONTINUATION b2   % and [26...29]
+b2 REF x1            % shouts [30...36]
+b2 shout "n.01" x1   % shouts [30...36]
+b2 Theme x1 x2       % of [37...39]
+b2 REF x2            %
+b2 dismay "n.01" x2  % dismay [40...46]
+                     % . [46...47]
+				
+
+% Sequence Box Notation
+
+%SBN% entity.n.01          TPR now EQU +2       % There       [0-5]
+%SBN% choked.a.01          Attribute +1         % choked      [11-17]
+%SBN% scream.n.01                               % screams  --and-- [18-29]
+%SBN%                      CONTINUATION &lt;1      %             
+%SBN% shout.n.01           Theme +1             % shouts  --of--   [30-39]
+%SBN% dismay.n.01                               % dismay --.--     [40-47]
+%SBN% terra_incognita.n.03 EQU -5 TPR now       % were        [6-10]
+%SBN% terra_incognita.n.03 EQU -6 EQU -3 EQU -1 %             

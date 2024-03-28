@@ -1,0 +1,25 @@
+% A horse has thrown a shoe.
+
+
+b1 REF x1           % A [0...1]
+b1 horse "n.01" x1  % horse [2...7]
+                    % has [8...11]
+b1 REF e1           % thrown [12...18]
+b1 REF t1           % thrown [12...18]
+b1 Agent e1 x1      % thrown [12...18]
+b1 TPR t1 "now"     % thrown [12...18]
+b1 Theme e1 x2      % thrown [12...18]
+b1 Time e1 t1       % thrown [12...18]
+b1 throw "v.03" e1  % thrown [12...18]
+b1 time "n.08" t1   % thrown [12...18]
+b1 REF x2           % a [19...20]
+b1 shoe "n.03" x2   % shoe [21...25]
+                    % . [25...26]
+				
+
+% Sequence Box Notation
+
+%SBN% horse.n.01                           %  --A-- horse  --has-- [0-11]
+%SBN% throw.v.03 Agent -1 Time +1 Theme +2 % thrown      [12-18]
+%SBN% time.n.08  TPR now                   %             
+%SBN% shoe.n.03                            %  --a-- shoe --.--     [19-26]

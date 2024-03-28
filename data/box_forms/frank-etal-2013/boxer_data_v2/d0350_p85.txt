@@ -1,0 +1,51 @@
+% He drank too much at times and washed too little at times.
+
+
+b1 REF x1             % He [0...2]
+b1 PRESUPPOSITION b2  % He [0...2]
+b1 male "n.02" x1     % He [0...2]
+b2 REF e1             % drank [3...8]
+b2 Agent e1 x1        % drank [3...8]
+b2 Patient e1 x2      % drank [3...8]
+b2 Time e1 t1         % drank [3...8]
+b2 drink "v.02" e1    % drank [3...8]
+b2 REF t1             % drank [3...8] washed [31...37]
+b2 TPR t1 "now"       % drank [3...8] washed [31...37]
+b2 time "n.08" t1     % drank [3...8] washed [31...37]
+b2 REF x2             % too [9...12]
+                      % too [9...12]
+b2 Quantity x2 "+"    % much [13...17]
+b2 measure "n.02" x2  % much [13...17]
+b2 Time e1 x3         % at [18...20]
+b2 REF x3             % times [21...26]
+b2 time "n.01" x3     % times [21...26]
+                      % and [27...30]
+b2 REF e2             % washed [31...37]
+b2 Theme e2 x1        % washed [31...37]
+b2 Time e2 t1         % washed [31...37]
+b2 wash "v.02" e2     % washed [31...37]
+b2 REF s1             % too [38...41]
+b2 Degree e2 s1       % too [38...41]
+b2 too "r.01" s1      % too [38...41]
+b2 REF x4             % little [42...48]
+b2 Frequency e2 x4    % little [42...48]
+b2 Quantity x4 "-"    % little [42...48]
+b2 time "n.01" x4     % little [42...48]
+b2 Time e2 x5         % at [49...51]
+b2 REF x5             % times [52...57]
+b2 time "n.01" x5     % times [52...57]
+                      % . [57...58]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                                                    % He        [0-2]
+%SBN% drink.v.02   Agent -1 Time +1 Patient +2 Time +3             % drank  --too-- [3-12]
+%SBN% time.n.08    TPR now                                         %           
+%SBN% measure.n.02 Quantity +                                      % much  --at--   [13-20]
+%SBN% time.n.01                                                    % times  --and-- [21-30]
+%SBN% wash.v.02    Theme -5 Time +1 Degree +2 Frequency +3 Time +4 % washed    [31-37]
+%SBN% time.n.08    TPR now                                         %           
+%SBN% too.r.01                                                     % too       [38-41]
+%SBN% time.n.01    Quantity -                                      % little  --at-- [42-51]
+%SBN% time.n.01                                                    % times --.--    [52-58]

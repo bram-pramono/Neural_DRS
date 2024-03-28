@@ -1,0 +1,32 @@
+% They were definitely holding hands underneath the table.
+
+
+b1 REF x1             % They [0...4]
+b1 PRESUPPOSITION b2  % They [0...4]
+b1 person "n.01" x1   % They [0...4]
+b2 REF t1             % were [5...9]
+b2 TPR t1 "now"       % were [5...9]
+b2 time "n.08" t1     % were [5...9]
+b3 Time e1 t1         % were [5...9]
+b2 NECESSITY b3       % definitely [10...20]
+b3 REF e1             % holding [21...28]
+b3 Agent e1 x1        % holding [21...28]
+b3 Theme e1 x2        % holding [21...28]
+b3 hold "v.02" e1     % holding [21...28]
+b3 REF x2             % hands [29...34]
+b3 hand "n.01" x2     % hands [29...34]
+b3 Location e1 x3     % underneath [35...45]
+b4 REF x3             % the [46...49]
+b4 PRESUPPOSITION b3  % the [46...49]
+b4 table "n.02" x3    % table [50...55]
+                      % . [55...56]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01                                       % They             [0-4]
+%SBN%             NECESSITY &lt;1                          %                  
+%SBN% time.n.08   TPR now                               % were  --definitely--  [5-20]
+%SBN% hold.v.02   Agent -2 Time -1 Theme +1 Location +2 % holding          [21-28]
+%SBN% hand.n.01                                         % hands  --underneath-- [29-45]
+%SBN% table.n.02                                        %  --the-- table --.--       [46-56]

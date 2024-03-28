@@ -1,0 +1,36 @@
+% None of the city people dress like that.
+
+
+b1 NEGATION b2        % None [0...4]
+b2 REF x1             % None [0...4]
+b2 person "n.01" x1   % None [0...4]
+b2 SubOf x1 x2        % of [5...7]
+b3 REF x2             % the [8...11]
+b3 REF x3             % city [12...16]
+b3 AttributeOf x3 x2  % city [12...16]
+b3 PRESUPPOSITION b2  % city [12...16]
+b3 city "n.01" x3     % city [12...16]
+b3 person "n.01" x2   % people [17...23]
+b1 REF t1             % dress [24...29]
+b1 EQU t1 "now"       % dress [24...29]
+b1 time "n.08" t1     % dress [24...29]
+b2 REF e1             % dress [24...29]
+b2 Agent e1 x1        % dress [24...29]
+b2 Time e1 t1         % dress [24...29]
+b2 dress "v.04" e1    % dress [24...29]
+b2 Manner e1 x4       % like [30...34]
+b4 REF x4             % that [35...39]
+b4 PRESUPPOSITION b2  % that [35...39]
+b4 entity "n.01" x4   % that [35...39]
+                      % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN%             NEGATION &lt;1                %            
+%SBN% person.n.01 SubOf +2                   % None  --of--    [0-7]
+%SBN% city.n.01   AttributeOf +1             %  --the-- city   [8-16]
+%SBN% person.n.01                            % people     [17-23]
+%SBN% dress.v.04  Agent -3 Time +1 Manner +2 % dress  --like-- [24-34]
+%SBN% time.n.08   EQU now                    %            
+%SBN% entity.n.01                            % that --.--      [35-40]

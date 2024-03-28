@@ -1,0 +1,33 @@
+% They're riding out to meet them.
+
+
+b1 REF x1             % They [0...4]
+b1 PRESUPPOSITION b2  % They [0...4]
+b1 person "n.01" x1   % They [0...4]
+b2 REF t1             % 're [4...7]
+b2 EQU t1 "now"       % 're [4...7]
+b2 Time e1 t1         % 're [4...7]
+b2 time "n.08" t1     % 're [4...7]
+b2 REF e1             % riding [8...14]
+b2 Agent e1 x1        % riding [8...14]
+b2 Goal e1 e2         % riding [8...14]
+b2 ride "v.12" e1     % riding [8...14]
+                      % out [15...18]
+                      % to [19...21]
+b2 REF e2             % meet [22...26]
+b2 Agent e2 x2        % meet [22...26]
+b2 Theme e2 x1        % meet [22...26]
+b2 meet "v.02" e2     % meet [22...26]
+b3 REF x2             % them [27...31]
+b3 PRESUPPOSITION b2  % them [27...31]
+b3 person "n.01" x2   % them [27...31]
+                      % . [31...32]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01                          % They          [0-4]
+%SBN% time.n.08   EQU now                  % 're           [4-7]
+%SBN% ride.v.12   Agent -2 Time -1 Goal +1 % riding  --out--  --to-- [8-21]
+%SBN% meet.v.02   Theme -3 Agent +1        % meet          [22-26]
+%SBN% person.n.01                          % them --.--         [27-32]

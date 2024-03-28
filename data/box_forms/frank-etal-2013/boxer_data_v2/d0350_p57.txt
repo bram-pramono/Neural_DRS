@@ -1,0 +1,41 @@
+% Joseph walked into the office and removed his flat cap.
+
+
+b1 REF x1              % his [42...45]
+b1 PRESUPPOSITION b4   % his [42...45]
+b1 Name x1 "joseph"    % Joseph [0...6]
+b1 male "n.02" x1      % Joseph [0...6] his [42...45]
+b2 REF e1              % walked [7...13]
+b2 Theme e1 x1         % walked [7...13]
+b2 Time e1 t1          % walked [7...13]
+b2 walk "v.01" e1      % walked [7...13]
+b2 REF t1              % walked [7...13] removed [34...41]
+b2 TPR t1 "now"        % walked [7...13] removed [34...41]
+b2 time "n.08" t1      % walked [7...13] removed [34...41]
+b2 Destination e1 x2   % into [14...18]
+b3 REF x2              % the [19...22]
+b3 PRESUPPOSITION b2   % the [19...22]
+b3 office "n.01" x2    % office [23...29]
+                       % and [30...33]
+b2 REF e2              % removed [34...41]
+b2 Agent e2 x1         % removed [34...41]
+b2 Theme e2 x3         % removed [34...41]
+b2 Time e2 t1          % removed [34...41]
+b2 remove "v.01" e2    % removed [34...41]
+b4 REF x3              % his [42...45]
+b4 PRESUPPOSITION b2   % his [42...45]
+b4 User x3 x1          % his [42...45]
+b4 flat_cap "n.01" x3  % flat~cap [46...54]
+                       % . [54...55]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Joseph"                   % Joseph         [0-6]
+%SBN% walk.v.01     Theme -1 Time +1 Destination +2 % walked  --into--    [7-18]
+%SBN% time.n.08     TPR now                         %                
+%SBN% office.n.01                                   %  --the-- office  --and-- [19-33]
+%SBN% remove.v.01   Agent -4 Time +1 Theme +3       % removed        [34-41]
+%SBN% time.n.08     TPR now                         %                
+%SBN% male.n.02     ANA -6                          % his            [42-45]
+%SBN% flat_cap.n.01 User -1                         % flat cap --.--      [46-55]

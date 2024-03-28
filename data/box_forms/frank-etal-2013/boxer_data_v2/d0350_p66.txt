@@ -1,0 +1,41 @@
+% His helmet was lost but he could still do some damage.
+
+
+b1 PRESUPPOSITION b2  % His [0...3]
+b2 REF x2             % His [0...3]
+b2 PRESUPPOSITION b3  % His [0...3]
+b2 User x2 x1         % His [0...3]
+b1 REF x1             % His [0...3] he [24...26]
+b1 male "n.02" x1     % His [0...3] he [24...26]
+b2 helmet "n.01" x2   % helmet [4...10]
+b3 REF t1             % was [11...14]
+b3 TPR t1 "now"       % was [11...14]
+b3 Time e1 t1         % was [11...14]
+b3 time "n.08" t1     % was [11...14]
+b3 REF e1             % lost [15...19]
+b3 Theme e1 x2        % lost [15...19]
+b3 lose "v.01" e1     % lost [15...19]
+b3 CONTRAST b4        % but [20...23]
+b1 PRESUPPOSITION b4  % he [24...26]
+b4 POSSIBILITY b5     % could [27...32]
+                      % still [33...38]
+b5 REF e2             % do [39...41]
+b5 Agent e2 x1        % do [39...41]
+b5 Theme e2 x3        % do [39...41]
+b5 do "v.02" e2       % do [39...41]
+b5 REF x3             % some [42...46]
+b5 damage "n.01" x3   % damage [47...53]
+                      % . [53...54]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                     % His                [0-3]
+%SBN% helmet.n.01 User -1           % helmet             [4-10]
+%SBN% time.n.08   TPR now           % was                [11-14]
+%SBN% lose.v.01   Theme -2 Time -1  % lost               [15-19]
+%SBN%             CONTRAST &lt;1       %                    
+%SBN% male.n.02   ANA -3            %  --but-- he  --could--  --still-- [20-38]
+%SBN%             POSSIBILITY &lt;1    %                    
+%SBN% do.v.02     Agent -1 Theme +1 % do                 [39-41]
+%SBN% damage.n.01                   %  --some-- damage --.--       [42-54]

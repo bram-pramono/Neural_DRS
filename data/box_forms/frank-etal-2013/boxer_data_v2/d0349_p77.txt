@@ -1,0 +1,40 @@
+% Ted smiled and bit his bottom lip.
+
+
+b1 REF x1             % his [19...22]
+b1 PRESUPPOSITION b3  % his [19...22]
+b1 Name x1 "ted"      % Ted [0...3]
+b1 male "n.02" x1     % Ted [0...3] his [19...22]
+b2 REF x2             % smiled [4...10]
+b2 Agent x2 x1        % smiled [4...10]
+b2 Time x2 t1         % smiled [4...10]
+b2 smile "n.01" x2    % smiled [4...10]
+b2 REF t1             % smiled [4...10] bit [15...18]
+b2 TPR t1 "now"       % smiled [4...10] bit [15...18]
+b2 time "n.08" t1     % smiled [4...10] bit [15...18]
+                      % and [11...14]
+b2 REF e1             % bit [15...18]
+b2 Agent e1 x1        % bit [15...18]
+b2 Theme e1 x3        % bit [15...18]
+b2 Time e1 t1         % bit [15...18]
+b2 bite "v.01" e1     % bit [15...18]
+b3 REF x3             % his [19...22]
+b3 PartOf x3 x1       % his [19...22]
+b3 REF s1             % bottom [23...29]
+b3 AttributeOf s1 x3  % bottom [23...29]
+b3 PRESUPPOSITION b2  % bottom [23...29]
+b3 bottom "a.01" s1   % bottom [23...29]
+b3 lip "n.01" x3      % lip [30...33]
+                      % . [33...34]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02   Name "Ted"                % Ted        [0-3]
+%SBN% time.n.08   TPR now                   % smiled  --and-- [4-14]
+%SBN% smile.n.01  Agent -2 Time -1          %            
+%SBN% bite.v.01   Agent -3 Time +1 Theme +4 % bit        [15-18]
+%SBN% time.n.08   TPR now                   %            
+%SBN% male.n.02   ANA -5                    % his        [19-22]
+%SBN% bottom.a.01 AttributeOf +1            % bottom     [23-29]
+%SBN% lip.n.01    PartOf -2                 % lip --.--       [30-34]

@@ -1,0 +1,48 @@
+% Michael knew they never hit him and that was half the problem.
+
+
+b1 Name x1 "michael"  % Michael [0...7]
+b1 PRESUPPOSITION b2  % Michael [0...7]
+b1 REF x1             % Michael [0...7] him [28...31]
+b1 male "n.02" x1     % Michael [0...7] him [28...31]
+b2 REF e1             % knew [8...12]
+b2 REF t1             % knew [8...12]
+b2 Experiencer e1 x1  % knew [8...12]
+b2 Proposition e1 b4  % knew [8...12]
+b2 TPR t1 "now"       % knew [8...12]
+b2 Time e1 t1         % knew [8...12]
+b2 know "v.01" e1     % knew [8...12]
+b2 time "n.08" t1     % knew [8...12]
+b3 REF x2             % they [13...17]
+b3 PRESUPPOSITION b4  % they [13...17]
+b3 person "n.01" x2   % they [13...17]
+b4 NEGATION b5        % never [18...23]
+b4 REF t2             % hit [24...27]
+b4 TPR t2 "now"       % hit [24...27]
+b4 time "n.08" t2     % hit [24...27]
+b5 REF e2             % hit [24...27]
+b5 Agent e2 x2        % hit [24...27]
+b5 Patient e2 x1      % hit [24...27]
+b5 Time e2 t2         % hit [24...27]
+b5 hit "v.01" e2      % hit [24...27]
+b1 PRESUPPOSITION b5  % him [28...31]
+                      % and [32...35]
+                      % that [36...40]
+                      % was [41...44]
+                      % half [45...49]
+                      % the [50...53]
+                      % problem [54...61]
+                      % . [61...62]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02   Name "Michael"                        % Michael                            [0-7]
+%SBN% know.v.01   Proposition &gt;1 Experiencer -1 Time +1 % knew                               [8-12]
+%SBN% time.n.08   TPR now                               %                                    
+%SBN%             CONTINUATION &lt;0                       %                                    
+%SBN% person.n.01                                       % they  --never--                         [13-23]
+%SBN%             NEGATION &lt;1                           %                                    
+%SBN% hit.v.01    Agent -1 Time +1 Patient +2           % hit                                [24-27]
+%SBN% time.n.08   TPR now                               %                                    
+%SBN% male.n.02   ANA -6                                % him  --and--  --that--  --was--  --half--  --the--  --problem.-- [28-62]

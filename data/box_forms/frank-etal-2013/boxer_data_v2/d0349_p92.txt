@@ -1,0 +1,36 @@
+% Come within the walls to escape the enemy.
+
+
+b1 REF x1             %
+b1 EQU x1 "hearer"    %
+b1 person "n.01" x1   %
+b1 REF e1             % Come [0...4]
+b1 Agent e1 x1        % Come [0...4]
+b1 Topic e1 e2        % Come [0...4]
+b1 come "v.01" e1     % Come [0...4]
+b1 Location e1 x4     % within [5...11]
+b3 REF x4             % the [12...15]
+b3 PRESUPPOSITION b1  % the [12...15]
+b3 wall "n.01" x4     % walls [16...21]
+                      % to [22...24]
+b1 REF e2             % escape [25...31]
+b1 Source e2 x2       % escape [25...31]
+b1 Theme e2 x1        % escape [25...31]
+b1 escape "v.01" e2   % escape [25...31]
+b2 REF x2             % the [32...35]
+b2 REF x3             % enemy [36...41]
+b2 PRESUPPOSITION b1  % enemy [36...41]
+b2 Role x2 x3         % enemy [36...41]
+b2 enemy "n.03" x3    % enemy [36...41]
+b2 person "n.01" x2   % enemy [36...41]
+                      % . [41...42]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                    %              
+%SBN% come.v.01   Agent -1 Location +1 Topic +2 % Come  --within--  [0-11]
+%SBN% wall.n.01                                 %  --the-- walls  --to-- [12-24]
+%SBN% escape.v.01 Theme -3 Source +1            % escape       [25-31]
+%SBN% person.n.01 Role +1                       %  --the-- enemy --.--   [32-42]
+%SBN% enemy.n.03                                %              

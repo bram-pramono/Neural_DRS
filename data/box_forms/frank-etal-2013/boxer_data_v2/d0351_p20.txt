@@ -1,0 +1,52 @@
+% Andy felt good when he got ready to go out on Saturday night.
+
+
+b1 REF x1             % he [20...22]
+b1 PRESUPPOSITION b2  % he [20...22]
+b1 Name x1 "andy"     % Andy [0...4]
+b1 male "n.02" x1     % Andy [0...4] he [20...22]
+b2 REF e1             % felt [5...9]
+b2 Experiencer e1 x1  % felt [5...9]
+b2 Stimulus e1 s1     % felt [5...9]
+b2 Time e1 t1         % felt [5...9]
+b2 feel "v.01" e1     % felt [5...9]
+b2 REF t1             % felt [5...9] got [23...26]
+b2 TPR t1 "now"       % felt [5...9] got [23...26]
+b2 time "n.08" t1     % felt [5...9] got [23...26]
+b2 REF s1             % good [10...14]
+b2 AttributeOf s1 x1  % good [10...14]
+b2 good "r.01" s1     % good [10...14]
+b2 TIN e2 e1          % when [15...19]
+b2 REF e2             % got [23...26]
+b2 Experiencer e2 x1  % got [23...26]
+b2 Stimulus e2 s2     % got [23...26]
+b2 Time e2 t1         % got [23...26]
+b2 get "v.02" e2      % got [23...26]
+b2 REF s2             % ready [27...32]
+b2 Experiencer s2 x1  % ready [27...32]
+b2 Stimulus s2 e3     % ready [27...32]
+b2 ready "a.01" s2    % ready [27...32]
+                      % to [33...35]
+b2 REF e3             % go [36...38]
+b2 Theme e3 x1        % go [36...38]
+b2 go_out "v.02" e3   % go [36...38]
+                      % out [39...42]
+b2 Time e2 x2         % on [43...45]
+b2 REF x2             % Saturday [46...54]
+                      % Saturday [46...54]
+b2 night "n.01" x2    % night [55...60]
+                      % . [60...61]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02   Name "Andy"                                       % Andy               [0-4]
+%SBN% feel.v.01   Experiencer -1 Time +1 Stimulus +2                % felt               [5-9]
+%SBN% time.n.08   TPR now                                           %                    
+%SBN% good.r.01   AttributeOf -3                                    % good  --when--          [10-19]
+%SBN% male.n.02   ANA -4                                            % he                 [20-22]
+%SBN% get.v.02    Experiencer -1 Time +1 TIN -4 Stimulus +2 Time +4 % got                [23-26]
+%SBN% time.n.08   TPR now                                           %                    
+%SBN% ready.a.01  Experiencer -3 Stimulus +1                        % ready  --to--           [27-35]
+%SBN% go_out.v.02 Theme -4                                          % go  --out--  --on--  --Saturday-- [36-54]
+%SBN% night.n.01                                                    % night --.--             [55-61]

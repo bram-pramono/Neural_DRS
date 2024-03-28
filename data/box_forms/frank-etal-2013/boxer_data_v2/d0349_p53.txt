@@ -1,0 +1,34 @@
+% I don't want to hear it.
+
+
+b1 REF x1             % I [0...1]
+b1 EQU x1 "speaker"   % I [0...1]
+b1 person "n.01" x1   % I [0...1]
+b1 REF t1             % do [2...4]
+b1 EQU t1 "now"       % do [2...4]
+b1 time "n.08" t1     % do [2...4]
+b2 Time e1 t1         % do [2...4]
+b1 NEGATION b2        % n't [4...7]
+b2 REF e1             % want [8...12]
+b2 Pivot e1 x1        % want [8...12]
+b2 Theme e1 e2        % want [8...12]
+b2 want "v.01" e1     % want [8...12]
+                      % to [13...15]
+b2 REF e2             % hear [16...20]
+b2 Agent e2 x1        % hear [16...20]
+b2 Theme e2 x2        % hear [16...20]
+b2 hear "v.01" e2     % hear [16...20]
+b3 REF x2             % it [21...23]
+b3 PRESUPPOSITION b2  % it [21...23]
+b3 entity "n.01" x2   % it [21...23]
+                      % . [23...24]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU speaker               % I       [0-1]
+%SBN%             NEGATION &lt;1               %         
+%SBN% time.n.08   EQU now                   % do --n't--   [2-7]
+%SBN% want.v.01   Pivot -2 Time -1 Theme +1 % want  --to-- [8-15]
+%SBN% hear.v.01   Agent -3 Theme +1         % hear    [16-20]
+%SBN% entity.n.01                           % it --.--     [21-24]

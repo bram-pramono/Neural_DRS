@@ -1,0 +1,35 @@
+% She had refused to leave her home.
+
+
+b1 REF x1             % She [0...3] her [25...28]
+b1 PRESUPPOSITION b3  % She [0...3] her [25...28]
+b1 female "n.02" x1   % She [0...3] her [25...28]
+                      % had [4...7]
+b2 REF e1             % refused [8...15]
+b2 REF t1             % refused [8...15]
+b2 Agent e1 x1        % refused [8...15]
+b2 TPR t1 "now"       % refused [8...15]
+b2 Theme e1 e2        % refused [8...15]
+b2 Time e1 t1         % refused [8...15]
+b2 refuse "v.01" e1   % refused [8...15]
+b2 time "n.08" t1     % refused [8...15]
+                      % to [16...18]
+b2 REF e2             % leave [19...24]
+b2 Source e2 x2       % leave [19...24]
+b2 Theme e2 x1        % leave [19...24]
+b2 leave "v.01" e2    % leave [19...24]
+b3 REF x2             % her [25...28]
+b3 PRESUPPOSITION b2  % her [25...28]
+b3 User x2 x1         % her [25...28]
+b3 home "n.01" x2     % home [29...33]
+                      % . [33...34]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02                           % She  --had--    [0-7]
+%SBN% refuse.v.01 Agent -1 Time +1 Theme +2 % refused  --to-- [8-18]
+%SBN% time.n.08   TPR now                   %            
+%SBN% leave.v.01  Theme -3 Source +2        % leave      [19-24]
+%SBN% female.n.02 ANA -4                    % her        [25-28]
+%SBN% home.n.01   User -1                   % home --.--      [29-34]

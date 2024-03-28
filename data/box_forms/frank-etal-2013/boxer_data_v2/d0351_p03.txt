@@ -1,0 +1,49 @@
+% She threatened to leave before and this time she just had enough.
+
+
+b1 PRESUPPOSITION b2     % She [0...3]
+b1 REF x1                % She [0...3] she [45...48]
+b1 female "n.02" x1      % She [0...3] she [45...48]
+b2 REF e1                % threatened [4...14]
+b2 Agent e1 x1           % threatened [4...14]
+b2 Theme e1 e2           % threatened [4...14]
+b2 Time e1 t1            % threatened [4...14]
+b2 threaten "v.02" e1    % threatened [4...14]
+b2 REF t1                % threatened [4...14] this [35...39] had [54...57]
+b2 TPR t1 "now"          % threatened [4...14] had [54...57]
+b2 time "n.08" t1        % threatened [4...14] had [54...57]
+                         % to [15...17]
+b2 REF e2                % leave [18...23]
+b2 Theme e2 x1           % leave [18...23]
+b2 leave "v.01" e2       % leave [18...23]
+                         % before [24...30]
+b2 CONTINUATION b3       % and [31...34]
+b3 Time e3 t1            % this [35...39] had [54...57]
+b2 time "n.01" t1        % time [40...44]
+b1 PRESUPPOSITION b3     % she [45...48]
+b3 REF s1                % just [49...53]
+b3 Manner e3 s1          % just [49...53]
+b3 just "r.02" s1        % just [49...53]
+b3 REF e3                % had [54...57]
+b3 Pivot e3 x1           % had [54...57]
+b3 Theme e3 x2           % had [54...57]
+b3 have "v.03" e3        % had [54...57]
+b3 REF x2                % enough [58...64]
+b3 Quantity x2 "enough"  % enough [58...64]
+b3 measure "n.02" x2     % enough [58...64]
+                         % . [64...65]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02                                               % She              [0-3]
+%SBN% threaten.v.02 Agent -1 Time +1 Theme +2                   % threatened  --to--    [4-17]
+%SBN% time.n.08     TPR now                                     %                  
+%SBN% leave.v.01    Theme -3                                    % leave  --before--  --and-- [18-34]
+%SBN%               CONTINUATION &lt;1                             %                  
+%SBN% time.n.01                                                 %  --this-- time        [35-44]
+%SBN% female.n.02   ANA -5                                      % she              [45-48]
+%SBN% just.r.02                                                 % just             [49-53]
+%SBN% have.v.03     Time -3 Pivot -2 Manner -1 Time +1 Theme +2 % had              [54-57]
+%SBN% time.n.08     TPR now                                     %                  
+%SBN% measure.n.02  Quantity "enough"                           % enough --.--          [58-65]

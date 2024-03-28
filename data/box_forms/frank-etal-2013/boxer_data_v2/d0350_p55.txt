@@ -1,0 +1,41 @@
+% Jacques sighed and tried to move out of the way.
+
+
+b1 REF x1              % Jacques [0...7]
+b1 Name x1 "jacques"   % Jacques [0...7]
+b1 PRESUPPOSITION b2   % Jacques [0...7]
+b1 male "n.02" x1      % Jacques [0...7]
+b2 REF e1              % sighed [8...14]
+b2 Agent e1 x1         % sighed [8...14]
+b2 Time e1 t1          % sighed [8...14]
+b2 sigh "v.01" e1      % sighed [8...14]
+b2 REF t1              % sighed [8...14] tried [19...24]
+b2 TPR t1 "now"        % sighed [8...14] tried [19...24]
+b2 time "n.08" t1      % sighed [8...14] tried [19...24]
+                       % and [15...18]
+b2 REF e2              % tried [19...24]
+b2 Agent e2 x1         % tried [19...24]
+b2 Theme e2 e3         % tried [19...24]
+b2 Time e2 t1          % tried [19...24]
+b2 try "v.01" e2       % tried [19...24]
+                       % to [25...27]
+b2 REF e3              % move [28...32]
+b2 Theme e3 x1         % move [28...32]
+b2 take_out "v.01" e3  % move [28...32]
+                       % out [33...36]
+b2 Source e3 x2        % of [37...39]
+b3 REF x2              % the [40...43]
+b3 PRESUPPOSITION b2   % the [40...43]
+b3 way "n.03" x2       % way [44...47]
+                       % . [47...48]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Jacques"            % Jacques     [0-7]
+%SBN% sigh.v.01     Agent -1 Time +1          % sighed  --and--  [8-18]
+%SBN% time.n.08     TPR now                   %             
+%SBN% try.v.01      Agent -3 Time +1 Theme +2 % tried  --to--    [19-27]
+%SBN% time.n.08     TPR now                   %             
+%SBN% take_out.v.01 Theme -5 Source +1        % move  --out--  --of-- [28-39]
+%SBN% way.n.03                                %  --the-- way --.--    [40-48]

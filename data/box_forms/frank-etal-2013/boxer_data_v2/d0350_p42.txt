@@ -1,0 +1,48 @@
+% You give me a lead and I'll follow it.
+
+
+b1 REF x1            % You [0...3]
+b1 EQU x1 "hearer"   % You [0...3]
+b1 person "n.01" x1  % You [0...3]
+b1 REF e1            % give [4...8]
+b1 REF t1            % give [4...8]
+b1 Agent e1 x1       % give [4...8]
+b1 EQU t1 "now"      % give [4...8]
+b1 Recipient e1 x3   % give [4...8]
+b1 Theme e1 x2       % give [4...8]
+b1 Time e1 t1        % give [4...8]
+b1 give "v.01" e1    % give [4...8]
+b1 time "n.08" t1    % give [4...8]
+b1 REF x3            % me [9...11]
+b1 EQU x3 "speaker"  % me [9...11]
+b1 person "n.01" x3  % me [9...11]
+b1 REF x2            % a [12...13] it [35...37]
+b1 lead "n.03" x2    % lead [14...18]
+b1 CONTINUATION b2   % and [19...22]
+b2 REF x4            % I [23...24]
+b2 EQU x4 "speaker"  % I [23...24]
+b2 person "n.01" x4  % I [23...24]
+b1 REF t2            % 'll [24...27]
+b1 TPR "now" t2      % 'll [24...27]
+b1 time "n.08" t2    % 'll [24...27]
+b2 Time e2 t2        % 'll [24...27]
+b2 REF e2            % follow [28...34]
+b2 Agent e2 x4       % follow [28...34]
+b2 Theme e2 x2       % follow [28...34]
+b2 follow "v.04" e2  % follow [28...34]
+b1 entity "n.01" x2  % it [35...37]
+                     % . [37...38]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01 EQU hearer                             % You        [0-3]
+%SBN% give.v.01   Agent -1 Time +1 Recipient +2 Theme +3 % give       [4-8]
+%SBN% time.n.08   EQU now                                %            
+%SBN% person.n.01 EQU speaker                            % me         [9-11]
+%SBN% lead.n.03                                          %  --a-- lead  --and-- [12-22]
+%SBN%             CONTINUATION &lt;1                        %            
+%SBN% person.n.01 EQU speaker                            % I          [23-24]
+%SBN% time.n.08   TSU now                                % 'll        [24-27]
+%SBN% follow.v.04 Agent -2 Time -1 Theme +1              % follow     [28-34]
+%SBN% entity.n.01 ANA -4                                 % it --.--        [35-38]

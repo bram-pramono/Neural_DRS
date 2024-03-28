@@ -1,0 +1,51 @@
+% Lewis sat down and Lucy laid her hand on his cheek.
+
+
+b1 Name x1 "lewis"     % Lewis [0...5]
+b1 PRESUPPOSITION b2   % Lewis [0...5]
+b1 REF x1              % Lewis [0...5] his [41...44]
+b1 male "n.02" x1      % Lewis [0...5] his [41...44]
+b2 REF e1              % sat [6...9]
+b2 Agent e1 x1         % sat [6...9]
+b2 Time e1 t1          % sat [6...9]
+b2 sit_down "v.01" e1  % sat [6...9]
+b2 REF t1              % sat [6...9] laid [24...28]
+b2 TPR t1 "now"        % sat [6...9] laid [24...28]
+b2 time "n.08" t1      % sat [6...9] laid [24...28]
+                       % down [10...14]
+b2 CONTINUATION b5     % and [15...18]
+b3 REF x2              % her [29...32]
+b3 PRESUPPOSITION b4   % her [29...32]
+b3 Name x2 "lucy"      % Lucy [19...23]
+b3 female "n.02" x2    % Lucy [19...23] her [29...32]
+b5 REF e2              % laid [24...28]
+b5 Agent e2 x2         % laid [24...28]
+b5 Theme e2 x3         % laid [24...28]
+b5 Time e2 t1          % laid [24...28]
+b5 lay "v.01" e2       % laid [24...28]
+b4 REF x3              % her [29...32]
+b4 PRESUPPOSITION b5   % her [29...32]
+b4 PartOf x3 x2        % her [29...32]
+b4 hand "n.01" x3      % hand [33...37]
+b5 Destination e2 x4   % on [38...40]
+b1 PRESUPPOSITION b6   % his [41...44]
+b6 REF x4              % his [41...44]
+b6 PRESUPPOSITION b5   % his [41...44]
+b6 PartOf x4 x1        % his [41...44]
+b6 cheek "n.01" x4     % cheek [45...50]
+                       % . [50...51]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Lewis"                             % Lewis        [0-5]
+%SBN% sit_down.v.01 Agent -1 Time +1                         % sat  --down--  --and-- [6-18]
+%SBN% time.n.08     TPR now                                  %              
+%SBN%               CONTINUATION &lt;1                          %              
+%SBN% female.n.02   Name "Lucy"                              % Lucy         [19-23]
+%SBN% lay.v.01      Agent -1 Time +1 Theme +3 Destination +5 % laid         [24-28]
+%SBN% time.n.08     TPR now                                  %              
+%SBN% female.n.02   ANA -3                                   % her          [29-32]
+%SBN% hand.n.01     PartOf -1                                % hand  --on--      [33-40]
+%SBN% male.n.02     ANA -8                                   % his          [41-44]
+%SBN% cheek.n.01    PartOf -1                                % cheek --.--       [45-51]

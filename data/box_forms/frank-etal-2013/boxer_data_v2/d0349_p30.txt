@@ -1,0 +1,33 @@
+% Anne lost control and laughed.
+
+
+b1 REF x1             % Anne [0...4]
+b1 Name x1 "anne"     % Anne [0...4]
+b1 PRESUPPOSITION b2  % Anne [0...4]
+b1 female "n.02" x1   % Anne [0...4]
+b2 REF e1             % lost [5...9]
+b2 Agent e1 x1        % lost [5...9]
+b2 Theme e1 x2        % lost [5...9]
+b2 Time e1 t1         % lost [5...9]
+b2 lose "v.01" e1     % lost [5...9]
+b2 REF t1             % lost [5...9] laughed [22...29]
+b2 TPR t1 "now"       % lost [5...9] laughed [22...29]
+b2 time "n.08" t1     % lost [5...9] laughed [22...29]
+b2 REF x2             % control [10...17]
+b2 control "n.01" x2  % control [10...17]
+                      % and [18...21]
+b2 REF e2             % laughed [22...29]
+b2 Agent e2 x1        % laughed [22...29]
+b2 Time e2 t1         % laughed [22...29]
+b2 laugh "v.01" e2    % laughed [22...29]
+                      % . [29...30]
+				
+
+% Sequence Box Notation
+
+%SBN% female.n.02  Name "Anne"               % Anne        [0-4]
+%SBN% lose.v.01    Agent -1 Time +1 Theme +2 % lost        [5-9]
+%SBN% time.n.08    TPR now                   %             
+%SBN% control.n.01                           % control  --and-- [10-21]
+%SBN% laugh.v.01   Agent -4 Time +1          % laughed --.--    [22-30]
+%SBN% time.n.08    TPR now                   %             

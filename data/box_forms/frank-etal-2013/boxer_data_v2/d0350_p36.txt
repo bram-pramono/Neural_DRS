@@ -1,0 +1,44 @@
+% Duncan took a breath and wanted to be sick.
+
+
+b1 REF x1             % Duncan [0...6]
+b1 Name x1 "duncan"   % Duncan [0...6]
+b1 PRESUPPOSITION b2  % Duncan [0...6]
+b1 male "n.02" x1     % Duncan [0...6]
+b2 REF e1             % took [7...11]
+b2 Agent e1 x1        % took [7...11]
+b2 Theme e1 x2        % took [7...11]
+b2 Time e1 t1         % took [7...11]
+b2 take "v.01" e1     % took [7...11]
+b2 REF t1             % took [7...11] wanted [25...31]
+b2 TPR t1 "now"       % took [7...11] wanted [25...31]
+b2 time "n.08" t1     % took [7...11] wanted [25...31]
+b2 REF x2             % a [12...13]
+b2 breath "n.01" x2   % breath [14...20]
+                      % and [21...24]
+b2 REF e2             % wanted [25...31]
+b2 Pivot e2 x1        % wanted [25...31]
+b2 Theme e2 e3        % wanted [25...31]
+b2 Time e2 t1         % wanted [25...31]
+b2 want "v.01" e2     % wanted [25...31]
+                      % to [32...34]
+b2 REF e3             % be [35...37]
+b2 Experiencer e3 x1  % be [35...37]
+b2 Stimulus e3 s1     % be [35...37]
+b2 be "v.01" e3       % be [35...37]
+b2 REF s1             % sick [38...42]
+b2 AttributeOf s1 x1  % sick [38...42]
+b2 sick "a.01" s1     % sick [38...42]
+                      % . [42...43]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02   Name "Duncan"              % Duncan       [0-6]
+%SBN% take.v.01   Agent -1 Time +1 Theme +2  % took         [7-11]
+%SBN% time.n.08   TPR now                    %              
+%SBN% breath.n.01                            %  --a-- breath  --and-- [12-24]
+%SBN% want.v.01   Pivot -4 Time +1 Theme +2  % wanted  --to--    [25-34]
+%SBN% time.n.08   TPR now                    %              
+%SBN% be.v.01     Experiencer -6 Stimulus +1 % be           [35-37]
+%SBN% sick.a.01   AttributeOf -7             % sick --.--        [38-43]

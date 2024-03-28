@@ -1,0 +1,42 @@
+% Let's get out and I'll buy you a drink.
+
+
+                      % Let [0...3]
+b1 REF x1             % 's [3...5]
+b1 EQU x1 "speaker"   % 's [3...5]
+b1 person "n.01" x1   % 's [3...5]
+b1 REF e1             % get [6...9]
+b1 Theme e1 x1        % get [6...9]
+b1 get_out "v.03" e1  % get [6...9]
+                      % out [10...13]
+b1 CONTINUATION b2    % and [14...17]
+b2 REF x2             % I [18...19]
+b2 EQU x2 "speaker"   % I [18...19]
+b2 person "n.01" x2   % I [18...19]
+b1 REF t1             % 'll [19...22]
+b1 TPR "now" t1       % 'll [19...22]
+b1 time "n.08" t1     % 'll [19...22]
+b2 Time e2 t1         % 'll [19...22]
+b2 REF e2             % buy [23...26]
+b2 Agent e2 x2        % buy [23...26]
+b2 Beneficiary e2 x4  % buy [23...26]
+b2 Theme e2 x3        % buy [23...26]
+b2 buy "v.01" e2      % buy [23...26]
+b2 REF x4             % you [27...30]
+b2 EQU x4 "hearer"    % you [27...30]
+b2 person "n.01" x4   % you [27...30]
+b2 REF x3             % a [31...32]
+b2 drink "n.01" x3    % drink [33...38]
+                      % . [38...39]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01  EQU speaker                              %  --Let--'s       [0-5]
+%SBN% get_out.v.03 Theme -1                                 % get  --out--  --and-- [6-17]
+%SBN%              CONTINUATION &lt;1                          %             
+%SBN% person.n.01  EQU speaker                              % I           [18-19]
+%SBN% time.n.08    TSU now                                  % 'll         [19-22]
+%SBN% buy.v.01     Agent -2 Time -1 Beneficiary +1 Theme +2 % buy         [23-26]
+%SBN% person.n.01  EQU hearer                               % you         [27-30]
+%SBN% drink.n.01                                            %  --a-- drink --.--    [31-39]

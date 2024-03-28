@@ -1,0 +1,53 @@
+% He rose from his seat and stopped mid way when Joe glared at him.
+
+
+b2 REF e1             % rose [3...7]
+b2 Theme e1 x1        % rose [3...7]
+b2 Time e1 t1         % rose [3...7]
+b2 rise "v.03" e1     % rose [3...7]
+b2 Source e1 x2       % from [8...12]
+b2 REF x2             % his [13...16]
+b2 User x2 x1         % his [13...16]
+b2 seat "n.01" x2     % seat [17...21]
+                      % and [22...25]
+b2 REF e2             % stopped [26...33]
+b2 Agent e2 x1        % stopped [26...33]
+b2 Theme e2 x3        % stopped [26...33]
+b2 Time e2 t1         % stopped [26...33]
+b2 stop "v.01" e2     % stopped [26...33]
+b2 REF s1             % mid [34...37]
+b2 REF x3             % mid [34...37]
+b2 AttributeOf s1 x3  % mid [34...37]
+b2 mid "a.01" s1      % mid [34...37]
+b2 way "n.03" x3      % way [38...41]
+b2 TIN e3 e2          % when [42...46]
+b1 REF x1             % him [61...64] He [0...2] his [13...16]
+b1 PRESUPPOSITION b2  % him [61...64] He [0...2] his [13...16]
+b1 Name x1 "joe"      % Joe [47...50]
+b1 male "n.02" x1     % Joe [47...50] him [61...64] He [0...2] his [13...16]
+b2 REF e3             % glared [51...57]
+b2 Agent e3 x1        % glared [51...57]
+b2 Time e3 t1         % glared [51...57]
+b2 glare "v.01" e3    % glared [51...57]
+b2 REF t1             % glared [51...57] rose [3...7] stopped [26...33]
+b2 TPR t1 "now"       % glared [51...57] rose [3...7] stopped [26...33]
+b2 time "n.08" t1     % glared [51...57] rose [3...7] stopped [26...33]
+b2 Theme x2 x1        % at [58...60]
+                      % . [64...65]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02                             % He        [0-2]
+%SBN% rise.v.03  Theme -1 Time +1 Source +3 % rose  --from-- [3-12]
+%SBN% time.n.08  TPR now                    %           
+%SBN% male.n.02  ANA -3                     % his       [13-16]
+%SBN% seat.n.01  User -1 Theme +8           % seat  --and--  [17-25]
+%SBN% stop.v.01  Agent -5 Time +1 Theme +3  % stopped   [26-33]
+%SBN% time.n.08  TPR now                    %           
+%SBN% mid.a.01   AttributeOf +1             % mid       [34-37]
+%SBN% way.n.03                              % way  --when--  [38-46]
+%SBN% male.n.02  Name "Joe"                 % Joe       [47-50]
+%SBN% glare.v.01 TIN -5 Agent -1 Time +1    % glared  --at-- [51-60]
+%SBN% time.n.08  TPR now                    %           
+%SBN% male.n.02  ANA -12                    % him --.--      [61-65]

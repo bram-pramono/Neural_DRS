@@ -1,0 +1,40 @@
+% All last week there was a white van parked across the street.
+
+
+                      % All [0...3]
+b1 last "r.01" e1     % last [4...8]
+                      % week [9...13]
+b1 REF e1             % there [14...19] was [20...23]
+b1 be "v.01" e1       % there [14...19] was [20...23]
+b1 Theme e1 x1        % was [20...23]
+b1 Time e1 t1         % was [20...23]
+b1 REF t1             % was [20...23] parked [36...42]
+b1 TPR t1 "now"       % was [20...23] parked [36...42]
+b1 time "n.08" t1     % was [20...23] parked [36...42]
+b1 REF x1             % a [24...25]
+b1 REF s1             % white [26...31]
+b1 Colour x1 s1       % white [26...31]
+b1 white "a.01" s1    % white [26...31]
+b1 van "n.05" x1      % van [32...35]
+b1 REF e2             % parked [36...42]
+b1 Theme e2 x1        % parked [36...42]
+b1 Time e2 t1         % parked [36...42]
+b1 park "v.02" e2     % parked [36...42]
+b1 Path e2 x2         % across [43...49]
+b2 REF x2             % the [50...53]
+b2 PRESUPPOSITION b1  % the [50...53]
+b2 street "n.01" x2   % street [54...60]
+                      % . [60...61]
+				
+
+% Sequence Box Notation
+
+%SBN% last.r.01   EQU +1 Time +3 Theme +5  %  --All-- last  --week-- [0-13]
+%SBN% entity.n.01                          % there         [14-19]
+%SBN% be.v.01     EQU -2                   % was           [20-23]
+%SBN% time.n.08   TPR now                  %               
+%SBN% white.a.01                           %  --a-- white       [24-31]
+%SBN% van.n.05    Colour -1                % van           [32-35]
+%SBN% park.v.02   Theme -1 Time +1 Path +2 % parked  --across-- [36-49]
+%SBN% time.n.08   TPR now                  %               
+%SBN% street.n.01                          %  --the-- street --.--   [50-61]

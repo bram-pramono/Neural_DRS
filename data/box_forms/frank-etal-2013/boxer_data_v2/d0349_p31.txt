@@ -1,0 +1,27 @@
+% Billy wrote on the envelope.
+
+
+b1 REF x1              % Billy [0...5]
+b1 Name x1 "billy"     % Billy [0...5]
+b1 PRESUPPOSITION b2   % Billy [0...5]
+b1 male "n.02" x1      % Billy [0...5]
+b2 REF e1              % wrote [6...11]
+b2 REF t1              % wrote [6...11]
+b2 Agent e1 x1         % wrote [6...11]
+b2 TPR t1 "now"        % wrote [6...11]
+b2 Time e1 t1          % wrote [6...11]
+b2 time "n.08" t1      % wrote [6...11]
+b2 write "v.07" e1     % wrote [6...11]
+b2 Destination e1 x2   % on [12...14]
+b3 REF x2              % the [15...18]
+b3 PRESUPPOSITION b2   % the [15...18]
+b3 envelope "n.01" x2  % envelope [19...27]
+                       % . [27...28]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02     Name "Billy"                    % Billy         [0-5]
+%SBN% write.v.07    Agent -1 Time +1 Destination +2 % wrote  --on--      [6-14]
+%SBN% time.n.08     TPR now                         %               
+%SBN% envelope.n.01                                 %  --the-- envelope --.-- [15-28]

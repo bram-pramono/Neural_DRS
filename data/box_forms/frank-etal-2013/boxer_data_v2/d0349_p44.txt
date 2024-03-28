@@ -1,0 +1,41 @@
+% Five will be listening for sure.
+
+
+b1 REF x1              % Five [0...4]
+b1 REF x2              % Five [0...4]
+b1 EQU x2 "5"          % Five [0...4]
+b1 Quantity x1 x2      % Five [0...4]
+b1 entity "n.01" x1    % Five [0...4]
+b1 quantity "n.01" x2  % Five [0...4]
+b1 REF t2              % will [5...9]
+b1 REF t3              % will [5...9]
+b1 TPR "now" t2        % will [5...9]
+b1 TPR "now" t3        % will [5...9]
+b1 Time e1 t2          % will [5...9]
+b1 time "n.08" t2      % will [5...9]
+b1 time "n.08" t3      % will [5...9]
+b2 Time s1 t3          % will [5...9]
+b1 REF t1              % be [10...12]
+b1 EQU t1 "now"        % be [10...12]
+b1 Time e1 t1          % be [10...12]
+b1 time "n.08" t1      % be [10...12]
+b1 REF e1              % listening [13...22]
+b1 Agent e1 x1         % listening [13...22]
+b1 listen "v.01" e1    % listening [13...22]
+b1 CONTINUATION b2     % for [23...26]
+b2 REF s1              % sure [27...31]
+b2 AttributeOf s1 x1   % sure [27...31]
+b2 sure "a.03" s1      % sure [27...31]
+                       % . [31...32]
+				
+
+% Sequence Box Notation
+
+%SBN% entity.n.01   Quantity +1              % Five          [0-4]
+%SBN% quantity.n.01 EQU 5                    %               
+%SBN% time.n.08     TSU now                  % will          [5-9]
+%SBN% time.n.08     EQU now                  % be            [10-12]
+%SBN% listen.v.01   Agent -4 Time -2 Time -1 % listening  --for-- [13-26]
+%SBN%               CONTINUATION &lt;1          %               
+%SBN% time.n.08     TSU now                  %               
+%SBN% sure.a.03     AttributeOf -6 Time -1   % sure --.--         [27-32]

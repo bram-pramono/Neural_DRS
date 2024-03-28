@@ -1,0 +1,32 @@
+% Alan forgot to shave again this morning.
+
+
+b1 REF x1             % Alan [0...4]
+b1 Name x1 "alan"     % Alan [0...4]
+b1 PRESUPPOSITION b2  % Alan [0...4]
+b1 male "n.02" x1     % Alan [0...4]
+b2 REF e1             % forgot [5...11]
+b2 Agent e1 x1        % forgot [5...11]
+b2 TPR t1 "now"       % forgot [5...11]
+b2 Theme e1 x2        % forgot [5...11]
+b2 Time e1 t1         % forgot [5...11]
+b2 forget "v.03" e1   % forgot [5...11]
+b2 time "n.08" t1     % forgot [5...11]
+b2 REF t1             % forgot [5...11] this [27...31]
+                      % to [12...14]
+b2 REF x2             % shave [15...20]
+b2 Agent x2 x1        % shave [15...20]
+b2 shave "n.01" x2    % shave [15...20]
+                      % again [21...26]
+b2 Time x2 t1         % this [27...31]
+b2 morning "n.01" t1  % morning [32...39]
+                      % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN% male.n.02    Name "Alan"               % Alan          [0-4]
+%SBN% forget.v.03  Agent -1 Time +1 Theme +2 % forgot  --to--     [5-14]
+%SBN% time.n.08    TPR now                   %               
+%SBN% shave.n.01   Agent -3 Time +1          % shave  --again--   [15-26]
+%SBN% morning.n.01                           %  --this-- morning --.-- [27-40]

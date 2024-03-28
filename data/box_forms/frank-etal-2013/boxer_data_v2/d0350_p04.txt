@@ -1,0 +1,36 @@
+% No-one else had dared step within the ring.
+
+
+b1 REF x1             % No-one [0...6]
+b1 entity "n.01" x1   % No-one [0...6]
+b2 entity "n.01" x2   % No-one [0...6]
+b1 NEQ x1 x2          % else [7...11]
+b2 REF x2             % else [7...11]
+b2 PRESUPPOSITION b1  % else [7...11]
+                      % had [12...15]
+b1 REF e1             % dared [16...21]
+b1 REF t1             % dared [16...21]
+b1 Experiencer e1 x1  % dared [16...21]
+b1 Stimulus e1 e2     % dared [16...21]
+b1 TPR t1 "now"       % dared [16...21]
+b1 Time e1 t1         % dared [16...21]
+b1 dare "v.02" e1     % dared [16...21]
+b1 time "n.08" t1     % dared [16...21]
+b1 REF e2             % step [22...26]
+b1 Theme e2 x1        % step [22...26]
+b1 step "v.01" e2     % step [22...26]
+b1 Location e2 x3     % within [27...33]
+b3 REF x3             % the [34...37]
+b3 PRESUPPOSITION b1  % the [34...37]
+b3 ring "n.07" x3     % ring [38...42]
+                      % . [42...43]
+				
+
+% Sequence Box Notation
+
+%SBN% entity.n.01                                    % No-one      [0-6]
+%SBN% entity.n.01 NEQ -1                             % else  --had--    [7-15]
+%SBN% dare.v.02   Experiencer -2 Time +1 Stimulus +2 % dared       [16-21]
+%SBN% time.n.08   TPR now                            %             
+%SBN% step.v.01   Theme -4 Location +1               % step  --within-- [22-33]
+%SBN% ring.n.07                                      %  --the-- ring --.--   [34-43]

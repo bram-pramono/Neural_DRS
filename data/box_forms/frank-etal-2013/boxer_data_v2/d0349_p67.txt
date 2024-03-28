@@ -1,0 +1,28 @@
+% Have a carriage sent for us immediately.
+
+
+b1 EQU t1 "hearer"        %
+b1 person "n.01" t1       %
+b1 EQU t1 "now"           % Have [0...4]
+b1 REF t1                 % Have [0...4] a [5...6]
+b1 carriage "n.01" t1     % carriage [7...15]
+b1 REF s1                 % sent [16...20]
+b1 Theme s1 t1            % sent [16...20]
+b1 sent "a.01" s1         % sent [16...20]
+b1 Beneficiary s1 x1      % for [21...24]
+b1 REF x1                 % us [25...27]
+b1 Sub x1 "speaker"       % us [25...27]
+b1 person "n.01" x1       % us [25...27]
+b1 REF s2                 % immediately [28...39]
+b1 Manner s1 s2           % immediately [28...39]
+b1 immediately "r.01" s2  % immediately [28...39]
+                          % . [39...40]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01      EQU hearer EQU now EQU +1         %                 
+%SBN% carriage.n.01                                      %  --Have--  --a-- carriage [0-15]
+%SBN% sent.a.01        Theme -1 Beneficiary +1 Manner +2 % sent  --for--        [16-24]
+%SBN% person.n.01      Sub speaker                       % us              [25-27]
+%SBN% immediately.r.01                                   % immediately --.--    [28-40]

@@ -1,0 +1,40 @@
+% The bored looking soldier just pointed.
+
+
+b1 REF e2             %
+b1 Participant e2 x1  %
+b1 event "v.01" e2    %
+b1 REF x1             % The [0...3]
+b1 REF s1             % bored [4...9]
+b1 AttributeOf s1 x1  % bored [4...9]
+b1 bored "a.02" s1    % bored [4...9]
+b1 entity "n.01" x1   % bored [4...9]
+b1 Experiencer e1 x1  % looking [10...17]
+b1 REF x2             %
+b1 REF x3             % soldier [18...25]
+b1 Role x2 x3         % soldier [18...25]
+b1 person "n.01" x2   % soldier [18...25]
+b1 soldier "n.01" x3  % soldier [18...25]
+b1 REF s2             % just [26...30]
+b1 Manner e1 s2       % just [26...30]
+b1 just "r.06" s2     % just [26...30]
+b1 REF e1             % pointed [31...38]
+b1 REF t1             % pointed [31...38]
+b1 Agent e1 x2        % pointed [31...38]
+b1 TPR t1 "now"       % pointed [31...38]
+b1 Time e1 t1         % pointed [31...38]
+b1 point "v.01" e1    % pointed [31...38]
+b1 time "n.08" t1     % pointed [31...38]
+                      % . [38...39]
+				
+
+% Sequence Box Notation
+
+%SBN% event.v.01   Participant +2                            %                   
+%SBN% bored.a.02   AttributeOf +1                            %  --The-- bored  --looking-- [0-17]
+%SBN% entity.n.01                                            %                   
+%SBN% person.n.01  Role +1                                   % soldier           [18-25]
+%SBN% soldier.n.01                                           %                   
+%SBN% just.r.06                                              % just              [26-30]
+%SBN% point.v.01   Experiencer -4 Agent -3 Manner -1 Time +1 % pointed --.--          [31-39]
+%SBN% time.n.08    TPR now                                   %                   

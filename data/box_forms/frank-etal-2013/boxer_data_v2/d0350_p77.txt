@@ -1,0 +1,55 @@
+% While they sat drinking their tea, Mick dug them a trench.
+
+
+b2 EXPLANATION b4     % While [0...5]
+b1 PRESUPPOSITION b2  % they [6...10]
+b1 REF x1             % they [6...10] them [44...48]
+b1 person "n.01" x1   % they [6...10] them [44...48]
+b2 REF e1             % sat [11...14]
+b2 Agent e1 e2        % sat [11...14]
+b2 Agent e1 x1        % sat [11...14]
+b2 Time e1 t1         % sat [11...14]
+b2 sit "v.02" e1      % sat [11...14]
+b2 REF t1             % sat [11...14] dug [40...43]
+b2 TPR t1 "now"       % sat [11...14] dug [40...43]
+b2 time "n.08" t1     % sat [11...14] dug [40...43]
+b2 REF e2             % drinking [15...23]
+b2 Agent e2 x1        % drinking [15...23]
+b2 Patient e2 x3      % drinking [15...23]
+b2 drink "v.01" e2    % drinking [15...23]
+b2 REF x2             % their [24...29]
+b2 REF x3             % their [24...29]
+b2 Consumer x3 x2     % their [24...29]
+b2 person "n.01" x2   % their [24...29]
+b2 tea "n.01" x3      % tea [30...33]
+                      % , [33...34]
+b3 REF x4             % Mick [35...39]
+b3 Name x4 "mick"     % Mick [35...39]
+b3 PRESUPPOSITION b4  % Mick [35...39]
+b3 male "n.02" x4     % Mick [35...39]
+b4 REF e3             % dug [40...43]
+b4 Agent e3 x4        % dug [40...43]
+b4 Beneficiary e3 x1  % dug [40...43]
+b4 Theme e3 x5        % dug [40...43]
+b4 Time e3 t1         % dug [40...43]
+b4 dig "v.02" e3      % dug [40...43]
+b1 PRESUPPOSITION b4  % them [44...48]
+b4 REF x5             % a [49...50]
+b4 trench "n.01" x5   % trench [51...57]
+                      % . [57...58]
+				
+
+% Sequence Box Notation
+
+%SBN% person.n.01                                          %  --While-- they [0-10]
+%SBN% sit.v.02    Agent -1 Time +1 Agent +2                % sat        [11-14]
+%SBN% time.n.08   TPR now                                  %            
+%SBN% drink.v.01  Agent -3 Patient +2                      % drinking   [15-23]
+%SBN% person.n.01                                          % their      [24-29]
+%SBN% tea.n.01    Consumer -1                              % tea --,--       [30-34]
+%SBN%             EXPLANATION &lt;1                           %            
+%SBN% male.n.02   Name "Mick"                              % Mick       [35-39]
+%SBN% dig.v.02    Beneficiary -7 Agent -1 Time +1 Theme +3 % dug        [40-43]
+%SBN% time.n.08   TPR now                                  %            
+%SBN% person.n.01 EQU -9                                   % them       [44-48]
+%SBN% trench.n.01                                          %  --a-- trench --.--  [49-58]
