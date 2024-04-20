@@ -9,7 +9,7 @@ b2 REF t1             % stayed [3...9]
 b2 TPR t1 "now"       % stayed [3...9]
 b2 Theme e1 x1        % stayed [3...9]
 b2 Time e1 t1         % stayed [3...9]
-b2 stay "v.01" e1     % stayed [3...9]
+b2 stay "v.02" e1     % stayed [3...9]
 b2 time "n.08" t1     % stayed [3...9]
 b2 Location e1 x2     % against [10...17]
 b3 REF x2             % the [18...21]
@@ -21,6 +21,6 @@ b3 wall "n.01" x2     % wall [22...26]
 % Sequence Box Notation
 
 %SBN% male.n.02                              % He             [0-2]
-%SBN% stay.v.01 Theme -1 Time +1 Location +2 % stayed  --against-- [3-17]
+%SBN% stay.v.02 Theme -1 Time +1 Location +2 % stayed  --against-- [3-17]
 %SBN% time.n.08 TPR now                      %                
 %SBN% wall.n.01                              %  --the-- wall --.--      [18-27]

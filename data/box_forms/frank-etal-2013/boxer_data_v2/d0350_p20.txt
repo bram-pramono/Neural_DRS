@@ -42,6 +42,6 @@ b5 person "n.01" x2   % dad [36...39]
 %SBN% male.n.02   ANA -4                                          % he  --could-- [15-23]
 %SBN%             POSSIBILITY &lt;1                                  %          
 %SBN% talk.v.01   Agent -1 Recipient +2                           % talk  --to--  [24-31]
-%SBN% male.n.02   ANA -6                                          % his      [32-35]
+%SBN% male.n.02   ANA -2                                          % his      [32-35]
 %SBN% person.n.01 Role +1                                         % dad --.--     [36-40]
 %SBN% dad.n.01    Of -2                                           %          

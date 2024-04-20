@@ -54,7 +54,7 @@ b6 cell "n.07" x5     % cells [54...59]
 %SBN% time.n.08   TPR now                                      %            
 %SBN% male.n.02   ANA -8                                       % him        [36-39]
 %SBN%             CONTINUATION &lt;0                              %            
-%SBN% male.n.02   ANA -9                                       % he         [40-42]
+%SBN% male.n.02   ANA -1                                       % he         [40-42]
 %SBN% time.n.08   TPR now                                      % was        [43-46]
 %SBN% move.v.04   Agent -2 Time -1 Theme +1                    % moving     [47-53]
 %SBN% cell.n.07                                                % cells --.--     [54-60]

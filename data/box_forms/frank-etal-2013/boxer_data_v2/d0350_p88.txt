@@ -40,7 +40,7 @@ b5 truck "n.01" x4    % truck [55...60]
 %SBN% time.n.08   TPR now                               %                
 %SBN% male.n.02   ANA -3                                % his            [7-10]
 %SBN% hand.n.01   PartOf -1                             % hands  --in--       [11-19]
-%SBN% male.n.02   ANA -5                                % his            [20-23]
+%SBN% male.n.02   ANA -1                                % his            [20-23]
 %SBN% pocket.n.01 User -1                               % pockets  --and--    [24-35]
 %SBN% lean.v.01   Agent -7 Time +1 Destination +2       % leaned  --against-- [36-50]
 %SBN% time.n.08   TPR now                               %                

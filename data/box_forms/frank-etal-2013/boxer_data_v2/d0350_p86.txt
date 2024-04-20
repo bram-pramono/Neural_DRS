@@ -42,9 +42,9 @@ b5 lip "n.01" x4      % lip [52...55]
 %SBN% time.n.08  TPR now                                    %             
 %SBN% male.n.02  ANA -3                                     % his         [10-13]
 %SBN% arm.n.01   PartOf -1                                  % arms  --across-- [14-25]
-%SBN% male.n.02  ANA -5                                     % his         [26-29]
+%SBN% male.n.02  ANA -1                                     % his         [26-29]
 %SBN% chest.n.01 PartOf -1                                  % chest  --and--   [30-39]
 %SBN% put.v.01   Agent -7 Time +1 Theme +3                  % put  --out--     [40-47]
 %SBN% time.n.08  TPR now                                    %             
-%SBN% male.n.02  ANA -9                                     % his         [48-51]
+%SBN% male.n.02  ANA -5                                     % his         [48-51]
 %SBN% lip.n.01   PartOf -1                                  % lip --.--        [52-56]

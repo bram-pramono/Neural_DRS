@@ -50,4 +50,4 @@ b2 Theme x2 x1        % at [58...60]
 %SBN% male.n.02  Name "Joe"                 % Joe       [47-50]
 %SBN% glare.v.01 TIN -5 Agent -1 Time +1    % glared  --at-- [51-60]
 %SBN% time.n.08  TPR now                    %           
-%SBN% male.n.02  ANA -12                    % him --.--      [61-65]
+%SBN% male.n.02  ANA -8                     % him --.--      [61-65]
